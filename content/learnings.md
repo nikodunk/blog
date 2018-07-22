@@ -32,7 +32,6 @@ Doctors currently spend around 2 hours a day after their shift is over typing up
 	* Coming Soon
 
 * [App Store](https://itunes.apple.com/us/app/soap-dictate-mobile-ehr-notes/id1384252497)
-* [soapdictate.com](http://soapdictate.com)
 
 
 
