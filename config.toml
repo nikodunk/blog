@@ -1,0 +1,7 @@
+baseURL = "https://nikodunk.github.io/"
+languageCode = "en-us"
+title = "D U N K"
+theme = "hyde"
+
+[params]
+	description = "Niko's blog"
