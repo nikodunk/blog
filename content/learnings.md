@@ -90,11 +90,12 @@ Hardware/Web projects (Solar + Software)
 ---
 With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
 
-<b>Stats</b>: 
+	Stats
+	* 300 visitors avg / day on sunboxlabs.com
+	* 204'600 unique users from July 17 - July 18. This includes the original article on Medium.
+	* Amazon Affiliate 
 
-* 300 visitors avg / day
-* Amazon Affiliate 
-
+* [sunboxlabs.com](http://sunboxlabs.com)
 
 ![](/learnings/sunboxlabssite.png)
 
@@ -138,10 +139,22 @@ Web projects
 
 <a href="https://nikodunk.github.io/focuswriter-react-vr">Focuswriter</a>  – VR productivity app for distraction-free writing, written in reactVR. Look around and type away as the text wraps itself around you. Be sure to click on the moon above your head to switch to GALAXYMODE.
 
+	Tech
+	* ReactVR
+
+* [FocusWriter](https://nikodunk.github.io/focuswriter-react-vr)
+	
+
 <img style="border: 1px lightgrey solid; max-height: 400px; margin: 0 auto" src="/learnings/demo2.gif"><br><br><br><br>
 
 
 <a href="https://nikodunk.github.io/simple-to-do-react">CollaborativeToDo</a> – React & Firebase to-do list app w/ full Drag n drop, CRUD. This was chiefly to solve a to-do list excel and email overload we were all suffering from at the office, and let these lists be easily shared and collaborated on between team members.
+
+	Tech
+	* React
+	* Firebase
+
+* [CollaborativeTodo](https://nikodunk.github.io/simple-to-do-react)
 
 <img style="border: 1px lightgrey solid; max-height: 400px; margin: 0 auto" src="/learnings/demo.gif"><br><br><br><br>
 
@@ -190,18 +203,27 @@ Sending flatpack furniture through the mail – my first company
 
 My next project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.
 
+* [Mirror of smokefurniture.com](http://nikodunk.github.io/smoke/)
+
+
+	Stats
+	* I4C Clean-Tech Startup Accelerator Cohort ‘14
+	* $10,000 in test-sales
+	* Pre-Seed round aborted due to co-founder priorities shifting ;)
+	* My first ever entrepreneurial project
+
+
 ![](/learnings/paper.png)
 
 We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. <a href="http://nikodunk.github.io/smoke/">The Website</a>.
 
 <img style="max-height: 400px; margin: 0 auto" src="/learnings/smokesite.png"><br>
 
-We raised some pre-seed capital from Swiss Venture days 2015, but looking back we should have stayed with the original, clear concept.
-
+We raised some pre-seed capital from Swiss Venture days 2015, but looking back we should have stayed with the original, clear concept. 
 
 ![](/learnings/smoke.gif)  
 
- ![](/learnings/smoke.jpg)
+![](/learnings/smoke.jpg)
  
 ------------------------------------------------
 <br><br><br><br><br>
