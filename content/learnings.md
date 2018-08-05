@@ -22,6 +22,7 @@ Soap dictate was built to help Stanford Internal Medicine attending Libo Wang sa
 Doctors currently spend around 2 hours a day after their shift is over typing up notes at the ward desktop. We enable them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. Save an hour a day for $9.99 a month. Currently piloting with 10 physicians.
 
 	Tech
+	* React Native App
 	* Mobile Frontend in React Native/Redux with RNVoice native library
 	* Web Frontend in React at http://soapdictate.com (now removed and simple static site)
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
@@ -40,9 +41,14 @@ The Gift Lab
 ---
 With Elisa Chan, a wedding registry for research, NGOs, causes. Helps consumers know where their money's going.
 
+
 	Tech:
-	* Node/Express/Postgresql
+	* Server-side rendered website
+	* Node/Express/Postgresql with Pug Layout
 	* Paypal API
+
+	Stats
+	* Coming Soon
 
 
 Launching Soon
@@ -62,7 +68,13 @@ Project Pegasus
 
 With Can Olcer and Dorena Nagel
 
-Coming Soon
+	Tech:
+	* Hugo Static Site, loads of email.
+
+	Stats
+	* Coming Soon
+
+
 
 * [Project Pegasus Site](http://projectpegasus.io)
 
@@ -73,12 +85,14 @@ I Am Off! (App)
 Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.
 
 	Tech
+	* React Native App with Node Server:
 	* Frontend in React Native/Redux
 	* Backend in Node/Express/PostgreSQL
 
 	Stats
 	* 250 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
 	* 145 WAUs
+	* Growth through internship onboardings, organic.
 
 * [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
 * [Google Play Link](https://play.google.com/store/apps/details?id=com.pokedoc.iamoff) 
@@ -89,6 +103,8 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 
 Building a startup accelerator at swissnexSF (work)
 ---
+
+![](/accelerator/moneyshot1.jpg)
 
 Next to my learnings described [here](/accelerator), and numerous lessons in marketing, project management, team, networks, et al, I'd like to hold on to one quote from a superior that will stick with me for a while:
 
@@ -119,8 +135,12 @@ Blockchain Projects
 Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they've verified that you've paid up.
 
 	Tech
+	* Ethereum Dapp written with Truffle and Infura
 	* Frontend in Vanilla Javascript/Web3/Webpack (Truffle)
-	* Contract in Solidity, deployed on Rinkeby
+	* Contract in Solidity, deployed on Rinkeby with Infura
+
+	Stats
+	* Coming Soon
 
 * [Insureum Web App](https://insureum.netlify.com) (note: requires [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile) to view)
 
@@ -151,6 +171,9 @@ Sunboxlabs.com – windowsill solar 2.0
 ---
 
 With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
+
+	Tech:
+	* Static Jekyll Site
 
 	Stats
 	* 204'600 uniques from July 2017 - July 2018
@@ -268,6 +291,10 @@ The initial idea was to send furniture that’s made of paper through the mail t
 This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.
 
 We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.
+
+	Tech:
+	* CNC-Milled furniture built in Rhinoceros modelling
+	* Squarespace site
 
 	Stats
 	* I4C Clean-Tech Startup Accelerator Cohort ‘14
