@@ -23,15 +23,48 @@ Doctors currently spend around 2 hours a day after their shift is over typing up
 
 	Tech
 	* Mobile Frontend in React Native/Redux with RNVoice native library
-	* Web Frontend in React at http://soapdictate.com (now removed)
-	* Backend in Node/Express/Postgresql backend running on Heroku. 
+	* Web Frontend in React at http://soapdictate.com (now removed and simple static site)
+	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
-	* Coming Soon
+	* coming soon
 
-* [App Store Link](https://itunes.apple.com/us/app/soap-dictate-mobile-ehr-notes/id1384252497)
+* [App Store Link](https://itunes.apple.com/app/id1384252497)
 
 ![](/learnings/demo_health2.gif) ![](/learnings/demo_health2.1.png)
+
+
+---------
+
+The Gift Lab
+---
+With Elisa Chan, a wedding registry for research, NGOs, causes. Helps consumers know where their money's going.
+
+	Tech:
+	* Node/Express/Postgresql
+	* Paypal API
+
+
+Launching Soon
+
+* [The Gift Lab Site](http://giftlab.io)
+
+![](/learnings/demo giftlab.png)
+
+
+
+---------
+
+
+Project Pegasus
+---
+![](/learnings/demo pegasus.png) ![](/learnings/demo pegasus 2.png)
+
+With Can Olcer and Dorena Nagel
+
+Coming Soon
+
+* [Project Pegasus Site](http://projectpegasus.io)
 
 ---------
 
@@ -46,8 +79,6 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 	Stats
 	* 250 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
 	* 145 WAUs
-	App Store
-	Google Play
 
 * [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
 * [Google Play Link](https://play.google.com/store/apps/details?id=com.pokedoc.iamoff) 
@@ -80,10 +111,30 @@ writing:
 
 ---------
 
-Blockchain Projects w/ Phil Chacko
+Blockchain Projects
 ---
 
-From November to January Phil Chacko and I worked on various blockchain projects. All the following require [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile). 
+<b>Insureum – 2nd place Angelhack SF 2018 (Consensys prize)</b>
+
+Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they've verified that you've paid up.
+
+	Tech
+	* Frontend in Vanilla Javascript/Web3/Webpack (Truffle)
+	* Contract in Solidity, deployed on Rinkeby
+
+* [Insureum Web App](https://insureum.netlify.com) (note: requires [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile) to view)
+
+
+![](/learnings/demo insureum 1.PNG) | ![](/learnings/demo insureum 2.PNG)
+:----------------------------------:|:--------------------------------------:
+![](/learnings/demo insureum 3.PNG)	| ![](/learnings/demo insureum 4.PNG)
+
+![](/learnings/demo insureum 5.PNG) 
+
+
+--------
+
+From November to January Phil Chacko and I worked on various other projects. All the following require [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile). 
 
 * <a href="https://nikodunk.github.io/escron">ESCRON</a>
 * <a href="https://nikodunk.github.io/sensorcoin/">Sensorcoin</a>
