@@ -145,11 +145,7 @@ Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. 
 * [Insureum Web App](https://insureum.netlify.com) (note: requires [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile) to view)
 
 
-![](/learnings/demo insureum 1.PNG) | ![](/learnings/demo insureum 2.PNG)
-:----------------------------------:|:--------------------------------------:
-![](/learnings/demo insureum 3.PNG)	| ![](/learnings/demo insureum 4.PNG)
-
-![](/learnings/demo insureum 5.PNG) 
+![](/learnings/demo_insureum.mov)
 
 
 --------
