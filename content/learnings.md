@@ -28,7 +28,9 @@ Doctors currently spend around 2 hours a day after their shift is over typing up
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
-	* coming soon
+	* 40 paid WAUs
+	* $2.99
+	* 11% W-2 retention
 
 * [App Store Link](https://itunes.apple.com/app/id1384252497)
 
@@ -62,11 +64,11 @@ Launching Soon
 ---------
 
 
-Project Pegasus
+Project Pegasus (shut down)
 ---
 ![](/learnings/demo pegasus.png) ![](/learnings/demo pegasus 2.png)
 
-With Can Olcer and Dorena Nagel
+With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro.
 
 	Tech:
 	* Hugo Static Site, loads of email.
@@ -90,8 +92,9 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 	* Backend in Node/Express/PostgreSQL
 
 	Stats
-	* 250 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
+	* 275 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
 	* 145 WAUs
+	* Free
 	* Growth through internship onboardings, organic.
 
 * [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
