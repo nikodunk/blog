@@ -15,9 +15,9 @@ The projects here are listed roughly in reverse chronological order from newest 
 
 ---------
 
-Soap Dictate (App)
+Soap Dictate
 ---
-Soap dictate was built to help Stanford Internal Medicine attending Libo Wang save an hour a day on medical note taking (aka “charting”) into their EMR system by offering mobile dictation with templating and a web platform.
+Soap dictate was built to help Stanford Internal Medicine attending Libo Wang save time on medical note taking (aka “charting”) into the medical record system through mobile dictation into templates.
 
 Doctors currently spend around 2 hours a day after their shift is over typing up notes at the ward desktop. We enable them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. Save an hour a day for $9.99 a month. Currently piloting with 10 physicians.
 
@@ -31,6 +31,7 @@ Doctors currently spend around 2 hours a day after their shift is over typing up
 	* 40 paid WAUs
 	* $2.99
 	* 11% W-2 retention
+	* Growth through organic app store searches, recommendations.
 
 * [App Store Link](https://itunes.apple.com/app/id1384252497)
 
@@ -41,7 +42,7 @@ Doctors currently spend around 2 hours a day after their shift is over typing up
 
 The Gift Lab
 ---
-With Elisa Chan, a wedding registry for research, NGOs, causes. Helps consumers know where their money's going.
+With Elisa Chan, a wedding registry for research, NGOs and environmental causes. Helps consumers know where their money's going.
 
 
 	Tech:
@@ -50,7 +51,7 @@ With Elisa Chan, a wedding registry for research, NGOs, causes. Helps consumers 
 	* Paypal API
 
 	Stats
-	* Coming Soon
+	* Launching ASAP
 
 
 Launching Soon
@@ -64,17 +65,19 @@ Launching Soon
 ---------
 
 
-Project Pegasus (shut down)
+Project Pegasus
 ---
 ![](/learnings/demo pegasus.png) ![](/learnings/demo pegasus 2.png)
 
-With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro.
+With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.
 
 	Tech:
 	* Hugo Static Site, loads of email.
 
 	Stats
-	* Coming Soon
+	* 52 startups applied with their old YC applications
+	* 7 investors applied for insights into the startups
+	* 4 rounds sent, suggesting 48 startups in total.
 
 
 
@@ -94,7 +97,7 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 	Stats
 	* 275 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
 	* 145 WAUs
-	* Free
+	* Price: Free
 	* Growth through internship onboardings, organic.
 
 * [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
