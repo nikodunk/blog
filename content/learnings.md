@@ -24,14 +24,13 @@ With Elisa Chan, a platform to help noprofits fundraise more efficiently with mo
 	Tech:
 	* Node/Express/Postgresql web app on Heroku 
 	* Stripe Connect for payment routing
-	* Mixpanel analytics
+	* Amazon wishlists for product gifting
+	* Mixpanel/Fullstory analytics
 
 	Stats
 	* $8 revenue
 	* 3000 monthly uniques
 
-
-Launching Soon
 
 * [The Gift Lab Site](http://giftlab.io)
 
