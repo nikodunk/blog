@@ -15,6 +15,32 @@ The projects here are listed roughly in reverse chronological order from newest 
 
 ---------
 
+
+Gift Lab
+---
+With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.
+
+
+	Tech:
+	* Node/Express/Postgresql web app on Heroku 
+	* Stripe Connect for payment routing
+	* Mixpanel analytics
+
+	Stats
+	* $8 revenue
+	* 3000 monthly uniques
+
+
+Launching Soon
+
+* [The Gift Lab Site](http://giftlab.io)
+
+![](/learnings/demo giftlab.png)
+
+
+---------
+
+
 Soap Dictate
 ---
 Soap dictate was built to help Stanford Internal Medicine attending Libo Wang save time on medical note taking (aka “charting”) into the medical record system through mobile dictation into templates.
@@ -39,31 +65,6 @@ Doctors currently spend around 2 hours a day after their shift is over typing up
 
 
 ---------
-
-The Gift Lab
----
-With Elisa Chan, a wedding registry for research, NGOs and environmental causes. Helps consumers know where their money's going.
-
-
-	Tech:
-	* Server-side rendered website
-	* Node/Express/Postgresql with Pug Layout
-	* Paypal API
-
-	Stats
-	* Launching ASAP
-
-
-Launching Soon
-
-* [The Gift Lab Site](http://giftlab.io)
-
-![](/learnings/demo giftlab.png)
-
-
-
----------
-
 
 Project Pegasus
 ---
