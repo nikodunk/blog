@@ -16,7 +16,7 @@ The projects here are listed roughly in reverse chronological order from newest 
 ---------
 
 
-Soap Dictate
+Soap Dictate (App)
 ---
 Soap dictate was built to help Stanford Internal Medicine attending Libo Wang save time on medical note taking (aka “charting”) into the medical record system through mobile dictation into templates.
 
@@ -29,20 +29,19 @@ Doctors currently spend around 2 hours a day after their shift is over typing up
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
-	* 40 paid WAUs
-	* $3.99/mo
-	* 11% W-2 retention
-	* Growth through organic app store searches, recommendations.
+	* Coming Soon
 
 * [App Store Link](https://itunes.apple.com/app/id1384252497)
 
-![](/learnings/demo_health2.gif) ![](/learnings/demo_health2.1.png)
 
+![](/learnings/logo_health.png)
+
+![](/learnings/demo_health3.gif)
 
 ---------
 
 
-Gift Lab
+Gift Lab (Platform)
 ---
 With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.
 
@@ -62,7 +61,7 @@ With Elisa Chan, a platform to help noprofits fundraise more efficiently with mo
 ---------
 
 
-Project Pegasus
+Project Pegasus (Platform)
 ---
 ![](/learnings/demo pegasus.png) ![](/learnings/demo pegasus 2.png)
 
@@ -130,7 +129,7 @@ writing:
 
 ---------
 
-Blockchain Projects
+Blockchain Projects (hackathons)
 ---
 
 <b>Insureum – 2nd place Angelhack SF 2018 (Consensys prize)</b>
@@ -166,7 +165,7 @@ So far we haven't been able to find a business case with these Dapps, and as des
 
 ---------
 
-Sunboxlabs.com – windowsill solar 2.0
+Sunboxlabs.com (project, website)
 ---
 
 With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
@@ -189,7 +188,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 ---------
 
 
-Web experiments
+Web experiments (various)
 ---
 
 Focuswriter – VR productivity app for distraction-free writing, written in reactVR. Look around and type away as the text wraps itself around you. Be sure to click on the moon above your head to switch to GALAXYMODE.
@@ -223,7 +222,7 @@ CollaborativeToDo was a React & Firebase to-do list app w/ full Drag n drop, CRU
 
 ---------
 
-Goodgood – price comparison for sustainable products
+Goodgood – price comparison for sustainable products (search engine prototype)
 ---
 
 GoodGood, a software project to help you compare prices on certified green products (“is chaos in the green certification market a customer problem?”), later re-focused to cosmetics (“is green certification chaos of cosmetics a customer problem?”). Neither were problems.
@@ -245,7 +244,7 @@ Utilising scraped APIfier data and price information from the Viglink API, a pri
 
 ----------
 
-Superjuice – producthunt for sustainable products
+Superjuice – producthunt for sustainable products (platform)
 ---
 
 A “product hunt” for the videos of certified green companies. This initial version involved no scraping, but socially assembled list of brands and goods. This was based around a voting system for popularity.
@@ -260,7 +259,7 @@ A “product hunt” for the videos of certified green companies. This initial v
 
 ---------
 
-Superjuice – price comparison for sustainable energy
+Superjuice – price comparison for sustainable energy (website)
 ---
 
 “Kayak of energy” – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.
@@ -281,7 +280,7 @@ Coming soon
 ---------
 
 
-Paper Inc. (my first company) – mail-order sustainable flatpack furniture
+Paper Inc. (my first company) – mail-order sustainable flatpack furniture (website/hardware)
 ---
 The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.
 
@@ -312,7 +311,7 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 
 
-Juicebar – windowsill solar 1.0
+Juicebar – (hardware concept)
 ---
 Juicebar was a windowsill energy generator meant to ehlp urbanites be energy independent without access to their rooftops.
 
