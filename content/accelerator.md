@@ -10,7 +10,7 @@ image: /accelerator/moneyshot1.jpg
 
 ------------------------------------------------------------------------------------------------------------------
 
-![](/accelerator/workspace.png)
+![](/accelerator/moneyshot1.jpg)
 
 swissnex San Francisco connects Swiss startups to a Bay Area network, and provides tools, techniques, training, and workspace in San Francisco. Twice a year, the <a href="http://swissnexsf.org/startups" target="_blank">swissnex SF Startup Camp</a> brings together startups from EPFL XGrant and Innosuisse Market Entry Camp, and any other Swiss startup (for a fee). Get in touch with any questions or see below for more information.
 
@@ -18,7 +18,7 @@ The camp is relevant to Swiss startups looking to make the jump over to the US. 
 
 Results of the camp speak for themselves: over the years some of the best Swiss startups like <a href="http://avawomen.com" target="_blank">Ava</a>, <a href="http://beekeeper.com" target="_blank">Beekeeper</a>, Faceshift (acquired by Apple), <a href="http://doodle.com" target="_blank">Doodle</a>, and <a href="http://mindmaze.com" target="_blank">Mindmaze</a> have come through our camps. Today, their valuation totals 1.1B! swissnex is proud to hold a network of 400 founders and friends to help future campers.
 
-![](/accelerator/moneyshot1.jpg)
+![](/accelerator/workspace.png)
 
 The swissnex SF Startup Camp approach
 =====================================
