@@ -9,7 +9,7 @@ image: /learnings/demo_health2.gif
 What I’ve learned so far
 ------------------------
 
-This is a general blog post on my various schemes so far, and I apologize for their breadth and incoherence. Initially centered around hardware and 3D manufacturing, they grew to revolve around React/React Native (Mobile)/Firebase and Ethereum (Blockchain). The common thread through them all was sustainability (whatever that means).
+This is a general blog post on my various schemes so far, and it goes back far so there's a bit of breadth and incoherence. Initially centered around hardware and 3D manufacturing, the projects and jobs grew to revolve around software, mostly built in React / React Native (Mobile) / Node / Postgres, with some other stacks thrown in. The common thread through most of the side-projects is energy sustainability.
 
 The projects here are listed roughly in reverse chronological order from newest to oldest.
 
