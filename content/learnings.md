@@ -18,9 +18,11 @@ The projects here are listed roughly in reverse chronological order from newest 
 
 Soap Dictate (App)
 ---
-Soap dictate was built to help Stanford Internal Medicine attending Libo Wang save time on medical note taking (aka “charting”) into the medical record system through mobile dictation into templates.
+Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.
 
-Doctors currently spend around 2 hours a day after their shift is over typing up notes at the ward desktop. We enable them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. Save an hour a day for $9.99 a month. Currently piloting with 10 physicians.
+Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month. 
+
+The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month.
 
 	Tech
 	* React Native App
@@ -29,7 +31,9 @@ Doctors currently spend around 2 hours a day after their shift is over typing up
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
-	* Coming Soon
+	* 94 registered users
+	* Organic app store search
+	* 3 paying subscribers at $3.99 per month
 
 * [App Store Link](https://itunes.apple.com/app/id1384252497)
 
