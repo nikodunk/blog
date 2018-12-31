@@ -1,7 +1,33 @@
 baseURL = "https://nikodunk.github.io/"
 languageCode = "en-us"
-title = "D U N K"
-theme = "hyde"
+title = "D U N K  niko's thoughts etc."
+theme = "kiss"
+Paginate = 20 # Number of posts per page
+enableRobotsTXT = true
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Niko Dunk" # Author full name
+authorEmail = "n.dunkel@gmail.com" # Author email
 
-[params]
-	description = "Niko's blog"
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+# adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "Niko Dunk's Blog" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+
+[params.social]
+twitter = "nikodunk"
+github = "nikodunk"
+email = "n.dunkel@gmail.com"
+linkedin = "nicholasdunkel"
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","email","linkedin"]
+
+[taxonomies]
+tag ="tags"

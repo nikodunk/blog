@@ -1,0 +1,32 @@
+article div.content {
+	display: none !important;	
+}
+
+article {
+	max-height: 30px !important;
+	display: flex;
+}
+
+article h1, h2{
+	
+	margin: 0px;
+	margin-top: 0px !important;
+	padding: 5px;
+}
+
+
+article h2{
+	width: 190px;
+}
+
+
+article h1{
+	width: 400px;
+	font-size: 1.2rem !important;
+}
+
+
+
+img{
+	max-height: 500px !important;
+}
