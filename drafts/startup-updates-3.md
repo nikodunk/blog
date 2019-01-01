@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "January Update: Pilot"
+title:  "January Update: paperwork labs / pilot"
 date:   2019-01-14 08:00:00 -0700
 categories: 
 image: /img/paper/smoke.gif
