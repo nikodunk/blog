@@ -9,7 +9,7 @@ git push origin master
 echo -e "\033[0;32mDeploying updates to GitHub Pages...\033[0m"
 # Build the project.
 #hugo # if using a theme, replace with 
-hugo -t hyde
+hugo
 
 # Go To Public folder
 cd public
