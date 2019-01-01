@@ -7,10 +7,10 @@ article {
 	margin-top: 0px !important;
 }
 
-article h1, h2{
-	margin-top: 0px !important;
-	padding: 5px;
-	font-size: 1.1rem !important;
+
+.section .container :not(.content) h1, h2{
+	margin-top: 0px;
+	font-size: 1.1rem;
 }
 
 

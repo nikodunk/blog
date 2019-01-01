@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Learnings from work and play"
+title:  "A list of work, play and side projects."
 date:   2018-05-16 08:00:00 -0700
 categories: 
 image: /learnings/demo_health2.gif
 ---
+
 
 What I’ve learned so far
 ------------------------

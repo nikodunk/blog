@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learnings from building a startup acceleration program at swissnex SF"
+title:  "Building swissnex SF's startup acceleration program"
 date:   2018-04-10 08:00:00 -0700
 categories: 
 image: /accelerator/moneyshot1.jpg

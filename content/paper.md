@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Four learnings from my first startup"
-date:   2018-12-30 08:00:00 -0700
+title:  "Seven learnings from my first startup, Paper."
+date:   2016-12-30 08:00:00 -0700
 categories: 
 ---
 
@@ -10,20 +10,21 @@ categories:
 
 An archived version of the final website (started as Paper Furniture, ended up being called Smoke Furniture Co.) before we switched it off is <a href="http://nikodunk.github.io/smoke/">here</a>.
 
-1 Cofounder
+1 Team Team Team
 ===
 Cofounder Cofounder Cofounder. Team Team Team. I can't stress this enough, and is the main point of learning I've brought. 
 
-
-2 Hardware is hard.
-===
-Hardware is hard. There's a reason that so many founders these days (especially young ones) started with a software project – there's no overhead and you can pivot infinite times without the sunk-cost-fallacy that hardware and minimums bring.
-
-3 Hair On Fire Problems.
+2 Problem problem problem
 ===
 Find a hair-on-fire problem (vitamins vs. painkillers). There should be no substitution, and extreme urgency to try your project.
 
 ![](/paper/smoke.gif)
+
+3 Hardware is hard.
+===
+Let me rephrase that: for your _first_ startup, hardware is hard. Hardware is capital and liabilty intensive. For your first startup, maybe look at software: you can stand shoulder-to-shoulder with the big boys if you know how to write code. Most new billionaires _began_ with software companies, even if they ended up advancing into hardware. There's a reason that so many founders these days (especially young ones) started with a software project – there's no overhead and you can pivot infinite times without the sunk-cost-fallacy that hardware and minimums bring.
+
+
 
 4 Give yourself enough time.
 ===
@@ -37,7 +38,7 @@ Get initial, free traction. Do free tests. Ship now. Resist the urge to get feed
 ![](/paper/smoke.jpg)
 
 
-6 Plan ahead so you don't need to raise money
+6 Plan ahead so you're not forced to raise money
 ===
 We did raise money in the end, but were not in a strong position: we were about to run out of money, and had sunk all of our money into hardware. We should have planned ahead. Hardware is hard for a reason: you need to sink capital in. 
 

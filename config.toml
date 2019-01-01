@@ -1,6 +1,6 @@
 baseURL = "https://nikodunk.github.io/"
 languageCode = "en-us"
-title = "D U N K  niko's thoughts etc."
+title = "D U N K | niko's blog"
 theme = "kiss"
 Paginate = 20 # Number of posts per page
 enableRobotsTXT = true
