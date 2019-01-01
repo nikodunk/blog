@@ -2,7 +2,7 @@
 layout: post
 title:  "Essay: As cities grow, nations will fade."
 date:   2018-03-27 08:00:00 -0700
-categories: "essay"
+tags: ["Essay"]
 image: /cities/futuresf.jpg
 ---
 
@@ -78,3 +78,6 @@ The optimum scale for human society is the city. As city populations swell furth
 Credits
 -------
 **Thanks** to Eryk Salvaggio, [Can Olcer](https://humbot.io), Laura Erickson, Zebulon Reynolds and everyone else for reading drafts of this. **Also read** [Why Cities keep growing, Companies always die, and life keeps getting faster](http://longnow.org/seminars/02011/jul/25/why-cities-keep-growing-corporations-always-die-and-life-gets-faster/). | [Is the United States too big to govern?](https://www.nytimes.com/2018/05/11/opinion/sunday/united-states-too-big.html)
+
+
+--------

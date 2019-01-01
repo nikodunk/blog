@@ -2,7 +2,7 @@
 layout: post
 title:  "Essay: The Chicago Public Library"
 date:   2015-02-21 08:00:00 -0700
-categories: "essay"
+tags: ["Essay"]
 image: /chicago/Winslow_Homer_The_Herring_Net.jpg
 ---
 
@@ -25,3 +25,5 @@ I take another look around the reading room, and watch the people. I noticed dif
 * I begin to notice a very large group studying in the reading room that I just can’t believe has been taught to recognize opportunity by privileged surroundings. They must have learned it elsewhere. But if this groups' peers by my theory didn't teach them to profit, or worst case was actively conditioning them _not_ to learn, then something like a chance encounter, a parent, or a book must have inspired them to step outside their conditioning and utilise opportunity. I think this is the group Eliot was talking about: Some people face many barriers towards capitalising on opportunity, and nevertheless persevere. When inspiration like this occurs, these people recognise what is on offer and learn to harness the first-world city’s opportunities at their disposal. If all of your surroundings are pulling in the opposite direction however, an inspiration like this requires a huge coincidence. If we segregate our cities less and mix people’s surroundings, these inspirations in the fourth group would happen more often I believe.
 
 These four observations seem to reflect a broader trend: underprivileged citzens tend not to take advantage of public services and tend to become poorer, while the privileged are taught to take advantage of them and tend to grow more privileged. Public services seem to service the fortunate public more. But regardless of how you have been conditioned to behave once you sit down: when you enter a public library, the city is offering everyone the same opportunities — and this is what gave Eliot hope.
+
+--------

@@ -2,8 +2,7 @@
 layout: post
 title:  "Learnings: A list of work, play and side projects."
 date:   2018-05-16 08:00:00 -0700
-categories: "learnings"
-image: /learnings/demo_health2.gif
+tags: ["Learnings", "Updates"]
 ---
 
 
@@ -405,3 +404,6 @@ When working professionally, designed facades and interiors mostly for competiti
 
 ![](/learnings/hillerod.jpg)
 ![](/learnings/emerson.jpg)
+
+
+--------

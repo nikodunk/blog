@@ -2,7 +2,7 @@
 layout: post
 title:  "Learnings: Building swissnex SF's startup program"
 date:   2018-04-10 08:00:00 -0700
-categories: "learnings"
+tags: ["Learnings"]
 image: /accelerator/moneyshot1.jpg
 ---
 
@@ -115,3 +115,5 @@ This last learning is not technically a Fireside Chat, but the knowledge Lea von
 
 
 
+
+--------

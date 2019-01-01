@@ -2,7 +2,7 @@
 layout: post
 title:  "Learnings: My first startup, Paper."
 date:   2016-12-30 08:00:00 -0700
-categories: "learnings"
+tags: ["Learnings"]
 ---
 
 
@@ -52,3 +52,6 @@ Be careful who you take advice from – we had bad advisors telling us to make 
 I still think the lightweight/sustainable furniture space is interesting. We needed more interations on this concept however, and we didn't have the time/runway to do so. This was our fault. We should have planned better, to provide more time for iteration. We should also have built less until we knew more. And I should have picked cofounders more carefully. 
 
 Those are the main learnings I've taken away so far from my first company. In all – not bad for a first experience in startups.
+
+
+--------

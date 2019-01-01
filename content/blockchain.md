@@ -2,7 +2,7 @@
 layout: post
 title:  "How-to: Blockchain experiments: Software that cannot die"
 date:   2017-12-19 08:00:00 -0700
-categories: "how-to"
+tags: ["How-To"]
 image: /blockchain/monet-dieppe-1024-768.jpg
 ---
 
@@ -120,3 +120,6 @@ And copy files to root directory
 
 
 That's it! You now know how to run a deploy a smart contract to a blockchain and interact with it through a React frontend.
+
+
+--------

@@ -2,7 +2,7 @@
 layout: post
 title:  "Essay: Up!"
 date:   2013-05-16 08:00:00 -0700
-categories: "essay"
+tags: ["Essay"]
 ---
 
 
@@ -17,3 +17,6 @@ Zürich, Switzerland strains against a four-and-a-half story planning limit like
 Once a horizontal plan is established, building height should reflect demand, constrained only by the solidity of the ground beneath. Manhattan was planned this way: grid design, geological surveys, rough volumetric limits. Bedrock differences led to flatter Midtown and taller Downtown - but the planners understood that arbitrating height is as difficult as predicting the gold-market for the next hundred years. Wrong bets blow rents out of proportion and push the poor to the edges of the city. Micromanaging zoning height uses up valuable effort that could have gone into horizontal planning (ahem, bike lanes?).
 
 Focusing on the horizontal dimension may let us up the quality and speed of urban planning. Quality of life could greatly increase on the street level, as the necessary density for an urban experience would be established. Unchecked verticality may also reduce horizontal movement, shortening commutes. Urban planning should be horizontal agreements, not height regulation. Plan the horizontal, let the vertical do what is needed. Image by Guy Carlton Wiggins
+
+
+--------

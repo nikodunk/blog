@@ -2,7 +2,7 @@
 layout: post
 title:  "Essay: Vipassana Meditation"
 date:   2015-03-18 08:00:00 -0700
-categories: "essay"
+tags: ["Essay"]
 ---
 
 A silent 10-day crash course in Buddha’s own technique.
@@ -74,3 +74,6 @@ Conclusion
 ![](/vipassana/boundary.jpg)
 
 On day ten the silence is lifted, and you realise all your co-meditators went through the exact same trials and tribulations in their heads as you did. Funny what ten days with yourself can teach you. They recommend you continue to practice it in morning and evening for a while to come, but I have heard that it is hard to keep up long-term. I would definitely recommend the course if you have ten days to spare (and hey, it’s free so if you don’t want to donate, you don’t have to), and this is one of those things where an intellectual understanding simply does no justice — you need to feel it in your bones for it to be useful.
+
+
+--------

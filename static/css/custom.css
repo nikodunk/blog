@@ -38,3 +38,8 @@ img{
 .title{
 	font-weight: 600;
 }
+
+
+.tags{
+	display: none;
+}

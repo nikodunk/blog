@@ -2,7 +2,7 @@
 layout: post
 title:  "Essay: On putting in the hours"
 date:   2013-06-11 08:00:00 -0700
-categories: "essay"
+tags: ["Essay"]
 image: /hours/delft.jpg
 ---
 
@@ -20,3 +20,5 @@ What's the goal or the prize at the end of this path? When does one achieve true
 Focus is essential to gaining the 10’000 hours of experience. Focusing on only a few select activities to apply your time to will make the difference between world-class and the hobbyist who only dabbled.  Many people lose focus with all the distractions in modern life. This is like having skills only half-finished in a video game. Maybe we shouldn't be spreading ourselves too thin. Maybe we should be following through, to increase our chances of arriving at 10'000 hours (if we even want to achieve mastery in something, that is). Maybe we should choose carefully and then follow them to the end of 10’000 hours, while saying No to all else. 
 
 On another note, maybe games have even helped reduce some people's fear of failure, or Game Over. Though it is less temporary in real life than in games, we have been conditioned to be disproportionately afraid of it. But in both real life and game, failure is a necessary part of the learning process. Image by Vermeer.
+
+--------

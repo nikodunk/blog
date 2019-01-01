@@ -2,7 +2,7 @@
 layout: post
 title:  "December Update: turbotax for medical forms"
 date:   2018-12-31 08:00:00 -0700
-categories: "update"
+tags: ["Updates", "Learnings"]
 ---
 
 December 2018
@@ -52,3 +52,4 @@ Week 8
 * Heard back from first potential client due to video follow-up: Same client that said hold off now wants demo call in January! Could be our initial client.
 * From now on will post the monthly investor update Alain gave me, and inspired by Can Olcer's [Blog](shafyy.com), I will post shorter, less formal posts.
 
+--------

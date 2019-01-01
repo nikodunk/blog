@@ -2,7 +2,7 @@
 layout: post
 title:  "Essay: No"
 date:   2015-02-13 08:00:00 -0700
-categories: "essay"
+tags: ["Essay"]
 ---
 
 
@@ -19,3 +19,5 @@ Naturally, a process of negating what you don’t want can only begin once you k
 Saying no to mediocrity is being unwilling to accept anything but the best, even if there is no good option available at the time. Taking the leap of faith that something better will come along is difficult, yes. But in any situation we always have a choice - even if the only other is saying no. By saying no to what is definitely not right attention is freed for focusing on what we do want. Saying no also brings additional benefits: Saying no to cheap client will at least gain you their respect, and sometimes, strangely, a better offer. People tend to respect a good no.
 
 Saying no is also effective when you find yourself at the other end of the spectrum: you have too much of a good thing. In design this refocusing on what you do want, stripping away the rest is called “killing the beauties”, also known as quality control and editing in other professions. Restarting afresh with a better idea of what you want is one of the most liberating feelings in the world.
+
+--------
