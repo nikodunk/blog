@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Chicago Public Library"
+title:  "Essay: The Chicago Public Library"
 date:   2015-02-21 08:00:00 -0700
 categories: 
 image: /chicago/Winslow_Homer_The_Herring_Net.jpg

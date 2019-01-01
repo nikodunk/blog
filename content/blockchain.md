@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blockchain experiments: Software that cannot die"
+title:  "How-to: Blockchain experiments: Software that cannot die"
 date:   2017-12-19 08:00:00 -0700
 categories: 
 image: /blockchain/monet-dieppe-1024-768.jpg

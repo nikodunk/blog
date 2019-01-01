@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On putting in the hours"
+title:  "Essay: On putting in the hours"
 date:   2013-06-11 08:00:00 -0700
 categories: 
 image: /hours/delft.jpg

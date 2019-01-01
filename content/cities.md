@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Prediction: As cities grow, nations will fade."
+title:  "Essay: As cities grow, nations will fade."
 date:   2018-03-27 08:00:00 -0700
 categories: 
 image: /cities/futuresf.jpg
