@@ -1,22 +1,27 @@
 ---
 layout: post
 title:  "January Update: Pilot"
-date:   2016-05-30 08:00:00 -0700
+date:   2019-01-14 08:00:00 -0700
 categories: 
 image: /img/paper/smoke.gif
 ---
 
-
-
 January 2019
 ===
+
+
+Hi! I'm looking for advice on building out medical SaaS products.
+
+We're currently talking to 3 potential users with my cofounder, and first showing them our demo video, and then showing them a live demo on the call.
+
+---
 
 Help Wanted/Asks:
 * Intros to practices struggling with form overload
 
 Hiring/Funding: 
 * Found Co-Founder Mitul (medical software sales professional with 6 years of exprience in industry).
-* Emergent Ventures Grant to "solve paperwork problem in healthcare" – extended runway from 15 to 19 months at current burn.
+* Received Grant from Emergent Ventures with possible follow-up grant – they agreed that "solving the paperwork problem in healthcare" is a problem worth solving – which extended runway from 15 to 19 months at current burn.
 
 KPIs/Core Metrics:
 * Had 3 calls with users in funnel – pilot with 10 LA practices at $99/mo.
@@ -30,10 +35,10 @@ Product:
 
 Experiments/Hypothesis run:
 * Big enough problem so can get 10 practices to pay $99/month by Feb 1st, by showing video/demo.
-* Big enough problem to reach 100M /year sales
+* Big enough problem to reach 100M ARR with US physicians alone (230'000 physician practices in the US)
 
 Objective / Key Results for next 2 weeks:
-* Integration with first EHR. 
+* Integration with first EHR, if the client gives green-light. Hipaa compliance of user data.
 * First paying customer pilot.
 
 Execution Strategy/OKRs for more details:

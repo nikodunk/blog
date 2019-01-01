@@ -5,8 +5,10 @@ date:   2018-11-30 08:00:00 -0700
 categories: 
 ---
 
-After Elisa and I split up from doing giftlab.io, I decided to focus on soapdictate after I'd left swissnexSF. soapdictate is my other side-project, and I wanted to see if I could make it work. I left swissnexSF October 31st 2018 and switched to working on soapdictate full-time:
+After Elisa and I split up from doing giftlab.io, I decided to focus on soapdictate after I'd left swissnexSF. soapdictate is my other side-project, and I wanted to see if I could make it work. I left swissnexSF October 31st 2018 and switched to working on soapdictate full-time.
 
+My blurb for month 1:
+A few months ago I wrote a medical dictation app called soapdictate to help my friend at Stanford Med save time on his charting, as Stanford Med only provided Dragon Desktop and so the physicians were all using pretty outdated hacks off the app store. Turns out, Apple's Speech Recognition API has hit a level where it can get most notes done for him, and this MVPs been selling consistently on the app store ever since. I just switched full-time and am looking to learn more about the problems physicians face, and add new features like templates/EHR integration/commands etc – hopefully to help reduce the clerical burden on physicians in the mid-term.
 
 November 2018
 ===
@@ -44,5 +46,6 @@ Week 4
 * New sign-ups stopped. User week necessary.
 * Physicially going to acupuncturists and signing them up. 
 * Asking for intros to acupuncturists, psychotherapists and dentists.
+* Applied to YC and Emergent Ventures spontaneously – past deadline but we'll see!
 * Second sign-up! Now 2 paying users.
 * Michael (Mentor) recommended I start fundraising with proto + users.
