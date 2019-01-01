@@ -41,5 +41,5 @@ img{
 
 
 .tags{
-	display: none;
+	display: none !important;
 }
