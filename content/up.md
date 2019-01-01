@@ -2,8 +2,7 @@
 layout: post
 title:  "Essay: Up!"
 date:   2013-05-16 08:00:00 -0700
-categories: 
-image: /up/Guy_Carlton_Wiggins_The_Circle.png
+categories: "essay"
 ---
 
 

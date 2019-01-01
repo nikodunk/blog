@@ -2,13 +2,15 @@
 layout: post
 title:  "How-to: $200 solar self-sufficiency — without your landlord noticing."
 date:   2017-07-20 08:00:00 -0700
-categories: 
-image: /200/TEASER.jpg
+categories: "how-to"
 ---
+
+
+
 Building a solar micro-grid in my bedroom with parts from Amazon
 ================================================================
 
-**Originally posted** on <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4" target="_blank">Hackernoon/Medium</a>. See newest updates at <a href="http://sunboxlabs.com" target="_blank">sunbox labs</a>
+**Originally posted** on [Hackernoon/Medium](https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4). See newest updates at [sunboxlabs.com](http://sunboxlabs.com)
 
 ------------------------------------------------------------------------------------------------------------------
 

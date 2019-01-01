@@ -2,8 +2,10 @@ baseURL = "https://nikodunk.github.io/"
 languageCode = "en-us"
 title = "D U N K | niko's blog"
 theme = "kiss"
-Paginate = 20 # Number of posts per page
+Paginate = 100 # Number of posts per page
+googleAnalytics = "UA-104927808-1"
 enableRobotsTXT = true
+
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
 authorName = "Niko Dunk" # Author full name
@@ -15,7 +17,7 @@ customCSS = ["css/custom.css"]
 [params.info]
 # adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
-homeTitle = "Niko Dunk's Blog" # Title for home page
+homeTitle = "Niko's Blog" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
 
@@ -31,3 +33,6 @@ platforms = ["github","email","linkedin"]
 
 [taxonomies]
 tag ="tags"
+
+
+

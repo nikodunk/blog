@@ -2,7 +2,7 @@
 layout: post
 title:  "Essay: As cities grow, nations will fade."
 date:   2018-03-27 08:00:00 -0700
-categories: 
+categories: "essay"
 image: /cities/futuresf.jpg
 ---
 

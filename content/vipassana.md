@@ -2,8 +2,7 @@
 layout: post
 title:  "Essay: Vipassana Meditation"
 date:   2015-03-18 08:00:00 -0700
-categories: 
-image: /vipassana/center.jpg
+categories: "essay"
 ---
 
 A silent 10-day crash course in Buddha’s own technique.

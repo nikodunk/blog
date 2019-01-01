@@ -2,7 +2,7 @@
 layout: post
 title:  "Thought: Gillets Jaunes sounds like russian"
 date:   2018-12-05 08:00:00 -0700
-categories: 
+categories: "thoughts"
 ---
 
 

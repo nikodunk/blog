@@ -2,7 +2,7 @@
 layout: post
 title:  "Learnings: Building swissnex SF's startup program"
 date:   2018-04-10 08:00:00 -0700
-categories: 
+categories: "learnings"
 image: /accelerator/moneyshot1.jpg
 ---
 
