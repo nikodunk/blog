@@ -3,15 +3,14 @@ article div.content {
 }
 
 article {
-	max-height: 30px !important;
 	display: flex;
+	margin-top: 0px !important;
 }
 
 article h1, h2{
-	
-	margin: 0px;
 	margin-top: 0px !important;
 	padding: 5px;
+	font-size: 1.1rem !important;
 }
 
 
@@ -22,11 +21,20 @@ article h2{
 
 article h1{
 	width: 400px;
-	font-size: 1.2rem !important;
 }
 
 
 
 img{
 	max-height: 500px !important;
+}
+
+
+.content h1, h2, h3, h4, h5{
+	color: #444444 !important;
+}
+
+
+.title{
+	font-weight: 600;
 }

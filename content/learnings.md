@@ -15,6 +15,28 @@ The projects here are listed roughly in reverse chronological order from newest 
 
 ---------
 
+paperworklabs.com (SaaS, current)
+---
+See ongoing progress in the newer posts on this site, like [this one](/startup-diary-december)
+
+Founded with Mitul, we came up with the idea for paperwork labs when Mitul was describing the challenges physicians are facing with government paperwork. I built a simple "turbotax for medical forms" in Node, created the below video, and we're now shopping it around clients. Price point: $99/mo for constantly updated "smart forms" that can export flat PDFs or save your "structured data".
+
+	Tech
+	* Web Frontend in React at https://www.paperworklabs.com
+	* Backend in Node/Express/Postgresql backend running on Heroku
+
+	Stats
+	* 3 interested user groups totalling around 300 practices
+	* Sales through medical associations (Mitul's specialty)
+	* 0 paying subscribers $99.00 per month
+
+* [Paperwork labs link](https://paperworklabs.com)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IZHnqU43t0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+---------
 
 Soap Dictate (App)
 ---
