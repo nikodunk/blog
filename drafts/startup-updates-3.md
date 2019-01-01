@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "November + December 2018 learnings from starting up"
+title:  "January Update: Pilot"
 date:   2016-05-30 08:00:00 -0700
 categories: 
 image: /img/paper/smoke.gif
@@ -8,12 +8,13 @@ image: /img/paper/smoke.gif
 
 
 
-January Update:
+January 2019
+===
 
 Help Wanted/Asks:
 * Intros to practices struggling with form overload
 
-Hiring: 
+Hiring/Funding: 
 * Found Co-Founder Mitul (medical software sales professional with 6 years of exprience in industry).
 * Emergent Ventures Grant to "solve paperwork problem in healthcare" – extended runway from 15 to 19 months at current burn.
 
@@ -29,6 +30,7 @@ Product:
 
 Experiments/Hypothesis run:
 * Big enough problem so can get 10 practices to pay $99/month by Feb 1st, by showing video/demo.
+* Big enough problem to reach 100M /year sales
 
 Objective / Key Results for next 2 weeks:
 * Integration with first EHR. 

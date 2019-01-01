@@ -1,56 +1,20 @@
 ---
 layout: post
-title:  "November + December 2018 learnings from starting up"
+title:  "December Update: paperwork labs experiment"
 date:   2018-12-31 08:00:00 -0700
 categories: 
 ---
 
-
-
-November 2018
-===
-
-Week 1
----
-* quickly followed up with all contacts from job to let them know what i'm working on
-incorporated LLC with stripe atlas (more like aside project currently but don't want liability), Did health insurance, worked from friends' office.
-* built subscription, built 60-sec dictation.
-
-
-
-Week 2
----
-* Spent weekend and Monday with a friend doctor and original user to learn more and think of features.
-* In dedicated office – spacious.com
-* Asking for intros to physicians.
-* First subscriber! Emailed the hell out of her. Ran the friends' feature by her on Friday – creating a billable PDF note. She liked so building it.
-
-![](/learnings/demo_health3.gif)
-
-Week 3
----
-* Really hitting stride. Work from spacious (gets me out of home for $129/mo). Talking to Users and Writing code.
-* Asking for intros to physicians.
-* Shipped first differentiated version Monday (dictate / create PDF billable note)
-* Sales slow though. Grind. Emailing users, writing features for them.
-* Enough physician interviews that know not physicians (process of elimination). My one paying customer is acupuncturist – maybe that's it. Talking to dentists and psychotherapists too.
-
-
-Week 4
----
-* New sign-ups stopped. User week necessary.
-* Physicially going to acupuncturists and signing them up. 
-* Asking for intros to acupuncturists, psychotherapists and dentists.
-* Second sign-up! Now 2 paying users.
-* Michael (Mentor) recommended I start fundraising with proto + users.
-
 December 2018
 ===
+
+Month 2: The paperwork labs experiment month. Still lazer-like focused on writing code and talking to users, but now have found a co-founder, brainstormed a new idea _with_ him (important!) and received some initial funding to take some of the risk off my back.
 
 
 Week 5
 ---
 * Could not grow further and missed growth targets again.
+* Finally got LLC paperwork and Azlo account, and switching app store to it. Switching all sunboxlabs and soapdictate income to the Azlo account to seperate church and state.
 * Invested time into a new energy app and sunboxlabs.com overhaul.
 * ***Pivot 1***
 * Brainstormed with a new, smart cofounder, and we had a good groove. Came up with a 100M idea to validate.
