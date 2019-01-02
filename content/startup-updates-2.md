@@ -9,7 +9,7 @@ image: https://nikodunk.github.io/hours/delft.jpg
 December 2018
 ===
 
-Month 2: Still lazer-focused on writing code and talking to users, but now have found a good potential **co-founder**, brainstormed a **new, bigger problem** _with_ him (important!) and received some **initial grant funding** to take some of the financial risk off my back.
+Month 2: Still laser-focused on writing code and talking to users, but now have found a good potential **co-founder**, brainstormed a **new, bigger problem** _with_ him (important!) and received some **initial grant funding** to take some of the financial risk off my back.
 
 
 Week 5
@@ -45,7 +45,7 @@ Week 8
 ---
 * Xmas, no go.
 * After followed up with clients with new video heard back and now have a call scheduled: Same client that said hold off now wants demo call in January! Could be our **initial client**?
-* From now on will post the monthly investor update Alain gave me, and inspired by Can Olcer's [Blog](shafyy.com), I will post shorter, less formal posts.
+* From now on will post the monthly investor update Alain gave me, and inspired by Can Olcer's [Blog](https://shafyy.com), I will post shorter, less formal posts.
 
 
 Summary
