@@ -3,6 +3,7 @@ layout: post
 title:  "How-to: $200 solar self-sufficiency — without your landlord noticing."
 date:   2017-07-20 08:00:00 -0700
 tags: ["How-To"]
+image: https://nikodunk.github.io/200/TEASER.jpg
 ---
 
 

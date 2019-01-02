@@ -3,6 +3,7 @@ layout: post
 title:  "November Update: starting up"
 date:   2018-11-30 08:00:00 -0700
 tags: ["Updates", "Learnings"]
+image: https://nikodunk.github.io/learnings/demo_health3.gif
 ---
 
 November 2018
