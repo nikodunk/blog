@@ -17,19 +17,17 @@ After we talked last I teamed up with another friend and found out a purer versi
 
 Week 5
 ---
-* Could not grow further and missed growth targets again.
-* Finally got LLC paperwork and Azlo account, and switching app store to it. Switching all sunboxlabs and soapdictate income to the Azlo account to seperate church and state.
-* Invested time into a new energy app and sunboxlabs.com overhaul.
-* ***Pivot 1***
-* Brainstormed with a new, smart cofounder, and we had a good groove. Came up with a 100M idea to validate.
-* Built a prototype, shipped it. A "hair-on-fire" problem: Turbotax for medical forms.
+* Could not grow further and missed growth targets again – started investing time into overhauling sunboxlabs.com and a completely new energy app idea.
+* Finally got LLC paperwork and Azlo account from the Stripe Atlas incorporation, and switching app store ownership, sunboxlabs income and soapdictate income to it – seperating church and state.
+* **Pivot 1** First working session with a new, smart potential cofounder Mitul, and we had a good groove. Brainstormed and found a "hair-on-fire" problem hypothesis in the medical space to validate: Doctors are filling out 17-page state forms by hand. 
+* Our solution hypothesis: **Turbotax for medical forms**. Built a prototype, shipped it.
 * Had call with Alain (Mentor). He recommended I talk to investors before I need them. Just get their advice. Send them a and monthly update. He will send me a template. Get Feedback from current customers with customer development survey tool: http://survey.io/survey/demo
 
 Week 6
 ---
 * 3 clients in pipeline, each with 10s of practices that are struggling with forms and are open to $99/month price point.
-* Received Grant from Emergent Ventures with possible follow-up grant. Worth investing in mission of solving healthcare paperwork.
-* Building prototype form automation tool.
+* Received Grant from **Emergent Ventures** with possible follow-up grant. Worth investing in mission of solving healthcare paperwork.
+* Building out tech demo to actual prototype form automation tool.
 * Second working session with Mitul:
 	* Cold-emailed 100s of clients
 	* Made landing page
