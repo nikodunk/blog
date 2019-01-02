@@ -10,6 +10,6 @@ How to install on MacOS with Homebrew
 
 	cd blog
 	cd themes
-	git clone https://github.com/spf13/hyde.git
+	git clone https://github.com/ribice/kiss.git
 
-	hugo server -D
+	hugo serve
