@@ -3,6 +3,7 @@ layout: post
 title:  "December Update"
 date:   2018-12-31 08:00:00 -0700
 tags: ["Updates", "Learnings"]
+image: https://nikodunk.github.io/hours/delft.jpg
 ---
 
 December 2018
