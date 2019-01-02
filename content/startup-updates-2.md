@@ -8,7 +8,7 @@ tags: ["Updates", "Learnings"]
 December 2018
 ===
 
-Month 2: The paperwork labs experiment month. Still lazer-like focused on writing code and talking to users, but now have found a co-founder, brainstormed a new idea _with_ him (important!) and received some initial funding to take some of the risk off my back.
+Month 2: Still lazer-focused on writing code and talking to users, but now have found a good potential **co-founder**, brainstormed a **new, bigger problem** _with_ him (important!) and received some **initial grant funding** to take some of the financial risk off my back.
 
 
 Week 5
@@ -47,7 +47,10 @@ Week 8
 * From now on will post the monthly investor update Alain gave me, and inspired by Can Olcer's [Blog](shafyy.com), I will post shorter, less formal posts.
 
 
-Summary: This is the monthly update as described to a friend.
+Summary
+---
+
+This is the monthly update as described to a friend.
 
 After we talked last I teamed up with another friend and found out a purer version of the paperwork/physician burnout problem is filling out forms (up to 17 pages!) in general by hand, and so we decided to drop the voice part (I thought it was cool but didn't help solve the problem really...), and create "turbotax for medical forms". We've prototyped a solution and are in talks with 3 practice groups around the country (came up with this with a healthcare software sales guy, so already have some 'ins'). Hope to have a paying test customer by end of Jan (or ASAP). This will allow us to A) charge $99/customer per month for it, B) is a way more of a "hair on fire" problem for the 230'000 practices out there, which could theoretically bring us to the 100M/y revenue. Also, just got a 10K grant from Emergent Ventures who agreed this was a problem worth solving!
 
