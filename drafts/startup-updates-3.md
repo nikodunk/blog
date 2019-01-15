@@ -9,37 +9,46 @@ image: /img/paper/smoke.gif
 January 2019
 ===
 
+Here is an update for the last month at paperwork labs.
 
-Hi! I'm looking for advice on building out medical SaaS products.
+KPIs
+----
+* We are default dead
+* Paying customers: 0
+* MRR: 0
+* Net MRR growth: 0%
+* Customer churn: 0%
+* Team: 2 people
+* Cash: $15,000 in bank
+* Monthly burn: $2,500
 
-We're currently talking to 3 potential users with my cofounder, and first showing them our demo video, and then showing them a live demo on the call.
 
----
 
-Help Wanted/Asks:
+Key Events
+----------
+Good
+====
+* We're currently talking to 5 potential users, and first showing them our demo video, and then showing them a live demo on the call.
+* Product: Built out "Turbotax for medical forms". Sending out demo video of prototype @ https://www.paperworklabs.com.
+* Product: Digitized first 2 paper forms into smart form for demo incl. storage, PDF export, mock reporting dashboard.
+* We're looking to integrate with ECW, an EHR provider, which all of our early users have requested.
+* Co-Founder: Now working with co-founder Mitul (medical software sales professional with 6 years of exprience in industry).
+* Fundingraising: Thank you to Emergent Ventures for welcoming us into your second cohort, and the grant – which extends our runway for an aditional 4 months at current burn.
+* Customers: 5 customer calls, with a total of 220 practices in networks. In final steps of with 3.
+
+Bad
+===
+* Christmas break slowed us down.
+
+
+Next 2 weeks
+============
+* Big enough problem so can get 1 practice to pay $99/month by Feb 1st, by showing video/demo.
+* Integration with first EHR.
+
+
+Asks
+----
 * Intros to practices struggling with form overload
-
-Hiring/Funding: 
-* Found Co-Founder Mitul (medical software sales professional with 6 years of exprience in industry).
-* Received Grant from Emergent Ventures with possible follow-up grant – they agreed that "solving the paperwork problem in healthcare" is a problem worth solving – which extended runway from 15 to 19 months at current burn.
-
-KPIs/Core Metrics:
-* Had 3 calls with users in funnel – pilot with 10 LA practices at $99/mo.
-* Sent out over 200 emails to qualified candidates showing demo video.
-* Digitized 2 forms for demo
-
-Product:
-* New concept: "Turbotax for medical forms".
-* Digitized first 2 paper forms into smart form form demo, incl. online reporting dashboard.
-* Made demo video of prototype @ paperworklabs.com
-
-Experiments/Hypothesis run:
-* Big enough problem so can get 10 practices to pay $99/month by Feb 1st, by showing video/demo.
-* Big enough problem to reach 100M ARR with US physicians alone (230'000 physician practices in the US)
-
-Objective / Key Results for next 2 weeks:
-* Integration with first EHR, if the client gives green-light. Hipaa compliance of user data.
-* First paying customer pilot.
-
-Execution Strategy/OKRs for more details:
-[Link to Google Spreadsheet](https://docs.google.com/spreadsheets/d/1_mUrnhwyAcfwp7_vJg9p2zhlTSqiuyan6UcPUdmsF2I/edit#gid=0)
+* Intros to investors with experience in the medical software space for advice.
+* Advice on building out healthcare SaaS products.
