@@ -26,11 +26,13 @@ Founded with Mitul, we came up with the idea for paperwork labs when Mitul was d
 	* Backend in Node/Express/Postgresql backend running on Heroku
 
 	Stats
+	* Paying customers: 0
+	* MRR: 0
 	* 3 interested user groups totalling around 300 practices
-	* Sales through medical associations (Mitul's specialty)
-	* 0 paying subscribers $99.00 per month
+	* Sales through medical associations
+	
 
-* [Paperwork labs link](https://paperworklabs.com)
+* [Paperwork labs link](https://www.paperworklabs.com)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IZHnqU43t0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -53,9 +55,11 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
-	* 94 registered users
+	* Paying customers: 7
+	* MRR: $27.93
+	* 150 registered users
 	* Organic app store search
-	* 3 paying subscribers at $3.99 per month
+
 
 * [App Store Link](https://itunes.apple.com/app/id1384252497)
 
