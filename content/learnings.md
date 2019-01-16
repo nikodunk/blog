@@ -19,18 +19,17 @@ paperworklabs.com (SaaS, current)
 ---
 See ongoing progress in the newer posts on this site, like [this one](/startup-diary-december)
 
-Founded with Mitul, we came up with the idea for paperwork labs when Mitul was describing the challenges physicians are facing with government paperwork. I built a simple "turbotax for medical forms" in Node, created the below video, and we're now shopping it around clients. Price point: $99/mo for constantly updated "smart forms" that can export flat PDFs or save your "structured data".
+Founded with Mitul, we came up with the idea for paperwork labs when Mitul was describing the challenges physicians are facing with government paperwork. I built a simple "turbotax for medical forms" in Node, created the below video, and we're now shopping it around clients. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs.
 
 	Tech
-	* Web Frontend in React at https://www.paperworklabs.com
-	* Backend in Node/Express/Postgresql backend running on Heroku
+	* MERN web stack:
+	* React frontend
+	* Node/Express/Postgres backend running on Heroku
 
 	Stats
 	* Paying customers: 0
-	* MRR: 0
-	* 3 interested user groups totalling around 300 practices
-	* Sales through medical associations
-	
+	* MRR: $0
+	* 4 user groups in talks totalling 120 practices
 
 * [Paperwork labs link](https://www.paperworklabs.com)
 
@@ -101,7 +100,7 @@ With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picke
 	* Hugo Static Site, loads of email.
 
 	Stats
-	* 52 startups applied with their old YC applications
+	* 52 startups applied with old YC applications
 	* 7 investors applied for insights into the startups
 	* 4 rounds sent, suggesting 48 startups in total.
 
