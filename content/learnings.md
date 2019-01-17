@@ -172,7 +172,9 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 * [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
 * [Google Play Link](https://play.google.com/store/apps/details?id=com.pokedoc.iamoff) 
 
-![](/learnings/demo_health.gif) ![](/learnings/demo_health.png)
+![](/learnings/demo_health.gif) 
+![](/learnings/demo_health.png)
+![](/learnings/logo_health0.png)
 
 ---------
 
