@@ -19,7 +19,7 @@ KPIs
 * Net MRR growth: 0%
 * Customer churn: 0%
 * Team: 2 people
-* Cash: $15,000 in bank
+* Cash: $37,500 in bank
 * Monthly burn: $2,500
 
 
