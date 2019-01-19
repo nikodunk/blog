@@ -56,8 +56,8 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
-	* Paying customers: 7
-	* MRR: $27.93
+	* Paying customers: 8
+	* MRR: $31.92
 	* Price point: $3.99/month
 	* 150 registered users
 	* Organic app store search
