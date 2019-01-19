@@ -77,7 +77,12 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 # Sustainability
 --------------------------------------------------------------------------------------------------------------
 
-### sunboxlabs.com | A platform for sharing DIY solar projects & tracking prices
+
+### electrific | EV Price Tracker & News App
+
+
+
+### sunboxlabs.com | Solar Price Tracker & Platform for sharing DIY solar projects
 
 With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
 
@@ -102,11 +107,18 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 
 
+### B-Corp Price Tracker
 
+Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
 
+	Tech
+	* Angular 2 app
+	* Viglink API
+	* APIfier to scrape B-Corp.com
 
+* [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
 
-
+![](/learnings/bamazon.gif)
 
 
 
@@ -211,30 +223,25 @@ CollaborativeToDo was a React & Firebase to-do list app w/ full Drag n drop, CRU
 
 ---------
 
-### Goodgood | price comparison for sustainable products
+### Goodgood | Sustainable Cosmetic Price Tracker
 
-
-GoodGood, a software project to help you compare prices on certified green products (“is chaos in the green certification market a customer problem?”), later re-focused to cosmetics (“is green certification chaos of cosmetics a customer problem?”). Neither were problems.
-
-Utilising scraped APIfier data and price information from the Viglink API, a price comparison engine for green cleaning products focused on families. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
+GoodGood, a software project to help families find skinsafe products for their babies, by cross-referencing EWG's safe skincare products.
 
 	Tech
 	* Angular 2 app
 	* Firebase backend
 	* Viglink API
-	* APIfier to scrape B-Corp.com and ewg.org
+	* APIfier to scrape ewg.org (and save it into Firebase)
 
-* [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
-* [Goodgood.io 2.0 Mirror](https://nikodunk.github.io/ewg-search/)
+* [Goodgood.io Mirror](https://nikodunk.github.io/ewg-search/)
 
-![](/learnings/bamazon.gif)
 ![](/learnings/goodgood.gif)
 
 
 ----------
 
 
-### Superjuice2 | producthunt for sustainable products
+### Superjuice2 | Producthunt for sustainable products
 
 A “product hunt” for the videos of certified green companies. This initial version involved no scraping, but socially assembled list of brands and goods. This was based around a voting system for popularity.
 
