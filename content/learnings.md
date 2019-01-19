@@ -1,18 +1,21 @@
 ---
 layout: post
-title:  "Learnings: Things I've made on so far."
+title:  "Learnings: Things I've made so far."
 date:   2019-01-16 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 ---
 
 This is a general blog post on my various schemes so far, loosely grouped around topic.
 
+![](/learnings/scientist.jpg)
+![](/learnings/gianni_colombo.jpg)
+
 
 
 # Health
 --------------------------------------------------------------------------------------------------------------
 
-### paperworklabs.com | Turbotax for medical forms
+### ![](/learnings/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
 
 
 See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
@@ -38,7 +41,7 @@ Founded with Mitul, we came up with the idea for paperwork labs when Mitul was d
 
 ---------
 
-### Soap Dictate App | Auto-transcribe your SOAP notes
+### ![](/learnings/logo_health.png) Soap Dictate App | Auto-transcribe your SOAP notes
 
 Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.
 
@@ -63,7 +66,7 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 * [App Store Link](https://itunes.apple.com/app/id1384252497)
 
 
-![](/learnings/logo_health.png)
+
 ![](/learnings/demo_health3.gif)
 
 
@@ -78,11 +81,19 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 --------------------------------------------------------------------------------------------------------------
 
 
-### electrific | EV Price Tracker & News App
+### ![](/learnings/logo_sustainability2.png) electrific | EV Price Tracker & News App
+
+Coming soon
 
 
 
-### sunboxlabs.com | Solar Price Tracker & Platform for sharing DIY solar projects
+
+
+
+
+
+
+### ![](/learnings/logo_sustainability1.gif) sunboxlabs.com | Solar Price Tracker & Platform for DIY solar
 
 With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
 
@@ -107,7 +118,12 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 
 
-### B-Corp Price Tracker
+
+
+
+
+
+### ![](/learnings/logo_sustainability.png) GoodGood | B-Corp Price Tracker
 
 Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
 
@@ -146,7 +162,7 @@ With Elisa Chan, a platform to help noprofits fundraise more efficiently with mo
 
 ---------
 
-### Project Pegasus | Recycling rejected YCombinator applications
+### ![](/learnings/project-pegasus-logo.png) Project Pegasus | Recycling rejected YCombinator applications
 
 ![](/learnings/demo pegasus.png) ![](/learnings/demo pegasus 2.png)
 
@@ -166,7 +182,7 @@ With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picke
 
 ---------
 
-### I Am Off! | Finding common days off for friend groups
+### ![](/learnings/logo_health0.png) I Am Off! | Finding common days off for friend groups
 
 Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.
 
@@ -186,7 +202,86 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 
 ![](/learnings/demo_health.gif) 
 ![](/learnings/demo_health.png)
-![](/learnings/logo_health0.png)
+
+
+
+# Misc Hardware
+--------------------------------------------------------------------------------------------------------------
+
+
+
+### ![](/learnings/logo_paper.png) Paper Inc. (my first company) – mail-order sustainable flatpack furniture (website/hardware)
+
+The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.
+
+![](/learnings/paper.png)
+
+This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.
+
+We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.
+
+	Tech:
+	* CNC-Milled furniture built in Rhinoceros modelling
+	* Squarespace site
+
+	Stats
+	* I4C Clean-Tech Startup Accelerator Cohort ‘14
+	* $10,000 in test-sales
+	* Pre-Seed round (aborted)
+	* My first ever entrepreneurial project
+
+
+* [Smokefurniture.com Mirror](http://nikodunk.github.io/smoke/)
+
+![](/learnings/smokesite.png) ![](/learnings/smoke.gif)  
+![](/learnings/smoke.jpg)
+
+---------
+
+
+
+### Juicebar – (hardware concept)
+
+Juicebar was a windowsill energy generator meant to ehlp urbanites be energy independent without access to their rooftops.
+
+The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post <a href="https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/" target="_blank">“How I gave up alternating current”</a>. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.
+
+![](/learnings/juicebar.jpg) 
+![](/learnings/juicebar.png)
+
+
+Customers objected that the device was too expensive vs. what money they could save. They also objected that the embodied energy was so high, it would take years to pay off and be “greener” than before. Finally, they objected that the IoT features were useless.
+
+The juicebar project originally came about in the dying days of Paper Inc.: I started playing around with added electrical components to differentiate the tables and chairs we’d already bought and hope to liquidate them on Kickstarter (below). Eventually I dropped the tables completely and went on with a pure window-sill design above. I also added an Arduino for good measure so I could track electrical production during the day (and because IoT funding was readily available…). I also got sucked up in the IoT craze (since this was technically an IoT product), and spent a lot of time pitching and filming, instead of improving the product. This was my first project where coding was involved, so I’m thankful for that. Many Alibaba-sourced 12V lithium batteries & panels were thrashed at this stage.
+
+
+![](/learnings/juice.jpg)
+![](/learnings/juice2.jpg)
+
+---------
+
+### A CNC-carved chair project
+
+LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 20 were ever made. Very expensive. I learned that making your own goods is a whole different operation from selling them.
+
+![](/learnings/lunch.jpg)
+![](/learnings/lunch.gif)	
+![](/learnings/lunch2.jpg)
+![](/learnings/lunch3.png)
+
+---------
+
+
+Student project, Thomas Meyer and I put in many man-hours into the leather-, copper- and woodwork necessary for this project.
+
+
+![](/learnings/loungeforceone.jpg)  ![](/learnings/loungeforcetwo.jpg)
+
+
+
+
+
+
 
 ---------
 
@@ -241,7 +336,7 @@ GoodGood, a software project to help families find skinsafe products for their b
 ----------
 
 
-### Superjuice2 | Producthunt for sustainable products
+### Superjuice 2 | Producthunt for sustainable products
 
 A “product hunt” for the videos of certified green companies. This initial version involved no scraping, but socially assembled list of brands and goods. This was based around a voting system for popularity.
 
@@ -255,7 +350,7 @@ A “product hunt” for the videos of certified green companies. This initial v
 
 ---------
 
-### Superjuice | Kayak for Energy
+### ![](/learnings/logo_superjuice.png)  Superjuice | Kayak for Energy
 
 Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.
 
@@ -316,86 +411,6 @@ So far we haven't been able to find a business case with these Dapps, and as des
 
 
 
-# Misc Hardware
---------------------------------------------------------------------------------------------------------------
-
-### Paper Inc. (my first company) – mail-order sustainable flatpack furniture (website/hardware)
-
-The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.
-
-![](/learnings/paper.png)
-
-This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.
-
-We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.
-
-	Tech:
-	* CNC-Milled furniture built in Rhinoceros modelling
-	* Squarespace site
-
-	Stats
-	* I4C Clean-Tech Startup Accelerator Cohort ‘14
-	* $10,000 in test-sales
-	* Pre-Seed round (aborted)
-	* My first ever entrepreneurial project
-
-
-* [Smokefurniture.com Mirror](http://nikodunk.github.io/smoke/)
-
-![](/learnings/smokesite.png)
-![](/learnings/smoke.gif)  
-![](/learnings/smoke.jpg)
-
----------
-
-
-
-### Juicebar – (hardware concept)
-
-Juicebar was a windowsill energy generator meant to ehlp urbanites be energy independent without access to their rooftops.
-
-The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post <a href="https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/" target="_blank">“How I gave up alternating current”</a>. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.
-
-![](/learnings/juicebar.jpg) 
-![](/learnings/juicebar.png)
-
-
-Customers objected that the device was too expensive vs. what money they could save. They also objected that the embodied energy was so high, it would take years to pay off and be “greener” than before. Finally, they objected that the IoT features were useless.
-
-The juicebar project originally came about in the dying days of Paper Inc.: I started playing around with added electrical components to differentiate the tables and chairs we’d already bought and hope to liquidate them on Kickstarter (below). Eventually I dropped the tables completely and went on with a pure window-sill design above. I also added an Arduino for good measure so I could track electrical production during the day (and because IoT funding was readily available…). I also got sucked up in the IoT craze (since this was technically an IoT product), and spent a lot of time pitching and filming, instead of improving the product. This was my first project where coding was involved, so I’m thankful for that. Many Alibaba-sourced 12V lithium batteries & panels were thrashed at this stage.
-
-
-![](/learnings/juice.jpg)
-![](/learnings/juice2.jpg)
-
----------
-
-### A CNC-carved chair project
-
-LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 20 were ever made. Very expensive. I learned that making your own goods is a whole different operation from selling them.
-
-![](/learnings/lunch.jpg)
-![](/learnings/lunch.gif)	
-![](/learnings/lunch2.jpg)
-![](/learnings/lunch3.png)
-
----------
-
-
-Student project, Thomas Meyer and I put in many man-hours into the leather-, copper- and woodwork necessary for this project.
-
-
-![](/learnings/loungeforceone.jpg)  
-![](/learnings/loungeforcetwo.jpg)	
-
-
-
-
-
-
-
-
-
 
 
 
@@ -434,17 +449,24 @@ Coming soon
 ---------
 
 
-### Architecture/Engineering at ETH Zurich & employment at Herzog & de Meuron
-
-Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”. This project reflected the poetic side of architecture – most of the school was engineering.
-
-![](/learnings/sik.jpg)
+### Employment at Herzog & de Meuron
 
 When working professionally, designed facades and interiors mostly for competition work. This facade was designed by the team I was on at a large architecture firm in Basel, Switzerland. We won that competition.
 
 
 ![](/learnings/hillerod.jpg)
+
+
+-----
+
+### Architecture/Engineering at ETH Zurich
+
+
+Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”. This project reflected the poetic side of architecture – most of the school was engineering.
+
+![](/learnings/sik.jpg)
 ![](/learnings/emerson.jpg)
+
 
 
 --------
