@@ -260,7 +260,7 @@ The juicebar project originally came about in the dying days of Paper Inc.: I st
 
 ---------
 
-### A CNC-carved chair project
+### LUNCH | A CNC-carved chair project
 
 LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 20 were ever made. Very expensive. I learned that making your own goods is a whole different operation from selling them.
 
