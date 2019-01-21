@@ -7,8 +7,8 @@ tags: ["Learnings", "Updates"]
 
 This is a general blog post on my various schemes so far, loosely grouped around topic. I look like this when I've made something:
 
-![](/learnings/scientist.jpg)
-![](/learnings/gianni_colombo.jpg)
+![](/learnings/gianni_colombo.jpg) ![](/learnings/scientist.jpg)
+
 
 
 
