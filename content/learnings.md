@@ -51,8 +51,8 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 	Tech
 	* React Native App
-	* Mobile Frontend in React Native/Redux with RNVoice native library
-	* Web Frontend in React at http://soapdictate.com (now removed and simple static site)
+	* Mobile Frontend in React Native with RNVoice library
+	* Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
@@ -81,12 +81,19 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 --------------------------------------------------------------------------------------------------------------
 
 
-### ![](/learnings/logo_sustainability2.png) electrific | EV Price Tracker & News App
+### ![](/learnings/logo_sustainability2.png) electrific | EV Price Tracker & Charging Map App
 
 Coming soon
 
 
 
+	Tech:
+	* React-Native App
+	* Dynamic pricing data scraped with APIfy.com
+	* Mapping data from OpenChargeMap.com
+
+	Stats
+	* Launching soon
 
 
 
@@ -100,7 +107,8 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 
 	Tech:
-	* Static Hugo Site
+	* Static Hugo Site 
+	* Dynamic pricing data scraped from Amazon with APIfy.com
 	* User submitted content
 
 	Stats
@@ -129,8 +137,8 @@ Utilising APIfier to scrape all B-Corp companies, and cross-referencing them wit
 
 	Tech
 	* Angular 2 app
-	* Viglink API
-	* APIfier to scrape B-Corp.com
+	* Dynamic pricing & product data from Viglink API
+	* B-Corps scraped from bcorporation.com with APIfy.com
 
 * [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
 
