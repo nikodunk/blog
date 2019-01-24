@@ -25,12 +25,10 @@ Founded with Mitul, we came up with the idea for paperwork labs when Mitul was d
 	Tech
 	* MERN web stack:
 	* React frontend
-	* Node/Express/Postgres backend running on Heroku
+	* Node/Express/Postgres backend running on HIPAA compliant AWS Elastic Beanstalk
 
 	Stats
-	* Paying customers: 6
 	* Price point: $99/month for all-you-can-eat medical smartforms
-	* Many more in the funnel
 
 
 * [Paperwork labs link](https://www.paperworklabs.com)
