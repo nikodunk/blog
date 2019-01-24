@@ -20,7 +20,7 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
 
-Founded with Mitul, we came up with the idea for paperwork labs when Mitul was describing the challenges physicians are facing with government paperwork. I built a simple "turbotax for medical forms" in Node, created the below video, and we're now shopping it around clients. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs.
+Together with my cofounder, we came up with the idea for paperwork labs when he was describing the challenges physicians are facing with government paperwork. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
 
 	Tech
 	* MERN web stack:
