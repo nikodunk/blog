@@ -8,13 +8,13 @@ categories:
 January 2019
 ===
 
-Here is an update for the January month at paperwork labs. See last month's [here](/startup-updates-2) including cofounder, MVP, grant funding. As a reminder, we've pivoted from solving medical note-taking to solving medical paperwork. We are building "Turbotax for Medical Forms".
+We just signed up our first paying customer here at Paperwork Labs, so it's time for the January update. See last month's [here](https://nikodunk.github.io/startup-updates-2) – TLDR; December: New cofounder, MVP, Received Grant from Emergent Ventures, Pivot from solving medical note-taking to solving medical paperwork. We are now building "Turbotax for Medical Forms".
 
 
 KPIs
 ----
 * We are default dead
-* Paying customers: 1
+* Paying customers: 1 (*gong*)
 * MRR: $594
 * Net MRR growth: 1860% (from $31.92 MRR for soapdictate ;))
 * Customer churn: 0%
@@ -27,15 +27,16 @@ Key Events
 ----------
 Good
 ====
-* We've talked to 5 practice groups this month, added 1 new one today alone, and have verbal order with one practice the largest practice group for 6 licenses (6 * $99). We're presenting to 20 more practices from the same practice group on Feb 27th. 
-* Product: This was all done with a video of the product (see last month), and remote demos over Skype. Why? We've built demo-able mock "Turbotax for medical forms" with 1 working form incl. PDF export, persistent data. Still needs user login, more forms, EMR integration, actual reporting dashboard (currently static page). Now that we have first customer signed on we're going to build this. An intial 
-* Learnings: From push-backs from the sales calls we've learned that the down-sides are: No EMR integration (had a call with EMR, they're holding the data hostage, but the first customer STILL signed on and many are interested regardless), price (we were asking $99/form/practice/month ... this was too much), and "let me run this by the other practices". We began offering 5 forms for $99 (build once, run anywhere), and offered that as a limited time offer until last Friday – this was too sweet a deal, which moved the first practice over the finish line.
-* We started working on this new concept on December 10th, had a prototype ready by December 18th, and had our first customer demo Jan 8th. We have a verbal sign-on incl. pricing Jan 23rd.
+* Sales/Customer-Month: We've talked to 5 practice groups this month, added a 6th group today alone, and have signed up one practice from the largest group for 6 licenses (6 * $99). We're presenting to 20 more potentials from the same practice group on Feb 27th. 
+* Product: This was all done with a video of the MVP (see last month), and live demos of the MVP over Skype. We've built demo-able "Turbotax for medical forms" with 1 working form incl. PDF export and persistent data. Still needs user system, more forms, functioning reporting dashboard (currently static page). Now that we have first customer signed on we're going to build this.
+* Learnings: From push-backs from the sales calls we've learned that the main complaints were: 1) No EMR integration (had a call with EMR, they're holding the data hostage), 2) price (we were initially asking $99/form/practice/month ... this was too much), and 3) "let me run this by the other practices". We couldn't solve 1) but turns out the first customer STILL signed on and many are interested regardless, and we solved 2) by pricing 5 forms for $99 (build forms once, run anywhere so that should be fine), and solved 3) by offering   the pricing from 2) for as a limited time offer to add pressure and overcome "let me ask others" syndrome – it moved the first practice over the finish line.
+* We started working on this new concept on December 10th, had a prototype ready by December 18th, and had our first customer demo Jan 8th. We have a sign-up incl. pricing Jan 23rd.
 
 Bad
 ===
-* We had a call with an EMR – not possible to integrate. They're holding the customer's healthcare data hostage. Upside: Customers subscribed anyway.
+* We had a call with an EMR – refuse to let us integrate. They're holding the customer's healthcare data hostage. Upside: Customers subscribed anyway.
 * A LOT of work to do now 🚀
+* Wound down soapdictate.com and took off the app store, despite (slow)organic growth (7 new paying users this month so far @ $3.99/mo each): The risk/reward around HIPAA questions vs. what the app could potentially bring in didn't make sense as a side-project – for now we want to focus on Paperwork Labs. 
 
 
 Asks

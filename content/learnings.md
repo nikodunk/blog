@@ -28,10 +28,10 @@ Founded with Mitul, we came up with the idea for paperwork labs when Mitul was d
 	* Node/Express/Postgres backend running on Heroku
 
 	Stats
-	* Paying customers: 0
-	* MRR: $0
+	* Paying customers: 6
 	* Price point: $99/month for all-you-can-eat medical smartforms
-	* 4 user groups in talks totalling 120 practices
+	* Many more in the funnel
+
 
 * [Paperwork labs link](https://www.paperworklabs.com)
 
