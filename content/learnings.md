@@ -85,8 +85,6 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 ### ![](/learnings/logo_sustainability2.png) electrific | EV Price Tracker & Charging Map App
 
-Coming soon
-
 
 
 	Tech:
@@ -95,11 +93,14 @@ Coming soon
 	* Mapping data from OpenChargeMap.com
 
 	Stats
-	* Launching soon
+	* Users: 0
 
 
+* [App Store Link](https://itunes.apple.com/us/app/id1445602414)
 
 
+![](/learnings/electrific1.png)
+![](/learnings/electrific2.png)
 
 
 ### ![](/learnings/logo_sustainability1.gif) sunboxlabs.com | Solar Price Tracker & Platform for DIY solar
