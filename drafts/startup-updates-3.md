@@ -14,9 +14,9 @@ Here is an update for the January month at paperwork labs. See last month's [her
 KPIs
 ----
 * We are default dead
-* Paying customers: 0
-* MRR: $0
-* Net MRR growth: 0%
+* Paying customers: 1
+* MRR: $594
+* Net MRR growth: 1860% (from $31.92 MRR for soapdictate ;))
 * Customer churn: 0%
 * Team: 2 people
 * Cash: $37,500 in bank
@@ -27,18 +27,19 @@ Key Events
 ----------
 Good
 ====
-* We're currently talking to 5 potential practices/networks, totalling 220 practices total and trying to get a paying customer by Feb 1: First sending them last month's demo video, then showing them a live demo on a call. 2/5 still interested after demo. 
-* Main push-backs from demo calls: No EMR integration, price (we were asking $99/form/practice/month), and "let me run this by the other practices". 
-* So we're offering a 5 forms included in the plan (this was the plan anyway), have a call to integrate with an EMR called ECW, and are offering a trial license with just 1 practice (getting buy-in from 20 is hard at once).
-* Product: Built demo-able mock "Turbotax for medical forms" with 1 working form incl. PDF export, persistent data. Still needs user login, more forms, EMR integration, actual reporting dashboard (currently static page).
+* We've talked to 5 practice groups this month, added 1 new one today alone, and have verbal order with one practice the largest practice group for 6 licenses (6 * $99). We're presenting to 20 more practices from the same practice group on Feb 27th. 
+* Product: This was all done with a video of the product (see last month), and remote demos over Skype. Why? We've built demo-able mock "Turbotax for medical forms" with 1 working form incl. PDF export, persistent data. Still needs user login, more forms, EMR integration, actual reporting dashboard (currently static page). Now that we have first customer signed on we're going to build this. An intial 
+* Learnings: From push-backs from the sales calls we've learned that the down-sides are: No EMR integration (had a call with EMR, they're holding the data hostage, but the first customer STILL signed on and many are interested regardless), price (we were asking $99/form/practice/month ... this was too much), and "let me run this by the other practices". We began offering 5 forms for $99 (build once, run anywhere), and offered that as a limited time offer until last Friday – this was too sweet a deal, which moved the first practice over the finish line.
+* We started working on this new concept on December 10th, had a prototype ready by December 18th, and had our first customer demo Jan 8th. We have a verbal sign-on incl. pricing Jan 23rd.
 
 Bad
 ===
-* The sales cycle is quite long – 4 weeks for a first client.
+* We had a call with an EMR – not possible to integrate. They're holding the customer's healthcare data hostage. Upside: Customers subscribed anyway.
+* A LOT of work to do now 🚀
+
 
 Asks
 ----
 * Intros to practices struggling with form overload.
-* Intros to investors with experience in the medical software space for advice.
-* Advice on building out healthcare SaaS products.
-* We're looking for free/cheap office space for one or two, please! We were doing spacious.com, but it's a little lonely.
+* Intros to founders or investors with experience / advice on building out healthcare SaaS products.
+* We're looking for free/cheap office space for one or two, please! We are currently doing spacious.com, and have moved to a friend's garage...

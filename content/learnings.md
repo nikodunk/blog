@@ -47,7 +47,7 @@ Soap dictate was built to help my friend Libo at Stanford Internal Medicine save
 
 Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month. 
 
-The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month.
+The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Took down after 3 months because the HIPAA situation of Apple's Speech Recognition API is unclear – technically HIPAA compliantly encrypted, but as Apple would never sign a BAA, not a risk I wanted to take on as the above project took off...
 
 	Tech
 	* React Native App
@@ -59,9 +59,8 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* Paying customers: 8
 	* MRR: $31.92
 	* Price point: $3.99/month
-	* 150 registered users
+	* 171 registered users
 	* Organic app store search
-
 
 * [App Store Link](https://itunes.apple.com/app/id1384252497)
 
@@ -69,6 +68,9 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 ![](/learnings/demo_health3.gif)
 
+![](/learnings/soapstats_1.png)
+![](/learnings/soapstats_2.png)
+![](/learnings/soapstats_3.png)
 
 
 
