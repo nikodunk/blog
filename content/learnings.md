@@ -20,7 +20,7 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
 
-Together with my cofounder, we came up with the idea for paperwork labs when he was describing the challenges physicians are facing with government paperwork. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
+Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
 
 	Tech
 	* MERN web stack:
@@ -53,8 +53,9 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
-	Stats
-	* Paying customers: 8
+	Stats before shutdown
+	* Paying customers: 9
+	* Trial customers: 4
 	* MRR: $31.92
 	* Price point: $3.99/month
 	* 171 registered users
