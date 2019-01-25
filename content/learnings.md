@@ -25,7 +25,7 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 	Tech
 	* MERN web stack:
 	* React frontend
-	* Node/Express/Postgres backend running on HIPAA compliant AWS Elastic Beanstalk
+	* Node/Express/Postgres backend running on HIPAA compliant Heroku Shield
 
 	Stats
 	* Price point: $99/month for all-you-can-eat medical smartforms
