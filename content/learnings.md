@@ -201,7 +201,7 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 	Tech
 	* React Native App with Node Server:
 	* Frontend in React Native/Redux
-	* Backend in Node/Express/PostgreSQL
+	* Backend in Node/Express/PostgreSQL running on Heroku
 
 	Stats
 	* 275 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
