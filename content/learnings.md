@@ -84,7 +84,7 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 --------------------------------------------------------------------------------------------------------------
 
 
-### ![](/learnings/logo_sustainability2.png) electrific | EV Price Tracker & Charging Map App
+### ![](/learnings/logo_sustainability2.png) electrification | EV News, Price Tracker & Charging Map App
 
 
 
@@ -102,6 +102,9 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 ![](/learnings/electrific1.png)
 ![](/learnings/electrific2.png)
+
+
+
 
 
 ### ![](/learnings/logo_sustainability1.gif) sunboxlabs.com | Solar Price Tracker & Platform for DIY solar
