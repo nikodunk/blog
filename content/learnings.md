@@ -92,16 +92,18 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* React-Native App
 	* Dynamic pricing data scraped with APIfy.com
 	* Mapping data from OpenChargeMap.com
+	* Newest EV news scraped from Twitter
 
 	Stats
-	* Users: 0
+	* Users: 10
 
 
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
 
 
-![](/learnings/electrific1.png)
-![](/learnings/electrific2.png)
+![](/learnings/electrification1.png)
+![](/learnings/electrification2.png)
+![](/learnings/electrification3.png)
 
 
 
