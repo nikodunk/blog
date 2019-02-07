@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learnings: Things I've made so far."
+title:  "Learnings from projects & things I've made so far."
 date:   2019-01-16 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 ---
