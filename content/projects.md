@@ -12,6 +12,116 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 
 
+
+# Sustainability
+--------------------------------------------------------------------------------------------------------------
+
+
+### ![](/learnings/logo_sustainability2.png) electrification | EV News, Price Tracker & Charging Maps
+
+
+
+	Tech:
+	* React-Native App
+	* Dynamic pricing data scraped with APIfy.com
+	* Mapping data from OpenChargeMap.com
+	* Newest EV news scraped from Twitter
+
+	Stats
+	* Users: 10
+
+
+* [App Store Link](https://itunes.apple.com/us/app/id1445602414)
+
+
+![](/learnings/electrification1.png)
+![](/learnings/electrification2.png)
+![](/learnings/electrification3.png)
+
+
+------------
+
+
+### ![](/learnings/logo_sustainability1.gif) sunboxlabs.com | Solar Price Tracker & Platform for DIY solar
+
+With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
+
+
+
+	Tech:
+	* Static Hugo Site 
+	* Dynamic pricing data scraped from Amazon with APIfy.com
+	* User submitted content
+
+	Stats
+	* 204'600 uniques from July 2017 - July 2018
+	* 3.74% conversion to Amazon affiliate program
+	* MRR: ~ $20.00
+	* 2 versions of kit launched
+
+* [Sunboxlabs.com Site](http://sunboxlabs.com)
+
+![](/learnings/sunboxlabssite2.png)
+![](/learnings/sunboxlabssite.png)
+![](/learnings/demo3.png)
+![](/200/COMPONENTS.jpg)
+
+
+
+
+
+-----------
+
+
+### ![](/learnings/logo_sustainability.png) GoodGood | B-Corp Price Tracker
+
+Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
+
+	Tech
+	* Angular 2 app
+	* Dynamic pricing & product data from Viglink API
+	* B-Corps scraped from bcorporation.com with APIfy.com
+
+* [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
+
+![](/learnings/bamazon.gif)
+
+
+
+-----------
+
+
+
+### ![](/learnings/logo_paper.png) Paper Inc. | Mail-order Sustainable Flatpack Furniture
+
+The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.
+
+![](/learnings/paper.png)
+
+This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.
+
+We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.
+
+	Tech:
+	* CNC-Milled furniture built in Rhinoceros modelling
+	* Squarespace site
+
+	Stats
+	* I4C Clean-Tech Startup Accelerator Cohort ‘14
+	* $10,000 in test-sales
+	* Pre-Seed round (aborted)
+	* My first ever entrepreneurial project
+
+
+* [Smokefurniture.com Mirror](http://nikodunk.github.io/smoke/)
+
+![](/learnings/smokesite.png) ![](/learnings/smoke.gif)  
+![](/learnings/smoke.jpg)
+
+
+
+
+
 # Health
 --------------------------------------------------------------------------------------------------------------
 
@@ -75,83 +185,31 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 
 
+--------------
 
+### ![](/learnings/logo_health0.png) I Am Off! | Off-day planner for Physicians
 
-
-
-
-# Sustainability
---------------------------------------------------------------------------------------------------------------
-
-
-### ![](/learnings/logo_sustainability2.png) electrification | EV News, Price Tracker & Charging Map App
-
-
-
-	Tech:
-	* React-Native App
-	* Dynamic pricing data scraped with APIfy.com
-	* Mapping data from OpenChargeMap.com
-	* Newest EV news scraped from Twitter
-
-	Stats
-	* Users: 10
-
-
-* [App Store Link](https://itunes.apple.com/us/app/id1445602414)
-
-
-![](/learnings/electrification1.png)
-![](/learnings/electrification2.png)
-![](/learnings/electrification3.png)
-
-
-
-
-
-### ![](/learnings/logo_sustainability1.gif) sunboxlabs.com | Solar Price Tracker & Platform for DIY solar
-
-With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
-
-
-
-	Tech:
-	* Static Hugo Site 
-	* Dynamic pricing data scraped from Amazon with APIfy.com
-	* User submitted content
-
-	Stats
-	* 204'600 uniques from July 2017 - July 2018
-	* 3.74% conversion to Amazon affiliate program
-	* MRR: ~ $20.00
-	* 2 versions of kit launched
-
-* [Sunboxlabs.com Site](http://sunboxlabs.com)
-
-![](/learnings/sunboxlabssite2.png)
-![](/learnings/sunboxlabssite.png)
-![](/learnings/demo3.png)
-![](/200/COMPONENTS.jpg)
-
-
-
-
-
-
-
-
-### ![](/learnings/logo_sustainability.png) GoodGood | B-Corp Price Tracker
-
-Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
+Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.
 
 	Tech
-	* Angular 2 app
-	* Dynamic pricing & product data from Viglink API
-	* B-Corps scraped from bcorporation.com with APIfy.com
+	* React Native App with Node Server:
+	* Frontend in React Native/Redux
+	* Backend in Node/Express/PostgreSQL running on Heroku
 
-* [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
+	Stats
+	* 275 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
+	* 145 WAUs
+	* Price: Free
+	* Growth through internship onboardings, organic.
 
-![](/learnings/bamazon.gif)
+* [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
+* [Google Play Link](https://play.google.com/store/apps/details?id=com.pokedoc.iamoff) 
+
+![](/learnings/demo_health.gif) 
+![](/learnings/demo_health.png)
+
+
+
 
 
 
@@ -199,61 +257,11 @@ With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picke
 
 ---------
 
-### ![](/learnings/logo_health0.png) I Am Off! | Finding common days off for friend groups
-
-Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.
-
-	Tech
-	* React Native App with Node Server:
-	* Frontend in React Native/Redux
-	* Backend in Node/Express/PostgreSQL running on Heroku
-
-	Stats
-	* 275 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
-	* 145 WAUs
-	* Price: Free
-	* Growth through internship onboardings, organic.
-
-* [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
-* [Google Play Link](https://play.google.com/store/apps/details?id=com.pokedoc.iamoff) 
-
-![](/learnings/demo_health.gif) 
-![](/learnings/demo_health.png)
 
 
 
 # Misc Hardware
 --------------------------------------------------------------------------------------------------------------
-
-
-
-### ![](/learnings/logo_paper.png) Paper Inc. (my first company) – mail-order sustainable flatpack furniture (website/hardware)
-
-The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.
-
-![](/learnings/paper.png)
-
-This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.
-
-We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.
-
-	Tech:
-	* CNC-Milled furniture built in Rhinoceros modelling
-	* Squarespace site
-
-	Stats
-	* I4C Clean-Tech Startup Accelerator Cohort ‘14
-	* $10,000 in test-sales
-	* Pre-Seed round (aborted)
-	* My first ever entrepreneurial project
-
-
-* [Smokefurniture.com Mirror](http://nikodunk.github.io/smoke/)
-
-![](/learnings/smokesite.png) ![](/learnings/smoke.gif)  
-![](/learnings/smoke.jpg)
-
----------
 
 
 
