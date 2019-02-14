@@ -5,6 +5,7 @@ theme = "kiss"
 Paginate = 100 # Number of posts per page
 googleAnalytics = "UA-104927808-1"
 enableRobotsTXT = true
+publishDir = "docs"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss

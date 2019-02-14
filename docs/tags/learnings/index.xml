@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learnings on D U N K | niko&#39;s blog</title>
+    <link>https://nikodunk.github.io/tags/learnings/</link>
+    <description>Recent content in Learnings on D U N K | niko&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Jan 2019 08:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://nikodunk.github.io/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
+      <link>https://nikodunk.github.io/projects/</link>
+      <pubDate>Wed, 16 Jan 2019 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.github.io/projects/</guid>
+      <description>This is a general blog post on my various schemes so far, loosely grouped around topic. I look like this when I&amp;rsquo;ve made something:
+Sustainability electrification | EV News, Price Tracker &amp;amp; Charging Maps Tech: * React-Native App * Dynamic pricing data scraped with APIfy.com * Mapping data from OpenChargeMap.com * Newest EV news scraped from Twitter Stats * Users: 10   App Store Link  sunboxlabs.com | Solar Price Tracker &amp;amp; Platform for DIY solar With Zebulon Reynolds (for part of the way), this project sunboxlabs.</description>
+    </item>
+    
+    <item>
+      <title>Learnings: Building swissnex SF&#39;s startup program</title>
+      <link>https://nikodunk.github.io/accelerator/</link>
+      <pubDate>Tue, 10 Apr 2018 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.github.io/accelerator/</guid>
+      <description>Originally posted as &amp;ldquo;8 learnings for startups (from swissnex SF Startup Camp)&amp;rdquo; at startupticker.ch and the swissnex blog.
+swissnex San Francisco connects Swiss startups to a Bay Area network, and provides tools, techniques, training, and workspace in San Francisco. Twice a year, the swissnex SF Startup Camp brings together startups from EPFL XGrant and Innosuisse Market Entry Camp, and any other Swiss startup (for a fee). Get in touch with any questions or see below for more information.</description>
+    </item>
+    
+    <item>
+      <title>Learnings: My first startup, Paper.</title>
+      <link>https://nikodunk.github.io/paper/</link>
+      <pubDate>Fri, 30 Dec 2016 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.github.io/paper/</guid>
+      <description>An archived version of the final website (started as Paper Furniture, ended up being called Smoke Furniture Co.) before we switched it off is here.
+1 Team Team Team Cofounder Cofounder Cofounder. Team Team Team. I can&amp;rsquo;t stress this enough, and is the main point of learning I&amp;rsquo;ve brought.
+2 Problem problem problem Find a hair-on-fire problem (vitamins vs. painkillers). There should be no substitution, and extreme urgency to try your project.</description>
+    </item>
+    
+  </channel>
+</rss>

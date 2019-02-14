@@ -1,0 +1,45 @@
+article div.content {
+	display: none !important;	
+}
+
+article {
+	display: flex;
+	margin-top: 0px !important;
+}
+
+
+.section .container :not(.content) h1, h2{
+	margin-top: 0px;
+	font-size: 1.1rem;
+}
+
+
+article h2{
+	width: 190px;
+}
+
+
+article h1{
+	width: 400px;
+}
+
+
+
+img{
+	max-height: 500px !important;
+}
+
+
+.content h1, h2, h3, h4, h5{
+	color: #444444 !important;
+}
+
+
+.title{
+	font-weight: 600;
+}
+
+
+.tags{
+	display: none !important;
+}
