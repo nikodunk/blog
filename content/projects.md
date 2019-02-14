@@ -31,7 +31,7 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
-* [Electrification.cc](https://electrification.cc)
+* [Electrification.cc](http://electrification.cc)
 
 
 ![](/projects/electrification1.png)
