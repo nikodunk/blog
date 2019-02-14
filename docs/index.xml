@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>D U N K | niko&#39;s blog</title>
-    <link>https://nikodunk.github.io/</link>
+    <link>https://nikodunk.com/</link>
     <description>Recent content on D U N K | niko&#39;s blog</description>
     <generator>Hugo - gohugo.io</generator>
     <language>en</language>
     <contact>n.dunkel@gmail.com</contact>
     <copyright></copyright>
     
-        <atom:link href="https://nikodunk.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://nikodunk.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
-      <link>https://nikodunk.github.io/projects/</link>
+      <link>https://nikodunk.com/projects/</link>
       <pubDate>Wed, 16 Jan 2019 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/projects/</guid>
+      <guid>https://nikodunk.com/projects/</guid>
       <description></description>
       
       <content>
 
 &lt;p&gt;This is a general blog post on my various schemes so far, loosely grouped around topic. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/gianni_colombo.jpg&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.github.io/learnings/scientist.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/gianni_colombo.jpg&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/learnings/scientist.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;sustainability&#34;&gt;Sustainability&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-sustainability2-png-electrification-ev-news-price-tracker-charging-maps&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrification | EV News, Price Tracker &amp;amp; Charging Maps&lt;/h3&gt;
+&lt;h3 id=&#34;learnings-logo-sustainability2-png-electrification-ev-news-price-tracker-charging-maps&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrification | EV News, Price Tracker &amp;amp; Charging Maps&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech:
 * React-Native App
@@ -46,15 +46,15 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/id1445602414&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/electrification1.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/electrification2.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/electrification3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/electrification1.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/electrification2.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/electrification3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-sustainability1-gif-sunboxlabs-com-solar-price-tracker-platform-for-diy-solar&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/logo_sustainability1.gif&#34; alt=&#34;&#34; /&gt; sunboxlabs.com | Solar Price Tracker &amp;amp; Platform for DIY solar&lt;/h3&gt;
+&lt;h3 id=&#34;learnings-logo-sustainability1-gif-sunboxlabs-com-solar-price-tracker-platform-for-diy-solar&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_sustainability1.gif&#34; alt=&#34;&#34; /&gt; sunboxlabs.com | Solar Price Tracker &amp;amp; Platform for DIY solar&lt;/h3&gt;
 
-&lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;a href=&#34;http://sunboxlabs.com&#34; target=&#34;_blank&#34;&gt;sunboxlabs.com&lt;/a&gt; developed out of a &lt;a href=&#34;https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4&#34;&gt;HackerNoon&lt;/a&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;HackerNews&lt;/a&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;twice&lt;/a&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;a href=&#34;http://nikodunk.github.io/sunboxlabs&#34;&gt;sunbox labs&lt;/a&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;i&gt;&lt;a href=&#34;https://nikodunk.github.io/solar&#34;&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;a href=&#34;http://sunboxlabs.com&#34; target=&#34;_blank&#34;&gt;sunboxlabs.com&lt;/a&gt; developed out of a &lt;a href=&#34;https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4&#34;&gt;HackerNoon&lt;/a&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;HackerNews&lt;/a&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;twice&lt;/a&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;a href=&#34;http://nikodunk.github.io/sunboxlabs&#34;&gt;sunbox labs&lt;/a&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;i&gt;&lt;a href=&#34;https://nikodunk.com/solar&#34;&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech:
 * Static Hugo Site 
@@ -72,14 +72,14 @@ Stats
 &lt;li&gt;&lt;a href=&#34;http://sunboxlabs.com&#34;&gt;Sunboxlabs.com Site&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/sunboxlabssite2.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/sunboxlabssite.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/demo3.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/200/COMPONENTS.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/sunboxlabssite2.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/sunboxlabssite.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/demo3.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/200/COMPONENTS.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-sustainability-png-goodgood-b-corp-price-tracker&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; GoodGood | B-Corp Price Tracker&lt;/h3&gt;
+&lt;h3 id=&#34;learnings-logo-sustainability-png-goodgood-b-corp-price-tracker&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; GoodGood | B-Corp Price Tracker&lt;/h3&gt;
 
 &lt;p&gt;Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing &amp;amp; image data from Viglink API.&lt;/p&gt;
 
@@ -93,15 +93,15 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/bamazon/&#34;&gt;Goodgood.io 1.0 Mirror&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/bamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/bamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-paper-png-paper-inc-mail-order-sustainable-flatpack-furniture&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/logo_paper.png&#34; alt=&#34;&#34; /&gt; Paper Inc. | Mail-order Sustainable Flatpack Furniture&lt;/h3&gt;
+&lt;h3 id=&#34;learnings-logo-paper-png-paper-inc-mail-order-sustainable-flatpack-furniture&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_paper.png&#34; alt=&#34;&#34; /&gt; Paper Inc. | Mail-order Sustainable Flatpack Furniture&lt;/h3&gt;
 
 &lt;p&gt;The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/paper.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/paper.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.&lt;/p&gt;
 
@@ -122,16 +122,16 @@ Stats
 &lt;li&gt;&lt;a href=&#34;http://nikodunk.github.io/smoke/&#34;&gt;Smokefurniture.com Mirror&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/smokesite.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.github.io/learnings/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/smoke.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/smokesite.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/learnings/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/smoke.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;health&#34;&gt;Health&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-paperworklabs-png-paperworklabs-com-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/logo_paperworklabs.png&#34; alt=&#34;&#34; /&gt; paperworklabs.com | Turbotax for medical forms&lt;/h3&gt;
+&lt;h3 id=&#34;learnings-logo-paperworklabs-png-paperworklabs-com-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_paperworklabs.png&#34; alt=&#34;&#34; /&gt; paperworklabs.com | Turbotax for medical forms&lt;/h3&gt;
 
-&lt;p&gt;See ongoing progress in the newer posts on this site, like &lt;a href=&#34;https://nikodunk.github.io/startup-updates-1&#34;&gt;this one&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See ongoing progress in the newer posts on this site, like &lt;a href=&#34;https://nikodunk.com/startup-updates-1&#34;&gt;this one&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &amp;ldquo;turbotax for medical forms&amp;rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &amp;ldquo;smart forms&amp;rdquo; that can export flat PDFs, report on your &amp;ldquo;structured data&amp;rdquo;, and potentially integrates with EHRs if they let us.&lt;/p&gt;
 
@@ -154,7 +154,7 @@ Stats
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-health-png-soap-dictate-app-auto-transcribe-your-soap-notes&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/logo_health.png&#34; alt=&#34;&#34; /&gt; Soap Dictate App | Auto-transcribe your SOAP notes&lt;/h3&gt;
+&lt;h3 id=&#34;learnings-logo-health-png-soap-dictate-app-auto-transcribe-your-soap-notes&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_health.png&#34; alt=&#34;&#34; /&gt; Soap Dictate App | Auto-transcribe your SOAP notes&lt;/h3&gt;
 
 &lt;p&gt;Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.&lt;/p&gt;
 
@@ -181,15 +181,15 @@ Stats before shutdown
 &lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/app/id1384252497&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/demo_health3.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo_health3.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/soapstats_1.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/soapstats_2.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/soapstats_3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/soapstats_1.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/soapstats_2.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/soapstats_3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-health0-png-i-am-off-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! | Off-day planner for Physicians&lt;/h3&gt;
+&lt;h3 id=&#34;learnings-logo-health0-png-i-am-off-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! | Off-day planner for Physicians&lt;/h3&gt;
 
 &lt;p&gt;Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.&lt;/p&gt;
 
@@ -210,8 +210,8 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.pokedoc.iamoff&#34;&gt;Google Play Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/demo_health.gif&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/demo_health.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo_health.gif&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/demo_health.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;misc-software&#34;&gt;Misc Software&lt;/h1&gt;
 
@@ -232,13 +232,13 @@ Stats
 &lt;li&gt;&lt;a href=&#34;http://giftlab.io&#34;&gt;The Gift Lab Site&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/demo giftlab.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo giftlab.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-project-pegasus-logo-png-project-pegasus-recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/project-pegasus-logo.png&#34; alt=&#34;&#34; /&gt; Project Pegasus | Recycling rejected YCombinator applications&lt;/h3&gt;
+&lt;h3 id=&#34;learnings-project-pegasus-logo-png-project-pegasus-recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/project-pegasus-logo.png&#34; alt=&#34;&#34; /&gt; Project Pegasus | Recycling rejected YCombinator applications&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/demo pegasus.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.github.io/learnings/demo pegasus 2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo pegasus.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/learnings/demo pegasus 2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.&lt;/p&gt;
 
@@ -267,15 +267,15 @@ Stats
 
 &lt;p&gt;The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post &lt;a href=&#34;https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/&#34; target=&#34;_blank&#34;&gt;“How I gave up alternating current”&lt;/a&gt;. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/juicebar.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/juicebar.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/juicebar.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/juicebar.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Customers objected that the device was too expensive vs. what money they could save. They also objected that the embodied energy was so high, it would take years to pay off and be “greener” than before. Finally, they objected that the IoT features were useless.&lt;/p&gt;
 
 &lt;p&gt;The juicebar project originally came about in the dying days of Paper Inc.: I started playing around with added electrical components to differentiate the tables and chairs we’d already bought and hope to liquidate them on Kickstarter (below). Eventually I dropped the tables completely and went on with a pure window-sill design above. I also added an Arduino for good measure so I could track electrical production during the day (and because IoT funding was readily available…). I also got sucked up in the IoT craze (since this was technically an IoT product), and spent a lot of time pitching and filming, instead of improving the product. This was my first project where coding was involved, so I’m thankful for that. Many Alibaba-sourced 12V lithium batteries &amp;amp; panels were thrashed at this stage.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/juice.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/juice2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/juice.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/juice2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -283,16 +283,16 @@ Stats
 
 &lt;p&gt;LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 20 were ever made. Very expensive. I learned that making your own goods is a whole different operation from selling them.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/lunch.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/lunch.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/lunch2.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/lunch3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/lunch.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/lunch.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/lunch2.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/lunch3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;Student project, Thomas Meyer and I put in many man-hours into the leather-, copper- and woodwork necessary for this project.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/loungeforceone.jpg&#34; alt=&#34;&#34; /&gt;  &lt;img src=&#34;https://nikodunk.github.io/learnings/loungeforcetwo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/loungeforceone.jpg&#34; alt=&#34;&#34; /&gt;  &lt;img src=&#34;https://nikodunk.com/learnings/loungeforcetwo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -308,7 +308,7 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/focuswriter-react-vr&#34;&gt;FocusWriter Web App&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/demo2.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo2.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -323,13 +323,13 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/simple-to-do-react&#34;&gt;CollaborativeTodo Web App&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/demo.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/nikodunk/solar-search-swift&#34;&gt;Solar Summon&lt;/a&gt; – Solar search for iOS drawing from MapKit, and &lt;a href=&#34;https://github.com/nikodunk/reactnativesolar&#34;&gt;Solar Summon&lt;/a&gt; – Later Rebuilt in React Native. These were my first iOS projects in Swift and React Native.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/demo4.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo4.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -348,7 +348,7 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/ewg-search/&#34;&gt;Goodgood.io Mirror&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/goodgood.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/goodgood.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -365,11 +365,11 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/sustainable-co-videos/&#34;&gt;Superjuice.cc Mirror&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/superjuice2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/superjuice2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-superjuice-png-superjuice-kayak-for-energy&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/logo_superjuice.png&#34; alt=&#34;&#34; /&gt;  Superjuice | Kayak for Energy&lt;/h3&gt;
+&lt;h3 id=&#34;learnings-logo-superjuice-png-superjuice-kayak-for-energy&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_superjuice.png&#34; alt=&#34;&#34; /&gt;  Superjuice | Kayak for Energy&lt;/h3&gt;
 
 &lt;p&gt;Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.&lt;/p&gt;
 
@@ -403,7 +403,7 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://insureum.netlify.com&#34;&gt;Insureum Web App&lt;/a&gt; (note: requires &lt;a href=&#34;http://metamask.io&#34;&gt;Metamask&lt;/a&gt; on desktop or &lt;a href=&#34;http://toshi.org&#34;&gt;Toshi&lt;/a&gt; on mobile) to view)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/demo insureum.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo insureum.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -420,7 +420,7 @@ Stats
 
 &lt;p&gt;So far we haven&amp;rsquo;t been able to find a business case with these Dapps, and as described &lt;a href=&#34;https://nikodunk.github.io/blockchain&#34;&gt;here&lt;/a&gt;, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/ethereum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/ethereum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;work&#34;&gt;Work&lt;/h1&gt;
 
@@ -428,9 +428,9 @@ Stats
 
 &lt;h3 id=&#34;building-a-startup-accelerator-at-swissnexsf&#34;&gt;Building a startup accelerator at swissnexSF&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/accelerator/moneyshot1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/moneyshot1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Next to my learnings described &lt;a href=&#34;https://nikodunk.github.io/accelerator&#34;&gt;here&lt;/a&gt;, and numerous lessons in marketing, project management, team, networks, et al, I&amp;rsquo;d like to hold on to one quote from a superior that will stick with me for a while:&lt;/p&gt;
+&lt;p&gt;Next to my learnings described &lt;a href=&#34;https://nikodunk.com/accelerator&#34;&gt;here&lt;/a&gt;, and numerous lessons in marketing, project management, team, networks, et al, I&amp;rsquo;d like to hold on to one quote from a superior that will stick with me for a while:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;The degree to which you can deploy a digital solution is limited by the network in which you can deploy it.
 &lt;/code&gt;&lt;/pre&gt;
@@ -468,7 +468,7 @@ Stats
 
 &lt;p&gt;When working professionally, designed facades and interiors mostly for competition work. This facade was designed by the team I was on at a large architecture firm in Basel, Switzerland. We won that competition.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/hillerod.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/hillerod.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -476,8 +476,8 @@ Stats
 
 &lt;p&gt;Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”. This project reflected the poetic side of architecture – most of the school was engineering.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/sik.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/emerson.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/sik.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/emerson.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -485,8 +485,8 @@ Stats
 
 &lt;p&gt;I learned a huge amount about dealing with clients, together with my friend Zebulon Reynolds in San Francisco. The game was an iOS Flight Simulator.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/learnings/infinite.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.github.io/learnings/infinite.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/infinite.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/learnings/infinite.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;the-beginning-of-time&#34;&gt;The beginning of time.&lt;/h1&gt;
 
@@ -501,10 +501,10 @@ Stats
     
     <item>
       <title>Thought: Gillets Jaunes sounds like russian</title>
-      <link>https://nikodunk.github.io/thought-gillets-jaunes/</link>
+      <link>https://nikodunk.com/thought-gillets-jaunes/</link>
       <pubDate>Mon, 17 Dec 2018 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/thought-gillets-jaunes/</guid>
+      <guid>https://nikodunk.com/thought-gillets-jaunes/</guid>
       <description></description>
       
       <content>&lt;p&gt;Glad to read &lt;a href=&#34;https://www.theguardian.com/world/2018/dec/17/gilets-jaunes-grassroots-heroes-or-kremlin-tools&#34;&gt;this&lt;/a&gt;, after a few weeks of wondering how the &lt;a href=&#34;https://en.wikipedia.org/wiki/Yellow_vests_movement&#34;&gt;Gillets Jaunes&lt;/a&gt; movement in France could organize through Facebook Groups yet no-one was drawing the parallels to the &lt;a href=&#34;https://www.texastribune.org/2017/11/01/russian-facebook-page-organized-protest-texas-different-russian-page-l/&#34;&gt;last time&lt;/a&gt; social unfairness was harnessed by a foreign power to turn out mass-protests. Apparently there&amp;rsquo;s no smoke to that fire.&lt;/p&gt;
@@ -516,10 +516,10 @@ Stats
     
     <item>
       <title>Learnings: Building swissnex SF&#39;s startup program</title>
-      <link>https://nikodunk.github.io/accelerator/</link>
+      <link>https://nikodunk.com/accelerator/</link>
       <pubDate>Tue, 10 Apr 2018 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/accelerator/</guid>
+      <guid>https://nikodunk.com/accelerator/</guid>
       <description></description>
       
       <content>
@@ -528,7 +528,7 @@ Stats
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/accelerator/moneyshot1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/moneyshot1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;swissnex San Francisco connects Swiss startups to a Bay Area network, and provides tools, techniques, training, and workspace in San Francisco. Twice a year, the &lt;a href=&#34;http://swissnexsf.org/startups&#34; target=&#34;_blank&#34;&gt;swissnex SF Startup Camp&lt;/a&gt; brings together startups from EPFL XGrant and Innosuisse Market Entry Camp, and any other Swiss startup (for a fee). Get in touch with any questions or see below for more information.&lt;/p&gt;
 
@@ -536,7 +536,7 @@ Stats
 
 &lt;p&gt;Results of the camp speak for themselves: over the years some of the best Swiss startups like &lt;a href=&#34;http://avawomen.com&#34; target=&#34;_blank&#34;&gt;Ava&lt;/a&gt;, &lt;a href=&#34;http://beekeeper.com&#34; target=&#34;_blank&#34;&gt;Beekeeper&lt;/a&gt;, Faceshift (acquired by Apple), &lt;a href=&#34;http://doodle.com&#34; target=&#34;_blank&#34;&gt;Doodle&lt;/a&gt;, and &lt;a href=&#34;http://mindmaze.com&#34; target=&#34;_blank&#34;&gt;Mindmaze&lt;/a&gt; have come through our camps. Today, their valuation totals 1.1B! swissnex is proud to hold a network of 400 founders and friends to help future campers.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/accelerator/workspace.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/workspace.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;the-swissnex-sf-startup-camp-approach&#34;&gt;The swissnex SF Startup Camp approach&lt;/h1&gt;
 
@@ -551,7 +551,7 @@ Stats
 
 &lt;p&gt;Here are eight of our key takeaways from the first swissnex SF Startup Camp.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/accelerator/fireside2.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/fireside2.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;8-learnings-for-startups&#34;&gt;8 LEARNINGS FOR STARTUPS&lt;/h1&gt;
 
@@ -573,7 +573,7 @@ Stats
 
 &lt;p&gt;Every route will be different, so be wary of people who give you absolute (and unsolicited) advice. The best advice comes from people who ask you questions, rather than giving you oversimplified answers and solutions that worked on their own path. Your approach to solving problems will be as unique as your experience and business. Whether it’s investors, friends, colleagues or even your team, be wary of which kind of advice you accept. &lt;b&gt;You’ll know good advice when it comes in the form of questions.&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/accelerator/fireside.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/fireside.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;learning-4-tell-your-story-in-rules-of-threes&#34;&gt;Learning #4: Tell your story in Rules of Threes&lt;/h2&gt;
 
@@ -599,7 +599,7 @@ Stats
 
 &lt;p&gt;This hack applies mainly to European startups expanding to the US, but if you&amp;rsquo;re a tech startup there&amp;rsquo;s no excuse for not having your web presence up to date — in English — and having a US phone number and address. This will make US customers more comfortable with doing business with you. &lt;b&gt;A US phone number costs little, but the upside is huge.&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/accelerator/workspace_2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/workspace_2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;learning-8-find-startup-friends-to-share-your-journey-with&#34;&gt;Learning #8: Find startup friends to share your journey with.&lt;/h2&gt;
 
@@ -628,10 +628,10 @@ Stats
     
     <item>
       <title>Essay: As cities grow, nations will fade.</title>
-      <link>https://nikodunk.github.io/cities/</link>
+      <link>https://nikodunk.com/cities/</link>
       <pubDate>Tue, 27 Mar 2018 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/cities/</guid>
+      <guid>https://nikodunk.com/cities/</guid>
       <description></description>
       
       <content>
@@ -646,7 +646,7 @@ Stats
 
 &lt;p&gt;Democracy was designed to rule a city, after all – Athens. Maybe we&amp;rsquo;ve stretched the democratic system further than it was meant to be expanded? Could we let democracy function at its optimum scale – the city – while finding some other way to organize on a federal level?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/cities/athensromanagora.jpg&#34; alt=&#34;&#34; /&gt; The Roman Agora in Athens from &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Athens_Roman_Agora.jpg/800px-Athens_Roman_Agora.jpg&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/cities/athensromanagora.jpg&#34; alt=&#34;&#34; /&gt; The Roman Agora in Athens from &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Athens_Roman_Agora.jpg/800px-Athens_Roman_Agora.jpg&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;cities-are-efficient&#34;&gt;Cities are efficient&lt;/h2&gt;
 
@@ -655,12 +655,12 @@ Stats
 &lt;p&gt;Many things speak to the city (or more precisely, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Metropolitan_area&#34;&gt;metropolitan area&lt;/a&gt;) working better as a governable body — and &lt;a href=&#34;http://www.un.org/en/development/desa/news/population/world-urbanization-prospects-2014.html&#34;&gt;most people now live in one of them&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Proximity to politicians =&amp;gt; Accountability:&lt;/strong&gt; By definition, a mayor lives within her or his constituency. If a mayor ignores those constituents, they can arrive at their doorstep within the hour. This creates accountability. At this scale, community leaders may rise to the forefront to solve constituents&amp;rsquo; issues, as opposed to career politicians. Cities have a scale where the chief priority of leaders is helping people. For example, Paris starts offering its residents bikesharing with &lt;a href=&#34;https://www.citylab.com/city-makers-connections/bike-share/#slide-1998&#34;&gt;Vélib’&lt;/a&gt;, arguably the first wide-scale bikesharing system after initial experiments in Denmark and Holland. Bogota solves commute times for its poor with &lt;a href=&#34;https://www.pri.org/stories/2015-10-21/can-modern-megacity-bogot-get-without-subway&#34;&gt;innovative public transportation systems&lt;/a&gt; , now spreading to Seattle and other cities through the &lt;a href=&#34;https://www.ted.com/talks/benjamin_barber_why_mayors_should_rule_the_world&#34;&gt;global meetings of mayors&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.github.io/cities/transmilenio.jpg&#34; alt=&#34;&#34; /&gt; Bogota&amp;rsquo;s innovative Transmilenio by &lt;a href=&#34;https://www.flickr.com/photos/oskam/6253700043/in/photolist-awBR9x-awEyKQ-y4G9n-eF57da-y4G3M-9u7Btf-rRYqgM-rTHmh3-6rDD2C-sbfR8V-wwMy1-9QcA7n-6rzy8P-4z4MLV-sbaoyJ-revcit-rTRDd2-8VGpY7-sbiQQP-s91HqA-fbNgv-gTArzs-s91Vcb-y4G6L-y4Gcs-4Yi69w-reuKTR-reiCbE-56581s-sba6im-sbfvYH-5x2PaD-8X6zWA-5657M1-sbiytF-sb9RLm-reisnS-reuW5c-sba5pN-s91T4y-xd1HH-rTRe88-pjarV-s921W7-sbfeYr-sbipsp-sba1uJ-rTJoVE-bDw55i-4yseuS&#34;&gt;Flickr user Oscar Amaya&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Proximity to politicians =&amp;gt; Accountability:&lt;/strong&gt; By definition, a mayor lives within her or his constituency. If a mayor ignores those constituents, they can arrive at their doorstep within the hour. This creates accountability. At this scale, community leaders may rise to the forefront to solve constituents&amp;rsquo; issues, as opposed to career politicians. Cities have a scale where the chief priority of leaders is helping people. For example, Paris starts offering its residents bikesharing with &lt;a href=&#34;https://www.citylab.com/city-makers-connections/bike-share/#slide-1998&#34;&gt;Vélib’&lt;/a&gt;, arguably the first wide-scale bikesharing system after initial experiments in Denmark and Holland. Bogota solves commute times for its poor with &lt;a href=&#34;https://www.pri.org/stories/2015-10-21/can-modern-megacity-bogot-get-without-subway&#34;&gt;innovative public transportation systems&lt;/a&gt; , now spreading to Seattle and other cities through the &lt;a href=&#34;https://www.ted.com/talks/benjamin_barber_why_mayors_should_rule_the_world&#34;&gt;global meetings of mayors&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.com/cities/transmilenio.jpg&#34; alt=&#34;&#34; /&gt; Bogota&amp;rsquo;s innovative Transmilenio by &lt;a href=&#34;https://www.flickr.com/photos/oskam/6253700043/in/photolist-awBR9x-awEyKQ-y4G9n-eF57da-y4G3M-9u7Btf-rRYqgM-rTHmh3-6rDD2C-sbfR8V-wwMy1-9QcA7n-6rzy8P-4z4MLV-sbaoyJ-revcit-rTRDd2-8VGpY7-sbiQQP-s91HqA-fbNgv-gTArzs-s91Vcb-y4G6L-y4Gcs-4Yi69w-reuKTR-reiCbE-56581s-sba6im-sbfvYH-5x2PaD-8X6zWA-5657M1-sbiytF-sb9RLm-reisnS-reuW5c-sba5pN-s91T4y-xd1HH-rTRe88-pjarV-s921W7-sbfeYr-sbipsp-sba1uJ-rTJoVE-bDw55i-4yseuS&#34;&gt;Flickr user Oscar Amaya&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Shared fate =&amp;gt; Homogenous interests:&lt;/strong&gt; Cities are a a big group of people with similar values and interests. Pollution, corruption, or bad public transport will affect everyone, directly or indirectly, as they all live in the city. When citizens are aligned, there&amp;rsquo;s less time wasted bickering and making compromises in between interests that are so misaligned (gun control, abortion) so as to make compromise senseless, and more time making sensible compromise between slightly divergent interests. Maybe the scale of cities is the most efficient scale for human decision making, because everyone can still see and relate to each other — and see the direct consequences of the policies they vote for. In New York City, residents are offered subsidized insulation, rainproofing and solar to decentralize the grid &lt;a href=&#34;http://www.nytimes.com/2012/11/20/business/energy-environment/solar-power-as-solution-for-storm-darkened-homes.html&#34;&gt;implemented after hurricane Sandy&lt;/a&gt;.
-Zurich, despite being socially conservative in the early 90s, offers Heroin addicts Methadone to &lt;a href=&#34;https://www.pri.org/stories/2016-02-12/us-can-learn-lot-zurich-about-how-fight-its-heroin-crisis&#34;&gt;clear up Europe&amp;rsquo;s biggest open drug scene&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.github.io/cities/heroinplatzspitzzurich.gif&#34; alt=&#34;&#34; /&gt; Cleaning up the Platzspitz drug scene in Zurich from &lt;a href=&#34;http://politicsofsin.50megs.com/H/swiss.heroin.summary_lancet.367.1830-4_2006.html&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+Zurich, despite being socially conservative in the early 90s, offers Heroin addicts Methadone to &lt;a href=&#34;https://www.pri.org/stories/2016-02-12/us-can-learn-lot-zurich-about-how-fight-its-heroin-crisis&#34;&gt;clear up Europe&amp;rsquo;s biggest open drug scene&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.com/cities/heroinplatzspitzzurich.gif&#34; alt=&#34;&#34; /&gt; Cleaning up the Platzspitz drug scene in Zurich from &lt;a href=&#34;http://politicsofsin.50megs.com/H/swiss.heroin.summary_lancet.367.1830-4_2006.html&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;One Purpose =&amp;gt; Focus:&lt;/strong&gt; A nation has to multitask, balancing foreign policy and domestic issues. A city government on the other hand is by definition focused on itself – there&amp;rsquo;s nothing to distract it, because everything outside of the city is handled by the national government. This intense sense of focus lets cities concentrate on what they do best: improving life for their constituents and helping innovation bloom. Examples include San Francisco (following Massachusetts among others) offering its residents &lt;a href=&#34;http://www.sacbee.com/news/politics-government/capitol-alert/article138777138.html&#34;&gt;universal health care&lt;/a&gt;. And New York City (under Khan/Bloomberg) reinventing the urban planning model to deliver improvements to its inhabitants &lt;a href=&#34;https://www.ted.com/talks/janette_sadik_khan_new_york_s_streets_not_so_mean_any_more&#34;&gt;faster&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.github.io/cities/khantimessquare.jpg&#34; alt=&#34;&#34; /&gt; Khan/Bloomberg improvements in Time Square, New York City from &lt;a href=&#34;http://www.earthpowernews.com/wp-content/uploads/2014/02/before-after2.jpg&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;One Purpose =&amp;gt; Focus:&lt;/strong&gt; A nation has to multitask, balancing foreign policy and domestic issues. A city government on the other hand is by definition focused on itself – there&amp;rsquo;s nothing to distract it, because everything outside of the city is handled by the national government. This intense sense of focus lets cities concentrate on what they do best: improving life for their constituents and helping innovation bloom. Examples include San Francisco (following Massachusetts among others) offering its residents &lt;a href=&#34;http://www.sacbee.com/news/politics-government/capitol-alert/article138777138.html&#34;&gt;universal health care&lt;/a&gt;. And New York City (under Khan/Bloomberg) reinventing the urban planning model to deliver improvements to its inhabitants &lt;a href=&#34;https://www.ted.com/talks/janette_sadik_khan_new_york_s_streets_not_so_mean_any_more&#34;&gt;faster&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.com/cities/khantimessquare.jpg&#34; alt=&#34;&#34; /&gt; Khan/Bloomberg improvements in Time Square, New York City from &lt;a href=&#34;http://www.earthpowernews.com/wp-content/uploads/2014/02/before-after2.jpg&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;It&amp;rsquo;s a given that cities will become the predominant political chassis in the globalized 21st century as most people will live in them, leading their countries on environmental, social and technological levels. Democracy has and is working well for cities.&lt;/p&gt;
@@ -693,7 +693,7 @@ Zurich, despite being socially conservative in the early 90s, offers Heroin addi
 
 &lt;h2 id=&#34;what-s-next&#34;&gt;What’s Next?&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/cities/futuresf.jpg&#34; alt=&#34;&#34; /&gt; Photo from &lt;a href=&#34;https://flic.kr/p/s1Giva&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/cities/futuresf.jpg&#34; alt=&#34;&#34; /&gt; Photo from &lt;a href=&#34;https://flic.kr/p/s1Giva&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now that most people live in cities we can turn to the human-sized metropolitan scale for lawmaking and civic life, creating more nimble, efficient and fair societies. I predict we will see the world&amp;rsquo;s nations increasingly lose their lawmaking and execution power in the next century to be nothing more than a communication platform between cities and a funding pool for building shared projects no city alone could. The role distribution we&amp;rsquo;re heading towards in this new balance is:
 * Cities self-govern their citizens and experiment constantly with improvements as they do today. But they will increasingly make their own laws for internal civic life and police corporate &amp;ldquo;citizens&amp;rdquo; themselves (which will reduce the danger of lobbying due to lack of distance).
@@ -714,10 +714,10 @@ Zurich, despite being socially conservative in the early 90s, offers Heroin addi
     
     <item>
       <title>How-to: Blockchain experiments: Software that cannot die</title>
-      <link>https://nikodunk.github.io/blockchain/</link>
+      <link>https://nikodunk.com/blockchain/</link>
       <pubDate>Tue, 19 Dec 2017 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/blockchain/</guid>
+      <guid>https://nikodunk.com/blockchain/</guid>
       <description></description>
       
       <content>
@@ -729,13 +729,13 @@ Legacy in software is bad. It is a dirty word.&lt;/p&gt;
 
 &lt;p&gt;Blockchain, because it is shared by all, may be a solution to this issue of splitting useful (but ephemeral) &amp;ldquo;built&amp;rdquo; software projects from capitalistic cycles, and allow them to be guaranteed to be run forever, as everyone is running them. On that note, this is how to run a minimal local blockchain to test code on your local computer, which could then be deployed to the distributed test-net or main-net and be run forever.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/blockchain/monet-dieppe-1024-768.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/blockchain/monet-dieppe-1024-768.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Smart contracts replace backend code in a true Dapp. Blockchains replace the server. They&amp;rsquo;re basically a glorified distributed database that anyone can run programs on and everyone helps run – a mix between AWS and Bittorrent. We&amp;rsquo;ll be using classic React front-end code to interact with it eventually (which I&amp;rsquo;d still recommend hosting on a server – but could be served from IPFS or such too), but for now we&amp;rsquo;ll just interface with the smart contract through the terminal.&lt;/p&gt;
 
 &lt;h2 id=&#34;note-see-other-experiments-here-https-nikodunk-github-io-learnings&#34;&gt;NOTE: See other experiments &lt;a href=&#34;https://nikodunk.github.io/learnings&#34;&gt;here&lt;/a&gt;.&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/blockchain/ethereum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/blockchain/ethereum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-run-a-minimal-local-blockchain&#34;&gt;How to run a minimal local blockchain&lt;/h2&gt;
 
@@ -851,10 +851,10 @@ migrate --reset --network rinkeby
     
     <item>
       <title>How-to: $200 solar self-sufficiency — without your landlord noticing.</title>
-      <link>https://nikodunk.github.io/solarselfsufficiency/</link>
+      <link>https://nikodunk.com/solarselfsufficiency/</link>
       <pubDate>Thu, 20 Jul 2017 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/solarselfsufficiency/</guid>
+      <guid>https://nikodunk.com/solarselfsufficiency/</guid>
       <description></description>
       
       <content>
@@ -869,7 +869,7 @@ migrate --reset --network rinkeby
 
 &lt;p&gt;Apartment renters need the landlord’s permission to install anything on their rooftops. This makes installing solar difficult for people who rent. Because most of the world lives in urbanized areas where renting is common, I think this is a problem standing in the way of solar adoption.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/200/PROBLEM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/PROBLEM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An additional speed bump is the complexity of installing solar: regulation around net-metering. Grid-tied systems. Installation permits (even if you do own your property). Getting quotes from different installers. Solar financing. All complex processes inherited from the construction industry which slow down mass private adoption of renewables.&lt;/p&gt;
 
@@ -881,7 +881,7 @@ migrate --reset --network rinkeby
 
 &lt;p&gt;A windowsill solar system bought off Amazon solves both problems at once: Renters don’t need permission from their landlords to place things on their windowsill and rooftops if it’s not altering the building, and it’s a one-click Amazon purchase with no regulation as long as it’s not tied to the grid (which mine is designed not to be). Two birds with one stone. This makes the solar buying process more like buying a consumer electronic.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/200/TEASER.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/TEASER.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Questions remain. Can this system make any meaningful energy? Does it make financial sense?&lt;/p&gt;
 
@@ -889,15 +889,15 @@ migrate --reset --network rinkeby
 
 &lt;h2 id=&#34;the-components&#34;&gt;The components&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/200/AMAZON.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/AMAZON.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My goal is to take care of the energy needs for just my bedroom. 4 main components are all we need to achieve this: A solar panel to collect, a battery to store, an inverter to convert the direct current to alternating current, and a “charge controller” to balance the three other components. I’m using bargain-basement parts intended for RV, marine &amp;amp; car usage which keeps my system cheap and mobile. Total component cost is $211 ($230 after shipping &amp;amp; taxes). The main components as found on Amazon are above. Anyone looking to build a similar system themselves can view the full component list here (tweet your build @gridlesskits, how it went and what we can improve! We&amp;rsquo;ll repost – and we&amp;rsquo;d love to know!).&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/BOXES.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/COMPONENTS.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/BOXES.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/COMPONENTS.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -920,8 +920,8 @@ migrate --reset --network rinkeby
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/ASSEMBLY1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/ASSEMBLY2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -933,17 +933,17 @@ migrate --reset --network rinkeby
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/200/ASSEMBLY3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Step 1&lt;/b&gt; Cut and lay bare the end of the battery &amp;amp; inverter wires (battery disconnected, please). The panel’s wires are already bare on one end. Do a dry run connecting battery, inverter and panel to the controller — it should look like above. The striped wire of the inverter cable is the positive, the unmarked is negative FYI.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/200/ASSEMBLY4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/ASSEMBLY4-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/ASSEMBLY4-2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY4-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY4-2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -960,8 +960,8 @@ migrate --reset --network rinkeby
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/ASSEMBLY5.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/ASSEMBLY6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY5.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -975,11 +975,11 @@ migrate --reset --network rinkeby
 
 &lt;p&gt;&amp;hellip;and run the power lines back to your apartment (drop down the facade and into the window in my case).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/200/INSIDE.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/INSIDE.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Step 3&lt;/b&gt; Assemble the solar controller, inverter and battery into a tighter package. Re-clamp the wire from the panel to the solar controller and close the window. It should look as above. The charge begins!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/200/SELF-SUFFICIENCY.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/SELF-SUFFICIENCY.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the evening, turn on the inverter. My lamp, computer, tablet &amp;amp; phone are all being powered simultaneously here on the day’s solar charge! Self sufficiency achieved?&lt;/p&gt;
 
@@ -1008,8 +1008,8 @@ Total: 82Wh energy need per day in room (up to 382Wh)`
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/GENERATION.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/GENERATION2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/GENERATION.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/GENERATION2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -1030,8 +1030,8 @@ Total: 82Wh energy need per day in room (up to 382Wh)`
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/FINAL.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/FINAL2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/FINAL.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/FINAL2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -1054,8 +1054,8 @@ Total: 82Wh energy need per day in room (up to 382Wh)`
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/DISHES.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.github.io/200/AC.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/DISHES.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;https://nikodunk.com/200/AC.jpg&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -1122,15 +1122,15 @@ In case of brownouts or blackouts, this would be a helpful way of wirelessly cha
     
     <item>
       <title>Learnings: My first startup, Paper.</title>
-      <link>https://nikodunk.github.io/paper/</link>
+      <link>https://nikodunk.com/paper/</link>
       <pubDate>Fri, 30 Dec 2016 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/paper/</guid>
+      <guid>https://nikodunk.com/paper/</guid>
       <description></description>
       
       <content>
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/paper/paper.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/paper.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An archived version of the final website (started as Paper Furniture, ended up being called Smoke Furniture Co.) before we switched it off is &lt;a href=&#34;http://nikodunk.github.io/smoke/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -1142,7 +1142,7 @@ In case of brownouts or blackouts, this would be a helpful way of wirelessly cha
 
 &lt;p&gt;Find a hair-on-fire problem (vitamins vs. painkillers). There should be no substitution, and extreme urgency to try your project.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/paper/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;3-hardware-is-hard&#34;&gt;3 Hardware is hard.&lt;/h1&gt;
 
@@ -1156,7 +1156,7 @@ In case of brownouts or blackouts, this would be a helpful way of wirelessly cha
 
 &lt;p&gt;Get initial, free traction. Do free tests. Ship now. Resist the urge to get feedback from paid marketing, resist the urge to incorporate/sort out naming/ etc – this will all change and only increases overhead. Be lazer-focused on one thing: is there a problem customers will pay for, and can you make money off it (in our case there was something customers would pay for, but we couldn&amp;rsquo;t make money from it as the up-front investment was too much to bear). This comes off the last point – is there a business case? Do your unit economics work? Do an initial test.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/paper/smoke.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/smoke.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;6-plan-ahead-so-you-re-not-forced-to-raise-money&#34;&gt;6 Plan ahead so you&amp;rsquo;re not forced to raise money&lt;/h1&gt;
 
@@ -1166,7 +1166,7 @@ In case of brownouts or blackouts, this would be a helpful way of wirelessly cha
 
 &lt;p&gt;Be careful who you take advice from – we had bad advisors telling us to make 3-year financial projections. We had funders giving us advice on marketing. All of this is irrelevant – and massively distracticing. Do one thing and do it well.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/paper/smokesite.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/smokesite.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I still think the lightweight/sustainable furniture space is interesting. We needed more interations on this concept however, and we didn&amp;rsquo;t have the time/runway to do so. This was our fault. We should have planned better, to provide more time for iteration. We should also have built less until we knew more. And I should have picked cofounders more carefully.&lt;/p&gt;
 
@@ -1179,10 +1179,10 @@ In case of brownouts or blackouts, this would be a helpful way of wirelessly cha
     
     <item>
       <title>Essay: Vipassana Meditation</title>
-      <link>https://nikodunk.github.io/vipassana/</link>
+      <link>https://nikodunk.com/vipassana/</link>
       <pubDate>Wed, 18 Mar 2015 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/vipassana/</guid>
+      <guid>https://nikodunk.com/vipassana/</guid>
       <description></description>
       
       <content>
@@ -1191,7 +1191,7 @@ In case of brownouts or blackouts, this would be a helpful way of wirelessly cha
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/vipassana/pagoda.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/vipassana/pagoda.jpg&#34; alt=&#34;&#34; /&gt;
 Global Vipassana Pagoda, Mumbai by Flickr user Abhishek Thakur&lt;/p&gt;
 
 &lt;p&gt;On my last day in Mumbai, India, I randomly visited the Global Pagoda, a gigantic structure (the largest of its kind) still under construction, rising like a giant spaceship over the wetlands north of the city. Expecting ostentation, I found a surprisingly secular take on a promise otherwise reserved only for religion, paraphrased: We want to end suffering by teaching everyone a technique to avoid the ups and downs of every day life. Oh, and we’ll do so for free.&lt;/p&gt;
@@ -1202,7 +1202,7 @@ Global Vipassana Pagoda, Mumbai by Flickr user Abhishek Thakur&lt;/p&gt;
 
 &lt;h2 id=&#34;course&#34;&gt;Course&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/vipassana/center.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/vipassana/center.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then it began. Life here consists of a daily, unchanging rhythm. At 4:30 AM every day we rose and at 9:30 PM we turned out the lights. The most important components of your life were the 60 and 90-minute meditation sits. Two delicious and incredibly varied vegan meals nourished you (breakfast and lunch, no dinner). A rest period of one hour at lunch was very welcome. Ten minutes to ask any question of the teacher was always on everyone’s minds (the only time you could talk). But the highlight of everyone’s day was without a doubt a one hour video every evening of the hilarious 1991 lecture series given by the main pusher himself, the guru/teacher Goenka (the only time you got any external input).&lt;/p&gt;
 
@@ -1216,7 +1216,7 @@ Global Vipassana Pagoda, Mumbai by Flickr user Abhishek Thakur&lt;/p&gt;
 
 &lt;h2 id=&#34;technique&#34;&gt;Technique&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/vipassana/hall.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/vipassana/hall.jpg&#34; alt=&#34;&#34; /&gt;
 Where you sit, day in day out. Ladies on the right, men on the left.&lt;/p&gt;
 
 &lt;p&gt;What is the technique? Everything revolves around being aware of sensations on your body caused by external influences (anger in your stomach, pain in your foot, etc), but remaining completely equanimous to these sensations.&lt;/p&gt;
@@ -1239,7 +1239,7 @@ Two stories particularly stuck out to me under the literally hundreds he told in
 
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/vipassana/horizon.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/vipassana/horizon.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So why go through all of this? Two anecdotes to give you an idea:
 There’s a saying, “Don’t sweat the small stuff”. But the funny things is that when you have no external influence for ten days, only “small stuff” remains. And you begin to unconsciously react to this small stuff in your normal patterns. You begin to project your normal everyday behaviour onto your small world. My example is that one lunch break, I was sitting in beautiful sunshine, sipping a cup of tea, looking out over the Californian Sierras, but absolutely seething inside. I had not been able to get a straight answer out of the teachers for the past 8 days, and had had enough. I was questioning what I was doing here, questioning their competency, furiously questioning how I was every going to learn the technique with these incompetent fools leading the course. Then it hit me like a ton of bricks: It may be their fault for not giving me a straight answer (if he even was), but it was completely my fault for being so bummed out about it and messing up my break in the beautiful sunshine — for reacting! That evening, my questions were of course answered in the teacher’s video, which is why he’s been blowing me off, and I had yet again experienced the exact lesson I was supposed to learn that day, taught myself so to speak, on an every day situation.&lt;/p&gt;
@@ -1248,7 +1248,7 @@ There’s a saying, “Don’t sweat the small stuff”. But the funny things is
 
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/vipassana/boundary.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/vipassana/boundary.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;On day ten the silence is lifted, and you realise all your co-meditators went through the exact same trials and tribulations in their heads as you did. Funny what ten days with yourself can teach you. They recommend you continue to practice it in morning and evening for a while to come, but I have heard that it is hard to keep up long-term. I would definitely recommend the course if you have ten days to spare (and hey, it’s free so if you don’t want to donate, you don’t have to), and this is one of those things where an intellectual understanding simply does no justice — you need to feel it in your bones for it to be useful.&lt;/p&gt;
 
@@ -1259,13 +1259,13 @@ There’s a saying, “Don’t sweat the small stuff”. But the funny things is
     
     <item>
       <title>Essay: The Chicago Public Library</title>
-      <link>https://nikodunk.github.io/chicago/</link>
+      <link>https://nikodunk.com/chicago/</link>
       <pubDate>Sat, 21 Feb 2015 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/chicago/</guid>
+      <guid>https://nikodunk.com/chicago/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/chicago/Winslow_Homer_The_Herring_Net.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/chicago/Winslow_Homer_The_Herring_Net.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;“The very existence of libraries affords the best evidence that we may yet have hope for the future of man” — T.S. Eliot
 &lt;/code&gt;&lt;/pre&gt;
@@ -1280,7 +1280,7 @@ There’s a saying, “Don’t sweat the small stuff”. But the funny things is
 &lt;li&gt;&lt;p&gt;A second group of visitors however are consuming entertainment in the library who don’t seem (judging purely superficially by their clothing) privileged enough to be written off as complacent. I wonder if there’s another reason for this — maybe their surroundings have conditioned them so they can&amp;rsquo;t recognize opportunity to learn when confronted with it. If completely outside friends’ and family’s reality to read or watch educational content in the library, then these patterns will be very hard to break out of. There are people who’s conditioning by their surroundings leads them to not take advantage of public services, although they would stand to gain the most from them. My South African friend Derrik once said that “from an African standpoint, it seems crazy that the urban poor in the first world don’t profit more from the many opportunities offered to them, because these opportunities are not available in Africa at all.”&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/chicago/093libraryint.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/chicago/093libraryint.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A third group is reading and studying. They&amp;rsquo;re also well dressed. I&amp;rsquo;d guess they&amp;rsquo;ve have been lucky enough to have been taught to utilise the opportunities at their disposal. I’m reminded of my friend Pete, who when working as a cashier in a coffee-shop, worked so hard that he was moved first to the espresso machine, then to the back-office, then onto accounting. I would have been trying to put in minimal effort and hours on the internship – and treaded water – but he moved up because he had been conditioned to recognise opportunity and work hard with it. I’d like to think that since this group has been born into many opportunities they see it as their duty to do something worthwhile with them. This group has been taught to take advantage of public services at their disposal.&lt;/p&gt;&lt;/li&gt;
@@ -1297,17 +1297,17 @@ There’s a saying, “Don’t sweat the small stuff”. But the funny things is
     
     <item>
       <title>Essay: No</title>
-      <link>https://nikodunk.github.io/no/</link>
+      <link>https://nikodunk.com/no/</link>
       <pubDate>Fri, 13 Feb 2015 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/no/</guid>
+      <guid>https://nikodunk.com/no/</guid>
       <description></description>
       
       <content>
 
 &lt;h2 id=&#34;sometimes-saying-no-is-the-most-positive-thing-to-do&#34;&gt;Sometimes saying &amp;ldquo;No&amp;rdquo; is the most positive thing to do.&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/no/bellows.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/no/bellows.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When do we say no? Saying no is an incredibly useful tool to weed out random or subpar options, to actively strive towards an absolute goal instead of being reactive to the noise around us.
 Naturally, a process of negating what you don’t want can only begin once you know what you want. Counterintuitively, the only way to find out what you want is often by saying yes to everything and gathering experience. But if Yes leads to you discovering the What, No is the How. Saying no is the single best way ever invented for getting what you want; how to achieve goals without being washed around.&lt;/p&gt;
@@ -1323,13 +1323,13 @@ Naturally, a process of negating what you don’t want can only begin once you k
     
     <item>
       <title>Essay: On putting in the hours</title>
-      <link>https://nikodunk.github.io/hours/</link>
+      <link>https://nikodunk.com/hours/</link>
       <pubDate>Tue, 11 Jun 2013 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/hours/</guid>
+      <guid>https://nikodunk.com/hours/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/hours/delft.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/hours/delft.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Contrary to our cultural belief in natural talents, popular science is catching on to the idea that the path to success may be linear. And it may require no more than hard work.&lt;/p&gt;
 
@@ -1350,13 +1350,13 @@ Naturally, a process of negating what you don’t want can only begin once you k
     
     <item>
       <title>Essay: Up!</title>
-      <link>https://nikodunk.github.io/up/</link>
+      <link>https://nikodunk.com/up/</link>
       <pubDate>Thu, 16 May 2013 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.github.io/up/</guid>
+      <guid>https://nikodunk.com/up/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.github.io/up/Guy_Carlton_Wiggins_The_Circle.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/up/Guy_Carlton_Wiggins_The_Circle.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A simple solution to high rents and long commutes in cities was invented a century ago: building up. But San Francisco is restricted vertically to an extreme degree. Why? It’s not seismic issues, it’s a density limit called Prop M. Why do we limit our cities vertically in this way?&lt;/p&gt;
 

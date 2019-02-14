@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on D U N K | niko&#39;s blog</title>
-    <link>https://nikodunk.github.io/tags/</link>
+    <link>https://nikodunk.com/tags/</link>
     <description>Recent content in Tags on D U N K | niko&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Dec 2018 08:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://nikodunk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nikodunk.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Essay</title>
-      <link>https://nikodunk.github.io/tags/essay/</link>
+      <link>https://nikodunk.com/tags/essay/</link>
       <pubDate>Mon, 17 Dec 2018 08:00:00 -0700</pubDate>
       
-      <guid>https://nikodunk.github.io/tags/essay/</guid>
+      <guid>https://nikodunk.com/tags/essay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How To</title>
-      <link>https://nikodunk.github.io/tags/how-to/</link>
+      <link>https://nikodunk.com/tags/how-to/</link>
       <pubDate>Tue, 19 Dec 2017 08:00:00 -0700</pubDate>
       
-      <guid>https://nikodunk.github.io/tags/how-to/</guid>
+      <guid>https://nikodunk.com/tags/how-to/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learnings</title>
-      <link>https://nikodunk.github.io/tags/learnings/</link>
+      <link>https://nikodunk.com/tags/learnings/</link>
       <pubDate>Wed, 16 Jan 2019 08:00:00 -0700</pubDate>
       
-      <guid>https://nikodunk.github.io/tags/learnings/</guid>
+      <guid>https://nikodunk.com/tags/learnings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thoughts</title>
-      <link>https://nikodunk.github.io/tags/thoughts/</link>
+      <link>https://nikodunk.com/tags/thoughts/</link>
       <pubDate>Mon, 17 Dec 2018 08:00:00 -0700</pubDate>
       
-      <guid>https://nikodunk.github.io/tags/thoughts/</guid>
+      <guid>https://nikodunk.com/tags/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Updates</title>
-      <link>https://nikodunk.github.io/tags/updates/</link>
+      <link>https://nikodunk.com/tags/updates/</link>
       <pubDate>Wed, 16 Jan 2019 08:00:00 -0700</pubDate>
       
-      <guid>https://nikodunk.github.io/tags/updates/</guid>
+      <guid>https://nikodunk.com/tags/updates/</guid>
       <description></description>
     </item>
     
