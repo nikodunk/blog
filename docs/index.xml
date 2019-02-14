@@ -24,13 +24,13 @@
 
 &lt;p&gt;This is a general blog post on my various schemes so far, loosely grouped around topic. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/gianni_colombo.jpg&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/learnings/scientist.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/gianni_colombo.jpg&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/scientist.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;sustainability&#34;&gt;Sustainability&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-sustainability2-png-electrification-ev-news-price-tracker-charging-maps&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrification | EV News, Price Tracker &amp;amp; Charging Maps&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-sustainability2-png-electrification-ev-news-price-tracker-charging-maps&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrification | EV News, Price Tracker &amp;amp; Charging Maps&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech:
 * React-Native App
@@ -44,15 +44,18 @@ Stats
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/id1445602414&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://electrification.cc&#34;&gt;Electrification.cc&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/electrification1.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/electrification2.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/electrification3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/electrification1.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/electrification2.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/electrification3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/electrification-web.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-sustainability1-gif-sunboxlabs-com-solar-price-tracker-platform-for-diy-solar&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_sustainability1.gif&#34; alt=&#34;&#34; /&gt; sunboxlabs.com | Solar Price Tracker &amp;amp; Platform for DIY solar&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-sustainability1-gif-sunboxlabs-com-solar-price-tracker-platform-for-diy-solar&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34; /&gt; sunboxlabs.com | Solar Price Tracker &amp;amp; Platform for DIY solar&lt;/h3&gt;
 
 &lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;a href=&#34;http://sunboxlabs.com&#34; target=&#34;_blank&#34;&gt;sunboxlabs.com&lt;/a&gt; developed out of a &lt;a href=&#34;https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4&#34;&gt;HackerNoon&lt;/a&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;HackerNews&lt;/a&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;twice&lt;/a&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;a href=&#34;http://nikodunk.github.io/sunboxlabs&#34;&gt;sunbox labs&lt;/a&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;i&gt;&lt;a href=&#34;https://nikodunk.com/solar&#34;&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
 
@@ -72,14 +75,14 @@ Stats
 &lt;li&gt;&lt;a href=&#34;http://sunboxlabs.com&#34;&gt;Sunboxlabs.com Site&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/sunboxlabssite2.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/sunboxlabssite.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/demo3.png&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/sunboxlabssite2.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/sunboxlabssite.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/demo3.png&#34; alt=&#34;&#34; /&gt;
 &lt;img src=&#34;https://nikodunk.com/200/COMPONENTS.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-sustainability-png-goodgood-b-corp-price-tracker&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; GoodGood | B-Corp Price Tracker&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-sustainability-png-goodgood-b-corp-price-tracker&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; GoodGood | B-Corp Price Tracker&lt;/h3&gt;
 
 &lt;p&gt;Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing &amp;amp; image data from Viglink API.&lt;/p&gt;
 
@@ -93,15 +96,15 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/bamazon/&#34;&gt;Goodgood.io 1.0 Mirror&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/bamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/bamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-paper-png-paper-inc-mail-order-sustainable-flatpack-furniture&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_paper.png&#34; alt=&#34;&#34; /&gt; Paper Inc. | Mail-order Sustainable Flatpack Furniture&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-paper-png-paper-inc-mail-order-sustainable-flatpack-furniture&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paper.png&#34; alt=&#34;&#34; /&gt; Paper Inc. | Mail-order Sustainable Flatpack Furniture&lt;/h3&gt;
 
 &lt;p&gt;The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/paper.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/paper.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.&lt;/p&gt;
 
@@ -122,14 +125,14 @@ Stats
 &lt;li&gt;&lt;a href=&#34;http://nikodunk.github.io/smoke/&#34;&gt;Smokefurniture.com Mirror&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/smokesite.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/learnings/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/smoke.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/smokesite.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/smoke.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;health&#34;&gt;Health&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-paperworklabs-png-paperworklabs-com-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_paperworklabs.png&#34; alt=&#34;&#34; /&gt; paperworklabs.com | Turbotax for medical forms&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-paperworklabs-png-paperworklabs-com-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paperworklabs.png&#34; alt=&#34;&#34; /&gt; paperworklabs.com | Turbotax for medical forms&lt;/h3&gt;
 
 &lt;p&gt;See ongoing progress in the newer posts on this site, like &lt;a href=&#34;https://nikodunk.com/startup-updates-1&#34;&gt;this one&lt;/a&gt;&lt;/p&gt;
 
@@ -154,7 +157,7 @@ Stats
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-health-png-soap-dictate-app-auto-transcribe-your-soap-notes&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_health.png&#34; alt=&#34;&#34; /&gt; Soap Dictate App | Auto-transcribe your SOAP notes&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-health-png-soap-dictate-app-auto-transcribe-your-soap-notes&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health.png&#34; alt=&#34;&#34; /&gt; Soap Dictate App | Auto-transcribe your SOAP notes&lt;/h3&gt;
 
 &lt;p&gt;Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.&lt;/p&gt;
 
@@ -181,15 +184,15 @@ Stats before shutdown
 &lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/app/id1384252497&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo_health3.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_health3.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/soapstats_1.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/soapstats_2.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/soapstats_3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/soapstats_1.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/soapstats_2.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/soapstats_3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-health0-png-i-am-off-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! | Off-day planner for Physicians&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-health0-png-i-am-off-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! | Off-day planner for Physicians&lt;/h3&gt;
 
 &lt;p&gt;Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.&lt;/p&gt;
 
@@ -210,8 +213,8 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.pokedoc.iamoff&#34;&gt;Google Play Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo_health.gif&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/demo_health.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_health.gif&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/demo_health.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;misc-software&#34;&gt;Misc Software&lt;/h1&gt;
 
@@ -232,13 +235,13 @@ Stats
 &lt;li&gt;&lt;a href=&#34;http://giftlab.io&#34;&gt;The Gift Lab Site&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo giftlab.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo giftlab.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-project-pegasus-logo-png-project-pegasus-recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/project-pegasus-logo.png&#34; alt=&#34;&#34; /&gt; Project Pegasus | Recycling rejected YCombinator applications&lt;/h3&gt;
+&lt;h3 id=&#34;projects-project-pegasus-logo-png-project-pegasus-recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/project-pegasus-logo.png&#34; alt=&#34;&#34; /&gt; Project Pegasus | Recycling rejected YCombinator applications&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo pegasus.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/learnings/demo pegasus 2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo pegasus.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/demo pegasus 2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.&lt;/p&gt;
 
@@ -267,15 +270,15 @@ Stats
 
 &lt;p&gt;The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post &lt;a href=&#34;https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/&#34; target=&#34;_blank&#34;&gt;“How I gave up alternating current”&lt;/a&gt;. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/juicebar.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/juicebar.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/juicebar.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/juicebar.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Customers objected that the device was too expensive vs. what money they could save. They also objected that the embodied energy was so high, it would take years to pay off and be “greener” than before. Finally, they objected that the IoT features were useless.&lt;/p&gt;
 
 &lt;p&gt;The juicebar project originally came about in the dying days of Paper Inc.: I started playing around with added electrical components to differentiate the tables and chairs we’d already bought and hope to liquidate them on Kickstarter (below). Eventually I dropped the tables completely and went on with a pure window-sill design above. I also added an Arduino for good measure so I could track electrical production during the day (and because IoT funding was readily available…). I also got sucked up in the IoT craze (since this was technically an IoT product), and spent a lot of time pitching and filming, instead of improving the product. This was my first project where coding was involved, so I’m thankful for that. Many Alibaba-sourced 12V lithium batteries &amp;amp; panels were thrashed at this stage.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/juice.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/juice2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/juice.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/juice2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -283,16 +286,16 @@ Stats
 
 &lt;p&gt;LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 20 were ever made. Very expensive. I learned that making your own goods is a whole different operation from selling them.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/lunch.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/lunch.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/lunch2.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/lunch3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/lunch.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/lunch.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/lunch2.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/lunch3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;Student project, Thomas Meyer and I put in many man-hours into the leather-, copper- and woodwork necessary for this project.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/loungeforceone.jpg&#34; alt=&#34;&#34; /&gt;  &lt;img src=&#34;https://nikodunk.com/learnings/loungeforcetwo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/loungeforceone.jpg&#34; alt=&#34;&#34; /&gt;  &lt;img src=&#34;https://nikodunk.com/projects/loungeforcetwo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -308,7 +311,7 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/focuswriter-react-vr&#34;&gt;FocusWriter Web App&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo2.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo2.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -323,13 +326,13 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/simple-to-do-react&#34;&gt;CollaborativeTodo Web App&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/nikodunk/solar-search-swift&#34;&gt;Solar Summon&lt;/a&gt; – Solar search for iOS drawing from MapKit, and &lt;a href=&#34;https://github.com/nikodunk/reactnativesolar&#34;&gt;Solar Summon&lt;/a&gt; – Later Rebuilt in React Native. These were my first iOS projects in Swift and React Native.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo4.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo4.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -348,7 +351,7 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/ewg-search/&#34;&gt;Goodgood.io Mirror&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/goodgood.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/goodgood.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -365,11 +368,11 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/sustainable-co-videos/&#34;&gt;Superjuice.cc Mirror&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/superjuice2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/superjuice2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;learnings-logo-superjuice-png-superjuice-kayak-for-energy&#34;&gt;&lt;img src=&#34;https://nikodunk.com/learnings/logo_superjuice.png&#34; alt=&#34;&#34; /&gt;  Superjuice | Kayak for Energy&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-superjuice-png-superjuice-kayak-for-energy&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_superjuice.png&#34; alt=&#34;&#34; /&gt;  Superjuice | Kayak for Energy&lt;/h3&gt;
 
 &lt;p&gt;Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.&lt;/p&gt;
 
@@ -403,7 +406,7 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://insureum.netlify.com&#34;&gt;Insureum Web App&lt;/a&gt; (note: requires &lt;a href=&#34;http://metamask.io&#34;&gt;Metamask&lt;/a&gt; on desktop or &lt;a href=&#34;http://toshi.org&#34;&gt;Toshi&lt;/a&gt; on mobile) to view)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/demo insureum.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo insureum.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -420,7 +423,7 @@ Stats
 
 &lt;p&gt;So far we haven&amp;rsquo;t been able to find a business case with these Dapps, and as described &lt;a href=&#34;https://nikodunk.github.io/blockchain&#34;&gt;here&lt;/a&gt;, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/ethereum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/ethereum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;work&#34;&gt;Work&lt;/h1&gt;
 
@@ -468,7 +471,7 @@ Stats
 
 &lt;p&gt;When working professionally, designed facades and interiors mostly for competition work. This facade was designed by the team I was on at a large architecture firm in Basel, Switzerland. We won that competition.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/hillerod.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/hillerod.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -476,8 +479,8 @@ Stats
 
 &lt;p&gt;Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”. This project reflected the poetic side of architecture – most of the school was engineering.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/sik.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/emerson.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/sik.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/emerson.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -485,8 +488,8 @@ Stats
 
 &lt;p&gt;I learned a huge amount about dealing with clients, together with my friend Zebulon Reynolds in San Francisco. The game was an iOS Flight Simulator.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/learnings/infinite.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/learnings/infinite.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/infinite.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/infinite.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;the-beginning-of-time&#34;&gt;The beginning of time.&lt;/h1&gt;
 

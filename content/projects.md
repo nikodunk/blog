@@ -7,7 +7,7 @@ tags: ["Learnings", "Updates"]
 
 This is a general blog post on my various schemes so far, loosely grouped around topic. I look like this when I've made something:
 
-![](/learnings/gianni_colombo.jpg) ![](/learnings/scientist.jpg)
+![](/projects/gianni_colombo.jpg) ![](/projects/scientist.jpg)
 
 
 
@@ -17,8 +17,7 @@ This is a general blog post on my various schemes so far, loosely grouped around
 --------------------------------------------------------------------------------------------------------------
 
 
-### ![](/learnings/logo_sustainability2.png) electrification | EV News, Price Tracker & Charging Maps
-
+### ![](/projects/logo_sustainability2.png) electrification | EV News, Price Tracker & Charging Maps
 
 
 	Tech:
@@ -32,17 +31,19 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
+* [Electrification.cc](https://electrification.cc)
 
 
-![](/learnings/electrification1.png)
-![](/learnings/electrification2.png)
-![](/learnings/electrification3.png)
+![](/projects/electrification1.png)
+![](/projects/electrification2.png)
+![](/projects/electrification3.png)
 
+![](/projects/electrification-web.png)
 
 ------------
 
 
-### ![](/learnings/logo_sustainability1.gif) sunboxlabs.com | Solar Price Tracker & Platform for DIY solar
+### ![](/projects/logo_sustainability1.gif) sunboxlabs.com | Solar Price Tracker & Platform for DIY solar
 
 With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
 
@@ -61,9 +62,9 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 * [Sunboxlabs.com Site](http://sunboxlabs.com)
 
-![](/learnings/sunboxlabssite2.png)
-![](/learnings/sunboxlabssite.png)
-![](/learnings/demo3.png)
+![](/projects/sunboxlabssite2.png)
+![](/projects/sunboxlabssite.png)
+![](/projects/demo3.png)
 ![](/200/COMPONENTS.jpg)
 
 
@@ -73,7 +74,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 -----------
 
 
-### ![](/learnings/logo_sustainability.png) GoodGood | B-Corp Price Tracker
+### ![](/projects/logo_sustainability.png) GoodGood | B-Corp Price Tracker
 
 Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
 
@@ -84,7 +85,7 @@ Utilising APIfier to scrape all B-Corp companies, and cross-referencing them wit
 
 * [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
 
-![](/learnings/bamazon.gif)
+![](/projects/bamazon.gif)
 
 
 
@@ -92,11 +93,11 @@ Utilising APIfier to scrape all B-Corp companies, and cross-referencing them wit
 
 
 
-### ![](/learnings/logo_paper.png) Paper Inc. | Mail-order Sustainable Flatpack Furniture
+### ![](/projects/logo_paper.png) Paper Inc. | Mail-order Sustainable Flatpack Furniture
 
 The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.
 
-![](/learnings/paper.png)
+![](/projects/paper.png)
 
 This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.
 
@@ -115,8 +116,8 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 * [Smokefurniture.com Mirror](http://nikodunk.github.io/smoke/)
 
-![](/learnings/smokesite.png) ![](/learnings/smoke.gif)  
-![](/learnings/smoke.jpg)
+![](/projects/smokesite.png) ![](/projects/smoke.gif)  
+![](/projects/smoke.jpg)
 
 
 
@@ -125,7 +126,7 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 # Health
 --------------------------------------------------------------------------------------------------------------
 
-### ![](/learnings/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
+### ![](/projects/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
 
 
 See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
@@ -151,7 +152,7 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 
 ---------
 
-### ![](/learnings/logo_health.png) Soap Dictate App | Auto-transcribe your SOAP notes
+### ![](/projects/logo_health.png) Soap Dictate App | Auto-transcribe your SOAP notes
 
 Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.
 
@@ -177,17 +178,17 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 
 
-![](/learnings/demo_health3.gif)
+![](/projects/demo_health3.gif)
 
-![](/learnings/soapstats_1.png)
-![](/learnings/soapstats_2.png)
-![](/learnings/soapstats_3.png)
+![](/projects/soapstats_1.png)
+![](/projects/soapstats_2.png)
+![](/projects/soapstats_3.png)
 
 
 
 --------------
 
-### ![](/learnings/logo_health0.png) I Am Off! | Off-day planner for Physicians
+### ![](/projects/logo_health0.png) I Am Off! | Off-day planner for Physicians
 
 Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.
 
@@ -205,8 +206,8 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 * [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
 * [Google Play Link](https://play.google.com/store/apps/details?id=com.pokedoc.iamoff) 
 
-![](/learnings/demo_health.gif) 
-![](/learnings/demo_health.png)
+![](/projects/demo_health.gif) 
+![](/projects/demo_health.png)
 
 
 
@@ -232,14 +233,14 @@ With Elisa Chan, a platform to help noprofits fundraise more efficiently with mo
 
 * [The Gift Lab Site](http://giftlab.io)
 
-![](/learnings/demo giftlab.png)
+![](/projects/demo giftlab.png)
 
 
 ---------
 
-### ![](/learnings/project-pegasus-logo.png) Project Pegasus | Recycling rejected YCombinator applications
+### ![](/projects/project-pegasus-logo.png) Project Pegasus | Recycling rejected YCombinator applications
 
-![](/learnings/demo pegasus.png) ![](/learnings/demo pegasus 2.png)
+![](/projects/demo pegasus.png) ![](/projects/demo pegasus 2.png)
 
 With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.
 
@@ -271,8 +272,8 @@ Juicebar was a windowsill energy generator meant to ehlp urbanites be energy ind
 
 The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post <a href="https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/" target="_blank">“How I gave up alternating current”</a>. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.
 
-![](/learnings/juicebar.jpg) 
-![](/learnings/juicebar.png)
+![](/projects/juicebar.jpg) 
+![](/projects/juicebar.png)
 
 
 Customers objected that the device was too expensive vs. what money they could save. They also objected that the embodied energy was so high, it would take years to pay off and be “greener” than before. Finally, they objected that the IoT features were useless.
@@ -280,8 +281,8 @@ Customers objected that the device was too expensive vs. what money they could s
 The juicebar project originally came about in the dying days of Paper Inc.: I started playing around with added electrical components to differentiate the tables and chairs we’d already bought and hope to liquidate them on Kickstarter (below). Eventually I dropped the tables completely and went on with a pure window-sill design above. I also added an Arduino for good measure so I could track electrical production during the day (and because IoT funding was readily available…). I also got sucked up in the IoT craze (since this was technically an IoT product), and spent a lot of time pitching and filming, instead of improving the product. This was my first project where coding was involved, so I’m thankful for that. Many Alibaba-sourced 12V lithium batteries & panels were thrashed at this stage.
 
 
-![](/learnings/juice.jpg)
-![](/learnings/juice2.jpg)
+![](/projects/juice.jpg)
+![](/projects/juice2.jpg)
 
 ---------
 
@@ -289,10 +290,10 @@ The juicebar project originally came about in the dying days of Paper Inc.: I st
 
 LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 20 were ever made. Very expensive. I learned that making your own goods is a whole different operation from selling them.
 
-![](/learnings/lunch.jpg)
-![](/learnings/lunch.gif)	
-![](/learnings/lunch2.jpg)
-![](/learnings/lunch3.png)
+![](/projects/lunch.jpg)
+![](/projects/lunch.gif)	
+![](/projects/lunch2.jpg)
+![](/projects/lunch3.png)
 
 ---------
 
@@ -300,7 +301,7 @@ LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 2
 Student project, Thomas Meyer and I put in many man-hours into the leather-, copper- and woodwork necessary for this project.
 
 
-![](/learnings/loungeforceone.jpg)  ![](/learnings/loungeforcetwo.jpg)
+![](/projects/loungeforceone.jpg)  ![](/projects/loungeforcetwo.jpg)
 
 
 
@@ -320,7 +321,7 @@ Focuswriter – VR productivity app for distraction-free writing, written in rea
 * [FocusWriter Web App](https://nikodunk.github.io/focuswriter-react-vr)
 
 
-![](/learnings/demo2.gif)
+![](/projects/demo2.gif)
 
 ---------
 
@@ -332,14 +333,14 @@ CollaborativeToDo was a React & Firebase to-do list app w/ full Drag n drop, CRU
 
 * [CollaborativeTodo Web App](https://nikodunk.github.io/simple-to-do-react)
 
-![](/learnings/demo.gif)
+![](/projects/demo.gif)
 
 ---------
 
 <a href="https://github.com/nikodunk/solar-search-swift">Solar Summon</a> – Solar search for iOS drawing from MapKit, and <a href="https://github.com/nikodunk/reactnativesolar">Solar Summon</a> – Later Rebuilt in React Native. These were my first iOS projects in Swift and React Native.
 
 
-![](/learnings/demo4.gif)
+![](/projects/demo4.gif)
 
 ---------
 
@@ -355,7 +356,7 @@ GoodGood, a software project to help families find skinsafe products for their b
 
 * [Goodgood.io Mirror](https://nikodunk.github.io/ewg-search/)
 
-![](/learnings/goodgood.gif)
+![](/projects/goodgood.gif)
 
 
 ----------
@@ -371,11 +372,11 @@ A “product hunt” for the videos of certified green companies. This initial v
 
 * [Superjuice.cc Mirror](https://nikodunk.github.io/sustainable-co-videos/)
 
-![](/learnings/superjuice2.png)
+![](/projects/superjuice2.png)
 
 ---------
 
-### ![](/learnings/logo_superjuice.png)  Superjuice | Kayak for Energy
+### ![](/projects/logo_superjuice.png)  Superjuice | Kayak for Energy
 
 Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.
 
@@ -412,7 +413,7 @@ Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. 
 * [Insureum Web App](https://insureum.netlify.com) (note: requires [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile) to view)
 
 
-![](/learnings/demo insureum.gif)
+![](/projects/demo insureum.gif)
 
 
 --------
@@ -428,7 +429,7 @@ From November to January Phil Chacko and I worked on various other projects. All
 
 So far we haven't been able to find a business case with these Dapps, and as described <a href="https://nikodunk.github.io/blockchain">here</a>, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.
 
-![](/learnings/ethereum.png)
+![](/projects/ethereum.png)
 
 
 
@@ -479,7 +480,7 @@ Coming soon
 When working professionally, designed facades and interiors mostly for competition work. This facade was designed by the team I was on at a large architecture firm in Basel, Switzerland. We won that competition.
 
 
-![](/learnings/hillerod.jpg)
+![](/projects/hillerod.jpg)
 
 
 -----
@@ -489,8 +490,8 @@ When working professionally, designed facades and interiors mostly for competiti
 
 Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”. This project reflected the poetic side of architecture – most of the school was engineering.
 
-![](/learnings/sik.jpg)
-![](/learnings/emerson.jpg)
+![](/projects/sik.jpg)
+![](/projects/emerson.jpg)
 
 
 
@@ -501,8 +502,8 @@ Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”
 
 I learned a huge amount about dealing with clients, together with my friend Zebulon Reynolds in San Francisco. The game was an iOS Flight Simulator.
 
-![](/learnings/infinite.jpg)
-![](/learnings/infinite.gif)
+![](/projects/infinite.jpg)
+![](/projects/infinite.gif)
 
 
 
