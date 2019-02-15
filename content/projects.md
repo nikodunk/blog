@@ -34,10 +34,7 @@ This is a general blog post on my various schemes so far, loosely grouped around
 * [Electrification.cc](http://electrification.cc)
 
 
-![](/projects/electrification1.png)
-![](/projects/electrification2.png)
-![](/projects/electrification3.png)
-
+![](/projects/electrification-app.png)
 ![](/projects/electrification-web.png)
 
 ------------
@@ -62,10 +59,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 * [Sunboxlabs.com Site](http://sunboxlabs.com)
 
-![](/projects/sunboxlabssite2.png)
-![](/projects/sunboxlabssite.png)
-![](/projects/demo3.png)
-![](/200/COMPONENTS.jpg)
+![](/projects/sunboxlabssite3.png)
 
 
 
