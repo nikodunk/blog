@@ -532,7 +532,9 @@ Stats
 &lt;pre&gt;&lt;code&gt;heroku certs:auto:refresh
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&amp;rsquo;s working. Didn&amp;rsquo;t even need Heroku SSL redirect anymore in 2019.&lt;/p&gt;
+&lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&amp;rsquo;s working.&lt;/p&gt;
+
+&lt;p&gt;I install &lt;a href=&#34;https://github.com/nodenica/node-heroku-ssl-redirect&#34;&gt;heroku-ssl-redirect&lt;/a&gt; for node to force HTTPS upgrades.&lt;/p&gt;
 
 &lt;p&gt;Have a great year!&lt;/p&gt;
 </content>

@@ -19,6 +19,8 @@ Boom. Wait a couple minutes, and you're done.
 	
 	heroku certs:auto:refresh
 
-In Terminal to refresh, and check the Heroku Dashboard to confirm it's working. Didn't even need Heroku SSL redirect anymore in 2019.
+In Terminal to refresh, and check the Heroku Dashboard to confirm it's working. 
+
+I install [heroku-ssl-redirect](https://github.com/nodenica/node-heroku-ssl-redirect) for node to force HTTPS upgrades.
 
 Have a great year!
