@@ -512,6 +512,34 @@ Stats
     </item>
     
     <item>
+      <title>How to set up Heroku SSL with Google Domains in 2019</title>
+      <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
+      <pubDate>Tue, 10 Apr 2018 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/heroku-ssl-google-domains-2019/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;Ugh. This wastes time every time I run into it. It&amp;rsquo;s so much easier with AWS, and there&amp;rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&amp;rsquo;s ACM for SSL. IF you do everything right, it&amp;rsquo;s actually very simple. So I&amp;rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.&lt;/p&gt;
+
+&lt;p&gt;I strongly reference &lt;a href=&#34;https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97&#34;&gt;David Gagne&amp;rsquo;s article&lt;/a&gt; here, which is now sometimes behind a paywall on Medium.&lt;/p&gt;
+
+&lt;p&gt;1) Heroku, in your app App &amp;gt; Settings: Add www.[your-domain].com (Note: www is KEY!) to your app and copy the [DNS Target] it gives you.
+2) Google Domains &amp;gt; DNS &amp;gt; Synthetic Records: Add @ to Subdomain, add http://[your-domain].com to the next field. No need to mess around with the path forwarding radio, SSL radio and whatever else the web talks about – just leave it off.
+3) Google Domains &amp;gt; DNS &amp;gt; Custom Resource Records: www, CNAME, [DNS Target]&lt;/p&gt;
+
+&lt;p&gt;Boom. Wait a couple minutes, and you&amp;rsquo;re done.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;heroku certs:auto:refresh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&amp;rsquo;s working. Didn&amp;rsquo;t even need Heroku SSL redirect anymore in 2019.&lt;/p&gt;
+
+&lt;p&gt;Have a great year!&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>Learnings: Building swissnex SF&#39;s startup program</title>
       <link>https://nikodunk.com/accelerator/</link>
       <pubDate>Tue, 10 Apr 2018 08:00:00 -0700</pubDate>
