@@ -12,23 +12,23 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 
 
-
 # Sustainability
 --------------------------------------------------------------------------------------------------------------
 
 
-### ![](/projects/logo_sustainability2.png) electrification | EV News, Price Tracker & Charging Maps
+### ![](/projects/logo_sustainability2.png) electrade app | The world's first EV marketplace
 
 
 	Tech:
 	* React-Native App
-	* Dynamic pricing data scraped with APIfy.com
+	* Backend Node/Express/Postgres, storing listing photos to S3
+	* Dynamic pricing data from other sites & EV News scraped with APIfy.com
 	* Mapping data from OpenChargeMap.com
-	* Newest EV news scraped from Twitter
 
-	Stats
+	Stats:
+	* MRR: $0
+	* Monthly Listings: 0
 	* Users: 10
-
 
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
 * [Electrification.cc](http://electrification.cc)
@@ -52,9 +52,9 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 	* User submitted content
 
 	Stats
+	* MRR: ~ $20.00
 	* 204'600 uniques from July 2017 - July 2018
 	* 3.74% conversion to Amazon affiliate program
-	* MRR: ~ $20.00
 	* 2 versions of kit launched
 
 * [Sunboxlabs.com Site](http://sunboxlabs.com)
@@ -76,6 +76,9 @@ Utilising APIfier to scrape all B-Corp companies, and cross-referencing them wit
 	* Angular 2 app
 	* Dynamic pricing & product data from Viglink API
 	* B-Corps scraped from bcorporation.com with APIfy.com
+
+	Stats
+	* MRR: $0
 
 * [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
 
@@ -102,6 +105,7 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 	* Squarespace site
 
 	Stats
+	* MRR: N/A
 	* I4C Clean-Tech Startup Accelerator Cohort ‘14
 	* $10,000 in test-sales
 	* Pre-Seed round (aborted)
@@ -128,13 +132,13 @@ See ongoing progress in the newer posts on this site, like [this one](/startup-u
 Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
 
 	Tech
-	* PERN web stack:
 	* React frontend
 	* Node/Express/Postgres backend
 	* Docker on AWS Elastic Beanstalk
-	* HIPAA compliant encryption, access monitoring
+	* HIPAA compliant logging, access monitoring
 
 	Stats
+	* MRR: $0
 	* Price point: $99/month for all-you-can-eat medical smartforms
 
 
@@ -160,12 +164,12 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
-	Stats before shutdown
-	* Paying customers: 9
+	Stats
+	* MRR: $47.88
+	* Paying customers: 12
 	* Trial customers: 4
-	* MRR: $31.92
 	* Price point: $3.99/month
-	* 171 registered users
+	* 186 registered users
 	* Organic app store search
 
 * [App Store Link](https://itunes.apple.com/app/id1384252497)
@@ -182,7 +186,7 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 --------------
 
-### ![](/projects/logo_health0.png) I Am Off! | Off-day planner for Physicians
+### ![](/projects/logo_health0.png) I Am Off! app | Off-day planner for Physicians
 
 Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.
 
@@ -192,7 +196,8 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 	* Backend in Node/Express/PostgreSQL running on Heroku
 
 	Stats
-	* 275 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
+	* MRR: $0
+	* 369 users at Stanford Medicine, Utah Medical, Harvard Medical.
 	* 145 WAUs
 	* Price: Free
 	* Growth through internship onboardings, organic.

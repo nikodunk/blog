@@ -62,15 +62,17 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;projects-logo-sustainability2-png-electrification-ev-news-price-tracker-charging-maps&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrification | EV News, Price Tracker &amp;amp; Charging Maps&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-sustainability2-png-electrade-app-the-world-s-first-ev-marketplace&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrade app | The world&amp;rsquo;s first EV marketplace&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech:
 * React-Native App
-* Dynamic pricing data scraped with APIfy.com
+* Backend Node/Express/Postgres, storing listing photos to S3
+* Dynamic pricing data from other sites &amp;amp; EV News scraped with APIfy.com
 * Mapping data from OpenChargeMap.com
-* Newest EV news scraped from Twitter
 
-Stats
+Stats:
+* MRR: $0
+* Monthly Listings: 0
 * Users: 10
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -94,9 +96,9 @@ Stats
 * User submitted content
 
 Stats
+* MRR: ~ $20.00
 * 204&#39;600 uniques from July 2017 - July 2018
 * 3.74% conversion to Amazon affiliate program
-* MRR: ~ $20.00
 * 2 versions of kit launched
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -116,6 +118,9 @@ Stats
 * Angular 2 app
 * Dynamic pricing &amp;amp; product data from Viglink API
 * B-Corps scraped from bcorporation.com with APIfy.com
+
+Stats
+* MRR: $0
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -141,6 +146,7 @@ Stats
 * Squarespace site
 
 Stats
+* MRR: N/A
 * I4C Clean-Tech Startup Accelerator Cohort ‘14
 * $10,000 in test-sales
 * Pre-Seed round (aborted)
@@ -165,13 +171,13 @@ Stats
 &lt;p&gt;Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &amp;ldquo;turbotax for medical forms&amp;rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &amp;ldquo;smart forms&amp;rdquo; that can export flat PDFs, report on your &amp;ldquo;structured data&amp;rdquo;, and potentially integrates with EHRs if they let us.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech
-* PERN web stack:
 * React frontend
 * Node/Express/Postgres backend
 * Docker on AWS Elastic Beanstalk
-* HIPAA compliant encryption, access monitoring
+* HIPAA compliant logging, access monitoring
 
 Stats
+* MRR: $0
 * Price point: $99/month for all-you-can-eat medical smartforms
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -197,12 +203,12 @@ Stats
 * Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
 * Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
-Stats before shutdown
-* Paying customers: 9
+Stats
+* MRR: $47.88
+* Paying customers: 12
 * Trial customers: 4
-* MRR: $31.92
 * Price point: $3.99/month
-* 171 registered users
+* 186 registered users
 * Organic app store search
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -218,7 +224,7 @@ Stats before shutdown
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;projects-logo-health0-png-i-am-off-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! | Off-day planner for Physicians&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-health0-png-i-am-off-app-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! app | Off-day planner for Physicians&lt;/h3&gt;
 
 &lt;p&gt;Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.&lt;/p&gt;
 
@@ -228,7 +234,8 @@ Stats before shutdown
 * Backend in Node/Express/PostgreSQL running on Heroku
 
 Stats
-* 275 users at Stanford Medicine, Utah Medical, Harvard Medical, London, Rwanda.
+* MRR: $0
+* 369 users at Stanford Medicine, Utah Medical, Harvard Medical.
 * 145 WAUs
 * Price: Free
 * Growth through internship onboardings, organic.
