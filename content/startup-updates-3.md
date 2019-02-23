@@ -50,6 +50,6 @@ We're working from a friend's garage:
 
 ![](/startup-updates-3/startup-garage.JPG)
 
-Our first deal:
+<!-- Our first deal: -->
 
-![](/startup-updates-3/startup-first-deal.JPG)
+<!-- ![](/startup-updates-3/startup-first-deal.JPG) -->

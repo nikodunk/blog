@@ -102,9 +102,9 @@
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-3/startup-garage.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Our first deal:&lt;/p&gt;
+&lt;!-- Our first deal: --&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-3/startup-first-deal.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;!-- ![](/startup-updates-3/startup-first-deal.JPG) --&gt;
 </content>
       
     </item>
