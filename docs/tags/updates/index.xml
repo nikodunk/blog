@@ -21,5 +21,25 @@
 Sustainability electrade app | The world&amp;rsquo;s first EV marketplace Tech: * React-Native App * Backend Node/Express/Postgres, storing listing photos to S3 * Dynamic pricing data from other sites &amp;amp; EV News scraped with APIfy.com * Mapping data from OpenChargeMap.com Stats: * MRR: $0 * Monthly Listings: 0 * Users: 10   App Store Link Electrification.</description>
     </item>
     
+    <item>
+      <title>December Update</title>
+      <link>https://nikodunk.com/startup-updates-2/</link>
+      <pubDate>Mon, 31 Dec 2018 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/startup-updates-2/</guid>
+      <description>December 2018 Month 2: Still laser-focused on writing code and talking to users, but now have found a good potential co-founder, brainstormed a new, bigger problem with him (important!) and received some initial grant funding to take some of the financial risk off my back.
+Week 5  Could not grow further and missed growth targets again – started investing time into overhauling sunboxlabs.com and a completely new energy app idea.</description>
+    </item>
+    
+    <item>
+      <title>November Update: starting up</title>
+      <link>https://nikodunk.com/startup-updates-1/</link>
+      <pubDate>Fri, 30 Nov 2018 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/startup-updates-1/</guid>
+      <description>November 2018 Month 1: Lazer-like focused on writing code and talking to users. After Elisa and I split up from doing giftlab.io, I decided to focus on soapdictate after I&amp;rsquo;d left swissnexSF. soapdictate is my other side-project, and I wanted to see if I could make it work. I left swissnexSF October 31st 2018 and switched to working on the soapdictate dictation app full-time.
+Week 1  quickly followed up with all contacts from job to let them know what i&amp;rsquo;m working on incorporated LLC with stripe atlas (more like aside project currently but don&amp;rsquo;t want liability), Did health insurance, worked from friends&amp;rsquo; office.</description>
+    </item>
+    
   </channel>
 </rss>

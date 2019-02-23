@@ -45,6 +45,71 @@
     </item>
     
     <item>
+      <title>January Update</title>
+      <link>https://nikodunk.com/startup-updates-3/</link>
+      <pubDate>Thu, 24 Jan 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-3/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;january-2019&#34;&gt;January 2019&lt;/h1&gt;
+
+&lt;p&gt;We just signed up our first paying customer here at Paperwork Labs, so it&amp;rsquo;s time for the January update. See last month&amp;rsquo;s &lt;a href=&#34;https://nikodunk.github.io/startup-updates-2&#34;&gt;here&lt;/a&gt; – TLDR; December: New cofounder, MVP, Received Grant from Emergent Ventures, Pivot from solving medical note-taking to solving medical paperwork. We are now building &amp;ldquo;Turbotax for Medical Forms&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;kpis&#34;&gt;KPIs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We are default dead&lt;/li&gt;
+&lt;li&gt;Paying customers: 1&lt;/li&gt;
+&lt;li&gt;MRR: $600&lt;/li&gt;
+&lt;li&gt;Net MRR growth: 1800% (from $31.92 MRR for soapdictate ;))&lt;/li&gt;
+&lt;li&gt;Customer churn: 0%&lt;/li&gt;
+&lt;li&gt;Team: 2 people&lt;/li&gt;
+&lt;li&gt;Cash: $37,500 in bank&lt;/li&gt;
+&lt;li&gt;Monthly burn: $2,500&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;key-events&#34;&gt;Key Events&lt;/h2&gt;
+
+&lt;h1 id=&#34;good&#34;&gt;Good&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sales/Customer-Month: We&amp;rsquo;ve talked to 5 practice groups this month, added a 6th group today alone, and have signed up one practice from the largest group for X licenses (X * $99). We&amp;rsquo;re presenting to 20 more potentials from the same practice group on Feb 27th.&lt;/li&gt;
+&lt;li&gt;Product: This was all done with a video of the MVP (see last month), and live demos of the MVP over Skype. We&amp;rsquo;ve built demo-able &amp;ldquo;Turbotax for medical forms&amp;rdquo; with 1 working form incl. PDF export and persistent data. Still needs user system, more forms, functioning reporting dashboard (currently static page). Now that we have first customer signed on we&amp;rsquo;re going to build this.&lt;/li&gt;
+&lt;li&gt;Learnings: From push-backs from the sales calls we&amp;rsquo;ve learned that the main complaints were: 1) No EMR integration (had a call with EMR, they&amp;rsquo;re holding the data hostage), 2) price (we were initially asking $99/form/practice/month &amp;hellip; this was too much), and 3) &amp;ldquo;let me run this by the other practices&amp;rdquo;. We couldn&amp;rsquo;t solve 1) but turns out the first customer STILL signed on and many are interested regardless, and we solved 2) by pricing 5 forms for $99 (build forms once, run anywhere so that should be fine), and solved 3) by offering   the pricing from 2) for as a limited time offer to add pressure and overcome &amp;ldquo;let me ask others&amp;rdquo; syndrome – it moved the first practice over the finish line.&lt;/li&gt;
+&lt;li&gt;We started working on this new concept on December 10th, had a prototype ready by December 18th, and had our first customer demo Jan 8th. We have a sign-up incl. pricing Jan 23rd.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;bad&#34;&gt;Bad&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We had a call with an EMR – refuse to let us integrate. They&amp;rsquo;re holding the customer&amp;rsquo;s healthcare data hostage. Upside: Customers subscribed anyway.&lt;/li&gt;
+&lt;li&gt;A LOT of work to do now 🚀&lt;/li&gt;
+&lt;li&gt;Wound down soapdictate.com and took off the app store, despite (slow)organic growth (7 new paying users this month so far @ $3.99/mo each): The risk/reward around HIPAA questions vs. what the app could potentially bring in didn&amp;rsquo;t make sense as a side-project – for now we want to focus on Paperwork Labs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;asks&#34;&gt;Asks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intros to practices struggling with form overload.&lt;/li&gt;
+&lt;li&gt;Intros to founders or investors with experience / advice on building out healthcare SaaS products.&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;re looking for free/cheap office space for one or two, please! We are currently doing spacious.com, and have moved to a friend&amp;rsquo;s garage&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We&amp;rsquo;re working from a friend&amp;rsquo;s garage:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-3/startup-garage.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our first deal:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-3/startup-first-deal.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
       <pubDate>Wed, 16 Jan 2019 08:00:00 -0700</pubDate>
@@ -536,6 +601,76 @@ Stats
     </item>
     
     <item>
+      <title>December Update</title>
+      <link>https://nikodunk.com/startup-updates-2/</link>
+      <pubDate>Mon, 31 Dec 2018 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-2/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;december-2018&#34;&gt;December 2018&lt;/h1&gt;
+
+&lt;p&gt;Month 2: Still laser-focused on writing code and talking to users, but now have found a good potential &lt;strong&gt;co-founder&lt;/strong&gt;, brainstormed a &lt;strong&gt;new, bigger problem&lt;/strong&gt; &lt;em&gt;with&lt;/em&gt; him (important!) and received some &lt;strong&gt;initial grant funding&lt;/strong&gt; to take some of the financial risk off my back.&lt;/p&gt;
+
+&lt;h2 id=&#34;week-5&#34;&gt;Week 5&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Could not grow further and missed growth targets again – started investing time into overhauling sunboxlabs.com and a completely new energy app idea.&lt;/li&gt;
+&lt;li&gt;Finally got LLC paperwork and Azlo account from the Stripe Atlas incorporation, and switching app store ownership, sunboxlabs income and soapdictate income to it – seperating church and state.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pivot 1&lt;/strong&gt; First working session with a new, smart potential cofounder Mitul, and we had a good groove. Brainstormed and found a &amp;ldquo;hair-on-fire&amp;rdquo; problem hypothesis in the medical space to validate: Doctors are filling out 17-page state forms by hand.&lt;/li&gt;
+&lt;li&gt;Our solution hypothesis: &lt;strong&gt;Turbotax for medical forms&lt;/strong&gt;. Built a prototype, shipped it.&lt;/li&gt;
+&lt;li&gt;Had call with Alain (Mentor). He recommended I talk to investors before I need them. Just get their advice. Send them a and monthly update. He will send me a template. Get Feedback from current customers with customer development survey tool: &lt;a href=&#34;http://survey.io/survey/demo&#34;&gt;http://survey.io/survey/demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;week-6&#34;&gt;Week 6&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3 clients in pipeline, each with 10s of practices that are struggling with forms and are open to $99/month price point.&lt;/li&gt;
+&lt;li&gt;Received Grant from &lt;strong&gt;Emergent Ventures&lt;/strong&gt; with possible follow-up grant. Worth investing in mission of solving healthcare paperwork.&lt;/li&gt;
+&lt;li&gt;Building out tech demo to actual prototype form automation tool.&lt;/li&gt;
+&lt;li&gt;Second working session with Mitul:
+
+&lt;ul&gt;
+&lt;li&gt;Cold-emailed 100s of clients&lt;/li&gt;
+&lt;li&gt;Made landing page&lt;/li&gt;
+&lt;li&gt;Goal to validate: By January 31st we will have 1st paying client – go/no-go.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;week-7&#34;&gt;Week 7&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Investing time in prototype&lt;/li&gt;
+&lt;li&gt;Had first sales call with LA practice group. Want to wait for further build-out. Hypothesis: they didn&amp;rsquo;t understand the product.&lt;/li&gt;
+&lt;li&gt;Users generally unresponsive although we &lt;em&gt;know&lt;/em&gt; they have this issue —&amp;gt; made 1-min video walkthrough of demo.&lt;/li&gt;
+&lt;li&gt;Had call with Michael (mentor): Likes deck and vision to 100M.&lt;/li&gt;
+&lt;li&gt;Slow before xmas? Not so much.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;week-8&#34;&gt;Week 8&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Xmas, no go.&lt;/li&gt;
+&lt;li&gt;After followed up with clients with new video heard back and now have a call scheduled: Same client that said hold off now wants demo call in January! Could be our &lt;strong&gt;initial client&lt;/strong&gt;?&lt;/li&gt;
+&lt;li&gt;From now on will post the monthly investor update Alain gave me, and inspired by Can Olcer&amp;rsquo;s &lt;a href=&#34;https://shafyy.com&#34;&gt;Blog&lt;/a&gt;, I will post shorter, less formal posts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;This is the monthly update as described to a friend.&lt;/p&gt;
+
+&lt;p&gt;After we talked last I teamed up with another friend and found out a purer version of the paperwork/physician burnout problem is filling out forms (up to 17 pages!) in general by hand, and so we decided to drop the voice part (I thought it was cool but didn&amp;rsquo;t help solve the problem really&amp;hellip;), and create &amp;ldquo;turbotax for medical forms&amp;rdquo;. We&amp;rsquo;ve prototyped a solution and are in talks with 3 practice groups around the country (came up with this with a healthcare software sales guy, so already have some &amp;lsquo;ins&amp;rsquo;). Hope to have a paying test customer by end of Jan (or ASAP). This will allow us to A) charge $99/customer per month for it, B) is a way more of a &amp;ldquo;hair on fire&amp;rdquo; problem for the 230&amp;rsquo;000 practices out there, which could theoretically bring us to the 100M/y revenue. Also, just got a 10K grant from Emergent Ventures who agreed this was a problem worth solving!&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>Thought: Gillets Jaunes sounds like russian</title>
       <link>https://nikodunk.com/thought-gillets-jaunes/</link>
       <pubDate>Mon, 17 Dec 2018 08:00:00 -0700</pubDate>
@@ -544,6 +679,71 @@ Stats
       <description></description>
       
       <content>&lt;p&gt;Glad to read &lt;a href=&#34;https://www.theguardian.com/world/2018/dec/17/gilets-jaunes-grassroots-heroes-or-kremlin-tools&#34;&gt;this&lt;/a&gt;, after a few weeks of wondering how the &lt;a href=&#34;https://en.wikipedia.org/wiki/Yellow_vests_movement&#34;&gt;Gillets Jaunes&lt;/a&gt; movement in France could organize through Facebook Groups yet no-one was drawing the parallels to the &lt;a href=&#34;https://www.texastribune.org/2017/11/01/russian-facebook-page-organized-protest-texas-different-russian-page-l/&#34;&gt;last time&lt;/a&gt; social unfairness was harnessed by a foreign power to turn out mass-protests. Apparently there&amp;rsquo;s no smoke to that fire.&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>November Update: starting up</title>
+      <link>https://nikodunk.com/startup-updates-1/</link>
+      <pubDate>Fri, 30 Nov 2018 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-1/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;november-2018&#34;&gt;November 2018&lt;/h1&gt;
+
+&lt;p&gt;Month 1: Lazer-like focused on writing code and talking to users. After Elisa and I split up from doing giftlab.io, I decided to focus on soapdictate after I&amp;rsquo;d left swissnexSF. soapdictate is my other side-project, and I wanted to see if I could make it work. I left swissnexSF October 31st 2018 and switched to working on the soapdictate dictation app full-time.&lt;/p&gt;
+
+&lt;h2 id=&#34;week-1&#34;&gt;Week 1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;quickly followed up with all contacts from job to let them know what i&amp;rsquo;m working on
+incorporated LLC with stripe atlas (more like aside project currently but don&amp;rsquo;t want liability), Did health insurance, worked from friends&amp;rsquo; office.&lt;/li&gt;
+&lt;li&gt;built subscription, built 60-sec dictation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;week-2&#34;&gt;Week 2&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spent weekend and Monday with a friend doctor and original user to learn more and think of features.&lt;/li&gt;
+&lt;li&gt;In dedicated office – spacious.com&lt;/li&gt;
+&lt;li&gt;Asking for intros to physicians.&lt;/li&gt;
+&lt;li&gt;First subscriber! Emailed the hell out of her. Ran the friends&amp;rsquo; feature by her on Friday – creating a billable PDF note. She liked so building it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-1/demo_health3.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;week-3&#34;&gt;Week 3&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Really hitting stride. Work from spacious (gets me out of home for $129/mo). Talking to Users and Writing code.&lt;/li&gt;
+&lt;li&gt;Asking for intros to physicians.&lt;/li&gt;
+&lt;li&gt;Shipped first differentiated version Monday (dictate / create PDF billable note)&lt;/li&gt;
+&lt;li&gt;Sales slow though. Grind. Emailing users, writing features for them.&lt;/li&gt;
+&lt;li&gt;Enough physician interviews that know not physicians (process of elimination). My one paying customer is acupuncturist – maybe that&amp;rsquo;s it. Talking to dentists and psychotherapists too.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;week-4&#34;&gt;Week 4&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New sign-ups stopped. User week necessary.&lt;/li&gt;
+&lt;li&gt;Physicially going to acupuncturists and signing them up.&lt;/li&gt;
+&lt;li&gt;Asking for intros to acupuncturists, psychotherapists and dentists.&lt;/li&gt;
+&lt;li&gt;Applied to YC and Emergent Ventures spontaneously – past deadline but we&amp;rsquo;ll see!&lt;/li&gt;
+&lt;li&gt;Second sign-up! Now 2 paying users.&lt;/li&gt;
+&lt;li&gt;Michael (Mentor) recommended I start fundraising with proto + users.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;My blurb for month 1 as sent to a friend:&lt;/p&gt;
+
+&lt;p&gt;A few months ago I wrote a medical dictation app called soapdictate to help my friend at Stanford Med save time on his charting, as Stanford Med only provided Dragon Desktop and so the physicians were all using pretty outdated hacks off the app store. Turns out, Apple&amp;rsquo;s Speech Recognition API has hit a level where it can get most notes done for him, and this MVPs been selling consistently on the app store ever since. I just switched full-time and am looking to learn more about the problems physicians face, and add new features like templates/EHR integration/commands etc – hopefully to help reduce the clerical burden on physicians in the mid-term.&lt;/p&gt;
 
 &lt;hr /&gt;
 </content>
