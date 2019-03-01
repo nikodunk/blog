@@ -13,159 +13,9 @@
     
     
     <item>
-      <title>February Update</title>
-      <link>https://nikodunk.com/startup-updates-4/</link>
-      <pubDate>Sun, 24 Feb 2019 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/startup-updates-4/</guid>
-      <description></description>
-      
-      <content>
-
-&lt;h1 id=&#34;february-2019&#34;&gt;February 2019&lt;/h1&gt;
-
-&lt;h2 id=&#34;kpis&#34;&gt;KPIs&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We are default dead&lt;/li&gt;
-&lt;li&gt;Paying customers: 0&lt;/li&gt;
-&lt;li&gt;MRR: $0&lt;/li&gt;
-&lt;li&gt;Net MRR growth: %-100&lt;/li&gt;
-&lt;li&gt;Customer churn: %100&lt;/li&gt;
-&lt;li&gt;Team: 2 people&lt;/li&gt;
-&lt;li&gt;Cash: $35,000 in bank&lt;/li&gt;
-&lt;li&gt;Monthly burn: $2,500&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;key-events&#34;&gt;Key Events&lt;/h2&gt;
-
-&lt;h2 id=&#34;bad&#34;&gt;Bad&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We lost the client mentioned in the last monthly update, due to their top-brass insisting on a (technically nearly impossible) integration with their existing EMR provider after the first invoice was already due. The EMR provider wouldn&amp;rsquo;t play ball for this integration. After hearing this same push-back from 4 clients, the fourth of which agreed and signed but somehow hadn&amp;rsquo;t understood that we can&amp;rsquo;t integrate with their EMR until the final moment (we&amp;rsquo;d told them), I think this is an actual dealbreaker for the healthcare centers.&lt;/li&gt;
-&lt;li&gt;We looked into things like Selenium to move their mouse onscreen and enter the info into the EMR without human input, but decided this was too hacky.&lt;/li&gt;
-&lt;li&gt;We pivoted the product 3 weeks ago and re-used the same health contacts and pitched them 4 new ideas. The best of which was a new workflow idea, but after 4 calls no actual buying interest. We have 2 more calls next week. The current concept (and the last one) is online still at paperworklabs.com.&lt;/li&gt;
-&lt;li&gt;We&amp;rsquo;re very far away from the original goal of the company at this point, so the options are to double-or-nothing again or to pivot.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;good&#34;&gt;Good&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We&amp;rsquo;re currently leaning towards pivoting, which after 4 months and 3 concepts hurts, but after so much invested effort in health I keep getting drawn back to the exploding electric vehicle market:&lt;/li&gt;
-&lt;li&gt;This side project is called Electrade – the world&amp;rsquo;s first electric vehicle marketplace. It&amp;rsquo;s been on the app store for a week, and I&amp;rsquo;m working on ASO currently and going to EV meetups.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;asks&#34;&gt;Asks&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Bear with us during this hard reset. There comes a time after 4 months where I had to question the direction this project was growing in.&lt;/li&gt;
-&lt;li&gt;Intros to EV enthusiasts, and people with automobile market experience.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-      
-    </item>
-    
-    <item>
-      <title>How to set up Heroku SSL with Google Domains in 2019</title>
-      <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
-      <pubDate>Sat, 16 Feb 2019 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/heroku-ssl-google-domains-2019/</guid>
-      <description></description>
-      
-      <content>&lt;p&gt;Ugh. This wastes time every time I run into it. It&amp;rsquo;s so much easier with AWS, and there&amp;rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&amp;rsquo;s ACM for SSL. IF you do everything right, it&amp;rsquo;s actually very simple. So I&amp;rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.&lt;/p&gt;
-
-&lt;p&gt;I strongly reference &lt;a href=&#34;https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97&#34;&gt;David Gagne&amp;rsquo;s article&lt;/a&gt; here, which is now sometimes behind a paywall on Medium. It&amp;rsquo;s actually only 3 steps.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Heroku, in your app &amp;gt; Settings &amp;gt; Add your domain:&lt;/strong&gt; Add www.[your-domain].com (Note: www is KEY!) to your app and copy the [DNS Target] it gives you.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Synthetic Records &amp;gt; Add a subdomain:&lt;/strong&gt; @ to Subdomain, add http://[your-domain].com to the next field. No need to mess around with the path forwarding radio, SSL radio and whatever else the web talks about.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Custom Resource Records &amp;gt; Add a CNAME:&lt;/strong&gt; www, CNAME, [DNS Target]&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Boom. Wait a couple minutes, and you&amp;rsquo;re done.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;heroku certs:auto:refresh
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&amp;rsquo;s working.&lt;/p&gt;
-
-&lt;p&gt;I install &lt;a href=&#34;https://github.com/nodenica/node-heroku-ssl-redirect&#34;&gt;heroku-ssl-redirect&lt;/a&gt; for node to force HTTPS upgrades.&lt;/p&gt;
-
-&lt;p&gt;Have a great year!&lt;/p&gt;
-</content>
-      
-    </item>
-    
-    <item>
-      <title>January Update</title>
-      <link>https://nikodunk.com/startup-updates-3/</link>
-      <pubDate>Thu, 24 Jan 2019 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/startup-updates-3/</guid>
-      <description></description>
-      
-      <content>
-
-&lt;h1 id=&#34;january-2019&#34;&gt;January 2019&lt;/h1&gt;
-
-&lt;p&gt;We just signed up our first paying customer here at Paperwork Labs, so it&amp;rsquo;s time for the January update. See last month&amp;rsquo;s &lt;a href=&#34;https://nikodunk.com/startup-updates-2&#34;&gt;here&lt;/a&gt; – TLDR; December: New cofounder, MVP, Received Grant from Emergent Ventures, Pivot from solving medical note-taking to solving medical paperwork. We are now building &amp;ldquo;Turbotax for Medical Forms&amp;rdquo;.&lt;/p&gt;
-
-&lt;h2 id=&#34;kpis&#34;&gt;KPIs&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We are default dead&lt;/li&gt;
-&lt;li&gt;Paying customers: 1&lt;/li&gt;
-&lt;li&gt;MRR: $600&lt;/li&gt;
-&lt;li&gt;Net MRR growth: 1800% (from $31.92 MRR for soapdictate ;))&lt;/li&gt;
-&lt;li&gt;Customer churn: 0%&lt;/li&gt;
-&lt;li&gt;Team: 2 people&lt;/li&gt;
-&lt;li&gt;Cash: $37,500 in bank&lt;/li&gt;
-&lt;li&gt;Monthly burn: $2,500&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;key-events&#34;&gt;Key Events&lt;/h2&gt;
-
-&lt;h1 id=&#34;good&#34;&gt;Good&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Sales/Customer-Month: We&amp;rsquo;ve talked to 5 practice groups this month, added a 6th group today alone, and have signed up one practice from the largest group for X licenses (X * $99). We&amp;rsquo;re presenting to 20 more potentials from the same practice group on Feb 27th.&lt;/li&gt;
-&lt;li&gt;Product: This was all done with a video of the MVP (see last month), and live demos of the MVP over Skype. We&amp;rsquo;ve built demo-able &amp;ldquo;Turbotax for medical forms&amp;rdquo; with 1 working form incl. PDF export and persistent data. Still needs user system, more forms, functioning reporting dashboard (currently static page). Now that we have first customer signed on we&amp;rsquo;re going to build this.&lt;/li&gt;
-&lt;li&gt;Learnings: From push-backs from the sales calls we&amp;rsquo;ve learned that the main complaints were: 1) No EMR integration (had a call with EMR, they&amp;rsquo;re holding the data hostage), 2) price (we were initially asking $99/form/practice/month &amp;hellip; this was too much), and 3) &amp;ldquo;let me run this by the other practices&amp;rdquo;. We couldn&amp;rsquo;t solve 1) but turns out the first customer STILL signed on and many are interested regardless, and we solved 2) by pricing 5 forms for $99 (build forms once, run anywhere so that should be fine), and solved 3) by offering   the pricing from 2) for as a limited time offer to add pressure and overcome &amp;ldquo;let me ask others&amp;rdquo; syndrome – it moved the first practice over the finish line.&lt;/li&gt;
-&lt;li&gt;We started working on this new concept on December 10th, had a prototype ready by December 18th, and had our first customer demo Jan 8th. We have a sign-up incl. pricing Jan 23rd.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;bad&#34;&gt;Bad&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We had a call with an EMR – refuse to let us integrate. They&amp;rsquo;re holding the customer&amp;rsquo;s healthcare data hostage. Upside: Customers subscribed anyway.&lt;/li&gt;
-&lt;li&gt;A LOT of work to do now 🚀&lt;/li&gt;
-&lt;li&gt;Wound down soapdictate.com and took off the app store, despite (slow)organic growth (7 new paying users this month so far @ $3.99/mo each): The risk/reward around HIPAA questions vs. what the app could potentially bring in didn&amp;rsquo;t make sense as a side-project – for now we want to focus on Paperwork Labs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;asks&#34;&gt;Asks&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Intros to practices struggling with form overload.&lt;/li&gt;
-&lt;li&gt;Intros to founders or investors with experience / advice on building out healthcare SaaS products.&lt;/li&gt;
-&lt;li&gt;We&amp;rsquo;re looking for free/cheap office space for one or two, please! We are currently doing spacious.com, and have moved to a friend&amp;rsquo;s garage&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We&amp;rsquo;re working from a friend&amp;rsquo;s garage:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-3/startup-garage.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;!-- Our first deal: --&gt;
-
-&lt;!-- ![](/startup-updates-3/startup-first-deal.JPG) --&gt;
-</content>
-      
-    </item>
-    
-    <item>
       <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
-      <pubDate>Wed, 16 Jan 2019 08:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 Mar 2019 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/projects/</guid>
       <description></description>
@@ -191,7 +41,8 @@
 Stats:
 * MRR: $0
 * Monthly Listings: 0
-* Users: 10
+* MAU: 24
+* Organic app store search
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -199,8 +50,7 @@ Stats:
 &lt;li&gt;&lt;a href=&#34;http://electrification.cc&#34;&gt;Electrification.cc&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/electrification-app.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/projects/electrification-web.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/electrification-app.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -266,7 +116,7 @@ Stats
 Stats
 * MRR: N/A
 * I4C Clean-Tech Startup Accelerator Cohort ‘14
-* $10,000 in test-sales
+* $9,400 in sales
 * Pre-Seed round (aborted)
 * My first ever entrepreneurial project
 &lt;/code&gt;&lt;/pre&gt;
@@ -323,8 +173,8 @@ Stats
 
 Stats
 * MRR: $47.88
-* Paying customers: 12
-* Trial customers: 4
+* Paying customers: 13
+* Trial customers: 1
 * Price point: $3.99/month
 * 186 registered users
 * Organic app store search
@@ -649,6 +499,156 @@ Stats
 &lt;p&gt;You made it this far!&lt;/p&gt;
 
 &lt;hr /&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>February Update</title>
+      <link>https://nikodunk.com/startup-updates-4/</link>
+      <pubDate>Sun, 24 Feb 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-4/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;february-2019&#34;&gt;February 2019&lt;/h1&gt;
+
+&lt;h2 id=&#34;kpis&#34;&gt;KPIs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We are default dead&lt;/li&gt;
+&lt;li&gt;Paying customers: 0&lt;/li&gt;
+&lt;li&gt;MRR: $0&lt;/li&gt;
+&lt;li&gt;Net MRR growth: %-100&lt;/li&gt;
+&lt;li&gt;Customer churn: %100&lt;/li&gt;
+&lt;li&gt;Team: 2 people&lt;/li&gt;
+&lt;li&gt;Cash: $35,000 in bank&lt;/li&gt;
+&lt;li&gt;Monthly burn: $2,500&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;key-events&#34;&gt;Key Events&lt;/h2&gt;
+
+&lt;h2 id=&#34;bad&#34;&gt;Bad&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We lost the client mentioned in the last monthly update, due to their top-brass insisting on a (technically nearly impossible) integration with their existing EMR provider after the first invoice was already due. The EMR provider wouldn&amp;rsquo;t play ball for this integration. After hearing this same push-back from 4 clients, the fourth of which agreed and signed but somehow hadn&amp;rsquo;t understood that we can&amp;rsquo;t integrate with their EMR until the final moment (we&amp;rsquo;d told them), I think this is an actual dealbreaker for the healthcare centers.&lt;/li&gt;
+&lt;li&gt;We looked into things like Selenium to move their mouse onscreen and enter the info into the EMR without human input, but decided this was too hacky.&lt;/li&gt;
+&lt;li&gt;We pivoted the product 3 weeks ago and re-used the same health contacts and pitched them 4 new ideas. The best of which was a new workflow idea, but after 4 calls no actual buying interest. We have 2 more calls next week. The current concept (and the last one) is online still at paperworklabs.com.&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;re very far away from the original goal of the company at this point, so the options are to double-or-nothing again or to pivot.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;good&#34;&gt;Good&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We&amp;rsquo;re currently leaning towards pivoting, which after 4 months and 3 concepts hurts, but after so much invested effort in health I keep getting drawn back to the exploding electric vehicle market:&lt;/li&gt;
+&lt;li&gt;This side project is called Electrade – the world&amp;rsquo;s first electric vehicle marketplace. It&amp;rsquo;s been on the app store for a week, and I&amp;rsquo;m working on ASO currently and going to EV meetups.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;asks&#34;&gt;Asks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bear with us during this hard reset. There comes a time after 4 months where I had to question the direction this project was growing in.&lt;/li&gt;
+&lt;li&gt;Intros to EV enthusiasts, and people with automobile market experience.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>How to set up Heroku SSL with Google Domains in 2019</title>
+      <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
+      <pubDate>Sat, 16 Feb 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/heroku-ssl-google-domains-2019/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;Ugh. This wastes time every time I run into it. It&amp;rsquo;s so much easier with AWS, and there&amp;rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&amp;rsquo;s ACM for SSL. IF you do everything right, it&amp;rsquo;s actually very simple. So I&amp;rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.&lt;/p&gt;
+
+&lt;p&gt;I strongly reference &lt;a href=&#34;https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97&#34;&gt;David Gagne&amp;rsquo;s article&lt;/a&gt; here, which is now sometimes behind a paywall on Medium. It&amp;rsquo;s actually only 3 steps.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Heroku, in your app &amp;gt; Settings &amp;gt; Add your domain:&lt;/strong&gt; Add www.[your-domain].com (Note: www is KEY!) to your app and copy the [DNS Target] it gives you.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Synthetic Records &amp;gt; Add a subdomain:&lt;/strong&gt; @ to Subdomain, add http://[your-domain].com to the next field. No need to mess around with the path forwarding radio, SSL radio and whatever else the web talks about.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Custom Resource Records &amp;gt; Add a CNAME:&lt;/strong&gt; www, CNAME, [DNS Target]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Boom. Wait a couple minutes, and you&amp;rsquo;re done.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;heroku certs:auto:refresh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&amp;rsquo;s working.&lt;/p&gt;
+
+&lt;p&gt;I install &lt;a href=&#34;https://github.com/nodenica/node-heroku-ssl-redirect&#34;&gt;heroku-ssl-redirect&lt;/a&gt; for node to force HTTPS upgrades.&lt;/p&gt;
+
+&lt;p&gt;Have a great year!&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>January Update</title>
+      <link>https://nikodunk.com/startup-updates-3/</link>
+      <pubDate>Thu, 24 Jan 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-3/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;january-2019&#34;&gt;January 2019&lt;/h1&gt;
+
+&lt;p&gt;We just signed up our first paying customer here at Paperwork Labs, so it&amp;rsquo;s time for the January update. See last month&amp;rsquo;s &lt;a href=&#34;https://nikodunk.com/startup-updates-2&#34;&gt;here&lt;/a&gt; – TLDR; December: New cofounder, MVP, Received Grant from Emergent Ventures, Pivot from solving medical note-taking to solving medical paperwork. We are now building &amp;ldquo;Turbotax for Medical Forms&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;kpis&#34;&gt;KPIs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We are default dead&lt;/li&gt;
+&lt;li&gt;Paying customers: 1&lt;/li&gt;
+&lt;li&gt;MRR: $600&lt;/li&gt;
+&lt;li&gt;Net MRR growth: 1800% (from $31.92 MRR for soapdictate ;))&lt;/li&gt;
+&lt;li&gt;Customer churn: 0%&lt;/li&gt;
+&lt;li&gt;Team: 2 people&lt;/li&gt;
+&lt;li&gt;Cash: $37,500 in bank&lt;/li&gt;
+&lt;li&gt;Monthly burn: $2,500&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;key-events&#34;&gt;Key Events&lt;/h2&gt;
+
+&lt;h1 id=&#34;good&#34;&gt;Good&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sales/Customer-Month: We&amp;rsquo;ve talked to 5 practice groups this month, added a 6th group today alone, and have signed up one practice from the largest group for X licenses (X * $99). We&amp;rsquo;re presenting to 20 more potentials from the same practice group on Feb 27th.&lt;/li&gt;
+&lt;li&gt;Product: This was all done with a video of the MVP (see last month), and live demos of the MVP over Skype. We&amp;rsquo;ve built demo-able &amp;ldquo;Turbotax for medical forms&amp;rdquo; with 1 working form incl. PDF export and persistent data. Still needs user system, more forms, functioning reporting dashboard (currently static page). Now that we have first customer signed on we&amp;rsquo;re going to build this.&lt;/li&gt;
+&lt;li&gt;Learnings: From push-backs from the sales calls we&amp;rsquo;ve learned that the main complaints were: 1) No EMR integration (had a call with EMR, they&amp;rsquo;re holding the data hostage), 2) price (we were initially asking $99/form/practice/month &amp;hellip; this was too much), and 3) &amp;ldquo;let me run this by the other practices&amp;rdquo;. We couldn&amp;rsquo;t solve 1) but turns out the first customer STILL signed on and many are interested regardless, and we solved 2) by pricing 5 forms for $99 (build forms once, run anywhere so that should be fine), and solved 3) by offering   the pricing from 2) for as a limited time offer to add pressure and overcome &amp;ldquo;let me ask others&amp;rdquo; syndrome – it moved the first practice over the finish line.&lt;/li&gt;
+&lt;li&gt;We started working on this new concept on December 10th, had a prototype ready by December 18th, and had our first customer demo Jan 8th. We have a sign-up incl. pricing Jan 23rd.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;bad&#34;&gt;Bad&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We had a call with an EMR – refuse to let us integrate. They&amp;rsquo;re holding the customer&amp;rsquo;s healthcare data hostage. Upside: Customers subscribed anyway.&lt;/li&gt;
+&lt;li&gt;A LOT of work to do now 🚀&lt;/li&gt;
+&lt;li&gt;Wound down soapdictate.com and took off the app store, despite (slow)organic growth (7 new paying users this month so far @ $3.99/mo each): The risk/reward around HIPAA questions vs. what the app could potentially bring in didn&amp;rsquo;t make sense as a side-project – for now we want to focus on Paperwork Labs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;asks&#34;&gt;Asks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intros to practices struggling with form overload.&lt;/li&gt;
+&lt;li&gt;Intros to founders or investors with experience / advice on building out healthcare SaaS products.&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;re looking for free/cheap office space for one or two, please! We are currently doing spacious.com, and have moved to a friend&amp;rsquo;s garage&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We&amp;rsquo;re working from a friend&amp;rsquo;s garage:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-3/startup-garage.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;!-- Our first deal: --&gt;
+
+&lt;!-- ![](/startup-updates-3/startup-first-deal.JPG) --&gt;
 </content>
       
     </item>

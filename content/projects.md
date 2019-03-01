@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learnings from projects & things I've made so far."
-date:   2019-01-16 08:00:00 -0700
+date:   2019-03-01 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 ---
 
@@ -28,14 +28,14 @@ This is a general blog post on my various schemes so far, loosely grouped around
 	Stats:
 	* MRR: $0
 	* Monthly Listings: 0
-	* Users: 10
+	* MAU: 24
+	* Organic app store search
 
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
 * [Electrification.cc](http://electrification.cc)
 
 
 ![](/projects/electrification-app.png)
-![](/projects/electrification-web.png)
 
 ------------
 
@@ -107,7 +107,7 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 	Stats
 	* MRR: N/A
 	* I4C Clean-Tech Startup Accelerator Cohort ‘14
-	* $10,000 in test-sales
+	* $9,400 in sales
 	* Pre-Seed round (aborted)
 	* My first ever entrepreneurial project
 
@@ -166,8 +166,8 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 	Stats
 	* MRR: $47.88
-	* Paying customers: 12
-	* Trial customers: 4
+	* Paying customers: 13
+	* Trial customers: 1
 	* Price point: $3.99/month
 	* 186 registered users
 	* Organic app store search
