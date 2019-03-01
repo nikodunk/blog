@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nikodunk.com/startup-updates-4/</loc>
+    <lastmod>2019-02-24T08:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nikodunk.com/heroku-ssl-google-domains-2019/</loc>
     <lastmod>2019-02-16T08:00:00-07:00</lastmod>
   </url>
@@ -84,7 +89,7 @@
   
   <url>
     <loc>https://nikodunk.com/</loc>
-    <lastmod>2019-02-16T08:00:00-07:00</lastmod>
+    <lastmod>2019-02-24T08:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   

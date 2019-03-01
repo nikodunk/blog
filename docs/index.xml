@@ -13,6 +13,56 @@
     
     
     <item>
+      <title>February Update</title>
+      <link>https://nikodunk.com/startup-updates-4/</link>
+      <pubDate>Sun, 24 Feb 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-4/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;february-2019&#34;&gt;February 2019&lt;/h1&gt;
+
+&lt;h2 id=&#34;kpis&#34;&gt;KPIs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We are default dead&lt;/li&gt;
+&lt;li&gt;Paying customers: 0&lt;/li&gt;
+&lt;li&gt;MRR: $0&lt;/li&gt;
+&lt;li&gt;Net MRR growth: %-100&lt;/li&gt;
+&lt;li&gt;Customer churn: %100&lt;/li&gt;
+&lt;li&gt;Team: 2 people&lt;/li&gt;
+&lt;li&gt;Cash: $35,000 in bank&lt;/li&gt;
+&lt;li&gt;Monthly burn: $2,500&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;key-events&#34;&gt;Key Events&lt;/h2&gt;
+
+&lt;h2 id=&#34;bad&#34;&gt;Bad&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;We lost the client mentioned in the last monthly update, due to their top-brass insisting on a (technically nearly impossible) integration with their existing EMR provider after the first invoice was already due. The EMR provider wouldn&#39;t play ball for this integration. After hearing this same push-back from 4 clients, the fourth of which agreed and signed but somehow hadn&#39;t understood that we can&#39;t integrate with their EMR until the final moment (we&#39;d told them), I think this is an actual dealbreaker for the healthcare centers.
+We looked into things like Selenium to move their mouse onscreen and enter the info into the EMR without human input, but decided this was too hacky.
+We pivoted the product 3 weeks ago and re-used the same health contacts and pitched them 4 new ideas. The best of which was a new workflow idea, but after 4 calls no actual buying interest. We have 2 more calls next week. The current concept (and the last one) is online still at paperworklabs.com.
+We&#39;re very far away from the original goal of the company at this point, so the options are to double-or-nothing again or to pivot.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;good&#34;&gt;Good&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;We&#39;re currently leaning towards pivoting, which after 4 months and 3 concepts hurts, but after so much invested effort in health I keep getting drawn back to the exploding electric vehicle market:
+This side project is called Electrade – the world&#39;s first electric vehicle marketplace. It&#39;s been on the app store for a week, and I&#39;m working on ASO currently and going to EV meetups.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;asks&#34;&gt;Asks&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;Bear with us during this hard reset. There comes a time after 4 months where I had to question the direction this project was growing in.
+Intros to EV enthusiasts, and people with automobile market experience.
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>How to set up Heroku SSL with Google Domains in 2019</title>
       <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
       <pubDate>Sat, 16 Feb 2019 08:00:00 -0700</pubDate>
