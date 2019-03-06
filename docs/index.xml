@@ -515,14 +515,16 @@ Stats
 
 &lt;h1 id=&#34;february-2019&#34;&gt;February 2019&lt;/h1&gt;
 
+&lt;p&gt;After 4 months of working on healthcare stuffs and nearly making it (we signed a first deal of $600/mo, but then couldn&amp;rsquo;t deliver an external integration they needed UGH) I have to face the decision to double down again or reset. I&amp;rsquo;ve decided to reset to something more in line with my natural interests: I&amp;rsquo;ve now been working for the past couple weeks on the (first) electric vehicle marketplace app. &amp;ldquo;Find a used tesla near me&amp;rdquo; – screenshot attached :)&lt;/p&gt;
+
 &lt;h2 id=&#34;kpis&#34;&gt;KPIs&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;We are default dead&lt;/li&gt;
 &lt;li&gt;Paying customers: 0&lt;/li&gt;
 &lt;li&gt;MRR: $0&lt;/li&gt;
-&lt;li&gt;Net MRR growth: %-100&lt;/li&gt;
-&lt;li&gt;Customer churn: %100&lt;/li&gt;
+&lt;li&gt;Net MRR growth: 0%&lt;/li&gt;
+&lt;li&gt;Customer churn: 100%&lt;/li&gt;
 &lt;li&gt;Team: 2 people&lt;/li&gt;
 &lt;li&gt;Cash: $35,000 in bank&lt;/li&gt;
 &lt;li&gt;Monthly burn: $2,500&lt;/li&gt;
@@ -533,10 +535,10 @@ Stats
 &lt;h2 id=&#34;bad&#34;&gt;Bad&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;We lost the client mentioned in the last monthly update, due to their top-brass insisting on a (technically nearly impossible) integration with their existing EMR provider after the first invoice was already due. The EMR provider wouldn&amp;rsquo;t play ball for this integration. After hearing this same push-back from 4 clients, the fourth of which agreed and signed but somehow hadn&amp;rsquo;t understood that we can&amp;rsquo;t integrate with their EMR until the final moment (we&amp;rsquo;d told them), I think this is an actual dealbreaker for the healthcare centers.&lt;/li&gt;
-&lt;li&gt;We looked into things like Selenium to move their mouse onscreen and enter the info into the EMR without human input, but decided this was too hacky.&lt;/li&gt;
-&lt;li&gt;We pivoted the product 3 weeks ago and re-used the same health contacts and pitched them 4 new ideas. The best of which was a new workflow idea, but after 4 calls no actual buying interest. We have 2 more calls next week. The current concept (and the last one) is online still at paperworklabs.com.&lt;/li&gt;
-&lt;li&gt;We&amp;rsquo;re very far away from the original goal of the company at this point, so the options are to double-or-nothing again or to pivot.&lt;/li&gt;
+&lt;li&gt;We lost the client mentioned in the last monthly update, due to their top brass insisting on a (technically nearly impossible) integration with their existing EMR provider after the first invoice was already due. The EMR provider wouldn&amp;rsquo;t play ball for this integration. After hearing this same push-back from 4 clients, I think this is an actual deal breaker for the healthcare centers.&lt;/li&gt;
+&lt;li&gt;We looked into solutions like Selenium to move their mouse onscreen and enter the info into the EMR without human input, but decided this was too hacky.&lt;/li&gt;
+&lt;li&gt;We pivoted to new idea, same client about 3 weeks ago, and pitched the same health centers 4 alternative problems. The best of which was a new workflow idea, but after 6 calls we can&amp;rsquo;t get interest signal. The prototype of the new workflow concept (as well as the form automation one) are both still online still at paperworklabs.com.&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;re very far away from the original goal of the company at this point, so the options are to double-or-nothing again or to reset.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;good&#34;&gt;Good&lt;/h2&gt;
