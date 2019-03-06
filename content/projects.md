@@ -10,8 +10,6 @@ This is a general blog post on my various schemes so far, loosely grouped around
 ![](/projects/gianni_colombo.jpg) ![](/projects/scientist.jpg)
 
 
-
-
 # Sustainability
 --------------------------------------------------------------------------------------------------------------
 
@@ -28,14 +26,12 @@ This is a general blog post on my various schemes so far, loosely grouped around
 	Stats:
 	* MRR: $0
 	* Monthly Listings: 0
-	* MAU: 24
+	* MAU: 50
 	* Organic app store search
 
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
-* [Electrification.cc](http://electrification.cc)
 
-
-![](/projects/electrification-app.png)
+![](/projects/electrade-app.png)
 
 ------------
 
@@ -52,7 +48,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 	* User submitted content
 
 	Stats
-	* MRR: ~ $20.00
+	* MRR: ~ $30.00
 	* 204'600 uniques from July 2017 - July 2018
 	* 3.74% conversion to Amazon affiliate program
 	* 2 versions of kit launched
