@@ -20,12 +20,12 @@ This is a general blog post on my various schemes so far, loosely grouped around
 	Tech:
 	* React-Native App
 	* Backend Node/Express/Postgres, storing listing photos to S3
-	* Dynamic pricing data from other sites & EV News scraped with APIfy.com
-	* Mapping data from OpenChargeMap.com
+	* Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer
+	* EV News updates through APIfy.com
 
 	Stats:
 	* MRR: $0
-	* Monthly Listings: 0
+	* Monthly Lease Requests: 2
 	* MAU: 50
 	* Organic app store search
 
@@ -161,11 +161,11 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
-	* MRR: $47.88
-	* Paying customers: 13
-	* Trial customers: 1
+	* MRR: $44.68
+	* Paying customers: 16
+	* Trial customers: 0
 	* Price point: $3.99/month
-	* 186 registered users
+	* 220 registered users
 	* Organic app store search
 
 * [App Store Link](https://itunes.apple.com/app/id1384252497)
@@ -174,9 +174,7 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 ![](/projects/demo_health3.gif)
 
-![](/projects/soapstats_1.png)
-![](/projects/soapstats_2.png)
-![](/projects/soapstats_3.png)
+![](/projects/soapstats.png)
 
 
 
