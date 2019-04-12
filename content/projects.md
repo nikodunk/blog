@@ -24,12 +24,14 @@ This is a general blog post on my various schemes so far, loosely grouped around
 	* EV News updates through APIfy.com
 
 	Stats:
-	* MRR: $0
-	* Monthly Lease Requests: 2
-	* MAU: 50
-	* Organic app store search
+	* Revenue: $0
+	* Monthly Lease Requests: 12
+	* MAU: 60
+	* Users: 250
+	* User acquisition: Organic app store search
 
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
+* [Google Play Link](https://play.google.com/store/apps/details?id=com.bigset.electric)
 
 ![](/projects/electrade-app.png)
 
@@ -48,7 +50,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 	* User submitted content
 
 	Stats
-	* MRR: ~ $30.00
+	* MR: ~ $30.00
 	* 204'600 uniques from July 2017 - July 2018
 	* 3.74% conversion to Amazon affiliate program
 	* 2 versions of kit launched
