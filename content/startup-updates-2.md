@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "December Update"
+title:  "December 2018 Update"
 date:   2018-12-31 08:00:00 -0700
 tags: ["Updates", "Learnings"]
 image: https://nikodunk.github.io/hours/delft.jpg
 ---
 
-December 2018
-===
 
 Month 2: Still laser-focused on writing code and talking to users, but now have found a good potential **co-founder**, brainstormed a **new, bigger problem** _with_ him (important!) and received some **initial grant funding** to take some of the financial risk off my back.
 

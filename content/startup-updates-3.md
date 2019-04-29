@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "January Update"
+title:  "January 2019 Update"
 date:   2019-01-24 08:00:00 -0700
 categories: 
 ---
-
-January 2019
-===
 
 We just signed up our first paying customer here at Paperwork Labs, so it's time for the January update. See last month's [here](https://nikodunk.com/startup-updates-2) – TLDR; December: New cofounder, MVP, Received Grant from Emergent Ventures, Pivot from solving medical note-taking to solving medical paperwork. We are now building "Turbotax for Medical Forms".
 

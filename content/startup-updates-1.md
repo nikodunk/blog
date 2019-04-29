@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "November Update: starting up"
+title:  "November 2018 Update: starting up"
 date:   2018-11-30 08:00:00 -0700
 tags: ["Updates", "Learnings"]
 image: https://nikodunk.github.io/learnings/demo_health3.gif
 ---
-
-November 2018
-===
 
 Month 1: Lazer-like focused on writing code and talking to users. After Elisa and I split up from doing giftlab.io, I decided to focus on soapdictate after I'd left swissnexSF. soapdictate is my other side-project, and I wanted to see if I could make it work. I left swissnexSF October 31st 2018 and switched to working on the soapdictate dictation app full-time.
 

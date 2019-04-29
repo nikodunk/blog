@@ -13,6 +13,152 @@
     
     
     <item>
+      <title>April 2019 Update</title>
+      <link>https://nikodunk.com/startup-updates-6/</link>
+      <pubDate>Mon, 29 Apr 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-6/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;help-wanted-asks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Need office space (update: found in Node U)&lt;/li&gt;
+&lt;li&gt;Need cofounders (update: trial)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;hiring&#34;&gt;Hiring: &lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Candidates in hiring funnel for cofounder: 14&lt;/li&gt;
+&lt;li&gt;Interviews: 2&lt;/li&gt;
+&lt;li&gt;Trial running with cofounder (Armin)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monthly Active Users: 270&lt;/li&gt;
+&lt;li&gt;Weekly Active Users: 100&lt;/li&gt;
+&lt;li&gt;Daily Active Users: 13-40&lt;/li&gt;
+&lt;li&gt;Lease requests: 12&lt;/li&gt;
+&lt;li&gt;Lease requests per day: 1-2&lt;/li&gt;
+&lt;li&gt;Lease conversions: 0&lt;/li&gt;
+&lt;li&gt;Lease conversion revenue: $0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added weekly deals with ev-vin.blogspot.com data&lt;/li&gt;
+&lt;li&gt;Doing background research myself once received requests.&lt;/li&gt;
+&lt;li&gt;Added deposit and digital paperwork as proxy between dealer (&amp;ldquo;price security/no haggle proxy&amp;rdquo;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&#34;problem-not-installing-app-acquisition-attempts-to-solve&#34;&gt;Problem: Not installing app (acquisition). Attempts to solve:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Free ASO worked on. Ran many experiments but managed to score top 10 with &amp;ldquo;lease car&amp;rdquo; and &amp;ldquo;electric vehicles&amp;rdquo;.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; increased from non-ranked to top 20 in &amp;ldquo;Electric Vehicles&amp;rdquo; and &amp;ldquo;Lease Car&amp;rdquo;. Impressions 7X. Installs flat.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Free DM Reddit (manual) /r/electricvehicles and /r/teslamotors
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Wrong kind of customer. EV enthusiast but not car shopper when manually reaching out. Not sticky. $0 per install. 1 in 20 installs.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Free Leasehackr.com forum link as acquisition channel super effective.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 60+ targeted leads to going up in App Store rankings (point 1). Very negotiation-happy customer – wrong kind of customer? Budget customer.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Paid Reddit paid on /r/electricvehicles and /r/teslamotors
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; $0.45 per tap Android and $0.49 on iOS. Roughly 50% install rate from product page -&amp;gt; Roughly $1 per install.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Paid iOS App store:
+&lt;strong&gt;Results:&lt;/strong&gt; $2.50 per tap, not sure if installed.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;h3 id=&#34;problem-installed-not-requesting-attempts-to-solve&#34;&gt;Problem: Installed, Not requesting. Attempts to solve:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Single-number lease price (incl. all).
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Sticker shock is real. Lease requests down to 0 in the week that attempted this. Started up again once reverted to &amp;ldquo;monthly&amp;rdquo; + &amp;ldquo;down&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added &amp;ldquo;X more left at this price&amp;rdquo; to increase urgency.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No significant increase in tapthrough rate&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added &amp;ldquo;X people looking at this deal&amp;rdquo; to increase urgency.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No significant increase in tapthrough rate&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Potentially finding wrong customer – people off leasehackr may LIKE negotiating. Find different customers? =&amp;gt; Reddit customers work better.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;h3 id=&#34;problem-requesting-but-not-converting-on-email-step-attempts-to-solve&#34;&gt;Problem: Requesting, but not converting on email step. Attempts to solve:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Better conversion email – 48 hour limit to increase urgency.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No difference. Drop off.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Better conversion email – Not give full number over 36 months as looks high.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No difference. Drop off.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Upfront down payment – $200 deposit.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 1 attempt to pay, may be fraud. Potentially may take 60 days to convert customers, though once have app installed, though.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added value: Do all paperwork digitally &amp;amp; pay deposit to lock in so don&amp;rsquo;t have to haggle with dealer – just pick up &amp;amp; pay.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Same as above. Not sure this convenience is a pain point. Reached out to ask for feedback from email addresses but no response.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;h3 id=&#34;tested-ev-insurance&#34;&gt;Tested EV insurance&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Loads of complaints online about how it&amp;rsquo;s expensive. Added Metromile affiliate program.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 0 sign-ups so far after 2 weeks of cohorts.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;experiments-for-next-2-weeks&#34;&gt;Experiments for next 2 weeks:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Test Concierge service (you say which car, we&amp;rsquo;ll find at a price).&lt;/li&gt;
+&lt;li&gt;Test Consultant service (we&amp;rsquo;ll answer your EV questions and then recommend products).&lt;/li&gt;
+&lt;li&gt;Change from pure EV? Potentially, the hassle-free value proposition may be more effective in a mainstream market for now?&lt;/li&gt;
+&lt;li&gt;Add off-lease cars from Greenlight Auto Wholesale ?&lt;/li&gt;
+&lt;li&gt;Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?&lt;/li&gt;
+&lt;li&gt;Rent an EV for a month between leases?&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
       <pubDate>Fri, 01 Mar 2019 08:00:00 -0700</pubDate>
@@ -65,7 +211,7 @@ Stats:
 * User submitted content
 
 Stats
-* MR: ~ $30.00
+* MR: ~ $30
 * 204&#39;600 uniques from July 2017 - July 2018
 * 3.74% conversion to Amazon affiliate program
 * 2 versions of kit launched
@@ -173,9 +319,9 @@ Stats
 * Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 Stats
-* MRR: $44.68
-* Paying customers: 16
-* Trial customers: 0
+* MRR: $50
+* Paying customers: 18
+* Trial customers: 1
 * Price point: $3.99/month
 * 220 registered users
 * Organic app store search
@@ -503,7 +649,7 @@ Stats
     </item>
     
     <item>
-      <title>February Update</title>
+      <title>February 2019 Update</title>
       <link>https://nikodunk.com/startup-updates-4/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
@@ -511,8 +657,6 @@ Stats
       <description></description>
       
       <content>
-
-&lt;h1 id=&#34;february-2019&#34;&gt;February 2019&lt;/h1&gt;
 
 &lt;p&gt;After 4 months of working on healthcare stuffs and nearly making it (we signed a first deal of $600/mo, but then couldn&amp;rsquo;t deliver an external integration they needed UGH) I have to face the decision to double down again or reset. I&amp;rsquo;ve decided to reset to something more in line with my natural interests: I&amp;rsquo;ve now been working for the past couple weeks on the (first) electric vehicle marketplace app. &amp;ldquo;Find a used tesla near me&amp;rdquo; – screenshot attached :)&lt;/p&gt;
 
@@ -590,7 +734,7 @@ Stats
     </item>
     
     <item>
-      <title>January Update</title>
+      <title>January 2019 Update</title>
       <link>https://nikodunk.com/startup-updates-3/</link>
       <pubDate>Thu, 24 Jan 2019 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
@@ -598,8 +742,6 @@ Stats
       <description></description>
       
       <content>
-
-&lt;h1 id=&#34;january-2019&#34;&gt;January 2019&lt;/h1&gt;
 
 &lt;p&gt;We just signed up our first paying customer here at Paperwork Labs, so it&amp;rsquo;s time for the January update. See last month&amp;rsquo;s &lt;a href=&#34;https://nikodunk.com/startup-updates-2&#34;&gt;here&lt;/a&gt; – TLDR; December: New cofounder, MVP, Received Grant from Emergent Ventures, Pivot from solving medical note-taking to solving medical paperwork. We are now building &amp;ldquo;Turbotax for Medical Forms&amp;rdquo;.&lt;/p&gt;
 
@@ -655,7 +797,7 @@ Stats
     </item>
     
     <item>
-      <title>December Update</title>
+      <title>December 2018 Update</title>
       <link>https://nikodunk.com/startup-updates-2/</link>
       <pubDate>Mon, 31 Dec 2018 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
@@ -663,8 +805,6 @@ Stats
       <description></description>
       
       <content>
-
-&lt;h1 id=&#34;december-2018&#34;&gt;December 2018&lt;/h1&gt;
 
 &lt;p&gt;Month 2: Still laser-focused on writing code and talking to users, but now have found a good potential &lt;strong&gt;co-founder&lt;/strong&gt;, brainstormed a &lt;strong&gt;new, bigger problem&lt;/strong&gt; &lt;em&gt;with&lt;/em&gt; him (important!) and received some &lt;strong&gt;initial grant funding&lt;/strong&gt; to take some of the financial risk off my back.&lt;/p&gt;
 
@@ -740,7 +880,7 @@ Stats
     </item>
     
     <item>
-      <title>November Update: starting up</title>
+      <title>November 2018 Update: starting up</title>
       <link>https://nikodunk.com/startup-updates-1/</link>
       <pubDate>Fri, 30 Nov 2018 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
@@ -748,8 +888,6 @@ Stats
       <description></description>
       
       <content>
-
-&lt;h1 id=&#34;november-2018&#34;&gt;November 2018&lt;/h1&gt;
 
 &lt;p&gt;Month 1: Lazer-like focused on writing code and talking to users. After Elisa and I split up from doing giftlab.io, I decided to focus on soapdictate after I&amp;rsquo;d left swissnexSF. soapdictate is my other side-project, and I wanted to see if I could make it work. I left swissnexSF October 31st 2018 and switched to working on the soapdictate dictation app full-time.&lt;/p&gt;
 

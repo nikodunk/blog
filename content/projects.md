@@ -50,7 +50,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 	* User submitted content
 
 	Stats
-	* MR: ~ $30.00
+	* MR: ~ $30
 	* 204'600 uniques from July 2017 - July 2018
 	* 3.74% conversion to Amazon affiliate program
 	* 2 versions of kit launched
@@ -163,9 +163,9 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
-	* MRR: $44.68
-	* Paying customers: 16
-	* Trial customers: 0
+	* MRR: $50
+	* Paying customers: 18
+	* Trial customers: 1
 	* Price point: $3.99/month
 	* 220 registered users
 	* Organic app store search
