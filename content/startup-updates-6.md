@@ -41,6 +41,7 @@ categories:
 	* Paid iOS App store:
 		**Results:** $2.50 per tap, not sure if installed.
 
+
 * ### Problem: Installed, Not requesting. Attempts to solve:
 	* Single-number lease price (incl. all). 
 		* **Results:** Sticker shock is real. Lease requests down to 0 in the week that attempted this. Started up again once reverted to "monthly" + "down"
@@ -50,7 +51,8 @@ categories:
 		* **Results:** No significant increase in tapthrough rate
 	* Potentially finding wrong customer – people off leasehackr may LIKE negotiating. Find different customers? => Reddit customers work better.
 
-* ### Problem: Requesting, but not converting on email step. Attempts to solve:
+
+* ### Problem: User requesting, but not converting on email step. Attempts to solve:
 	* Better conversion email – 48 hour limit to increase urgency.
 		* **Results:** No difference. Drop off.
 	* Better conversion email – Not give full number over 36 months as looks high.
@@ -59,6 +61,7 @@ categories:
 		* **Results:** 1 attempt to pay, may be fraud. Potentially may take 60 days to convert customers, though once have app installed, though.
 	* Added value: Do all paperwork digitally & pay deposit to lock in so don't have to haggle with dealer – just pick up & pay.
 		* **Results:** Same as above. Not sure this convenience is a pain point. Reached out to ask for feedback from email addresses but no response.
+
 
 * ### Tested EV insurance
 	* Loads of complaints online about how it's expensive. Added Metromile affiliate program.
