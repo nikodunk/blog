@@ -6,7 +6,7 @@
     <description>Recent content in Learnings on D U N K | niko&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2019 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2019 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nikodunk.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,11 @@
     <item>
       <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
-      <pubDate>Fri, 01 Mar 2019 08:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 May 2019 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/projects/</guid>
       <description>This is a general blog post on my various schemes so far, loosely grouped around topic. I look like this when I&amp;rsquo;ve made something:
-Sustainability electrade app | The world&amp;rsquo;s first EV marketplace Tech: * React-Native App * Backend Node/Express/Postgres, storing listing photos to S3 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer * EV News updates through APIfy.com Stats: * Revenue: $0 * Monthly Lease Requests: 12 * MAU: 60 * Users: 250 * User acquisition: Organic app store search   App Store Link Google Play Link  sunboxlabs.</description>
+Sustainability electrade app | The world&amp;rsquo;s first EV marketplace Tech: * React-Native App * Backend Node/Express/Postgres, storing listing photos to S3 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer * EV News updates through APIfy.com Stats: * Revenue: $0 * Monthly Lease Requests: 12 * MAU: 100 * Users: 350 * User acquisition: Paid Reddit   App Store Link Google Play Link  sunboxlabs.</description>
     </item>
     
     <item>

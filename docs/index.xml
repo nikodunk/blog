@@ -13,193 +13,9 @@
     
     
     <item>
-      <title>April 2019 Update</title>
-      <link>https://nikodunk.com/startup-updates-7/</link>
-      <pubDate>Mon, 29 Apr 2019 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/startup-updates-7/</guid>
-      <description></description>
-      
-      <content>
-
-&lt;h1 id=&#34;help-wanted-asks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Need office space (update: found in Node U)&lt;/li&gt;
-&lt;li&gt;Need cofounders (update: trial)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;hiring&#34;&gt;Hiring: &lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Candidates in hiring funnel for cofounder: 14&lt;/li&gt;
-&lt;li&gt;Interviews: 2&lt;/li&gt;
-&lt;li&gt;Trial running with cofounder (Armin)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Monthly Active Users: 270&lt;/li&gt;
-&lt;li&gt;Weekly Active Users: 100&lt;/li&gt;
-&lt;li&gt;Daily Active Users: 13-40&lt;/li&gt;
-&lt;li&gt;Lease requests: 12&lt;/li&gt;
-&lt;li&gt;Lease requests per day: 1-2&lt;/li&gt;
-&lt;li&gt;Lease conversions: 0&lt;/li&gt;
-&lt;li&gt;Lease conversion revenue: $0&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added weekly deals with ev-vin.blogspot.com data&lt;/li&gt;
-&lt;li&gt;Doing background research myself once received requests.&lt;/li&gt;
-&lt;li&gt;Added deposit and digital paperwork as proxy between dealer (&amp;ldquo;price security/no haggle proxy&amp;rdquo;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;h3 id=&#34;problem-not-installing-app-acquisition-attempts-to-solve&#34;&gt;Problem: Not installing app (acquisition). Attempts to solve:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Free ASO worked on. Ran many experiments but managed to score top 10 with &amp;ldquo;lease car&amp;rdquo; and &amp;ldquo;electric vehicles&amp;rdquo;.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; increased from non-ranked to top 20 in &amp;ldquo;Electric Vehicles&amp;rdquo; and &amp;ldquo;Lease Car&amp;rdquo;. Impressions 7X. Installs flat.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Free DM Reddit (manual) /r/electricvehicles and /r/teslamotors
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Wrong kind of customer. EV enthusiast but not car shopper when manually reaching out. Not sticky. $0 per install. 1 in 20 installs.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Free Leasehackr.com forum link as acquisition channel super effective.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 60+ targeted leads to going up in App Store rankings (point 1). Very negotiation-happy customer – wrong kind of customer? Budget customer.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Paid Reddit paid on /r/electricvehicles and /r/teslamotors
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; $0.45 per tap Android and $0.49 on iOS. Roughly 50% install rate from product page -&amp;gt; Roughly $1 per install.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Paid iOS App store:
-&lt;strong&gt;Results:&lt;/strong&gt; $2.50 per tap, not sure if installed.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;h3 id=&#34;problem-installed-not-requesting-attempts-to-solve&#34;&gt;Problem: Installed, Not requesting. Attempts to solve:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Single-number lease price (incl. all).
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Sticker shock is real. Lease requests down to 0 in the week that attempted this. Started up again once reverted to &amp;ldquo;monthly&amp;rdquo; + &amp;ldquo;down&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Added &amp;ldquo;X more left at this price&amp;rdquo; to increase urgency.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No significant increase in tapthrough rate&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Added &amp;ldquo;X people looking at this deal&amp;rdquo; to increase urgency.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No significant increase in tapthrough rate&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Potentially finding wrong customer – people off leasehackr may LIKE negotiating. Find different customers? =&amp;gt; Reddit customers work better.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;h3 id=&#34;problem-user-requesting-but-not-converting-on-email-step-attempts-to-solve&#34;&gt;Problem: User requesting, but not converting on email step. Attempts to solve:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Better conversion email – 48 hour limit to increase urgency.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No difference. Drop off.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Better conversion email – Not give full number over 36 months as looks high.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No difference. Drop off.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Upfront down payment – $200 deposit.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 1 attempt to pay, may be fraud. Potentially may take 60 days to convert customers, though once have app installed, though.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Added value: Do all paperwork digitally &amp;amp; pay deposit to lock in so don&amp;rsquo;t have to haggle with dealer – just pick up &amp;amp; pay.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Same as above. Not sure this convenience is a pain point. Reached out to ask for feedback from email addresses but no response.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;h3 id=&#34;tested-ev-insurance&#34;&gt;Tested EV insurance&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Loads of complaints online about how it&amp;rsquo;s expensive. Added Metromile affiliate program.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 0 sign-ups so far after 2 weeks of cohorts.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;experiments-for-next-2-weeks&#34;&gt;Experiments for next 2 weeks:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Test Concierge service (you say which car, we&amp;rsquo;ll find at a price).&lt;/li&gt;
-&lt;li&gt;Test Consultant service (we&amp;rsquo;ll answer your EV questions and then recommend products).&lt;/li&gt;
-&lt;li&gt;Change from pure EV? Potentially, the hassle-free value proposition may be more effective in a mainstream market for now?&lt;/li&gt;
-&lt;li&gt;Add off-lease cars from Greenlight Auto Wholesale ?&lt;/li&gt;
-&lt;li&gt;Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?&lt;/li&gt;
-&lt;li&gt;Rent an EV for a month between leases?&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-      
-    </item>
-    
-    <item>
-      <title>March 2019 Update</title>
-      <link>https://nikodunk.com/startup-updates-6/</link>
-      <pubDate>Fri, 29 Mar 2019 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/startup-updates-6/</guid>
-      <description></description>
-      
-      <content>&lt;p&gt;This month has been mostly resetting on a new project, electrade. I&amp;rsquo;ve been interviewing a bunch of EV owners over the phone to ask for problems, and going to a Golden Gate Electric Vehicle Meetup.&lt;/p&gt;
-
-&lt;p&gt;Tried the concepts:
-* Electric Vehicle News app.
-    * Results: works, but not super differentiated
-* Electric Vehicle Maps
-    * Hard to find good data
-* Electric Vehicle price data, static.
-    * Not super sensible
-* Electric vehicle price data, dynamic.
-    * Scraped off autotrader.
-* Used electric vehicle price data and new.
-    * Not much interest.
-* Post your own used electric vehicle.
-    * Not much interest
-* Post your EV to the gallery.
-    * Not much interest.
-* Used Teslas near you.
-    * Not much interest, lots of competition from EV-CPO.com and onlyusedtesla.com
-    * Talked to two folks who could scrape the CPO (certified pre-owned tesla) data from tesla&amp;rsquo;s website.
-* Hypothesis:
-    * People actually want to lease their cars.
-    * Test: deal with a tesla lease partner
-    * Found ev-vin.blogspot.com&lt;/p&gt;
-
-&lt;p&gt;Not much to update on this month. Tracking WAU – 20% week over week growth.&lt;/p&gt;
-</content>
-      
-    </item>
-    
-    <item>
       <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
-      <pubDate>Fri, 01 Mar 2019 08:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 May 2019 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/projects/</guid>
       <description></description>
@@ -225,9 +41,9 @@
 Stats:
 * Revenue: $0
 * Monthly Lease Requests: 12
-* MAU: 60
-* Users: 250
-* User acquisition: Organic app store search
+* MAU: 100
+* Users: 350
+* User acquisition: Paid Reddit
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -348,7 +164,7 @@ Stats
 
 &lt;p&gt;Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month.&lt;/p&gt;
 
-&lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Took down after 3 months because the HIPAA situation of Apple&amp;rsquo;s Speech Recognition API is unclear – technically HIPAA compliantly encrypted, but as Apple would never sign a BAA, not a risk I wanted to take on as the above project took off&amp;hellip;&lt;/p&gt;
+&lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&amp;rsquo;s Speech Recognition API is unclear as it&amp;rsquo;s encrypted, but Apple won&amp;rsquo;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech
 * React Native App
@@ -359,7 +175,7 @@ Stats
 Stats
 * MRR: $50
 * Paying customers: 18
-* Trial customers: 1
+* Trial customers: 2
 * Price point: $3.99/month
 * 220 registered users
 * Organic app store search
@@ -682,6 +498,190 @@ Stats
 &lt;p&gt;You made it this far!&lt;/p&gt;
 
 &lt;hr /&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>April 2019 Update</title>
+      <link>https://nikodunk.com/startup-updates-7/</link>
+      <pubDate>Mon, 29 Apr 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-7/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;help-wanted-asks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Need office space (update: found in Node U)&lt;/li&gt;
+&lt;li&gt;Need cofounders (update: trial)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;hiring&#34;&gt;Hiring: &lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Candidates in hiring funnel for cofounder: 14&lt;/li&gt;
+&lt;li&gt;Interviews: 2&lt;/li&gt;
+&lt;li&gt;Trial running with cofounder (Armin)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monthly Active Users: 270&lt;/li&gt;
+&lt;li&gt;Weekly Active Users: 100&lt;/li&gt;
+&lt;li&gt;Daily Active Users: 13-40&lt;/li&gt;
+&lt;li&gt;Lease requests: 12&lt;/li&gt;
+&lt;li&gt;Lease requests per day: 1-2&lt;/li&gt;
+&lt;li&gt;Lease conversions: 0&lt;/li&gt;
+&lt;li&gt;Lease conversion revenue: $0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added weekly deals with ev-vin.blogspot.com data&lt;/li&gt;
+&lt;li&gt;Doing background research myself once received requests.&lt;/li&gt;
+&lt;li&gt;Added deposit and digital paperwork as proxy between dealer (&amp;ldquo;price security/no haggle proxy&amp;rdquo;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&#34;problem-not-installing-app-acquisition-attempts-to-solve&#34;&gt;Problem: Not installing app (acquisition). Attempts to solve:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Free ASO worked on. Ran many experiments but managed to score top 10 with &amp;ldquo;lease car&amp;rdquo; and &amp;ldquo;electric vehicles&amp;rdquo;.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; increased from non-ranked to top 20 in &amp;ldquo;Electric Vehicles&amp;rdquo; and &amp;ldquo;Lease Car&amp;rdquo;. Impressions 7X. Installs flat.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Free DM Reddit (manual) /r/electricvehicles and /r/teslamotors
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Wrong kind of customer. EV enthusiast but not car shopper when manually reaching out. Not sticky. $0 per install. 1 in 20 installs.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Free Leasehackr.com forum link as acquisition channel super effective.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 60+ targeted leads to going up in App Store rankings (point 1). Very negotiation-happy customer – wrong kind of customer? Budget customer.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Paid Reddit paid on /r/electricvehicles and /r/teslamotors
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; $0.45 per tap Android and $0.49 on iOS. Roughly 50% install rate from product page -&amp;gt; Roughly $1 per install.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Paid iOS App store:
+&lt;strong&gt;Results:&lt;/strong&gt; $2.50 per tap, not sure if installed.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;h3 id=&#34;problem-installed-not-requesting-attempts-to-solve&#34;&gt;Problem: Installed, Not requesting. Attempts to solve:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Single-number lease price (incl. all).
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Sticker shock is real. Lease requests down to 0 in the week that attempted this. Started up again once reverted to &amp;ldquo;monthly&amp;rdquo; + &amp;ldquo;down&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added &amp;ldquo;X more left at this price&amp;rdquo; to increase urgency.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No significant increase in tapthrough rate&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added &amp;ldquo;X people looking at this deal&amp;rdquo; to increase urgency.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No significant increase in tapthrough rate&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Potentially finding wrong customer – people off leasehackr may LIKE negotiating. Find different customers? =&amp;gt; Reddit customers work better.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;h3 id=&#34;problem-user-requesting-but-not-converting-on-email-step-attempts-to-solve&#34;&gt;Problem: User requesting, but not converting on email step. Attempts to solve:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Better conversion email – 48 hour limit to increase urgency.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No difference. Drop off.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Better conversion email – Not give full number over 36 months as looks high.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; No difference. Drop off.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Upfront down payment – $200 deposit.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 1 attempt to pay, may be fraud. Potentially may take 60 days to convert customers, though once have app installed, though.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added value: Do all paperwork digitally &amp;amp; pay deposit to lock in so don&amp;rsquo;t have to haggle with dealer – just pick up &amp;amp; pay.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Same as above. Not sure this convenience is a pain point. Reached out to ask for feedback from email addresses but no response.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;h3 id=&#34;tested-ev-insurance&#34;&gt;Tested EV insurance&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Loads of complaints online about how it&amp;rsquo;s expensive. Added Metromile affiliate program.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 0 sign-ups so far after 2 weeks of cohorts.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;experiments-for-next-2-weeks&#34;&gt;Experiments for next 2 weeks:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Test Concierge service (you say which car, we&amp;rsquo;ll find at a price).&lt;/li&gt;
+&lt;li&gt;Test Consultant service (we&amp;rsquo;ll answer your EV questions and then recommend products).&lt;/li&gt;
+&lt;li&gt;Change from pure EV? Potentially, the hassle-free value proposition may be more effective in a mainstream market for now?&lt;/li&gt;
+&lt;li&gt;Add off-lease cars from Greenlight Auto Wholesale ?&lt;/li&gt;
+&lt;li&gt;Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?&lt;/li&gt;
+&lt;li&gt;Rent an EV for a month between leases?&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>March 2019 Update</title>
+      <link>https://nikodunk.com/startup-updates-6/</link>
+      <pubDate>Fri, 29 Mar 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-6/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;This month has been mostly resetting on a new project, electrade. I&amp;rsquo;ve been interviewing a bunch of EV owners over the phone to ask for problems, and going to a Golden Gate Electric Vehicle Meetup.&lt;/p&gt;
+
+&lt;p&gt;Tried the concepts:
+* Electric Vehicle News app.
+    * Results: works, but not super differentiated
+* Electric Vehicle Maps
+    * Hard to find good data
+* Electric Vehicle price data, static.
+    * Not super sensible
+* Electric vehicle price data, dynamic.
+    * Scraped off autotrader.
+* Used electric vehicle price data and new.
+    * Not much interest.
+* Post your own used electric vehicle.
+    * Not much interest
+* Post your EV to the gallery.
+    * Not much interest.
+* Used Teslas near you.
+    * Not much interest, lots of competition from EV-CPO.com and onlyusedtesla.com
+    * Talked to two folks who could scrape the CPO (certified pre-owned tesla) data from tesla&amp;rsquo;s website.
+* Hypothesis:
+    * People actually want to lease their cars.
+    * Test: deal with a tesla lease partner
+    * Found ev-vin.blogspot.com&lt;/p&gt;
+
+&lt;p&gt;Not much to update on this month. Tracking WAU – 20% week over week growth.&lt;/p&gt;
 </content>
       
     </item>
