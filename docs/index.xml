@@ -14,10 +14,10 @@
     
     <item>
       <title>April 2019 Update</title>
-      <link>https://nikodunk.com/startup-updates-6/</link>
+      <link>https://nikodunk.com/startup-updates-7/</link>
       <pubDate>Mon, 29 Apr 2019 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/startup-updates-6/</guid>
+      <guid>https://nikodunk.com/startup-updates-7/</guid>
       <description></description>
       
       <content>
@@ -154,6 +154,44 @@
 &lt;li&gt;Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?&lt;/li&gt;
 &lt;li&gt;Rent an EV for a month between leases?&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>March 2019 Update</title>
+      <link>https://nikodunk.com/startup-updates-6/</link>
+      <pubDate>Fri, 29 Mar 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-6/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;This month has been mostly resetting on a new project, electrade. I&amp;rsquo;ve been interviewing a bunch of EV owners over the phone to ask for problems, and going to a Golden Gate Electric Vehicle Meetup.&lt;/p&gt;
+
+&lt;p&gt;Tried the concepts:
+* Electric Vehicle News app.
+    * Results: works, but not super differentiated
+* Electric Vehicle Maps
+    * Hard to find good data
+* Electric Vehicle price data, static.
+    * Not super sensible
+* Electric vehicle price data, dynamic.
+    * Scraped off autotrader.
+* Used electric vehicle price data and new.
+    * Not much interest.
+* Post your own used electric vehicle.
+    * Not much interest
+* Post your EV to the gallery.
+    * Not much interest.
+* Used Teslas near you.
+    * Not much interest, lots of competition from EV-CPO.com and onlyusedtesla.com
+    * Talked to two folks who could scrape the CPO (certified pre-owned tesla) data from tesla&amp;rsquo;s website.
+* Hypothesis:
+    * People actually want to lease their cars.
+    * Test: deal with a tesla lease partner
+    * Found ev-vin.blogspot.com&lt;/p&gt;
+
+&lt;p&gt;Not much to update on this month. Tracking WAU – 20% week over week growth.&lt;/p&gt;
 </content>
       
     </item>
