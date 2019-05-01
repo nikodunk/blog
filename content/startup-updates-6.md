@@ -24,12 +24,12 @@ categories:
 * Lease conversion revenue: $0
 
 # Product:
-* Added weekly deals with ev-vin.blogspot.com data
-* Doing background research myself once received requests.
-* Added deposit and digital paperwork as proxy between dealer ("price security/no haggle proxy")
+* Added weekly LEASE deals scraped from ev-vin.blogspot.com data
+* Doing background research myself once received requests. As this was not converting once I'd done the research:
+* Added up-front deposit. When the requests stopped added more value – electrade can do paperwork digitally for dealer, and act as a proxy between dealer and user ("price security/no stressful negotiations")
 
 # Experiments/Hypothesis run:
-* ### Problem: Not installing app (acquisition). Attempts to solve:
+* ### **Problem: Not installing app (acquisition). Attempts to solve:**
 	* Free ASO worked on. Ran many experiments but managed to score top 10 with "lease car" and "electric vehicles".
 		* **Results:** increased from non-ranked to top 20 in "Electric Vehicles" and "Lease Car". Impressions 7X. Installs flat.
 	* Free DM Reddit (manual) /r/electricvehicles and /r/teslamotors
@@ -42,7 +42,7 @@ categories:
 		**Results:** $2.50 per tap, not sure if installed.
 
 
-* ### Problem: Installed, Not requesting. Attempts to solve:
+* ### **Problem: Installed, Not requesting. Attempts to solve:**
 	* Single-number lease price (incl. all). 
 		* **Results:** Sticker shock is real. Lease requests down to 0 in the week that attempted this. Started up again once reverted to "monthly" + "down"
 	* Added "X more left at this price" to increase urgency. 
@@ -52,7 +52,7 @@ categories:
 	* Potentially finding wrong customer – people off leasehackr may LIKE negotiating. Find different customers? => Reddit customers work better.
 
 
-* ### Problem: User requesting, but not converting on email step. Attempts to solve:
+* ### **Problem: User requesting, but not converting on email step. Attempts to solve:**
 	* Better conversion email – 48 hour limit to increase urgency.
 		* **Results:** No difference. Drop off.
 	* Better conversion email – Not give full number over 36 months as looks high.
@@ -63,7 +63,7 @@ categories:
 		* **Results:** Same as above. Not sure this convenience is a pain point. Reached out to ask for feedback from email addresses but no response.
 
 
-* ### Tested EV insurance
+* ### **Tested EV insurance**
 	* Loads of complaints online about how it's expensive. Added Metromile affiliate program.
 		* **Results:** 0 sign-ups so far after 2 weeks of cohorts.
 

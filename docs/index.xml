@@ -542,15 +542,15 @@ Stats
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Added weekly deals with ev-vin.blogspot.com data&lt;/li&gt;
-&lt;li&gt;Doing background research myself once received requests.&lt;/li&gt;
-&lt;li&gt;Added deposit and digital paperwork as proxy between dealer (&amp;ldquo;price security/no haggle proxy&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Added weekly LEASE deals scraped from ev-vin.blogspot.com data&lt;/li&gt;
+&lt;li&gt;Doing background research myself once received requests. As this was not converting once I&amp;rsquo;d done the research:&lt;/li&gt;
+&lt;li&gt;Added up-front deposit. When the requests stopped added more value – electrade can do paperwork digitally for dealer, and act as a proxy between dealer and user (&amp;ldquo;price security/no stressful negotiations&amp;rdquo;)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;h3 id=&#34;problem-not-installing-app-acquisition-attempts-to-solve&#34;&gt;Problem: Not installing app (acquisition). Attempts to solve:&lt;/h3&gt;
+&lt;li&gt;&lt;h3 id=&#34;problem-not-installing-app-acquisition-attempts-to-solve&#34;&gt;&lt;strong&gt;Problem: Not installing app (acquisition). Attempts to solve:&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Free ASO worked on. Ran many experiments but managed to score top 10 with &amp;ldquo;lease car&amp;rdquo; and &amp;ldquo;electric vehicles&amp;rdquo;.
@@ -577,7 +577,7 @@ Stats
 &lt;strong&gt;Results:&lt;/strong&gt; $2.50 per tap, not sure if installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;h3 id=&#34;problem-installed-not-requesting-attempts-to-solve&#34;&gt;Problem: Installed, Not requesting. Attempts to solve:&lt;/h3&gt;
+&lt;li&gt;&lt;h3 id=&#34;problem-installed-not-requesting-attempts-to-solve&#34;&gt;&lt;strong&gt;Problem: Installed, Not requesting. Attempts to solve:&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Single-number lease price (incl. all).
@@ -598,7 +598,7 @@ Stats
 &lt;li&gt;Potentially finding wrong customer – people off leasehackr may LIKE negotiating. Find different customers? =&amp;gt; Reddit customers work better.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;h3 id=&#34;problem-user-requesting-but-not-converting-on-email-step-attempts-to-solve&#34;&gt;Problem: User requesting, but not converting on email step. Attempts to solve:&lt;/h3&gt;
+&lt;li&gt;&lt;h3 id=&#34;problem-user-requesting-but-not-converting-on-email-step-attempts-to-solve&#34;&gt;&lt;strong&gt;Problem: User requesting, but not converting on email step. Attempts to solve:&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Better conversion email – 48 hour limit to increase urgency.
@@ -623,7 +623,7 @@ Stats
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;h3 id=&#34;tested-ev-insurance&#34;&gt;Tested EV insurance&lt;/h3&gt;
+&lt;li&gt;&lt;h3 id=&#34;tested-ev-insurance&#34;&gt;&lt;strong&gt;Tested EV insurance&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Loads of complaints online about how it&amp;rsquo;s expensive. Added Metromile affiliate program.
@@ -656,32 +656,94 @@ Stats
       <guid>https://nikodunk.com/startup-updates-5/</guid>
       <description></description>
       
-      <content>&lt;p&gt;This month has been mostly resetting on a new project, electrade. I&amp;rsquo;ve been interviewing a bunch of EV owners over the phone to ask for problems, and going to a Golden Gate Electric Vehicle Meetup.&lt;/p&gt;
+      <content>
 
-&lt;p&gt;Tried the concepts:
-* Electric Vehicle News app.
-    * Results: works, but not super differentiated
-* Electric Vehicle Maps
-    * Hard to find good data
-* Electric Vehicle price data, static.
-    * Not super sensible
-* Electric vehicle price data, dynamic.
-    * Scraped off autotrader.
-* Used electric vehicle price data and new.
-    * Not much interest.
-* Post your own used electric vehicle.
-    * Not much interest
-* Post your EV to the gallery.
-    * Not much interest.
-* Used Teslas near you.
-    * Not much interest, lots of competition from EV-CPO.com and onlyusedtesla.com
-    * Talked to two folks who could scrape the CPO (certified pre-owned tesla) data from tesla&amp;rsquo;s website.
-* Hypothesis:
-    * People actually want to lease their cars.
-    * Test: deal with a tesla lease partner
-    * Found ev-vin.blogspot.com&lt;/p&gt;
+&lt;p&gt;This month has been mostly resetting on a new project, electrade. I&amp;rsquo;ve been interviewing a bunch of EV owners over the phone to ask for problems, and going to a Golden Gate Electric Vehicle Meetup.&lt;/p&gt;
 
-&lt;p&gt;Not much to update on this month. Tracking WAU – 20% week over week growth.&lt;/p&gt;
+&lt;p&gt;Not much to update on this month. Tracking WAU – 20% week over week growth but at this scale it means nothing.&lt;/p&gt;
+
+&lt;h1 id=&#34;help-wanted-asks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;hiring&#34;&gt;Hiring: &lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monthly Active Users: 50&lt;/li&gt;
+&lt;li&gt;Weekly Active Users: 20&lt;/li&gt;
+&lt;li&gt;Daily Active Users: 5-10&lt;/li&gt;
+&lt;li&gt;Posts: 0&lt;/li&gt;
+&lt;li&gt;Revenue: $0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Electric Vehicle News app.
+
+&lt;ul&gt;
+&lt;li&gt;Results: works, but not super differentiated&lt;/li&gt;
+&lt;li&gt;Some retention as an EV news reader app.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Electric Vehicle Maps
+
+&lt;ul&gt;
+&lt;li&gt;Hard to find good data&lt;/li&gt;
+&lt;li&gt;Talked to Plugshare for their API data, but expensive.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Electric Vehicle price comparison, New
+
+&lt;ul&gt;
+&lt;li&gt;Static Data – Scraped off an EV information website. They never update their prices.
+
+&lt;ul&gt;
+&lt;li&gt;Not super sensible.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Dynamic Data – scraped off autotrader.
+
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;10 taps, no retention.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Not differentiated from Autotrader.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Electric Vehicle price comparison, Used &amp;amp; New.
+
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;10 taps, no retention.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Post your own used electric vehicle.
+
+&lt;ul&gt;
+&lt;li&gt;0 taps&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Post your EV to the gallery.
+
+&lt;ul&gt;
+&lt;li&gt;8 taps&lt;/li&gt;
+&lt;li&gt;0 posts&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Used Teslas near you.
+
+&lt;ul&gt;
+&lt;li&gt;Not much interest, lots of competition from EV-CPO.com and onlyusedtesla.com.&lt;/li&gt;
+&lt;li&gt;Talked to two folks who could scrape the CPO (certified pre-owned tesla) data from tesla&amp;rsquo;s website.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Hypothesis:
+
+&lt;ul&gt;
+&lt;li&gt;People actually want to lease their cars.&lt;/li&gt;
+&lt;li&gt;Test: deal with a tesla lease partner&lt;/li&gt;
+&lt;li&gt;Found ev-vin.blogspot.com&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
       
     </item>
