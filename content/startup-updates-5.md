@@ -52,3 +52,12 @@ Not much to update on this month. Tracking WAU – 20% week over week growth bu
 	* People actually want to lease their cars.
 	* Test: deal with a tesla lease partner
 	* Found ev-vin.blogspot.com
+
+
+## Photos of my new workspace for the past two months, with my hosts/friends of Kosmosschool.com:
+
+![](/startup-updates-5/Kosmos1.JPG)
+![](/startup-updates-5/Kosmos2.JPG)
+![](/startup-updates-5/Kosmos3.JPG)
+
+![](/startup-updates-5/demo.png)

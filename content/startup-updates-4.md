@@ -39,3 +39,8 @@ Asks
 ----
 * Bear with us during this hard reset. There comes a time after 4 months where I had to question the direction this project was growing in.
 * Intros to EV enthusiasts, and people with automobile market experience.
+
+
+### Current screenshot of the medical software process prototype:
+
+![](/startup-updates-4/demo.png)

@@ -74,3 +74,14 @@ categories:
 * Add off-lease cars from Greenlight Auto Wholesale ?
 * Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?
 * Rent an EV for a month between leases?
+
+
+### Photos of my new workspace at Node (strongly recommended for the community and $200 a month):
+
+![](/startup-updates-6/NodeU1.JPG)
+![](/startup-updates-6/NodeU2.JPG)
+
+## Current screen grab at the end of the month:
+
+![](/startup-updates-6/demo.jpg)
+![](/startup-updates-6/demo2.jpg)
