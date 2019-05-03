@@ -14,7 +14,7 @@ This is a general blog post on my various schemes so far, loosely grouped around
 --------------------------------------------------------------------------------------------------------------
 
 
-### ![](/projects/logo_sustainability2.png) electrade app | The world's first EV marketplace
+### ![](/projects/logo_sustainability2.png) electrade app | AAA for EVs
 
 	Team:
 	* Amir (ideation, ops)
@@ -22,7 +22,9 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 	Tech:
 	* React-Native App
-	* Backend Node/Express/Postgres, storing listing photos to S3
+	* Backend Node/Express/Postgres
+	* Stripe payment processing
+	* Listing photos upload to S3
 	* Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer
 	* EV News updates through APIfy.com
 

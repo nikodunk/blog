@@ -30,7 +30,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;projects-logo-sustainability2-png-electrade-app-the-world-s-first-ev-marketplace&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrade app | The world&amp;rsquo;s first EV marketplace&lt;/h3&gt;
+&lt;h3 id=&#34;projects-logo-sustainability2-png-electrade-app-aaa-for-evs&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrade app | AAA for EVs&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;Team:
 * Amir (ideation, ops)
@@ -38,7 +38,9 @@
 
 Tech:
 * React-Native App
-* Backend Node/Express/Postgres, storing listing photos to S3
+* Backend Node/Express/Postgres
+* Stripe payment processing
+* Listing photos upload to S3
 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer
 * EV News updates through APIfy.com
 
