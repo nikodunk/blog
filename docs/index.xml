@@ -32,7 +32,11 @@
 
 &lt;h3 id=&#34;projects-logo-sustainability2-png-electrade-app-the-world-s-first-ev-marketplace&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrade app | The world&amp;rsquo;s first EV marketplace&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech:
+&lt;pre&gt;&lt;code&gt;Team:
+* Amir (ideation, ops)
+* Niko (ideation, tech)
+
+Tech:
 * React-Native App
 * Backend Node/Express/Postgres, storing listing photos to S3
 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer
@@ -59,7 +63,11 @@ Stats:
 
 &lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;a href=&#34;http://sunboxlabs.com&#34; target=&#34;_blank&#34;&gt;sunboxlabs.com&lt;/a&gt; developed out of a &lt;a href=&#34;https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4&#34;&gt;HackerNoon&lt;/a&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;HackerNews&lt;/a&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;twice&lt;/a&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;a href=&#34;http://nikodunk.github.io/sunboxlabs&#34;&gt;sunbox labs&lt;/a&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;i&gt;&lt;a href=&#34;https://nikodunk.com/solar&#34;&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech:
+&lt;pre&gt;&lt;code&gt;Team:
+* Niko (concept, writing, tech)
+* Zeb (marketing)
+
+Tech:
 * Static Hugo Site 
 * Dynamic pricing data scraped from Amazon with APIfy.com
 * User submitted content
@@ -83,7 +91,10 @@ Stats
 
 &lt;p&gt;Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing &amp;amp; image data from Viglink API.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech
+&lt;pre&gt;&lt;code&gt;Team
+* Niko
+
+Tech
 * Angular 2 app
 * Dynamic pricing &amp;amp; product data from Viglink API
 * B-Corps scraped from bcorporation.com with APIfy.com
@@ -110,7 +121,11 @@ Stats
 
 &lt;p&gt;We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech:
+&lt;pre&gt;&lt;code&gt;Team:
+* Benjamin (legal, ops, marketing)
+* Niko (product, tech)
+
+Tech:
 * CNC-Milled furniture built in Rhinoceros modelling
 * Squarespace site
 
@@ -139,7 +154,12 @@ Stats
 
 &lt;p&gt;Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &amp;ldquo;turbotax for medical forms&amp;rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &amp;ldquo;smart forms&amp;rdquo; that can export flat PDFs, report on your &amp;ldquo;structured data&amp;rdquo;, and potentially integrates with EHRs if they let us.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech
+&lt;pre&gt;&lt;code&gt;Team
+* Mitul (sales advisory)
+* Niko (sales, tech)
+
+
+Tech
 * React frontend
 * Node/Express/Postgres backend
 * Docker on AWS Elastic Beanstalk
@@ -166,15 +186,19 @@ Stats
 
 &lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&amp;rsquo;s Speech Recognition API is unclear as it&amp;rsquo;s encrypted, but Apple won&amp;rsquo;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech
+&lt;pre&gt;&lt;code&gt;Team
+* Libo (medical product advice)
+* Niko (product, tech)
+
+Tech
 * React Native App
 * Mobile Frontend in React Native with RNVoice library
 * Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
 * Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 Stats
-* MRR: $50
-* Paying customers: 18
+* MRR: $53
+* Paying customers: 19
 * Trial customers: 2
 * Price point: $3.99/month
 * 220 registered users
@@ -195,7 +219,11 @@ Stats
 
 &lt;p&gt;Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech
+&lt;pre&gt;&lt;code&gt;Team
+* Libo (idea, product)
+* Niko (tech)
+
+Tech
 * React Native App with Node Server:
 * Frontend in React Native/Redux
 * Backend in Node/Express/PostgreSQL running on Heroku
@@ -224,7 +252,11 @@ Stats
 
 &lt;p&gt;With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech:
+&lt;pre&gt;&lt;code&gt;Team
+* Elisa (idea, product)
+* Niko (tech)
+
+Tech:
 * Node/Express/Postgresql web app on Heroku 
 * Stripe Connect for payment routing
 * Amazon wishlists for product gifting
@@ -245,7 +277,12 @@ Stats
 
 &lt;p&gt;With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech:
+&lt;pre&gt;&lt;code&gt;Team
+* Dorena (idea, ops)
+* Can (idea, product, tech)
+* Niko (idea, product, tech)
+
+Tech:
 * Hugo Static Site, loads of email.
 
 Stats
@@ -393,7 +430,12 @@ Stats
 
 &lt;p&gt;Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they&amp;rsquo;ve verified that you&amp;rsquo;ve paid up.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tech
+&lt;pre&gt;&lt;code&gt;Team
+* Two guys from the hackathon (idea)
+* Niko (Tech, product)
+
+
+Tech
 * Ethereum Dapp written with Truffle and Infura
 * Frontend in Vanilla Javascript/Web3/Webpack (Truffle)
 * Contract in Solidity, deployed on Rinkeby with Infura
@@ -487,6 +529,11 @@ Stats
 &lt;h3 id=&#34;ux-ui-contracting-in-sf&#34;&gt;UX/UI contracting in SF&lt;/h3&gt;
 
 &lt;p&gt;I learned a huge amount about dealing with clients, together with my friend Zebulon Reynolds in San Francisco. The game was an iOS Flight Simulator.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Zebulon
+* Niko
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/infinite.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;img src=&#34;https://nikodunk.com/projects/infinite.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;

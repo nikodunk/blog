@@ -18,7 +18,7 @@
       
       <guid>https://nikodunk.com/projects/</guid>
       <description>This is a general blog post on my various schemes so far, loosely grouped around topic. I look like this when I&amp;rsquo;ve made something:
-Sustainability electrade app | The world&amp;rsquo;s first EV marketplace Tech: * React-Native App * Backend Node/Express/Postgres, storing listing photos to S3 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer * EV News updates through APIfy.com Stats: * Revenue: $0 * Monthly Lease Requests: 12 * MAU: 100 * Users: 350 * User acquisition: Paid Reddit   App Store Link Google Play Link  sunboxlabs.</description>
+Sustainability electrade app | The world&amp;rsquo;s first EV marketplace Team: * Amir (ideation, ops) * Niko (ideation, tech) Tech: * React-Native App * Backend Node/Express/Postgres, storing listing photos to S3 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer * EV News updates through APIfy.</description>
     </item>
     
     <item>

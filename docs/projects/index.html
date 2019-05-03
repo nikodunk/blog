@@ -8,7 +8,7 @@
 
 <meta property='og:title' content='Learnings from projects &amp; things I&#39;ve made so far. - D U N K | niko&#39;s blog'>
 <meta property='og:description' content='This is a general blog post on my various schemes so far, loosely grouped around topic. I look like this when I&rsquo;ve made something:
-Sustainability electrade app | The world&rsquo;s first EV marketplace Tech: * React-Native App * Backend Node/Express/Postgres, storing listing photos to S3 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer * EV News updates through APIfy.com Stats: * Revenue: $0 * Monthly Lease Requests: 12 * MAU: 100 * Users: 350 * User acquisition: Paid Reddit   App Store Link Google Play Link  sunboxlabs.'>
+Sustainability electrade app | The world&rsquo;s first EV marketplace Team: * Amir (ideation, ops) * Niko (ideation, tech) Tech: * React-Native App * Backend Node/Express/Postgres, storing listing photos to S3 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer * EV News updates through APIfy.'>
 <meta property='og:url' content='https://nikodunk.com/projects/'>
 <meta property='og:site_name' content='D U N K | niko&#39;s blog'>
 <meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/195eab93fe28b360835efd4f73e778fe?s=256'><meta property='article:section' content=''><meta property='article:tag' content='Learnings'><meta property='article:tag' content='Updates'><meta property='article:published_time' content='2019-05-01T08:00:00-07:00'/><meta property='article:modified_time' content='2019-05-01T08:00:00-07:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@nikodunk'><meta name='twitter:creator' content='@nikodunk'>
@@ -104,7 +104,11 @@ Sustainability electrade app | The world&rsquo;s first EV marketplace Tech: * Re
 
 <h3 id="projects-logo-sustainability2-png-electrade-app-the-world-s-first-ev-marketplace"><img src="/projects/logo_sustainability2.png" alt="" /> electrade app | The world&rsquo;s first EV marketplace</h3>
 
-<pre><code>Tech:
+<pre><code>Team:
+* Amir (ideation, ops)
+* Niko (ideation, tech)
+
+Tech:
 * React-Native App
 * Backend Node/Express/Postgres, storing listing photos to S3
 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer
@@ -131,7 +135,11 @@ Stats:
 
 <p>With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200&rsquo;000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.</p>
 
-<pre><code>Tech:
+<pre><code>Team:
+* Niko (concept, writing, tech)
+* Zeb (marketing)
+
+Tech:
 * Static Hugo Site 
 * Dynamic pricing data scraped from Amazon with APIfy.com
 * User submitted content
@@ -155,7 +163,10 @@ Stats
 
 <p>Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing &amp; image data from Viglink API.</p>
 
-<pre><code>Tech
+<pre><code>Team
+* Niko
+
+Tech
 * Angular 2 app
 * Dynamic pricing &amp; product data from Viglink API
 * B-Corps scraped from bcorporation.com with APIfy.com
@@ -182,7 +193,11 @@ Stats
 
 <p>We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.</p>
 
-<pre><code>Tech:
+<pre><code>Team:
+* Benjamin (legal, ops, marketing)
+* Niko (product, tech)
+
+Tech:
 * CNC-Milled furniture built in Rhinoceros modelling
 * Squarespace site
 
@@ -211,7 +226,12 @@ Stats
 
 <p>Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &ldquo;turbotax for medical forms&rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &ldquo;smart forms&rdquo; that can export flat PDFs, report on your &ldquo;structured data&rdquo;, and potentially integrates with EHRs if they let us.</p>
 
-<pre><code>Tech
+<pre><code>Team
+* Mitul (sales advisory)
+* Niko (sales, tech)
+
+
+Tech
 * React frontend
 * Node/Express/Postgres backend
 * Docker on AWS Elastic Beanstalk
@@ -238,15 +258,19 @@ Stats
 
 <p>The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&rsquo;s Speech Recognition API is unclear as it&rsquo;s encrypted, but Apple won&rsquo;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.</p>
 
-<pre><code>Tech
+<pre><code>Team
+* Libo (medical product advice)
+* Niko (product, tech)
+
+Tech
 * React Native App
 * Mobile Frontend in React Native with RNVoice library
 * Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
 * Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 Stats
-* MRR: $50
-* Paying customers: 18
+* MRR: $53
+* Paying customers: 19
 * Trial customers: 2
 * Price point: $3.99/month
 * 220 registered users
@@ -267,7 +291,11 @@ Stats
 
 <p>Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.</p>
 
-<pre><code>Tech
+<pre><code>Team
+* Libo (idea, product)
+* Niko (tech)
+
+Tech
 * React Native App with Node Server:
 * Frontend in React Native/Redux
 * Backend in Node/Express/PostgreSQL running on Heroku
@@ -296,7 +324,11 @@ Stats
 
 <p>With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.</p>
 
-<pre><code>Tech:
+<pre><code>Team
+* Elisa (idea, product)
+* Niko (tech)
+
+Tech:
 * Node/Express/Postgresql web app on Heroku 
 * Stripe Connect for payment routing
 * Amazon wishlists for product gifting
@@ -317,7 +349,12 @@ Stats
 
 <p>With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.</p>
 
-<pre><code>Tech:
+<pre><code>Team
+* Dorena (idea, ops)
+* Can (idea, product, tech)
+* Niko (idea, product, tech)
+
+Tech:
 * Hugo Static Site, loads of email.
 
 Stats
@@ -465,7 +502,12 @@ Stats
 
 <p>Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they&rsquo;ve verified that you&rsquo;ve paid up.</p>
 
-<pre><code>Tech
+<pre><code>Team
+* Two guys from the hackathon (idea)
+* Niko (Tech, product)
+
+
+Tech
 * Ethereum Dapp written with Truffle and Infura
 * Frontend in Vanilla Javascript/Web3/Webpack (Truffle)
 * Contract in Solidity, deployed on Rinkeby with Infura
@@ -559,6 +601,11 @@ Stats
 <h3 id="ux-ui-contracting-in-sf">UX/UI contracting in SF</h3>
 
 <p>I learned a huge amount about dealing with clients, together with my friend Zebulon Reynolds in San Francisco. The game was an iOS Flight Simulator.</p>
+
+<pre><code>Team
+* Zebulon
+* Niko
+</code></pre>
 
 <p><img src="/projects/infinite.jpg" alt="" />
 <img src="/projects/infinite.gif" alt="" /></p>

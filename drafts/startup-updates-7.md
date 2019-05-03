@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "April 2019 Update"
+title:  "May 2019 Update"
 date:   2019-05-29 08:00:00 -0700
 categories: 
 ---
@@ -45,6 +45,8 @@ categories:
 	* Add off-lease cars from Greenlight Auto Wholesale ?
 	* Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?
 	* Rent an EV for a month between leases?
+
+	* With Armin: Add-ons/Benefits over lease like on Fair, but WITHOUT the car lease? For EV owners who already have a car. Benefits package. Add leases again later once we're the AAA of EVs.
 
 
 

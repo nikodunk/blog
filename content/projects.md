@@ -16,6 +16,9 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 ### ![](/projects/logo_sustainability2.png) electrade app | The world's first EV marketplace
 
+	Team:
+	* Amir (ideation, ops)
+	* Niko (ideation, tech)
 
 	Tech:
 	* React-Native App
@@ -42,7 +45,9 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
 
-
+	Team:
+	* Niko (concept, writing, tech)
+	* Zeb (marketing)
 
 	Tech:
 	* Static Hugo Site 
@@ -69,6 +74,9 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 ### ![](/projects/logo_sustainability.png) GoodGood | B-Corp Price Tracker
 
 Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
+
+	Team
+	* Niko
 
 	Tech
 	* Angular 2 app
@@ -97,6 +105,10 @@ The initial idea was to send furniture that’s made of paper through the mail t
 This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.
 
 We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.
+
+	Team:
+	* Benjamin (legal, ops, marketing)
+	* Niko (product, tech)
 
 	Tech:
 	* CNC-Milled furniture built in Rhinoceros modelling
@@ -129,6 +141,11 @@ See ongoing progress in the newer posts on this site, like [this one](/startup-u
 
 Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
 
+	Team
+	* Mitul (sales advisory)
+	* Niko (sales, tech)
+
+
 	Tech
 	* React frontend
 	* Node/Express/Postgres backend
@@ -156,6 +173,10 @@ Doctors currently spend around 2 hours a day after their shift typing up notes a
 
 The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple's Speech Recognition API is unclear as it's encrypted, but Apple won't sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.
 
+	Team
+	* Libo (medical product advice)
+	* Niko (product, tech)
+
 	Tech
 	* React Native App
 	* Mobile Frontend in React Native with RNVoice library
@@ -163,8 +184,8 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
 
 	Stats
-	* MRR: $50
-	* Paying customers: 18
+	* MRR: $53
+	* Paying customers: 19
 	* Trial customers: 2
 	* Price point: $3.99/month
 	* 220 registered users
@@ -185,6 +206,10 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 ### ![](/projects/logo_health0.png) I Am Off! app | Off-day planner for Physicians
 
 Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.
+
+	Team
+	* Libo (idea, product)
+	* Niko (tech)
 
 	Tech
 	* React Native App with Node Server:
@@ -218,6 +243,9 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 
 With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.
 
+	Team
+	* Elisa (idea, product)
+	* Niko (tech)
 
 	Tech:
 	* Node/Express/Postgresql web app on Heroku 
@@ -238,6 +266,11 @@ With Elisa Chan, a platform to help noprofits fundraise more efficiently with mo
 ![](/projects/demo pegasus.png) ![](/projects/demo pegasus 2.png)
 
 With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.
+
+	Team
+	* Dorena (idea, ops)
+	* Can (idea, product, tech)
+	* Niko (idea, product, tech)
 
 	Tech:
 	* Hugo Static Site, loads of email.
@@ -397,6 +430,11 @@ Price comparison for sustainable energy – The initial version of the above pro
 
 Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they've verified that you've paid up.
 
+	Team
+	* Two guys from the hackathon (idea)
+	* Niko (Tech, product)
+
+
 	Tech
 	* Ethereum Dapp written with Truffle and Infura
 	* Frontend in Vanilla Javascript/Web3/Webpack (Truffle)
@@ -496,6 +534,10 @@ Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”
 ### UX/UI contracting in SF
 
 I learned a huge amount about dealing with clients, together with my friend Zebulon Reynolds in San Francisco. The game was an iOS Flight Simulator.
+
+	Team
+	* Zebulon
+	* Niko
 
 ![](/projects/infinite.jpg)
 ![](/projects/infinite.gif)
