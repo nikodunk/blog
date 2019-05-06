@@ -14,7 +14,7 @@ This is a general blog post on my various schemes so far, loosely grouped around
 --------------------------------------------------------------------------------------------------------------
 
 
-### ![](/projects/logo_sustainability2.png) electrade app | AAA for EVs
+### ![](/projects/logo_sustainability2.png) electrade app | Premium services for Electric Cars
 
 	Team:
 	* Amir (ideation, ops)
