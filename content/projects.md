@@ -14,7 +14,8 @@ This is a general blog post on my various schemes so far, loosely grouped around
 --------------------------------------------------------------------------------------------------------------
 
 
-### ![](/projects/logo_sustainability2.png) electrade app | Premium services for Electric Cars
+### ![](/projects/logo_sustainability2.png) electrify | Put all your EV needs on autopilot.
+
 
 	Team:
 	* Amir (ideation, ops)

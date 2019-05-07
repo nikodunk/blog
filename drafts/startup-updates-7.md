@@ -47,6 +47,8 @@ categories:
 	* Advertise new value prop through paid marketing. If we can get 10 people to pay $35 in the next week we'll pivot.
 		* Reddit Results: 18 clicks for $8 -> 5 installs ($1.6 per install) -> 5 people touched through to pricing -> 0 subscribers
 		* iOS Results: 
+	* Better tag line, value prop, text. "Put your EV needs on autopilot".
+		* Reddit Results: 
 
 Experiment backlog:
 * Test Concierge service (you say which car, we'll find at a price).
