@@ -44,9 +44,9 @@ categories:
 	* Add leases again later once we're the AAA of EVs. 
 	* Upside: Address _whole_ EV market, not just subset actively looking for EV lease.
 	* Upside: Less friction due to 1 month instead of 36 month commitment. $35 commitment instead of $8,000 comittment for lease.
-	* Advertise new value prop through reddit. If we can get 10 people to pay $35 in the next week we'll pivot.
-	* Results: 18 clicks for $8 -> 5 installs -> 5 people touched through to pricing -> 0 subscribers
-
+	* Advertise new value prop through paid marketing. If we can get 10 people to pay $35 in the next week we'll pivot.
+		* Reddit Results: 18 clicks for $8 -> 5 installs ($1.6 per install) -> 5 people touched through to pricing -> 0 subscribers
+		* iOS Results: 
 
 Experiment backlog:
 * Test Concierge service (you say which car, we'll find at a price).
