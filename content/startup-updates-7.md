@@ -65,14 +65,13 @@ categories:
 	* 4 tear-off strips next to chargers. Results: No callbacks
 	* ![](/startup-updates-7/3_experiment.JPG)
 	* ![](/startup-updates-7/3_experiment2.JPG)
-	* 50 flyers distributed under windscreen wipers. Restults: No callbacks.
-	* ![](/startup-updates-7/4_experiment.JPG)
-	* ![](/startup-updates-7/4_experiment2.JPG)
+	* 50 flyers distributed under windscreen wipers. Results: No callbacks.
+	* ![](/startup-updates-7/4_experiment.png)
+	* ![](/startup-updates-7/4_experiment2.png)
 
 
 
-Experiment backlog:
-
+# Experiment backlog:
 * Test Concierge service (you say which car, we'll find at a price).
 * Test Consultant service (we'll answer your EV questions and then recommend products).
 * Change from pure EV? Potentially, the hassle-free value proposition may be more effective in a mainstream market for now?
@@ -80,5 +79,5 @@ Experiment backlog:
 * Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?
 * Rent an EV for a month between leases?
 
-### Experiments for next 2 weeks:
+# Experiments for next 2 weeks:
 * 
