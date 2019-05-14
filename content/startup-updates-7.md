@@ -6,19 +6,17 @@ categories:
 ---
 
 # Help Wanted/Asks:
-* 
+* N/A
 
 # Hiring: 
-* 
+* Working with Armin now.
+* Talked to another potential cofounder. Not as interested in this project.
 
 # KPIs/Core Metrics:
 * Monthly Active Users: 270
 * Weekly Active Users: 100
 * Daily Active Users: 13-40
-* Lease requests: 12
-* Lease requests per day: 1-2
-* Lease conversions: 0
-* Lease conversion revenue: $0
+* Revenue: $0
 
 # Product:
 * Added polish
