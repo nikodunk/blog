@@ -6,10 +6,21 @@
     <description>Recent content in Learnings on D U N K | niko&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 04 May 2019 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nikodunk.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learnings: My first startup, Paper.</title>
+      <link>https://nikodunk.com/paper/</link>
+      <pubDate>Sat, 04 May 2019 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/paper/</guid>
+      <description>An archived version of the final website (started as Paper Furniture, ended up being called Smoke Furniture Co.) before we switched it off is here.
+1 Team Team Team Cofounder Cofounder Cofounder. Team Team Team. I can&amp;rsquo;t stress this enough, and is the main point of learning I&amp;rsquo;ve brought.
+2 Problem problem problem Find a hair-on-fire problem (vitamins vs. painkillers). There should be no substitution, and extreme urgency to try your project.</description>
+    </item>
     
     <item>
       <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
@@ -59,17 +70,6 @@ Week 1  quickly followed up with all contacts from job to let them know what i&a
       <guid>https://nikodunk.com/accelerator/</guid>
       <description>Originally posted as &amp;ldquo;8 learnings for startups (from swissnex SF Startup Camp)&amp;rdquo; at startupticker.ch and the swissnex blog.
 swissnex San Francisco connects Swiss startups to a Bay Area network, and provides tools, techniques, training, and workspace in San Francisco. Twice a year, the swissnex SF Startup Camp brings together startups from EPFL XGrant and Innosuisse Market Entry Camp, and any other Swiss startup (for a fee). Get in touch with any questions or see below for more information.</description>
-    </item>
-    
-    <item>
-      <title>Learnings: My first startup, Paper.</title>
-      <link>https://nikodunk.com/paper/</link>
-      <pubDate>Fri, 30 Dec 2016 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/paper/</guid>
-      <description>An archived version of the final website (started as Paper Furniture, ended up being called Smoke Furniture Co.) before we switched it off is here.
-1 Team Team Team Cofounder Cofounder Cofounder. Team Team Team. I can&amp;rsquo;t stress this enough, and is the main point of learning I&amp;rsquo;ve brought.
-2 Problem problem problem Find a hair-on-fire problem (vitamins vs. painkillers). There should be no substitution, and extreme urgency to try your project.</description>
     </item>
     
   </channel>

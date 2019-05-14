@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learnings: My first startup, Paper."
-date:   2016-12-30 08:00:00 -0700
+date:   2019-05-04 08:00:00 -0700
 tags: ["Learnings"]
 image: https://nikodunk.github.io/paper/paper.png
 ---
@@ -54,5 +54,63 @@ I still think the lightweight/sustainable furniture space is interesting. We nee
 
 Those are the main learnings I've taken away so far from my first company. In all – not bad for a first experience in startups.
 
+### Original Pitch Deck
 
---------
+This lead to us raising 100K in convertible note.
+
+![](/paper/smoke Elevator Pitch.001.jpeg)
+![](/paper/smoke Elevator Pitch.002.jpeg)
+![](/paper/smoke Elevator Pitch.003.jpeg)
+![](/paper/smoke Elevator Pitch.004.jpeg)
+![](/paper/smoke Elevator Pitch.005.jpeg)
+![](/paper/smoke Elevator Pitch.006.jpeg)
+![](/paper/smoke Elevator Pitch.007.jpeg)
+
+
+
+
+### Investor assumptions.
+
+![](/paper/Smoke Lean Introduction.003.jpeg)
+![](/paper/Smoke Lean Introduction.004.jpeg)
+![](/paper/Smoke Lean Introduction.005.jpeg)
+![](/paper/Smoke Lean Introduction.006.jpeg)
+![](/paper/Smoke Lean Introduction.007.jpeg)
+
+
+### Process shots gallery
+Below some photos of our process and marketing expriments – doing things that don't scale :)
+
+(back then under the "lean startup" framework)
+
+Manufacturing:
+
+![](/paper/Smoke Lean Process.001.jpeg)
+![](/paper/Smoke Lean Process.002.jpeg)
+![](/paper/Smoke Lean Process.003.jpeg)
+
+Marketing Facebook campaign snippet. We had A/B/C tests running most days.
+
+![](/paper/Smoke Lean Process.004.jpeg)
+![](/paper/Smoke Lean Process.005.jpeg)
+
+The fold-up process:
+
+![](/paper/Smoke Lean Process.006.jpeg)
+![](/paper/Smoke Lean Process.007.jpeg)
+![](/paper/Smoke Lean Process.008.jpeg)
+![](/paper/Smoke Lean Process.009.jpeg)
+
+Two tests in two Impact Hubs in Zurich.
+
+![](/paper/Smoke Lean Process.010.jpeg)
+![](/paper/Smoke Lean Process.011.jpeg)
+
+Our first pop-up window stunt where we sublet a window in a corner store in a dingy but hipster neighborhood of town. This lead to our first online sale.
+
+![](/paper/Smoke Lean Process.012.jpeg)
+![](/paper/Smoke Lean Process.013.jpeg)
+
+Our second, more "professional" pop-up window
+
+![](/paper/Smoke Lean Process.014.jpeg)
