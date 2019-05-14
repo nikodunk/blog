@@ -13,6 +13,136 @@
     
     
     <item>
+      <title>May 2019 Update</title>
+      <link>https://nikodunk.com/startup-updates-7/</link>
+      <pubDate>Mon, 13 May 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-7/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;help-wanted-asks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;hiring&#34;&gt;Hiring: &lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monthly Active Users: 270&lt;/li&gt;
+&lt;li&gt;Weekly Active Users: 100&lt;/li&gt;
+&lt;li&gt;Daily Active Users: 13-40&lt;/li&gt;
+&lt;li&gt;Lease requests: 12&lt;/li&gt;
+&lt;li&gt;Lease requests per day: 1-2&lt;/li&gt;
+&lt;li&gt;Lease conversions: 0&lt;/li&gt;
+&lt;li&gt;Lease conversion revenue: $0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added polish&lt;/li&gt;
+&lt;li&gt;Made up-front reservation fee default. Clearer to test value for now.&lt;/li&gt;
+&lt;li&gt;Tested test-drives&lt;/li&gt;
+&lt;li&gt;Removed insurance&lt;/li&gt;
+&lt;li&gt;Added value-add club
+
+&lt;ul&gt;
+&lt;li&gt;Found out NIO is doing the same things&lt;/li&gt;
+&lt;li&gt;Found out Carmiq is doing the same thing.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&#34;problem-not-one-user-opened-stripe-credit-card-screen-to-lease-car-possible-solutions&#34;&gt;Problem: Not one user opened Stripe Credit Card screen to lease car. Possible Solutions:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;More trustworthy seeming interace help?
+
+&lt;ul&gt;
+&lt;li&gt;Clearer onboarding process. More trustworthy&lt;/li&gt;
+&lt;li&gt;Polish, so app seems less sketchy&lt;/li&gt;
+&lt;li&gt;Results: One stripe open, still no checkouts.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/1_experiment.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/1_results.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Value-add to differentiate (Fair has &amp;ldquo;cancel any time&amp;rdquo; and &amp;ldquo;bundled insurance&amp;rdquo;)
+
+&lt;ul&gt;
+&lt;li&gt;New cofounder Amir suggested we try a value-add add-ons/Benefits on top of lease to differentiate ourselves from normal leasing lke Fair&amp;rsquo;s &amp;ldquo;Cancel any time&amp;rdquo;?&lt;/li&gt;
+&lt;li&gt;Results: No difference.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;And what if could sell unbundled from car lease, too?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;h3 id=&#34;experiment-maybe-easier-to-sell-value-add-features-separately-without-the-car-leasing&#34;&gt;Experiment: Maybe easier to sell value-add features separately, without the car leasing.&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;$35 per month value-add benefits EV bundle (pivot)&lt;/li&gt;
+&lt;li&gt;Add leases again later once we&amp;rsquo;re the AAA of EVs.&lt;/li&gt;
+&lt;li&gt;Upside: Address &lt;em&gt;whole&lt;/em&gt; EV market, not just subset actively looking for EV lease.&lt;/li&gt;
+&lt;li&gt;Upside: Less friction due to 1 month instead of 36 month commitment. $35 commitment instead of $8,000 commitment for lease.&lt;/li&gt;
+&lt;li&gt;Advertise new value prop through paid marketing. If we can get 10 people to pay $35 in the next week we&amp;rsquo;ll pivot.
+
+&lt;ul&gt;
+&lt;li&gt;Reddit Results: 18 clicks for $8 -&amp;gt; 5 installs ($1.6 per install) -&amp;gt; 5 people touched through to pricing -&amp;gt; 0 subscribers&lt;/li&gt;
+&lt;li&gt;iOS Results: 3 installs for $6 -&amp;gt; None of them actual customers, none of them even in the USA.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Better tag line, value prop, text. &amp;ldquo;Put your EV needs on autopilot&amp;rdquo;.
+
+&lt;ul&gt;
+&lt;li&gt;Reddit Results: 18 clicks for $7.97 -&amp;gt; 5 installs ($1.6 per install) -&amp;gt; 4 people touched through to pricing -&amp;gt; 0 subscribers. Learning: Paid ads not working.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/2_experiment.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/2_results.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;What if we try as content marketing with blog piece on new better title?&lt;/li&gt;
+&lt;li&gt;NIO is offering home-charging pickup in China for NIO owners. -&amp;gt; working in China?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;h3 id=&#34;experiment-if-selling-value-add-features-may-be-easier-to-do-physical-marketing&#34;&gt;Experiment: If selling value-add features, may be easier to do physical marketing.&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What if we put flyers on chargers (pre-targeted audience) and let people text my number for a $35 per pickup to validate the market for this same thing in the USA?&lt;/li&gt;
+&lt;li&gt;4 tear-off strips next to chargers. Results: No callbacks&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/3_experiment.JPG&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/3_experiment2.JPG&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;50 flyers distributed under windscreen wipers. Restults: No callbacks.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/4_experiment.JPG&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/4_experiment2.JPG&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Experiment backlog:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Test Concierge service (you say which car, we&amp;rsquo;ll find at a price).&lt;/li&gt;
+&lt;li&gt;Test Consultant service (we&amp;rsquo;ll answer your EV questions and then recommend products).&lt;/li&gt;
+&lt;li&gt;Change from pure EV? Potentially, the hassle-free value proposition may be more effective in a mainstream market for now?&lt;/li&gt;
+&lt;li&gt;Add off-lease cars from Greenlight Auto Wholesale ?&lt;/li&gt;
+&lt;li&gt;Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?&lt;/li&gt;
+&lt;li&gt;Rent an EV for a month between leases?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;experiments-for-next-2-weeks&#34;&gt;Experiments for next 2 weeks:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
       <pubDate>Wed, 01 May 2019 08:00:00 -0700</pubDate>
