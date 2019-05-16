@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "January 2019 Update"
+title:  "January 2019 Startup Update"
 date:   2019-01-24 08:00:00 -0700
 categories: 
 ---
