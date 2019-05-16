@@ -57,32 +57,6 @@ Those are the main learnings I've taken away so far from my first company. In al
 
 ----------------------------
 
-# Original Pitch Deck
-
-This lead to us raising 100K in convertible note.
-
-![](/paper/smoke Elevator Pitch.001.jpeg)
-![](/paper/smoke Elevator Pitch.002.jpeg)
-![](/paper/smoke Elevator Pitch.003.jpeg)
-![](/paper/smoke Elevator Pitch.004.jpeg)
-![](/paper/smoke Elevator Pitch.005.jpeg)
-![](/paper/smoke Elevator Pitch.006.jpeg)
-![](/paper/smoke Elevator Pitch.007.jpeg)
-
-
-----------------------------
-
-# Investor assumptions.
-
-![](/paper/Smoke Lean Introduction.003.jpeg)
-![](/paper/Smoke Lean Introduction.004.jpeg)
-![](/paper/Smoke Lean Introduction.005.jpeg)
-![](/paper/Smoke Lean Introduction.006.jpeg)
-![](/paper/Smoke Lean Introduction.007.jpeg)
-
-
-----------------------------
-
 # Process shots gallery
 Below some photos of our process and marketing expriments – doing things that don't scale :)
 
@@ -121,4 +95,31 @@ Our second, more "professional" pop-up window
 ![](/paper/Smoke Lean Process.014.jpeg)
 
 
+
+
 ----------------------------
+
+# Original Pitch Deck
+
+This lead to us raising 100K in convertible note.
+
+![](/paper/smoke Elevator Pitch.001.jpeg)
+![](/paper/smoke Elevator Pitch.002.jpeg)
+![](/paper/smoke Elevator Pitch.003.jpeg)
+![](/paper/smoke Elevator Pitch.004.jpeg)
+![](/paper/smoke Elevator Pitch.005.jpeg)
+![](/paper/smoke Elevator Pitch.006.jpeg)
+![](/paper/smoke Elevator Pitch.007.jpeg)
+
+
+----------------------------
+
+# Investor assumptions.
+
+![](/paper/Smoke Lean Introduction.003.jpeg)
+![](/paper/Smoke Lean Introduction.004.jpeg)
+![](/paper/Smoke Lean Introduction.005.jpeg)
+![](/paper/Smoke Lean Introduction.006.jpeg)
+![](/paper/Smoke Lean Introduction.007.jpeg)
+
+
