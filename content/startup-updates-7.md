@@ -94,11 +94,8 @@ categories:
 * ### Experiment: Sell delivery service at supercharger stations to people sitting in their cars (with sign, walk up to windows in T-Shirt so not sketched out).
 	* 20 cars go through per hour on average.
 	* 5 cars per hour convert * $8 * 10 hours = $400. Pay someone $150 of that.
-	* Give people flyers and tell them to text a number – launching next week?
-* ### Sell coffee to people sitting at superchargers.
-	* 20 cars go through per hour on average.
-	* 5 cars per hour convert * $3 * 10 hours = $150.
-
+	* Give people flyers and tell them to text a number for half price on first delivery – launching next week.
+	* Make a run every half hour.
 
 # Experiment backlog:
 * Test Concierge service (you say which car, we'll find at a price).
