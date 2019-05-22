@@ -16,7 +16,6 @@ This is a general blog post on my various schemes so far, loosely grouped around
 
 ### ![](/projects/logo_sustainability2.png) electrify | Put all your EV needs on autopilot.
 
-
 	Team:
 	* Amir (ideation, ops)
 	* Niko (ideation, tech)
@@ -58,7 +57,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 	* User submitted content
 
 	Stats
-	* MR: ~ $30
+	* Revenue per month: $30
 	* 204'600 uniques from July 2017 - July 2018
 	* 3.74% conversion to Amazon affiliate program
 	* 2 versions of kit launched
@@ -69,34 +68,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 
 
-
-
 -----------
-
-
-### ![](/projects/logo_sustainability.png) GoodGood | B-Corp Price Tracker
-
-Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
-
-	Team
-	* Niko
-
-	Tech
-	* Angular 2 app
-	* Dynamic pricing & product data from Viglink API
-	* B-Corps scraped from bcorporation.com with APIfy.com
-
-	Stats
-	* MRR: $0
-
-* [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
-
-![](/projects/bamazon.gif)
-
-
-
------------
-
 
 
 ### ![](/projects/logo_paper.png) Paper Inc. | Mail-order Sustainable Flatpack Furniture
@@ -130,42 +102,37 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 ![](/projects/smokesite.png) ![](/projects/smoke.gif)  
 
 
+-----------
+
+### ![](/projects/logo_sustainability.png) GoodGood | B-Corp Price Tracker
+
+Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
+
+	Team
+	* Niko
+
+	Tech
+	* Angular 2 app
+	* Dynamic pricing & product data from Viglink API
+	* B-Corps scraped from bcorporation.com with APIfy.com
+
+	Stats
+	* MRR: $0
+
+* [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
+
+![](/projects/bamazon.gif)
+
+
+
 
 
 
 # Healthcare
 --------------------------------------------------------------------------------------------------------------
 
-### ![](/projects/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
 
 
-See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
-
-Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
-
-	Team
-	* Mitul (sales advisory)
-	* Niko (sales, tech)
-
-
-	Tech
-	* React frontend
-	* Node/Express/Postgres backend
-	* Docker on AWS Elastic Beanstalk
-	* HIPAA compliant logging, access monitoring
-
-	Stats
-	* MRR: $0
-	* Price point: $99/month for all-you-can-eat medical smartforms
-
-
-* [Paperwork labs link](https://www.paperworklabs.com)
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IZHnqU43t0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
----------
 
 ### ![](/projects/logo_health.png) Soap Dictate App | Auto-transcribe your SOAP notes
 
@@ -200,6 +167,39 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 ![](/projects/demo_health3.gif)
 
 ![](/projects/soapstats.png)
+
+
+---------
+
+
+### ![](/projects/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
+
+
+See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
+
+Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
+
+	Team
+	* Mitul (sales advisory)
+	* Niko (sales, tech)
+
+
+	Tech
+	* React frontend
+	* Node/Express/Postgres backend
+	* Docker on AWS Elastic Beanstalk
+	* HIPAA compliant logging, access monitoring
+
+	Stats
+	* MRR: $0
+	* Price point: $99/month for all-you-can-eat medical smartforms
+
+
+* [Paperwork labs link](https://www.paperworklabs.com)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IZHnqU43t0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
