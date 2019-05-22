@@ -118,9 +118,9 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 	* Squarespace site
 
 	Stats
-	* MRR: N/A
+	* Sales: $9,400
+	* Revenue: N/A
 	* I4C Clean-Tech Startup Accelerator Cohort ‘14
-	* $9,400 in sales
 	* Pre-Seed round (aborted)
 	* My first ever entrepreneurial project
 
@@ -128,7 +128,6 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 * [Smokefurniture.com Mirror](http://nikodunk.github.io/smoke/)
 
 ![](/projects/smokesite.png) ![](/projects/smoke.gif)  
-![](/projects/smoke.jpg)
 
 
 
