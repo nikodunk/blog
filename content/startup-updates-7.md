@@ -13,9 +13,6 @@ categories:
 * Talked to another potential cofounder. Not as interested in this project.
 
 # KPIs/Core Metrics:
-* Monthly Active Users: 270
-* Weekly Active Users: 100
-* Daily Active Users: 13-40
 * Revenue: $0
 * Got out of building: Every single day.
 
