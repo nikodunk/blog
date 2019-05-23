@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "May 2019 Startup Update"
-date:   2019-05-13 08:00:00 -0700
+date:   2019-05-22 08:00:00 -0700
 tags: ["Updates", "Learnings"]
 ---
 
@@ -98,8 +98,7 @@ tags: ["Updates", "Learnings"]
 	* 20 cars go through per hour on average.
 	* 5 cars per hour convert * $8 * 10 hours = $400. Pay someone $150 of that.
 	* Give people flyers and tell them to text a number for half price on first delivery – launching next week. Make a run every half hour.
-		* 
-		* **Results: 34 flyers handed out, 4 texted us back to sign up!**
+		* **Results: 34 flyers handed out, 3 texted us back to sign up, including email and name!**
 		* Handed out from 3.30p - 6:30p at Supercharger in Serramonte
 		* 3/5 people sit in car when supercharging, half of those opened the window.
 		* Mostly from moms and/or dads with kids in the back smiled and engaged.
