@@ -70,28 +70,28 @@
 &lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;h3 id=&#34;problem-not-one-user-opened-stripe-credit-card-screen-to-lease-car-possible-solutions&#34;&gt;Problem: Not one user opened Stripe Credit Card screen to lease car. Possible Solutions:&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Experiment: Not one user opened Stripe Credit Card screen to lease car. Possible Solutions:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;More trustworthy seeming interace help?
+&lt;li&gt;&lt;strong&gt;Would a more trustworthy seeming interace help?&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Clearer onboarding process. More trustworthy&lt;/li&gt;
 &lt;li&gt;Polish, so app seems less sketchy&lt;/li&gt;
-&lt;li&gt;Results: One stripe open, still no checkouts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: One stripe open, still no checkouts.&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/1_experiment.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/1_results.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Value-add to differentiate (Fair has &amp;ldquo;cancel any time&amp;rdquo; and &amp;ldquo;bundled insurance&amp;rdquo;)
+&lt;li&gt;&lt;strong&gt;Value-add to differentiate (Fair has &amp;ldquo;cancel any time&amp;rdquo; and &amp;ldquo;bundled insurance&amp;rdquo;)&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;New cofounder Amir suggested we try a value-add add-ons/Benefits on top of lease to differentiate ourselves from normal leasing lke Fair&amp;rsquo;s &amp;ldquo;Cancel any time&amp;rdquo;?&lt;/li&gt;
-&lt;li&gt;Results: No difference.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: No difference.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;And what if could sell unbundled from car lease, too?&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;h3 id=&#34;experiment-sell-value-add-features-separately-without-the-car-leasing-through-digital-marketing&#34;&gt;Experiment: Sell value-add features separately, without the car leasing, through digital marketing.&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Experiment: Sell value-add features instead of leasing, with digital marketing.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;$35 per month value-add benefits EV bundle (pivot)&lt;/li&gt;
@@ -101,16 +101,16 @@
 &lt;li&gt;Advertise new value prop through paid marketing. If we can get 10 people to pay $35 in the next week we&amp;rsquo;ll pivot.
 
 &lt;ul&gt;
-&lt;li&gt;Reddit &lt;strong&gt;Results:&lt;/strong&gt; 18 clicks for $8 -&amp;gt; 5 installs ($1.6 per install) -&amp;gt; 5 people touched through to pricing -&amp;gt; 0 subscribers&lt;/li&gt;
-&lt;li&gt;iOS &lt;strong&gt;Results:&lt;/strong&gt; 3 installs for $6 -&amp;gt; None of them actual customers, none of them even in the USA.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: On Reddit ads 18 clicks for $8 -&amp;gt; 5 installs ($1.6 per install) -&amp;gt; 5 people touched through to pricing -&amp;gt; 0 subscribers&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: On iOS app store marketing 3 installs for $6 -&amp;gt; None of them actual customers, none of them even in the USA.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Advertise new value prop through paid marketing, but with better tag line and investing into marketing: &amp;ldquo;Put your EV needs on autopilot&amp;rdquo;.
 
 &lt;ul&gt;
-&lt;li&gt;Reddit: &lt;strong&gt;Results:&lt;/strong&gt; 18 clicks for $7.97 -&amp;gt; 5 installs ($1.6 per install) -&amp;gt; 4 people touched through to pricing -&amp;gt; 0 subscribers.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: Reddit Ads bought 18 clicks for $7.97 -&amp;gt; 5 installs ($1.6 per install) -&amp;gt; 4 people touched through to pricing -&amp;gt; 0 subscribers.&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/2_experiment.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/startup-updates-7/2_results.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Paid ads not working, and no need for product.
+&lt;li&gt;&lt;strong&gt;Learnings: Paid ads not cost-effective, and no need for product.&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Marketing: What if we try as content marketing with blog piece on new better title?&lt;/li&gt;
@@ -119,17 +119,27 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;h3 id=&#34;experiment-sell-value-add-features-separately-through-physical-marketing&#34;&gt;Experiment: Sell value-add features separately through physical marketing.&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Experiment: Sell value-add features, with physical marketing.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Specifically, one value add service because that&amp;rsquo;s a thing in China with NIO.&lt;/li&gt;
 &lt;li&gt;What if we put flyers on chargers (pre-targeted audience) and let people text my number for a $35 per pickup to validate the market for this same thing in the USA?&lt;/li&gt;
-&lt;li&gt;4 tear-off strips next to chargers. &lt;strong&gt;Results:&lt;/strong&gt; No callbacks&lt;/li&gt;
-&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/3_experiment.JPG&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/3_experiment2.JPG&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;120 flyers distributed under windscreen wipers. &lt;strong&gt;Results:&lt;/strong&gt; No callbacks.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;4 tear-off strips next to chargers.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/3_experiment.JPG&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/startup-updates-7/3_experiment2.JPG&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: No one texted us back&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;120 flyers distributed under windscreen wipers.&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/4_experiment.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/startup-updates-7/4_experiment2.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Physical ads working, but no need for this service.
+&lt;li&gt;&lt;strong&gt;Results: No one texted us back&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Learnings: Physical ads working, but no need for this service.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Marketing: Pretty sure physical flyer marketing is the way to go – we&amp;rsquo;re definitely getting infront of the right, targeted customers now (ie. Tesla owners).&lt;/li&gt;
@@ -137,7 +147,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;h3 id=&#34;experiment-go-into-field-and-watch-people-at-supercharger-stations&#34;&gt;Experiment: Go into field and watch people at supercharger stations.&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Experiment: Go into field and watch people at supercharger stations.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Watch people at superchargers - Like Airbnb live-in that Chesky did. Notes from field:
@@ -154,17 +164,25 @@
 &lt;li&gt;Supercharger club - remote services at superchargers. We bring you stuff at superchargers. It&amp;rsquo;s like take-out at superchargers. Nearby stuff at superchargers.&lt;/li&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/IMG_1354.JPG&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Learning: Get out of the building, go off-line.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; New idea! 👇&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: New idea! 👇&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;h3 id=&#34;experiment-sell-delivery-service-at-supercharger-stations-to-people-sitting-in-their-cars-with-sign-walk-up-to-windows-in-t-shirt-so-not-sketched-out&#34;&gt;Experiment: Sell delivery service at supercharger stations to people sitting in their cars (with sign, walk up to windows in T-Shirt so not sketched out).&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Experiment: Sell delivery service at supercharger stations to people sitting in their cars (with sign, walk up to windows in T-Shirt so not sketched out).&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;20 cars go through per hour on average.&lt;/li&gt;
 &lt;li&gt;5 cars per hour convert * $8 * 10 hours = $400. Pay someone $150 of that.&lt;/li&gt;
-&lt;li&gt;Give people flyers and tell them to text a number for half price on first delivery – launching next week.&lt;/li&gt;
-&lt;li&gt;Make a run every half hour.&lt;/li&gt;
+&lt;li&gt;Give people flyers and tell them to text a number for half price on first delivery – launching next week. Make a run every half hour.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: 34 flyers handed out, 4 texted us back to sign up!&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Handed out from 3.30p - 6:30p at Supercharger in Serramonte&lt;/li&gt;
+&lt;li&gt;&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; people sit in car when supercharging, half of those opened the window.&lt;/li&gt;
+&lt;li&gt;Mostly from moms and/or dads with kids in the back smiled and engaged.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -198,17 +216,32 @@
 
 &lt;h1 id=&#34;1-team-team-team&#34;&gt;1 Team Team Team&lt;/h1&gt;
 
-&lt;p&gt;Cofounder Cofounder Cofounder. Team Team Team. I can&amp;rsquo;t stress this enough, and is the main point of learning I&amp;rsquo;ve brought.&lt;/p&gt;
+&lt;p&gt;Cofounder Cofounder Cofounder. Team Team Team. I can&amp;rsquo;t stress this enough, and is the main point of learning I&amp;rsquo;ve brought. Cofounders should best-case come before the idea, because the idea will change. This was the case with us – my cofounder left the team when the idea was changing and we weren&amp;rsquo;t finding traction. If we&amp;rsquo;d been more used to working together beforehand, maybe this would have been different. Below our first product:&lt;/p&gt;
 
 &lt;h1 id=&#34;2-problem-problem-problem&#34;&gt;2 Problem problem problem&lt;/h1&gt;
 
 &lt;p&gt;Find a hair-on-fire problem (vitamins vs. painkillers). There should be no substitution, and extreme urgency to try your project.&lt;/p&gt;
+
+&lt;p&gt;Various problem statements we could have solved –&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/smokesite.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Or is it the problem of folding?&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;3-hardware-is-hard&#34;&gt;3 Hardware is hard.&lt;/h1&gt;
 
 &lt;p&gt;Let me rephrase that: for your &lt;em&gt;first&lt;/em&gt; startup, hardware is hard. Hardware is capital and liabilty intensive. For your first startup, maybe look at software: you can stand shoulder-to-shoulder with the big boys if you know how to write code. Most new billionaires &lt;em&gt;began&lt;/em&gt; with software companies, even if they ended up advancing into hardware. There&amp;rsquo;s a reason that so many founders these days (especially young ones) started with a software project – there&amp;rsquo;s no overhead and you can pivot infinite times without the sunk-cost-fallacy that hardware and minimums bring.&lt;/p&gt;
+
+&lt;p&gt;We found a leaner way of doing hardware in that a transportation factory agreed to sell us their off-time on their CNC machines (which most days of the week were just sitting there). They&amp;rsquo;d accept orders of 10s and 20s instead of the 100s and 1000s we&amp;rsquo;d need to order from Estonia (where the big wood mills are).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.001.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.002.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.009.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.008.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.007.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.006.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;4-give-yourself-enough-time&#34;&gt;4 Give yourself enough time.&lt;/h1&gt;
 
@@ -228,42 +261,18 @@
 
 &lt;p&gt;Be careful who you take advice from – we had bad advisors telling us to make 3-year financial projections. We had funders giving us advice on marketing. All of this is irrelevant – and massively distracticing. Do one thing and do it well.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/smokesite.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;8-your-customers-may-be-completely-different-from-who-you-think-they-are&#34;&gt;8 Your customers may be completely different from who you think they are&lt;/h1&gt;
 
-&lt;p&gt;I still think the lightweight/sustainable furniture space is interesting. We needed more interations on this concept however, and we didn&amp;rsquo;t have the time/runway to do so. This was our fault. We should have planned better, to provide more time for iteration. We should also have built less until we knew more. And I should have picked cofounders more carefully.&lt;/p&gt;
+&lt;p&gt;Sure, our initial sale came from marketing stunts like displaying in a highly-trafficked corner store. A marketing guy who thought this was amusing was our first customer. But quickly we realized that another customer base actually had a need for what we were building, and bought multiple times, and kept recommending it to their friends: Friends&amp;rsquo; mothers, who then recommended it to her friends. Initially we thought they were just being nice, but we soon realized we were actually soliving problem for them! Empty nesters needed a second table for when the kids came home that they could fold out. They didn&amp;rsquo;t want cheap feeling IKEA stuff. They didn&amp;rsquo;t want to lug around furniture at their age. They had the disposable income to afford our designs. They appreciated the aesthetics. They liked that they could have our designs mailed to their house, or mountain chalets (this is a thing in Switzerland), and didn&amp;rsquo;t have to lug it up there themselves. In short – we&amp;rsquo;d found our initial early adopters. Not the Yuppies we&amp;rsquo;d thought they would be – but a completely different customer base, which frankly came out of left field.&lt;/p&gt;
 
-&lt;p&gt;Those are the main learnings I&amp;rsquo;ve taken away so far from my first company. In all – not bad for a first experience in startups.&lt;/p&gt;
+&lt;h1 id=&#34;9-do-things-that-don-t-scale&#34;&gt;9 Do things that don&amp;rsquo;t scale&lt;/h1&gt;
 
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;process-shots-gallery&#34;&gt;Process shots gallery&lt;/h1&gt;
-
-&lt;p&gt;Below some photos of our process and marketing expriments – doing things that don&amp;rsquo;t scale :)&lt;/p&gt;
-
-&lt;p&gt;(back then under the &amp;ldquo;lean startup&amp;rdquo; framework)&lt;/p&gt;
-
-&lt;p&gt;Manufacturing:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.001.jpeg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.002.jpeg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.003.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Marketing Facebook campaign snippet. We had A/B/C tests running most days.&lt;/p&gt;
+&lt;p&gt;Paul Graham&amp;rsquo;s famous trope. We tried things that scaled like Facebook campaigns, and got not-so-clear results. Who knew if we were actually improving our phrasing? We definitely weren&amp;rsquo;t selling any product through this channel. Below a marketing Facebook campaign snippet. We had A/B/C tests running most days. Funnily enough, most of our friends had heard of us after a few days – awareness marketing definitely works through Facebook.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.004.jpeg&#34; alt=&#34;&#34; /&gt;
 &lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.005.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The fold-up process:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.006.jpeg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.007.jpeg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.008.jpeg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.009.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Two tests in two Impact Hubs in Zurich.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.010.jpeg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.011.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;What really lead to sales however were our marketing stunts.&lt;/p&gt;
 
 &lt;p&gt;Our first pop-up window stunt where we sublet a window in a corner store in a dingy but hipster neighborhood of town. This lead to our first online sale.&lt;/p&gt;
 
@@ -274,11 +283,26 @@
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.014.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
+&lt;p&gt;We also tried &amp;ldquo;tests&amp;rdquo; in two Impact Hubs in Zurich, from which we were working. At the time we thought that the &amp;ldquo;green&amp;rdquo; crowd who works from Impact Hub could be our audience. This was false and never lead to sales – obvious in retrospect as the audience is too undefined.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.010.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/paper/Smoke Lean Process.011.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Establishing trust is the main initial problem for a company selling physical goods. For this, we may need a physical location.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;final-thoughts&#34;&gt;Final thoughts&lt;/h1&gt;
+
+&lt;p&gt;I still think the lightweight/sustainable furniture space is interesting. We needed more interations on this concept however, and we didn&amp;rsquo;t have the time/runway to do so. This was our fault. We should have planned better, to provide more time for iteration. We should also have built less until we knew more. And I should have picked cofounders more carefully.&lt;/p&gt;
+
+&lt;p&gt;Those are the main learnings I&amp;rsquo;ve taken away so far from my first company. In all – not bad for a first experience in startups.&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;h1 id=&#34;original-pitch-deck&#34;&gt;Original Pitch Deck&lt;/h1&gt;
 
-&lt;p&gt;This lead to us raising 100K in convertible note.&lt;/p&gt;
+&lt;p&gt;For completion, I post below our original pitch deck which lead to us raising 100K in a convertible note.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/smoke Elevator Pitch.001.jpeg&#34; alt=&#34;&#34; /&gt;
 &lt;img src=&#34;https://nikodunk.com/paper/smoke Elevator Pitch.002.jpeg&#34; alt=&#34;&#34; /&gt;
