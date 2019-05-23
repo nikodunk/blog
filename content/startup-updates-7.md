@@ -2,7 +2,7 @@
 layout: post
 title:  "May 2019 Startup Update"
 date:   2019-05-13 08:00:00 -0700
-categories: 
+tags: ["Updates", "Learnings"]
 ---
 
 # Help Wanted/Asks:

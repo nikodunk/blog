@@ -2,7 +2,7 @@
 layout: post
 title:  "March 2019 Startup Update"
 date:   2019-03-29 08:00:00 -0700
-categories: 
+tags: ["Updates", "Learnings"]
 ---
 
 This month has been mostly resetting on a new project, electrade. I've been interviewing a bunch of EV owners over the phone to ask for problems, and going to a Golden Gate Electric Vehicle Meetup.

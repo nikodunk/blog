@@ -2,7 +2,7 @@
 layout: post
 title:  "February 2019 Startup Update"
 date:   2019-02-24 08:00:00 -0700
-categories: 
+tags: ["Updates", "Learnings"]
 ---
 
 After 4 months of working on healthcare stuffs and nearly making it (we signed a first deal of $600/mo, but then couldn't deliver an external integration they needed UGH) I have to face the decision to double down again or reset. I've decided to reset to something more in line with my natural interests: I've now been working for the past couple weeks on the (first) electric vehicle marketplace app. "Find a used tesla near me" – screenshot attached :)
