@@ -97,6 +97,7 @@ tags: ["Updates", "Learnings"]
 * **Experiment: Sell delivery service at supercharger stations to people sitting in their cars (with sign, walk up to windows in T-Shirt so not sketched out).**
 	* 20 cars go through per hour on average.
 	* 5 cars per hour convert * $8 * 10 hours = $400. Pay someone $150 of that.
+	* ![](/startup-updates-7/5_experiment.JPG) This is what hustle looks like...
 	* Give people flyers and tell them to text a number for half price on first delivery – launching next week. Make a run every half hour.
 		* **Results: 34 flyers handed out, 3 texted us back to sign up, including email and name!**
 		* Handed out from 3.30p - 6:30p at Supercharger in Serramonte
