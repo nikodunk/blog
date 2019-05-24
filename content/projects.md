@@ -14,7 +14,7 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 -----------
 
-# ![](/projects/logo_sustainability2.png) electrify | Supercharger Deals.
+# ![](/projects/logo_sustainability2.png) Electrify App | Supercharger Deals.
 
 	Team:
 	* Amir (ideation, ops)
@@ -148,7 +148,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 ------------
 
-# ![](/projects/logo_paper.png) Paper Inc. | Mail-order Sustainable Flatpack Furniture
+# ![](/projects/logo_paper.png) Paperfurniture.com | Mail-order Sustainable Flatpack Furniture
 
 The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.
 
@@ -191,7 +191,7 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 -----------
 
-# ![](/projects/logo_sustainability.png) GoodGood | B-Corp Price Tracker
+# ![](/projects/logo_sustainability.png) GoodGood.io | B-Corp Price Tracker
 
 Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
 
@@ -216,7 +216,7 @@ Utilising APIfier to scrape all B-Corp companies, and cross-referencing them wit
 
 -----------
 
-# ![](/projects/logo_health0.png) I Am Off! app | Off-day planner for Physicians
+# ![](/projects/logo_health0.png) I Am Off! App | Off-day planner for Physicians
 
 Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.
 
@@ -248,7 +248,7 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 
 -----------
 
-# Gift Lab | Kickstarter for physical donations
+# Giftlab.io | Kickstarter for physical donations
 
 With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.
 
@@ -275,7 +275,7 @@ With Elisa Chan, a platform to help noprofits fundraise more efficiently with mo
 
 -----------
 
-# ![](/projects/project-pegasus-logo.png) Project Pegasus | Recycling rejected YCombinator applications
+# ![](/projects/project-pegasus-logo.png) Projectpegasus.io | Recycling rejected YCombinator applications
 
 ![](/projects/demo pegasus.png) ![](/projects/demo pegasus 2.png)
 
