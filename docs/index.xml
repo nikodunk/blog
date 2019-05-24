@@ -326,15 +326,13 @@
       
       <content>
 
-&lt;p&gt;This is a general blog post on my various schemes so far, loosely grouped around topic. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
+&lt;p&gt;This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/gianni_colombo.jpg&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/scientist.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;sustainability&#34;&gt;Sustainability&lt;/h1&gt;
-
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;projects-logo-sustainability2-png-electrify-put-all-your-ev-needs-on-autopilot&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrify | Put all your EV needs on autopilot.&lt;/h3&gt;
+&lt;h1 id=&#34;projects-logo-sustainability2-png-electrify-supercharger-deals&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; electrify | Supercharger Deals.&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;Team:
 * Amir (ideation, ops)
@@ -349,11 +347,10 @@ Tech:
 * EV News updates through APIfy.com
 
 Stats:
-* Revenue: $0
-* Monthly Lease Requests: 12
+* Revenue: TBD
 * MAU: 100
 * Users: 350
-* User acquisition: Paid Reddit
+* User acquisition: Physical marketing, ASO
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -365,7 +362,80 @@ Stats:
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;projects-logo-sustainability1-gif-sunboxlabs-com-solar-price-tracker-platform-for-diy-solar&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34; /&gt; sunboxlabs.com | Solar Price Tracker &amp;amp; Platform for DIY solar&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;projects-logo-health-png-soap-dictate-app-auto-transcribe-your-soap-notes&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health.png&#34; alt=&#34;&#34; /&gt; Soap Dictate App | Auto-transcribe your SOAP notes&lt;/h1&gt;
+
+&lt;p&gt;Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.&lt;/p&gt;
+
+&lt;p&gt;Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month.&lt;/p&gt;
+
+&lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&amp;rsquo;s Speech Recognition API is unclear as it&amp;rsquo;s encrypted, but Apple won&amp;rsquo;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Libo (medical product advice)
+* Niko (product, tech)
+
+Tech
+* React Native App
+* Mobile Frontend in React Native with RNVoice library
+* Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
+* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
+
+Stats
+* MRR: $55
+* Paying customers: 20
+* Trial customers: 1
+* Price point: $3.99/month
+* 262 registered users
+* Organic app store search
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/app/id1384252497&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_health3.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/soapstats.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;projects-logo-paperworklabs-png-paperworklabs-com-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paperworklabs.png&#34; alt=&#34;&#34; /&gt; paperworklabs.com | Turbotax for medical forms&lt;/h1&gt;
+
+&lt;p&gt;See ongoing progress in the newer posts on this site, like &lt;a href=&#34;https://nikodunk.com/startup-updates-1&#34;&gt;this one&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &amp;ldquo;turbotax for medical forms&amp;rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &amp;ldquo;smart forms&amp;rdquo; that can export flat PDFs, report on your &amp;ldquo;structured data&amp;rdquo;, and potentially integrates with EHRs if they let us.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Mitul (sales advisory)
+* Niko (sales, tech)
+
+
+Tech
+* React frontend
+* Node/Express/Postgres backend
+* Docker on AWS Elastic Beanstalk
+* HIPAA compliant logging, access monitoring
+
+Stats
+* MRR: $0
+* Price point: $99/month for all-you-can-eat medical smartforms
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.paperworklabs.com&#34;&gt;Paperwork labs link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;projects-logo-sustainability1-gif-sunboxlabs-com-solar-price-tracker-platform-for-diy-solar&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34; /&gt; sunboxlabs.com | Solar Price Tracker &amp;amp; Platform for DIY solar&lt;/h1&gt;
 
 &lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;a href=&#34;http://sunboxlabs.com&#34; target=&#34;_blank&#34;&gt;sunboxlabs.com&lt;/a&gt; developed out of a &lt;a href=&#34;https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4&#34;&gt;HackerNoon&lt;/a&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;HackerNews&lt;/a&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;twice&lt;/a&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;a href=&#34;http://nikodunk.github.io/sunboxlabs&#34;&gt;sunbox labs&lt;/a&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;i&gt;&lt;a href=&#34;https://nikodunk.com/solar&#34;&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
 
@@ -393,7 +463,9 @@ Stats
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;projects-logo-paper-png-paper-inc-mail-order-sustainable-flatpack-furniture&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paper.png&#34; alt=&#34;&#34; /&gt; Paper Inc. | Mail-order Sustainable Flatpack Furniture&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;projects-logo-paper-png-paper-inc-mail-order-sustainable-flatpack-furniture&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paper.png&#34; alt=&#34;&#34; /&gt; Paper Inc. | Mail-order Sustainable Flatpack Furniture&lt;/h1&gt;
 
 &lt;p&gt;The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.&lt;/p&gt;
 
@@ -427,7 +499,9 @@ Stats
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;projects-logo-sustainability-png-goodgood-b-corp-price-tracker&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; GoodGood | B-Corp Price Tracker&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;projects-logo-sustainability-png-goodgood-b-corp-price-tracker&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; GoodGood | B-Corp Price Tracker&lt;/h1&gt;
 
 &lt;p&gt;Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing &amp;amp; image data from Viglink API.&lt;/p&gt;
 
@@ -449,78 +523,11 @@ Stats
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/bamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;healthcare&#34;&gt;Healthcare&lt;/h1&gt;
+&lt;hr /&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;projects-logo-health-png-soap-dictate-app-auto-transcribe-your-soap-notes&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health.png&#34; alt=&#34;&#34; /&gt; Soap Dictate App | Auto-transcribe your SOAP notes&lt;/h3&gt;
-
-&lt;p&gt;Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.&lt;/p&gt;
-
-&lt;p&gt;Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month.&lt;/p&gt;
-
-&lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&amp;rsquo;s Speech Recognition API is unclear as it&amp;rsquo;s encrypted, but Apple won&amp;rsquo;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Libo (medical product advice)
-* Niko (product, tech)
-
-Tech
-* React Native App
-* Mobile Frontend in React Native with RNVoice library
-* Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
-* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
-
-Stats
-* MRR: $55
-* Paying customers: 20
-* Trial customers: 0
-* Price point: $3.99/month
-* 262 registered users
-* Organic app store search
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/app/id1384252497&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_health3.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/soapstats.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;projects-logo-paperworklabs-png-paperworklabs-com-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paperworklabs.png&#34; alt=&#34;&#34; /&gt; paperworklabs.com | Turbotax for medical forms&lt;/h3&gt;
-
-&lt;p&gt;See ongoing progress in the newer posts on this site, like &lt;a href=&#34;https://nikodunk.com/startup-updates-1&#34;&gt;this one&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &amp;ldquo;turbotax for medical forms&amp;rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &amp;ldquo;smart forms&amp;rdquo; that can export flat PDFs, report on your &amp;ldquo;structured data&amp;rdquo;, and potentially integrates with EHRs if they let us.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Mitul (sales advisory)
-* Niko (sales, tech)
-
-
-Tech
-* React frontend
-* Node/Express/Postgres backend
-* Docker on AWS Elastic Beanstalk
-* HIPAA compliant logging, access monitoring
-
-Stats
-* MRR: $0
-* Price point: $99/month for all-you-can-eat medical smartforms
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.paperworklabs.com&#34;&gt;Paperwork labs link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;projects-logo-health0-png-i-am-off-app-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! app | Off-day planner for Physicians&lt;/h3&gt;
+&lt;h1 id=&#34;projects-logo-health0-png-i-am-off-app-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! app | Off-day planner for Physicians&lt;/h1&gt;
 
 &lt;p&gt;Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.&lt;/p&gt;
 
@@ -549,11 +556,11 @@ Stats
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_health.gif&#34; alt=&#34;&#34; /&gt;
 &lt;img src=&#34;https://nikodunk.com/projects/demo_health.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;misc-software&#34;&gt;Misc Software&lt;/h1&gt;
+&lt;hr /&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;gift-lab-kickstarter-for-physical-donations&#34;&gt;Gift Lab | Kickstarter for physical donations&lt;/h3&gt;
+&lt;h1 id=&#34;gift-lab-kickstarter-for-physical-donations&#34;&gt;Gift Lab | Kickstarter for physical donations&lt;/h1&gt;
 
 &lt;p&gt;With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.&lt;/p&gt;
 
@@ -566,6 +573,9 @@ Tech:
 * Stripe Connect for payment routing
 * Amazon wishlists for product gifting
 * Mixpanel/Fullstory analytics
+
+Stats:
+* Total sales: $30.00
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -576,7 +586,9 @@ Tech:
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;projects-project-pegasus-logo-png-project-pegasus-recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/project-pegasus-logo.png&#34; alt=&#34;&#34; /&gt; Project Pegasus | Recycling rejected YCombinator applications&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;projects-project-pegasus-logo-png-project-pegasus-recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/project-pegasus-logo.png&#34; alt=&#34;&#34; /&gt; Project Pegasus | Recycling rejected YCombinator applications&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo pegasus.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/demo pegasus 2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -602,7 +614,7 @@ Stats
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;misc-hardware&#34;&gt;Misc Hardware&lt;/h1&gt;
+&lt;h1 id=&#34;misc-hardware-projects&#34;&gt;Misc Hardware Projects&lt;/h1&gt;
 
 &lt;hr /&gt;
 
