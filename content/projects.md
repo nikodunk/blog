@@ -14,7 +14,7 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 -----------
 
-# ![](/projects/logo_sustainability2.png) Electrify App | Supercharger Deals.
+# ![](/projects/logo_sustainability2.png) Electrify App | Coupons and Deals when you're charging at Superchargers.
 
 	Team:
 	* Amir (ideation, ops)
