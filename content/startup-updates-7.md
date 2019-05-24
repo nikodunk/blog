@@ -100,14 +100,8 @@ tags: ["Updates", "Learnings"]
 	* Give people flyers and tell them to text a number for half price on first delivery – launching next week. Make a run every half hour.
 		* **Results: 34 flyers handed out, 3 texted us back to sign up, including email and name!**
 		* Handed out from 3.30p - 6:30p at Supercharger in Serramonte
-		* 3/5 people sit in car when supercharging, half of those opened the window.
+		* Roughly 60% people sit in car when supercharging, half of those opened the window.
 		* Mostly from moms and/or dads with kids in the back smiled and engaged.
-	
 
-# Experiment backlog:
-* Test Concierge service (you say which car, we'll find at a price).
-* Test Consultant service (we'll answer your EV questions and then recommend products).
-* Change from pure EV? Potentially, the hassle-free value proposition may be more effective in a mainstream market for now?
-* Add off-lease cars from Greenlight Auto Wholesale ?
-* Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?
-* Rent an EV for a month between leases?
+* **Experiment: Now that have 3 sign-ups, deliver food to them at certain times of day**
+	* Next update!
