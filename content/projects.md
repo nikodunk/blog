@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learnings from projects & things I've made so far."
-date:   2019-05-01 08:00:00 -0700
+date:   2019-06-25 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 ---
 
@@ -14,10 +14,10 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 -----------
 
-# ![](/projects/logo_sustainability2.png) Electrify App | Coupons and Deals when you're charging at Superchargers.
+# ![](/projects/logo_sustainability2.png) Electrify App | EV Services
 
 	Team:
-	* Amir (ideation, ops)
+	* Armin (ideation, ops)
 	* Niko (ideation, tech)
 
 	Tech:
@@ -29,23 +29,24 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 	* EV News updates through APIfy.com
 
 	Stats:
-	* Revenue: TBD
+	* Revenue: $0
 	* MAU: 100
 	* Users: 350
 	* User acquisition: Physical marketing, ASO
 
+(see [Startup Updates](/startup-updates-7))
+
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
 * [Google Play Link](https://play.google.com/store/apps/details?id=com.bigset.electric)
 
-![](/projects/electrade-app.png)
+![](/projects/electrify.gif)
 
 ------------
 
 
-
 -----------
 
-# ![](/projects/logo_health.png) Soap Dictate App | Auto-transcribe your SOAP notes
+# ![](/projects/logo_health.png) Soap Dictate App | Medical Note Transcription App
 
 Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.
 
@@ -117,7 +118,7 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 
 ------------
 
-# ![](/projects/logo_sustainability1.gif) sunboxlabs.com | Solar Price Tracker & Platform for DIY solar
+# ![](/projects/logo_sustainability1.gif) sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)
 
 With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
 
@@ -134,7 +135,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 	* Revenue per month: $30
 	* 204'600 uniques from July 2017 - July 2018
 	* 3.74% conversion to Amazon affiliate program
-	* 2 versions of kit launched
+	* 8 submissions
 
 * [Sunboxlabs.com Site](http://sunboxlabs.com)
 
