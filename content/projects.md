@@ -43,6 +43,37 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 ------------
 
+-----------
+
+# ![](/projects/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
+
+
+See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
+
+Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
+
+	Team
+	* Mitul (sales advisory)
+	* Niko (sales, tech)
+
+
+	Tech
+	* React frontend
+	* Node/Express/Postgres backend
+	* Docker on AWS Elastic Beanstalk
+	* HIPAA compliant logging, access monitoring
+
+	Stats
+	* MRR: $0
+	* Price point: $99/month for all-you-can-eat medical smartforms
+
+
+* [Paperwork labs link](https://www.paperworklabs.com)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IZHnqU43t0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+------------
 
 -----------
 
@@ -83,39 +114,6 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 -----------
 
------------
-
-# ![](/projects/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
-
-
-See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
-
-Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
-
-	Team
-	* Mitul (sales advisory)
-	* Niko (sales, tech)
-
-
-	Tech
-	* React frontend
-	* Node/Express/Postgres backend
-	* Docker on AWS Elastic Beanstalk
-	* HIPAA compliant logging, access monitoring
-
-	Stats
-	* MRR: $0
-	* Price point: $99/month for all-you-can-eat medical smartforms
-
-
-* [Paperwork labs link](https://www.paperworklabs.com)
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IZHnqU43t0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-------------
-
-
 ------------
 
 # ![](/projects/logo_sustainability1.gif) sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)
@@ -144,7 +142,6 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 
 -----------
-
 
 
 ------------
@@ -181,13 +178,6 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 
 ------------
-
-
-
-
-
-
-
 
 
 -----------
