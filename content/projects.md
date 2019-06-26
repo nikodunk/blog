@@ -69,9 +69,9 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 
 
 * [Paperwork labs link](https://www.paperworklabs.com)
+* [See Youtube walkthrough here](https://www.youtube.com/embed/IZHnqU43t0s)
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IZHnqU43t0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](/projects/demo_paperworklabs.gif)
 
 ------------
 
@@ -107,7 +107,7 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 
 
-![](/projects/demo_health3.gif)
+![](/projects/demo_soap.gif)
 
 ![](/projects/soapstats.png)
 
@@ -230,8 +230,8 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 * [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
 * [Google Play Link](https://play.google.com/store/apps/details?id=com.pokedoc.iamoff) 
 
-![](/projects/demo_health.gif) 
-![](/projects/demo_health.png)
+![](/projects/demo_iamoff.gif) 
+![](/projects/demo_iamoff.png)
 
 
 
@@ -266,7 +266,7 @@ With Elisa Chan, a platform to help noprofits fundraise more efficiently with mo
 
 -----------
 
-# ![](/projects/project-pegasus-logo.png) Projectpegasus.io | Recycling rejected YCombinator applications
+# ![](/projects/logo_project-pegasus.png) Projectpegasus.io | Recycling rejected YCombinator applications
 
 ![](/projects/demo pegasus.png) ![](/projects/demo pegasus 2.png)
 
