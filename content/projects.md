@@ -39,7 +39,7 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
 * [Google Play Link](https://play.google.com/store/apps/details?id=com.bigset.electric)
 
-![](/projects/electrify.gif)
+![](/projects/demo_electrify.gif)
 
 ------------
 
