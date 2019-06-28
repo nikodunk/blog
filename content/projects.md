@@ -268,7 +268,7 @@ With Elisa Chan, a platform to help noprofits fundraise more efficiently with mo
 
 # ![](/projects/logo_project-pegasus.png) Projectpegasus.io | Recycling rejected YCombinator applications
 
-![](/projects/demo pegasus.png) ![](/projects/demo pegasus 2.png)
+![](/projects/demo pegasus.png)
 
 With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.
 
@@ -383,9 +383,9 @@ GoodGood, a software project to help families find skinsafe products for their b
 
 	Tech
 	* Angular 2 app
-	* Firebase backend
 	* Viglink API
-	* APIfier to scrape ewg.org (and save it into Firebase)
+	* APIfier scraping ewg.org
+	* Firebase NoSQL database
 
 * [Goodgood.io Mirror](https://nikodunk.github.io/ewg-search/)
 
@@ -414,10 +414,10 @@ A “product hunt” for the videos of certified green companies. This initial v
 Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.
 
 	Tech
+	* Angular 2 App
 	* My first software project
-	* Codebase is too mangled
 
-* [No link available]
+![](/projects/superjuice.gif)
 
 
 

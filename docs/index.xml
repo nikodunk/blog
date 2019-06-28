@@ -289,7 +289,7 @@ Stats:
 
 &lt;h1 id=&#34;projects-logo-project-pegasus-png-projectpegasus-io-recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_project-pegasus.png&#34; alt=&#34;&#34; /&gt; Projectpegasus.io | Recycling rejected YCombinator applications&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo pegasus.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/demo pegasus 2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo pegasus.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.&lt;/p&gt;
 
@@ -395,9 +395,9 @@ Stats
 
 &lt;pre&gt;&lt;code&gt;Tech
 * Angular 2 app
-* Firebase backend
 * Viglink API
-* APIfier to scrape ewg.org (and save it into Firebase)
+* APIfier scraping ewg.org
+* Firebase NoSQL database
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -430,13 +430,11 @@ Stats
 &lt;p&gt;Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech
+* Angular 2 App
 * My first software project
-* Codebase is too mangled
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;[No link available]&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/superjuice.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;blockchain&#34;&gt;Blockchain&lt;/h1&gt;
 
