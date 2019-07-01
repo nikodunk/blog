@@ -1,11 +1,33 @@
 <section class="section">
-  <div class="container has-text-centered">
-    <p>{{ .Site.Copyright | safeHTML }}</p>
-    {{if .Site.Params.Info.poweredby}}
-      <p>Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/ribice/kiss">Kiss</a>.</p>
-    {{ end }}
-  </div>
+    <div class="container">
+  
+      <div class="row" style="display: flex">
+        <hr style="flex: 1" />
+        <h4 id="contact-section" class="strike-header"><span>Contact / Inquire</span></h4>
+        <hr style="flex: 1" />
+      </div>
+      
+      <div class="nav-center" style="display: flex">
+          <nav class="nav-item level is-mobile row" >
+            {{- $social := ( .Site.Params.social ) -}}
+            {{- range $platform := $social.config.platforms -}}
+            {{- with $username := ( index $social $platform ) -}}
+            <a class="col-4 level-item" aria-label="{{ $platform }}" href='{{ print ( index $.Site.Data.theme.social.base $platform ) $username }}'
+              target='_blank' rel='noopener'>
+              <span class="icon">
+                <i class>
+                  {{- partial "svg/icons" $platform -}}
+                </i>
+              </span>
+            </a>
+            {{- end -}}
+            {{- end -}}
+          </nav>
+      </div>
+      <br />
+    </div>
 </section>
+
 {{ if .Site.GoogleAnalytics }}
 {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
