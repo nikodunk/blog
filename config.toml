@@ -1,7 +1,6 @@
 baseURL = "https://nikodunk.com/"
 languageCode = "en-us"
 title = "D U N K | niko's blog"
-theme = "kiss"
 Paginate = 100 # Number of posts per page
 googleAnalytics = "UA-104927808-1"
 enableRobotsTXT = true
@@ -19,7 +18,6 @@ customCSS = ["css/custom.css"]
 # adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "Niko's Blog" # Title for home page
-poweredby = true # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
 
 [params.social]
