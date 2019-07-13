@@ -24,3 +24,10 @@ tags: ["Updates", "Learnings"]
 * Landing Page for EV Insurance
 	* We know this is a problem.
 	* Re-launching with new content once Clearcover API partnership live.
+
+* Paid:
+	* Google Ads
+	* Facebook Ads
+
+* Content:
+	* Wrote 3 pieces.
