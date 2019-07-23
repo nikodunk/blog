@@ -11,9 +11,10 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 
 Coming soon: 
+
+* [Grammative](https://grammative.com)
 * [Electrade.app](https://www.electrade.app)
 * [PositivityTrainer](https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138)
-* [Grammative](https://grammative.com)
 
 -----------
 
