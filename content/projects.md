@@ -10,7 +10,10 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 ![](/projects/gianni_colombo.jpg) ![](/projects/scientist.jpg)
 
 
-
+Coming soon: 
+* [Electrade.app](https://www.electrade.app)
+* [PositivityTrainer](https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138)
+* [Grammative](https://grammative.com)
 
 -----------
 
