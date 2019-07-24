@@ -1209,7 +1209,7 @@ Stats
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Heroku, in your app &amp;gt; Settings &amp;gt; Add your domain:&lt;/strong&gt; Add www.[your-domain].com (Note: www is KEY!) to your app and copy the [DNS Target] it gives you.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Synthetic Records &amp;gt; Add a subdomain:&lt;/strong&gt; @ to Subdomain, add http://[your-domain].com to the next field. No need to mess around with the path forwarding radio, SSL radio and whatever else the web talks about.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Synthetic Records &amp;gt; Add a subdomain:&lt;/strong&gt; @ to Subdomain, add &lt;a href=&#34;https://www.[your-domain].com&#34;&gt;https://www.[your-domain].com&lt;/a&gt; to the next field. Forward the path (so that [your-domain].com/about.html forwards to &lt;a href=&#34;https://www.[your-domain].com/about.html&#34;&gt;https://www.[your-domain].com/about.html&lt;/a&gt;), and leave the SSL Enabled.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Custom Resource Records &amp;gt; Add a CNAME:&lt;/strong&gt; www, CNAME, [DNS Target]&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -1223,6 +1223,8 @@ Stats
 &lt;p&gt;I install &lt;a href=&#34;https://github.com/nodenica/node-heroku-ssl-redirect&#34;&gt;heroku-ssl-redirect&lt;/a&gt; for node to force HTTPS upgrades.&lt;/p&gt;
 
 &lt;p&gt;Have a great year!&lt;/p&gt;
+
+&lt;p&gt;PS: So does this work for simply [your-domain].com and not www.[your-domain].com as described in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku &lt;a href=&#34;https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong&#34;&gt;does not support&lt;/a&gt; forwarding to the naked (aka. root aka. apex) domain. Sorry!&lt;/p&gt;
 </content>
       
     </item>

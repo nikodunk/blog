@@ -80,7 +80,7 @@ I strongly reference David Gagne&rsquo;s article here, which is now sometimes be
 
 <ol>
 <li><strong>Heroku, in your app &gt; Settings &gt; Add your domain:</strong> Add www.[your-domain].com (Note: www is KEY!) to your app and copy the [DNS Target] it gives you.</li>
-<li><strong>Google Domains &gt; DNS &gt; Synthetic Records &gt; Add a subdomain:</strong> @ to Subdomain, add http://[your-domain].com to the next field. No need to mess around with the path forwarding radio, SSL radio and whatever else the web talks about.</li>
+<li><strong>Google Domains &gt; DNS &gt; Synthetic Records &gt; Add a subdomain:</strong> @ to Subdomain, add <a href="https://www.[your-domain].com">https://www.[your-domain].com</a> to the next field. Forward the path (so that [your-domain].com/about.html forwards to <a href="https://www.[your-domain].com/about.html">https://www.[your-domain].com/about.html</a>), and leave the SSL Enabled.</li>
 <li><strong>Google Domains &gt; DNS &gt; Custom Resource Records &gt; Add a CNAME:</strong> www, CNAME, [DNS Target]</li>
 </ol>
 
@@ -94,6 +94,8 @@ I strongly reference David Gagne&rsquo;s article here, which is now sometimes be
 <p>I install <a href="https://github.com/nodenica/node-heroku-ssl-redirect">heroku-ssl-redirect</a> for node to force HTTPS upgrades.</p>
 
 <p>Have a great year!</p>
+
+<p>PS: So does this work for simply [your-domain].com and not www.[your-domain].com as described in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku <a href="https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong">does not support</a> forwarding to the naked (aka. root aka. apex) domain. Sorry!</p>
 
       
       <div class="related">
