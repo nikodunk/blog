@@ -1224,7 +1224,7 @@ Stats
 
 &lt;p&gt;Have a great year!&lt;/p&gt;
 
-&lt;p&gt;PS: So does this work for simply [your-domain].com and not www.[your-domain].com as described in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( &lt;a href=&#34;https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong&#34;&gt;Source 1: Heroku Docs&lt;/a&gt; &lt;a href=&#34;https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku&#34;&gt;Source 2: StackOverflow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PS: So does this work for simply [your-domain].com and not www.[your-domain].com as we were using in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( &lt;a href=&#34;https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong&#34;&gt;Source 1: Heroku Docs&lt;/a&gt; &lt;a href=&#34;https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku&#34;&gt;Source 2: StackOverflow&lt;/a&gt;&lt;/p&gt;
 </content>
       
     </item>
