@@ -4,9 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>How to set up Heroku SSL with Google Domains in 2019 | D U N K</title>
+<title>How to set up Heroku SSL (HTTPS) with Google Domains in 2019 | D U N K</title>
 
-<meta property='og:title' content='How to set up Heroku SSL with Google Domains in 2019 - D U N K'>
+<meta property='og:title' content='How to set up Heroku SSL (HTTPS) with Google Domains in 2019 - D U N K'>
 <meta property='og:description' content='Ugh. This wastes time every time I run into it. It&rsquo;s so much easier with AWS, and there&rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&rsquo;s ACM for SSL. IF you do everything right, it&rsquo;s actually very simple. So I&rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.
 I strongly reference David Gagne&rsquo;s article here, which is now sometimes behind a paywall on Medium.'>
 <meta property='og:url' content='https://nikodunk.com/heroku-ssl-google-domains-2019/'>
@@ -71,7 +71,7 @@ I strongly reference David Gagne&rsquo;s article here, which is now sometimes be
       
     </div>
     <h2 class="subtitle is-6">February 16, 2019</h2>
-    <h1 class="title">How to set up Heroku SSL with Google Domains in 2019</h1>
+    <h1 class="title">How to set up Heroku SSL (HTTPS) with Google Domains in 2019</h1>
     
     <div class="content">
       <p>Ugh. This wastes time every time I run into it. It&rsquo;s so much easier with AWS, and there&rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&rsquo;s ACM for SSL. IF you do everything right, it&rsquo;s actually very simple. So I&rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.</p>
@@ -95,7 +95,7 @@ I strongly reference David Gagne&rsquo;s article here, which is now sometimes be
 
 <p>Have a great year!</p>
 
-<p>PS: So does this work for simply [your-domain].com and not www.[your-domain].com as described in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku <a href="https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong">does not support</a> forwarding to the naked (aka. root aka. apex) domain. Sorry!</p>
+<p>PS: So does this work for simply [your-domain].com and not www.[your-domain].com as described in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( <a href="https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong">Source 1: Heroku Docs</a> <a href="https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku">Source 2: StackOverflow</a></p>
 
       
       <div class="related">

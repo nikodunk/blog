@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to set up Heroku SSL with Google Domains in 2019"
+title:  "How to set up Heroku SSL (HTTPS) with Google Domains in 2019"
 date:   2019-02-16 08:00:00 -0700
 tags: ["Learnings"]
 image: /accelerator/moneyshot1.jpg
@@ -26,4 +26,4 @@ I install [heroku-ssl-redirect](https://github.com/nodenica/node-heroku-ssl-redi
 Have a great year!
 
 
-PS: So does this work for simply [your-domain].com and not www.[your-domain].com as described in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku [does not support](https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong) forwarding to the naked (aka. root aka. apex) domain. Sorry!
+PS: So does this work for simply [your-domain].com and not www.[your-domain].com as described in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( [Source 1: Heroku Docs](https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong) [Source 2: StackOverflow](https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku)
