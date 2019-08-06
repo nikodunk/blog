@@ -12,11 +12,12 @@ tags: ["Updates", "Learnings"]
 * Working with Armin now. Calls every other day, text continuously.
 
 # KPIs/Core Metrics:
-* Revenue: X
+* Revenue: $1.99
 
 # Product:
 * COUPON Experiment
-* EV Insurance Experiment
+* EV Insurance Experiment. Success: there is demand. Fail: Couldn't beat prices with traditional agent network.
+* Now integrating with Clearcover API to automate quote requests.
 * Other bet: Positivity Trainer
 
 
@@ -28,6 +29,7 @@ tags: ["Updates", "Learnings"]
 		* Results: not interested in advertising with us.
 	* I printed coupons app flyers to distribute at Superchargers to gauge consumer interest.
 		* Results: Since Merchants not interested decided to abort test before going further.
+		* ![](/startup-updates-8/Screen Shot 2019-06-12 at 8.19.44 PM)
 * Landing Page for EV Insurance
 	* We know this is a problem.
 	* Put up landing page at https://electrade.app
@@ -39,10 +41,19 @@ tags: ["Updates", "Learnings"]
 		* 478 visits, 1 request through "Best Tesla Commercials so far" (Reddit)
 		* 356 visits, 10 requests through "Why the time is right for electric vehicle insurance specialists" (72 upvotes)
 		* Revenue: Couldn't beat prices with agents.
-		* Integrating with Clearcover API
+	* **Some impressions**
+	* ![](/startup-updates-8/Screen Shot 2019-06-05 at 9.00.50 AM.png)
+	* ![](/startup-updates-8/Screen Shot 2019-06-12 at 10.50.32 PM.png)
 
-* Other bet: Positivity Trainer built.
+	* Found Clearcover.com. Now starting integration with them.
+	
+
+
+* Other bet: Positivity Trainer (solo)
 	* Uploaded to app store.
 	* Results: 
 		* 1 trial
 		* 100 users
+		* 1 paying user ($1.99 per month)
+		* ![](/projects/demo_positivity.jpg)
+

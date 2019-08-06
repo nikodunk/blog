@@ -6,10 +6,20 @@
     <description>Recent content in Updates on D U N K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jun 2019 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nikodunk.com/tags/updates/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>July 2019 Startup Update</title>
+      <link>https://nikodunk.com/startup-updates-9/</link>
+      <pubDate>Mon, 29 Jul 2019 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/startup-updates-9/</guid>
+      <description>Help Wanted/Asks:  N/A  Hiring:   Working with Armin now. Calls every other day, text continuously. Added Suhas Ghante to the mix.  KPIs/Core Metrics:  Revenue: $480  Product:  Clearcover integration  Experiments/Hypothesis run:  Landing Page for EV Insurance
+ We know this is a problem. Spent a month getting the clearcover integration live (3 weeks from call to live but the 4th of July week slowed everything down).</description>
+    </item>
     
     <item>
       <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
@@ -20,6 +30,15 @@
       <description>This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:
 Coming soon:
  Grammative Electrade.app PositivityTrainer  Electrify App | EV Services Team: * Armin (ideation, ops) * Niko (ideation, tech) Tech: * React-Native App * Backend Node/Express/Postgres * Stripe payment processing * Listing photos upload to S3 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer * EV News updates through APIfy.</description>
+    </item>
+    
+    <item>
+      <title>June 2019 Startup Update</title>
+      <link>https://nikodunk.com/startup-updates-8/</link>
+      <pubDate>Sat, 22 Jun 2019 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/startup-updates-8/</guid>
+      <description>Help Wanted/Asks:  N/A  Hiring:   Working with Armin now. Calls every other day, text continuously.  KPIs/Core Metrics:  Revenue: $1.99  Product:  COUPON Experiment EV Insurance Experiment. Success: there is demand. Fail: Couldn&amp;rsquo;t beat prices with traditional agent network. Now integrating with Clearcover API to automate quote requests. Other bet: Positivity Trainer  Experiments/Hypothesis run:  COUPONS instead of food delivery.  Armin asked Merchants  Results: not interested in advertising with us.</description>
     </item>
     
     <item>
