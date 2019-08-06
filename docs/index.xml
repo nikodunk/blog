@@ -704,7 +704,6 @@ Stats
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;COUPON Experiment&lt;/li&gt;
 &lt;li&gt;EV Insurance Experiment. Success: there is demand. Fail: Couldn&amp;rsquo;t beat prices with traditional agent network.&lt;/li&gt;
 &lt;li&gt;Now integrating with Clearcover API to automate quote requests.&lt;/li&gt;
 &lt;li&gt;Other bet: Positivity Trainer&lt;/li&gt;
@@ -713,28 +712,15 @@ Stats
 &lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;COUPONS instead of food delivery.
+&lt;li&gt;&lt;p&gt;Test Landing Page for EV Insurance&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Armin asked Merchants
+&lt;li&gt;We know this is a problem, but less operations-intensive than tests from last month.&lt;/li&gt;
+&lt;li&gt;Put up landing page at &lt;a href=&#34;https://www.electrade.app&#34;&gt;https://www.electrade.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-8/Screen Shot 2019-06-13 at 2.33.46 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Free Reddit content marketing @ /r/teslamotors and /r/electricvehicles
 
 &lt;ul&gt;
-&lt;li&gt;Results: not interested in advertising with us.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;I printed coupons app flyers to distribute at Superchargers to gauge consumer interest.
-
-&lt;ul&gt;
-&lt;li&gt;Results: Since Merchants not interested decided to abort test before going further.&lt;/li&gt;
-&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-8/Screen Shot 2019-06-12 at 8.19.44 PM&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Landing Page for EV Insurance&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We know this is a problem.&lt;/li&gt;
-&lt;li&gt;Put up landing page at &lt;a href=&#34;https://electrade.app&#34;&gt;https://electrade.app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Spread on producthunt, Reddit.&lt;/li&gt;
 &lt;li&gt;Results:
 
 &lt;ul&gt;
@@ -743,14 +729,29 @@ Stats
 &lt;li&gt;17 visits, 0 request through Reddit Ads ($8 spent)&lt;/li&gt;
 &lt;li&gt;478 visits, 1 request through &amp;ldquo;Best Tesla Commercials so far&amp;rdquo; (Reddit)&lt;/li&gt;
 &lt;li&gt;356 visits, 10 requests through &amp;ldquo;Why the time is right for electric vehicle insurance specialists&amp;rdquo; (72 upvotes)&lt;/li&gt;
-&lt;li&gt;Revenue: Couldn&amp;rsquo;t beat prices with agents.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Some impressions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Revenue: $0, Couldn&amp;rsquo;t beat prices with agents.&lt;/li&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-8/Screen Shot 2019-06-05 at 9.00.50 AM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-8/Screen Shot 2019-06-12 at 10.50.32 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Paid Reddit ads:
 
-&lt;li&gt;&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-8/Screen Shot 2019-06-12 at 10.50.32 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Results: 8 clicks, 1 request for $8.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-8/Screen Shot 2019-06-13 at 2.29.46 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Revenue: $0, Couldn&amp;rsquo;t beat prices with agents. Fail.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Found Clearcover.com.
 
-&lt;li&gt;&lt;p&gt;Found Clearcover.com. Now starting integration with them.&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Supposed to be more affordable than agents.&lt;/li&gt;
+&lt;li&gt;Automated so no emailing back and forth.&lt;/li&gt;
+&lt;li&gt;Now starting integration with them.
+
+
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Other bet: Positivity Trainer (solo)&lt;/p&gt;
@@ -875,27 +876,27 @@ Stats
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Experiment: Sell value-add features, with physical marketing.&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Experiment: Sell charging concierge, with physical marketing.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Specifically, one value add service because that&amp;rsquo;s a thing in China with NIO.&lt;/li&gt;
+&lt;li&gt;We know charging concierge is a thing in China with NIO.&lt;/li&gt;
 &lt;li&gt;What if we put flyers on chargers (pre-targeted audience) and let people text my number for a $35 per pickup to validate the market for this same thing in the USA?&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;4 tear-off strips next to chargers.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/3_experiment.JPG&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/startup-updates-7/3_experiment2.JPG&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Results: No one texted us back&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; &lt;img src=&#34;https://nikodunk.com/startup-updates-7/Screen Shot 2019-06-12 at 8.19.44 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;120 flyers distributed under windscreen wipers.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/4_experiment.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/startup-updates-7/4_experiment2.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Results: No one texted us back&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; &lt;img src=&#34;https://nikodunk.com/startup-updates-7/Screen Shot 2019-07-25 at 2.03.50 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Learnings: Physical ads working, but no need for this service.&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Learnings: Physical ads working, but little need for this service and hard to implement.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Marketing: Pretty sure physical flyer marketing is the way to go – we&amp;rsquo;re definitely getting infront of the right, targeted customers now (ie. Tesla owners).&lt;/li&gt;
@@ -933,17 +934,13 @@ Stats
 &lt;li&gt;Give people flyers and tell them to text a number for half price on first delivery – launching next week. Make a run every half hour.
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Results: 34 flyers handed out, 3 texted us back to sign up, including email and name!&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Handed out from 3.30p - 6:30p at Supercharger in Serramonte&lt;/li&gt;
 &lt;li&gt;Roughly 60% people sit in car when supercharging, half of those opened the window.&lt;/li&gt;
 &lt;li&gt;Mostly from moms and/or dads with kids in the back smiled and engaged.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: 34 flyers handed out, 3 texted us back (best conversion rate yet) to sign up, including email and name!&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Now that have 3 sign-ups, deliver food to them at certain times of day.&lt;/li&gt;
+&lt;li&gt;Work-intensive to implement as solo full-time founder (Armin&amp;rsquo;s not available to deliver, etc)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Experiment: Now that have 3 sign-ups, deliver food to them at certain times of day&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Next update!&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>

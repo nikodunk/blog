@@ -61,20 +61,20 @@ tags: ["Updates", "Learnings"]
 		* Product: NIO is offering home-charging pickup in China for NIO owners. -> working in China?
 		* Marketing: Offline marketing with flyers and and talking to users.
 
-* **Experiment: Sell value-add features, with physical marketing.**
-	* Specifically, one value add service because that's a thing in China with NIO.
+* **Experiment: Sell charging concierge, with physical marketing.**
+	* We know charging concierge is a thing in China with NIO.
 	* What if we put flyers on chargers (pre-targeted audience) and let people text my number for a $35 per pickup to validate the market for this same thing in the USA? 
 	* 4 tear-off strips next to chargers.
 		
 		* ![](/startup-updates-7/3_experiment.JPG) ![](/startup-updates-7/3_experiment2.JPG)
-		* **Results: No one texted us back**
+		* **Results:** ![](/startup-updates-7/Screen Shot 2019-06-12 at 8.19.44 PM.png)
 
 	* 120 flyers distributed under windscreen wipers. 
 		
 		* ![](/startup-updates-7/4_experiment.png) ![](/startup-updates-7/4_experiment2.png)
-		* **Results: No one texted us back**
+		* **Results:** ![](/startup-updates-7/Screen Shot 2019-07-25 at 2.03.50 PM.png)
 
-	* **Learnings: Physical ads working, but no need for this service.**
+	* **Learnings: Physical ads working, but little need for this service and hard to implement.**
 		* Marketing: Pretty sure physical flyer marketing is the way to go – we're definitely getting infront of the right, targeted customers now (ie. Tesla owners).
 		* Product: No need for this service, but we're sure of this now after doing flyers AND talking to customers.
 
@@ -99,10 +99,9 @@ tags: ["Updates", "Learnings"]
 	* 5 cars per hour convert * $8 * 10 hours = $400. Pay someone $150 of that.
 	* ![](/startup-updates-7/5_experiment.JPG) The flyer hustle with a matching electrify T-shirt at the supercharger.
 	* Give people flyers and tell them to text a number for half price on first delivery – launching next week. Make a run every half hour.
-		* **Results: 34 flyers handed out, 3 texted us back to sign up, including email and name!**
 		* Handed out from 3.30p - 6:30p at Supercharger in Serramonte
 		* Roughly 60% people sit in car when supercharging, half of those opened the window.
 		* Mostly from moms and/or dads with kids in the back smiled and engaged.
-
-* **Experiment: Now that have 3 sign-ups, deliver food to them at certain times of day**
-	* Next update!
+		* **Results: 34 flyers handed out, 3 texted us back (best conversion rate yet) to sign up, including email and name!**
+		* Now that have 3 sign-ups, deliver food to them at certain times of day.
+		* Work-intensive to implement as solo full-time founder (Armin's not available to deliver, etc)

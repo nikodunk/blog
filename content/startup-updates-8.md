@@ -15,7 +15,6 @@ tags: ["Updates", "Learnings"]
 * Revenue: $1.99
 
 # Product:
-* COUPON Experiment
 * EV Insurance Experiment. Success: there is demand. Fail: Couldn't beat prices with traditional agent network.
 * Now integrating with Clearcover API to automate quote requests.
 * Other bet: Positivity Trainer
@@ -24,28 +23,31 @@ tags: ["Updates", "Learnings"]
 
 # Experiments/Hypothesis run:
 
-* COUPONS instead of food delivery.
-	* Armin asked Merchants
-		* Results: not interested in advertising with us.
-	* I printed coupons app flyers to distribute at Superchargers to gauge consumer interest.
-		* Results: Since Merchants not interested decided to abort test before going further.
-		* ![](/startup-updates-8/Screen Shot 2019-06-12 at 8.19.44 PM)
-* Landing Page for EV Insurance
-	* We know this is a problem.
-	* Put up landing page at https://electrade.app
-	* Spread on producthunt, Reddit. 
-	* Results: 
-		* Took 1h to get first quote request.
-		* 100 visits, 11 requests in first 3 days through initial Reddit spread.
-		* 17 visits, 0 request through Reddit Ads ($8 spent)
-		* 478 visits, 1 request through "Best Tesla Commercials so far" (Reddit)
-		* 356 visits, 10 requests through "Why the time is right for electric vehicle insurance specialists" (72 upvotes)
-		* Revenue: Couldn't beat prices with agents.
-	* **Some impressions**
-	* ![](/startup-updates-8/Screen Shot 2019-06-05 at 9.00.50 AM.png)
-	* ![](/startup-updates-8/Screen Shot 2019-06-12 at 10.50.32 PM.png)
+* Test Landing Page for EV Insurance
+	* We know this is a problem, but less operations-intensive than tests from last month.
+	* Put up landing page at https://www.electrade.app
+	* ![](/startup-updates-8/Screen Shot 2019-06-13 at 2.33.46 PM.png)
+	* Free Reddit content marketing @ /r/teslamotors and /r/electricvehicles
+		* Results: 
+			* Took 1h to get first quote request.
+			* 100 visits, 11 requests in first 3 days through initial Reddit spread.
+			* 17 visits, 0 request through Reddit Ads ($8 spent)
+			* 478 visits, 1 request through "Best Tesla Commercials so far" (Reddit)
+			* 356 visits, 10 requests through "Why the time is right for electric vehicle insurance specialists" (72 upvotes)
+			* Revenue: $0, Couldn't beat prices with agents.
+			* ![](/startup-updates-8/Screen Shot 2019-06-05 at 9.00.50 AM.png)
+			* ![](/startup-updates-8/Screen Shot 2019-06-12 at 10.50.32 PM.png)
+	* Paid Reddit ads:
+		* Results: 8 clicks, 1 request for $8.
+		* ![](/startup-updates-8/Screen Shot 2019-06-13 at 2.29.46 PM.png)
+		* Revenue: $0, Couldn't beat prices with agents. Fail.
+	* Found Clearcover.com. 
+		* Supposed to be more affordable than agents.
+		* Automated so no emailing back and forth.
+		* Now starting integration with them.
 
-	* Found Clearcover.com. Now starting integration with them.
+
+	
 	
 
 
