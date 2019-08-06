@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WIP June 2019 Startup Update"
-date:   2019-08-25 08:00:00 -0700
+date:   2019-08-29 08:00:00 -0700
 tags: ["Updates", "Learnings"]
 ---
 
@@ -25,9 +25,9 @@ tags: ["Updates", "Learnings"]
 # Experiments/Hypothesis run:
 
 * Marketing channel ideas researched this month:
-	* Content:
+	* Content Marketing
 		* Write a content piece per day and post to subreddit (free-ish)
-	* Paid:
+	* Paid Marketing
 		* Google Ads
 		* Facebook Ads
 		* Waiting until first monetized purchase before go ahead with this

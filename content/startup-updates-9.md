@@ -13,11 +13,11 @@ tags: ["Updates", "Learnings"]
 * Added Suhas Ghante to the mix.
 
 # KPIs/Core Metrics:
-* Revenue: $480
+* Revenue: **$480**
 
 # Product:
-* Clearcover integration finally completed
-* First revenue
+* Clearcover integration finally completed 3 weeks into month.
+* 1 week of content marketing -> First revenue
 
 
 
@@ -25,28 +25,22 @@ tags: ["Updates", "Learnings"]
 
 * Spent a month getting the clearcover integration live (3 weeks from call to live but the 4th of July week slowed everything down).
 * Re-launched with new content once Clearcover API partnership live.
-* Marketing: Content
+* Content Marketing:
 	* Wrote 3 pieces.
 	* All 3 team members wrote a blog piece & I posted to Reddit.
 		* Results: 
-			* 1000 total reads
-			* 15 quotes completed
-			* 4 purchase intents ($160 revenue)
-			* ? purchases
+			* 1500 total reads
+			* 25 quotes completed
+			* 9 purchase intents ($360 revenue @ $40 per purchase intent)
+			* ? purchases (can't track yet as handing off to partner)
 		* Learnings: 
 			* Validated that people will click through the checkout flow. This was our main worry – that the form was now too long.
 			* New problem: When followed up over email – without exception, feedback is that it's more expensive than Geico.
-			* Still purchase intent given though even if didn't complete purchase: $40 per clickthrough.
+				* Next step: Pre-set the coverages to _minimum_ coverages -> insurance will seem more affordable by default?
 
-	* Quote API experiment: 
-		* Pre-set the coverages to _minimum_ coverages -> insurance will seem more affordable by default.
-		* Clearcover told us not legal to pre-set coverages so back to original API.
-		* 5 purchase intents ($200 revenue)
-		* ? purchases (can't track as still handing off to partner)
+	* Went viral on Google Search through Android search for 1,500 targeted hits. SEO building up.
 
-* Results:
-	* Went viral on Google Search through Android search.
-	* 15 more quote requests.
+* Paid: N/A this month.
 
 
 * "Other bet" with Suhas.

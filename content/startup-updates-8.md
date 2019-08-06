@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "June 2019 Startup Update"
-date:   2019-06-22 08:00:00 -0700
+date:   2019-06-29 08:00:00 -0700
 tags: ["Updates", "Learnings"]
 ---
 
