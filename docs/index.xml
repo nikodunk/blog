@@ -43,16 +43,13 @@
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Clearcover integration&lt;/li&gt;
+&lt;li&gt;Clearcover integration finally completed&lt;/li&gt;
+&lt;li&gt;First revenue&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Landing Page for EV Insurance&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We know this is a problem.&lt;/li&gt;
 &lt;li&gt;Spent a month getting the clearcover integration live (3 weeks from call to live but the 4th of July week slowed everything down).&lt;/li&gt;
 &lt;li&gt;Re-launched with new content once Clearcover API partnership live.&lt;/li&gt;
 
@@ -68,31 +65,34 @@
 
 &lt;ul&gt;
 &lt;li&gt;1000 total reads&lt;/li&gt;
-&lt;li&gt;15 quote requests&lt;/li&gt;
-&lt;li&gt;0 purchases (ie. $0 revenue)&lt;/li&gt;
+&lt;li&gt;15 quotes completed&lt;/li&gt;
+&lt;li&gt;4 purchase intents ($160 revenue)&lt;/li&gt;
+&lt;li&gt;? purchases&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Learnings:
 
 &lt;ul&gt;
 &lt;li&gt;Validated that people will click through the checkout flow. This was our main worry – that the form was now too long.&lt;/li&gt;
 &lt;li&gt;New problem: When followed up over email – without exception, feedback is that it&amp;rsquo;s more expensive than Geico.&lt;/li&gt;
+&lt;li&gt;Still purchase intent given though even if didn&amp;rsquo;t complete purchase: $40 per clickthrough.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;New experiment:&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Quote API experiment:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Pre-set the coverages to &lt;em&gt;minimum&lt;/em&gt; coverages -&amp;gt; insurance will seem more affordable by default.&lt;/li&gt;
-&lt;li&gt;Suhas wrote 1 more blog piece create &amp;amp; post to Reddit.&lt;/li&gt;
-&lt;li&gt;Results:
+&lt;li&gt;Clearcover told us not legal to pre-set coverages so back to original API.&lt;/li&gt;
+&lt;li&gt;5 purchase intents ($200 revenue)&lt;/li&gt;
+&lt;li&gt;? purchases (can&amp;rsquo;t track as still handing off to partner)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Results:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Went viral on Google Search through Android search.&lt;/li&gt;
 &lt;li&gt;15 more quote requests.&lt;/li&gt;
-&lt;li&gt;9 purchase intents -&amp;gt; $360 revenue.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Other bet&amp;rdquo; with Suhas.&lt;/p&gt;
