@@ -9,7 +9,9 @@ tags: ["Updates", "Learnings"]
 * N/A
 
 # Hiring: 
-* Working with Armin now. Calls every other day, text continuously.
+* Armin on board now. He's still at his full-time role for now.
+	* Calls every other day
+	* Texts throughout the day
 
 # KPIs/Core Metrics:
 * Revenue: $1.99
