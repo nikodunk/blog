@@ -31,7 +31,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Working with Armin now. Calls every other day, text continuously.&lt;/li&gt;
-&lt;li&gt;Added Suhas Ghante to the mix.&lt;/li&gt;
+&lt;li&gt;Collaborating w/ Suhas Ghante on other projects, but then increasingly electrade.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
@@ -43,22 +43,21 @@
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Clearcover integration finally completed 3 weeks into month.&lt;/li&gt;
+&lt;li&gt;After initial demand from users last month for &lt;em&gt;better, cheaper EV insurance&lt;/em&gt; (but not being able to satisfy that demand with traditional auto agents), we found an insurance API partner at the end of last month and started the integration process with them.&lt;/li&gt;
+&lt;li&gt;Clearcover integration finally completed 3 weeks into month: Spent a month getting the clearcover integration live (3 weeks from call to live but the 4th of July week slowed everything down).&lt;/li&gt;
+&lt;li&gt;Re-launched with new content once Clearcover API partnership live.&lt;/li&gt;
 &lt;li&gt;1 week of content marketing -&amp;gt; First revenue&lt;/li&gt;
+&lt;li&gt;Added some design to landing page (to increase trustworthiness) and re-launched as electrade 2.0.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-9/Screen Shot 2019-08-06 at 5.07.55 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Spent a month getting the clearcover integration live (3 weeks from call to live but the 4th of July week slowed everything down).&lt;/li&gt;
-&lt;li&gt;Re-launched with new content once Clearcover API partnership live.&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Content Marketing:&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Content Marketing can drive significant traffic, sustainably.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Wrote 3 pieces.&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;All 3 team members wrote a blog piece &amp;amp; I posted to Reddit.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;All 3 team members wrote a blog piece &amp;amp; I posted to Reddit&amp;rsquo;s /r/electricvehicles and /r/teslamotors.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Results:
@@ -66,22 +65,30 @@
 &lt;ul&gt;
 &lt;li&gt;1500 total reads&lt;/li&gt;
 &lt;li&gt;25 quotes completed&lt;/li&gt;
-&lt;li&gt;9 purchase intents ($360 revenue @ $40 per purchase intent)&lt;/li&gt;
+&lt;li&gt;9 purchase intents (&lt;strong&gt;$360 revenue @ $40 per purchase intent&lt;/strong&gt;)&lt;/li&gt;
 &lt;li&gt;? purchases (can&amp;rsquo;t track yet as handing off to partner)&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-9/Screen Shot 2019-07-20 at 11.20.11 AM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-9/Screen Shot 2019-07-23 at 11.53.04 AM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Learnings:
 
 &lt;ul&gt;
-&lt;li&gt;Validated that people will click through the checkout flow. This was our main worry – that the form was now too long.&lt;/li&gt;
+&lt;li&gt;Validated that people will click through the new, multi-page quote flow too. This was our main worry – that the form was now too long. Optimized as much as could but still not comparable to 8 total data points we were collecting last month. See step 1 of new flow below 👇&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-9/Screen Shot 2019-08-06 at 5.08.09 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;New problem: When followed up over email – without exception, feedback is that it&amp;rsquo;s more expensive than Geico.
 
 &lt;ul&gt;
 &lt;li&gt;Next step: Pre-set the coverages to &lt;em&gt;minimum&lt;/em&gt; coverages -&amp;gt; insurance will seem more affordable by default?&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Nevertheless, the user still clicked &amp;ldquo;purchase intent&amp;rdquo; -&amp;gt; so at least the revenue working. Not sure how sustainable this is.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Went viral on Google Search through Android search for 1,500 targeted hits. SEO building up.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One piece went viral on Google Search through Android search for 1,500 targeted hits. SEO building up.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-9/Screen Shot 2019-08-06 at 6.42.14 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Paid: N/A this month.&lt;/p&gt;&lt;/li&gt;
@@ -89,13 +96,16 @@
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Other bet&amp;rdquo; with Suhas.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Grammative.com
+&lt;li&gt;&lt;a href=&#34;https://grammative.com&#34;&gt;Grammative.com&lt;/a&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Free copy editing in-layout. Skip the line for $49.&lt;/li&gt;
-&lt;li&gt;#6 on Product Hunt, upvoted by Ryan Hoover.&lt;/li&gt;
-&lt;li&gt;Translations&lt;/li&gt;
-&lt;li&gt;$120 revenue.
+&lt;li&gt;Daily Product #6 on &lt;a href=&#34;https://www.producthunt.com/posts/grammative-1&#34;&gt;Product Hunt&lt;/a&gt;, upvoted by Ryan Hoover.&lt;/li&gt;
+&lt;li&gt;190 upvotes.&lt;/li&gt;
+&lt;li&gt;716 visits.&lt;/li&gt;
+&lt;li&gt;$120 revenue.&lt;/li&gt;
+&lt;li&gt;Not really scalable as Suhas is marking up all of the content by hand himself.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-9/Screen Shot 2019-08-06 at 6.36.41 PM.png&#34; alt=&#34;&#34; /&gt;
 
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
