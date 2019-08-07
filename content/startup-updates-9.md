@@ -55,7 +55,7 @@ tags: ["Updates", "Learnings"]
 		* Daily Product #6 on [Product Hunt](https://www.producthunt.com/posts/grammative-1), upvoted by Ryan Hoover.
 		* 190 upvotes.
 		* 716 visits.
-		* $120 revenue.
+		* **$120 revenue**.
 		* Not really scalable as Suhas is marking up all of the content by hand himself.
 		* ![](/startup-updates-9/Screen Shot 2019-08-06 at 6.36.41 PM.png)
 
