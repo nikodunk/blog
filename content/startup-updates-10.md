@@ -10,7 +10,7 @@ tags: ["Updates", "Learnings"]
 
 # Hiring: 
 * Suhas Ghante now full-time co-founder.
-* Armin now in an advisor role.
+* Armin now an advisor.
 
 # KPIs/Core Metrics:
 * Revenue: $ X
@@ -35,5 +35,5 @@ tags: ["Updates", "Learnings"]
 		* Google Ads
 		* Facebook Ads
 		* Reddit Ads
-	* Physical marketing.
+	* Physical marketing
 		* Flyer every Model 3 in SF
