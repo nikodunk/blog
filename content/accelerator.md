@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learnings: Building swissnex SF's startup program"
+title:  "Learnings: Building swissnex SF's startup accelerator"
 date:   2018-04-10 08:00:00 -0700
 tags: ["Learnings"]
 image: /accelerator/moneyshot1.jpg
@@ -8,7 +8,17 @@ image: /accelerator/moneyshot1.jpg
 
 **Originally posted**  as "8 learnings for startups (from swissnex SF Startup Camp)" at <a href="https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco" target="_blank">startupticker.ch</a> and the <a href="https://nextrends.swissnexsanfrancisco.org/8-learnings-from-swiss-start-ups-in-silicon-valley/" target="_blank">swissnex blog</a>.
 
-------------------------------------------------------------------------------------------------------------------
+--------------------------
+
+This piece was written and posted at my time at swissnex SF. With support from incredible swissnex SF and global teams, we scaled the program from 8-10 companies per year with 2 partners to 16-24 startups per year with 5 partners. We achieved this by shifting our model from 1:1 consultancy to bi-annual camp cohorts with demo days, and through improvements to startup marketing channels, internal processes, and new connections in the ecosystem. Other links from the time:
+
+• https://www.swissnexsf.org/startups
+• https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco
+• https://www.startupticker.ch/en/news/october-2018/swiss-startups-bring-the-silicon-valley-spirit-back-home
+• https://www.nextrends.org/blog/2018/3/27/back-to-the-city
+• https://nikodunk.com/accelerator
+
+--------
 
 ![](/accelerator/moneyshot1.jpg)
 
