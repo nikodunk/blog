@@ -28,14 +28,16 @@ Code below.
 // saves to FireStore and sends and email with sendgrid.
 // Finally, it sends a res.send() to end the cloud function
 
+// {* import a bunch of shit *}
+
 // main function
 exports.emailFunction = functions.https.onRequest(async (req, res) => {
-  let fields = getFieldsFromRequest(req);                                          // sync
-  let courseId = extractCourseIdFromEmailAddress(fields);                          // sync
-  let courseEmail = await getAssociatedEmailOfCourseWithCourseId(courseId);        // async
+  let fields = getFieldsFromRequest(req); // sync
+  let courseId = extractCourseIdFromEmailAddress(fields); // sync
+  let courseEmail = await getEmailOfCourseWithCourseId(courseId); // async
   let savePromiseDone = await saveToCloudFirestore(fields, courseEmail, courseId); // async, will wait to run until courseEmail is defined
-  let emailPromiseDone = await sendEmailInSendgrid(fields, courseEmail);           // async, will wait to run until courseEmail is defined
-  if (savePromiseDone && emailPromiseDone) { res.send() }                          // sync, but will wait until emailPromiseDone and savePromiseDone are defined
+  let emailPromiseDone = await sendEmailInSendgrid(fields, courseEmail); // async, also will wait to run until courseEmail is defined
+  savePromiseDone && emailPromiseDone ? res.send() : null // sync, will wait until emailPromiseDone and savePromiseDone are defined
 });
 
 // helper functions

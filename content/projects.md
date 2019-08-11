@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learnings from projects & things I've made so far."
-date:   2019-06-25 08:00:00 -0700
+date:   2019-08-11 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 ---
 
@@ -39,22 +39,6 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 -----------
-
-# Classalog
-
-[Classalog](https://classalog.org) – for a friend.
-
-![](/projects/demo_classalog.png)
-
-
-	Tech
-	* React frontend
-	* Serverless Cloud Functions
-	* NoSQL Firebase
-
------------
-
-
 
 # ![](/projects/logo_sustainability2.png) Electrify App | EV Services
 
@@ -119,6 +103,24 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 
 
 
+
+
+# Classalog
+
+[Classalog](https://classalog.org) – for a friend.
+
+![](/projects/demo_classalog.png)
+
+
+	Tech
+	* React frontend
+	* Serverless Cloud Functions
+	* NoSQL Firebase
+
+-----------
+
+
+
 # Giftlab.io | Kickstarter for physical donations
 
 ![](/projects/demo_giftlab.png)
@@ -144,6 +146,7 @@ With Elisa Chan, a platform to help noprofits fundraise more efficiently with mo
 
 
 ---------
+
 
 
 

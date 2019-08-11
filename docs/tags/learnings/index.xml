@@ -6,10 +6,22 @@
     <description>Recent content in Learnings on D U N K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2019 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2019 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nikodunk.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
+      <link>https://nikodunk.com/projects/</link>
+      <pubDate>Sun, 11 Aug 2019 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/projects/</guid>
+      <description>This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:
+Coming soon:
+Electrade | Solving Electric Vehicle Insurance EV-first insurance at electrade.app
+Team: * Niko (Tech, Content, Strategy) * Suhas (Content, Paid, Strategy) * Armin (Advisor) Tech: * React Quote App * Hugo blog and static pages * Served from Node/Express/Postgres * Integrated with Clearcover API Stats: * MRR: $360 * MAU: 2K * User acquisition: Physical marketing, SEO, Paid, Content  Electrify App | EV Services App with various electric vehicle functions</description>
+    </item>
     
     <item>
       <title>July 2019 Startup Update</title>
@@ -27,18 +39,6 @@
       
       <guid>https://nikodunk.com/startup-updates-8/</guid>
       <description>Help Wanted/Asks:  N/A  Hiring:   Armin on board now. He&amp;rsquo;s still at his full-time role for now.  Calls every other day Texts throughout the day   KPIs/Core Metrics:  Revenue: $1.99  Product:  EV Insurance Experiment. Success: there is demand. Fail: Couldn&amp;rsquo;t beat prices with traditional agent network. Now integrating with Clearcover API to automate quote requests. Other bet: Positivity Trainer  Experiments/Hypothesis run:  Test Landing Page for EV Insurance</description>
-    </item>
-    
-    <item>
-      <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
-      <link>https://nikodunk.com/projects/</link>
-      <pubDate>Tue, 25 Jun 2019 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/projects/</guid>
-      <description>This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:
-Coming soon:
-Electrade | Solving Electric Vehicle Insurance EV-first insurance at electrade.app
-Team: * Niko (Tech, Content, Strategy) * Suhas (Content, Paid, Strategy) * Armin (Advisor) Tech: * React Quote App * Hugo blog and static pages * Served from Node/Express/Postgres * Integrated with Clearcover API Stats: * MRR: $360 * MAU: 2K * User acquisition: Physical marketing, SEO, Paid, Content  Classalog Classalog – for a friend.</description>
     </item>
     
     <item>
