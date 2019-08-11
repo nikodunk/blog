@@ -6,6 +6,7 @@ googleAnalytics = "UA-104927808-1"
 enableRobotsTXT = true
 publishDir = "docs"
 
+
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
 authorName = "Niko Dunk" # Author full name

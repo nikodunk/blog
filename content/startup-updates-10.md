@@ -13,8 +13,9 @@ tags: ["Updates", "Learnings"]
 * Armin now an advisor.
 
 # KPIs/Core Metrics:
+* Quotes completed Goal: 45 / week
+* Quotes completed actual: 3 / week
 * Revenue: $ X
-* Quotes completed: 
 
 # Product:
 * Possible other integrations
@@ -28,12 +29,20 @@ tags: ["Updates", "Learnings"]
 	* Free digital marketing
 		* Content Marketing
 			* Write 3 new content pieces per week and post to 
-				* subreddit (free-ish)
+				* /r/electricvehicles
+				* /r/teslamotors
+					* got banned! Argh! Now unbanned.
 				* Quora
 				* forums.tesla.com
+				* teslamotorclub.org
+			* **Results: 2 quotes completed**
 	* Paid digital marketing
 		* Google Ads
 		* Facebook Ads
+			* Suhas owning
+			* Based off 75 submissions have had so far
+			* **Results: 1 quote completed**
 		* Reddit Ads
 	* Physical marketing
 		* Flyer every Model 3 in SF
+		* **Results: 1 quote completed**

@@ -1,6 +1,4 @@
 ﻿.card,
-.highlight,
-.highlight pre,
 .textarea,
 embed,
 img,
@@ -156,10 +154,7 @@ td img {
   vertical-align: top;
 }
 pre,
-pre code {
-  background-color: #f5f7fa;
-  color: #42464c;
-}
+
 *,
 :after,
 :before {
@@ -205,7 +200,6 @@ th {
   vertical-align: bottom;
 }
 body,
-code,
 td {
   font-weight: 400;
 }
@@ -242,7 +236,6 @@ sup {
 sub {
   bottom: -0.25em;
 }
-code,
 kbd,
 pre,
 samp {
@@ -291,7 +284,6 @@ textarea {
   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro",
     "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
 }
-code,
 pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
@@ -303,9 +295,7 @@ body {
   font-size: 1rem;
   line-height: 1.428571428571429;
 }
-code {
-  padding: 1px 2px 2px;
-}
+
 .button,
 .input,
 .textarea,
@@ -336,10 +326,7 @@ pre {
 .tag {
   white-space: nowrap;
 }
-pre code {
-  overflow-x: auto;
-  padding: 16px 20px;
-}
+
 .box,
 .button {
   background-color: #fff;
@@ -2078,17 +2065,11 @@ a.box:active {
 }
 .delete,
 .modal-close,
-.subtitle code {
-  display: inline-block;
-  vertical-align: top;
-}
+
 .title {
   color: #222324;
 }
-.title code {
-  display: inline-block;
-  font-size: 28px;
-}
+
 .title strong {
   color: inherit;
 }
@@ -2337,15 +2318,6 @@ a.box:active {
   display: block;
   font-size: 11px;
   margin-bottom: 5px;
-}
-.highlight {
-  font-size: 12px;
-  font-weight: 400;
-  overflow: hidden;
-  padding: 0;
-}
-.highlight pre {
-  overflow: auto;
 }
 .button.is-loading:after,
 .control.is-loading:after,
@@ -3628,180 +3600,6 @@ a.box:active {
     flex: none;
     width: 100%;
   }
-}
-.highlight {
-  background-color: #fdf6e3;
-  color: #586e75;
-}
-.highlight .c {
-  color: #93a1a1;
-}
-.highlight .err,
-.highlight .g {
-  color: #586e75;
-}
-.highlight .k {
-  color: #859900;
-}
-.highlight .l,
-.highlight .n {
-  color: #586e75;
-}
-.highlight .o {
-  color: #859900;
-}
-.highlight .x {
-  color: #cb4b16;
-}
-.highlight .p {
-  color: #586e75;
-}
-.highlight .cm {
-  color: #93a1a1;
-}
-.highlight .cp {
-  color: #859900;
-}
-.highlight .c1 {
-  color: #93a1a1;
-}
-.highlight .cs {
-  color: #859900;
-}
-.highlight .gd {
-  color: #2aa198;
-}
-.highlight .ge {
-  color: #586e75;
-  font-style: italic;
-}
-.highlight .gr {
-  color: #dc322f;
-}
-.highlight .gh {
-  color: #cb4b16;
-}
-.highlight .gi {
-  color: #859900;
-}
-.highlight .go,
-.highlight .gp {
-  color: #586e75;
-}
-.highlight .gs {
-  color: #586e75;
-  font-weight: 700;
-}
-.highlight .gu {
-  color: #cb4b16;
-}
-.highlight .gt {
-  color: #586e75;
-}
-.highlight .kc {
-  color: #cb4b16;
-}
-.highlight .kd {
-  color: #268bd2;
-}
-.highlight .kn,
-.highlight .kp {
-  color: #859900;
-}
-.highlight .kr {
-  color: #268bd2;
-}
-.highlight .kt {
-  color: #dc322f;
-}
-.highlight .ld {
-  color: #586e75;
-}
-.highlight .m,
-.highlight .s {
-  color: #2aa198;
-}
-.highlight .na {
-  color: #b58900;
-}
-.highlight .nb {
-  color: #586e75;
-}
-.highlight .nc {
-  color: #268bd2;
-}
-.highlight .no {
-  color: #cb4b16;
-}
-.highlight .nd {
-  color: #268bd2;
-}
-.highlight .ne,
-.highlight .ni {
-  color: #cb4b16;
-}
-.highlight .nf {
-  color: #268bd2;
-}
-.highlight .nl,
-.highlight .nn,
-.highlight .nx,
-.highlight .py {
-  color: #586e75;
-}
-.highlight .nt,
-.highlight .nv {
-  color: #268bd2;
-}
-.highlight .ow {
-  color: #859900;
-}
-.highlight .w {
-  color: #586e75;
-}
-.highlight .mf,
-.highlight .mh,
-.highlight .mi,
-.highlight .mo {
-  color: #2aa198;
-}
-.highlight .sb {
-  color: #93a1a1;
-}
-.highlight .sc {
-  color: #2aa198;
-}
-.highlight .sd {
-  color: #586e75;
-}
-.highlight .s2 {
-  color: #2aa198;
-}
-.highlight .se {
-  color: #cb4b16;
-}
-.highlight .sh {
-  color: #586e75;
-}
-.highlight .si,
-.highlight .sx {
-  color: #2aa198;
-}
-.highlight .sr {
-  color: #dc322f;
-}
-.highlight .s1,
-.highlight .ss {
-  color: #2aa198;
-}
-.highlight .bp,
-.highlight .vc,
-.highlight .vg,
-.highlight .vi {
-  color: #268bd2;
-}
-.highlight .il {
-  color: #2aa198;
 }
 .level-item .subtitle,
 .level-item .title {
@@ -5546,7 +5344,6 @@ a.panel-block:hover {
   background-color: #f5f7fa;
   padding: 40px 20px 80px;
 }
-code,
 html {
   background-color: #fff;
 }
@@ -5616,10 +5413,6 @@ article + article {
 .title.notfound {
   font-size: 20vw;
 }
-code {
-  color: inherit;
-  font-size: 90%;
-}
 .content h1::before,
 .content h2::before,
 .content h3::before,
@@ -5629,14 +5422,7 @@ code {
   color: #aeb1b5;
   font-weight: 700;
 }
-.content h1 code,
-.content h2 code,
-.content h3 code,
-.content h4 code,
-.content h5 code,
-.content h6 code {
-  background-color: #8a2be2;
-}
+
 .content h1 + h2:not(:first-child),
 .content h2 + h3:not(:first-child),
 .content h3 + h4:not(:first-child),
@@ -5675,21 +5461,7 @@ code {
   padding: 8px 10px;
   vertical-align: top;
 }
-.content p > code,
-.content > code {
-  font-size: 90%;
-  padding: 2px 4px;
-  margin: 0 2px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  color: #42464c;
-}
-.content pre code {
-  font-size: 90%;
-  padding: 1em;
-  line-height: 1.5;
-}
+
 .content li pre,
 .content li table {
   margin-bottom: 1.5em;

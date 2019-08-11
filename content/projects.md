@@ -12,13 +12,55 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 Coming soon: 
 
-* [Grammative](https://grammative.com)
-* [Electrade.app](https://www.electrade.app)
-* [PositivityTrainer](https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138)
+-----------
+
+# Electrade | Solving Electric Vehicle Insurance
+
+EV-first insurance at [electrade.app](https://www.electrade.app)
+
+![](/projects/demo_electrade.gif)
+
+	Team:
+	* Niko (Tech, Content, Strategy)
+	* Suhas (Content, Paid, Strategy)
+	* Armin (Advisor)
+
+	Tech:
+	* React Quote App
+	* Hugo blog and static pages
+	* Served from Node/Express/Postgres
+	* Integrated with Clearcover API
+
+
+	Stats:
+	* MRR: $360
+	* MAU: 2K
+	* User acquisition: Physical marketing, SEO, Paid, Content
+
 
 -----------
 
+# Classalog
+
+[Classalog](https://classalog.org) – for a friend.
+
+![](/projects/demo_classalog.png)
+
+
+	Tech
+	* React frontend
+	* Serverless Cloud Functions
+	* NoSQL Firebase
+
+-----------
+
+
+
 # ![](/projects/logo_sustainability2.png) Electrify App | EV Services
+
+![](/projects/demo_electrify.gif)
+
+App with various electric vehicle functions
 
 	Team:
 	* Armin (ideation, ops)
@@ -32,24 +74,18 @@ Coming soon:
 	* Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer
 	* EV News updates through APIfy.com
 
-	Stats:
-	* Revenue: $0
-	* MAU: 100
-	* Users: 350
-	* User acquisition: Physical marketing, ASO
-
 (see [Startup Updates](/startup-updates-7))
 
 * [App Store Link](https://itunes.apple.com/us/app/id1445602414)
 * [Google Play Link](https://play.google.com/store/apps/details?id=com.bigset.electric)
 
-![](/projects/demo_electrify.gif)
 
 ------------
 
------------
 
 # ![](/projects/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
+
+![](/projects/demo_paperworklabs.gif)
 
 
 See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
@@ -68,18 +104,52 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 	* HIPAA compliant logging, access monitoring
 
 	Stats
-	* MRR: $0
+	* MRR: $1,843 (1x)
 	* Price point: $99/month for all-you-can-eat medical smartforms
 
 
-* [Paperwork labs link](https://www.paperworklabs.com)
+* [Paperwork labs link](https://paperworklabs-demo.herokuapp.com)
 * [See Youtube walkthrough here](https://www.youtube.com/embed/IZHnqU43t0s)
 
-![](/projects/demo_paperworklabs.gif)
 
 ------------
 
------------
+
+
+
+
+
+# Giftlab.io | Kickstarter for physical donations
+
+![](/projects/demo_giftlab.png)
+
+With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.
+
+	Team
+	* Elisa (idea, product)
+	* Niko (tech)
+
+	Tech:
+	* Node/Express/Postgresql web app on Heroku 
+	* Stripe Connect for payment routing
+	* Amazon wishlists for product gifting
+	* Mixpanel/Fullstory analytics
+
+	Stats:
+	* Total sales: $30.00
+
+
+* [The Gift Lab Site](http://giftlab.io)
+
+
+
+---------
+
+
+
+
+
+
 
 # ![](/projects/logo_health.png) Soap Dictate App | Medical Note Transcription App
 
@@ -118,7 +188,7 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 -----------
 
-------------
+
 
 # ![](/projects/logo_sustainability1.gif) sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)
 
@@ -243,30 +313,12 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 
 -----------
 
-# Giftlab.io | Kickstarter for physical donations
 
-With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.
+# Positivity Trainer
 
-	Team
-	* Elisa (idea, product)
-	* Niko (tech)
+[PositivityTrainer](https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138)
 
-	Tech:
-	* Node/Express/Postgresql web app on Heroku 
-	* Stripe Connect for payment routing
-	* Amazon wishlists for product gifting
-	* Mixpanel/Fullstory analytics
-
-	Stats:
-	* Total sales: $30.00
-
-
-* [The Gift Lab Site](http://giftlab.io)
-
-![](/projects/demo giftlab.png)
-
-
----------
+![](/projects/demo_positivity.jpg)
 
 -----------
 
@@ -297,6 +349,29 @@ With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picke
 
 
 
+
+
+# Grammative
+
+[Grammative](https://grammative.com)
+
+Free marketing copy review. Jump the queue for $49
+
+	Team:
+	* Niko
+	* Suhas
+
+	Tech:
+	* Static page with formspree
+
+	Stats:
+	* Revenue: $140
+	* User acquisition: Product Hunt
+
+
+![](/projects/demo_grammative.png)
+
+-----------
 
 # Misc Hardware Projects
 --------------------------------------------------------------------------------------------------------------

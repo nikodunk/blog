@@ -12,6 +12,96 @@
     
     
     <item>
+      <title>How to chain multiple functions with await/async</title>
+      <link>https://nikodunk.com/how-to-chain-functions-with-await-async/</link>
+      <pubDate>Sun, 11 Aug 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/how-to-chain-functions-with-await-async/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;Recently I was helping a friend with Google Cloud Functions, which means you have to be very careful with the precision of your promises. So far I&amp;rsquo;ve been doing this with .then() callbacks, but wanted to use async/await because it&amp;rsquo;s so much cleaner to read. There&amp;rsquo;s a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s working code that chains multiple functions, waits for everything to resolve, and &lt;em&gt;then&lt;/em&gt; sends the result. Main mistakes were:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Every async function &lt;em&gt;needs a new Promise&lt;/em&gt;, and needs to resolve(). &lt;strong&gt;It won&amp;rsquo;t complain if you don&amp;rsquo;t do this, but it also won&amp;rsquo;t actually wait&lt;/strong&gt;. The debugging around this is super annoying.&lt;/li&gt;
+&lt;li&gt;In cloud functions, you &lt;em&gt;must&lt;/em&gt; send a response with res.send(), or the function will assume it&amp;rsquo;s failed and re-run it. This means you to make sure multiple functions resolve.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The code does:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We have 2 sync functions (no issues here).&lt;/li&gt;
+&lt;li&gt;Then we have async courseEmail which gets the course&amp;rsquo;s email address from firebase. This is async, and will return (or resolve in promise parlance) the courseEmail we need to run the next 2 functions. The next 2 functions, savetoCloudFireStore() and sendEmailWithSendGrid() &lt;em&gt;must&lt;/em&gt; not be run before getAssociatedEmailOfcCourseWIthCourseId is run, or courseEmail is undefined and everything goes to shit. For this, the promise is important.&lt;/li&gt;
+&lt;li&gt;Finally, res.send() must not be sent until saveToCloudFirestore() and sendEmailWithSendGrid() have been run, otherwise the cloud function will stop before the work is done. For this, we save the saveToCloudFireStore and sendEmailWithSendgrid&amp;rsquo;s responses (the stuff they return) into a varialble &lt;em&gt;who&amp;rsquo;s sole purpose is to mark when the above function is done&lt;/em&gt;. Then we do a sweet little if statement, which is basically does the same thing as a .then() before – wait&amp;rsquo;s till both of these variables (saveDonePromise and emailDonePromise) are defined then runs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Code below.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// this is the cloud function you can call over HTTP. It is basically for email relay:
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// saves to FireStore and sends and email with sendgrid.
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Finally, it sends a res.send() to end the cloud function
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;// main function
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;exports&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;emailFunction&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;functions&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;https&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;onRequest&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;) =&amp;gt; {
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getFieldsFromRequest&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;);                                          &lt;span style=&#34;color:#75715e&#34;&gt;// sync
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;extractCourseIdFromEmailAddress&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;);                          &lt;span style=&#34;color:#75715e&#34;&gt;// sync
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getAssociatedEmailOfCourseWithCourseId&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;);        &lt;span style=&#34;color:#75715e&#34;&gt;// async
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savePromiseDone&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;saveToCloudFirestore&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// async, will wait to run until courseEmail is defined
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;emailPromiseDone&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sendEmailInSendgrid&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;);           &lt;span style=&#34;color:#75715e&#34;&gt;// async, will wait to run until courseEmail is defined
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;savePromiseDone&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;emailPromiseDone&lt;/span&gt;) { &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;send&lt;/span&gt;() }                          &lt;span style=&#34;color:#75715e&#34;&gt;// sync, but will wait until emailDonePromise and saveDonePromise are defined.
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;});
+
+&lt;span style=&#34;color:#75715e&#34;&gt;// helper functions
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getFieldsFromRequest&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;) {
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;readTheFieldsFromReqWithBusboy&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;)
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;;
+}
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;extractCourseIdFromEmailAddress&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;) {
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;doStuffToEmailAddress&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;)
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;;
+}
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getAssociatedEmailOfCourseWithCourseId&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;) { &lt;span style=&#34;color:#75715e&#34;&gt;// async important
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Promise((&lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;reject&lt;/span&gt;) =&amp;gt; { &lt;span style=&#34;color:#75715e&#34;&gt;// important
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;doAsyncStuffWithFirestore&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;)
+      .&lt;span style=&#34;color:#a6e22e&#34;&gt;then&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;course&lt;/span&gt; =&amp;gt; {
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;course&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;email&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// important
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// the return is only here because .then() callbacks need a return
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;      })
+      .&lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;error&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;error&lt;/span&gt;));
+  });
+}
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sendEmailWithSendgrid&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;) { &lt;span style=&#34;color:#75715e&#34;&gt;// async important
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Promise((&lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;reject&lt;/span&gt;) =&amp;gt; { &lt;span style=&#34;color:#75715e&#34;&gt;// important
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;doAsyncStuffWithSendGrid&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;)
+      .&lt;span style=&#34;color:#a6e22e&#34;&gt;then&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt; =&amp;gt; {
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// important
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// the return is only here because .then() callbacks need a return
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;      })
+      .&lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;error&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;error&lt;/span&gt;));
+  });
+}
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;saveToCloudFirestore&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;) { &lt;span style=&#34;color:#75715e&#34;&gt;// async important
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Promise((&lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;reject&lt;/span&gt;) =&amp;gt; { &lt;span style=&#34;color:#75715e&#34;&gt;// important
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;doAsyncStuffWithFirestore&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;)
+      .&lt;span style=&#34;color:#a6e22e&#34;&gt;then&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt; =&amp;gt; {
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;resolve&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// important
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// the return is only here because .then() callbacks need a return
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;      })
+      .&lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;error&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;error&lt;/span&gt;));
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>July 2019 Startup Update</title>
       <link>https://nikodunk.com/startup-updates-9/</link>
       <pubDate>Mon, 29 Jul 2019 08:00:00 -0700</pubDate>
@@ -235,15 +325,53 @@
 
 &lt;p&gt;Coming soon:&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://grammative.com&#34;&gt;Grammative&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.electrade.app&#34;&gt;Electrade.app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138&#34;&gt;PositivityTrainer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;electrade-solving-electric-vehicle-insurance&#34;&gt;Electrade | Solving Electric Vehicle Insurance&lt;/h1&gt;
+
+&lt;p&gt;EV-first insurance at &lt;a href=&#34;https://www.electrade.app&#34;&gt;electrade.app&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team:
+* Niko (Tech, Content, Strategy)
+* Suhas (Content, Paid, Strategy)
+* Armin (Advisor)
+
+Tech:
+* React Quote App
+* Hugo blog and static pages
+* Served from Node/Express/Postgres
+* Integrated with Clearcover API
+
+
+Stats:
+* MRR: $360
+* MAU: 2K
+* User acquisition: Physical marketing, SEO, Paid, Content
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;classalog&#34;&gt;Classalog&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://classalog.org&#34;&gt;Classalog&lt;/a&gt; – for a friend.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_classalog.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* React frontend
+* Serverless Cloud Functions
+* NoSQL Firebase
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
 &lt;h1 id=&#34;projects-logo-sustainability2-png-electrify-app-ev-services&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; Electrify App | EV Services&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrify.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;App with various electric vehicle functions&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Team:
 * Armin (ideation, ops)
@@ -256,12 +384,6 @@ Tech:
 * Listing photos upload to S3
 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer
 * EV News updates through APIfy.com
-
-Stats:
-* Revenue: $0
-* MAU: 100
-* Users: 350
-* User acquisition: Physical marketing, ASO
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;(see &lt;a href=&#34;https://nikodunk.com/startup-updates-7&#34;&gt;Startup Updates&lt;/a&gt;)&lt;/p&gt;
@@ -271,13 +393,11 @@ Stats:
 &lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bigset.electric&#34;&gt;Google Play Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrify.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
 &lt;hr /&gt;
 
 &lt;h1 id=&#34;projects-logo-paperworklabs-png-paperworklabs-com-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paperworklabs.png&#34; alt=&#34;&#34; /&gt; paperworklabs.com | Turbotax for medical forms&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_paperworklabs.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;See ongoing progress in the newer posts on this site, like &lt;a href=&#34;https://nikodunk.com/startup-updates-1&#34;&gt;this one&lt;/a&gt;&lt;/p&gt;
 
@@ -295,18 +415,40 @@ Tech
 * HIPAA compliant logging, access monitoring
 
 Stats
-* MRR: $0
+* MRR: $1,843 (1x)
 * Price point: $99/month for all-you-can-eat medical smartforms
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.paperworklabs.com&#34;&gt;Paperwork labs link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperworklabs-demo.herokuapp.com&#34;&gt;Paperwork labs link&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34;&gt;See Youtube walkthrough here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_paperworklabs.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
 &lt;hr /&gt;
+
+&lt;h1 id=&#34;giftlab-io-kickstarter-for-physical-donations&#34;&gt;Giftlab.io | Kickstarter for physical donations&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_giftlab.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Elisa (idea, product)
+* Niko (tech)
+
+Tech:
+* Node/Express/Postgresql web app on Heroku 
+* Stripe Connect for payment routing
+* Amazon wishlists for product gifting
+* Mixpanel/Fullstory analytics
+
+Stats:
+* Total sales: $30.00
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://giftlab.io&#34;&gt;The Gift Lab Site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
@@ -344,8 +486,6 @@ Stats
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_soap.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/soapstats.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
 
 &lt;hr /&gt;
 
@@ -474,31 +614,11 @@ Stats
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;giftlab-io-kickstarter-for-physical-donations&#34;&gt;Giftlab.io | Kickstarter for physical donations&lt;/h1&gt;
+&lt;h1 id=&#34;positivity-trainer&#34;&gt;Positivity Trainer&lt;/h1&gt;
 
-&lt;p&gt;With Elisa Chan, a platform to help noprofits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138&#34;&gt;PositivityTrainer&lt;/a&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Team
-* Elisa (idea, product)
-* Niko (tech)
-
-Tech:
-* Node/Express/Postgresql web app on Heroku 
-* Stripe Connect for payment routing
-* Amazon wishlists for product gifting
-* Mixpanel/Fullstory analytics
-
-Stats:
-* Total sales: $30.00
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://giftlab.io&#34;&gt;The Gift Lab Site&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo giftlab.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_positivity.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -525,6 +645,28 @@ Stats
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://projectpegasus.io&#34;&gt;Project Pegasus Site&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;grammative&#34;&gt;Grammative&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://grammative.com&#34;&gt;Grammative&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Free marketing copy review. Jump the queue for $49&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team:
+* Niko
+* Suhas
+
+Tech:
+* Static page with formspree
+
+Stats:
+* Revenue: $140
+* User acquisition: Product Hunt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_grammative.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
