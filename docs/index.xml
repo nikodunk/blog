@@ -104,28 +104,28 @@
     </item>
     
     <item>
-      <title>How to chain multiple functions with await/async</title>
+      <title>How to chain multiple functions properly with await/async</title>
       <link>https://nikodunk.com/how-to-chain-functions-with-await-async/</link>
       <pubDate>Sun, 11 Aug 2019 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/how-to-chain-functions-with-await-async/</guid>
       <description></description>
       
-      <content>&lt;p&gt;Recently I was helping a friend build a Craiglist-style anonymous email relay with a Firebase Cloud Function. AWS Lambda, Google Cloud Functions and all these new-fangled &amp;ldquo;serverless&amp;rdquo; backends mean you have to be very careful with the precision of your promises. So far I&amp;rsquo;ve been doing this with .then() callbacks, but wanted to use async/await because it&amp;rsquo;s so much cleaner to read. There&amp;rsquo;s a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.&lt;/p&gt;
+      <content>&lt;p&gt;Recently I was helping a friend build a Craiglist-style anonymous email relay with a &amp;ldquo;serverless&amp;rdquo; Google Firebase Function (same as AWS Lambda, Azure Functions, etc). So far I&amp;rsquo;ve been handling async operations with .then() callbacks, but wanted to use async/await because it&amp;rsquo;s so much cleaner to read. I found most articles out there on chaining multiple functions reliably unhelpful as they tend to post incomplete demo code that&amp;rsquo;s copy/pasted from MSDN. There are a few hard-to-debug pitfalls on async/await, and since I fell into all of them I&amp;rsquo;ll post my complete code here and explain my learnings so you don&amp;rsquo;t have to.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s working code that chains multiple functions, waits for everything to resolve, and &lt;em&gt;then&lt;/em&gt; sends the result. Main mistakes were:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Every async function &lt;em&gt;needs a new Promise&lt;/em&gt;, and needs to resolve(). &lt;strong&gt;It won&amp;rsquo;t complain if you don&amp;rsquo;t do this, but it also won&amp;rsquo;t actually wait&lt;/strong&gt;. The debugging around this is super annoying.&lt;/li&gt;
-&lt;li&gt;In cloud functions, you &lt;em&gt;must&lt;/em&gt; send a response with res.send(), or the function will assume it&amp;rsquo;s failed and re-run it. This means you to make sure multiple functions resolve.&lt;/li&gt;
+&lt;li&gt;Side note – in cloud functions, you &lt;em&gt;must&lt;/em&gt; send a response with res.send(), or the function will assume it&amp;rsquo;s failed and re-run it. This obviously must happen once everything has run or your promises will get cancelled.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;The code does:&lt;/p&gt;
+&lt;p&gt;The code below:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;We have 2 sync functions (no issues here).&lt;/li&gt;
 &lt;li&gt;Then we have async function getAssociatedEmailOfCourseWithCourseId() which gets the course&amp;rsquo;s email address from firebase. We don&amp;rsquo;t know how long getting stuff from Firestore will be so it&amp;rsquo;s async, and will return (or resolve in promise parlance) the courseEmail we need to run the next 2 functions.&lt;/li&gt;
-&lt;li&gt;The next 2 functions, savetoCloudFireStore() and sendEmailWithSendGrid() &lt;em&gt;must&lt;/em&gt; not be run before getAssociatedEmailOfCourseWithCourseId() is run, or courseEmail will be undefined and everything goes to shit. So they must await courseEmail to be defined (the promise to resolve), then run.&lt;/li&gt;
+&lt;li&gt;The next 2 functions, &lt;em&gt;savetoCloudFireStore()&lt;/em&gt; and &lt;em&gt;sendEmailWithSendGrid()&lt;/em&gt;, &lt;em&gt;must&lt;/em&gt; not be run before &lt;em&gt;getAssociatedEmailOfCourseWithCourseId()&lt;/em&gt; is run, or &lt;em&gt;courseEmail&lt;/em&gt; will be undefined and everything goes to shit. So they must await &lt;em&gt;courseEmail&lt;/em&gt; to be defined (the promise to resolve), then run.&lt;/li&gt;
 &lt;li&gt;Finally, res.send() must not be sent until saveToCloudFirestore() and sendEmailWithSendGrid() have been run, otherwise the cloud function will stop before the work is done. For this, we save the saveToCloudFireStore and sendEmailWithSendgrid&amp;rsquo;s responses (the stuff they return) into a varialble &lt;em&gt;who&amp;rsquo;s sole purpose is to mark when the above function as done&lt;/em&gt;. Then we do a sweet little if statement, which is basically does the same thing as a .then() before – wait&amp;rsquo;s till both of these variables (saveDonePromise and emailDonePromise) are defined then runs.&lt;/li&gt;
 &lt;/ul&gt;
 
