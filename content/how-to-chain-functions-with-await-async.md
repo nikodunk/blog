@@ -34,7 +34,7 @@ exports.emailFunction = functions.https.onRequest(async (req, res) => {
   let courseEmail = await getAssociatedEmailOfCourseWithCourseId(courseId);        // async
   let savePromiseDone = await saveToCloudFirestore(fields, courseEmail, courseId); // async, will wait to run until courseEmail is defined
   let emailPromiseDone = await sendEmailInSendgrid(fields, courseEmail);           // async, will wait to run until courseEmail is defined
-  if (savePromiseDone && emailPromiseDone) { res.send() }                          // sync, but will wait until emailDonePromise and saveDonePromise are defined.
+  if (savePromiseDone && emailPromiseDone) { res.send() }                          // sync, but will wait until emailPromiseDone and savePromiseDone are defined
 });
 
 // helper functions
