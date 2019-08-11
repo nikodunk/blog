@@ -80,8 +80,9 @@
 
 <ul>
 <li>We have 2 sync functions (no issues here).</li>
-<li>Then we have async courseEmail which gets the course&rsquo;s email address from firebase. This is async, and will return (or resolve in promise parlance) the courseEmail we need to run the next 2 functions. The next 2 functions, savetoCloudFireStore() and sendEmailWithSendGrid() <em>must</em> not be run before getAssociatedEmailOfcCourseWIthCourseId is run, or courseEmail is undefined and everything goes to shit. For this, the promise is important.</li>
-<li>Finally, res.send() must not be sent until saveToCloudFirestore() and sendEmailWithSendGrid() have been run, otherwise the cloud function will stop before the work is done. For this, we save the saveToCloudFireStore and sendEmailWithSendgrid&rsquo;s responses (the stuff they return) into a varialble <em>who&rsquo;s sole purpose is to mark when the above function is done</em>. Then we do a sweet little if statement, which is basically does the same thing as a .then() before – wait&rsquo;s till both of these variables (saveDonePromise and emailDonePromise) are defined then runs.</li>
+<li>Then we have async function getAssociatedEmailOfCourseWithCourseId() which gets the course&rsquo;s email address from firebase. We don&rsquo;t know how long getting stuff from Firestore will be so it&rsquo;s async, and will return (or resolve in promise parlance) the courseEmail we need to run the next 2 functions.</li>
+<li>The next 2 functions, savetoCloudFireStore() and sendEmailWithSendGrid() <em>must</em> not be run before getAssociatedEmailOfCourseWithCourseId() is run, or courseEmail will be undefined and everything goes to shit. So they must await courseEmail to be defined (the promise to resolve), then run.</li>
+<li>Finally, res.send() must not be sent until saveToCloudFirestore() and sendEmailWithSendGrid() have been run, otherwise the cloud function will stop before the work is done. For this, we save the saveToCloudFireStore and sendEmailWithSendgrid&rsquo;s responses (the stuff they return) into a varialble <em>who&rsquo;s sole purpose is to mark when the above function as done</em>. Then we do a sweet little if statement, which is basically does the same thing as a .then() before – wait&rsquo;s till both of these variables (saveDonePromise and emailDonePromise) are defined then runs.</li>
 </ul>
 
 <p>Code below.</p>

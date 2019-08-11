@@ -15,8 +15,9 @@ Here's working code that chains multiple functions, waits for everything to reso
 The code does:
 
 * We have 2 sync functions (no issues here).
-* Then we have async courseEmail which gets the course's email address from firebase. This is async, and will return (or resolve in promise parlance) the courseEmail we need to run the next 2 functions. The next 2 functions, savetoCloudFireStore() and sendEmailWithSendGrid() _must_ not be run before getAssociatedEmailOfcCourseWIthCourseId is run, or courseEmail is undefined and everything goes to shit. For this, the promise is important.
-* Finally, res.send() must not be sent until saveToCloudFirestore() and sendEmailWithSendGrid() have been run, otherwise the cloud function will stop before the work is done. For this, we save the saveToCloudFireStore and sendEmailWithSendgrid's responses (the stuff they return) into a varialble _who's sole purpose is to mark when the above function is done_. Then we do a sweet little if statement, which is basically does the same thing as a .then() before – wait's till both of these variables (saveDonePromise and emailDonePromise) are defined then runs.
+* Then we have async function getAssociatedEmailOfCourseWithCourseId() which gets the course's email address from firebase. We don't know how long getting stuff from Firestore will be so it's async, and will return (or resolve in promise parlance) the courseEmail we need to run the next 2 functions. 
+* The next 2 functions, savetoCloudFireStore() and sendEmailWithSendGrid() _must_ not be run before getAssociatedEmailOfCourseWithCourseId() is run, or courseEmail will be undefined and everything goes to shit. So they must await courseEmail to be defined (the promise to resolve), then run.
+* Finally, res.send() must not be sent until saveToCloudFirestore() and sendEmailWithSendGrid() have been run, otherwise the cloud function will stop before the work is done. For this, we save the saveToCloudFireStore and sendEmailWithSendgrid's responses (the stuff they return) into a varialble _who's sole purpose is to mark when the above function as done_. Then we do a sweet little if statement, which is basically does the same thing as a .then() before – wait's till both of these variables (saveDonePromise and emailDonePromise) are defined then runs.
 
 Code below.
 
