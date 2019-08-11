@@ -7,7 +7,7 @@
 <title>How to chain multiple functions with await/async | D U N K</title>
 
 <meta property='og:title' content='How to chain multiple functions with await/async - D U N K'>
-<meta property='og:description' content='Recently I was helping a friend with Google Cloud Functions, which means you have to be very careful with the precision of your promises. So far I&rsquo;ve been doing this with .then() callbacks, but wanted to use async/await because it&rsquo;s so much cleaner to read. There&rsquo;s a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.'>
+<meta property='og:description' content='Recently I was helping a friend build a Craiglist-style anonymous email relay with a Firebase Cloud Function. AWS Lambda, Google Cloud Functions and all these new-fangled &ldquo;serverless&rdquo; backends mean you have to be very careful with the precision of your promises. So far I&rsquo;ve been doing this with .then() callbacks, but wanted to use async/await because it&rsquo;s so much cleaner to read. There&rsquo;s a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.'>
 <meta property='og:url' content='https://nikodunk.com/how-to-chain-functions-with-await-async/'>
 <meta property='og:site_name' content='D U N K'>
 <meta property='og:type' content='article'><meta property='og:image' content='android-chrome-512x512.png'><meta property='article:section' content=''><meta property='article:published_time' content='2019-08-11T08:00:00-07:00'/><meta property='article:modified_time' content='2019-08-11T08:00:00-07:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@nikodunk'><meta name='twitter:creator' content='@nikodunk'>
@@ -67,7 +67,7 @@
     <h1 class="title">How to chain multiple functions with await/async</h1>
     
     <div class="content">
-      <p>Recently I was helping a friend with Google Cloud Functions, which means you have to be very careful with the precision of your promises. So far I&rsquo;ve been doing this with .then() callbacks, but wanted to use async/await because it&rsquo;s so much cleaner to read. There&rsquo;s a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.</p>
+      <p>Recently I was helping a friend build a Craiglist-style anonymous email relay with a Firebase Cloud Function. AWS Lambda, Google Cloud Functions and all these new-fangled &ldquo;serverless&rdquo; backends mean you have to be very careful with the precision of your promises. So far I&rsquo;ve been doing this with .then() callbacks, but wanted to use async/await because it&rsquo;s so much cleaner to read. There&rsquo;s a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.</p>
 
 <p>Here&rsquo;s working code that chains multiple functions, waits for everything to resolve, and <em>then</em> sends the result. Main mistakes were:</p>
 

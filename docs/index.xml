@@ -19,7 +19,7 @@
       <guid>https://nikodunk.com/how-to-chain-functions-with-await-async/</guid>
       <description></description>
       
-      <content>&lt;p&gt;Recently I was helping a friend with Google Cloud Functions, which means you have to be very careful with the precision of your promises. So far I&amp;rsquo;ve been doing this with .then() callbacks, but wanted to use async/await because it&amp;rsquo;s so much cleaner to read. There&amp;rsquo;s a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.&lt;/p&gt;
+      <content>&lt;p&gt;Recently I was helping a friend build a Craiglist-style anonymous email relay with a Firebase Cloud Function. AWS Lambda, Google Cloud Functions and all these new-fangled &amp;ldquo;serverless&amp;rdquo; backends mean you have to be very careful with the precision of your promises. So far I&amp;rsquo;ve been doing this with .then() callbacks, but wanted to use async/await because it&amp;rsquo;s so much cleaner to read. There&amp;rsquo;s a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s working code that chains multiple functions, waits for everything to resolve, and &lt;em&gt;then&lt;/em&gt; sends the result. Main mistakes were:&lt;/p&gt;
 

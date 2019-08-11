@@ -5,7 +5,7 @@ date:   2019-08-11 08:00:00 -0700
 categories: 
 ---
 
-Recently I was helping a friend with Google Cloud Functions, which means you have to be very careful with the precision of your promises. So far I've been doing this with .then() callbacks, but wanted to use async/await because it's so much cleaner to read. There's a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.
+Recently I was helping a friend build a Craiglist-style anonymous email relay with a Firebase Cloud Function. AWS Lambda, Google Cloud Functions and all these new-fangled "serverless" backends mean you have to be very careful with the precision of your promises. So far I've been doing this with .then() callbacks, but wanted to use async/await because it's so much cleaner to read. There's a bunch of articles out there on this, but none of them really helped me as they post in a bunch of demo code.
 
 Here's working code that chains multiple functions, waits for everything to resolve, and _then_ sends the result. Main mistakes were:
 
