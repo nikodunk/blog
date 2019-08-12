@@ -17,7 +17,7 @@ The code below does
 * We have 2 normal sync functions `getFieldsFromRequest()` and `extractCourseIdFromEmailAddress()` – no issues here.
 * Then we have async function `getEmailOfCourseWithCourseId()` which gets the course's email address from Firestore. We don't know how long getting stuff from Firestore will be so it's `async`, and will return (or resolve in promise parlance) the `courseEmail` we need to run the next 2 functions. 
 * The next 2 functions, `saveToCloudFirestore()` and `sendEmailInSendgrid()`, _must not_ be run before `getEmailOfCourseWithCourseId()` is run and has returned `courseEmail`, or they will run with `courseEmail` as undefined and everything goes to shit. So they must await `courseEmail` to be defined (the promise to resolve), then run.
-* Finally, `res.send()` must not be sent until `saveToCloudFirestore()` and `sendEmailInSendgrid()` have been run, otherwise the cloud function will stop before the work is done. For this, we save the `saveToCloudFireStore()` and `sendEmailInSendgrid()` responses (the stuff they return) into a variable _who's sole purpose is to mark when the above function as done_. Then we do a sweet little if statement, which is basically does the same thing as a `.then()` before – waits till both of these variables (`saveDonePromise` and `emailDonePromise`) are defined then runs.
+* Finally, `res.send()` must not be sent until `saveToCloudFirestore()` and `sendEmailInSendgrid()` have been run, otherwise the cloud function will stop before the work is done. For this, we save the `saveToCloudFireStore()` and `sendEmailInSendgrid()` responses (the stuff they return) into a variable _who's sole purpose is to mark when the above function as done_. Then we do a sweet little if statement, which is basically does the same thing as a `.then()` before – waits till both of these variables (`savePromiseDone` and `emailPromiseDone`) are defined then runs.
 
 
 {{< highlight javascript >}}
@@ -52,7 +52,7 @@ function extractCourseIdFromEmailAddress(fields) {
   return courseId;
 }
 
-async function getAssociatedEmailOfCourseWithCourseId(courseId) { // async important
+async function getEmailOfCourseWithCourseId(courseId) { // async important
   return new Promise((resolve, reject) => { // important
     doAsyncStuffWithFirestore(courseId)
       .then(course => {
