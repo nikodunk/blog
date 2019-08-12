@@ -5,7 +5,8 @@ Paginate = 100 # Number of posts per page
 googleAnalytics = "UA-104927808-1"
 enableRobotsTXT = true
 publishDir = "docs"
-
+pygmentsCodefences = true
+pygmentsStyle = "monokai"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
