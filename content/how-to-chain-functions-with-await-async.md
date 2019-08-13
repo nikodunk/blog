@@ -56,8 +56,7 @@ async function getEmailOfCourseWithCourseId(courseId) { // async important
   return new Promise((resolve, reject) => { // important
     doAsyncStuffWithFirestore(courseId)
       .then(course => {
-        resolve(course.email); // important
-        return; // the return is only here because .then() callbacks need a return
+        return resolve(course.email); // important
       })
       .catch(error => console.log(error));
   });
@@ -65,10 +64,10 @@ async function getEmailOfCourseWithCourseId(courseId) { // async important
 
 async function sendEmailInSendgrid(fields, courseEmail) { // async important
   return new Promise((resolve, reject) => { // important
+    msg = {to: courseEmail, from: fields.from, text: fields.text}
     doAsyncStuffWithSendGrid(fields, courseEmail)
       .then(res => {
-        resolve(msg); // important
-        return; // the return is only here because .then() callbacks need a return
+        return resolve(msg); // important
       })
       .catch(error => console.log(error));
   });
@@ -78,8 +77,7 @@ async function saveToCloudFirestore(fields, courseEmail, courseId) { // async im
   return new Promise((resolve, reject) => { // important
     doAsyncStuffWithFirestore(fields, courseEmail, courseId)
       .then(res => {
-        resolve(res); // important
-        return; // the return is only here because .then() callbacks need a return
+        return resolve(res); // important
       })
       .catch(error => console.log(error));
   });

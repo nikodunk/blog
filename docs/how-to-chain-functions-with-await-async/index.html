@@ -119,8 +119,7 @@
 </span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> Promise((<span style="color:#a6e22e">resolve</span>, <span style="color:#a6e22e">reject</span>) =&gt; { <span style="color:#75715e">// important
 </span><span style="color:#75715e"></span>    <span style="color:#a6e22e">doAsyncStuffWithFirestore</span>(<span style="color:#a6e22e">courseId</span>)
       .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">course</span> =&gt; {
-        <span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">course</span>.<span style="color:#a6e22e">email</span>); <span style="color:#75715e">// important
-</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span>; <span style="color:#75715e">// the return is only here because .then() callbacks need a return
+        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">course</span>.<span style="color:#a6e22e">email</span>); <span style="color:#75715e">// important
 </span><span style="color:#75715e"></span>      })
       .<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">error</span> =&gt; <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">error</span>));
   });
@@ -128,10 +127,10 @@
 
 <span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">sendEmailInSendgrid</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>) { <span style="color:#75715e">// async important
 </span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> Promise((<span style="color:#a6e22e">resolve</span>, <span style="color:#a6e22e">reject</span>) =&gt; { <span style="color:#75715e">// important
-</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">doAsyncStuffWithSendGrid</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>)
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">msg</span> <span style="color:#f92672">=</span> {<span style="color:#a6e22e">to</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">from</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">from</span>, <span style="color:#a6e22e">text</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">text</span>}
+    <span style="color:#a6e22e">doAsyncStuffWithSendGrid</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>)
       .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">res</span> =&gt; {
-        <span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">msg</span>); <span style="color:#75715e">// important
-</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span>; <span style="color:#75715e">// the return is only here because .then() callbacks need a return
+        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">msg</span>); <span style="color:#75715e">// important
 </span><span style="color:#75715e"></span>      })
       .<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">error</span> =&gt; <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">error</span>));
   });
@@ -141,8 +140,7 @@
 </span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> Promise((<span style="color:#a6e22e">resolve</span>, <span style="color:#a6e22e">reject</span>) =&gt; { <span style="color:#75715e">// important
 </span><span style="color:#75715e"></span>    <span style="color:#a6e22e">doAsyncStuffWithFirestore</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">courseId</span>)
       .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">res</span> =&gt; {
-        <span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">res</span>); <span style="color:#75715e">// important
-</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span>; <span style="color:#75715e">// the return is only here because .then() callbacks need a return
+        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">resolve</span>(<span style="color:#a6e22e">res</span>); <span style="color:#75715e">// important
 </span><span style="color:#75715e"></span>      })
       .<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">error</span> =&gt; <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">error</span>));
   });
