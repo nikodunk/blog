@@ -36,7 +36,7 @@ exports.emailFunction = functions.https.onRequest(async (req, res) => {
   let courseEmail = await getEmailOfCourseWithCourseId(courseId); // async
   let saveToCloudDone = await saveToCloudFirestore(fields, courseId, courseEmail); // async, will wait to run until courseEmail is defined
   let sendEmailDone = await sendEmailInSendgrid(fields, courseEmail); // async, also will wait to run until courseEmail is defined
-  await res.send(saveToCloudDone, sendEmailDone) // will wait until emailPromiseDone and savePromiseDone are defined (ie. their functions are done) to send(). If sendEmail fails, it won't send() – so the cloud function will refire.
+  res.send(saveToCloudDone, sendEmailDone) // will wait until saveToCloudDone and sendEmailDone are defined (ie. their functions are done) to send(). If sendEmail fails, it won't send() and the cloud function will refire.
 });
 
 // helper functions
