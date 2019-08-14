@@ -16,8 +16,8 @@ The code below does
 
 * We have 2 normal sync functions `getFieldsFromRequest()` and `extractCourseIdFromEmailAddress()` – no issues here.
 * Then we have `async` function `getEmailOfCourseWithCourseId()` which gets the course's email address from Firestore. We don't know how long getting stuff from Firestore will take so it's `async`, and will return (or resolve in promise parlance) the `courseEmail` we need to run the next 2 functions. 
-* The next 2 functions, `saveToCloudFirestore()` and `sendEmailInSendgrid()`, _must not_ be run before `getEmailOfCourseWithCourseId()` is run and has returned `courseEmail`, or they will run with `courseEmail` as undefined and everything goes to shit. So they must await `courseEmail` to be defined (the promise to resolve), then run.
-* Finally, `res.send()` must not be sent until `saveToCloudFirestore()` and `sendEmailInSendgrid()` have been run, otherwise the cloud function will stop before the work is done. For this, we save the `saveToCloudFireStore()` and `sendEmailInSendgrid()` responses (the stuff they return) into a variable _who's sole purpose is to mark when the above function as done_. Then we write a sweet little terniary if statement, which basically replaces a `.then()` in this case: it waits till both of these variables (`savePromiseDone` and `emailPromiseDone`) are defined then runs `res.send()`.
+* The next 2 functions, `saveToCloudFirestore()` and `sendEmailInSendgrid()`, _must not_ be run before `getEmailOfCourseWithCourseId()` is run and has returned `courseEmail`, or they will run with `courseEmail` as undefined and everything goes to shit. **By passing in `courseEmail` that is `await`ing the function `getEmailOfCourseWithCourseId()` above**, these functions (and the if operator) will wait until that has happened (aka promise has resolved), then run.
+* Finally, `res.send()` must not be sent until `saveToCloudFirestore()` and `sendEmailInSendgrid()` have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, we save the `saveToCloudFireStore()` and `sendEmailInSendgrid()` responses (the stuff they return) into a variable _who's sole purpose is to mark when the above function as done_. This in a sense replaces a `.then()`: it waits till both of these variables (`savedToCloud` and `sentEmail`) "have arrived" (aka their Promise has been resolved), then runs `res.send()` with them.
 
 
 {{< highlight javascript >}}
@@ -33,52 +33,63 @@ The code below does
 exports.emailFunction = functions.https.onRequest(async (req, res) => {
   let fields = getFieldsFromRequest(req); // sync
   let courseId = extractCourseIdFromEmailAddress(fields); // sync
-  let courseEmail = await getEmailOfCourseWithCourseId(courseId); // async
-  let saveToCloudDone = await saveToCloudFirestore(fields, courseId, courseEmail); // async, will wait to run until courseEmail is defined
-  let sendEmailDone = await sendEmailInSendgrid(fields, courseEmail); // async, also will wait to run until courseEmail is defined
-  res.send(saveToCloudDone, sendEmailDone) // will wait until saveToCloudDone and sendEmailDone are defined (ie. their functions are done) to send(). If sendEmail fails, it won't send() and the cloud function will refire.
+  let courseEmail = await getEmailOfCourseWithCourseId(courseId, res); // async
+
+  if (courseEmail) { // if operator (to check if courseEmail was valid) will wait to run until courseEmail has been returned
+    let savedToCloud = await saveToCloudFirestore(fields, courseEmail, courseId);
+    let sentEmail = await sendEmailWithSendgrid(fields, courseEmail); 
+    res.send(savedToCloud, sentEmail); // sentEmail and saveToCloud have been returned (aka promises have been resolved), res.send() so Firebase/SendGrid know that func worked. 
+  } else {
+    res.send(400);
+    console.log('bad courseId: ', courseId);
+  }
 });
 
-// helper functions
+// Helper methods below
 function getFieldsFromRequest(req) {
-  let fields = readTheFieldsFromReqWithBusboy(req)
+  const busboy = new Busboy({ headers: req.headers });
+  let fields = {};
+  busboy.on('field', (field, val) => {
+    fields[field] = val;
+  });
+  busboy.end(req.rawBody);
   return fields;
 }
 
 function extractCourseIdFromEmailAddress(fields) {
-  let courseId = doStuffToEmailAddress(fields)
+  let courseId = fields.to.substring(0, fields.to.indexOf('@'));
   return courseId;
 }
 
-async function getEmailOfCourseWithCourseId(courseId) { // async important
-  return new Promise((resolve, reject) => { // important
-    doAsyncStuffWithFirestore(courseId)
-      .then(course => {
-        return resolve(course.email); // important
-      })
-      .catch(error => console.log(error));
-  });
+async function getEmailOfCourseWithCourseId(courseId, res) { // async important
+  try {
+    let courseData = await doAsyncStuffWithFirestore(courseId)
+    let courseEmail = courseData.email;
+    return courseEmail; // due to function being labeled async above, this is the equivalent of wrapping the whole function in 'return new Promise(resolve) => {}' and then returning a 'resolve(result)'
+    else{ return }
+  } catch (error) {
+    console.log(error);
+  }
 }
 
-async function sendEmailInSendgrid(fields, courseEmail) { // async important
-  return new Promise((resolve, reject) => { // important
-    msg = {to: courseEmail, from: fields.from, text: fields.text}
-    doAsyncStuffWithSendGrid(fields, courseEmail)
-      .then(res => {
-        return resolve(msg); // important
-      })
-      .catch(error => console.log(error));
-  });
+async function sendEmailWithSendgrid(fields, courseEmail) { // async important
+  try {
+    let msg = {to: courseEmail, from: fields.from, text: fields.text}
+    let sent = await doAsyncStuffWithSendGrid(fields, courseEmail)
+    return sent; // due to function being labeled async above, this is the equivalent of wrapping the whole function in 'return new Promise(resolve) => {}' and then returning a 'resolve(result)'
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 async function saveToCloudFirestore(fields, courseEmail, courseId) { // async important
-  return new Promise((resolve, reject) => { // important
-    doAsyncStuffWithFirestore(fields, courseEmail, courseId)
-      .then(res => {
-        return resolve(res); // important
-      })
-      .catch(error => console.log(error));
-  });
+  try {
+    let writtenData = await doAsyncStuffWithFirestore(fields, courseEmail, courseId)
+    return writtenData;
+  } catch (error) {
+    console.log(error);
+  }
 }
+
 
 {{< / highlight >}}
