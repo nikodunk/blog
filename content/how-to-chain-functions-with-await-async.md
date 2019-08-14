@@ -41,13 +41,13 @@ exports.emailFunction = functions.https.onRequest(async (req, res) => {
 
 // Helper methods below
 function getFieldsFromRequest(req) { // sync
-  let fields = readTheFieldsFromReqWithBusboy(req)
-  return fields;
+    let fields = readTheFieldsFromReqWithBusboy(req)
+    return fields;
 }
 
 function extractCourseIdFromEmailAddress(fields) { // sync
-  let courseId = fields.to.substring(0, fields.to.indexOf('@'));
-  return courseId;
+    let courseId = fields.to.substring(0, fields.to.indexOf('@'));
+    return courseId;
 }
 
 async function getEmailOfCourseWithCourseId(courseId, res) { // async important
@@ -71,4 +71,4 @@ async function saveToCloudFirestore(fields, courseEmail, courseId) { // async im
 {{< / highlight >}}
 
 
-Again, wrap the 3 last async functions in try{}catch{} to catch errors. You have been warned!
+Again, **wrap the 3 last async functions in try{}catch{} to catch errors**. You have been warned!

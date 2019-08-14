@@ -105,13 +105,13 @@
 
 <span style="color:#75715e">// Helper methods below
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getFieldsFromRequest</span>(<span style="color:#a6e22e">req</span>) { <span style="color:#75715e">// sync
-</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fields</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">readTheFieldsFromReqWithBusboy</span>(<span style="color:#a6e22e">req</span>)
-  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fields</span>;
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fields</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">readTheFieldsFromReqWithBusboy</span>(<span style="color:#a6e22e">req</span>)
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fields</span>;
 }
 
 <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">extractCourseIdFromEmailAddress</span>(<span style="color:#a6e22e">fields</span>) { <span style="color:#75715e">// sync
-</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseId</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">to</span>.<span style="color:#a6e22e">substring</span>(<span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">to</span>.<span style="color:#a6e22e">indexOf</span>(<span style="color:#e6db74">&#39;@&#39;</span>));
-  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">courseId</span>;
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseId</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">to</span>.<span style="color:#a6e22e">substring</span>(<span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">to</span>.<span style="color:#a6e22e">indexOf</span>(<span style="color:#e6db74">&#39;@&#39;</span>));
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">courseId</span>;
 }
 
 <span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getEmailOfCourseWithCourseId</span>(<span style="color:#a6e22e">courseId</span>, <span style="color:#a6e22e">res</span>) { <span style="color:#75715e">// async important
@@ -132,7 +132,7 @@
 }
 </code></pre></div>
 
-<p>Again, wrap the 3 last async functions in try{}catch{} to catch errors. You have been warned!</p>
+<p>Again, <strong>wrap the 3 last async functions in try{}catch{} to catch errors</strong>. You have been warned!</p>
 
       
       <div class="related">
