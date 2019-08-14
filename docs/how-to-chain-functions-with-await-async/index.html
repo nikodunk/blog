@@ -72,7 +72,7 @@
 <p>Here&rsquo;s working code that chains multiple functions, waits for everything to resolve, and <em>then</em> sends the result. Main mistakes were:</p>
 
 <ol>
-<li>Every async function <em>needs</em> a <code>new Promise</code>, and needs to <code>resolve()</code>. <strong>It won&rsquo;t complain if you don&rsquo;t do this, but it also won&rsquo;t actually wait</strong>. The debugging around this is super annoying.</li>
+<li>Every <code>async function myFunction(){ &lt;your code here&gt; }</code> declaration <em>automatically</em> wraps the whole async function&rsquo;s code (ie. <code>&lt;your code here&gt;</code>) in a <code>new Promise</code>, and turns any <code>return x</code> within the code into <code>resolve(x)</code>. <strong>But you still need to await</strong> outside of it (ie. <code>let y = await myFunction()</code>) <strong>or it won&rsquo;t actually wait</strong>. The debugging around this is super annoying.</li>
 <li>Side note – in cloud functions, you <em>must</em> send a response with <code>res.send()</code>, or the function will assume it&rsquo;s failed and re-run it. This obviously must happen once everything has run or your promises will get cancelled.</li>
 </ol>
 

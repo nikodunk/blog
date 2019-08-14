@@ -9,7 +9,7 @@ Next to my main job of building out and running [electrade](https://www.electrad
 
 Here's working code that chains multiple functions, waits for everything to resolve, and _then_ sends the result. Main mistakes were:
 
-1. Every async function _needs_ a `new Promise`, and needs to `resolve()`. **It won't complain if you don't do this, but it also won't actually wait**. The debugging around this is super annoying.
+1. Every `async function myFunction(){ <your code here> }` declaration _automatically_ wraps the whole async function's code (ie. `<your code here>`) in a `new Promise`, and turns any `return x` within the code into `resolve(x)`. **But you still need to await** outside of it (ie. `let y = await myFunction()`) **or it won't actually wait**. The debugging around this is super annoying.
 2. Side note – in cloud functions, you _must_ send a response with `res.send()`, or the function will assume it's failed and re-run it. This obviously must happen once everything has run or your promises will get cancelled.
 
 The code below does 
