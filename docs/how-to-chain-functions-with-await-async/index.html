@@ -83,7 +83,7 @@
 <li>Then we have <code>async</code> function <code>getEmailOfCourseWithCourseId()</code> which gets the course&rsquo;s email address from Firestore. We don&rsquo;t know how long getting stuff from Firestore will take so it&rsquo;s <code>async</code>, and will return (or resolve in promise parlance) the <code>courseEmail</code> we need to run the next 2 functions.</li>
 <li>The next 2 functions, <code>saveToCloudFirestore()</code> and <code>sendEmailInSendgrid()</code>, <em>must not</em> be run before <code>getEmailOfCourseWithCourseId()</code> is run and has returned <code>courseEmail</code>, or they will run with <code>courseEmail</code> as undefined and everything goes to shit. <strong>By passing in <code>courseEmail</code> that is <code>await</code>ing the function <code>getEmailOfCourseWithCourseId()</code> above</strong>, these functions (and the if operator) will wait until that has happened (aka promise has resolved), then run.</li>
 <li>Finally, <code>res.send()</code> must not be sent until <code>saveToCloudFirestore()</code> and <code>sendEmailInSendgrid()</code> have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, we save the <code>saveToCloudFireStore()</code> and <code>sendEmailInSendgrid()</code> responses (the stuff they return) into a variable <em>whose sole purpose is to mark when the above function as done</em>. This in a sense replaces a <code>.then()</code>: it waits till both of these variables (<code>savedToCloud</code> and <code>sentEmail</code>) &ldquo;have arrived&rdquo; (aka their Promise has been resolved), then runs <code>res.send()</code> with them.</li>
-<li>For readability&rsquo;s sake, I have <strong>removed try/catch wrappings</strong> here that you should be doing in practice. You should never not catch errors, but makes the async/await concept way easier to understand.</li>
+<li>For readability&rsquo;s sake, I have <strong>removed the try/catch wrappings</strong> here that you should be doing in practice. You should never not catch errors, but removing them makes the async/await concept easier to understand.</li>
 </ul>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// this is the cloud function you can call over HTTP. It is basically for email relay:
@@ -103,7 +103,7 @@
 </span><span style="color:#75715e"></span>  <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">status</span>(<span style="color:#ae81ff">200</span>).<span style="color:#a6e22e">send</span>(<span style="color:#a6e22e">savedToCloud</span>, <span style="color:#a6e22e">sentEmail</span>); <span style="color:#75715e">// Once sentEmail and saveToCloud have been returned (aka promises have been resolved, aka their functions have been run), res.send() will run so Firebase/SendGrid know that func worked. 
 </span><span style="color:#75715e"></span>});
 
-<span style="color:#75715e">// Helper methods below
+<span style="color:#75715e">// Helper functions below
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getFieldsFromRequest</span>(<span style="color:#a6e22e">req</span>) { <span style="color:#75715e">// sync
 </span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fields</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">readTheFieldsFromReqWithBusboy</span>(<span style="color:#a6e22e">req</span>)
     <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fields</span>;
@@ -132,7 +132,7 @@
 }
 </code></pre></div>
 
-<p>Again, <strong>wrap the 3 last async functions in try{}catch{} to catch errors</strong>. You have been warned!</p>
+<p>Again, <strong>wrap the 3 last async functions and the main function in try{}catch{} to catch errors</strong>. You have been warned!</p>
 
       
       <div class="related">
