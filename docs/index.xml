@@ -87,7 +87,7 @@
 &lt;ul&gt;
 &lt;li&gt;Suhas owning&lt;/li&gt;
 &lt;li&gt;Based off 75 submissions have had so far&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Results: 1 quote completed&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: 15 quote completed&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Reddit Ads&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -144,7 +144,7 @@
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getEmailOfCourseWithCourseId&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// async
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;saveToCloudFirestore&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// async
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sendEmailWithSendgrid&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;);  &lt;span style=&#34;color:#75715e&#34;&gt;// async
-&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;send&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// Once sentEmail and saveToCloud have been returned (aka promises have been resolved, aka their functions have been run), res.send() will run so Firebase/SendGrid know that func worked. 
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;status&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;send&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// Once sentEmail and saveToCloud have been returned (aka promises have been resolved, aka their functions have been run), res.send() will run so Firebase/SendGrid know that func worked. 
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;});
 
 &lt;span style=&#34;color:#75715e&#34;&gt;// Helper methods below

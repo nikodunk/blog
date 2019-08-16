@@ -42,7 +42,7 @@ tags: ["Updates", "Learnings"]
 		* Facebook Ads
 			* Suhas owning
 			* Based off 75 submissions have had so far
-			* **Results: 1 quote completed**
+			* **Results: 15 quote completed**
 		* Reddit Ads
 	* Physical marketing
 		* Flyer every Model 3 in SF
