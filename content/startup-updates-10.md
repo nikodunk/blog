@@ -13,15 +13,15 @@ tags: ["Updates", "Learnings"]
 * Armin now an advisor.
 
 # KPIs/Core Metrics:
-* Quotes completed Goal: 45 / week
-* Quotes completed actual: 3 / week
-* Revenue: $ X
+* Quotes completed Goal: 110 / week
+* Quotes completed actual: 16 / week
+* Revenue: $160 / week
+* Projected revenue total: $640
 
 # Product:
 * Possible other integrations
 * Working on getting licensed as insurance broker in California
-* Trying to work out which channels scalable
-
+* Trying to work out which channels scalable: Blog, Flyers, Facebook.
 
 
 # Experiments/Hypothesis run:
@@ -39,11 +39,13 @@ tags: ["Updates", "Learnings"]
 			* **Results: 2 quotes completed**
 	* Paid digital marketing
 		* Google Ads
+			* N/A
 		* Facebook Ads
 			* Suhas owning
 			* Based off 75 submissions have had so far
-			* **Results: 15 quote completed**
+			* **Results: 16 quotes completed**
 		* Reddit Ads
 	* Physical marketing
-		* Flyer every Model 3 in SF
-		* **Results: 0 quotes completed**
+		* Flyers
+			* Flyer every Model 3 in SF
+			* **Results: 0 quotes completed**

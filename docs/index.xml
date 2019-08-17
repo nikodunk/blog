@@ -37,9 +37,10 @@
 &lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Quotes completed Goal: 45 / week&lt;/li&gt;
-&lt;li&gt;Quotes completed actual: 3 / week&lt;/li&gt;
-&lt;li&gt;Revenue: $ X&lt;/li&gt;
+&lt;li&gt;Quotes completed Goal: 110 / week&lt;/li&gt;
+&lt;li&gt;Quotes completed actual: 16 / week&lt;/li&gt;
+&lt;li&gt;Revenue: $160 / week&lt;/li&gt;
+&lt;li&gt;Projected revenue total: $640&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
@@ -47,7 +48,7 @@
 &lt;ul&gt;
 &lt;li&gt;Possible other integrations&lt;/li&gt;
 &lt;li&gt;Working on getting licensed as insurance broker in California&lt;/li&gt;
-&lt;li&gt;Trying to work out which channels scalable&lt;/li&gt;
+&lt;li&gt;Trying to work out which channels scalable: Blog, Flyers, Facebook.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
@@ -81,21 +82,29 @@
 &lt;li&gt;Paid digital marketing
 
 &lt;ul&gt;
-&lt;li&gt;Google Ads&lt;/li&gt;
+&lt;li&gt;Google Ads
+
+&lt;ul&gt;
+&lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Facebook Ads
 
 &lt;ul&gt;
 &lt;li&gt;Suhas owning&lt;/li&gt;
 &lt;li&gt;Based off 75 submissions have had so far&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Results: 15 quote completed&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results: 16 quotes completed&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Reddit Ads&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Physical marketing
 
 &lt;ul&gt;
+&lt;li&gt;Flyers
+
+&lt;ul&gt;
 &lt;li&gt;Flyer every Model 3 in SF&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Results: 0 quotes completed&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -104,7 +113,7 @@
     </item>
     
     <item>
-      <title>How to chain multiple functions properly with await/async</title>
+      <title>How to chain multiple functions in Javascript properly with await/async</title>
       <link>https://nikodunk.com/how-to-chain-functions-with-await-async/</link>
       <pubDate>Sun, 11 Aug 2019 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
