@@ -51,19 +51,19 @@ function extractCourseIdFromEmailAddress(fields) { // sync
 }
 
 async function getEmailOfCourseWithCourseId(courseId, res) { // async important
-    let courseData = await doAsyncStuffWithFirestore(courseId)
+    let courseData = await database.get(courseId)
     let courseEmail = courseData.email;
     return courseEmail; // due to function being labeled async above, this is the equivalent of wrapping the whole function in 'return new Promise(resolve) => {}' and then returning a 'resolve(result)'
 }
 
 async function sendEmailWithSendgrid(fields, courseEmail) { // async important
     let msg = {to: courseEmail, from: fields.from, text: fields.text}
-    let sentEmail = await doAsyncStuffWithSendGrid(msg)
+    let sentEmail = await sendgrid.send(msg)
     return sentEmail; // due to function being labeled async above, this is the equivalent of wrapping the whole function in 'return new Promise(resolve) => {}' and then returning a 'resolve(result)'
 }
 
 async function saveToCloudFirestore(fields, courseEmail, courseId) { // async important
-    let savedToCloud = await doAsyncStuffWithFirestore(fields, courseEmail, courseId)
+    let savedToCloud = await database.add(fields, courseEmail, courseId)
     return savedToCloud;
 }
 
@@ -71,4 +71,4 @@ async function saveToCloudFirestore(fields, courseEmail, courseId) { // async im
 {{< / highlight >}}
 
 
-Again, **wrap the 3 last async functions and the main function in try{}catch{} to catch errors**. You have been warned!
+Again, **wrap the 3 last async functions and the main function in try{}catch{} to catch errors**. Also, the database code cannot be copied over like this – it's just for illustrative purposes. You have been warned!
