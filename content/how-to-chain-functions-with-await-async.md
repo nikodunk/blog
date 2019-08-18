@@ -33,7 +33,7 @@ The code below does
 exports.emailFunction = functions.https.onRequest(async (req, res) => {
   let fields = getFieldsFromRequest(req); // sync
   let courseId = extractCourseIdFromEmailAddress(fields); // sync
-  let courseEmail = await getEmailOfCourseWithCourseId(courseId, res); // async
+  let courseEmail = await getEmailOfCourseWithCourseId(courseId); // async
   let savedToCloud = await saveToCloudFirestore(fields, courseEmail, courseId); // async
   let sentEmail = await sendEmailWithSendgrid(fields, courseEmail);  // async
   res.status(200).send(savedToCloud, sentEmail); // Once sentEmail and saveToCloud have been returned (aka promises have been resolved, aka their functions have been run), res.send() will run so Firebase/SendGrid know that func worked. 
@@ -50,7 +50,7 @@ function extractCourseIdFromEmailAddress(fields) { // sync
     return courseId;
 }
 
-async function getEmailOfCourseWithCourseId(courseId, res) { // async important
+async function getEmailOfCourseWithCourseId(courseId) { // async important
     let courseData = await database.get(courseId)
     let courseEmail = courseData.email;
     return courseEmail; // due to function being labeled async above, this is the equivalent of wrapping the whole function in 'return new Promise(resolve) => {}' and then returning a 'resolve(result)'
