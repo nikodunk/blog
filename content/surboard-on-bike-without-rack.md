@@ -11,6 +11,8 @@ I live in San Francisco, an our city beach is exactly 4.7 miles away from my apa
 
 I wanted to use my road bike, and I didn't really want to buy and put a surfboard bike rack on it, and most of them seemed designed for beach cruisers anyway. 
 
+![](/img/surf/map.png)
+
 ###### A possible solution
 
 So today I made numerous experiments trying to build my own trailer, lash my surfboard onto my frame, but eventually came up with a way simpler solution: simply lash it to a backpack. I'll leave share it here hoping you can use it for your surf commute. 
