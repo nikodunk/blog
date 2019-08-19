@@ -40,6 +40,24 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 -----------
 
+
+
+# Classalog (employed)
+
+[Classalog](https://classalog.org).
+
+![](/projects/demo_classalog.png)
+
+
+	Tech
+	* React frontend
+	* Serverless Cloud Functions
+	* NoSQL Firebase
+
+-----------
+
+
+
 # ![](/projects/logo_sustainability2.png) Electrify App | EV Services
 
 ![](/projects/demo_electrify.gif)
@@ -102,22 +120,6 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 
 
 
-
-
-
-# Classalog
-
-[Classalog](https://classalog.org) – for a friend.
-
-![](/projects/demo_classalog.png)
-
-
-	Tech
-	* React frontend
-	* Serverless Cloud Functions
-	* NoSQL Firebase
-
------------
 
 
 

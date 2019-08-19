@@ -3,14 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nikodunk.com/startup-updates-10/</loc>
-    <lastmod>2019-08-11T08:00:00-07:00</lastmod>
+    <loc>https://nikodunk.com/</loc>
+    <lastmod>2019-08-19T08:00:00-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nikodunk.com/</loc>
-    <lastmod>2019-08-11T08:00:00-07:00</lastmod>
+    <loc>https://nikodunk.com/tags/how-to/</loc>
+    <lastmod>2019-08-19T08:00:00-07:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nikodunk.com/surboard-on-bike-without-rack/</loc>
+    <lastmod>2019-08-19T08:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nikodunk.com/tags/surfing/</loc>
+    <lastmod>2019-08-19T08:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nikodunk.com/tags/</loc>
+    <lastmod>2019-08-19T08:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nikodunk.com/startup-updates-10/</loc>
+    <lastmod>2019-08-11T08:00:00-07:00</lastmod>
   </url>
   
   <url>
@@ -27,12 +50,6 @@
   <url>
     <loc>https://nikodunk.com/projects/</loc>
     <lastmod>2019-08-11T08:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nikodunk.com/tags/</loc>
-    <lastmod>2019-08-11T08:00:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -124,12 +141,6 @@
   </url>
   
   <url>
-    <loc>https://nikodunk.com/tags/how-to/</loc>
-    <lastmod>2017-12-19T08:00:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nikodunk.com/blockchain/</loc>
     <lastmod>2017-12-19T08:00:00-07:00</lastmod>
   </url>
@@ -137,6 +148,12 @@
   <url>
     <loc>https://nikodunk.com/solarselfsufficiency/</loc>
     <lastmod>2017-07-20T08:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nikodunk.com/tags/sustainability/</loc>
+    <lastmod>2017-07-20T08:00:00-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

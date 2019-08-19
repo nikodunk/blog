@@ -12,6 +12,59 @@
     
     
     <item>
+      <title>Patent NA25396 – A better method to transport a surfboard on a bike</title>
+      <link>https://nikodunk.com/surboard-on-bike-without-rack/</link>
+      <pubDate>Mon, 19 Aug 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/surboard-on-bike-without-rack/</guid>
+      <description></description>
+      
+      <content>&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-problem&#34;&gt;The problem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#a-possible-solution&#34;&gt;A possible solution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;h6 id=&#34;the-problem&#34;&gt;The problem&lt;/h6&gt;
+
+&lt;p&gt;I live in San Francisco, an our city beach is exactly 4.7 miles away from my apartment in Haight. It&amp;rsquo;s a beautiful bike ride, but so far if I wanted to go surf I&amp;rsquo;d either have to rely on my friend Jake, who has a car, to also go right now, or take the N-Line on Muni which is unreliable (especially on weekends).&lt;/p&gt;
+
+&lt;p&gt;I wanted to use my road bike, and I didn&amp;rsquo;t really want to buy and put a surfboard bike rack on it, and most of them seemed designed for beach cruisers anyway.&lt;/p&gt;
+
+&lt;h6 id=&#34;a-possible-solution&#34;&gt;A possible solution&lt;/h6&gt;
+
+&lt;p&gt;So today I made numerous experiments trying to build my own trailer, lash my surfboard onto my frame, but eventually came up with a way simpler solution: simply lash it to a backpack. I&amp;rsquo;ll leave share it here hoping you can use it for your surf commute.&lt;/p&gt;
+
+&lt;p&gt;Added benefits of going to surf on a bike is a great warm-up, no parking hassle at the beach, and fresh air.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/img/surf/1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/img/surf/2.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/img/surf/3.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/img/surf/4.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/img/surf/5.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/img/surf/6.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/img/surf/7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>August 2019 Startup Update</title>
       <link>https://nikodunk.com/startup-updates-10/</link>
       <pubDate>Sun, 11 Aug 2019 08:00:00 -0700</pubDate>
@@ -234,6 +287,20 @@ Stats:
 
 &lt;hr /&gt;
 
+&lt;h1 id=&#34;classalog-employed&#34;&gt;Classalog (employed)&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://classalog.org&#34;&gt;Classalog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_classalog.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* React frontend
+* Serverless Cloud Functions
+* NoSQL Firebase
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
 &lt;h1 id=&#34;projects-logo-sustainability2-png-electrify-app-ev-services&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; Electrify App | EV Services&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrify.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -290,20 +357,6 @@ Stats
 &lt;li&gt;&lt;a href=&#34;https://paperworklabs-demo.herokuapp.com&#34;&gt;Paperwork labs link&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34;&gt;See Youtube walkthrough here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;classalog&#34;&gt;Classalog&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://classalog.org&#34;&gt;Classalog&lt;/a&gt; – for a friend.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_classalog.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Tech
-* React frontend
-* Serverless Cloud Functions
-* NoSQL Firebase
-&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
