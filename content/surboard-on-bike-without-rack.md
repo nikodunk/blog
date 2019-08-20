@@ -16,7 +16,7 @@ Why not a bike rack? Well, I have a road bike, which isn't build to hold a board
 
 ## A possible solution
 
-So today I made numerous experiments trying to build my own trailer, lash my surfboard onto my frame, but eventually came up with a way simpler solution: simply lash it to a backpack. I'll leave share it here hoping you can use it for your surf commute. 
+So today I made numerous experiments trying to build my own bike trailer out of rolling suitcases, lash my surfboard onto my frame, but eventually came up with a way simpler solution: simply lash it to a backpack. I'll leave share it here hoping you can use it for your surf commute. This will only work with shortboards under 6 feet, I'd say – but your mileage may vary. This one's 5'8". A 7' still work.
 
 Added benefits of going to surf on a bike is a great warm-up, no parking hassle at the beach, and fresh air.
 
