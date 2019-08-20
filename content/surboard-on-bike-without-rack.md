@@ -22,8 +22,11 @@ Added benefits of going to surf on a bike is a great warm-up, no parking hassle 
 
 ![](/surf/1.jpg)
 ![](/surf/2.jpg)
+
 ![](/surf/3.jpg)
 ![](/surf/4.jpg)
+
 ![](/surf/5.jpg)
 ![](/surf/6.jpg)
+
 ![](/surf/7.jpg)

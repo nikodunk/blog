@@ -42,7 +42,7 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-# Classalog (employed)
+# Classalog (contract)
 
 [Classalog](https://classalog.org).
 
@@ -148,10 +148,6 @@ With Elisa Chan, a platform to help non-profits fundraise more efficiently with 
 
 
 ---------
-
-
-
-
 
 
 
