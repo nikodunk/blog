@@ -34,37 +34,36 @@ tags: ["Updates", "Learnings"]
 			* Write 3 new content pieces per week and post to 
 				* /r/electricvehicles
 				* /r/teslamotors
-					* got banned! Argh! Now unbanned.
+					* got banned! Argh! Now unbanned. Some positive feedback, some negative.
+					* ![](/startup-updates-10/4.png)
 				* Quora
 				* forums.tesla.com
 				* teslamotorclub.org
 			* **Results: 10 quotes completed, $0 commission**
 	* Paid digital marketing
 		* Google Ads
-			* N/A
+			* No results yet, started today. But already visible!
+			* ![](/startup-updates-10/2.jpeg)
 		* Facebook Ads
+			* ![](/startup-updates-10/1.png)
 			* Suhas owning
 			* Based off 75 submissions have had so far
 			* **Results: 40 quotes completed, $240 commission**
+			* CAC around $8 for a $40 payout on some ads.
 		* Reddit Ads
 	* Physical marketing
 		* Flyers
 			* Flyer every Model 3 in SF
 			* **Results: 1 quotes completed, $0 commission**
-* Product pivot to increase CAC per acquired user.
+* Product pivot to increase LTV per user.
+	* ![](/startup-updates-10/3.png)
 	* Now the product pitch is "Find affordable Tesla insurance" vs. "Better, Cheaper EV insurance".
 	* Expand by adding other providers
 		* Root insurance (**1 quote completed, $15 commission**)
 		* Clearcover (**1 quotes completed, $10 commission**)
-	* Now marketplace for new energy services
+	* Now also trying to be a marketplace for new energy services
 		* Solar
 		* Insurance
 		* Storage
 		* Ohmconnect
-
-
-Images from this month
-* ![](/startup-updates-10/1.png)
-* ![](/startup-updates-10/2.jpeg)
-* ![](/startup-updates-10/3.png)
-* ![](/startup-updates-10/4.png)
+		
