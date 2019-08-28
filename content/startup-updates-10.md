@@ -52,6 +52,7 @@ tags: ["Updates", "Learnings"]
 			* Flyer every Model 3 in SF
 			* **Results: 1 quotes completed, $0 commission**
 * Product pivot to increase CAC per acquired user.
+	* Now the product pitch is "Find affordable Tesla insurance" vs. "Better, Cheaper EV insurance".
 	* Expand by adding other providers
 		* Root insurance (**1 quote completed, $15 commission**)
 		* Clearcover (**1 quotes completed, $10 commission**)
@@ -60,3 +61,10 @@ tags: ["Updates", "Learnings"]
 		* Insurance
 		* Storage
 		* Ohmconnect
+
+
+Images from this month
+* ![](/startup-updates-10/1.png)
+* ![](/startup-updates-10/2.jpeg)
+* ![](/startup-updates-10/3.png)
+* ![](/startup-updates-10/4.png)
