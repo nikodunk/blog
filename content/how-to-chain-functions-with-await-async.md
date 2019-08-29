@@ -72,3 +72,8 @@ async function saveToCloudFirestore(fields, courseEmail, courseId) { // async im
 
 
 Again, **wrap the 3 last async functions and the main function in try{}catch{} to catch errors**. Also, the database code cannot be copied over like this – it's just for illustrative purposes. You have been warned!
+
+
+-----
+
+Korean Translation by Toast UI [here](https://ui.toast.com/weekly-pick/ko_20190826/)

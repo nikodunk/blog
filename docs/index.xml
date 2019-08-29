@@ -255,6 +255,10 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Again, &lt;strong&gt;wrap the 3 last async functions and the main function in try{}catch{} to catch errors&lt;/strong&gt;. Also, the database code cannot be copied over like this – it&amp;rsquo;s just for illustrative purposes. You have been warned!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Korean Translation by Toast UI &lt;a href=&#34;https://ui.toast.com/weekly-pick/ko_20190826/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
       
     </item>
