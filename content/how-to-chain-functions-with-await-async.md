@@ -76,4 +76,4 @@ Again, **wrap the 3 last async functions and the main function in try{}catch{} t
 
 -----
 
-Korean Translation by Toast UI [here](https://ui.toast.com/weekly-pick/ko_20190826/)
+[Korean Translation by Toast UI here](https://ui.toast.com/weekly-pick/ko_20190826/). Thanks guys!
