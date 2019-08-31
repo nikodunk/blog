@@ -20,7 +20,7 @@ tags: ["Updates", "Learnings"]
 # Product:
 * Possible other integrations
 * Working on getting licensed as insurance broker in California or partnering with one.
-* Trying to work out which channels scalable: Blog, Flyers, Facebook.
+* Trying to work out which channels scalable: Blog, Flyers, Facebook, Google marketing
 * Thinking about re-imbursing customers for miles driven on Autopilot.
 * Tesla's insurance launched. Waiting to see what their market feedback is.
 
