@@ -15,7 +15,7 @@ tags: ["Updates", "Learnings"]
 # KPIs/Core Metrics:
 * Quotes completed Goal: 110 / week
 * Quotes completed actual: 16 / week
-* Revenue: $240
+* Revenue: $335
 
 # Product:
 * Possible other integrations
@@ -39,13 +39,13 @@ tags: ["Updates", "Learnings"]
 				* Quora
 				* forums.tesla.com
 				* teslamotorclub.org
-			* **Results: 10 quotes completed, $0 commission**
+			* **Results: 10 quotes completed, 2 purchase intents, $40 commission**
 	* **Paid digital marketing**
 		* Facebook Ads
 			* ![](/startup-updates-10/facebook-ads.png)
 			* Suhas owning
 			* Based off 75 submissions have had so far
-			* **Results: 40 quotes completed, $240 commission**
+			* **Results: 40 quotes completed, 6 purchase intents, $240 commission**
 			* CAC around $8 for a $40 payout on some ads.
 		* Google Ads
 			* No results yet, started today. But already visible!
@@ -61,7 +61,7 @@ tags: ["Updates", "Learnings"]
 	* ![](/startup-updates-10/mixpanel-funnel.png)
 	* Now the product pitch is "Find affordable Tesla insurance" vs. "Better, Cheaper EV insurance".
 	* Expand by adding other providers
-		* Root insurance (**1 quote completed, $15 commission**)
+		* Root insurance (**3 quotes completed, $45 commission**)
 		* Clearcover (**1 quotes completed, $10 commission**)
 	* Now also trying to be a marketplace for new energy services
 		* Solar
