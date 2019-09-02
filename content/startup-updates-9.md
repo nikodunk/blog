@@ -3,6 +3,7 @@ layout: post
 title:  "July 2019 Startup Update"
 date:   2019-07-29 08:00:00 -0700
 tags: ["Updates", "Learnings"]
+image: /startup-updates-9/Screen Shot 2019-07-23 at 11.53.04 AM.png
 ---
 
 # Help Wanted/Asks:
