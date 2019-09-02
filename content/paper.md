@@ -3,7 +3,7 @@ layout: post
 title:  "Learnings from my first startup, Paper."
 date:   2019-05-04 08:00:00 -0700
 tags: ["Learnings"]
-image: https://nikodunk.github.io/paper/paper.png
+image: /paper/paper.png
 ---
 
 
