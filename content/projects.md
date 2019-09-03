@@ -11,8 +11,6 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 ![](/projects/gianni_colombo.jpg) ![](/projects/scientist.jpg)
 
 
-Coming soon: 
-
 -----------
 
 # Electrade | Solving Electric Vehicle Insurance
@@ -38,6 +36,9 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 	* MAU: 2K
 	* User acquisition: Physical marketing, SEO, Paid, Content
 
+<a class="btn btn-outline-primary" href="https://www.electrade.app">Website</a>
+<a class="btn btn-outline-disabled disabled" href="">Github on request</a>
+
 
 -----------
 
@@ -54,6 +55,10 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 	* React frontend
 	* Serverless Cloud Functions
 	* NoSQL Firebase
+
+
+<a class="btn btn-outline-primary" href="https://classalog.org">Website</a>
+<a class="btn btn-outline-disabled disabled" href="">Github on request</a>
 
 -----------
 
@@ -79,8 +84,9 @@ App with various electric vehicle functions
 
 (see [Startup Updates](/startup-updates-7))
 
-* [App Store Link](https://itunes.apple.com/us/app/id1445602414)
-* [Google Play Link](https://play.google.com/store/apps/details?id=com.bigset.electric)
+<a class="btn btn-outline-primary" href="https://apple.co/2wTOYTX">App Store</a>
+<a class="btn btn-outline-primary" href="https://bit.ly/2KjmICI">Google Play</a>
+<a class="btn btn-outline-primary" href="https://github.com/nikodunk/electrify-app">Github</a>
 
 
 ------------
@@ -90,10 +96,9 @@ App with various electric vehicle functions
 
 ![](/projects/demo_paperworklabs.gif)
 
-
 See ongoing progress in the newer posts on this site, like [this one](/startup-updates-1)
 
-Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us.
+Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us. See demo on [Youtube](https://www.youtube.com/embed/IZHnqU43t0s)
 
 	Team
 	* Mitul (sales advisory)
@@ -110,9 +115,9 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 	* MRR: $1,843 (1x)
 	* Price point: $99/month for all-you-can-eat medical smartforms
 
+<a class="btn btn-outline-primary" href="https://paperworklabs-demo.herokuapp.com">Deployed Web App</a>
+<a class="btn btn-outline-primary" href="https://github.com/nikodunk/paperworklabs">Github</a>
 
-* [Paperwork labs link](https://paperworklabs-demo.herokuapp.com)
-* [See Youtube walkthrough here](https://www.youtube.com/embed/IZHnqU43t0s)
 
 
 ------------
@@ -144,7 +149,8 @@ With Elisa Chan, a platform to help non-profits fundraise more efficiently with 
 	* Total sales: $30.00
 
 
-* [The Gift Lab Site](http://giftlab.io)
+<a class="btn btn-outline-primary" href="https://giftlab-demo.herokuapp.com">Deployed Web App</a>
+<a class="btn btn-outline-primary" href="https://github.com/nikodunk/giftlab-io">Github</a>
 
 
 

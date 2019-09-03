@@ -279,8 +279,6 @@
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/gianni_colombo.jpg&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/scientist.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Coming soon:&lt;/p&gt;
-
 &lt;hr /&gt;
 
 &lt;h1 id=&#34;electrade-solving-electric-vehicle-insurance&#34;&gt;Electrade | Solving Electric Vehicle Insurance&lt;/h1&gt;
@@ -307,6 +305,9 @@ Stats:
 * User acquisition: Physical marketing, SEO, Paid, Content
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://www.electrade.app&#34;&gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;h1 id=&#34;classalog-contract&#34;&gt;Classalog (contract)&lt;/h1&gt;
@@ -320,6 +321,9 @@ Stats:
 * Serverless Cloud Functions
 * NoSQL Firebase
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://classalog.org&#34;&gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -344,10 +348,9 @@ Tech:
 
 &lt;p&gt;(see &lt;a href=&#34;https://nikodunk.com/startup-updates-7&#34;&gt;Startup Updates&lt;/a&gt;)&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/id1445602414&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bigset.electric&#34;&gt;Google Play Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://apple.co/2wTOYTX&#34;&gt;App Store&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://bit.ly/2KjmICI&#34;&gt;Google Play&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/electrify-app&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -357,7 +360,7 @@ Tech:
 
 &lt;p&gt;See ongoing progress in the newer posts on this site, like &lt;a href=&#34;https://nikodunk.com/startup-updates-1&#34;&gt;this one&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &amp;ldquo;turbotax for medical forms&amp;rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &amp;ldquo;smart forms&amp;rdquo; that can export flat PDFs, report on your &amp;ldquo;structured data&amp;rdquo;, and potentially integrates with EHRs if they let us.&lt;/p&gt;
+&lt;p&gt;Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &amp;ldquo;turbotax for medical forms&amp;rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &amp;ldquo;smart forms&amp;rdquo; that can export flat PDFs, report on your &amp;ldquo;structured data&amp;rdquo;, and potentially integrates with EHRs if they let us. See demo on &lt;a href=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34;&gt;Youtube&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Team
 * Mitul (sales advisory)
@@ -375,10 +378,8 @@ Stats
 * Price point: $99/month for all-you-can-eat medical smartforms
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://paperworklabs-demo.herokuapp.com&#34;&gt;Paperwork labs link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34;&gt;See Youtube walkthrough here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://paperworklabs-demo.herokuapp.com&#34;&gt;Deployed Web App&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/paperworklabs&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -402,9 +403,8 @@ Stats:
 * Total sales: $30.00
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://giftlab.io&#34;&gt;The Gift Lab Site&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://giftlab-demo.herokuapp.com&#34;&gt;Deployed Web App&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/giftlab-io&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
