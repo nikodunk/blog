@@ -36,7 +36,7 @@ exports.emailFunction = functions.https.onRequest(async (req, res) => {
   let courseEmail = await getEmailOfCourseWithCourseId(courseId); // async
   let savedToCloud = await saveToCloudFirestore(fields, courseEmail, courseId); // async, will run once courseEmail above has been populated (aka Promise has been returned)
   let sentEmail = await sendEmailWithSendgrid(fields, courseEmail);  // async, will also run once courseEmail above has been populated (aka Promise has been returned)
-  res.status(200).send(savedToCloud, sentEmail); // will run once sentEmail and saveToCloud have been returned (aka their Promises have been resolved).
+  res.status(200).send(savedToCloud, sentEmail); // will run once sentEmail and saveToCloud have been populated by their functions (aka their functions' Promises have been resolved).
 });
 
 // Helper functions below
