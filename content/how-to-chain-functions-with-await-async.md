@@ -16,11 +16,11 @@ The code below does
 
 * We have 2 normal sync functions `getFieldsFromRequest()` and `extractCourseIdFromEmailAddress()` – no issues here.
 * Then we have `async` function `getEmailOfCourseWithCourseId()` which gets the course's email address from Firestore. We don't know how long getting stuff from Firestore will take so it's `async`, and will return (or resolve in promise parlance) the `courseEmail` we need to run the next 2 functions. 
-* The next 2 functions, `saveToCloudFirestore()` and `sendEmailInSendgrid()`, _must not_ be run before `getEmailOfCourseWithCourseId()` is run and has returned `courseEmail`, or they will run with `courseEmail` as undefined and everything goes to shit. **By passing in `courseEmail` that is `await`ing the function `getEmailOfCourseWithCourseId()` above**, these functions (and the if operator) will wait until that has happened (aka promise has resolved), then run.
+* The next 2 functions, `saveToCloudFirestore()` and `sendEmailInSendgrid()`, _must not_ be run before `getEmailOfCourseWithCourseId()` is run and has returned `courseEmail`. If they do run too early, they will run with `courseEmail` as undefined and everything goes to shit. **By passing in `courseEmail`, and setting it where it is defined on line 12 to `await getEmailOfCourseWithCourseId()`**, these functions will wait until courseEmail is defined (aka the functions have run and their promises have resolved), then run.
 * Finally, `res.send()` must not be sent until `saveToCloudFirestore()` and `sendEmailInSendgrid()` have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, we save the `saveToCloudFireStore()` and `sendEmailInSendgrid()` responses (the stuff they return) into a variable _whose sole purpose is to mark when the above function as done_. This in a sense replaces a `.then()`: it waits till both of these variables (`savedToCloud` and `sentEmail`) "have arrived" (aka their Promise has been resolved), then runs `res.send()` with them.
 * For readability's sake, I have **removed the try/catch wrappings** here that you should be doing in practice. You should never not catch errors, but removing them makes the async/await concept easier to understand.
 
-{{< highlight javascript >}}
+{{< highlight javascript "linenos=table" >}}
 
 // this is the cloud function you can call over HTTP. It is basically for email relay:
 // it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,

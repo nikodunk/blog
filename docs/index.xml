@@ -205,12 +205,60 @@
 &lt;ul&gt;
 &lt;li&gt;We have 2 normal sync functions &lt;code&gt;getFieldsFromRequest()&lt;/code&gt; and &lt;code&gt;extractCourseIdFromEmailAddress()&lt;/code&gt; – no issues here.&lt;/li&gt;
 &lt;li&gt;Then we have &lt;code&gt;async&lt;/code&gt; function &lt;code&gt;getEmailOfCourseWithCourseId()&lt;/code&gt; which gets the course&amp;rsquo;s email address from Firestore. We don&amp;rsquo;t know how long getting stuff from Firestore will take so it&amp;rsquo;s &lt;code&gt;async&lt;/code&gt;, and will return (or resolve in promise parlance) the &lt;code&gt;courseEmail&lt;/code&gt; we need to run the next 2 functions.&lt;/li&gt;
-&lt;li&gt;The next 2 functions, &lt;code&gt;saveToCloudFirestore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt;, &lt;em&gt;must not&lt;/em&gt; be run before &lt;code&gt;getEmailOfCourseWithCourseId()&lt;/code&gt; is run and has returned &lt;code&gt;courseEmail&lt;/code&gt;, or they will run with &lt;code&gt;courseEmail&lt;/code&gt; as undefined and everything goes to shit. &lt;strong&gt;By passing in &lt;code&gt;courseEmail&lt;/code&gt; that is &lt;code&gt;await&lt;/code&gt;ing the function &lt;code&gt;getEmailOfCourseWithCourseId()&lt;/code&gt; above&lt;/strong&gt;, these functions (and the if operator) will wait until that has happened (aka promise has resolved), then run.&lt;/li&gt;
+&lt;li&gt;The next 2 functions, &lt;code&gt;saveToCloudFirestore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt;, &lt;em&gt;must not&lt;/em&gt; be run before &lt;code&gt;getEmailOfCourseWithCourseId()&lt;/code&gt; is run and has returned &lt;code&gt;courseEmail&lt;/code&gt;. If they do run too early, they will run with &lt;code&gt;courseEmail&lt;/code&gt; as undefined and everything goes to shit. &lt;strong&gt;By passing in &lt;code&gt;courseEmail&lt;/code&gt;, and setting it where it is defined on line 12 to &lt;code&gt;await getEmailOfCourseWithCourseId()&lt;/code&gt;&lt;/strong&gt;, these functions will wait until courseEmail is defined (aka the functions have run and their promises have resolved), then run.&lt;/li&gt;
 &lt;li&gt;Finally, &lt;code&gt;res.send()&lt;/code&gt; must not be sent until &lt;code&gt;saveToCloudFirestore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt; have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, we save the &lt;code&gt;saveToCloudFireStore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt; responses (the stuff they return) into a variable &lt;em&gt;whose sole purpose is to mark when the above function as done&lt;/em&gt;. This in a sense replaces a &lt;code&gt;.then()&lt;/code&gt;: it waits till both of these variables (&lt;code&gt;savedToCloud&lt;/code&gt; and &lt;code&gt;sentEmail&lt;/code&gt;) &amp;ldquo;have arrived&amp;rdquo; (aka their Promise has been resolved), then runs &lt;code&gt;res.send()&lt;/code&gt; with them.&lt;/li&gt;
 &lt;li&gt;For readability&amp;rsquo;s sake, I have &lt;strong&gt;removed the try/catch wrappings&lt;/strong&gt; here that you should be doing in practice. You should never not catch errors, but removing them makes the async/await concept easier to understand.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// this is the cloud function you can call over HTTP. It is basically for email relay:
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;22
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;23
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;24
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;25
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;26
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;27
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;28
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;29
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;30
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;31
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;32
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;33
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;34
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;35
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;36
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;37
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;38
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;39
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;40
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;41
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;42
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;43
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;44
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// this is the cloud function you can call over HTTP. It is basically for email relay:
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// saves to FireStore and sends and email with sendgrid.
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Finally, it sends a res.send() to end the cloud function
@@ -254,7 +302,9 @@
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;database&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;)
     &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt;;
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Again, &lt;strong&gt;wrap the 3 last async functions and the main function in try{}catch{} to catch errors&lt;/strong&gt;. Also, the database code cannot be copied over like this – it&amp;rsquo;s just for illustrative purposes. You have been warned!&lt;/p&gt;
 

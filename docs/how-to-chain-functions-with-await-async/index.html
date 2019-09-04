@@ -81,12 +81,60 @@
 <ul>
 <li>We have 2 normal sync functions <code>getFieldsFromRequest()</code> and <code>extractCourseIdFromEmailAddress()</code> – no issues here.</li>
 <li>Then we have <code>async</code> function <code>getEmailOfCourseWithCourseId()</code> which gets the course&rsquo;s email address from Firestore. We don&rsquo;t know how long getting stuff from Firestore will take so it&rsquo;s <code>async</code>, and will return (or resolve in promise parlance) the <code>courseEmail</code> we need to run the next 2 functions.</li>
-<li>The next 2 functions, <code>saveToCloudFirestore()</code> and <code>sendEmailInSendgrid()</code>, <em>must not</em> be run before <code>getEmailOfCourseWithCourseId()</code> is run and has returned <code>courseEmail</code>, or they will run with <code>courseEmail</code> as undefined and everything goes to shit. <strong>By passing in <code>courseEmail</code> that is <code>await</code>ing the function <code>getEmailOfCourseWithCourseId()</code> above</strong>, these functions (and the if operator) will wait until that has happened (aka promise has resolved), then run.</li>
+<li>The next 2 functions, <code>saveToCloudFirestore()</code> and <code>sendEmailInSendgrid()</code>, <em>must not</em> be run before <code>getEmailOfCourseWithCourseId()</code> is run and has returned <code>courseEmail</code>. If they do run too early, they will run with <code>courseEmail</code> as undefined and everything goes to shit. <strong>By passing in <code>courseEmail</code>, and setting it where it is defined on line 12 to <code>await getEmailOfCourseWithCourseId()</code></strong>, these functions will wait until courseEmail is defined (aka the functions have run and their promises have resolved), then run.</li>
 <li>Finally, <code>res.send()</code> must not be sent until <code>saveToCloudFirestore()</code> and <code>sendEmailInSendgrid()</code> have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, we save the <code>saveToCloudFireStore()</code> and <code>sendEmailInSendgrid()</code> responses (the stuff they return) into a variable <em>whose sole purpose is to mark when the above function as done</em>. This in a sense replaces a <code>.then()</code>: it waits till both of these variables (<code>savedToCloud</code> and <code>sentEmail</code>) &ldquo;have arrived&rdquo; (aka their Promise has been resolved), then runs <code>res.send()</code> with them.</li>
 <li>For readability&rsquo;s sake, I have <strong>removed the try/catch wrappings</strong> here that you should be doing in practice. You should never not catch errors, but removing them makes the async/await concept easier to understand.</li>
 </ul>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// this is the cloud function you can call over HTTP. It is basically for email relay:
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// this is the cloud function you can call over HTTP. It is basically for email relay:
 </span><span style="color:#75715e">// it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,
 </span><span style="color:#75715e">// saves to FireStore and sends and email with sendgrid.
 </span><span style="color:#75715e">// Finally, it sends a res.send() to end the cloud function
@@ -130,7 +178,9 @@
 </span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">savedToCloud</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">database</span>.<span style="color:#a6e22e">add</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">courseId</span>)
     <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">savedToCloud</span>;
 }
-</code></pre></div>
+</code></pre></td></tr></table>
+</div>
+</div>
 
 <p>Again, <strong>wrap the 3 last async functions and the main function in try{}catch{} to catch errors</strong>. Also, the database code cannot be copied over like this – it&rsquo;s just for illustrative purposes. You have been warned!</p>
 
