@@ -12,12 +12,12 @@ Here's working code that chains multiple functions, waits for everything to reso
 1. Every `async function myFunction(){ <your code here> }` declaration _automatically_ wraps the whole async function's code (ie. `<your code here>`) in a `new Promise`, and turns any `return x` within the code into `resolve(x)`. **But you still need to await** outside of it (ie. `let y = await myFunction()`) **or it won't actually wait**. The debugging around this is super annoying.
 2. Side note – in cloud functions, you _must_ send a response with `res.send()`, or the function will assume it's failed and re-run it. This obviously must happen once everything has run or your promises will get cancelled.
 
-The code below does 
+The code below: 
 
-* We have 2 normal sync functions `getFieldsFromRequest()` and `extractCourseIdFromEmailAddress()` – no issues here.
-* Then we have `async` function `getEmailOfCourseWithCourseId()` which gets the course's email address from Firestore. We don't know how long getting stuff from Firestore will take so it's `async`, and will return (or resolve in promise parlance) the `courseEmail` we need to run the next 2 functions. 
-* The next 2 functions, `saveToCloudFirestore()` and `sendEmailInSendgrid()`, _must not_ be run before `getEmailOfCourseWithCourseId()` is run and has returned `courseEmail`. If they do run too early, they will run with `courseEmail` as undefined and everything goes to shit. **By passing in `courseEmail`, and setting it where it is defined on line 12 to `await getEmailOfCourseWithCourseId()`**, these functions will wait until courseEmail is defined (aka the functions have run and their promises have resolved), then run.
-* Finally, `res.send()` must not be sent until `saveToCloudFirestore()` and `sendEmailInSendgrid()` have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, we save the `saveToCloudFireStore()` and `sendEmailInSendgrid()` responses (the stuff they return) into a variable _whose sole purpose is to mark when the above function as done_. This in a sense replaces a `.then()`: it waits till both of these variables (`savedToCloud` and `sentEmail`) "have arrived" (aka their Promise has been resolved), then runs `res.send()` with them.
+* First, we have 2 normal sync functions on lines 10 & 11 – `getFieldsFromRequest()` and `extractCourseIdFromEmailAddress()` – no issues here.
+* Then on line 12 we have `async` function `getEmailOfCourseWithCourseId()` which gets the course's email address from Firestore. We don't know how long getting stuff from Firestore will take so it's `async` on line 29, and will return (or 'resolve' in Promise parlance) the `courseEmail` we need to run the next 2 functions. 
+* The next 2 functions on line 13 & 14, `saveToCloudFirestore()` and `sendEmailInSendgrid()`, _must not_ be run before `getEmailOfCourseWithCourseId()` is run and has returned `courseEmail`. If they do run too early, they will run with `courseEmail` as undefined and everything goes to shit. **The key to chaining:** Pass in `courseEmail` as an argument to both functions, and on line 12 `let` courseEmail `await getEmailOfCourseWithCourseId()`. Result: The two following functions that we've passed courseEmail as an argument to will both wait until courseEmail is ready (aka the function has been run and promise has resolved), then run.
+* Finally, `res.send()` must not be sent until `saveToCloudFirestore()` and `sendEmailInSendgrid()` have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, same pattern: We save the `saveToCloudFireStore()` and `sendEmailInSendgrid()` responses (the stuff they return) into a variable _whose sole purpose this time round is to mark when the above function is done_. This in a sense replaces a `.then()`: it waits till both of these variables (`savedToCloud` and `sentEmail`) "have arrived" (aka their Promise has been resolved), then runs `res.send()` with them. FYI this is so that Firebase/SendGrid know that cloud function has worked and don't re-send endlessly. 
 * For readability's sake, I have **removed the try/catch wrappings** here that you should be doing in practice. You should never not catch errors, but removing them makes the async/await concept easier to understand.
 
 {{< highlight javascript "linenos=table" >}}
@@ -34,9 +34,9 @@ exports.emailFunction = functions.https.onRequest(async (req, res) => {
   let fields = getFieldsFromRequest(req); // sync
   let courseId = extractCourseIdFromEmailAddress(fields); // sync
   let courseEmail = await getEmailOfCourseWithCourseId(courseId); // async
-  let savedToCloud = await saveToCloudFirestore(fields, courseEmail, courseId); // async
-  let sentEmail = await sendEmailWithSendgrid(fields, courseEmail);  // async
-  res.status(200).send(savedToCloud, sentEmail); // Once sentEmail and saveToCloud have been returned (aka promises have been resolved, aka their functions have been run), res.send() will run so Firebase/SendGrid know that func worked. 
+  let savedToCloud = await saveToCloudFirestore(fields, courseEmail, courseId); // async, will run once courseEmail above has been populated (aka Promise has been returned)
+  let sentEmail = await sendEmailWithSendgrid(fields, courseEmail);  // async, will also run once courseEmail above has been populated (aka Promise has been returned)
+  res.status(200).send(savedToCloud, sentEmail); // will run once sentEmail and saveToCloud have been returned (aka their Promises have been resolved).
 });
 
 // Helper functions below
