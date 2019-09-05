@@ -47,6 +47,8 @@ image: /startup-updates-10/facebook-ads.png
 			* Suhas owning
 			* Based off 75 submissions have had so far
 			* **Results: 40 quotes completed, 6 purchase intents, $240 commission**
+			* Spent: $120. 
+			* ROI: 2x in
 			* CAC around $8 for a $40 payout on some ads.
 		* Google Ads
 			* No results yet, started today. But already visible!
