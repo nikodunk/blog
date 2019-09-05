@@ -133,7 +133,7 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 
 ![](/projects/demo_giftlab.png)
 
-With Elisa Chan, a platform to help non-profits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.
+With Elisa, a platform to help non-profits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.
 
 	Team
 	* Elisa (idea, product)
