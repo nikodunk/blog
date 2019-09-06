@@ -333,6 +333,11 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 	* React Native
 	* Google Firebase Auth / Storage
 
+	Stats
+	* 180 downloads
+	* Initially $0.99 / month => 4 subscribers after 3 months
+	* Now just $0.99
+
 -----------
 
 ## ![](/projects/logo_project-pegasus.png) Projectpegasus.io | Recycling rejected YCombinator applications
