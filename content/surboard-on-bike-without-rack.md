@@ -32,4 +32,14 @@ Added benefits of going to surf on a bike is a great warm-up, no parking hassle 
 
 ![](/surf/7.jpg)
 
+
+<video controls width="375">
+
+    <source src="/surf/the-turtle-surfboard-on-bike-method-without-a-rack.mov"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+
 I nickname it the Turtle. What do you think? Kook of the day, innovation, or seen this a million times? Let me know via email below.

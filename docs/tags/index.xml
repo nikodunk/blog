@@ -6,10 +6,28 @@
     <description>Recent content in Tags on D U N K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Aug 2019 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2019 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nikodunk.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learnings</title>
+      <link>https://nikodunk.com/tags/learnings/</link>
+      <pubDate>Thu, 05 Sep 2019 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/tags/learnings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Updates</title>
+      <link>https://nikodunk.com/tags/updates/</link>
+      <pubDate>Thu, 05 Sep 2019 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/tags/updates/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How-To</title>
@@ -26,24 +44,6 @@
       <pubDate>Mon, 19 Aug 2019 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/tags/surfing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learnings</title>
-      <link>https://nikodunk.com/tags/learnings/</link>
-      <pubDate>Sun, 11 Aug 2019 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/tags/learnings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Updates</title>
-      <link>https://nikodunk.com/tags/updates/</link>
-      <pubDate>Sun, 11 Aug 2019 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/tags/updates/</guid>
       <description></description>
     </item>
     

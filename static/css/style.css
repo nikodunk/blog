@@ -86,7 +86,6 @@ body,
 body div,
 caption,
 cite,
-code,
 dd,
 del,
 details,
@@ -1118,15 +1117,15 @@ a.box:active {
   top: 50%;
   position: absolute !important;
 }
-.content a:not(.button) {
+/* .content a:not(.button) {
   border-bottom: 1px solid #d3d6db;
-}
-.content a:not(.button):visited {
+} */
+/* .content a:not(.button):visited {
   color: #847bb9;
-}
-.content a:not(.button):hover {
+} */
+/* .content a:not(.button):hover {
   border-bottom-color: #2077b2;
-}
+} */
 .content li + li {
   margin-top: 0.25em;
 }
@@ -5478,9 +5477,9 @@ img[src$="#r"] {
   float: right;
   margin: 0.7rem;
 }
-.related a:not(.button) {
+/* .related a:not(.button) {
   border-bottom: none;
-}
+} */
 .related a:not(.button):visited {
   color: #000;
 }

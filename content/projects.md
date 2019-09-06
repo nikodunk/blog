@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learnings from projects & things I've made so far."
-date:   2019-08-11 08:00:00 -0700
+date:   2019-09-05 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 image: /projects/scientist.jpg
 ---
@@ -13,7 +13,7 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 -----------
 
-# Electrade | Solving Electric Vehicle Insurance
+## ![](/projects/logo_sustainability2.png) Electrade | Solving Electric Vehicle Insurance
 
 EV-first insurance at [electrade.app](https://www.electrade.app)
 
@@ -44,7 +44,7 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-# Classalog (contract)
+## ![](/projects/logo_classalog.png) Classalog (contract)
 
 [Classalog](https://classalog.org).
 
@@ -64,7 +64,7 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-# ![](/projects/logo_sustainability2.png) Electrify App | EV Services
+## ![](/projects/logo_sustainability2.png) Electrify App | EV Services
 
 ![](/projects/demo_electrify.gif)
 
@@ -92,7 +92,7 @@ App with various electric vehicle functions
 ------------
 
 
-# ![](/projects/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
+## ![](/projects/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
 
 ![](/projects/demo_paperworklabs.gif)
 
@@ -129,7 +129,7 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 
 
 
-# Giftlab.io | Kickstarter for physical donations
+## ![](/projects/logo_giftlab.png) Giftlab.io | Kickstarter for physical donations
 
 ![](/projects/demo_giftlab.png)
 
@@ -159,7 +159,7 @@ With Elisa, a platform to help non-profits fundraise more efficiently with more 
 
 
 
-# ![](/projects/logo_health.png) Soap Dictate App | Medical Note Transcription App
+## ![](/projects/logo_health.png) Soap Dictate App | Medical Note Transcription App
 
 Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.
 
@@ -198,7 +198,7 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 
 
-# ![](/projects/logo_sustainability1.gif) sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)
+## ![](/projects/logo_sustainability1.gif) sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)
 
 With Zebulon Reynolds (for part of the way), this project <a href="http://sunboxlabs.com" target="_blank">sunboxlabs.com</a> developed out of a <a href="https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4">HackerNoon</a> post from a hacked together project, implemented between jobs, where it garnered 200'000 views and was featured on <a href="https://news.ycombinator.com/item?id=15216650" target="_blank">HackerNews</a> (<a href="https://news.ycombinator.com/item?id=15216650" target="_blank">twice</a>!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! <a href="http://nikodunk.github.io/sunboxlabs">sunbox labs</a> was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at <i><a href="/solar">$200 Solar Self-Sufficiency – without your landlord noticing</a></i>.
 
@@ -228,7 +228,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 ------------
 
-# ![](/projects/logo_paper.png) Paperfurniture.com | Mail-order Sustainable Flatpack Furniture
+## ![](/projects/logo_paper.png) Paperfurniture.com | Mail-order Sustainable Flatpack Furniture
 
 The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.
 
@@ -264,7 +264,7 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 -----------
 
-# ![](/projects/logo_sustainability.png) GoodGood.io | B-Corp Price Tracker
+## ![](/projects/logo_sustainability.png) GoodGood.io | B-Corp Price Tracker
 
 Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
 
@@ -289,7 +289,7 @@ Utilising APIfier to scrape all B-Corp companies, and cross-referencing them wit
 
 -----------
 
-# ![](/projects/logo_health0.png) I Am Off! App | Off-day planner for Physicians
+## ![](/projects/logo_health0.png) I Am Off! App | Off-day planner for Physicians
 
 Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.
 
@@ -322,7 +322,7 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 -----------
 
 
-# Positivity Trainer
+## ![](/projects/logo_positivity.png) Positivity Trainer
 
 [PositivityTrainer](https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138)
 
@@ -330,7 +330,7 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 
 -----------
 
-# ![](/projects/logo_project-pegasus.png) Projectpegasus.io | Recycling rejected YCombinator applications
+## ![](/projects/logo_project-pegasus.png) Projectpegasus.io | Recycling rejected YCombinator applications
 
 ![](/projects/demo pegasus.png)
 
@@ -359,7 +359,7 @@ With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picke
 
 
 
-# Grammative
+## ![](/projects/logo_grammative.png) Grammative
 
 [Grammative](https://grammative.com)
 
@@ -518,7 +518,7 @@ Price comparison for sustainable energy – The initial version of the above pro
 # Blockchain
 --------------------------------------------------------------------------------------------------------------
 
-### Insureum | Insurance with smart contracts – 2nd place Angelhack SF 2018 (Consensys prize)
+## Insureum | Insurance with smart contracts – 2nd place Angelhack SF 2018 (Consensys prize)
 
 Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they've verified that you've paid up.
 
@@ -535,7 +535,8 @@ Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. 
 	Stats
 	* Coming Soon
 
-* [Insureum Web App](https://insureum.netlify.com) (note: requires [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile) to view)
+
+[Insureum Web App](https://insureum.netlify.com) (note: requires [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile) to view)
 
 
 ![](/projects/demo insureum.gif)
@@ -543,7 +544,7 @@ Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. 
 
 --------
 
-### Sensorcoin | Google Contacts on the blockchain
+## Sensorcoin | Google Contacts on the blockchain
 
 From November to January Phil Chacko and I worked on various other projects. All the following require [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile). 
 
@@ -555,12 +556,6 @@ From November to January Phil Chacko and I worked on various other projects. All
 So far we haven't been able to find a business case with these Dapps, and as described <a href="https://nikodunk.github.io/blockchain">here</a>, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.
 
 ![](/projects/ethereum.png)
-
-
-
-
-
-
 
 
 

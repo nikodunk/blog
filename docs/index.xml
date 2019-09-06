@@ -12,6 +12,615 @@
     
     
     <item>
+      <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
+      <link>https://nikodunk.com/projects/</link>
+      <pubDate>Thu, 05 Sep 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/projects/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;p&gt;This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/gianni_colombo.jpg&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/scientist.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-sustainability2-png-electrade-solving-electric-vehicle-insurance&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; Electrade | Solving Electric Vehicle Insurance&lt;/h2&gt;
+
+&lt;p&gt;EV-first insurance at &lt;a href=&#34;https://www.electrade.app&#34;&gt;electrade.app&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team:
+* Niko (Tech, Content, Strategy)
+* Suhas (Content, Paid, Strategy)
+* Armin (Advisor)
+
+Tech:
+* React Quote App
+* Hugo blog and static pages
+* Served from Node/Express/Postgres
+* Integrated with Clearcover API
+
+
+Stats:
+* MRR: $360
+* MAU: 2K
+* User acquisition: Physical marketing, SEO, Paid, Content
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://www.electrade.app&#34;&gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-classalog-png-classalog-contract&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_classalog.png&#34; alt=&#34;&#34; /&gt; Classalog (contract)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://classalog.org&#34;&gt;Classalog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_classalog.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* React frontend
+* Serverless Cloud Functions
+* NoSQL Firebase
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://classalog.org&#34;&gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-sustainability2-png-electrify-app-ev-services&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; Electrify App | EV Services&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrify.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;App with various electric vehicle functions&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team:
+* Armin (ideation, ops)
+* Niko (ideation, tech)
+
+Tech:
+* React-Native App
+* Backend Node/Express/Postgres
+* Stripe payment processing
+* Listing photos upload to S3
+* Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer
+* EV News updates through APIfy.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(see &lt;a href=&#34;https://nikodunk.com/startup-updates-7&#34;&gt;Startup Updates&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://apple.co/2wTOYTX&#34;&gt;App Store&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://bit.ly/2KjmICI&#34;&gt;Google Play&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/electrify-app&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-paperworklabs-png-paperworklabs-com-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paperworklabs.png&#34; alt=&#34;&#34; /&gt; paperworklabs.com | Turbotax for medical forms&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_paperworklabs.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;See ongoing progress in the newer posts on this site, like &lt;a href=&#34;https://nikodunk.com/startup-updates-1&#34;&gt;this one&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &amp;ldquo;turbotax for medical forms&amp;rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &amp;ldquo;smart forms&amp;rdquo; that can export flat PDFs, report on your &amp;ldquo;structured data&amp;rdquo;, and potentially integrates with EHRs if they let us. See demo on &lt;a href=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34;&gt;Youtube&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Mitul (sales advisory)
+* Niko (sales, tech)
+
+
+Tech
+* React frontend
+* Node/Express/Postgres backend
+* Docker on AWS Elastic Beanstalk
+* HIPAA compliant logging, access monitoring
+
+Stats
+* MRR: $1,843 (1x)
+* Price point: $99/month for all-you-can-eat medical smartforms
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://paperworklabs-demo.herokuapp.com&#34;&gt;Deployed Web App&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/paperworklabs&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-giftlab-png-giftlab-io-kickstarter-for-physical-donations&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_giftlab.png&#34; alt=&#34;&#34; /&gt; Giftlab.io | Kickstarter for physical donations&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_giftlab.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With Elisa, a platform to help non-profits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Elisa (idea, product)
+* Niko (tech)
+
+Tech:
+* Node/Express/Postgresql web app on Heroku 
+* Stripe Connect for payment routing
+* Amazon wishlists for product gifting
+* Mixpanel/Fullstory analytics
+
+Stats:
+* Total sales: $30.00
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://giftlab-demo.herokuapp.com&#34;&gt;Deployed Web App&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/giftlab-io&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-health-png-soap-dictate-app-medical-note-transcription-app&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health.png&#34; alt=&#34;&#34; /&gt; Soap Dictate App | Medical Note Transcription App&lt;/h2&gt;
+
+&lt;p&gt;Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.&lt;/p&gt;
+
+&lt;p&gt;Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month.&lt;/p&gt;
+
+&lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&amp;rsquo;s Speech Recognition API is unclear as it&amp;rsquo;s encrypted, but Apple won&amp;rsquo;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Libo (medical product advice)
+* Niko (product, tech)
+
+Tech
+* React Native App
+* Mobile Frontend in React Native with RNVoice library
+* Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
+* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
+
+Stats
+* MRR: $55
+* Paying customers: 20
+* Trial customers: 1
+* Price point: $3.99/month
+* 262 registered users
+* Organic app store search
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/app/id1384252497&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_soap.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/soapstats.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-sustainability1-gif-sunboxlabs-com-platform-for-diy-solar-kits-incl-price-tracking&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34; /&gt; sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)&lt;/h2&gt;
+
+&lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;a href=&#34;http://sunboxlabs.com&#34; target=&#34;_blank&#34;&gt;sunboxlabs.com&lt;/a&gt; developed out of a &lt;a href=&#34;https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4&#34;&gt;HackerNoon&lt;/a&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;HackerNews&lt;/a&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;twice&lt;/a&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;a href=&#34;http://nikodunk.github.io/sunboxlabs&#34;&gt;sunbox labs&lt;/a&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;i&gt;&lt;a href=&#34;https://nikodunk.com/solar&#34;&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team:
+* Niko (concept, writing, tech)
+* Zeb (marketing)
+
+Tech:
+* Static Hugo Site 
+* Dynamic pricing data scraped from Amazon with APIfy.com
+* User submitted content
+
+Stats
+* Revenue per month: $30
+* 204&#39;600 uniques from July 2017 - July 2018
+* 3.74% conversion to Amazon affiliate program
+* 8 submissions
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://sunboxlabs.com&#34;&gt;Sunboxlabs.com Site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/sunboxlabssite3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-paper-png-paperfurniture-com-mail-order-sustainable-flatpack-furniture&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paper.png&#34; alt=&#34;&#34; /&gt; Paperfurniture.com | Mail-order Sustainable Flatpack Furniture&lt;/h2&gt;
+
+&lt;p&gt;The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/paper.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.&lt;/p&gt;
+
+&lt;p&gt;We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team:
+* Benjamin (legal, ops, marketing)
+* Niko (product, tech)
+
+Tech:
+* CNC-Milled furniture built in Rhinoceros modelling
+* Squarespace site
+
+Stats
+* Sales: $9,400
+* Revenue: N/A
+* I4C Clean-Tech Startup Accelerator Cohort ‘14
+* Pre-Seed round (aborted)
+* My first ever entrepreneurial project
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nikodunk.github.io/smoke/&#34;&gt;Smokefurniture.com Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/smokesite.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-sustainability-png-goodgood-io-b-corp-price-tracker&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; GoodGood.io | B-Corp Price Tracker&lt;/h2&gt;
+
+&lt;p&gt;Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing &amp;amp; image data from Viglink API.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Niko
+
+Tech
+* Angular 2 app
+* Dynamic pricing &amp;amp; product data from Viglink API
+* B-Corps scraped from bcorporation.com with APIfy.com
+
+Stats
+* MRR: $0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/bamazon/&#34;&gt;Goodgood.io 1.0 Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/bamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-health0-png-i-am-off-app-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! App | Off-day planner for Physicians&lt;/h2&gt;
+
+&lt;p&gt;Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Libo (idea, product)
+* Niko (tech)
+
+Tech
+* React Native App with Node Server:
+* Frontend in React Native/Redux
+* Backend in Node/Express/PostgreSQL running on Heroku
+
+Stats
+* MRR: $0
+* 369 users at Stanford Medicine, Utah Medical, Harvard Medical.
+* 145 WAUs
+* Price: Free
+* Growth through internship onboardings, organic.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/i-am-off/id1378071021&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.pokedoc.iamoff&#34;&gt;Google Play Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_iamoff.gif&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/demo_iamoff.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-positivity-png-positivity-trainer&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_positivity.png&#34; alt=&#34;&#34; /&gt; Positivity Trainer&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138&#34;&gt;PositivityTrainer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_positivity.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-project-pegasus-png-projectpegasus-io-recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_project-pegasus.png&#34; alt=&#34;&#34; /&gt; Projectpegasus.io | Recycling rejected YCombinator applications&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo pegasus.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Dorena (idea, ops)
+* Can (idea, product, tech)
+* Niko (idea, product, tech)
+
+Tech:
+* Hugo Static Site, loads of email.
+
+Stats
+* 52 startups applied with old YC applications
+* 7 investors applied for insights into the startups
+* 4 rounds sent, suggesting 48 startups in total.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://projectpegasus.io&#34;&gt;Project Pegasus Site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects-logo-grammative-png-grammative&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_grammative.png&#34; alt=&#34;&#34; /&gt; Grammative&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://grammative.com&#34;&gt;Grammative&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Free marketing copy review. Jump the queue for $49&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team:
+* Niko
+* Suhas
+
+Tech:
+* Static page with formspree
+
+Stats:
+* Revenue: $140
+* User acquisition: Product Hunt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_grammative.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;misc-hardware-projects&#34;&gt;Misc Hardware Projects&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;juicebar-hardware-concept&#34;&gt;Juicebar – (hardware concept)&lt;/h3&gt;
+
+&lt;p&gt;Juicebar was a windowsill energy generator meant to ehlp urbanites be energy independent without access to their rooftops.&lt;/p&gt;
+
+&lt;p&gt;The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post &lt;a href=&#34;https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/&#34; target=&#34;_blank&#34;&gt;“How I gave up alternating current”&lt;/a&gt;. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/juicebar.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/juicebar.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Customers objected that the device was too expensive vs. what money they could save. They also objected that the embodied energy was so high, it would take years to pay off and be “greener” than before. Finally, they objected that the IoT features were useless.&lt;/p&gt;
+
+&lt;p&gt;The juicebar project originally came about in the dying days of Paper Inc.: I started playing around with added electrical components to differentiate the tables and chairs we’d already bought and hope to liquidate them on Kickstarter (below). Eventually I dropped the tables completely and went on with a pure window-sill design above. I also added an Arduino for good measure so I could track electrical production during the day (and because IoT funding was readily available…). I also got sucked up in the IoT craze (since this was technically an IoT product), and spent a lot of time pitching and filming, instead of improving the product. This was my first project where coding was involved, so I’m thankful for that. Many Alibaba-sourced 12V lithium batteries &amp;amp; panels were thrashed at this stage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/juice.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/juice2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;lunch-a-cnc-carved-chair-project&#34;&gt;LUNCH | A CNC-carved chair project&lt;/h3&gt;
+
+&lt;p&gt;LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 20 were ever made. Very expensive. I learned that making your own goods is a whole different operation from selling them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/lunch.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/lunch.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/lunch2.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/lunch3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Student project, Thomas Meyer and I put in many man-hours into the leather-, copper- and woodwork necessary for this project.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/loungeforceone.jpg&#34; alt=&#34;&#34; /&gt;  &lt;img src=&#34;https://nikodunk.com/projects/loungeforcetwo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;other-web-tech-demos&#34;&gt;Other web tech demos&lt;/h3&gt;
+
+&lt;p&gt;Focuswriter – VR productivity app for distraction-free writing, written in reactVR. Look around and type away as the text wraps itself around you. Be sure to click on the moon above your head to switch to GALAXYMODE.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* ReactVR
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/focuswriter-react-vr&#34;&gt;FocusWriter Web App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo2.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;CollaborativeToDo was a React &amp;amp; Firebase to-do list app w/ full Drag n drop, CRUD. This was chiefly to solve a to-do list excel and email overload we were all suffering from at the office, and let these lists be easily shared and collaborated on between team members.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* React
+* Firebase
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/simple-to-do-react&#34;&gt;CollaborativeTodo Web App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/nikodunk/solar-search-swift&#34;&gt;Solar Summon&lt;/a&gt; – Solar search for iOS drawing from MapKit, and &lt;a href=&#34;https://github.com/nikodunk/reactnativesolar&#34;&gt;Solar Summon&lt;/a&gt; – Later Rebuilt in React Native. These were my first iOS projects in Swift and React Native.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo4.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;goodgood-sustainable-cosmetic-price-tracker&#34;&gt;Goodgood | Sustainable Cosmetic Price Tracker&lt;/h3&gt;
+
+&lt;p&gt;GoodGood, a software project to help families find skinsafe products for their babies, by cross-referencing EWG&amp;rsquo;s safe skincare products.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* Angular 2 app
+* Viglink API
+* APIfier scraping ewg.org
+* Firebase NoSQL database
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/ewg-search/&#34;&gt;Goodgood.io Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/goodgood.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;superjuice-2-producthunt-for-sustainable-products&#34;&gt;Superjuice 2 | Producthunt for sustainable products&lt;/h3&gt;
+
+&lt;p&gt;A “product hunt” for the videos of certified green companies. This initial version involved no scraping, but socially assembled list of brands and goods. This was based around a voting system for popularity.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* Angular 2 App
+* Firebase backend
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/sustainable-co-videos/&#34;&gt;Superjuice.cc Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/superjuice2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;projects-logo-superjuice-png-superjuice-kayak-for-energy&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_superjuice.png&#34; alt=&#34;&#34; /&gt;  Superjuice | Kayak for Energy&lt;/h3&gt;
+
+&lt;p&gt;Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* Angular 2 App
+* My first software project
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/superjuice.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;blockchain&#34;&gt;Blockchain&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;insureum-insurance-with-smart-contracts-2nd-place-angelhack-sf-2018-consensys-prize&#34;&gt;Insureum | Insurance with smart contracts – 2nd place Angelhack SF 2018 (Consensys prize)&lt;/h2&gt;
+
+&lt;p&gt;Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they&amp;rsquo;ve verified that you&amp;rsquo;ve paid up.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Two guys from the hackathon (idea)
+* Niko (Tech, product)
+
+
+Tech
+* Ethereum Dapp written with Truffle and Infura
+* Frontend in Vanilla Javascript/Web3/Webpack (Truffle)
+* Contract in Solidity, deployed on Rinkeby with Infura
+
+Stats
+* Coming Soon
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://insureum.netlify.com&#34;&gt;Insureum Web App&lt;/a&gt; (note: requires &lt;a href=&#34;http://metamask.io&#34;&gt;Metamask&lt;/a&gt; on desktop or &lt;a href=&#34;http://toshi.org&#34;&gt;Toshi&lt;/a&gt; on mobile) to view)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo insureum.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;sensorcoin-google-contacts-on-the-blockchain&#34;&gt;Sensorcoin | Google Contacts on the blockchain&lt;/h2&gt;
+
+&lt;p&gt;From November to January Phil Chacko and I worked on various other projects. All the following require &lt;a href=&#34;http://metamask.io&#34;&gt;Metamask&lt;/a&gt; on desktop or &lt;a href=&#34;http://toshi.org&#34;&gt;Toshi&lt;/a&gt; on mobile).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/escron&#34;&gt;ESCRON&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/sensorcoin/&#34;&gt;Sensorcoin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/contactStorage&#34;&gt;Universal Contact Storage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A landing page suggesting an &lt;a href=&#34;https://nikodunk.github.io/coinhold/&#34;&gt;Institutional-grade investment tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So far we haven&amp;rsquo;t been able to find a business case with these Dapps, and as described &lt;a href=&#34;https://nikodunk.github.io/blockchain&#34;&gt;here&lt;/a&gt;, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/ethereum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;work&#34;&gt;Work&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;building-a-startup-accelerator-at-swissnexsf&#34;&gt;Building a startup accelerator at swissnexSF&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/moneyshot1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next to my learnings described &lt;a href=&#34;https://nikodunk.com/accelerator&#34;&gt;here&lt;/a&gt;, and numerous lessons in marketing, project management, team, networks, et al, I&amp;rsquo;d like to hold on to one quote from a superior that will stick with me for a while:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;The degree to which you can deploy a digital solution is limited by the network in which you can deploy it.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;site:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.swissnexsf.org/startups&#34;&gt;https://www.swissnexsf.org/startups&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;media coverage:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.startupticker.ch/en/news/february-2018/swiss-startups-join-innosuisse-market-entry-camp-in-san-francisco&#34;&gt;https://www.startupticker.ch/en/news/february-2018/swiss-startups-join-innosuisse-market-entry-camp-in-san-francisco&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.startupticker.ch/en/news/may-2018/applications-open-for-startup-camp-in-san-francisco&#34;&gt;https://www.startupticker.ch/en/news/may-2018/applications-open-for-startup-camp-in-san-francisco&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco&#34;&gt;https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;writing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nextrends.swissnexsanfrancisco.org/back-to-the-city/&#34;&gt;https://nextrends.swissnexsanfrancisco.org/back-to-the-city/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/accelerator&#34;&gt;https://nikodunk.github.io/accelerator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;eponym-business-development-and-software-development-work&#34;&gt;Eponym – Business Development and Software Development (work)&lt;/h3&gt;
+
+&lt;p&gt;Coming soon&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;employment-at-herzog-de-meuron&#34;&gt;Employment at Herzog &amp;amp; de Meuron&lt;/h3&gt;
+
+&lt;p&gt;When working professionally, designed facades and interiors mostly for competition work. This facade was designed by the team I was on at a large architecture firm in Basel, Switzerland. We won that competition.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/hillerod.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;architecture-engineering-at-eth-zurich&#34;&gt;Architecture/Engineering at ETH Zurich&lt;/h3&gt;
+
+&lt;p&gt;Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”. This project reflected the poetic side of architecture – most of the school was engineering.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/sik.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/emerson.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;ux-ui-contracting-in-sf&#34;&gt;UX/UI contracting in SF&lt;/h3&gt;
+
+&lt;p&gt;I learned a huge amount about dealing with clients, together with my friend Zebulon Reynolds in San Francisco. The game was an iOS Flight Simulator.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Team
+* Zebulon
+* Niko
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/infinite.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://nikodunk.com/projects/infinite.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;the-beginning-of-time&#34;&gt;The beginning of time.&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;You made it this far!&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>Patent NA25396 – A better method to transport a surfboard on a bike</title>
       <link>https://nikodunk.com/surboard-on-bike-without-rack/</link>
       <pubDate>Mon, 19 Aug 2019 08:00:00 -0700</pubDate>
@@ -45,6 +654,14 @@
 &lt;img src=&#34;https://nikodunk.com/surf/6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;video controls width=&#34;375&#34;&gt;
+
+    &lt;source src=&#34;https://nikodunk.com/surf/the-turtle-surfboard-on-bike-method-without-a-rack.mov&#34;
+            type=&#34;video/mp4&#34;&gt;
+
+    Sorry, your browser doesn&#39;t support embedded videos.
+&lt;/video&gt;
 
 &lt;p&gt;I nickname it the Turtle. What do you think? Kook of the day, innovation, or seen this a million times? Let me know via email below.&lt;/p&gt;
 </content>
@@ -313,617 +930,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://ui.toast.com/weekly-pick/ko_20190826/&#34;&gt;Korean Translation by Toast UI here&lt;/a&gt;. Thanks guys!&lt;/p&gt;
-</content>
-      
-    </item>
-    
-    <item>
-      <title>Learnings from projects &amp; things I&#39;ve made so far.</title>
-      <link>https://nikodunk.com/projects/</link>
-      <pubDate>Sun, 11 Aug 2019 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/projects/</guid>
-      <description></description>
-      
-      <content>
-
-&lt;p&gt;This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/gianni_colombo.jpg&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/scientist.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;electrade-solving-electric-vehicle-insurance&#34;&gt;Electrade | Solving Electric Vehicle Insurance&lt;/h1&gt;
-
-&lt;p&gt;EV-first insurance at &lt;a href=&#34;https://www.electrade.app&#34;&gt;electrade.app&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team:
-* Niko (Tech, Content, Strategy)
-* Suhas (Content, Paid, Strategy)
-* Armin (Advisor)
-
-Tech:
-* React Quote App
-* Hugo blog and static pages
-* Served from Node/Express/Postgres
-* Integrated with Clearcover API
-
-
-Stats:
-* MRR: $360
-* MAU: 2K
-* User acquisition: Physical marketing, SEO, Paid, Content
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://www.electrade.app&#34;&gt;Website&lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;classalog-contract&#34;&gt;Classalog (contract)&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://classalog.org&#34;&gt;Classalog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_classalog.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Tech
-* React frontend
-* Serverless Cloud Functions
-* NoSQL Firebase
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://classalog.org&#34;&gt;Website&lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;projects-logo-sustainability2-png-electrify-app-ev-services&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability2.png&#34; alt=&#34;&#34; /&gt; Electrify App | EV Services&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrify.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;App with various electric vehicle functions&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team:
-* Armin (ideation, ops)
-* Niko (ideation, tech)
-
-Tech:
-* React-Native App
-* Backend Node/Express/Postgres
-* Stripe payment processing
-* Listing photos upload to S3
-* Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer
-* EV News updates through APIfy.com
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;(see &lt;a href=&#34;https://nikodunk.com/startup-updates-7&#34;&gt;Startup Updates&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://apple.co/2wTOYTX&#34;&gt;App Store&lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://bit.ly/2KjmICI&#34;&gt;Google Play&lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/electrify-app&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;projects-logo-paperworklabs-png-paperworklabs-com-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paperworklabs.png&#34; alt=&#34;&#34; /&gt; paperworklabs.com | Turbotax for medical forms&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_paperworklabs.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;See ongoing progress in the newer posts on this site, like &lt;a href=&#34;https://nikodunk.com/startup-updates-1&#34;&gt;this one&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple &amp;ldquo;turbotax for medical forms&amp;rdquo; in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated &amp;ldquo;smart forms&amp;rdquo; that can export flat PDFs, report on your &amp;ldquo;structured data&amp;rdquo;, and potentially integrates with EHRs if they let us. See demo on &lt;a href=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34;&gt;Youtube&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Mitul (sales advisory)
-* Niko (sales, tech)
-
-
-Tech
-* React frontend
-* Node/Express/Postgres backend
-* Docker on AWS Elastic Beanstalk
-* HIPAA compliant logging, access monitoring
-
-Stats
-* MRR: $1,843 (1x)
-* Price point: $99/month for all-you-can-eat medical smartforms
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://paperworklabs-demo.herokuapp.com&#34;&gt;Deployed Web App&lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/paperworklabs&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;giftlab-io-kickstarter-for-physical-donations&#34;&gt;Giftlab.io | Kickstarter for physical donations&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_giftlab.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With Elisa, a platform to help non-profits fundraise more efficiently with more transparency and new donation methods including Amazon Wishlists, Itemized budgets and corporate donations.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Elisa (idea, product)
-* Niko (tech)
-
-Tech:
-* Node/Express/Postgresql web app on Heroku 
-* Stripe Connect for payment routing
-* Amazon wishlists for product gifting
-* Mixpanel/Fullstory analytics
-
-Stats:
-* Total sales: $30.00
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://giftlab-demo.herokuapp.com&#34;&gt;Deployed Web App&lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/giftlab-io&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;projects-logo-health-png-soap-dictate-app-medical-note-transcription-app&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health.png&#34; alt=&#34;&#34; /&gt; Soap Dictate App | Medical Note Transcription App&lt;/h1&gt;
-
-&lt;p&gt;Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.&lt;/p&gt;
-
-&lt;p&gt;Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month.&lt;/p&gt;
-
-&lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&amp;rsquo;s Speech Recognition API is unclear as it&amp;rsquo;s encrypted, but Apple won&amp;rsquo;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Libo (medical product advice)
-* Niko (product, tech)
-
-Tech
-* React Native App
-* Mobile Frontend in React Native with RNVoice library
-* Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
-* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
-
-Stats
-* MRR: $55
-* Paying customers: 20
-* Trial customers: 1
-* Price point: $3.99/month
-* 262 registered users
-* Organic app store search
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/app/id1384252497&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_soap.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/soapstats.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;projects-logo-sustainability1-gif-sunboxlabs-com-platform-for-diy-solar-kits-incl-price-tracking&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34; /&gt; sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)&lt;/h1&gt;
-
-&lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;a href=&#34;http://sunboxlabs.com&#34; target=&#34;_blank&#34;&gt;sunboxlabs.com&lt;/a&gt; developed out of a &lt;a href=&#34;https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4&#34;&gt;HackerNoon&lt;/a&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;HackerNews&lt;/a&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;twice&lt;/a&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;a href=&#34;http://nikodunk.github.io/sunboxlabs&#34;&gt;sunbox labs&lt;/a&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;i&gt;&lt;a href=&#34;https://nikodunk.com/solar&#34;&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team:
-* Niko (concept, writing, tech)
-* Zeb (marketing)
-
-Tech:
-* Static Hugo Site 
-* Dynamic pricing data scraped from Amazon with APIfy.com
-* User submitted content
-
-Stats
-* Revenue per month: $30
-* 204&#39;600 uniques from July 2017 - July 2018
-* 3.74% conversion to Amazon affiliate program
-* 8 submissions
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://sunboxlabs.com&#34;&gt;Sunboxlabs.com Site&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/sunboxlabssite3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;projects-logo-paper-png-paperfurniture-com-mail-order-sustainable-flatpack-furniture&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paper.png&#34; alt=&#34;&#34; /&gt; Paperfurniture.com | Mail-order Sustainable Flatpack Furniture&lt;/h1&gt;
-
-&lt;p&gt;The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/paper.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.&lt;/p&gt;
-
-&lt;p&gt;We ended up pivoting to cnc-milled wood before we started out of fear that people wouldn’t want cardboard furniture. Maybe in retrospect thereby torpedo-ing our differentiation. This also pushed us up over the impulse-buy territory we’d previously occupied, and reduced the furniture’s lightweight mail-order nature. We renamed the project Smoke at the same time and offered all-in-one kits. We raised some pre-seed capital from Swiss Venture days 2015, but my co-founder jumped off back into the corporate world at the wrong moment and the investors re-scinded their offer. Looking back we should have stayed with the original, clear concept of paper furniture and run with it.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team:
-* Benjamin (legal, ops, marketing)
-* Niko (product, tech)
-
-Tech:
-* CNC-Milled furniture built in Rhinoceros modelling
-* Squarespace site
-
-Stats
-* Sales: $9,400
-* Revenue: N/A
-* I4C Clean-Tech Startup Accelerator Cohort ‘14
-* Pre-Seed round (aborted)
-* My first ever entrepreneurial project
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://nikodunk.github.io/smoke/&#34;&gt;Smokefurniture.com Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/smokesite.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;projects-logo-sustainability-png-goodgood-io-b-corp-price-tracker&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; GoodGood.io | B-Corp Price Tracker&lt;/h1&gt;
-
-&lt;p&gt;Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing &amp;amp; image data from Viglink API.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Niko
-
-Tech
-* Angular 2 app
-* Dynamic pricing &amp;amp; product data from Viglink API
-* B-Corps scraped from bcorporation.com with APIfy.com
-
-Stats
-* MRR: $0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/bamazon/&#34;&gt;Goodgood.io 1.0 Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/bamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;projects-logo-health0-png-i-am-off-app-off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health0.png&#34; alt=&#34;&#34; /&gt; I Am Off! App | Off-day planner for Physicians&lt;/h1&gt;
-
-&lt;p&gt;Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Libo (idea, product)
-* Niko (tech)
-
-Tech
-* React Native App with Node Server:
-* Frontend in React Native/Redux
-* Backend in Node/Express/PostgreSQL running on Heroku
-
-Stats
-* MRR: $0
-* 369 users at Stanford Medicine, Utah Medical, Harvard Medical.
-* 145 WAUs
-* Price: Free
-* Growth through internship onboardings, organic.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/i-am-off/id1378071021&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.pokedoc.iamoff&#34;&gt;Google Play Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_iamoff.gif&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/projects/demo_iamoff.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;positivity-trainer&#34;&gt;Positivity Trainer&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138&#34;&gt;PositivityTrainer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_positivity.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;projects-logo-project-pegasus-png-projectpegasus-io-recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_project-pegasus.png&#34; alt=&#34;&#34; /&gt; Projectpegasus.io | Recycling rejected YCombinator applications&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo pegasus.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Dorena (idea, ops)
-* Can (idea, product, tech)
-* Niko (idea, product, tech)
-
-Tech:
-* Hugo Static Site, loads of email.
-
-Stats
-* 52 startups applied with old YC applications
-* 7 investors applied for insights into the startups
-* 4 rounds sent, suggesting 48 startups in total.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://projectpegasus.io&#34;&gt;Project Pegasus Site&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;grammative&#34;&gt;Grammative&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://grammative.com&#34;&gt;Grammative&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Free marketing copy review. Jump the queue for $49&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team:
-* Niko
-* Suhas
-
-Tech:
-* Static page with formspree
-
-Stats:
-* Revenue: $140
-* User acquisition: Product Hunt
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_grammative.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;misc-hardware-projects&#34;&gt;Misc Hardware Projects&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;juicebar-hardware-concept&#34;&gt;Juicebar – (hardware concept)&lt;/h3&gt;
-
-&lt;p&gt;Juicebar was a windowsill energy generator meant to ehlp urbanites be energy independent without access to their rooftops.&lt;/p&gt;
-
-&lt;p&gt;The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post &lt;a href=&#34;https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/&#34; target=&#34;_blank&#34;&gt;“How I gave up alternating current”&lt;/a&gt;. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/juicebar.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/projects/juicebar.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Customers objected that the device was too expensive vs. what money they could save. They also objected that the embodied energy was so high, it would take years to pay off and be “greener” than before. Finally, they objected that the IoT features were useless.&lt;/p&gt;
-
-&lt;p&gt;The juicebar project originally came about in the dying days of Paper Inc.: I started playing around with added electrical components to differentiate the tables and chairs we’d already bought and hope to liquidate them on Kickstarter (below). Eventually I dropped the tables completely and went on with a pure window-sill design above. I also added an Arduino for good measure so I could track electrical production during the day (and because IoT funding was readily available…). I also got sucked up in the IoT craze (since this was technically an IoT product), and spent a lot of time pitching and filming, instead of improving the product. This was my first project where coding was involved, so I’m thankful for that. Many Alibaba-sourced 12V lithium batteries &amp;amp; panels were thrashed at this stage.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/juice.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/projects/juice2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;lunch-a-cnc-carved-chair-project&#34;&gt;LUNCH | A CNC-carved chair project&lt;/h3&gt;
-
-&lt;p&gt;LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 20 were ever made. Very expensive. I learned that making your own goods is a whole different operation from selling them.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/lunch.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/projects/lunch.gif&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-&lt;img src=&#34;https://nikodunk.com/projects/lunch2.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/projects/lunch3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Student project, Thomas Meyer and I put in many man-hours into the leather-, copper- and woodwork necessary for this project.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/loungeforceone.jpg&#34; alt=&#34;&#34; /&gt;  &lt;img src=&#34;https://nikodunk.com/projects/loungeforcetwo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;other-web-tech-demos&#34;&gt;Other web tech demos&lt;/h3&gt;
-
-&lt;p&gt;Focuswriter – VR productivity app for distraction-free writing, written in reactVR. Look around and type away as the text wraps itself around you. Be sure to click on the moon above your head to switch to GALAXYMODE.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Tech
-* ReactVR
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/focuswriter-react-vr&#34;&gt;FocusWriter Web App&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo2.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;CollaborativeToDo was a React &amp;amp; Firebase to-do list app w/ full Drag n drop, CRUD. This was chiefly to solve a to-do list excel and email overload we were all suffering from at the office, and let these lists be easily shared and collaborated on between team members.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Tech
-* React
-* Firebase
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/simple-to-do-react&#34;&gt;CollaborativeTodo Web App&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/nikodunk/solar-search-swift&#34;&gt;Solar Summon&lt;/a&gt; – Solar search for iOS drawing from MapKit, and &lt;a href=&#34;https://github.com/nikodunk/reactnativesolar&#34;&gt;Solar Summon&lt;/a&gt; – Later Rebuilt in React Native. These were my first iOS projects in Swift and React Native.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo4.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;goodgood-sustainable-cosmetic-price-tracker&#34;&gt;Goodgood | Sustainable Cosmetic Price Tracker&lt;/h3&gt;
-
-&lt;p&gt;GoodGood, a software project to help families find skinsafe products for their babies, by cross-referencing EWG&amp;rsquo;s safe skincare products.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Tech
-* Angular 2 app
-* Viglink API
-* APIfier scraping ewg.org
-* Firebase NoSQL database
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/ewg-search/&#34;&gt;Goodgood.io Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/goodgood.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;superjuice-2-producthunt-for-sustainable-products&#34;&gt;Superjuice 2 | Producthunt for sustainable products&lt;/h3&gt;
-
-&lt;p&gt;A “product hunt” for the videos of certified green companies. This initial version involved no scraping, but socially assembled list of brands and goods. This was based around a voting system for popularity.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Tech
-* Angular 2 App
-* Firebase backend
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/sustainable-co-videos/&#34;&gt;Superjuice.cc Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/superjuice2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;projects-logo-superjuice-png-superjuice-kayak-for-energy&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_superjuice.png&#34; alt=&#34;&#34; /&gt;  Superjuice | Kayak for Energy&lt;/h3&gt;
-
-&lt;p&gt;Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Tech
-* Angular 2 App
-* My first software project
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/superjuice.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;blockchain&#34;&gt;Blockchain&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;insureum-insurance-with-smart-contracts-2nd-place-angelhack-sf-2018-consensys-prize&#34;&gt;Insureum | Insurance with smart contracts – 2nd place Angelhack SF 2018 (Consensys prize)&lt;/h3&gt;
-
-&lt;p&gt;Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they&amp;rsquo;ve verified that you&amp;rsquo;ve paid up.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Two guys from the hackathon (idea)
-* Niko (Tech, product)
-
-
-Tech
-* Ethereum Dapp written with Truffle and Infura
-* Frontend in Vanilla Javascript/Web3/Webpack (Truffle)
-* Contract in Solidity, deployed on Rinkeby with Infura
-
-Stats
-* Coming Soon
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://insureum.netlify.com&#34;&gt;Insureum Web App&lt;/a&gt; (note: requires &lt;a href=&#34;http://metamask.io&#34;&gt;Metamask&lt;/a&gt; on desktop or &lt;a href=&#34;http://toshi.org&#34;&gt;Toshi&lt;/a&gt; on mobile) to view)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo insureum.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;sensorcoin-google-contacts-on-the-blockchain&#34;&gt;Sensorcoin | Google Contacts on the blockchain&lt;/h3&gt;
-
-&lt;p&gt;From November to January Phil Chacko and I worked on various other projects. All the following require &lt;a href=&#34;http://metamask.io&#34;&gt;Metamask&lt;/a&gt; on desktop or &lt;a href=&#34;http://toshi.org&#34;&gt;Toshi&lt;/a&gt; on mobile).&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/escron&#34;&gt;ESCRON&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/sensorcoin/&#34;&gt;Sensorcoin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/contactStorage&#34;&gt;Universal Contact Storage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;A landing page suggesting an &lt;a href=&#34;https://nikodunk.github.io/coinhold/&#34;&gt;Institutional-grade investment tool&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So far we haven&amp;rsquo;t been able to find a business case with these Dapps, and as described &lt;a href=&#34;https://nikodunk.github.io/blockchain&#34;&gt;here&lt;/a&gt;, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/ethereum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;work&#34;&gt;Work&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;building-a-startup-accelerator-at-swissnexsf&#34;&gt;Building a startup accelerator at swissnexSF&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/moneyshot1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Next to my learnings described &lt;a href=&#34;https://nikodunk.com/accelerator&#34;&gt;here&lt;/a&gt;, and numerous lessons in marketing, project management, team, networks, et al, I&amp;rsquo;d like to hold on to one quote from a superior that will stick with me for a while:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;The degree to which you can deploy a digital solution is limited by the network in which you can deploy it.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;site:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.swissnexsf.org/startups&#34;&gt;https://www.swissnexsf.org/startups&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;media coverage:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.startupticker.ch/en/news/february-2018/swiss-startups-join-innosuisse-market-entry-camp-in-san-francisco&#34;&gt;https://www.startupticker.ch/en/news/february-2018/swiss-startups-join-innosuisse-market-entry-camp-in-san-francisco&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.startupticker.ch/en/news/may-2018/applications-open-for-startup-camp-in-san-francisco&#34;&gt;https://www.startupticker.ch/en/news/may-2018/applications-open-for-startup-camp-in-san-francisco&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco&#34;&gt;https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;writing:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nextrends.swissnexsanfrancisco.org/back-to-the-city/&#34;&gt;https://nextrends.swissnexsanfrancisco.org/back-to-the-city/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/accelerator&#34;&gt;https://nikodunk.github.io/accelerator&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;eponym-business-development-and-software-development-work&#34;&gt;Eponym – Business Development and Software Development (work)&lt;/h3&gt;
-
-&lt;p&gt;Coming soon&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;employment-at-herzog-de-meuron&#34;&gt;Employment at Herzog &amp;amp; de Meuron&lt;/h3&gt;
-
-&lt;p&gt;When working professionally, designed facades and interiors mostly for competition work. This facade was designed by the team I was on at a large architecture firm in Basel, Switzerland. We won that competition.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/hillerod.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;architecture-engineering-at-eth-zurich&#34;&gt;Architecture/Engineering at ETH Zurich&lt;/h3&gt;
-
-&lt;p&gt;Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”. This project reflected the poetic side of architecture – most of the school was engineering.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/sik.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/projects/emerson.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;ux-ui-contracting-in-sf&#34;&gt;UX/UI contracting in SF&lt;/h3&gt;
-
-&lt;p&gt;I learned a huge amount about dealing with clients, together with my friend Zebulon Reynolds in San Francisco. The game was an iOS Flight Simulator.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Team
-* Zebulon
-* Niko
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/infinite.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;https://nikodunk.com/projects/infinite.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;the-beginning-of-time&#34;&gt;The beginning of time.&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;You made it this far!&lt;/p&gt;
-
-&lt;hr /&gt;
 </content>
       
     </item>
