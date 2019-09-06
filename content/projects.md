@@ -44,17 +44,17 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-## ![](/projects/logo_classalog.png) Classalog (contract)
+## ![](/projects/logo_classalog.png) Classalog (friend's project)
 
 [Classalog](https://classalog.org).
 
 ![](/projects/demo_classalog.png)
 
-
 	Tech
 	* React frontend
-	* Serverless Cloud Functions
-	* NoSQL Firebase
+	* Google Firebase Auth / Storage
+	* Google Firebase Cloud Functions
+	* Scraping with APIfy
 
 
 <a class="btn btn-outline-primary" href="https://classalog.org">Website</a>
@@ -327,6 +327,11 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 [PositivityTrainer](https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138)
 
 ![](/projects/demo_positivity.jpg)
+
+
+	Tech
+	* React Native
+	* Google Firebase Auth / Storage
 
 -----------
 

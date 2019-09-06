@@ -56,7 +56,7 @@ Stats:
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;projects-logo-classalog-png-classalog-contract&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_classalog.png&#34; alt=&#34;&#34; /&gt; Classalog (contract)&lt;/h2&gt;
+&lt;h2 id=&#34;projects-logo-classalog-png-classalog-friend-s-project&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_classalog.png&#34; alt=&#34;&#34; /&gt; Classalog (friend&amp;rsquo;s project)&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://classalog.org&#34;&gt;Classalog&lt;/a&gt;.&lt;/p&gt;
 
@@ -64,8 +64,9 @@ Stats:
 
 &lt;pre&gt;&lt;code&gt;Tech
 * React frontend
-* Serverless Cloud Functions
-* NoSQL Firebase
+* Google Firebase Auth / Storage
+* Google Firebase Cloud Functions
+* Scraping with APIfy
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://classalog.org&#34;&gt;Website&lt;/a&gt;
@@ -321,6 +322,11 @@ Stats
 &lt;p&gt;&lt;a href=&#34;https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138&#34;&gt;PositivityTrainer&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_positivity.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* React Native
+* Google Firebase Auth / Storage
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
