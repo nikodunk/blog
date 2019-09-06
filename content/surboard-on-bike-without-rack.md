@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How-to: A better method to transport a surfboard on a bike (Patent NA25396 :P)"
+title:  "How-to: A better method to transport a surfboard on a bike without a rack (Patent NA25396 :P)"
 date:   2019-08-19 08:00:00 -0700
 tags: ["Surfing", "How-To"]
 image: /surf/3.jpg
