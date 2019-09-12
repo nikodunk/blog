@@ -324,8 +324,6 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 
 ## ![](/projects/logo_positivity.png) Positivity Trainer
 
-[PositivityTrainer](https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138)
-
 ![](/projects/demo_positivity.jpg)
 
 
@@ -337,6 +335,9 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 	* 180 downloads
 	* Initially $0.99 / month => 4 subscribers after 3 months
 	* Now just $0.99
+
+<a class="btn btn-outline-primary" href="https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138">App Store</a>
+<a class="btn btn-outline-primary" href="https://github.com/nikodunk/positivity">Github</a>
 
 -----------
 

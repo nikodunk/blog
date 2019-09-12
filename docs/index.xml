@@ -319,8 +319,6 @@ Stats
 
 &lt;h2 id=&#34;projects-logo-positivity-png-positivity-trainer&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_positivity.png&#34; alt=&#34;&#34; /&gt; Positivity Trainer&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138&#34;&gt;PositivityTrainer&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_positivity.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech
@@ -332,6 +330,9 @@ Stats
 * Initially $0.99 / month =&amp;gt; 4 subscribers after 3 months
 * Now just $0.99
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138&#34;&gt;App Store&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/positivity&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
