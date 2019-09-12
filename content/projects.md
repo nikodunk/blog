@@ -322,14 +322,16 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 -----------
 
 
-## ![](/projects/logo_positivity.png) Positivity Trainer
+## ![](/projects/logo_positivity.png) Positivity Trainer | Train your mind to be more positive
+
+This is a very simple side-project, which I did to learn Firebase Auth and Storage. Tries to counteract the negative media coverage of everything we cover every day by asking you a positivity-inducing question, daily.
 
 ![](/projects/demo_positivity.jpg)
 
 
 	Tech
 	* React Native
-	* Google Firebase Auth / Storage
+	* Google Firebase Auth / Storage / Push Notifications
 
 	Stats
 	* 180 downloads

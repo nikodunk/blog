@@ -316,13 +316,15 @@ Stats
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;projects-logo-positivity-png-positivity-trainer&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_positivity.png&#34; alt=&#34;&#34; /&gt; Positivity Trainer&lt;/h2&gt;
+&lt;h2 id=&#34;projects-logo-positivity-png-positivity-trainer-train-your-mind-to-be-more-positive&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_positivity.png&#34; alt=&#34;&#34; /&gt; Positivity Trainer | Train your mind to be more positive&lt;/h2&gt;
+
+&lt;p&gt;This is a very simple side-project, which I did to learn Firebase Auth and Storage. Tries to counteract the negative media coverage of everything we cover every day by asking you a positivity-inducing question, daily.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_positivity.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech
 * React Native
-* Google Firebase Auth / Storage
+* Google Firebase Auth / Storage / Push Notifications
 
 Stats
 * 180 downloads
