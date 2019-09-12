@@ -309,13 +309,13 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 	* Price: Free
 	* Growth through internship onboardings, organic.
 
-* [App Store Link](https://itunes.apple.com/us/app/i-am-off/id1378071021)
-* [Google Play Link](https://play.google.com/store/apps/details?id=com.pokedoc.iamoff) 
-
 ![](/projects/demo_iamoff.gif) 
 ![](/projects/demo_iamoff.png)
 
 
+<a class="btn btn-outline-primary" href="https://itunes.apple.com/us/app/i-am-off/id1378071021">App Store</a>
+<a class="btn btn-outline-primary" href="https://play.google.com/store/apps/details?id=com.pokedoc.iamoff">Google Play</a>
+<a class="btn btn-outline-primary" href="https://github.com/nikodunk/iamoff-app">Github</a>
 
 -----------
 
