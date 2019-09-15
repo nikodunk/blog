@@ -182,13 +182,11 @@ Stats
 * Organic app store search
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/app/id1384252497&#34;&gt;App Store Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_soap.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/soapstats.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://itunes.apple.com/app/id1384252497&#34;&gt;App Store&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -212,13 +210,9 @@ Stats
 * 8 submissions
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://sunboxlabs.com&#34;&gt;Sunboxlabs.com Site&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/sunboxlabssite3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;http://sunboxlabs.com&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -248,11 +242,9 @@ Stats
 * My first ever entrepreneurial project
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://nikodunk.github.io/smoke/&#34;&gt;Smokefurniture.com Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/smokesite.png&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://nikodunk.com/projects/smoke.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;http://nikodunk.github.io/smoke/&#34;&gt;Mirror&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -274,13 +266,9 @@ Stats
 * MRR: $0
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/bamazon/&#34;&gt;Goodgood.io 1.0 Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/bamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://nikodunk.github.io/bamazon/&#34;&gt;Mirror&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -311,8 +299,6 @@ Stats
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://itunes.apple.com/us/app/i-am-off/id1378071021&#34;&gt;App Store&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://play.google.com/store/apps/details?id=com.pokedoc.iamoff&#34;&gt;Google Play&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/iamoff-app&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
 
 &lt;hr /&gt;
 
@@ -365,8 +351,6 @@ Stats
 
 &lt;h2 id=&#34;projects-logo-grammative-png-grammative&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_grammative.png&#34; alt=&#34;&#34; /&gt; Grammative&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://grammative.com&#34;&gt;Grammative&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;Free marketing copy review. Jump the queue for $49&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Team:
@@ -382,6 +366,8 @@ Stats:
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_grammative.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://grammative.com&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -669,10 +655,7 @@ Stats
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;video controls width=&#34;375&#34;&gt;
-
-    &lt;source src=&#34;https://nikodunk.com/surf/the-turtle-surfboard-on-bike-method-without-a-rack.mov&#34;
-            type=&#34;video/mp4&#34;&gt;
-
+    &lt;source src=&#34;https://nikodunk.com/surf/the-turtle-surfboard-on-bike-method-without-a-rack.mov&#34; type=&#34;video/mp4&#34;&gt;
     Sorry, your browser doesn&#39;t support embedded videos.
 &lt;/video&gt;
 

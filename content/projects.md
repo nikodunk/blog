@@ -185,13 +185,14 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 	* 262 registered users
 	* Organic app store search
 
-* [App Store Link](https://itunes.apple.com/app/id1384252497)
-
 
 
 ![](/projects/demo_soap.gif)
 
 ![](/projects/soapstats.png)
+
+<a class="btn btn-outline-primary" href="https://itunes.apple.com/app/id1384252497">App Store</a>
+
 
 
 -----------
@@ -217,16 +218,16 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 	* 3.74% conversion to Amazon affiliate program
 	* 8 submissions
 
-* [Sunboxlabs.com Site](http://sunboxlabs.com)
 
 ![](/projects/sunboxlabssite3.png)
 
 
+<a class="btn btn-outline-primary" href="http://sunboxlabs.com">Website</a>
 
 -----------
 
 
-------------
+
 
 ## ![](/projects/logo_paper.png) Paperfurniture.com | Mail-order Sustainable Flatpack Furniture
 
@@ -254,10 +255,11 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 	* My first ever entrepreneurial project
 
 
-* [Smokefurniture.com Mirror](http://nikodunk.github.io/smoke/)
 
 ![](/projects/smokesite.png) ![](/projects/smoke.gif)  
 
+
+<a class="btn btn-outline-primary" href="http://nikodunk.github.io/smoke/">Mirror</a>
 
 ------------
 
@@ -279,15 +281,14 @@ Utilising APIfier to scrape all B-Corp companies, and cross-referencing them wit
 	Stats
 	* MRR: $0
 
-* [Goodgood.io 1.0 Mirror](https://nikodunk.github.io/bamazon/)
 
 ![](/projects/bamazon.gif)
 
+<a class="btn btn-outline-primary" href="https://nikodunk.github.io/bamazon/">Mirror</a>
 
 -----------
 
 
------------
 
 ## ![](/projects/logo_health0.png) I Am Off! App | Off-day planner for Physicians
 
@@ -319,7 +320,6 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 
 -----------
 
------------
 
 
 ## ![](/projects/logo_positivity.png) Positivity Trainer | Train your mind to be more positive
@@ -374,7 +374,6 @@ With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picke
 
 ## ![](/projects/logo_grammative.png) Grammative
 
-[Grammative](https://grammative.com)
 
 Free marketing copy review. Jump the queue for $49
 
@@ -391,6 +390,9 @@ Free marketing copy review. Jump the queue for $49
 
 
 ![](/projects/demo_grammative.png)
+
+[Website](https://grammative.com)
+
 
 -----------
 
