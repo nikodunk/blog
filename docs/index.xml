@@ -666,15 +666,15 @@ Stats
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/5.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;img src=&#34;https://nikodunk.com/surf/6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/7.jpg&#34; alt=&#34;&#34; /&gt; &lt;video controls width=&#34;375&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;source src=&amp;quot;/surf/the-turtle-surfboard-on-bike-method-without-a-rack.mov&amp;quot;
-        type=&amp;quot;video/mp4&amp;quot;&amp;gt;
+&lt;video controls width=&#34;375&#34;&gt;
 
-Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;source src=&#34;https://nikodunk.com/surf/the-turtle-surfboard-on-bike-method-without-a-rack.mov&#34;
+            type=&#34;video/mp4&#34;&gt;
 
-&lt;p&gt;&lt;/video&gt;&lt;/p&gt;
+    Sorry, your browser doesn&#39;t support embedded videos.
+&lt;/video&gt;
 
 &lt;p&gt;I nickname it the Turtle. What do you think? Kook of the day, innovation, or seen this a million times? Let me know via email below.&lt;/p&gt;
 </content>
