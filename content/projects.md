@@ -46,9 +46,7 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 ## ![](/projects/logo_classalog.png) Classalog (friend's project)
 
-[Classalog](https://classalog.org).
-
-![](/projects/demo_classalog.png)
+![](/projects/demo_classalog.gif)
 
 	Tech
 	* React frontend
