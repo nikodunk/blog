@@ -9,9 +9,14 @@ image: /surf/3.jpg
 
 ## The problem
 
-I live in San Francisco, and our city beach is exactly 4.7 miles away from my apartment in Haight (yay!). It's a beautiful bike ride, but it's slightly far than I can carry my board under my arm on my bike (boo), and so far if I wanted to go surf I'd either have to rely on my friend Jake (who has a car) to also go right now, or take the N-Line on Muni which is unreliable (especially on weekends) (boo!).
+I live in San Francisco, and our city beach is exactly 4.7 miles away from my apartment in Haight (yay!). It's a beautiful bike ride, but it's slightly further than I can bike with my board under my arm (boo). I either have to rely on my friend Jake (who has a car), or take the N-Line on Muni which is unreliable (especially on weekends) (boo!).
 
-Why not a bike rack? Well, I have a road bike, which isn't build to hold a board rack. Also, bike racks cost money. Also, I only surf about 2 days a week and don't want to drive around for the rest of the week with a huge surf rack appendix jutting out of it. Finally, we all know a side-mounted surfboard isn't great for your balance and acts like a sail when cycling through Golden Gate Park.
+Or a bike rack? Why not a bike rack you say? 4 reasons:
+
+1. I have a road bike, which isn't build to hold a board rack. 
+2. Bike racks cost money. 
+3. I only surf about 2 days a week and don't want to ride around for the rest of the week with a huge surf rack appendix jutting out of it. 
+4. A side-mounted surfboard isn't great for your balance and acts like a sail when cycling through Golden Gate Park.
 
 ![](/surf/map.png)
 

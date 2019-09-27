@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "August 2019 Startup Update"
+title:  "September 2019 Startup Update"
 date:   2019-09-25 08:00:00 -0700
 tags: ["Updates", "Learnings"]
 image: /startup-updates-10/facebook-ads.png
@@ -14,11 +14,12 @@ image: /startup-updates-10/facebook-ads.png
 * Brad now helping out with marketing.
 
 # KPIs/Core Metrics:
-* Quotes completed Goal: 110 / week
-* Quotes completed actual: 16 / week
-* Revenue: $75
+* Revenue: $315
+* Marketing Spend: $160
 
 # Product:
-
+* N/A
+* Integrating with Ampup.io
 
 # Experiments/Hypothesis run:
+* Tried to fix paid acquisition funnel. Again it worked for a while, then stopped working (as audience exhausted?).

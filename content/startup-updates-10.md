@@ -17,6 +17,7 @@ image: /startup-updates-10/facebook-ads.png
 * Quotes completed Goal: 110 / week
 * Quotes completed actual: 16 / week
 * Revenue: $335
+* Marketing Spend: $153
 
 # Product:
 * Possible other integrations

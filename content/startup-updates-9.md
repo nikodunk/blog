@@ -14,7 +14,7 @@ image: /startup-updates-9/Screen Shot 2019-07-23 at 11.53.04 AM.png
 * Collaborating w/ Suhas Ghante on other projects, but then increasingly electrade.
 
 # KPIs/Core Metrics:
-* Revenue: **$360** (plus additional $120)
+* Revenue: $360 (plus additional $120)
 
 # Product:
 * After initial demand from users [last month](/startup-updates-8) for [better, cheaper EV insurance](https://electrade.app) (but not being able to satisfy that demand with traditional auto agents), we found an insurance API partner at the end of last month and started the integration process with them.

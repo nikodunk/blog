@@ -12,6 +12,52 @@
     
     
     <item>
+      <title>September 2019 Startup Update</title>
+      <link>https://nikodunk.com/startup-updates-11/</link>
+      <pubDate>Wed, 25 Sep 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-11/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;help-wanted-asks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;hiring&#34;&gt;Hiring: &lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Suhas &amp;amp; Armin now advirosrs.&lt;/li&gt;
+&lt;li&gt;Brad now helping out with marketing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Revenue: $315&lt;/li&gt;
+&lt;li&gt;Marketing Spend: $160&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;N/A&lt;/li&gt;
+&lt;li&gt;Integrating with Ampup.io&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tried to fix paid acquisition funnel. Again it worked for a while, then stopped working (as audience exhausted?).&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>Learnings: Projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
       <pubDate>Thu, 05 Sep 2019 08:00:00 -0700</pubDate>
@@ -631,9 +677,16 @@ Stats
 
 &lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
 
-&lt;p&gt;I live in San Francisco, and our city beach is exactly 4.7 miles away from my apartment in Haight (yay!). It&amp;rsquo;s a beautiful bike ride, but it&amp;rsquo;s slightly far than I can carry my board under my arm on my bike (boo), and so far if I wanted to go surf I&amp;rsquo;d either have to rely on my friend Jake (who has a car) to also go right now, or take the N-Line on Muni which is unreliable (especially on weekends) (boo!).&lt;/p&gt;
+&lt;p&gt;I live in San Francisco, and our city beach is exactly 4.7 miles away from my apartment in Haight (yay!). It&amp;rsquo;s a beautiful bike ride, but it&amp;rsquo;s slightly further than I can bike with my board under my arm (boo). I either have to rely on my friend Jake (who has a car), or take the N-Line on Muni which is unreliable (especially on weekends) (boo!).&lt;/p&gt;
 
-&lt;p&gt;Why not a bike rack? Well, I have a road bike, which isn&amp;rsquo;t build to hold a board rack. Also, bike racks cost money. Also, I only surf about 2 days a week and don&amp;rsquo;t want to drive around for the rest of the week with a huge surf rack appendix jutting out of it. Finally, we all know a side-mounted surfboard isn&amp;rsquo;t great for your balance and acts like a sail when cycling through Golden Gate Park.&lt;/p&gt;
+&lt;p&gt;Or a bike rack? Why not a bike rack you say? 4 reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I have a road bike, which isn&amp;rsquo;t build to hold a board rack.&lt;/li&gt;
+&lt;li&gt;Bike racks cost money.&lt;/li&gt;
+&lt;li&gt;I only surf about 2 days a week and don&amp;rsquo;t want to ride around for the rest of the week with a huge surf rack appendix jutting out of it.&lt;/li&gt;
+&lt;li&gt;A side-mounted surfboard isn&amp;rsquo;t great for your balance and acts like a sail when cycling through Golden Gate Park.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/map.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -693,6 +746,7 @@ Stats
 &lt;li&gt;Quotes completed Goal: 110 / week&lt;/li&gt;
 &lt;li&gt;Quotes completed actual: 16 / week&lt;/li&gt;
 &lt;li&gt;Revenue: $335&lt;/li&gt;
+&lt;li&gt;Marketing Spend: $153&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
@@ -956,7 +1010,7 @@ Stats
 &lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Revenue: &lt;strong&gt;$360&lt;/strong&gt; (plus additional $120)&lt;/li&gt;
+&lt;li&gt;Revenue: $360 (plus additional $120)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
