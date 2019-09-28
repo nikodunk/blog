@@ -44,7 +44,14 @@
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Getting insurance agency license for California so can keep traffic on platform, get recurring commission.&lt;/li&gt;
+&lt;li&gt;Getting insurance agency license for California so can
+
+&lt;ul&gt;
+&lt;li&gt;keep traffic on platform and get better attribution&lt;/li&gt;
+&lt;li&gt;optimize purchase / comparison experience with less data&lt;/li&gt;
+&lt;li&gt;get recurring commission&lt;/li&gt;
+&lt;li&gt;talk to new providers who only deal with agents&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Adding more states through clearcover (AZ, TX, and more) before the end of the year.&lt;/li&gt;
 &lt;li&gt;Adding more providers (Root, Metromile) before the end of the year.&lt;/li&gt;
 &lt;li&gt;Integrating with Ampup.io&lt;/li&gt;

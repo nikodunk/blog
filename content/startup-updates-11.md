@@ -18,7 +18,11 @@ image: /startup-updates-10/facebook-ads.png
 * Marketing Spend: $160
 
 # Product:
-* Getting insurance agency license for California so can keep traffic on platform, get recurring commission.
+* Getting insurance agency license for California so can 
+    * keep traffic on platform and get better attribution
+    * optimize purchase / comparison experience with less data
+    * get recurring commission
+    * talk to new providers who only deal with agents
 * Adding more states through clearcover (AZ, TX, and more) before the end of the year.
 * Adding more providers (Root, Metromile) before the end of the year.
 * Integrating with Ampup.io
