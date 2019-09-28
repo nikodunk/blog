@@ -10,7 +10,7 @@ image: /startup-updates-10/facebook-ads.png
 * N/A
 
 # Hiring: 
-* Suhas & Armin now advirosrs.
+* Suhas & Armin now advisors.
 * Brad now helping out with marketing.
 
 # KPIs/Core Metrics:
@@ -18,7 +18,9 @@ image: /startup-updates-10/facebook-ads.png
 * Marketing Spend: $160
 
 # Product:
-* N/A
+* Getting insurance agency license for California so can keep traffic on platform, get recurring commission.
+* Adding more states through clearcover (AZ, TX, and more) before the end of the year.
+* Adding more providers (Root, Metromile) before the end of the year.
 * Integrating with Ampup.io
 
 # Experiments/Hypothesis run:
