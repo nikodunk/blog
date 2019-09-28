@@ -102,12 +102,12 @@ Stats:
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;projects-logo-classalog-png-classalog-friend-s-project&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_classalog.png&#34; alt=&#34;&#34; /&gt; Classalog (friend&amp;rsquo;s project)&lt;/h2&gt;
+&lt;h2 id=&#34;projects-logo-classalog-png-classalog-org&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_classalog.png&#34; alt=&#34;&#34; /&gt; Classalog.org&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_classalog.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech
-* React frontend
+* React / Next.js Server Side Rendered web-app.
 * Google Firebase Auth / Storage
 * Google Firebase Cloud Functions
 * Scraping with APIfy

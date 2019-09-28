@@ -44,16 +44,15 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-## ![](/projects/logo_classalog.png) Classalog (friend's project)
+## ![](/projects/logo_classalog.png) Classalog.org
 
 ![](/projects/demo_classalog.gif)
 
 	Tech
-	* React frontend
+	* React / Next.js Server Side Rendered web-app.
 	* Google Firebase Auth / Storage
 	* Google Firebase Cloud Functions
 	* Scraping with APIfy
-
 
 <a class="btn btn-outline-primary" href="https://classalog.org">Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
