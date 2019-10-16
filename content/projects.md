@@ -97,14 +97,20 @@ See ongoing progress in the newer posts on this site, like [this one](/startup-u
 
 Together with my cofounder, we came up with the idea for Paperwork Labs when he was describing the challenges physicians are facing with government paperwork like the 18-page CPSP forms of California. I built a simple "turbotax for medical forms" in Node in early December, created the below video, and had on initial clients by end of January. Price point: $99/mo/login for all-you-can-eat, constantly updated "smart forms" that can export flat PDFs, report on your "structured data", and potentially integrates with EHRs if they let us. See demo on [Youtube](https://www.youtube.com/embed/IZHnqU43t0s)
 
+♜ Challenge: Healthcare Form Automation. Bringing great UX and automation to the user-hostile world of medical forms.
+
+⚑ Solution: An elegantly simple medical form automation tool served from a lightning-fast Node/Express backend, deployed to a HIPAA compliant AWS environment.
+
 	Team
 	* Mitul (sales advisory)
 	* Niko (sales, tech)
 
-
 	Tech
-	* React frontend
-	* Node/Express/Postgres backend
+	* React.js web app
+	* Node.js / Express.js logic
+	* Postgres store
+	* PDF form writing
+	* Javascript ES6
 	* Docker on AWS Elastic Beanstalk
 	* HIPAA compliant logging, access monitoring
 
