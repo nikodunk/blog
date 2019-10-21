@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learnings: Projects & things I've made so far."
-date:   2019-09-05 08:00:00 -0700
+date:   2019-10-21 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 image: /projects/scientist.jpg
 ---
@@ -43,6 +43,26 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 -----------
 
 
+
+
+
+## Assemble.works
+
+![](/projects/demo_assemble.png)
+
+
+	Tech
+	* React.js / Typescript web app
+    * Node.js / Express.js backend
+    * Real-time collaboration w/ Sockets
+	* Postgres store
+    * AWS Elastic Beanstalk
+
+<a class="btn btn-outline-primary" href="https://www.assemble.works">Website</a>
+<a class="btn btn-outline-disabled disabled" href="">Github on request</a>
+
+
+-----------
 
 ## ![](/projects/logo_classalog.png) Classalog.org
 

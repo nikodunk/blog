@@ -12,64 +12,9 @@
     
     
     <item>
-      <title>September 2019 Startup Update</title>
-      <link>https://nikodunk.com/startup-updates-11/</link>
-      <pubDate>Wed, 25 Sep 2019 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/startup-updates-11/</guid>
-      <description></description>
-      
-      <content>
-
-&lt;h1 id=&#34;help-wanted-asks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;N/A&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;hiring&#34;&gt;Hiring: &lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Suhas &amp;amp; Armin now advisors.&lt;/li&gt;
-&lt;li&gt;Brad now helping out with marketing.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Revenue: $315&lt;/li&gt;
-&lt;li&gt;Marketing Spend: $160&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Getting insurance agency license for California so can
-
-&lt;ul&gt;
-&lt;li&gt;keep traffic on platform and get better attribution&lt;/li&gt;
-&lt;li&gt;optimize purchase / comparison experience with less data&lt;/li&gt;
-&lt;li&gt;get recurring commission&lt;/li&gt;
-&lt;li&gt;talk to new providers who only deal with agents&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Adding more states through clearcover (AZ, TX, and more) before the end of the year.&lt;/li&gt;
-&lt;li&gt;Adding more providers (Root, Metromile) before the end of the year.&lt;/li&gt;
-&lt;li&gt;Integrating with Ampup.io&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tried to fix paid acquisition funnel. Again it worked for a while, then stopped working (as audience exhausted?).&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-      
-    </item>
-    
-    <item>
       <title>Learnings: Projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
-      <pubDate>Thu, 05 Sep 2019 08:00:00 -0700</pubDate>
+      <pubDate>Mon, 21 Oct 2019 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/projects/</guid>
       <description></description>
@@ -107,6 +52,23 @@ Stats:
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://www.electrade.app&#34;&gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;assemble-works&#34;&gt;Assemble.works&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_assemble.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tech
+* React.js / Typescript web app
+* Node.js / Express.js backend
+* Real-time collaboration w/ Sockets
+* Postgres store
+* AWS Elastic Beanstalk
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://www.assemble.works&#34;&gt;Website&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -674,6 +636,61 @@ Stats
 &lt;p&gt;You made it this far!&lt;/p&gt;
 
 &lt;hr /&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>September 2019 Startup Update</title>
+      <link>https://nikodunk.com/startup-updates-11/</link>
+      <pubDate>Wed, 25 Sep 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-11/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;help-wanted-asks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;hiring&#34;&gt;Hiring: &lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Suhas &amp;amp; Armin now advisors.&lt;/li&gt;
+&lt;li&gt;Brad now helping out with marketing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;kpis-core-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Revenue: $315&lt;/li&gt;
+&lt;li&gt;Marketing Spend: $160&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Getting insurance agency license for California so can
+
+&lt;ul&gt;
+&lt;li&gt;keep traffic on platform and get better attribution&lt;/li&gt;
+&lt;li&gt;optimize purchase / comparison experience with less data&lt;/li&gt;
+&lt;li&gt;get recurring commission&lt;/li&gt;
+&lt;li&gt;talk to new providers who only deal with agents&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Adding more states through clearcover (AZ, TX, and more) before the end of the year.&lt;/li&gt;
+&lt;li&gt;Adding more providers (Root, Metromile) before the end of the year.&lt;/li&gt;
+&lt;li&gt;Integrating with Ampup.io&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;experiments-hypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tried to fix paid acquisition funnel. Again it worked for a while, then stopped working (as audience exhausted?).&lt;/li&gt;
+&lt;/ul&gt;
 </content>
       
     </item>
