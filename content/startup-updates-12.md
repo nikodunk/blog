@@ -10,7 +10,7 @@ image: /startup-updates-10/facebook-ads.png
 * N/A
 
 # Hiring: 
-* Talked to Byteryde.com founder, and shared some experiences on our different takes on the same concept: Concept for EV / Tesla insurance.
+* Talked to Patrik from Byteryde.com, and shared some experiences on our different takes on the same idea of solving EV / Tesla insurance.
 
 # KPIs/Core Metrics:
 * Revenue: $340
