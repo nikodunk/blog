@@ -27,4 +27,4 @@ image: /startup-updates-10/facebook-ads.png
 # Next month
 * Thinking of hiring a writer to create 3x weekly posts. 
 * If that is profitable, could add more categories of EV services (as we already have partnerships with the excellent YCombinator backed [Ampup.io](https://www.ampup.io) platofrm, etc).
-* Now that the "shackles" of aiming for VC money have been removed, I think turning it into a resource on the web of EV information is interesting: A Nerdwallet-like platform for EV knowledge, starting with EV insurance.
+* Now that the "shackles" of aiming for VC money have been removed, turning electrade into a resource on the web of EV information is interesting: A Nerdwallet-like platform for EV knowledge, starting with EV insurance.
