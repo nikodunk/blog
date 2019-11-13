@@ -520,7 +520,7 @@ GoodGood, a software project to help families find skinsafe products for their b
 ----------
 
 
-### Superjuice 2 | Producthunt for sustainable products
+### Superjuice 2 | A platform for sustainable products
 
 A “product hunt” for the videos of certified green companies. This initial version involved no scraping, but socially assembled list of brands and goods. This was based around a voting system for popularity.
 
