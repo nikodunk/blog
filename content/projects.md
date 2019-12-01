@@ -13,7 +13,7 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 -----------
 
-## ![](/projects/logo_electrade.png) Electrade | Solving Electric Vehicle Insurance
+## ![](/projects/logo_electrade.png) Electrade | A platform for EV services (starting with insurance)
 
 EV-first insurance at [electrade.app](https://www.electrade.app)
 
@@ -46,7 +46,7 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-## Assemble.works
+## Assemble.works | Real-time collaboration for better meetings
 
 ![](/projects/demo_assemble.png)
 
@@ -64,7 +64,7 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 -----------
 
-## ![](/projects/logo_classalog.png) Classalog.org
+## ![](/projects/logo_classalog.png) Classalog.org | A marketplace for classes
 
 ![](/projects/demo_classalog.gif)
 
@@ -81,7 +81,7 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-## ![](/projects/logo_electrade.png) Electrify App | EV Services
+## ![](/projects/logo_electrade.png) Electrify App | A marketplace for EVs
 
 ![](/projects/demo_electrify.gif)
 
@@ -520,7 +520,7 @@ GoodGood, a software project to help families find skinsafe products for their b
 ----------
 
 
-### Superjuice 2 | A platform for researching sustainable companies
+### whole earth | A platform for sustainable companies
 
 A “product hunt” for the videos of certified green companies. This initial version involved no scraping, but socially assembled list of brands and goods. This was based around a voting system for popularity.
 
