@@ -13,7 +13,7 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 -----------
 
-## ![](/projects/logo_sustainability2.png) Electrade | Solving Electric Vehicle Insurance
+## ![](/projects/logo_electrade.png) Electrade | Solving Electric Vehicle Insurance
 
 EV-first insurance at [electrade.app](https://www.electrade.app)
 
@@ -81,7 +81,7 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-## ![](/projects/logo_sustainability2.png) Electrify App | EV Services
+## ![](/projects/logo_electrade.png) Electrify App | EV Services
 
 ![](/projects/demo_electrify.gif)
 
@@ -520,7 +520,7 @@ GoodGood, a software project to help families find skinsafe products for their b
 ----------
 
 
-### Superjuice 2 | A platform for sustainable products
+### Superjuice 2 | A platform for researching sustainable companies
 
 A “product hunt” for the videos of certified green companies. This initial version involved no scraping, but socially assembled list of brands and goods. This was based around a voting system for popularity.
 
@@ -528,7 +528,7 @@ A “product hunt” for the videos of certified green companies. This initial v
 	* Angular 2 App
 	* Firebase backend
 
-* [Superjuice.cc Mirror](https://nikodunk.github.io/sustainable-co-videos/)
+* [Deployed Web App](https://nikodunk.github.io/sustco-platform/)
 
 ![](/projects/superjuice2.png)
 
