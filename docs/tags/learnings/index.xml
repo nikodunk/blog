@@ -6,10 +6,21 @@
     <description>Recent content in Learnings on D U N K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2019 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2019 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nikodunk.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learnings: Projects &amp; things I&#39;ve made so far.</title>
+      <link>https://nikodunk.com/projects/</link>
+      <pubDate>Thu, 21 Nov 2019 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/projects/</guid>
+      <description>This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:
+Electrade | A platform for EV services (starting with insurance) EV-first insurance at electrade.app
+Team: * Niko (Tech, Content, Strategy) * Suhas (Content, Paid, Strategy) * Armin (Advisor) Tech: * React Quote App * Hugo blog and static pages * Served from Node/Express/Postgres * Integrated with Clearcover API Stats: * MRR: $360 * MAU: 2K * User acquisition: Physical marketing, SEO, Paid, Content  Website Github on request</description>
+    </item>
     
     <item>
       <title>October 2019 Startup Update</title>
@@ -18,17 +29,6 @@
       
       <guid>https://nikodunk.com/startup-updates-12/</guid>
       <description>Help Wanted/Asks:  N/A  Hiring:   Talked to Patrick from Byteryde.com, and shared some experiences on our different takes on the same idea of solving EV / Tesla insurance.  KPIs/Core Metrics:  Revenue: $340 Marketing Spend: $30.43 on Reddit (working! But limited.)  Product:  Did contracting this month, so put in no active marketing or blogging on hold. Nevertheless, starting to rank on first page for keywords like &amp;ldquo;Tesla Insurance Review&amp;rdquo; et al.</description>
-    </item>
-    
-    <item>
-      <title>Learnings: Projects &amp; things I&#39;ve made so far.</title>
-      <link>https://nikodunk.com/projects/</link>
-      <pubDate>Mon, 21 Oct 2019 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/projects/</guid>
-      <description>This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:
-Electrade | A platform for EV services (starting with insurance) EV-first insurance at electrade.app
-Team: * Niko (Tech, Content, Strategy) * Suhas (Content, Paid, Strategy) * Armin (Advisor) Tech: * React Quote App * Hugo blog and static pages * Served from Node/Express/Postgres * Integrated with Clearcover API Stats: * MRR: $360 * MAU: 2K * User acquisition: Physical marketing, SEO, Paid, Content  Website Github on request</description>
     </item>
     
     <item>

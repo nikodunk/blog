@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learnings: Projects & things I've made so far."
-date:   2019-10-21 08:00:00 -0700
+date:   2019-11-21 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 image: /projects/scientist.jpg
 ---
@@ -534,7 +534,7 @@ A “product hunt” for the videos of certified green companies. This initial v
 
 ---------
 
-### ![](/projects/logo_superjuice.png)  Superjuice | Kayak for Energy
+### ![](/projects/logo_superjuice.png) Superjuice | Kayak for Energy
 
 Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.
 
