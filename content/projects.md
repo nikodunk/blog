@@ -81,7 +81,7 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-## ![](/projects/logo_electrade.png) Electrify App | A marketplace for EVs
+## ![](/projects/logo_electrade.png) Electrify App | A mobile marketplace for EVs
 
 ![](/projects/demo_electrify.gif)
 
