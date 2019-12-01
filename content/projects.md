@@ -109,7 +109,7 @@ App with various electric vehicle functions
 ------------
 
 
-## ![](/projects/logo_superjuice.png) whole earth catalog | A platform for collecting sustainable companies
+## ![](/projects/logo_sustainability.png) whole earth catalog | A platform for collecting sustainable companies
 
 Modeled after Stewart Brand's [Whole Earth Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), this digital version is a social curation experience, helping consumers compare prices and certifications of sustainable brands.
 
