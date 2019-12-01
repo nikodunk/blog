@@ -111,17 +111,20 @@ App with various electric vehicle functions
 
 ## ![](/projects/logo_sustainability.png) whole earth catalog | A platform for collecting sustainable companies
 
+![](/projects/superjuice2.png)
+
 Modeled after Stewart Brand's [Whole Earth Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), this digital version is a social curation experience, helping consumers compare prices and certifications of sustainable brands.
 
 A “product hunt” for the videos of certified green companies, this initial list of brands and goods was assembled by users, and later added a voting system for popularity and scraped lists.
 
 	Tech
-	* Angular 2 App
+	* Angular 2 App (later re-built in React)
 	* Firebase backend
 
-* [Deployed Web App](https://nikodunk.github.io/sustco-platform/)
+<a class="btn btn-outline-primary" href="https://nikodunk.github.io/sustco-platform/">Whole Earth Catalog Mirror</a>
+<a class="btn btn-outline-primary" href="https://github.com/nikodunk/sustco-platform">Github</a>
 
-![](/projects/superjuice2.png)
+
 
 ---------
 

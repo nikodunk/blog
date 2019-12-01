@@ -118,20 +118,19 @@ Tech:
 
 &lt;h2 id=&#34;projects-logo-sustainability-png-whole-earth-catalog-a-platform-for-collecting-sustainable-companies&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; whole earth catalog | A platform for collecting sustainable companies&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/superjuice2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Modeled after Stewart Brand&amp;rsquo;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Whole_Earth_Catalog&#34;&gt;Whole Earth Catalog&lt;/a&gt;, this digital version is a social curation experience, helping consumers compare prices and certifications of sustainable brands.&lt;/p&gt;
 
 &lt;p&gt;A “product hunt” for the videos of certified green companies, this initial list of brands and goods was assembled by users, and later added a voting system for popularity and scraped lists.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech
-* Angular 2 App
+* Angular 2 App (later re-built in React)
 * Firebase backend
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/sustco-platform/&#34;&gt;Deployed Web App&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/superjuice2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://nikodunk.github.io/sustco-platform/&#34;&gt;Whole Earth Catalog Mirror&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/sustco-platform&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
