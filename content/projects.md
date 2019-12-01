@@ -109,6 +109,22 @@ App with various electric vehicle functions
 ------------
 
 
+## ![](/projects/logo_superjuice.png) whole earth catalog | A platform for collecting sustainable companies
+
+Modeled after Stewart Brand's [Whole Earth Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), this digital version is a social curation experience, helping consumers compare prices and certifications of sustainable brands.
+
+A “product hunt” for the videos of certified green companies, this initial list of brands and goods was assembled by users, and later added a voting system for popularity and scraped lists.
+
+	Tech
+	* Angular 2 App
+	* Firebase backend
+
+* [Deployed Web App](https://nikodunk.github.io/sustco-platform/)
+
+![](/projects/superjuice2.png)
+
+---------
+
 ## ![](/projects/logo_paperworklabs.png) paperworklabs.com | Turbotax for medical forms
 
 ![](/projects/demo_paperworklabs.gif)
@@ -144,10 +160,6 @@ Together with my cofounder, we came up with the idea for Paperwork Labs when he 
 
 
 ------------
-
-
-
-
 
 
 
@@ -520,21 +532,8 @@ GoodGood, a software project to help families find skinsafe products for their b
 ----------
 
 
-### whole earth | A platform for sustainable companies
 
-A “product hunt” for the videos of certified green companies. This initial version involved no scraping, but socially assembled list of brands and goods. This was based around a voting system for popularity.
-
-	Tech
-	* Angular 2 App
-	* Firebase backend
-
-* [Deployed Web App](https://nikodunk.github.io/sustco-platform/)
-
-![](/projects/superjuice2.png)
-
----------
-
-### ![](/projects/logo_superjuice.png) Superjuice | Kayak for Energy
+### ⚡️ Superjuice | Kayak for Energy
 
 Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.
 
