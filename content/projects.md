@@ -108,7 +108,7 @@ App with various electric vehicle functions
 ------------
 
 
-## ![](/projects/logo_sustainability.png) whole earth catalog | A platform for collecting sustainable companies
+## ![](/projects/logo_earth.png) whole earth catalog | A platform for collecting sustainable companies
 
 ![](/projects/demo_wholeearth.png)
 
@@ -303,9 +303,11 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 -----------
 
-## ![](/projects/logo_sustainability.png) GoodGood.io | B-Corp Price Tracker
+## Bamazon | BCorp-Amazon Mashup - certified label Amazon search
 
-Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing & image data from Viglink API.
+A search engine for green products, utilising APIfier to scrape all [B-Corps](https://bcorporation.net) (among others) and find their products on Amazon through the Viglink API. This was a search-engine-ified Whole Earth Catalog, above.
+
+This project indexes 2101 pre-vetted companies from various labels and certification sites and compares their products with prices from the Viglink API. A B-Corp Price Tracker on Amazon, if you will.
 
 	Team
 	* Niko
@@ -319,7 +321,7 @@ Utilising APIfier to scrape all B-Corp companies, and cross-referencing them wit
 	* MRR: $0
 
 
-![](/projects/demo_bamazon.gif)
+![](/projects/demo_bcorpamazon.gif)
 
 <a class="btn btn-outline-primary" href="https://nikodunk.github.io/bamazon/">Mirror</a>
 
@@ -516,9 +518,9 @@ CollaborativeToDo was a React & Firebase to-do list app w/ full Drag n drop, CRU
 
 ---------
 
-### Goodgood | Sustainable Cosmetic Price Tracker
+### Goodgood | EWG-Amazon Mashup – EWG Database Amazon Search
 
-GoodGood, a software project to help families find skinsafe products for their babies, by cross-referencing EWG's safe skincare products.
+Sustainable Cosmetic Price Tracker, if you will. GoodGood, a software project to help families find skinsafe products for their loved ones. Scrapes EWGs database and and finds their certified products on Amazon, to make it easier to find EWG's safe skincare products on Amazon.
 
 	Tech
 	* Angular 2 app
@@ -528,7 +530,7 @@ GoodGood, a software project to help families find skinsafe products for their b
 
 * [Goodgood.io Mirror](https://nikodunk.github.io/ewg-search/)
 
-![](/projects/goodgood.gif)
+![](/projects/demo_goodgood.gif)
 
 
 ----------

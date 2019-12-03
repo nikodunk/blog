@@ -116,7 +116,7 @@ Tech:
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;projects-logo-sustainability-png-whole-earth-catalog-a-platform-for-collecting-sustainable-companies&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; whole earth catalog | A platform for collecting sustainable companies&lt;/h2&gt;
+&lt;h2 id=&#34;projects-logo-earth-png-whole-earth-catalog-a-platform-for-collecting-sustainable-companies&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_earth.png&#34; alt=&#34;&#34; /&gt; whole earth catalog | A platform for collecting sustainable companies&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_wholeearth.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -289,9 +289,11 @@ Stats
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;projects-logo-sustainability-png-goodgood-io-b-corp-price-tracker&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability.png&#34; alt=&#34;&#34; /&gt; GoodGood.io | B-Corp Price Tracker&lt;/h2&gt;
+&lt;h2 id=&#34;bamazon-bcorp-amazon-mashup-certified-label-amazon-search&#34;&gt;Bamazon | BCorp-Amazon Mashup - certified label Amazon search&lt;/h2&gt;
 
-&lt;p&gt;Utilising APIfier to scrape all B-Corp companies, and cross-referencing them with price and product information from the Viglink API, a search engine for green. It does this by indexing 2101 pre-vetted companies from various labels and certification sites and comparing their products with prices from the Viglink API. Certified Label Amazon Search and later EWG Database Amazon Search – Angular2 product comparison engines for sustainable products, drawing pricing &amp;amp; image data from Viglink API.&lt;/p&gt;
+&lt;p&gt;A search engine for green products, utilising APIfier to scrape all &lt;a href=&#34;https://bcorporation.net&#34;&gt;B-Corps&lt;/a&gt; (among others) and find their products on Amazon through the Viglink API. This was a search-engine-ified Whole Earth Catalog, above.&lt;/p&gt;
+
+&lt;p&gt;This project indexes 2101 pre-vetted companies from various labels and certification sites and compares their products with prices from the Viglink API. A B-Corp Price Tracker on Amazon, if you will.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Team
 * Niko
@@ -305,7 +307,7 @@ Stats
 * MRR: $0
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_bamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_bcorpamazon.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://nikodunk.github.io/bamazon/&#34;&gt;Mirror&lt;/a&gt;&lt;/p&gt;
 
@@ -486,9 +488,9 @@ Stats:
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;goodgood-sustainable-cosmetic-price-tracker&#34;&gt;Goodgood | Sustainable Cosmetic Price Tracker&lt;/h3&gt;
+&lt;h3 id=&#34;goodgood-ewg-amazon-mashup-ewg-database-amazon-search&#34;&gt;Goodgood | EWG-Amazon Mashup – EWG Database Amazon Search&lt;/h3&gt;
 
-&lt;p&gt;GoodGood, a software project to help families find skinsafe products for their babies, by cross-referencing EWG&amp;rsquo;s safe skincare products.&lt;/p&gt;
+&lt;p&gt;Sustainable Cosmetic Price Tracker, if you will. GoodGood, a software project to help families find skinsafe products for their loved ones. Scrapes EWGs database and and finds their certified products on Amazon, to make it easier to find EWG&amp;rsquo;s safe skincare products on Amazon.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Tech
 * Angular 2 app
@@ -501,7 +503,7 @@ Stats:
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/ewg-search/&#34;&gt;Goodgood.io Mirror&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/goodgood.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_goodgood.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
