@@ -13,7 +13,7 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 -----------
 
-## ![](/projects/logo_electrade.png) Electrade 2.0 | A platform for EV services (starting with insurance)
+## ![](/projects/logo_electrade.png) Electrade Club | A platform for EV services (starting with insurance)
 
 EV-first insurance at [electrade.app](https://www.electrade.app)
 
