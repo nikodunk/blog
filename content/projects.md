@@ -13,11 +13,11 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 -----------
 
-## ![](/projects/logo_electrade.png) Electrade | A platform for EV services (starting with insurance)
+## ![](/projects/logo_electrade.png) Electrade 2.0 | A platform for EV services (starting with insurance)
 
 EV-first insurance at [electrade.app](https://www.electrade.app)
 
-![](/projects/demo_electrade.gif)
+![](/projects/demo_electrade2.gif)
 
 	Team:
 	* Niko (Tech, Content, Strategy)
@@ -79,10 +79,9 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 -----------
 
 
+## ![](/projects/logo_electrade.png) Electrade | A mobile marketplace for EVs
 
-## ![](/projects/logo_electrade.png) Electrify App | A mobile marketplace for EVs
-
-![](/projects/demo_electrify.gif)
+![](/projects/demo_electrade.gif)
 
 App with various electric vehicle functions
 
