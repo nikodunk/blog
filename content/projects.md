@@ -46,10 +46,9 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 
 
-## Assemble.works | Real-time collaboration for better meetings
+## Assemble | Real-time collaboration for better meetings
 
-![](/projects/demo_assemble.png)
-
+![](/projects/demo_assemble.gif)
 
 	Tech
 	* React.js / Typescript web app
