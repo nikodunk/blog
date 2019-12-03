@@ -110,7 +110,7 @@ App with various electric vehicle functions
 
 ## ![](/projects/logo_sustainability.png) whole earth catalog | A platform for collecting sustainable companies
 
-![](/projects/superjuice2.png)
+![](/projects/demo_wholeearth.png)
 
 Modeled after Stewart Brand's [Whole Earth Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), this digital version is a social curation experience, helping consumers compare prices and certifications of sustainable brands.
 
@@ -319,7 +319,7 @@ Utilising APIfier to scrape all B-Corp companies, and cross-referencing them wit
 	* MRR: $0
 
 
-![](/projects/bamazon.gif)
+![](/projects/demo_bamazon.gif)
 
 <a class="btn btn-outline-primary" href="https://nikodunk.github.io/bamazon/">Mirror</a>
 
@@ -382,7 +382,7 @@ This is a very simple side-project, which I did to learn Firebase Auth and Stora
 
 ## ![](/projects/logo_project-pegasus.png) Projectpegasus.io | Recycling rejected YCombinator applications
 
-![](/projects/demo pegasus.png)
+![](/projects/demo_pegasus.png)
 
 With Can Olcer and Dorena Nagel. Connecting hand-picked startups with hand-picked angels, double-blind opt-in intros, investor pays $99 per intro. Startups can re-use their YCombinator application to apply to other angel investors.
 
@@ -543,7 +543,7 @@ Price comparison for sustainable energy – The initial version of the above pro
 	* Angular 2 App
 	* My first software project
 
-![](/projects/superjuice.gif)
+![](/projects/demo_superjuice.gif)
 
 
 
