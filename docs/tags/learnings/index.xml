@@ -18,8 +18,7 @@
       
       <guid>https://nikodunk.com/projects/</guid>
       <description>This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:
-Electrade Club | A platform for EV services (starting with insurance) EV-first insurance at electrade.app
-Team: * Niko (Tech, Content, Strategy) * Suhas (Content, Paid, Strategy) * Armin (Advisor) Tech: * React Quote App * Hugo blog and static pages * Served from Node/Express/Postgres * Integrated with Clearcover API Stats: * MRR: $360 * MAU: 2K * User acquisition: Physical marketing, SEO, Paid, Content  Website Github on request</description>
+Electrade Club | A platform for EV services (starting with insurance) A platform for EV services (starting with insurance). Eventually modelled on Nerdwallet. EV-first insurance is our initial product at electrade.app. This was a pivot out of the Electrade EV trading app below.</description>
     </item>
     
     <item>

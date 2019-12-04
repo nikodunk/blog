@@ -15,9 +15,11 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 ## ![](/projects/logo_electrade.png) Electrade Club | A platform for EV services (starting with insurance)
 
-EV-first insurance at [electrade.app](https://www.electrade.app)
 
 ![](/projects/demo_electrade2.gif)
+
+A platform for EV services (starting with insurance). Eventually modelled on Nerdwallet. EV-first insurance is our initial product at [electrade.app](https://www.electrade.app). This was a pivot out of the Electrade EV trading app below.
+
 
 	Team:
 	* Niko (Tech, Content, Strategy)
@@ -38,7 +40,6 @@ EV-first insurance at [electrade.app](https://www.electrade.app)
 
 <a class="btn btn-outline-primary" href="https://www.electrade.app">Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
-
 
 -----------
 
