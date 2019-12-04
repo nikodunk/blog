@@ -269,7 +269,8 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. We mailed you a folded “room in a box” that was easy to set up and could simply be recycled or sent back when you move.
 
-![](/projects/paper.png)
+
+<p  style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   <a title="View Paper Furniture Pitch Original on Scribd" href="https://www.scribd.com/document/438261395/Paper-Furniture-Pitch-Original#from_embed"  style="text-decoration: underline;" >Paper Furniture Pitch Original</a> by <a title="View Niko Dunkel's profile on Scribd" href="https://www.scribd.com/user/490178052/Niko-Dunkel#from_embed"  style="text-decoration: underline;" >Niko Dunkel</a> on Scribd</p><iframe class="scribd_iframe_embed" title="Paper Furniture Pitch Original" src="https://www.scribd.com/embeds/438261395/content?start_page=1&view_mode=slideshow&access_key=key-fggp9enfZOy2BYWa5RcW&show_recommendations=true" data-auto-height="false" data-aspect-ratio="1.7790927021696252" scrolling="no" id="doc_92924" width="100%" height="600" frameborder="0"></iframe>
 
 This project was born out of the frustration with the extremely expensive 5-axis process of milling the Lunch dining chair. It went to the other extreme. If wood is too expensive, and consumers like me balk at buying expensive furniture when we move every year in our twenties – could I make something more affordable that can simply be recycled the next time I move? I started with the business plan first. The business plan was simple: Connect all the beautiful cardboard furniture designs out there on the internet with manufacturers in Switzerland, and send them directly to the customer. I was specifically trying NOT to design a product, but to design a service this time round. The business plan won a cash prize at the Innovate4Climate 2014 investment, and pushed me and my co-founder, Benjamin Blum, into one of Zurich’s best clean-tech incubators. This was a differentiated product with a clear path.
 
@@ -292,10 +293,10 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 
 
-![](/projects/smokesite.png) ![](/projects/smoke.gif)  
+![](/projects/paper.gif)  
 
 
-<a class="btn btn-outline-primary" href="http://nikodunk.github.io/smoke/">Mirror</a>
+<a class="btn btn-outline-primary" href="http://nikodunk.github.io/smoke/">Final Paper Furniture Site Mirror (renamed to Smoke at that point)</a>
 
 ------------
 

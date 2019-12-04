@@ -17,8 +17,6 @@ Cofounder Cofounder Cofounder. Team Team Team. I can't stress this enough, and i
 
 
 
-
-
 # 2 Problem problem problem
 
 Find a hair-on-fire problem (vitamins vs. painkillers). There should be no substitution, and extreme urgency to try your project.
