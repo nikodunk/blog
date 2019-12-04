@@ -160,7 +160,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 
 
-## ![](/projects/logo_paper.png) Paperfurniture.com | Mail-order Sustainable Flatpack Furniture
+## ![](/projects/logo_paper.png) Paper Inc. | Mail-order Sustainable Flatpack Furniture
 
 <p  style="   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;   font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;   font-stretch: normal;   -x-system-font: none;   display: block;"   ><a title="View Paper Furniture Pitch Initial on Scribd" href="https://www.scribd.com/document/438265380/Paper-Furniture-Pitch-Initial#from_embed"  style="text-decoration: underline;">Paper Furniture Pitch Initial</a> by <a title="View Niko Dunkel's profile on Scribd" href="https://www.scribd.com/user/490178052/Niko-Dunkel#from_embed"  style="text-decoration: underline;">Niko Dunkel</a> on Scribd</p><iframe class="scribd_iframe_embed" title="Paper Furniture Pitch Initial" src="https://www.scribd.com/embeds/438265380/content?start_page=1&view_mode=slideshow&show_recommendations=false&access_key=key-P5ch3hQLLJNKHmq2E2YN" data-auto-height="true" data-aspect-ratio="1.7790927021696252" scrolling="no" width="100%" height="600" frameborder="0"></iframe>
 
