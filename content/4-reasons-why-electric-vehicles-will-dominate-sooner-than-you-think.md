@@ -4,6 +4,7 @@ date: 2019-08-15
 tags: ["EVs", "Tesla", "insurance"]
 image: "/e-tron-sedan.jpg"
 ---
+Reposted from electrade.app
 
 If any of your friends still think EVs are far away, here are four arguments to convince them otherwise. We believe that everyone is making a common mistake on EVs: [underestimating exponential growth](https://link.springer.com/article/10.3758/BF03202958). This makes technology adoption curves are hard to predict - the classic example being asking someone in 2007 how fast it would take for the majority of the world to have access to a smartphone.
 
