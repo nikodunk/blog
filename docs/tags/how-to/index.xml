@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How-To on D U N K</title>
@@ -17,7 +17,7 @@
       <pubDate>Mon, 19 Aug 2019 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/surboard-on-bike-without-rack/</guid>
-      <description>The problem I live in San Francisco, and our city beach is exactly 4.7 miles away from my apartment in Haight (yay!). It&amp;rsquo;s a beautiful bike ride, but it&amp;rsquo;s slightly further than I can bike with my board under my arm (boo). I either have to rely on my friend Jake (who has a car), or take the N-Line on Muni which is unreliable (especially on weekends) (boo!).
+      <description>The problem I live in San Francisco, and our city beach is exactly 4.7 miles away from my apartment in Haight (yay!). It&#39;s a beautiful bike ride, but it&#39;s slightly further than I can bike with my board under my arm (boo). I either have to rely on my friend Jake (who has a car), or take the N-Line on Muni which is unreliable (especially on weekends) (boo!).
 Or a bike rack?</description>
     </item>
     
@@ -27,7 +27,7 @@ Or a bike rack?</description>
       <pubDate>Tue, 19 Dec 2017 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/blockchain/</guid>
-      <description>A note on technical legacy What is lasting in the tech world? Architects build things that stay forever. Technologists build things that a week later doesn&amp;rsquo;t work because npm install&amp;rsquo;s libraries have changed. I read once that the average lifespan of a webpage on the internet is 8 months. The oldest software companies are Apple and Microsoft. Legacy in software is bad. It is a dirty word.
+      <description>A note on technical legacy What is lasting in the tech world? Architects build things that stay forever. Technologists build things that a week later doesn&#39;t work because npm install&#39;s libraries have changed. I read once that the average lifespan of a webpage on the internet is 8 months. The oldest software companies are Apple and Microsoft. Legacy in software is bad. It is a dirty word.
 Blockchain, because it is shared by all, may be a solution to this issue of splitting useful (but ephemeral) &amp;ldquo;built&amp;rdquo; software projects from capitalistic cycles, and allow them to be guaranteed to be run forever, as everyone is running them.</description>
     </item>
     
@@ -38,7 +38,7 @@ Blockchain, because it is shared by all, may be a solution to this issue of spli
       
       <guid>https://nikodunk.com/solarselfsufficiency/</guid>
       <description>Building a solar micro-grid in my bedroom with parts from Amazon Originally posted on Hackernoon/Medium. See newest updates at sunboxlabs.com
-The problem Apartment renters need the landlord’s permission to install anything on their rooftops. This makes installing solar difficult for people who rent. Because most of the world lives in urbanized areas where renting is common, I think this is a problem standing in the way of solar adoption.</description>
+ The problem Apartment renters need the landlord’s permission to install anything on their rooftops. This makes installing solar difficult for people who rent. Because most of the world lives in urbanized areas where renting is common, I think this is a problem standing in the way of solar adoption.</description>
     </item>
     
   </channel>

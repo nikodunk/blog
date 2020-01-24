@@ -7,7 +7,7 @@
 <title>How-to: Blockchain experiments: Software that cannot die | D U N K</title>
 
 <meta property='og:title' content='How-to: Blockchain experiments: Software that cannot die - D U N K'>
-<meta property='og:description' content='A note on technical legacy What is lasting in the tech world? Architects build things that stay forever. Technologists build things that a week later doesn&rsquo;t work because npm install&rsquo;s libraries have changed. I read once that the average lifespan of a webpage on the internet is 8 months. The oldest software companies are Apple and Microsoft. Legacy in software is bad. It is a dirty word.
+<meta property='og:description' content='A note on technical legacy What is lasting in the tech world? Architects build things that stay forever. Technologists build things that a week later doesn&#39;t work because npm install&#39;s libraries have changed. I read once that the average lifespan of a webpage on the internet is 8 months. The oldest software companies are Apple and Microsoft. Legacy in software is bad. It is a dirty word.
 Blockchain, because it is shared by all, may be a solution to this issue of splitting useful (but ephemeral) &ldquo;built&rdquo; software projects from capitalistic cycles, and allow them to be guaranteed to be run forever, as everyone is running them.'>
 <meta property='og:url' content='https://nikodunk.com/blockchain/'>
 <meta property='og:site_name' content='D U N K'>
@@ -73,131 +73,80 @@ Blockchain, because it is shared by all, may be a solution to this issue of spli
     <h1 class="title">How-to: Blockchain experiments: Software that cannot die</h1>
     
     <div class="content">
-      
-
-<h2 id="a-note-on-technical-legacy">A note on technical legacy</h2>
-
-<p>What is lasting in the tech world? Architects build things that stay forever. Technologists build things that a week later doesn&rsquo;t work because npm install&rsquo;s libraries have changed. I read once that the average lifespan of a webpage on the internet is 8 months. The oldest software companies are Apple and Microsoft.
+      <h2 id="a-note-on-technical-legacy">A note on technical legacy</h2>
+<p>What is lasting in the tech world? Architects build things that stay forever. Technologists build things that a week later doesn't work because npm install's libraries have changed. I read once that the average lifespan of a webpage on the internet is 8 months. The oldest software companies are Apple and Microsoft.
 Legacy in software is bad. It is a dirty word.</p>
-
 <p>Blockchain, because it is shared by all, may be a solution to this issue of splitting useful (but ephemeral) &ldquo;built&rdquo; software projects from capitalistic cycles, and allow them to be guaranteed to be run forever, as everyone is running them. On that note, this is how to run a minimal local blockchain to test code on your local computer, which could then be deployed to the distributed test-net or main-net and be run forever.</p>
-
-<p><img src="/blockchain/monet-dieppe-1024-768.jpg" alt="" /></p>
-
-<p>Smart contracts replace backend code in a true Dapp. Blockchains replace the server. They&rsquo;re basically a glorified distributed database that anyone can run programs on and everyone helps run – a mix between AWS and Bittorrent. We&rsquo;ll be using classic React front-end code to interact with it eventually (which I&rsquo;d still recommend hosting on a server – but could be served from IPFS or such too), but for now we&rsquo;ll just interface with the smart contract through the terminal.</p>
-
-<h2 id="note-see-other-experiments-here-https-nikodunk-github-io-learnings">NOTE: See other experiments <a href="https://nikodunk.github.io/learnings">here</a>.</h2>
-
-<p><img src="/blockchain/ethereum.png" alt="" /></p>
-
+<p><img src="/blockchain/monet-dieppe-1024-768.jpg" alt=""></p>
+<p>Smart contracts replace backend code in a true Dapp. Blockchains replace the server. They're basically a glorified distributed database that anyone can run programs on and everyone helps run – a mix between AWS and Bittorrent. We'll be using classic React front-end code to interact with it eventually (which I'd still recommend hosting on a server – but could be served from IPFS or such too), but for now we'll just interface with the smart contract through the terminal.</p>
+<h2 id="note-see-other-experiments-herehttpsnikodunkgithubiolearnings">NOTE: See other experiments <a href="https://nikodunk.github.io/learnings">here</a>.</h2>
+<p><img src="/blockchain/ethereum.png" alt=""></p>
 <h2 id="how-to-run-a-minimal-local-blockchain">How to run a minimal local blockchain</h2>
-
-<p>Install the truffle toolbox, which is a Ethereum-approved framework for making Ethereum/blockchain development easier. The code I&rsquo;m using here is from a simple CRUD Dapp I built <a href="https://github.com/nikodunk/contactstorage">here</a>.</p>
-
-<p>Open terminal and get a local blockchain up. This&rsquo;ll give you 10 test accounts with 10 fake ether on each. You&rsquo;ll see both private and public keys of all 10 accounts if the command works.</p>
-
+<p>Install the truffle toolbox, which is a Ethereum-approved framework for making Ethereum/blockchain development easier. The code I'm using here is from a simple CRUD Dapp I built <a href="https://github.com/nikodunk/contactstorage">here</a>.</p>
+<p>Open terminal and get a local blockchain up. This'll give you 10 test accounts with 10 fake ether on each. You'll see both private and public keys of all 10 accounts if the command works.</p>
 <pre><code>ganache-cli
 </code></pre>
-
 <p>Open a new tab in terminal, then open the Truffle console into this test blockchain:</p>
-
 <pre><code>truffle console
 </code></pre>
-
-<p>Compile your contract in the Truffle Console as below. Delete your build folder if re-compiling – sometimes it doesn&rsquo;t like overwriting your contract.</p>
-
+<p>Compile your contract in the Truffle Console as below. Delete your build folder if re-compiling – sometimes it doesn't like overwriting your contract.</p>
 <pre><code>compile
 </code></pre>
-
 <p>Migrate your contract in the Truffle Console with</p>
-
-<pre><code>migrate --reset
+<pre><code>migrate	--reset
 </code></pre>
-
 <p>Test the contract from the Truffle Console by ADDING A CONTACT:</p>
-
 <pre><code>contactStorage.deployed().then(instance =&gt; instance.addContacts('George Jetson'))
 </code></pre>
-
 <p>Test the contract from the Truffle Console by GETTING YOUR CONTACTS:</p>
-
 <pre><code>contactStorage.deployed().then(instance =&gt; instance.getContacts())
 </code></pre>
-
 <p>Or, open a new terminal tab (or close the Truffle Console with Ctrl + C) and run the React frontend:</p>
-
 <pre><code>npm start
 </code></pre>
-
 <h2 id="how-to-run-on-a-real-blockchain">How to run on a real blockchain</h2>
-
-<p>We&rsquo;ll be using a real remote blockchain in this second example, and interact with our smart contract through a simple React frontend. We&rsquo;ll be using the &ldquo;testnet&rdquo; (test blockchain) called Rinkeby here. This is an actual distributed blockchain running on computers all over the world, but Rinkeby doesn&rsquo;t use &lsquo;real&rsquo; Ether so you won&rsquo;t be spending actual Ether while you&rsquo;re testing your smart contract. We&rsquo;ll then run a local React interface to interact with our deployed smart contract. In early 2018, I think Rinkeby is the best testnet.</p>
-
+<p>We'll be using a real remote blockchain in this second example, and interact with our smart contract through a simple React frontend. We'll be using the &ldquo;testnet&rdquo; (test blockchain) called Rinkeby here. This is an actual distributed blockchain running on computers all over the world, but Rinkeby doesn't use &lsquo;real&rsquo; Ether so you won't be spending actual Ether while you're testing your smart contract. We'll then run a local React interface to interact with our deployed smart contract. In early 2018, I think Rinkeby is the best testnet.</p>
 <p>Sync with the testnet blockchain by opening terminal and running:</p>
-
 <pre><code>geth --rinkeby --rpc --rpcapi db,eth,net,web3,personal
 </code></pre>
-
 <p>in new tab, compile and deploy contract</p>
-
 <pre><code>truffle console --network rinkeby
 </code></pre>
-
-<p>if you don&rsquo;t have an account:</p>
-
+<p>if you don't have an account:</p>
 <pre><code>x = web3.personal.newAccount('pw')
 web3.eth.getBalance(&quot;yourAcctNumber&quot;)
 web3.eth.accounts
 </code></pre>
-
 <p>Otherwise, unlock your account:</p>
-
 <pre><code>web3.personal.unlockAccount(&quot;0x2df219a1ae3845ab32a041499db27d4bfdb43876&quot;, 'password', 15000)
 
 web3.personal.unlockAccount(&quot;0x43928ec2bb4ea1eb6a77a5fd9caf36ca7b15600f&quot;, 'pw', 15000)
 </code></pre>
-
 <p>Compile and migrate as described in the local version:</p>
-
 <pre><code>compile
 
 migrate --reset --network rinkeby
 </code></pre>
-
 <p>Test the contract from the Truffle Console by ADDING A CONTACT:</p>
-
 <pre><code>contactStorage.deployed().then(instance =&gt; instance.addContacts('George Jetson'))
 </code></pre>
-
 <p>Test the contract from the Truffle Console by GETTING YOUR CONTACTS:</p>
-
 <pre><code>contactStorage.deployed().then(instance =&gt; instance.getContacts())
 </code></pre>
-
-<p>Close Ganache, Truffle Console as the contract&rsquo;s now live in Rinkeby!</p>
-
+<p>Close Ganache, Truffle Console as the contract's now live in Rinkeby!</p>
 <p>Serve your React frontend by opening a new terminal and running</p>
-
 <pre><code>npm start
 </code></pre>
-
 <p>to deploy to github pages:</p>
-
 <p>change homepage to reflect your github page:</p>
-
-<pre><code>&quot;homepage&quot;: &quot;http://nikodunk.github.io/contactStorage&quot;, 
+<pre><code>&quot;homepage&quot;: &quot;http://nikodunk.github.io/contactStorage&quot;,	
 </code></pre>
-
 <p>Then run</p>
-
 <pre><code>npm run build
 </code></pre>
-
 <p>And copy files to root directory</p>
-
-<p>That&rsquo;s it! You now know how to run a deploy a smart contract to a blockchain and interact with it through a React frontend.</p>
-
-<hr />
+<p>That's it! You now know how to run a deploy a smart contract to a blockchain and interact with it through a React frontend.</p>
+<hr>
 
       
       <div class="related">

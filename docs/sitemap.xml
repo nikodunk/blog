@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://nikodunk.com/</loc>
     <lastmod>2019-11-21T08:00:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nikodunk.com/tags/learnings/</loc>
     <lastmod>2019-11-21T08:00:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -22,13 +20,11 @@
   <url>
     <loc>https://nikodunk.com/tags/</loc>
     <lastmod>2019-11-21T08:00:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nikodunk.com/tags/updates/</loc>
     <lastmod>2019-11-21T08:00:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -44,7 +40,6 @@
   <url>
     <loc>https://nikodunk.com/tags/how-to/</loc>
     <lastmod>2019-08-19T08:00:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -55,7 +50,26 @@
   <url>
     <loc>https://nikodunk.com/tags/surfing/</loc>
     <lastmod>2019-08-19T08:00:00-07:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nikodunk.com/tags/evs/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nikodunk.com/4-reasons-why-electric-vehicles-will-dominate-sooner-than-you-think/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nikodunk.com/tags/insurance/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nikodunk.com/tags/tesla/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -121,7 +135,6 @@
   <url>
     <loc>https://nikodunk.com/tags/essay/</loc>
     <lastmod>2018-12-17T08:00:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -132,7 +145,6 @@
   <url>
     <loc>https://nikodunk.com/tags/thoughts/</loc>
     <lastmod>2018-12-17T08:00:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -163,7 +175,6 @@
   <url>
     <loc>https://nikodunk.com/tags/sustainability/</loc>
     <lastmod>2017-07-20T08:00:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
