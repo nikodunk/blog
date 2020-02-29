@@ -20,9 +20,9 @@
       <description></description>
       
       <content>&lt;ul&gt;
-&lt;li&gt;Google will be replaced at an every increasing rate by DuckDuckGo. I&#39;ve switched to them full-time for the 3rd or 4th time, but &lt;em&gt;this&lt;/em&gt; time feel no need to go back. DuckDuckGo has all the developer mindshare, and their growth is &lt;a href=&#34;https://duckduckgo.com/traffic&#34;&gt;exponential&lt;/a&gt;. Possibly also Facebook and Apple who have been running on fumes for a while but I am less sure there. Their core products are not actively being made worse at the rate that Google&#39;s is.&lt;/li&gt;
-&lt;li&gt;Manufacturing, and having it close-by, will become increasingly important again. So far we&#39;ve said &amp;ldquo;let&#39;s outsource this&amp;rdquo;, but we&#39;re seeing the drag on innovation by not being able to make our own things close-by. &lt;a href=&#34;https://youtu.be/r46x_ti__vs?t=1717&#34;&gt;Tesla&lt;/a&gt; was incubated in England&#39;s Lotus because they still have small-scale workshops /supply chain ecosystem to deal with it. &lt;a href=&#34;https://www.omgubuntu.co.uk/2019/12/purism-announce-1999-librem-5-usa-same-librem-5-just-made-in-america&#34;&gt;Phones&lt;/a&gt; being made in Texas, I predict all nations will re-focus on making their own Shenzhen. Probably with mixed results, same as for the last decade everyone tried to copy Silicon Valley.&lt;/li&gt;
-&lt;li&gt;Electric Vehicles, though that&#39;s a pretty obvious one at this point. 6 months ago when the following article was written though, everyone was calling them crazy. Read it &lt;a href=&#34;https://nikodunk.com/4-reasons-why-electric-vehicles-will-dominate-sooner-than-you-think/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Google will be replaced at an every increasing rate by DuckDuckGo. I&amp;rsquo;ve switched to them full-time for the 3rd or 4th time, but &lt;em&gt;this&lt;/em&gt; time feel no need to go back. DuckDuckGo has all the developer mindshare, and their growth is &lt;a href=&#34;https://duckduckgo.com/traffic&#34;&gt;exponential&lt;/a&gt;. Possibly also Facebook and Apple who have been running on fumes for a while but I am less sure there. Their core products are not actively being made worse at the rate that Google&amp;rsquo;s is.&lt;/li&gt;
+&lt;li&gt;Manufacturing, and having it close-by, will become increasingly important again. So far we&amp;rsquo;ve said &amp;ldquo;let&amp;rsquo;s outsource this&amp;rdquo;, but we&amp;rsquo;re seeing the drag on innovation by not being able to make our own things close-by. &lt;a href=&#34;https://youtu.be/r46x_ti__vs?t=1717&#34;&gt;Tesla&lt;/a&gt; was incubated in England&amp;rsquo;s Lotus because they still have small-scale workshops /supply chain ecosystem to deal with it. &lt;a href=&#34;https://www.omgubuntu.co.uk/2019/12/purism-announce-1999-librem-5-usa-same-librem-5-just-made-in-america&#34;&gt;Phones&lt;/a&gt; being made in Texas, I predict all nations will re-focus on making their own Shenzhen. Probably with mixed results, same as for the last decade everyone tried to copy Silicon Valley.&lt;/li&gt;
+&lt;li&gt;Electric Vehicles, though that&amp;rsquo;s a pretty obvious one at this point. 6 months ago when the following article was written though, everyone was calling them crazy. Read it &lt;a href=&#34;https://nikodunk.com/4-reasons-why-electric-vehicles-will-dominate-sooner-than-you-think/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Software as we know it is currently important but I believe will become increasingly commoditized and unimportant. Already no-code AI, web-apps and games are becoming a thing.&lt;/li&gt;
 &lt;li&gt;Cities will take over the political and social lead, in place of states. See also &lt;a href=&#34;https://nikodunk.com/cities/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -38,7 +38,7 @@
       <guid>https://nikodunk.com/projects/</guid>
       <description></description>
       
-      <content>&lt;p&gt;This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&#39;ve made something:&lt;/p&gt;
+      <content>&lt;p&gt;This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/gianni_colombo.jpg&#34; alt=&#34;&#34;&gt; &lt;img src=&#34;https://nikodunk.com/projects/scientist.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_electradepng-electrade-club--a-platform-for-ev-services-starting-with-insurance&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade Club | A platform for EV services (starting with insurance)&lt;/h2&gt;
@@ -109,7 +109,7 @@ Tech:
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_earthpng-whole-earth-catalog--a-platform-for-collecting-sustainable-companies&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_earth.png&#34; alt=&#34;&#34;&gt; whole earth catalog | A platform for collecting sustainable companies&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_wholeearth.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Modeled after Stewart Brand&#39;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Whole_Earth_Catalog&#34;&gt;Whole Earth Catalog&lt;/a&gt;, this digital version is a social curation experience, helping consumers compare prices and certifications of sustainable brands.&lt;/p&gt;
+&lt;p&gt;Modeled after Stewart Brand&amp;rsquo;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Whole_Earth_Catalog&#34;&gt;Whole Earth Catalog&lt;/a&gt;, this digital version is a social curation experience, helping consumers compare prices and certifications of sustainable brands.&lt;/p&gt;
 &lt;p&gt;A “product hunt” for the videos of certified green companies, this initial list of brands and goods was assembled by users, and later added a voting system for popularity and scraped lists.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Tech
 * Angular 2 App (later re-built in React)
@@ -119,7 +119,7 @@ Tech:
 &lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_sustainability1gif-sunboxlabscom--platform-for-diy-solar-kits-incl-price-tracking&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34;&gt; sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)&lt;/h2&gt;
-&lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;!-- raw HTML omitted --&gt;sunboxlabs.com&lt;!-- raw HTML omitted --&gt; developed out of a &lt;!-- raw HTML omitted --&gt;HackerNoon&lt;!-- raw HTML omitted --&gt; post from a hacked together project, implemented between jobs, where it garnered 200&#39;000 views and was featured on &lt;!-- raw HTML omitted --&gt;HackerNews&lt;!-- raw HTML omitted --&gt; (&lt;!-- raw HTML omitted --&gt;twice&lt;!-- raw HTML omitted --&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;!-- raw HTML omitted --&gt;sunbox labs&lt;!-- raw HTML omitted --&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;!-- raw HTML omitted --&gt;sunboxlabs.com&lt;!-- raw HTML omitted --&gt; developed out of a &lt;!-- raw HTML omitted --&gt;HackerNoon&lt;!-- raw HTML omitted --&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;!-- raw HTML omitted --&gt;HackerNews&lt;!-- raw HTML omitted --&gt; (&lt;!-- raw HTML omitted --&gt;twice&lt;!-- raw HTML omitted --&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;!-- raw HTML omitted --&gt;sunbox labs&lt;!-- raw HTML omitted --&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team:
 * Niko (concept, writing, tech)
 * Zeb (marketing)
@@ -211,7 +211,7 @@ Stats:
 &lt;h2 id=&#34;projectslogo_healthpng-soap-dictate-app--medical-note-transcription-app&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health.png&#34; alt=&#34;&#34;&gt; Soap Dictate App | Medical Note Transcription App&lt;/h2&gt;
 &lt;p&gt;Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.&lt;/p&gt;
 &lt;p&gt;Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month.&lt;/p&gt;
-&lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&#39;s Speech Recognition API is unclear as it&#39;s encrypted, but Apple won&#39;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.&lt;/p&gt;
+&lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&amp;rsquo;s Speech Recognition API is unclear as it&amp;rsquo;s encrypted, but Apple won&amp;rsquo;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team
 * Libo (medical product advice)
 * Niko (product, tech)
@@ -372,7 +372,7 @@ Stats:
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo4.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;goodgood--ewg-amazon-mashup--ewg-database-amazon-search&#34;&gt;Goodgood | EWG-Amazon Mashup – EWG Database Amazon Search&lt;/h3&gt;
-&lt;p&gt;Sustainable Cosmetic Price Tracker, if you will. GoodGood, a software project to help families find skinsafe products for their loved ones. Scrapes EWGs database and and finds their certified products on Amazon, to make it easier to find EWG&#39;s safe skincare products on Amazon.&lt;/p&gt;
+&lt;p&gt;Sustainable Cosmetic Price Tracker, if you will. GoodGood, a software project to help families find skinsafe products for their loved ones. Scrapes EWGs database and and finds their certified products on Amazon, to make it easier to find EWG&amp;rsquo;s safe skincare products on Amazon.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Tech
 * Angular 2 app
 * Viglink API
@@ -394,7 +394,7 @@ Stats:
 &lt;h1 id=&#34;blockchain&#34;&gt;Blockchain&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;insureum--insurance-with-smart-contracts-2nd-place-angelhack-sf-2018-consensys-prize&#34;&gt;Insureum | Insurance with smart contracts – 2nd place Angelhack SF 2018 (Consensys prize)&lt;/h2&gt;
-&lt;p&gt;Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they&#39;ve verified that you&#39;ve paid up.&lt;/p&gt;
+&lt;p&gt;Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they&amp;rsquo;ve verified that you&amp;rsquo;ve paid up.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team
 * Two guys from the hackathon (idea)
 * Niko (Tech, product)
@@ -419,13 +419,13 @@ Stats
 &lt;li&gt;&lt;!-- raw HTML omitted --&gt;Universal Contact Storage&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
 &lt;li&gt;A landing page suggesting an &lt;!-- raw HTML omitted --&gt;Institutional-grade investment tool&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;So far we haven&#39;t been able to find a business case with these Dapps, and as described &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.&lt;/p&gt;
+&lt;p&gt;So far we haven&amp;rsquo;t been able to find a business case with these Dapps, and as described &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/ethereum.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;work&#34;&gt;Work&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;building-a-startup-accelerator-at-swissnexsf&#34;&gt;Building a startup accelerator at swissnexSF&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/moneyshot1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Next to my learnings described &lt;a href=&#34;https://nikodunk.com/accelerator&#34;&gt;here&lt;/a&gt;, and numerous lessons in marketing, project management, team, networks, et al, I&#39;d like to hold on to one quote from a superior that will stick with me for a while:&lt;/p&gt;
+&lt;p&gt;Next to my learnings described &lt;a href=&#34;https://nikodunk.com/accelerator&#34;&gt;here&lt;/a&gt;, and numerous lessons in marketing, project management, team, networks, et al, I&amp;rsquo;d like to hold on to one quote from a superior that will stick with me for a while:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;The degree to which you can deploy a digital solution is limited by the network in which you can deploy it.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;site:&lt;/p&gt;
@@ -468,6 +468,54 @@ Stats
 &lt;hr&gt;
 &lt;p&gt;You made it this far!&lt;/p&gt;
 &lt;hr&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>February 2020 Startup Update</title>
+      <link>https://nikodunk.com/startup-updates-16/</link>
+      <pubDate>Mon, 04 Nov 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-16/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;We&amp;rsquo;re back after a short hold and re-group for some contracting (to refresh the coffers) and a new project (to refresh the mind). I have a new team, new project, same mission – to fight global warming!&lt;/p&gt;
+&lt;h1 id=&#34;team&#34;&gt;Team: &lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Teamed up with &lt;a href=&#34;https://twitter.com/katiepatrick&#34;&gt;Katie Patrick&lt;/a&gt;, an environmental designer and influencer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;kpiscore-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Revenue: $1,200 (from electrade still, however)&lt;/li&gt;
+&lt;li&gt;Marketing Spend: $0&lt;/li&gt;
+&lt;li&gt;100 users of Chrome extension / Firefox Add-ond&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;235-followers-of-twitter-bot&#34;&gt;235 followers of Twitter bot&lt;/h1&gt;
+&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm?hl=en&#34;&gt;Launched Chrome extension&lt;/a&gt; and &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/energy-lollipop/&#34;&gt;Firefox&lt;/a&gt; add-on and iterated multiple versions to add animations, reward effects, etc.&lt;/li&gt;
+&lt;li&gt;Built &amp;amp; launched &lt;a href=&#34;https://twitter.com/energylollipop&#34;&gt;Twitter bot&lt;/a&gt; that tweets out California&amp;rsquo;s emissions graph regularly, and eventually built in more personality, wit and irregularity to the tweeting algorithm.&lt;/li&gt;
+&lt;li&gt;Due to retention of the intial tests above being good, we&amp;rsquo;re investing in a &amp;ldquo;personalized&amp;rdquo; and premium home-energy Chrome extension / app with the PG&amp;amp;E ShareMyData API.&lt;/li&gt;
+&lt;li&gt;Electrade.app is on the back-burner, but I was lucky to find a talented writer making new content and posting it to the platform, to further build out SEO.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;experimentshypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;People will download a Chrome extension (true)&lt;/li&gt;
+&lt;li&gt;People will keep opening it up (after positive feedback, week 1 retention is still around 55% daily)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;next-month&#34;&gt;Next month&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Launching Home Energy Lollipop (so not california-wide emissions, but your home&amp;rsquo;s emissions!) through PG&amp;amp;E API. This should give the user more agency to actually change the number and create a tighter feedback loop.&lt;/li&gt;
+&lt;li&gt;Launching Home Energy Lollipop (so not california-wide emissions, but your office&amp;rsquo;s emissions!) through PG&amp;amp;E API. This should give the users more agency to actually change the number and create a tighter feedback loop. Also, it&amp;rsquo;ll build community within the office for the teams.&lt;/li&gt;
+&lt;li&gt;Starting to raise an angel round from people who care about climate change, so Katie and I can focus on this project for a few months. Also applying for YC, etc.&lt;/li&gt;
+&lt;li&gt;Presenting to businesses, to see if business case is there (see ask – introductions to businesses interested in sustainability programs much appreciated).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;help-wantedasks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Introductions to businesses interested in climate/team programs&lt;/li&gt;
+&lt;li&gt;Introduction to angels interested in supporting climate solutions&lt;/li&gt;
+&lt;/ul&gt;
 </content>
       
     </item>
@@ -566,17 +614,17 @@ Stats
       <description></description>
       
       <content>&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
-&lt;p&gt;I live in San Francisco, and our city beach is exactly 4.7 miles away from my apartment in Haight (yay!). It&#39;s a beautiful bike ride, but it&#39;s slightly further than I can bike with my board under my arm (boo). I either have to rely on my friend Jake (who has a car), or take the N-Line on Muni which is unreliable (especially on weekends) (boo!).&lt;/p&gt;
+&lt;p&gt;I live in San Francisco, and our city beach is exactly 4.7 miles away from my apartment in Haight (yay!). It&amp;rsquo;s a beautiful bike ride, but it&amp;rsquo;s slightly further than I can bike with my board under my arm (boo). I either have to rely on my friend Jake (who has a car), or take the N-Line on Muni which is unreliable (especially on weekends) (boo!).&lt;/p&gt;
 &lt;p&gt;Or a bike rack? Why not a bike rack you say? 4 reasons:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;I have a road bike, which isn&#39;t build to hold a board rack.&lt;/li&gt;
+&lt;li&gt;I have a road bike, which isn&amp;rsquo;t build to hold a board rack.&lt;/li&gt;
 &lt;li&gt;Bike racks cost money.&lt;/li&gt;
-&lt;li&gt;I only surf about 2 days a week and don&#39;t want to ride around for the rest of the week with a huge surf rack appendix jutting out of it.&lt;/li&gt;
-&lt;li&gt;A side-mounted surfboard isn&#39;t great for your balance and acts like a sail when cycling through Golden Gate Park.&lt;/li&gt;
+&lt;li&gt;I only surf about 2 days a week and don&amp;rsquo;t want to ride around for the rest of the week with a huge surf rack appendix jutting out of it.&lt;/li&gt;
+&lt;li&gt;A side-mounted surfboard isn&amp;rsquo;t great for your balance and acts like a sail when cycling through Golden Gate Park.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/map.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a-possible-solution&#34;&gt;A possible solution&lt;/h2&gt;
-&lt;p&gt;So today I made numerous experiments trying to build my own bike trailer out of rolling suitcases, lash my surfboard onto my frame, but eventually came up with a way simpler solution: simply lash it to a backpack. I&#39;ll leave share it here hoping you can use it for your surf commute. This will only work with shortboards under 6 feet, I&#39;d say – but your mileage may vary. This one&#39;s 5&#39;8&amp;rdquo;. A 7&amp;rsquo; still work.&lt;/p&gt;
+&lt;p&gt;So today I made numerous experiments trying to build my own bike trailer out of rolling suitcases, lash my surfboard onto my frame, but eventually came up with a way simpler solution: simply lash it to a backpack. I&amp;rsquo;ll leave share it here hoping you can use it for your surf commute. This will only work with shortboards under 6 feet, I&amp;rsquo;d say – but your mileage may vary. This one&amp;rsquo;s 5&amp;rsquo;8&amp;rdquo;. A 7&amp;rsquo; still work.&lt;/p&gt;
 &lt;p&gt;Added benefits of going to surf on a bike is a great warm-up, no parking hassle at the beach, and fresh air.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/1.jpg&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;https://nikodunk.com/surf/2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -608,11 +656,11 @@ Source: &lt;a href=&#34;https://en.wikipedia.org/wiki/Electric_car#/media/File:G
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/img/faster-than-you-think/VW-ID-electric-car-e1544785826779.jpg&#34; alt=&#34;&#34;&gt;
 VW ID&lt;/p&gt;
 &lt;p&gt;Mainstream car makers are now firing on all cylinders (pun intended) to get the initial mass-market EVs out the door. Why? Western brands are increasingly feeling the heat to switch to electric vehicles:&lt;/p&gt;
-&lt;p&gt;BMW CEO Harald Krueger stepped down in the wake of the automaker&#39;s weakest earnings performance in a decade - mostly due to BMW completely undoing their initial EV lead (with the i3 and i8), margins being down on their once-mighty 3 and 5-series which are being outsold by Tesla, and their electrification plans being overtaken by the VW Group and Mercedes. &lt;a href=&#34;https://www.cnn.com/2019/07/05/business/bmw-ceo-harald-krueger/index.html&#34;&gt;LINK&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;VW too, needed a new, glitzy direction after &amp;ldquo;&lt;a href=&#34;https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal&#34;&gt;Dieselgate&lt;/a&gt;&amp;quot;. With the VW ID, &lt;a href=&#34;https://www.porsche.com/usa/aboutporsche/e-performance/~report~/mission-e-turns-taycan/usa~en-us~e-performance-mission-e-name-reveal/&#34;&gt;Porsche Taycan&lt;/a&gt;, the Audi E-Tron (and the upcoming &lt;a href=&#34;https://www.theverge.com/2018/11/28/18116978/audi-e-tron-gt-concept-porsche-electric-car-sedan-590-horsepower&#34;&gt;E-Tron Sedan&lt;/a&gt; built on the group&#39;s Taycan wheelbase, pictured above), and even budget options like a &lt;a href=&#34;https://europe.autonews.com/automakers/skodas-electric-car-push-includes-low-cost-ev&#34;&gt;Skoda EV&lt;/a&gt; for Europe, VW hopes to put it&#39;s past behind. Time (and shareholders) will tell if their strategy will pay off.&lt;/p&gt;
-&lt;p&gt;It&#39;s no surprise that Tesla has a clear lead in this space they (helped) invent, the question is whether traditional automakers can actually catch up in time. But it&#39;s now a given that they are moving as fast as they can. But how soon will the revolution come?&lt;/p&gt;
+&lt;p&gt;BMW CEO Harald Krueger stepped down in the wake of the automaker&amp;rsquo;s weakest earnings performance in a decade - mostly due to BMW completely undoing their initial EV lead (with the i3 and i8), margins being down on their once-mighty 3 and 5-series which are being outsold by Tesla, and their electrification plans being overtaken by the VW Group and Mercedes. &lt;a href=&#34;https://www.cnn.com/2019/07/05/business/bmw-ceo-harald-krueger/index.html&#34;&gt;LINK&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;VW too, needed a new, glitzy direction after &amp;ldquo;&lt;a href=&#34;https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal&#34;&gt;Dieselgate&lt;/a&gt;&amp;quot;. With the VW ID, &lt;a href=&#34;https://www.porsche.com/usa/aboutporsche/e-performance/~report~/mission-e-turns-taycan/usa~en-us~e-performance-mission-e-name-reveal/&#34;&gt;Porsche Taycan&lt;/a&gt;, the Audi E-Tron (and the upcoming &lt;a href=&#34;https://www.theverge.com/2018/11/28/18116978/audi-e-tron-gt-concept-porsche-electric-car-sedan-590-horsepower&#34;&gt;E-Tron Sedan&lt;/a&gt; built on the group&amp;rsquo;s Taycan wheelbase, pictured above), and even budget options like a &lt;a href=&#34;https://europe.autonews.com/automakers/skodas-electric-car-push-includes-low-cost-ev&#34;&gt;Skoda EV&lt;/a&gt; for Europe, VW hopes to put it&amp;rsquo;s past behind. Time (and shareholders) will tell if their strategy will pay off.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s no surprise that Tesla has a clear lead in this space they (helped) invent, the question is whether traditional automakers can actually catch up in time. But it&amp;rsquo;s now a given that they are moving as fast as they can. But how soon will the revolution come?&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;underestimation-2-mainstream-western-automakers-will-switch-to-all-ev-even-faster-than-theyre-predicting&#34;&gt;Underestimation 2: Mainstream western automakers will switch to all-EV even faster than they&#39;re predicting&lt;/h3&gt;
+&lt;h3 id=&#34;underestimation-2-mainstream-western-automakers-will-switch-to-all-ev-even-faster-than-theyre-predicting&#34;&gt;Underestimation 2: Mainstream western automakers will switch to all-EV even faster than they&amp;rsquo;re predicting&lt;/h3&gt;
 &lt;p&gt;As CEO Diess is quoted in the article below, the “The supertanker is picking up speed”: For example, VW increased their EV production &lt;strong&gt;projections&lt;/strong&gt; by 50% to produce 22 million EVs by 2028. &lt;a href=&#34;https://www.bloomberg.com/news/articles/2019-03-12/vw-s-audi-porsche-margins-sag-in-costly-shift-to-electric-era&#34;&gt;LINK&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;But we think the current predictions are still too low. Why? Because now that EVs are being invested in and have started to be considered not a plague on automakers but an opportunity, automakers are realizing the &lt;strong&gt;business case&lt;/strong&gt; for a switch to EVs: higher margins &lt;a href=&#34;https://electrek.co/2019/08/08/vw-electric-car-parity-soon-tipping-point-ev-adoption/&#34;&gt;LINK&lt;/a&gt;, lower labor costs &lt;a href=&#34;https://www.bloomberg.com/opinion/articles/2019-04-12/electric-vehicle-battery-shrinks-and-so-does-the-total-cost&#34;&gt;LINK&lt;/a&gt; largely due to simpler construction and fewer moving parts &lt;a href=&#34;https://www.forbes.com/sites/mikescott/2018/05/28/electric-car-sales-set-to-accelerate-as-costs-fall-and-production-scales-up/#54a642740495&#34;&gt;LINK&lt;/a&gt;. Profits always lead automakers, as previously with the re-focusing around highly-profitable SUVs.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/img/faster-than-you-think/1x-1-768x267.png&#34; alt=&#34;&#34;&gt;
@@ -622,13 +670,13 @@ Source: &lt;a href=&#34;https://ilsr.org/report-electric-vehicles/&#34;&gt;https
 &lt;hr&gt;
 &lt;h3 id=&#34;underestimation-3-a-chinese-electric-vehicle-invasion&#34;&gt;Underestimation 3: A Chinese electric vehicle invasion&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/faster-than-you-think/es6-hero-top-desktop.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Chinese brands will be in the US far sooner than you&#39;d think. What happens when the growth curve for electric vehicles in the largest auto market in the world begins to flatten off? Chinese automakers, with new-found efficiencies of scale, will land and expand in the second largest auto market in the world – &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_countries_by_motor_vehicle_production&#34;&gt;the USA&lt;/a&gt;. This is why it&#39;s so critical in our opinion that traditional US automakers don&#39;t sleep through the transition.&lt;/p&gt;
-&lt;p&gt;Their technology is nothing to laugh at: Baidu&#39;s &lt;a href=&#34;https://www.cnet.com/roadshow/news/baidu-apollo-lite-camera-based-self-driving/&#34;&gt;camera based self-driving&lt;/a&gt; looks competitive with Tesla&#39;s Autopilot, NIO&#39;s in-car &lt;a href=&#34;https://www.youtube.com/watch?v=hs3RXtZfeWM&#34;&gt;Nomi AI assitant&lt;/a&gt; puts Alexa to shame), and they&#39;ll be looking to deploy it here sooner rather than later. As we all know, the Chinese are experts at shipping fast: &lt;a href=&#34;https://cleantechnica.com/2017/11/23/6-10-big-electric-car-companies-china/&#34;&gt;all of these are established, scaling automakers&lt;/a&gt; that are already on the market in China rolling up the market from the bottom (Examples: NIO, BYD, Xiaopeng, Geely, SAIC). But increasingly, like with Nio&#39;s ES-6 and ES-8 from the &lt;a href=&#34;https://nio.com&#34;&gt;top of the market&lt;/a&gt;, too.&lt;/p&gt;
+&lt;p&gt;Chinese brands will be in the US far sooner than you&amp;rsquo;d think. What happens when the growth curve for electric vehicles in the largest auto market in the world begins to flatten off? Chinese automakers, with new-found efficiencies of scale, will land and expand in the second largest auto market in the world – &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_countries_by_motor_vehicle_production&#34;&gt;the USA&lt;/a&gt;. This is why it&amp;rsquo;s so critical in our opinion that traditional US automakers don&amp;rsquo;t sleep through the transition.&lt;/p&gt;
+&lt;p&gt;Their technology is nothing to laugh at: Baidu&amp;rsquo;s &lt;a href=&#34;https://www.cnet.com/roadshow/news/baidu-apollo-lite-camera-based-self-driving/&#34;&gt;camera based self-driving&lt;/a&gt; looks competitive with Tesla&amp;rsquo;s Autopilot, NIO&amp;rsquo;s in-car &lt;a href=&#34;https://www.youtube.com/watch?v=hs3RXtZfeWM&#34;&gt;Nomi AI assitant&lt;/a&gt; puts Alexa to shame), and they&amp;rsquo;ll be looking to deploy it here sooner rather than later. As we all know, the Chinese are experts at shipping fast: &lt;a href=&#34;https://cleantechnica.com/2017/11/23/6-10-big-electric-car-companies-china/&#34;&gt;all of these are established, scaling automakers&lt;/a&gt; that are already on the market in China rolling up the market from the bottom (Examples: NIO, BYD, Xiaopeng, Geely, SAIC). But increasingly, like with Nio&amp;rsquo;s ES-6 and ES-8 from the &lt;a href=&#34;https://nio.com&#34;&gt;top of the market&lt;/a&gt;, too.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;underestimation-4-new-brands-and-models-will-address-not-yet-onboard-market-segments&#34;&gt;Underestimation 4: New brands and models will address not-yet-onboard market segments&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/faster-than-you-think/rivian-r1s-et-r1t.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://rivian.com&#34;&gt;Rivian&lt;/a&gt; is coming out &lt;a href=&#34;https://www.kbb.com/car-news/rivian/2100006867/&#34;&gt;next year&lt;/a&gt; with their all-EV truck which should go a long way to convincing the outdoors &amp;amp; Home Depot crowd about the efficacy of EVs.&lt;/p&gt;
-&lt;p&gt;Tesla is bringing out &lt;a href=&#34;https://insideevs.com/news/364925/tesla-pickup-truck-price-specs-more/&#34;&gt;their pickup&lt;/a&gt; truck too next year which should add to it&#39;s stable of luxury sedan (S), compact (3), and SUV (X).
+&lt;p&gt;Tesla is bringing out &lt;a href=&#34;https://insideevs.com/news/364925/tesla-pickup-truck-price-specs-more/&#34;&gt;their pickup&lt;/a&gt; truck too next year which should add to it&amp;rsquo;s stable of luxury sedan (S), compact (3), and SUV (X).
 And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625/ford-and-rivian-strike-500-million-partnership-to-build-all-new-pickup-truck-suv&#34;&gt;recently invested $500M&lt;/a&gt; into Rivian, follows suit with an electric version of the F-150 (the best-selling vehicle in the USA), the effects will be compounded. See a Fox Business interview around a recent E-F-150 marketing stunt &lt;a href=&#34;https://www.youtube.com/watch?v=uF_l3jsbitQ&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;We hope to insure them all. If you already have an EV today, &lt;a href=&#34;https://electrade.app/quote&#34;&gt;get a quote today&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
@@ -668,7 +716,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;Working on getting licensed as insurance broker in California or partnering with one.&lt;/li&gt;
 &lt;li&gt;Trying to work out which channels scalable: Blog, Flyers, Facebook, Google marketing&lt;/li&gt;
 &lt;li&gt;Thinking about re-imbursing customers for miles driven on Autopilot.&lt;/li&gt;
-&lt;li&gt;Tesla&#39;s insurance launched. Waiting to see what their market feedback is.&lt;/li&gt;
+&lt;li&gt;Tesla&amp;rsquo;s insurance launched. Waiting to see what their market feedback is.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;experimentshypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
 &lt;ul&gt;
@@ -728,7 +776,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;Flyers
 &lt;ul&gt;
 &lt;li&gt;Flyer every Model 3 in SF&lt;/li&gt;
-&lt;li&gt;We were going to flyer VC&#39;s cars outside of YC demo days, but our unit economics stopped working so postponed.&lt;/li&gt;
+&lt;li&gt;We were going to flyer VC&amp;rsquo;s cars outside of YC demo days, but our unit economics stopped working so postponed.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Results: 1 quotes completed, $0 commission&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -769,19 +817,19 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
       <guid>https://nikodunk.com/how-to-chain-functions-with-await-async/</guid>
       <description></description>
       
-      <content>&lt;p&gt;Next to my main job of building out and running &lt;a href=&#34;https://www.electrade.app&#34;&gt;electrade&lt;/a&gt; I help a friend’s team with their project. Recently, we wanted to build a Craiglist-style anonymous email relay with a &amp;ldquo;serverless&amp;rdquo; Google Firebase Function (same as AWS Lambda, Azure Functions, etc) for this project. So far I&#39;ve found handling async operations with &lt;code&gt;.then()&lt;/code&gt; callbacks easier to think through, but wanted to use async/await here because it&#39;s so much cleaner to read. I found most articles out there on chaining multiple functions unhelpful as they tend to post incomplete demo code that&#39;s copy/pasted from MSDN. There are a few hard-to-debug pitfalls on async/await, and since I fell into all of them I&#39;ll post my complete code here and explain my learnings so you don&#39;t have to.&lt;/p&gt;
-&lt;p&gt;Here&#39;s working code that chains multiple functions, waits for everything to resolve, and &lt;em&gt;then&lt;/em&gt; sends the result. Main mistakes were:&lt;/p&gt;
+      <content>&lt;p&gt;Next to my main job of building out and running &lt;a href=&#34;https://www.electrade.app&#34;&gt;electrade&lt;/a&gt; I help a friend’s team with their project. Recently, we wanted to build a Craiglist-style anonymous email relay with a &amp;ldquo;serverless&amp;rdquo; Google Firebase Function (same as AWS Lambda, Azure Functions, etc) for this project. So far I&amp;rsquo;ve found handling async operations with &lt;code&gt;.then()&lt;/code&gt; callbacks easier to think through, but wanted to use async/await here because it&amp;rsquo;s so much cleaner to read. I found most articles out there on chaining multiple functions unhelpful as they tend to post incomplete demo code that&amp;rsquo;s copy/pasted from MSDN. There are a few hard-to-debug pitfalls on async/await, and since I fell into all of them I&amp;rsquo;ll post my complete code here and explain my learnings so you don&amp;rsquo;t have to.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s working code that chains multiple functions, waits for everything to resolve, and &lt;em&gt;then&lt;/em&gt; sends the result. Main mistakes were:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Every &lt;code&gt;async function myFunction(){ &amp;lt;your code here&amp;gt; }&lt;/code&gt; declaration &lt;em&gt;automatically&lt;/em&gt; wraps the whole async function&#39;s code (ie. &lt;code&gt;&amp;lt;your code here&amp;gt;&lt;/code&gt;) in a &lt;code&gt;new Promise&lt;/code&gt;, and turns any &lt;code&gt;return x&lt;/code&gt; within the code into &lt;code&gt;resolve(x)&lt;/code&gt;. &lt;strong&gt;But you still need to await&lt;/strong&gt; outside of it (ie. &lt;code&gt;let y = await myFunction()&lt;/code&gt;) &lt;strong&gt;or it won&#39;t actually wait&lt;/strong&gt;. The debugging around this is super annoying.&lt;/li&gt;
-&lt;li&gt;Side note – in cloud functions, you &lt;em&gt;must&lt;/em&gt; send a response with &lt;code&gt;res.send()&lt;/code&gt;, or the function will assume it&#39;s failed and re-run it. This obviously must happen once everything has run or your promises will get cancelled.&lt;/li&gt;
+&lt;li&gt;Every &lt;code&gt;async function myFunction(){ &amp;lt;your code here&amp;gt; }&lt;/code&gt; declaration &lt;em&gt;automatically&lt;/em&gt; wraps the whole async function&amp;rsquo;s code (ie. &lt;code&gt;&amp;lt;your code here&amp;gt;&lt;/code&gt;) in a &lt;code&gt;new Promise&lt;/code&gt;, and turns any &lt;code&gt;return x&lt;/code&gt; within the code into &lt;code&gt;resolve(x)&lt;/code&gt;. &lt;strong&gt;But you still need to await&lt;/strong&gt; outside of it (ie. &lt;code&gt;let y = await myFunction()&lt;/code&gt;) &lt;strong&gt;or it won&amp;rsquo;t actually wait&lt;/strong&gt;. The debugging around this is super annoying.&lt;/li&gt;
+&lt;li&gt;Side note – in cloud functions, you &lt;em&gt;must&lt;/em&gt; send a response with &lt;code&gt;res.send()&lt;/code&gt;, or the function will assume it&amp;rsquo;s failed and re-run it. This obviously must happen once everything has run or your promises will get cancelled.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The code below:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;First, we have 2 normal sync functions on lines 10 &amp;amp; 11 – &lt;code&gt;getFieldsFromRequest()&lt;/code&gt; and &lt;code&gt;extractCourseIdFromEmailAddress()&lt;/code&gt; – no issues here.&lt;/li&gt;
-&lt;li&gt;Then on line 12 we have &lt;code&gt;async&lt;/code&gt; function &lt;code&gt;getEmailOfCourseWithCourseId()&lt;/code&gt; which gets the course&#39;s email address from Firestore. We don&#39;t know how long getting stuff from Firestore will take so it&#39;s &lt;code&gt;async&lt;/code&gt; on line 29, and will return (or &amp;lsquo;resolve&amp;rsquo; in Promise parlance) the &lt;code&gt;courseEmail&lt;/code&gt; we need to run the next 2 functions.&lt;/li&gt;
-&lt;li&gt;The next 2 functions on line 13 &amp;amp; 14, &lt;code&gt;saveToCloudFirestore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt;, &lt;em&gt;must not&lt;/em&gt; be run before &lt;code&gt;getEmailOfCourseWithCourseId()&lt;/code&gt; is run and has returned &lt;code&gt;courseEmail&lt;/code&gt;. If they do run too early, they will run with &lt;code&gt;courseEmail&lt;/code&gt; as undefined and everything goes to shit. &lt;strong&gt;The key to chaining:&lt;/strong&gt; Pass in &lt;code&gt;courseEmail&lt;/code&gt; as an argument to both functions, and on line 12 &lt;code&gt;let&lt;/code&gt; courseEmail &lt;code&gt;await getEmailOfCourseWithCourseId()&lt;/code&gt;. Result: The two following functions that we&#39;ve passed courseEmail as an argument to will both wait until courseEmail is ready (aka the function has been run and promise has resolved), then run.&lt;/li&gt;
-&lt;li&gt;Finally, &lt;code&gt;res.send()&lt;/code&gt; must not be sent until &lt;code&gt;saveToCloudFirestore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt; have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, same pattern: We save the &lt;code&gt;saveToCloudFireStore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt; responses (the stuff they return) into a variable &lt;em&gt;whose sole purpose this time round is to mark when the above function is done&lt;/em&gt;. This in a sense replaces a &lt;code&gt;.then()&lt;/code&gt;: it waits till both of these variables (&lt;code&gt;savedToCloud&lt;/code&gt; and &lt;code&gt;sentEmail&lt;/code&gt;) &amp;ldquo;have arrived&amp;rdquo; (aka their Promise has been resolved), then runs &lt;code&gt;res.send()&lt;/code&gt; with them. FYI this is so that Firebase/SendGrid know that cloud function has worked and don&#39;t re-send endlessly.&lt;/li&gt;
-&lt;li&gt;For readability&#39;s sake, I have &lt;strong&gt;removed the try/catch wrappings&lt;/strong&gt; here that you should be doing in practice. You should never not catch errors, but removing them makes the async/await concept easier to understand.&lt;/li&gt;
+&lt;li&gt;Then on line 12 we have &lt;code&gt;async&lt;/code&gt; function &lt;code&gt;getEmailOfCourseWithCourseId()&lt;/code&gt; which gets the course&amp;rsquo;s email address from Firestore. We don&amp;rsquo;t know how long getting stuff from Firestore will take so it&amp;rsquo;s &lt;code&gt;async&lt;/code&gt; on line 29, and will return (or &amp;lsquo;resolve&amp;rsquo; in Promise parlance) the &lt;code&gt;courseEmail&lt;/code&gt; we need to run the next 2 functions.&lt;/li&gt;
+&lt;li&gt;The next 2 functions on line 13 &amp;amp; 14, &lt;code&gt;saveToCloudFirestore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt;, &lt;em&gt;must not&lt;/em&gt; be run before &lt;code&gt;getEmailOfCourseWithCourseId()&lt;/code&gt; is run and has returned &lt;code&gt;courseEmail&lt;/code&gt;. If they do run too early, they will run with &lt;code&gt;courseEmail&lt;/code&gt; as undefined and everything goes to shit. &lt;strong&gt;The key to chaining:&lt;/strong&gt; Pass in &lt;code&gt;courseEmail&lt;/code&gt; as an argument to both functions, and on line 12 &lt;code&gt;let&lt;/code&gt; courseEmail &lt;code&gt;await getEmailOfCourseWithCourseId()&lt;/code&gt;. Result: The two following functions that we&amp;rsquo;ve passed courseEmail as an argument to will both wait until courseEmail is ready (aka the function has been run and promise has resolved), then run.&lt;/li&gt;
+&lt;li&gt;Finally, &lt;code&gt;res.send()&lt;/code&gt; must not be sent until &lt;code&gt;saveToCloudFirestore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt; have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, same pattern: We save the &lt;code&gt;saveToCloudFireStore()&lt;/code&gt; and &lt;code&gt;sendEmailInSendgrid()&lt;/code&gt; responses (the stuff they return) into a variable &lt;em&gt;whose sole purpose this time round is to mark when the above function is done&lt;/em&gt;. This in a sense replaces a &lt;code&gt;.then()&lt;/code&gt;: it waits till both of these variables (&lt;code&gt;savedToCloud&lt;/code&gt; and &lt;code&gt;sentEmail&lt;/code&gt;) &amp;ldquo;have arrived&amp;rdquo; (aka their Promise has been resolved), then runs &lt;code&gt;res.send()&lt;/code&gt; with them. FYI this is so that Firebase/SendGrid know that cloud function has worked and don&amp;rsquo;t re-send endlessly.&lt;/li&gt;
+&lt;li&gt;For readability&amp;rsquo;s sake, I have &lt;strong&gt;removed the try/catch wrappings&lt;/strong&gt; here that you should be doing in practice. You should never not catch errors, but removing them makes the async/await concept easier to understand.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
@@ -832,9 +880,9 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
 &lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// this is the cloud function you can call over HTTP. It is basically for email relay:
-&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,
-&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// saves to FireStore and sends and email with sendgrid.
-&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Finally, it sends a res.send() to end the cloud function
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// saves to FireStore and sends and email with sendgrid.
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Finally, it sends a res.send() to end the cloud function
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;// {* import a bunch of shit *}
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
@@ -878,7 +926,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Again, &lt;strong&gt;wrap the 3 last async functions and the main function in try{}catch{} to catch errors&lt;/strong&gt;. Also, the database code cannot be copied over like this – it&#39;s just for illustrative purposes. You have been warned!&lt;/p&gt;
+&lt;p&gt;Again, &lt;strong&gt;wrap the 3 last async functions and the main function in try{}catch{} to catch errors&lt;/strong&gt;. Also, the database code cannot be copied over like this – it&amp;rsquo;s just for illustrative purposes. You have been warned!&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://ui.toast.com/weekly-pick/ko_20190826/&#34;&gt;Korean Translation by Toast UI here&lt;/a&gt;. Thanks guys!&lt;/p&gt;
 </content>
@@ -921,14 +969,14 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;p&gt;Content Marketing can drive significant traffic, sustainably.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;All 3 team members wrote a blog piece &amp;amp; I posted to Reddit&#39;s /r/electricvehicles and /r/teslamotors.&lt;/p&gt;
+&lt;p&gt;All 3 team members wrote a blog piece &amp;amp; I posted to Reddit&amp;rsquo;s /r/electricvehicles and /r/teslamotors.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Results:
 &lt;ul&gt;
 &lt;li&gt;1500 total reads&lt;/li&gt;
 &lt;li&gt;25 quotes completed&lt;/li&gt;
 &lt;li&gt;9 purchase intents (&lt;strong&gt;$360 revenue @ $40 per purchase intent&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;? purchases (can&#39;t track yet as handing off to partner)&lt;/li&gt;
+&lt;li&gt;? purchases (can&amp;rsquo;t track yet as handing off to partner)&lt;/li&gt;
 &lt;li&gt;![](/startup-updates-9/Screen Shot 2019-07-20 at 11.20.11 AM.png)&lt;/li&gt;
 &lt;li&gt;![](/startup-updates-9/Screen Shot 2019-07-23 at 11.53.04 AM.png)&lt;/li&gt;
 &lt;/ul&gt;
@@ -937,7 +985,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;ul&gt;
 &lt;li&gt;Validated that people will click through the new, multi-page quote flow too. This was our main worry – that the form was now too long. Optimized as much as could but still not comparable to 8 total data points we were collecting last month. See step 1 of new flow below 👇&lt;/li&gt;
 &lt;li&gt;![](/startup-updates-9/Screen Shot 2019-08-06 at 5.08.09 PM.png)&lt;/li&gt;
-&lt;li&gt;New problem: When followed up over email – without exception, feedback is that it&#39;s more expensive than Geico.
+&lt;li&gt;New problem: When followed up over email – without exception, feedback is that it&amp;rsquo;s more expensive than Geico.
 &lt;ul&gt;
 &lt;li&gt;Next step: Pre-set the coverages to &lt;em&gt;minimum&lt;/em&gt; coverages -&amp;gt; insurance will seem more affordable by default?&lt;/li&gt;
 &lt;/ul&gt;
@@ -993,7 +1041,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/ul&gt;
 &lt;h1 id=&#34;hiring&#34;&gt;Hiring: &lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Armin on board now. He&#39;s still at his full-time role for now.
+&lt;li&gt;Armin on board now. He&amp;rsquo;s still at his full-time role for now.
 &lt;ul&gt;
 &lt;li&gt;Calls every other day&lt;/li&gt;
 &lt;li&gt;Texts throughout the day&lt;/li&gt;
@@ -1006,7 +1054,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/ul&gt;
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;EV Insurance Experiment. Success: there is demand. Fail: Couldn&#39;t beat prices with traditional agent network.&lt;/li&gt;
+&lt;li&gt;EV Insurance Experiment. Success: there is demand. Fail: Couldn&amp;rsquo;t beat prices with traditional agent network.&lt;/li&gt;
 &lt;li&gt;Now integrating with Clearcover API to automate quote requests.&lt;/li&gt;
 &lt;li&gt;Other bet: Positivity Trainer&lt;/li&gt;
 &lt;/ul&gt;
@@ -1027,7 +1075,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;17 visits, 0 request through Reddit Ads ($8 spent)&lt;/li&gt;
 &lt;li&gt;478 visits, 1 request through &amp;ldquo;Best Tesla Commercials so far&amp;rdquo; (Reddit)&lt;/li&gt;
 &lt;li&gt;356 visits, 10 requests through &amp;ldquo;Why the time is right for electric vehicle insurance specialists&amp;rdquo; (72 upvotes)&lt;/li&gt;
-&lt;li&gt;Revenue: $0, Couldn&#39;t beat prices with agents.&lt;/li&gt;
+&lt;li&gt;Revenue: $0, Couldn&amp;rsquo;t beat prices with agents.&lt;/li&gt;
 &lt;li&gt;![](/startup-updates-8/Screen Shot 2019-06-05 at 9.00.50 AM.png)&lt;/li&gt;
 &lt;li&gt;![](/startup-updates-8/Screen Shot 2019-06-12 at 10.50.32 PM.png)&lt;/li&gt;
 &lt;/ul&gt;
@@ -1038,7 +1086,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;ul&gt;
 &lt;li&gt;Results: 8 clicks, 1 request for $8.&lt;/li&gt;
 &lt;li&gt;![](/startup-updates-8/Screen Shot 2019-06-13 at 2.29.46 PM.png)&lt;/li&gt;
-&lt;li&gt;Revenue: $0, Couldn&#39;t beat prices with agents. Fail.&lt;/li&gt;
+&lt;li&gt;Revenue: $0, Couldn&amp;rsquo;t beat prices with agents. Fail.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Found Clearcover.com.
@@ -1127,7 +1175,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Value-add to differentiate (Fair has &amp;ldquo;cancel any time&amp;rdquo; and &amp;ldquo;bundled insurance&amp;rdquo;)&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;New cofounder Amir suggested we try a value-add add-ons/Benefits on top of lease to differentiate ourselves from normal leasing lke Fair&#39;s &amp;ldquo;Cancel any time&amp;rdquo;?&lt;/li&gt;
+&lt;li&gt;New cofounder Amir suggested we try a value-add add-ons/Benefits on top of lease to differentiate ourselves from normal leasing lke Fair&amp;rsquo;s &amp;ldquo;Cancel any time&amp;rdquo;?&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Results: No difference.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -1138,10 +1186,10 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;p&gt;&lt;strong&gt;Experiment: Sell value-add features instead of leasing, with digital marketing.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$35 per month value-add benefits EV bundle (pivot)&lt;/li&gt;
-&lt;li&gt;Add leases again later once we&#39;re the AAA of EVs.&lt;/li&gt;
+&lt;li&gt;Add leases again later once we&amp;rsquo;re the AAA of EVs.&lt;/li&gt;
 &lt;li&gt;Upside: Address &lt;em&gt;whole&lt;/em&gt; EV market, not just subset actively looking for EV lease.&lt;/li&gt;
 &lt;li&gt;Upside: Less friction due to 1 month instead of 36 month commitment. $35 commitment instead of $8,000 commitment for lease.&lt;/li&gt;
-&lt;li&gt;Advertise new value prop through paid marketing. If we can get 10 people to pay $35 in the next week we&#39;ll pivot.
+&lt;li&gt;Advertise new value prop through paid marketing. If we can get 10 people to pay $35 in the next week we&amp;rsquo;ll pivot.
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Results: On Reddit ads 18 clicks for $8 -&amp;gt; 5 installs ($1.6 per install) -&amp;gt; 5 people touched through to pricing -&amp;gt; 0 subscribers&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Results: On iOS app store marketing 3 installs for $6 -&amp;gt; None of them actual customers, none of them even in the USA.&lt;/strong&gt;&lt;/li&gt;
@@ -1188,8 +1236,8 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Learnings: Physical ads working, but little need for this service and hard to implement.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Marketing: Pretty sure physical flyer marketing is the way to go – we&#39;re definitely getting infront of the right, targeted customers now (ie. Tesla owners).&lt;/li&gt;
-&lt;li&gt;Product: No need for this service, but we&#39;re sure of this now after doing flyers AND talking to customers.&lt;/li&gt;
+&lt;li&gt;Marketing: Pretty sure physical flyer marketing is the way to go – we&amp;rsquo;re definitely getting infront of the right, targeted customers now (ie. Tesla owners).&lt;/li&gt;
+&lt;li&gt;Product: No need for this service, but we&amp;rsquo;re sure of this now after doing flyers AND talking to customers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1200,14 +1248,14 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;Watch people at superchargers - Like Airbnb live-in that Chesky did. Notes from field:
 &lt;ul&gt;
 &lt;li&gt;Supercharging stations feel like a Tesla club on the top story of this parking garage (this is what NIO was trying to achieve?).&lt;/li&gt;
-&lt;li&gt;Tried to see what people are buying when they leave their car (quickly) but a large share of people just sit in their car. Seat back. Kids play. They&#39;re on their phone. Read paper. Door open. Downtime.&lt;/li&gt;
-&lt;li&gt;How to get their attention though? QR codes won&#39;t work or are too lossy – they don&#39;t look up. Driving sign in front of them for app or sign to order coffee from nearby store? Or float? -&amp;gt; &amp;ldquo;Supercharged coffee&amp;rdquo;, Supercharger snacks, Supercharger food truck.&lt;/li&gt;
+&lt;li&gt;Tried to see what people are buying when they leave their car (quickly) but a large share of people just sit in their car. Seat back. Kids play. They&amp;rsquo;re on their phone. Read paper. Door open. Downtime.&lt;/li&gt;
+&lt;li&gt;How to get their attention though? QR codes won&amp;rsquo;t work or are too lossy – they don&amp;rsquo;t look up. Driving sign in front of them for app or sign to order coffee from nearby store? Or float? -&amp;gt; &amp;ldquo;Supercharged coffee&amp;rdquo;, Supercharger snacks, Supercharger food truck.&lt;/li&gt;
 &lt;li&gt;Supercharger take-out (charges too fast to pick up food said youtube video)&lt;/li&gt;
 &lt;li&gt;Supercharger chat for people who are bored.&lt;/li&gt;
 &lt;li&gt;Supercharger delivery&lt;/li&gt;
 &lt;li&gt;QR code to market the app?&lt;/li&gt;
 &lt;li&gt;Supercharger ads on drive-by car?&lt;/li&gt;
-&lt;li&gt;Supercharger club - remote services at superchargers. We bring you stuff at superchargers. It&#39;s like take-out at superchargers. Nearby stuff at superchargers.&lt;/li&gt;
+&lt;li&gt;Supercharger club - remote services at superchargers. We bring you stuff at superchargers. It&amp;rsquo;s like take-out at superchargers. Nearby stuff at superchargers.&lt;/li&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/IMG_1354.JPG&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;li&gt;Learning: Get out of the building, go off-line.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Results: New idea! 👇&lt;/strong&gt;&lt;/li&gt;
@@ -1228,7 +1276,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;Mostly from moms and/or dads with kids in the back smiled and engaged.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Results: 34 flyers handed out, 3 texted us back (best conversion rate yet) to sign up, including email and name!&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Now that have 3 sign-ups, deliver food to them at certain times of day.&lt;/li&gt;
-&lt;li&gt;Work-intensive to implement as solo full-time founder (Armin&#39;s not available to deliver, etc)&lt;/li&gt;
+&lt;li&gt;Work-intensive to implement as solo full-time founder (Armin&amp;rsquo;s not available to deliver, etc)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1249,7 +1297,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
       <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/paper.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;An archived version of the final website (started as Paper Furniture, ended up being called Smoke Furniture Co.) before we switched it off is &lt;a href=&#34;http://nikodunk.github.io/smoke/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;1-team-team-team&#34;&gt;1 Team Team Team&lt;/h1&gt;
-&lt;p&gt;Cofounder Cofounder Cofounder. Team Team Team. I can&#39;t stress this enough, and is the main point of learning I&#39;ve brought. Cofounders should best-case come before the idea, because the idea will change. This was the case with us – my cofounder left the team when the idea was changing and we weren&#39;t finding traction. If we&#39;d been more used to working together beforehand, maybe this would have been different. Below our first product:&lt;/p&gt;
+&lt;p&gt;Cofounder Cofounder Cofounder. Team Team Team. I can&amp;rsquo;t stress this enough, and is the main point of learning I&amp;rsquo;ve brought. Cofounders should best-case come before the idea, because the idea will change. This was the case with us – my cofounder left the team when the idea was changing and we weren&amp;rsquo;t finding traction. If we&amp;rsquo;d been more used to working together beforehand, maybe this would have been different. Below our first product:&lt;/p&gt;
 &lt;h1 id=&#34;2-problem-problem-problem&#34;&gt;2 Problem problem problem&lt;/h1&gt;
 &lt;p&gt;Find a hair-on-fire problem (vitamins vs. painkillers). There should be no substitution, and extreme urgency to try your project.&lt;/p&gt;
 &lt;p&gt;Various problem statements we could have solved –&lt;/p&gt;
@@ -1257,8 +1305,8 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;p&gt;Or is it the problem of folding?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/smoke.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;3-hardware-is-hard&#34;&gt;3 Hardware is hard.&lt;/h1&gt;
-&lt;p&gt;Let me rephrase that: for your &lt;em&gt;first&lt;/em&gt; startup, hardware is hard. Hardware is capital and liabilty intensive. For your first startup, maybe look at software: you can stand shoulder-to-shoulder with the big boys if you know how to write code. Most new billionaires &lt;em&gt;began&lt;/em&gt; with software companies, even if they ended up advancing into hardware. There&#39;s a reason that so many founders these days (especially young ones) started with a software project – there&#39;s no overhead and you can pivot infinite times without the sunk-cost-fallacy that hardware and minimums bring.&lt;/p&gt;
-&lt;p&gt;We found a leaner way of doing hardware in that a transportation factory agreed to sell us their off-time on their CNC machines (which most days of the week were just sitting there). They&#39;d accept orders of 10s and 20s instead of the 100s and 1000s we&#39;d need to order from Estonia (where the big wood mills are).&lt;/p&gt;
+&lt;p&gt;Let me rephrase that: for your &lt;em&gt;first&lt;/em&gt; startup, hardware is hard. Hardware is capital and liabilty intensive. For your first startup, maybe look at software: you can stand shoulder-to-shoulder with the big boys if you know how to write code. Most new billionaires &lt;em&gt;began&lt;/em&gt; with software companies, even if they ended up advancing into hardware. There&amp;rsquo;s a reason that so many founders these days (especially young ones) started with a software project – there&amp;rsquo;s no overhead and you can pivot infinite times without the sunk-cost-fallacy that hardware and minimums bring.&lt;/p&gt;
+&lt;p&gt;We found a leaner way of doing hardware in that a transportation factory agreed to sell us their off-time on their CNC machines (which most days of the week were just sitting there). They&amp;rsquo;d accept orders of 10s and 20s instead of the 100s and 1000s we&amp;rsquo;d need to order from Estonia (where the big wood mills are).&lt;/p&gt;
 &lt;p&gt;![](/paper/Smoke Lean Process.001.jpeg)
 ![](/paper/Smoke Lean Process.002.jpeg)
 ![](/paper/Smoke Lean Process.009.jpeg)
@@ -1266,18 +1314,18 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 ![](/paper/Smoke Lean Process.007.jpeg)
 ![](/paper/Smoke Lean Process.006.jpeg)&lt;/p&gt;
 &lt;h1 id=&#34;4-give-yourself-enough-time&#34;&gt;4 Give yourself enough time.&lt;/h1&gt;
-&lt;p&gt;The chances that you&#39;ll find something that takes off withing 6 months is small. Even if you do find something great, traction takes time. Word of mouth and actual revenue takes time. Make sure you have runway for multiple pivots. We had time for 2 pivots in retrospect (from cardboard to CNC milled furniture to high-end furniture), and found out that the second product was the one that sold best. We&#39;d have needed more time to react to this.&lt;/p&gt;
-&lt;h1 id=&#34;5-dont-incorporate-until-serious-money-is-flowing&#34;&gt;5 Don&#39;t incorporate until serious money is flowing.&lt;/h1&gt;
-&lt;p&gt;Get initial, free traction. Do free tests. Ship now. Resist the urge to get feedback from paid marketing, resist the urge to incorporate/sort out naming/ etc – this will all change and only increases overhead. Be lazer-focused on one thing: is there a problem customers will pay for, and can you make money off it (in our case there was something customers would pay for, but we couldn&#39;t make money from it as the up-front investment was too much to bear). This comes off the last point – is there a business case? Do your unit economics work? Do an initial test.&lt;/p&gt;
+&lt;p&gt;The chances that you&amp;rsquo;ll find something that takes off withing 6 months is small. Even if you do find something great, traction takes time. Word of mouth and actual revenue takes time. Make sure you have runway for multiple pivots. We had time for 2 pivots in retrospect (from cardboard to CNC milled furniture to high-end furniture), and found out that the second product was the one that sold best. We&amp;rsquo;d have needed more time to react to this.&lt;/p&gt;
+&lt;h1 id=&#34;5-dont-incorporate-until-serious-money-is-flowing&#34;&gt;5 Don&amp;rsquo;t incorporate until serious money is flowing.&lt;/h1&gt;
+&lt;p&gt;Get initial, free traction. Do free tests. Ship now. Resist the urge to get feedback from paid marketing, resist the urge to incorporate/sort out naming/ etc – this will all change and only increases overhead. Be lazer-focused on one thing: is there a problem customers will pay for, and can you make money off it (in our case there was something customers would pay for, but we couldn&amp;rsquo;t make money from it as the up-front investment was too much to bear). This comes off the last point – is there a business case? Do your unit economics work? Do an initial test.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/paper/smoke.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;6-plan-ahead-so-youre-not-forced-to-raise-money&#34;&gt;6 Plan ahead so you&#39;re not forced to raise money&lt;/h1&gt;
+&lt;h1 id=&#34;6-plan-ahead-so-youre-not-forced-to-raise-money&#34;&gt;6 Plan ahead so you&amp;rsquo;re not forced to raise money&lt;/h1&gt;
 &lt;p&gt;We did raise money in the end, but were not in a strong position: we were about to run out of money, and had sunk all of our money into hardware. We should have planned ahead. Hardware is hard for a reason: you need to sink capital in.&lt;/p&gt;
 &lt;h1 id=&#34;7-take-advice-from-the-right-people&#34;&gt;7 Take advice from the right people.&lt;/h1&gt;
 &lt;p&gt;Be careful who you take advice from – we had bad advisors telling us to make 3-year financial projections. We had funders giving us advice on marketing. All of this is irrelevant – and massively distracticing. Do one thing and do it well.&lt;/p&gt;
 &lt;h1 id=&#34;8-your-customers-may-be-completely-different-from-who-you-think-they-are&#34;&gt;8 Your customers may be completely different from who you think they are&lt;/h1&gt;
-&lt;p&gt;Sure, our initial sale came from marketing stunts like displaying in a highly-trafficked corner store. A marketing guy who thought this was amusing was our first customer. But quickly we realized that another customer base actually had a need for what we were building, and bought multiple times, and kept recommending it to their friends: Friends&amp;rsquo; mothers, who then recommended it to her friends. Initially we thought they were just being nice, but we soon realized we were actually soliving problem for them! Empty nesters needed a second table for when the kids came home that they could fold out. They didn&#39;t want cheap feeling IKEA stuff. They didn&#39;t want to lug around furniture at their age. They had the disposable income to afford our designs. They appreciated the aesthetics. They liked that they could have our designs mailed to their house, or mountain chalets (this is a thing in Switzerland), and didn&#39;t have to lug it up there themselves. In short – we&#39;d found our initial early adopters. Not the Yuppies we&#39;d thought they would be – but a completely different customer base, which frankly came out of left field.&lt;/p&gt;
-&lt;h1 id=&#34;9-do-things-that-dont-scale&#34;&gt;9 Do things that don&#39;t scale&lt;/h1&gt;
-&lt;p&gt;Paul Graham&#39;s famous trope. We tried things that scaled like Facebook campaigns, and got not-so-clear results. Who knew if we were actually improving our phrasing? We definitely weren&#39;t selling any product through this channel. Below a marketing Facebook campaign snippet. We had A/B/C tests running most days. Funnily enough, most of our friends had heard of us after a few days – awareness marketing definitely works through Facebook.&lt;/p&gt;
+&lt;p&gt;Sure, our initial sale came from marketing stunts like displaying in a highly-trafficked corner store. A marketing guy who thought this was amusing was our first customer. But quickly we realized that another customer base actually had a need for what we were building, and bought multiple times, and kept recommending it to their friends: Friends&amp;rsquo; mothers, who then recommended it to her friends. Initially we thought they were just being nice, but we soon realized we were actually soliving problem for them! Empty nesters needed a second table for when the kids came home that they could fold out. They didn&amp;rsquo;t want cheap feeling IKEA stuff. They didn&amp;rsquo;t want to lug around furniture at their age. They had the disposable income to afford our designs. They appreciated the aesthetics. They liked that they could have our designs mailed to their house, or mountain chalets (this is a thing in Switzerland), and didn&amp;rsquo;t have to lug it up there themselves. In short – we&amp;rsquo;d found our initial early adopters. Not the Yuppies we&amp;rsquo;d thought they would be – but a completely different customer base, which frankly came out of left field.&lt;/p&gt;
+&lt;h1 id=&#34;9-do-things-that-dont-scale&#34;&gt;9 Do things that don&amp;rsquo;t scale&lt;/h1&gt;
+&lt;p&gt;Paul Graham&amp;rsquo;s famous trope. We tried things that scaled like Facebook campaigns, and got not-so-clear results. Who knew if we were actually improving our phrasing? We definitely weren&amp;rsquo;t selling any product through this channel. Below a marketing Facebook campaign snippet. We had A/B/C tests running most days. Funnily enough, most of our friends had heard of us after a few days – awareness marketing definitely works through Facebook.&lt;/p&gt;
 &lt;p&gt;![](/paper/Smoke Lean Process.004.jpeg)
 ![](/paper/Smoke Lean Process.005.jpeg)&lt;/p&gt;
 &lt;p&gt;What really lead to sales however were our marketing stunts.&lt;/p&gt;
@@ -1292,8 +1340,8 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;p&gt;Establishing trust is the main initial problem for a company selling physical goods. For this, we may need a physical location.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;final-thoughts&#34;&gt;Final thoughts&lt;/h1&gt;
-&lt;p&gt;I still think the lightweight/sustainable furniture space is interesting. We needed more interations on this concept however, and we didn&#39;t have the time/runway to do so. This was our fault. We should have planned better, to provide more time for iteration. We should also have built less until we knew more. And I should have picked cofounders more carefully.&lt;/p&gt;
-&lt;p&gt;Those are the main learnings I&#39;ve taken away so far from my first company. In all – not bad for a first experience in startups.&lt;/p&gt;
+&lt;p&gt;I still think the lightweight/sustainable furniture space is interesting. We needed more interations on this concept however, and we didn&amp;rsquo;t have the time/runway to do so. This was our fault. We should have planned better, to provide more time for iteration. We should also have built less until we knew more. And I should have picked cofounders more carefully.&lt;/p&gt;
+&lt;p&gt;Those are the main learnings I&amp;rsquo;ve taken away so far from my first company. In all – not bad for a first experience in startups.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;original-pitch-deck&#34;&gt;Original Pitch Deck&lt;/h1&gt;
 &lt;p&gt;For completion, I post below our original pitch deck which lead to us raising 100K in a convertible note.&lt;/p&gt;
@@ -1347,7 +1395,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Added weekly LEASE deals scraped from ev-vin.blogspot.com data&lt;/li&gt;
-&lt;li&gt;Doing background research myself once received requests. As this was not converting once I&#39;d done the research:&lt;/li&gt;
+&lt;li&gt;Doing background research myself once received requests. As this was not converting once I&amp;rsquo;d done the research:&lt;/li&gt;
 &lt;li&gt;Added up-front deposit. When the requests stopped added more value – electrade can do paperwork digitally for dealer, and act as a proxy between dealer and user (&amp;ldquo;price security/no stressful negotiations&amp;rdquo;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;experimentshypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
@@ -1418,7 +1466,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 1 attempt to pay, may be fraud. Potentially may take 60 days to convert customers, though once have app installed, though.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Added value: Do all paperwork digitally &amp;amp; pay deposit to lock in so don&#39;t have to haggle with dealer – just pick up &amp;amp; pay.
+&lt;li&gt;Added value: Do all paperwork digitally &amp;amp; pay deposit to lock in so don&amp;rsquo;t have to haggle with dealer – just pick up &amp;amp; pay.
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Same as above. Not sure this convenience is a pain point. Reached out to ask for feedback from email addresses but no response.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1428,7 +1476,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;
 &lt;h3 id=&#34;tested-ev-insurance&#34;&gt;&lt;strong&gt;Tested EV insurance&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Loads of complaints online about how it&#39;s expensive. Added Metromile affiliate program.
+&lt;li&gt;Loads of complaints online about how it&amp;rsquo;s expensive. Added Metromile affiliate program.
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; 0 sign-ups so far after 2 weeks of cohorts.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1438,8 +1486,8 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/ul&gt;
 &lt;h3 id=&#34;experiments-for-next-2-weeks&#34;&gt;Experiments for next 2 weeks:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Test Concierge service (you say which car, we&#39;ll find at a price).&lt;/li&gt;
-&lt;li&gt;Test Consultant service (we&#39;ll answer your EV questions and then recommend products).&lt;/li&gt;
+&lt;li&gt;Test Concierge service (you say which car, we&amp;rsquo;ll find at a price).&lt;/li&gt;
+&lt;li&gt;Test Consultant service (we&amp;rsquo;ll answer your EV questions and then recommend products).&lt;/li&gt;
 &lt;li&gt;Change from pure EV? Potentially, the hassle-free value proposition may be more effective in a mainstream market for now?&lt;/li&gt;
 &lt;li&gt;Add off-lease cars from Greenlight Auto Wholesale ?&lt;/li&gt;
 &lt;li&gt;Help find parking spots with charging for those EV owners without a garage w/ Piedparker.com ?&lt;/li&gt;
@@ -1463,7 +1511,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
       <guid>https://nikodunk.com/startup-updates-5/</guid>
       <description></description>
       
-      <content>&lt;p&gt;This month has been mostly resetting on a new project, electrade. I&#39;ve been interviewing a bunch of EV owners over the phone to ask for problems, and going to a Golden Gate Electric Vehicle Meetup.&lt;/p&gt;
+      <content>&lt;p&gt;This month has been mostly resetting on a new project, electrade. I&amp;rsquo;ve been interviewing a bunch of EV owners over the phone to ask for problems, and going to a Golden Gate Electric Vehicle Meetup.&lt;/p&gt;
 &lt;p&gt;Not much to update on this month. Tracking WAU – 20% week over week growth but at this scale it means nothing.&lt;/p&gt;
 &lt;h1 id=&#34;help-wantedasks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
 &lt;ul&gt;
@@ -1529,7 +1577,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;Used Teslas near you.
 &lt;ul&gt;
 &lt;li&gt;Not much interest, lots of competition from EV-CPO.com and onlyusedtesla.com.&lt;/li&gt;
-&lt;li&gt;Talked to two folks who could scrape the CPO (certified pre-owned tesla) data from tesla&#39;s website.&lt;/li&gt;
+&lt;li&gt;Talked to two folks who could scrape the CPO (certified pre-owned tesla) data from tesla&amp;rsquo;s website.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Hypothesis:
@@ -1557,7 +1605,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
       <guid>https://nikodunk.com/startup-updates-4/</guid>
       <description></description>
       
-      <content>&lt;p&gt;After 4 months of working on healthcare stuffs and nearly making it (we signed a first deal of $600/mo, but then couldn&#39;t deliver an external integration they needed UGH) I have to face the decision to double down again or reset. I&#39;ve decided to reset to something more in line with my natural interests: I&#39;ve now been working for the past couple weeks on the (first) electric vehicle marketplace app. &amp;ldquo;Find a used tesla near me&amp;rdquo; – screenshot attached :)&lt;/p&gt;
+      <content>&lt;p&gt;After 4 months of working on healthcare stuffs and nearly making it (we signed a first deal of $600/mo, but then couldn&amp;rsquo;t deliver an external integration they needed UGH) I have to face the decision to double down again or reset. I&amp;rsquo;ve decided to reset to something more in line with my natural interests: I&amp;rsquo;ve now been working for the past couple weeks on the (first) electric vehicle marketplace app. &amp;ldquo;Find a used tesla near me&amp;rdquo; – screenshot attached :)&lt;/p&gt;
 &lt;h2 id=&#34;kpis&#34;&gt;KPIs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We are default dead&lt;/li&gt;
@@ -1572,15 +1620,15 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;h2 id=&#34;key-events&#34;&gt;Key Events&lt;/h2&gt;
 &lt;h2 id=&#34;bad&#34;&gt;Bad&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;We lost the client mentioned in the last monthly update, due to their top brass insisting on a (technically nearly impossible) integration with their existing EMR provider after the first invoice was already due. The EMR provider wouldn&#39;t play ball for this integration. After hearing this same push-back from 4 clients, I think this is an actual deal breaker for the healthcare centers.&lt;/li&gt;
+&lt;li&gt;We lost the client mentioned in the last monthly update, due to their top brass insisting on a (technically nearly impossible) integration with their existing EMR provider after the first invoice was already due. The EMR provider wouldn&amp;rsquo;t play ball for this integration. After hearing this same push-back from 4 clients, I think this is an actual deal breaker for the healthcare centers.&lt;/li&gt;
 &lt;li&gt;We looked into solutions like Selenium to move their mouse onscreen and enter the info into the EMR without human input, but decided this was too hacky.&lt;/li&gt;
-&lt;li&gt;We pivoted to new idea, same client about 3 weeks ago, and pitched the same health centers 4 alternative problems. The best of which was a new workflow idea, but after 6 calls we can&#39;t get interest signal. The prototype of the new workflow concept (as well as the form automation one) are both still online still at paperworklabs.com.&lt;/li&gt;
-&lt;li&gt;We&#39;re very far away from the original goal of the company at this point, so the options are to double-or-nothing again or to reset.&lt;/li&gt;
+&lt;li&gt;We pivoted to new idea, same client about 3 weeks ago, and pitched the same health centers 4 alternative problems. The best of which was a new workflow idea, but after 6 calls we can&amp;rsquo;t get interest signal. The prototype of the new workflow concept (as well as the form automation one) are both still online still at paperworklabs.com.&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;re very far away from the original goal of the company at this point, so the options are to double-or-nothing again or to reset.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;good&#34;&gt;Good&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;We&#39;re currently leaning towards pivoting, which after 4 months and 3 concepts hurts, but after so much invested effort in health I keep getting drawn back to the exploding electric vehicle market:&lt;/li&gt;
-&lt;li&gt;This side project is called Electrade – the world&#39;s first electric vehicle marketplace. It&#39;s been on the app store for a week, and I&#39;m working on ASO currently and going to EV meetups.&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;re currently leaning towards pivoting, which after 4 months and 3 concepts hurts, but after so much invested effort in health I keep getting drawn back to the exploding electric vehicle market:&lt;/li&gt;
+&lt;li&gt;This side project is called Electrade – the world&amp;rsquo;s first electric vehicle marketplace. It&amp;rsquo;s been on the app store for a week, and I&amp;rsquo;m working on ASO currently and going to EV meetups.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;asks&#34;&gt;Asks&lt;/h2&gt;
 &lt;ul&gt;
@@ -1601,17 +1649,17 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
       <guid>https://nikodunk.com/heroku-ssl-google-domains-2019/</guid>
       <description></description>
       
-      <content>&lt;p&gt;Ugh. This wastes time every time I run into it. It&#39;s so much easier with AWS, and there&#39;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&#39;s ACM for SSL. IF you do everything right, it&#39;s actually very simple. So I&#39;ll document how it worked for me in 2019 here as much for me as for anyone else.&lt;/p&gt;
-&lt;p&gt;I strongly reference &lt;a href=&#34;https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97&#34;&gt;David Gagne&#39;s article&lt;/a&gt; here, which is now sometimes behind a paywall on Medium. It&#39;s actually only 3 steps.&lt;/p&gt;
+      <content>&lt;p&gt;Ugh. This wastes time every time I run into it. It&amp;rsquo;s so much easier with AWS, and there&amp;rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&amp;rsquo;s ACM for SSL. IF you do everything right, it&amp;rsquo;s actually very simple. So I&amp;rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.&lt;/p&gt;
+&lt;p&gt;I strongly reference &lt;a href=&#34;https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97&#34;&gt;David Gagne&amp;rsquo;s article&lt;/a&gt; here, which is now sometimes behind a paywall on Medium. It&amp;rsquo;s actually only 3 steps.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Heroku, in your app &amp;gt; Settings &amp;gt; Add your domain:&lt;/strong&gt; Add www.[your-domain].com (Note: www is KEY!) to your app and copy the [DNS Target] it gives you.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Synthetic Records &amp;gt; Add a subdomain:&lt;/strong&gt; @ to Subdomain, add https://www.[your-domain].com to the next field. Forward the path (so that [your-domain].com/about.html forwards to https://www.[your-domain].com/about.html), and leave the SSL Enabled.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Custom Resource Records &amp;gt; Add a CNAME:&lt;/strong&gt; www, CNAME, [DNS Target]&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Boom. Wait a couple minutes, and you&#39;re done.&lt;/p&gt;
+&lt;p&gt;Boom. Wait a couple minutes, and you&amp;rsquo;re done.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;heroku certs:auto:refresh
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&#39;s working.&lt;/p&gt;
+&lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&amp;rsquo;s working.&lt;/p&gt;
 &lt;p&gt;I install &lt;a href=&#34;https://github.com/nodenica/node-heroku-ssl-redirect&#34;&gt;heroku-ssl-redirect&lt;/a&gt; for node to force HTTPS upgrades.&lt;/p&gt;
 &lt;p&gt;Have a great year!&lt;/p&gt;
 &lt;p&gt;PS: So does this work for simply [your-domain].com and not www.[your-domain].com as we were using in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( &lt;a href=&#34;https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong&#34;&gt;Source 1: Heroku Docs&lt;/a&gt; &lt;a href=&#34;https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku&#34;&gt;Source 2: StackOverflow&lt;/a&gt;&lt;/p&gt;
@@ -1627,7 +1675,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
       <guid>https://nikodunk.com/startup-updates-3/</guid>
       <description></description>
       
-      <content>&lt;p&gt;We just signed up our first paying customer here at Paperwork Labs, so it&#39;s time for the January update. See last month&#39;s &lt;a href=&#34;https://nikodunk.com/startup-updates-2&#34;&gt;here&lt;/a&gt; – TLDR; December: New cofounder, MVP, Received Grant from Emergent Ventures, Pivot from solving medical note-taking to solving medical paperwork. We are now building &amp;ldquo;Turbotax for Medical Forms&amp;rdquo;.&lt;/p&gt;
+      <content>&lt;p&gt;We just signed up our first paying customer here at Paperwork Labs, so it&amp;rsquo;s time for the January update. See last month&amp;rsquo;s &lt;a href=&#34;https://nikodunk.com/startup-updates-2&#34;&gt;here&lt;/a&gt; – TLDR; December: New cofounder, MVP, Received Grant from Emergent Ventures, Pivot from solving medical note-taking to solving medical paperwork. We are now building &amp;ldquo;Turbotax for Medical Forms&amp;rdquo;.&lt;/p&gt;
 &lt;h2 id=&#34;kpis&#34;&gt;KPIs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We are default dead&lt;/li&gt;
@@ -1642,24 +1690,24 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;h2 id=&#34;key-events&#34;&gt;Key Events&lt;/h2&gt;
 &lt;h1 id=&#34;good&#34;&gt;Good&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Sales/Customer-Month: We&#39;ve talked to 5 practice groups this month, added a 6th group today alone, and have signed up one practice from the largest group for X licenses (X * $99). We&#39;re presenting to 20 more potentials from the same practice group on Feb 27th.&lt;/li&gt;
-&lt;li&gt;Product: This was all done with a video of the MVP (see last month), and live demos of the MVP over Skype. We&#39;ve built demo-able &amp;ldquo;Turbotax for medical forms&amp;rdquo; with 1 working form incl. PDF export and persistent data. Still needs user system, more forms, functioning reporting dashboard (currently static page). Now that we have first customer signed on we&#39;re going to build this.&lt;/li&gt;
-&lt;li&gt;Learnings: From push-backs from the sales calls we&#39;ve learned that the main complaints were: 1) No EMR integration (had a call with EMR, they&#39;re holding the data hostage), 2) price (we were initially asking $99/form/practice/month &amp;hellip; this was too much), and 3) &amp;ldquo;let me run this by the other practices&amp;rdquo;. We couldn&#39;t solve 1) but turns out the first customer STILL signed on and many are interested regardless, and we solved 2) by pricing 5 forms for $99 (build forms once, run anywhere so that should be fine), and solved 3) by offering   the pricing from 2) for as a limited time offer to add pressure and overcome &amp;ldquo;let me ask others&amp;rdquo; syndrome – it moved the first practice over the finish line.&lt;/li&gt;
+&lt;li&gt;Sales/Customer-Month: We&amp;rsquo;ve talked to 5 practice groups this month, added a 6th group today alone, and have signed up one practice from the largest group for X licenses (X * $99). We&amp;rsquo;re presenting to 20 more potentials from the same practice group on Feb 27th.&lt;/li&gt;
+&lt;li&gt;Product: This was all done with a video of the MVP (see last month), and live demos of the MVP over Skype. We&amp;rsquo;ve built demo-able &amp;ldquo;Turbotax for medical forms&amp;rdquo; with 1 working form incl. PDF export and persistent data. Still needs user system, more forms, functioning reporting dashboard (currently static page). Now that we have first customer signed on we&amp;rsquo;re going to build this.&lt;/li&gt;
+&lt;li&gt;Learnings: From push-backs from the sales calls we&amp;rsquo;ve learned that the main complaints were: 1) No EMR integration (had a call with EMR, they&amp;rsquo;re holding the data hostage), 2) price (we were initially asking $99/form/practice/month &amp;hellip; this was too much), and 3) &amp;ldquo;let me run this by the other practices&amp;rdquo;. We couldn&amp;rsquo;t solve 1) but turns out the first customer STILL signed on and many are interested regardless, and we solved 2) by pricing 5 forms for $99 (build forms once, run anywhere so that should be fine), and solved 3) by offering   the pricing from 2) for as a limited time offer to add pressure and overcome &amp;ldquo;let me ask others&amp;rdquo; syndrome – it moved the first practice over the finish line.&lt;/li&gt;
 &lt;li&gt;We started working on this new concept on December 10th, had a prototype ready by December 18th, and had our first customer demo Jan 8th. We have a sign-up incl. pricing Jan 23rd.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;bad&#34;&gt;Bad&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;We had a call with an EMR – refuse to let us integrate. They&#39;re holding the customer&#39;s healthcare data hostage. Upside: Customers subscribed anyway.&lt;/li&gt;
+&lt;li&gt;We had a call with an EMR – refuse to let us integrate. They&amp;rsquo;re holding the customer&amp;rsquo;s healthcare data hostage. Upside: Customers subscribed anyway.&lt;/li&gt;
 &lt;li&gt;A LOT of work to do now 🚀&lt;/li&gt;
-&lt;li&gt;Wound down soapdictate.com and took off the app store, despite (slow)organic growth (7 new paying users this month so far @ $3.99/mo each): The risk/reward around HIPAA questions vs. what the app could potentially bring in didn&#39;t make sense as a side-project – for now we want to focus on Paperwork Labs.&lt;/li&gt;
+&lt;li&gt;Wound down soapdictate.com and took off the app store, despite (slow)organic growth (7 new paying users this month so far @ $3.99/mo each): The risk/reward around HIPAA questions vs. what the app could potentially bring in didn&amp;rsquo;t make sense as a side-project – for now we want to focus on Paperwork Labs.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;asks&#34;&gt;Asks&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Intros to practices struggling with form overload.&lt;/li&gt;
 &lt;li&gt;Intros to founders or investors with experience / advice on building out healthcare SaaS products.&lt;/li&gt;
-&lt;li&gt;We&#39;re looking for free/cheap office space for one or two, please! We are currently doing spacious.com, and have moved to a friend&#39;s garage&amp;hellip;&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;re looking for free/cheap office space for one or two, please! We are currently doing spacious.com, and have moved to a friend&amp;rsquo;s garage&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We&#39;re working from a friend&#39;s garage:&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re working from a friend&amp;rsquo;s garage:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-3/startup-garage.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -1700,7 +1748,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;h2 id=&#34;week-7&#34;&gt;Week 7&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Investing time in prototype&lt;/li&gt;
-&lt;li&gt;Had first sales call with LA practice group. Want to wait for further build-out. Hypothesis: they didn&#39;t understand the product.&lt;/li&gt;
+&lt;li&gt;Had first sales call with LA practice group. Want to wait for further build-out. Hypothesis: they didn&amp;rsquo;t understand the product.&lt;/li&gt;
 &lt;li&gt;Users generally unresponsive although we &lt;em&gt;know&lt;/em&gt; they have this issue —&amp;gt; made 1-min video walkthrough of demo.&lt;/li&gt;
 &lt;li&gt;Had call with Michael (mentor): Likes deck and vision to 100M.&lt;/li&gt;
 &lt;li&gt;Slow before xmas? Not so much.&lt;/li&gt;
@@ -1710,11 +1758,11 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;ul&gt;
 &lt;li&gt;Xmas, no go.&lt;/li&gt;
 &lt;li&gt;After followed up with clients with new video heard back and now have a call scheduled: Same client that said hold off now wants demo call in January! Could be our &lt;strong&gt;initial client&lt;/strong&gt;?&lt;/li&gt;
-&lt;li&gt;From now on will post the monthly investor update Alain gave me, and inspired by Can Olcer&#39;s &lt;a href=&#34;https://shafyy.com&#34;&gt;Blog&lt;/a&gt;, I will post shorter, less formal posts.&lt;/li&gt;
+&lt;li&gt;From now on will post the monthly investor update Alain gave me, and inspired by Can Olcer&amp;rsquo;s &lt;a href=&#34;https://shafyy.com&#34;&gt;Blog&lt;/a&gt;, I will post shorter, less formal posts.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;This is the monthly update as described to a friend.&lt;/p&gt;
-&lt;p&gt;After we talked last I teamed up with another friend and found out a purer version of the paperwork/physician burnout problem is filling out forms (up to 17 pages!) in general by hand, and so we decided to drop the voice part (I thought it was cool but didn&#39;t help solve the problem really&amp;hellip;), and create &amp;ldquo;turbotax for medical forms&amp;rdquo;. We&#39;ve prototyped a solution and are in talks with 3 practice groups around the country (came up with this with a healthcare software sales guy, so already have some &amp;lsquo;ins&amp;rsquo;). Hope to have a paying test customer by end of Jan (or ASAP). This will allow us to A) charge $99/customer per month for it, B) is a way more of a &amp;ldquo;hair on fire&amp;rdquo; problem for the 230&#39;000 practices out there, which could theoretically bring us to the 100M/y revenue. Also, just got a 10K grant from Emergent Ventures who agreed this was a problem worth solving!&lt;/p&gt;
+&lt;p&gt;After we talked last I teamed up with another friend and found out a purer version of the paperwork/physician burnout problem is filling out forms (up to 17 pages!) in general by hand, and so we decided to drop the voice part (I thought it was cool but didn&amp;rsquo;t help solve the problem really&amp;hellip;), and create &amp;ldquo;turbotax for medical forms&amp;rdquo;. We&amp;rsquo;ve prototyped a solution and are in talks with 3 practice groups around the country (came up with this with a healthcare software sales guy, so already have some &amp;lsquo;ins&amp;rsquo;). Hope to have a paying test customer by end of Jan (or ASAP). This will allow us to A) charge $99/customer per month for it, B) is a way more of a &amp;ldquo;hair on fire&amp;rdquo; problem for the 230&amp;rsquo;000 practices out there, which could theoretically bring us to the 100M/y revenue. Also, just got a 10K grant from Emergent Ventures who agreed this was a problem worth solving!&lt;/p&gt;
 &lt;hr&gt;
 </content>
       
@@ -1728,7 +1776,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
       <guid>https://nikodunk.com/thought-gillets-jaunes/</guid>
       <description></description>
       
-      <content>&lt;p&gt;Glad to read &lt;a href=&#34;https://www.theguardian.com/world/2018/dec/17/gilets-jaunes-grassroots-heroes-or-kremlin-tools&#34;&gt;this&lt;/a&gt;, after a few weeks of wondering how the &lt;a href=&#34;https://en.wikipedia.org/wiki/Yellow_vests_movement&#34;&gt;Gillets Jaunes&lt;/a&gt; movement in France could organize through Facebook Groups yet no-one was drawing the parallels to the &lt;a href=&#34;https://www.texastribune.org/2017/11/01/russian-facebook-page-organized-protest-texas-different-russian-page-l/&#34;&gt;last time&lt;/a&gt; social unfairness was harnessed by a foreign power to turn out mass-protests. Apparently there&#39;s no smoke to that fire.&lt;/p&gt;
+      <content>&lt;p&gt;Glad to read &lt;a href=&#34;https://www.theguardian.com/world/2018/dec/17/gilets-jaunes-grassroots-heroes-or-kremlin-tools&#34;&gt;this&lt;/a&gt;, after a few weeks of wondering how the &lt;a href=&#34;https://en.wikipedia.org/wiki/Yellow_vests_movement&#34;&gt;Gillets Jaunes&lt;/a&gt; movement in France could organize through Facebook Groups yet no-one was drawing the parallels to the &lt;a href=&#34;https://www.texastribune.org/2017/11/01/russian-facebook-page-organized-protest-texas-different-russian-page-l/&#34;&gt;last time&lt;/a&gt; social unfairness was harnessed by a foreign power to turn out mass-protests. Apparently there&amp;rsquo;s no smoke to that fire.&lt;/p&gt;
 &lt;hr&gt;
 </content>
       
@@ -1742,11 +1790,11 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
       <guid>https://nikodunk.com/startup-updates-1/</guid>
       <description></description>
       
-      <content>&lt;p&gt;Month 1: Lazer-like focused on writing code and talking to users. After Elisa and I split up from doing giftlab.io, I decided to focus on soapdictate after I&#39;d left swissnexSF. soapdictate is my other side-project, and I wanted to see if I could make it work. I left swissnexSF October 31st 2018 and switched to working on the soapdictate dictation app full-time.&lt;/p&gt;
+      <content>&lt;p&gt;Month 1: Lazer-like focused on writing code and talking to users. After Elisa and I split up from doing giftlab.io, I decided to focus on soapdictate after I&amp;rsquo;d left swissnexSF. soapdictate is my other side-project, and I wanted to see if I could make it work. I left swissnexSF October 31st 2018 and switched to working on the soapdictate dictation app full-time.&lt;/p&gt;
 &lt;h2 id=&#34;week-1&#34;&gt;Week 1&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;quickly followed up with all contacts from job to let them know what i&#39;m working on
-incorporated LLC with stripe atlas (more like aside project currently but don&#39;t want liability), Did health insurance, worked from friends&amp;rsquo; office.&lt;/li&gt;
+&lt;li&gt;quickly followed up with all contacts from job to let them know what i&amp;rsquo;m working on
+incorporated LLC with stripe atlas (more like aside project currently but don&amp;rsquo;t want liability), Did health insurance, worked from friends&amp;rsquo; office.&lt;/li&gt;
 &lt;li&gt;built subscription, built 60-sec dictation.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;week-2&#34;&gt;Week 2&lt;/h2&gt;
@@ -1763,20 +1811,20 @@ incorporated LLC with stripe atlas (more like aside project currently but don&#3
 &lt;li&gt;Asking for intros to physicians.&lt;/li&gt;
 &lt;li&gt;Shipped first differentiated version Monday (dictate / create PDF billable note)&lt;/li&gt;
 &lt;li&gt;Sales slow though. Grind. Emailing users, writing features for them.&lt;/li&gt;
-&lt;li&gt;Enough physician interviews that know not physicians (process of elimination). My one paying customer is acupuncturist – maybe that&#39;s it. Talking to dentists and psychotherapists too.&lt;/li&gt;
+&lt;li&gt;Enough physician interviews that know not physicians (process of elimination). My one paying customer is acupuncturist – maybe that&amp;rsquo;s it. Talking to dentists and psychotherapists too.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;week-4&#34;&gt;Week 4&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;New sign-ups stopped. User week necessary.&lt;/li&gt;
 &lt;li&gt;Physicially going to acupuncturists and signing them up.&lt;/li&gt;
 &lt;li&gt;Asking for intros to acupuncturists, psychotherapists and dentists.&lt;/li&gt;
-&lt;li&gt;Applied to YC and Emergent Ventures spontaneously – past deadline but we&#39;ll see!&lt;/li&gt;
+&lt;li&gt;Applied to YC and Emergent Ventures spontaneously – past deadline but we&amp;rsquo;ll see!&lt;/li&gt;
 &lt;li&gt;Second sign-up! Now 2 paying users.&lt;/li&gt;
 &lt;li&gt;Michael (Mentor) recommended I start fundraising with proto + users.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;My blurb for month 1 as sent to a friend:&lt;/p&gt;
-&lt;p&gt;A few months ago I wrote a medical dictation app called soapdictate to help my friend at Stanford Med save time on his charting, as Stanford Med only provided Dragon Desktop and so the physicians were all using pretty outdated hacks off the app store. Turns out, Apple&#39;s Speech Recognition API has hit a level where it can get most notes done for him, and this MVPs been selling consistently on the app store ever since. I just switched full-time and am looking to learn more about the problems physicians face, and add new features like templates/EHR integration/commands etc – hopefully to help reduce the clerical burden on physicians in the mid-term.&lt;/p&gt;
+&lt;p&gt;A few months ago I wrote a medical dictation app called soapdictate to help my friend at Stanford Med save time on his charting, as Stanford Med only provided Dragon Desktop and so the physicians were all using pretty outdated hacks off the app store. Turns out, Apple&amp;rsquo;s Speech Recognition API has hit a level where it can get most notes done for him, and this MVPs been selling consistently on the app store ever since. I just switched full-time and am looking to learn more about the problems physicians face, and add new features like templates/EHR integration/commands etc – hopefully to help reduce the clerical burden on physicians in the mid-term.&lt;/p&gt;
 &lt;hr&gt;
 </content>
       
@@ -1805,10 +1853,10 @@ incorporated LLC with stripe atlas (more like aside project currently but don&#3
 &lt;p&gt;Results of the camp speak for themselves: over the years some of the best Swiss startups like &lt;!-- raw HTML omitted --&gt;Ava&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Beekeeper&lt;!-- raw HTML omitted --&gt;, Faceshift (acquired by Apple), &lt;!-- raw HTML omitted --&gt;Doodle&lt;!-- raw HTML omitted --&gt;, and &lt;!-- raw HTML omitted --&gt;Mindmaze&lt;!-- raw HTML omitted --&gt; have come through our camps. Today, their valuation totals 1.1B! swissnex is proud to hold a network of 400 founders and friends to help future campers.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/workspace.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;the-swissnex-sf-startup-camp-approach&#34;&gt;The swissnex SF Startup Camp approach&lt;/h1&gt;
-&lt;p&gt;As the markets in both Switzerland and the US have changed, we realized that startups benefitted from talking to others about their experiences in the Bay Area, and could help &amp;lsquo;translate&amp;rsquo; those learnings for the Swiss environment. That&#39;s why we&#39;ve restructured the program to give startups an opportunity to explore on their own, but process those learnings for a Swiss context alongside a Swiss cohort. Our 3-4-week program in February and August consists of:&lt;/p&gt;
+&lt;p&gt;As the markets in both Switzerland and the US have changed, we realized that startups benefitted from talking to others about their experiences in the Bay Area, and could help &amp;lsquo;translate&amp;rsquo; those learnings for the Swiss environment. That&amp;rsquo;s why we&amp;rsquo;ve restructured the program to give startups an opportunity to explore on their own, but process those learnings for a Swiss context alongside a Swiss cohort. Our 3-4-week program in February and August consists of:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Monday 9.30-11a – Office Hours&lt;!-- raw HTML omitted --&gt; (similar to YC&#39;s &lt;a href=&#34;https://www.youtube.com/watch?v=syoqjYLDs48&#34;&gt;Office Hours&lt;/a&gt;, startups can ask questions, share learnings and solve each others&amp;rsquo; current challenges –  led by the swissnex team.&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Wednesday 9.30-11a –  Breakfast Fireside Chats&lt;!-- raw HTML omitted --&gt; (similar to YC&#39;s Dinners) we invite external speakers, who are currently building a company or have done so in recent years, to share their insights. They freely explain tips and hacks, and share their journey. Excerpts from these sessions are below.&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Monday 9.30-11a – Office Hours&lt;!-- raw HTML omitted --&gt; (similar to YC&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=syoqjYLDs48&#34;&gt;Office Hours&lt;/a&gt;, startups can ask questions, share learnings and solve each others&amp;rsquo; current challenges –  led by the swissnex team.&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Wednesday 9.30-11a –  Breakfast Fireside Chats&lt;!-- raw HTML omitted --&gt; (similar to YC&amp;rsquo;s Dinners) we invite external speakers, who are currently building a company or have done so in recent years, to share their insights. They freely explain tips and hacks, and share their journey. Excerpts from these sessions are below.&lt;/li&gt;
 &lt;li&gt;&lt;!-- raw HTML omitted --&gt;Friday 9.30-11a – Toolkits&lt;!-- raw HTML omitted --&gt;, similar to to 500 startups&amp;rsquo; Toolkits, are tactical sessions for learning U.S. specific skills, as opposed to the speaker’s journey in the fireside chats. We share stories and tips from these sessions below.&lt;/li&gt;
 &lt;li&gt;&lt;!-- raw HTML omitted --&gt;Workspace&lt;!-- raw HTML omitted --&gt; – Startups can freely work from the space and schedule meetings outside of the sessions, and of course attend meetups/events/network in the evenings.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1836,7 +1884,7 @@ incorporated LLC with stripe atlas (more like aside project currently but don&#3
 &lt;p&gt;On the first slide of their deck, camp participant Parquery explained their relatively complex machine vision technology in one beautiful photo of the live product. The image was so effective because it showed exactly what the product does, and Stephan from ScaleVP immediately understood the concept and complemented the startup on their communication. With a core understanding of the product established, Parquery CEO Andrea and Stephan were able to lead a deeper conversation on the additional features and benefits of the product. &lt;!-- raw HTML omitted --&gt;One slide lead to perfect understanding of the startup’s project, value proposition, and technology –  if you’re looking for an investor’s advice or money, you need to make your product understandable first.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-7-get-a-us-phone-number-and-address-even-if-youre-not-based-here&#34;&gt;Learning #7: Get a US phone number and address, even if you’re not based here&lt;/h2&gt;
 &lt;p&gt;(Damian Felchlin, &lt;!-- raw HTML omitted --&gt;Switzerland Global Enterprise&lt;!-- raw HTML omitted --&gt;, Week 4 Toolkit)&lt;/p&gt;
-&lt;p&gt;This hack applies mainly to European startups expanding to the US, but if you&#39;re a tech startup there&#39;s no excuse for not having your web presence up to date — in English — and having a US phone number and address. This will make US customers more comfortable with doing business with you. &lt;!-- raw HTML omitted --&gt;A US phone number costs little, but the upside is huge.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;This hack applies mainly to European startups expanding to the US, but if you&amp;rsquo;re a tech startup there&amp;rsquo;s no excuse for not having your web presence up to date — in English — and having a US phone number and address. This will make US customers more comfortable with doing business with you. &lt;!-- raw HTML omitted --&gt;A US phone number costs little, but the upside is huge.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/workspace_2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-8-find-startup-friends-to-share-your-journey-with&#34;&gt;Learning #8: Find startup friends to share your journey with.&lt;/h2&gt;
 &lt;p&gt;(Lea von Bidder, &lt;!-- raw HTML omitted --&gt;Ava&lt;!-- raw HTML omitted --&gt;, Week 4 Fireside Chat)&lt;/p&gt;
@@ -1867,25 +1915,25 @@ incorporated LLC with stripe atlas (more like aside project currently but don&#3
       <content>&lt;p&gt;&lt;strong&gt;Originally posted&lt;/strong&gt; at swissnex San Francisco as &lt;a href=&#34;https://nextrends.swissnexsanfrancisco.org/back-to-the-city/&#34;&gt;Back to the city&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;democracy-was-designed-for-the-city&#34;&gt;Democracy was designed for the city&lt;/h2&gt;
-&lt;p&gt;54% of the world&#39;s population now &lt;a href=&#34;https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS&#34;&gt;lives in cities&lt;/a&gt;, and more humans move to urban areas every day.  But with voters and power concentrated in metropolitan areas, are nations holding cities back?&lt;/p&gt;
-&lt;p&gt;Democracy was designed to rule a city, after all – Athens. Maybe we&#39;ve stretched the democratic system further than it was meant to be expanded? Could we let democracy function at its optimum scale – the city – while finding some other way to organize on a federal level?&lt;/p&gt;
+&lt;p&gt;54% of the world&amp;rsquo;s population now &lt;a href=&#34;https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS&#34;&gt;lives in cities&lt;/a&gt;, and more humans move to urban areas every day.  But with voters and power concentrated in metropolitan areas, are nations holding cities back?&lt;/p&gt;
+&lt;p&gt;Democracy was designed to rule a city, after all – Athens. Maybe we&amp;rsquo;ve stretched the democratic system further than it was meant to be expanded? Could we let democracy function at its optimum scale – the city – while finding some other way to organize on a federal level?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/cities/athensromanagora.jpg&#34; alt=&#34;&#34;&gt; The Roman Agora in Athens from &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Athens_Roman_Agora.jpg/800px-Athens_Roman_Agora.jpg&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;cities-are-efficient&#34;&gt;Cities are efficient&lt;/h2&gt;
 &lt;p&gt;Mayors are emerging as the new presidents, and could increasingly become leaders for progress in the globalised, urbanised world, leaving the nation as a secondary structure solely handling international, transterritorial and security questions (and to a lesser degree, lawmaking).&lt;/p&gt;
 &lt;p&gt;Many things speak to the city (or more precisely, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Metropolitan_area&#34;&gt;metropolitan area&lt;/a&gt;) working better as a governable body — and &lt;a href=&#34;http://www.un.org/en/development/desa/news/population/world-urbanization-prospects-2014.html&#34;&gt;most people now live in one of them&lt;/a&gt;.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Proximity to politicians =&amp;gt; Accountability:&lt;/strong&gt; By definition, a mayor lives within her or his constituency. If a mayor ignores those constituents, they can arrive at their doorstep within the hour. This creates accountability. At this scale, community leaders may rise to the forefront to solve constituents&amp;rsquo; issues, as opposed to career politicians. Cities have a scale where the chief priority of leaders is helping people. For example, Paris starts offering its residents bikesharing with &lt;a href=&#34;https://www.citylab.com/city-makers-connections/bike-share/#slide-1998&#34;&gt;Vélib’&lt;/a&gt;, arguably the first wide-scale bikesharing system after initial experiments in Denmark and Holland. Bogota solves commute times for its poor with &lt;a href=&#34;https://www.pri.org/stories/2015-10-21/can-modern-megacity-bogot-get-without-subway&#34;&gt;innovative public transportation systems&lt;/a&gt; , now spreading to Seattle and other cities through the &lt;a href=&#34;https://www.ted.com/talks/benjamin_barber_why_mayors_should_rule_the_world&#34;&gt;global meetings of mayors&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.com/cities/transmilenio.jpg&#34; alt=&#34;&#34;&gt; Bogota&#39;s innovative Transmilenio by &lt;a href=&#34;https://www.flickr.com/photos/oskam/6253700043/in/photolist-awBR9x-awEyKQ-y4G9n-eF57da-y4G3M-9u7Btf-rRYqgM-rTHmh3-6rDD2C-sbfR8V-wwMy1-9QcA7n-6rzy8P-4z4MLV-sbaoyJ-revcit-rTRDd2-8VGpY7-sbiQQP-s91HqA-fbNgv-gTArzs-s91Vcb-y4G6L-y4Gcs-4Yi69w-reuKTR-reiCbE-56581s-sba6im-sbfvYH-5x2PaD-8X6zWA-5657M1-sbiytF-sb9RLm-reisnS-reuW5c-sba5pN-s91T4y-xd1HH-rTRe88-pjarV-s921W7-sbfeYr-sbipsp-sba1uJ-rTJoVE-bDw55i-4yseuS&#34;&gt;Flickr user Oscar Amaya&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proximity to politicians =&amp;gt; Accountability:&lt;/strong&gt; By definition, a mayor lives within her or his constituency. If a mayor ignores those constituents, they can arrive at their doorstep within the hour. This creates accountability. At this scale, community leaders may rise to the forefront to solve constituents&amp;rsquo; issues, as opposed to career politicians. Cities have a scale where the chief priority of leaders is helping people. For example, Paris starts offering its residents bikesharing with &lt;a href=&#34;https://www.citylab.com/city-makers-connections/bike-share/#slide-1998&#34;&gt;Vélib’&lt;/a&gt;, arguably the first wide-scale bikesharing system after initial experiments in Denmark and Holland. Bogota solves commute times for its poor with &lt;a href=&#34;https://www.pri.org/stories/2015-10-21/can-modern-megacity-bogot-get-without-subway&#34;&gt;innovative public transportation systems&lt;/a&gt; , now spreading to Seattle and other cities through the &lt;a href=&#34;https://www.ted.com/talks/benjamin_barber_why_mayors_should_rule_the_world&#34;&gt;global meetings of mayors&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.com/cities/transmilenio.jpg&#34; alt=&#34;&#34;&gt; Bogota&amp;rsquo;s innovative Transmilenio by &lt;a href=&#34;https://www.flickr.com/photos/oskam/6253700043/in/photolist-awBR9x-awEyKQ-y4G9n-eF57da-y4G3M-9u7Btf-rRYqgM-rTHmh3-6rDD2C-sbfR8V-wwMy1-9QcA7n-6rzy8P-4z4MLV-sbaoyJ-revcit-rTRDd2-8VGpY7-sbiQQP-s91HqA-fbNgv-gTArzs-s91Vcb-y4G6L-y4Gcs-4Yi69w-reuKTR-reiCbE-56581s-sba6im-sbfvYH-5x2PaD-8X6zWA-5657M1-sbiytF-sb9RLm-reisnS-reuW5c-sba5pN-s91T4y-xd1HH-rTRe88-pjarV-s921W7-sbfeYr-sbipsp-sba1uJ-rTJoVE-bDw55i-4yseuS&#34;&gt;Flickr user Oscar Amaya&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Shared fate =&amp;gt; Homogenous interests:&lt;/strong&gt; Cities are a a big group of people with similar values and interests. Pollution, corruption, or bad public transport will affect everyone, directly or indirectly, as they all live in the city. When citizens are aligned, there&#39;s less time wasted bickering and making compromises in between interests that are so misaligned (gun control, abortion) so as to make compromise senseless, and more time making sensible compromise between slightly divergent interests. Maybe the scale of cities is the most efficient scale for human decision making, because everyone can still see and relate to each other — and see the direct consequences of the policies they vote for. In New York City, residents are offered subsidized insulation, rainproofing and solar to decentralize the grid &lt;a href=&#34;http://www.nytimes.com/2012/11/20/business/energy-environment/solar-power-as-solution-for-storm-darkened-homes.html&#34;&gt;implemented after hurricane Sandy&lt;/a&gt;.
-Zurich, despite being socially conservative in the early 90s, offers Heroin addicts Methadone to &lt;a href=&#34;https://www.pri.org/stories/2016-02-12/us-can-learn-lot-zurich-about-how-fight-its-heroin-crisis&#34;&gt;clear up Europe&#39;s biggest open drug scene&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.com/cities/heroinplatzspitzzurich.gif&#34; alt=&#34;&#34;&gt; Cleaning up the Platzspitz drug scene in Zurich from &lt;a href=&#34;http://politicsofsin.50megs.com/H/swiss.heroin.summary_lancet.367.1830-4_2006.html&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shared fate =&amp;gt; Homogenous interests:&lt;/strong&gt; Cities are a a big group of people with similar values and interests. Pollution, corruption, or bad public transport will affect everyone, directly or indirectly, as they all live in the city. When citizens are aligned, there&amp;rsquo;s less time wasted bickering and making compromises in between interests that are so misaligned (gun control, abortion) so as to make compromise senseless, and more time making sensible compromise between slightly divergent interests. Maybe the scale of cities is the most efficient scale for human decision making, because everyone can still see and relate to each other — and see the direct consequences of the policies they vote for. In New York City, residents are offered subsidized insulation, rainproofing and solar to decentralize the grid &lt;a href=&#34;http://www.nytimes.com/2012/11/20/business/energy-environment/solar-power-as-solution-for-storm-darkened-homes.html&#34;&gt;implemented after hurricane Sandy&lt;/a&gt;.
+Zurich, despite being socially conservative in the early 90s, offers Heroin addicts Methadone to &lt;a href=&#34;https://www.pri.org/stories/2016-02-12/us-can-learn-lot-zurich-about-how-fight-its-heroin-crisis&#34;&gt;clear up Europe&amp;rsquo;s biggest open drug scene&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.com/cities/heroinplatzspitzzurich.gif&#34; alt=&#34;&#34;&gt; Cleaning up the Platzspitz drug scene in Zurich from &lt;a href=&#34;http://politicsofsin.50megs.com/H/swiss.heroin.summary_lancet.367.1830-4_2006.html&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;One Purpose =&amp;gt; Focus:&lt;/strong&gt; A nation has to multitask, balancing foreign policy and domestic issues. A city government on the other hand is by definition focused on itself – there&#39;s nothing to distract it, because everything outside of the city is handled by the national government. This intense sense of focus lets cities concentrate on what they do best: improving life for their constituents and helping innovation bloom. Examples include San Francisco (following Massachusetts among others) offering its residents &lt;a href=&#34;http://www.sacbee.com/news/politics-government/capitol-alert/article138777138.html&#34;&gt;universal health care&lt;/a&gt;. And New York City (under Khan/Bloomberg) reinventing the urban planning model to deliver improvements to its inhabitants &lt;a href=&#34;https://www.ted.com/talks/janette_sadik_khan_new_york_s_streets_not_so_mean_any_more&#34;&gt;faster&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.com/cities/khantimessquare.jpg&#34; alt=&#34;&#34;&gt; Khan/Bloomberg improvements in Time Square, New York City from &lt;a href=&#34;http://www.earthpowernews.com/wp-content/uploads/2014/02/before-after2.jpg&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;One Purpose =&amp;gt; Focus:&lt;/strong&gt; A nation has to multitask, balancing foreign policy and domestic issues. A city government on the other hand is by definition focused on itself – there&amp;rsquo;s nothing to distract it, because everything outside of the city is handled by the national government. This intense sense of focus lets cities concentrate on what they do best: improving life for their constituents and helping innovation bloom. Examples include San Francisco (following Massachusetts among others) offering its residents &lt;a href=&#34;http://www.sacbee.com/news/politics-government/capitol-alert/article138777138.html&#34;&gt;universal health care&lt;/a&gt;. And New York City (under Khan/Bloomberg) reinventing the urban planning model to deliver improvements to its inhabitants &lt;a href=&#34;https://www.ted.com/talks/janette_sadik_khan_new_york_s_streets_not_so_mean_any_more&#34;&gt;faster&lt;/a&gt;. &lt;img src=&#34;https://nikodunk.com/cities/khantimessquare.jpg&#34; alt=&#34;&#34;&gt; Khan/Bloomberg improvements in Time Square, New York City from &lt;a href=&#34;http://www.earthpowernews.com/wp-content/uploads/2014/02/before-after2.jpg&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;It&#39;s a given that cities will become the predominant political chassis in the globalized 21st century as most people will live in them, leading their countries on environmental, social and technological levels. Democracy has and is working well for cities.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a given that cities will become the predominant political chassis in the globalized 21st century as most people will live in them, leading their countries on environmental, social and technological levels. Democracy has and is working well for cities.&lt;/p&gt;
 &lt;p&gt;There are of course problems with the city-first model. An obvious example is corruption through the urban elite ignoring the rural populations. However distant politicians in a capital ignore both urban &lt;em&gt;and&lt;/em&gt; rural populations. Another problem is that if we truly returned to city states like Amsterdam or Venice in the middle ages, a lot of the efficiencies of focus would evaporate as the city would have to worry about security, maintaining supplies, etc. And where would the edges be between San Francisco’s sphere of influence and LA’s?&lt;/p&gt;
 &lt;p&gt;One caveat here is that being too extreme and truly returning to nation states can lead to its own issues: partitioning any area into too many small autonomous cities leads to problems like the housing crunch we face in California, which was partly due to cities only looking after their self interest as opposed to those of the larger region. Same for traffic, water, inequality, homelessness.&lt;/p&gt;
 &lt;h2 id=&#34;nations-are-inefficient&#34;&gt;Nations are inefficient&lt;/h2&gt;
@@ -1896,7 +1944,7 @@ Zurich, despite being socially conservative in the early 90s, offers Heroin addi
 &lt;p&gt;&lt;strong&gt;Distance:&lt;/strong&gt; National politicians are removed from constituents and feel little direct pressure from them outside of the election cycle. Leaders all over the West are increasingly accused of pandering to lobbyists rather than to their constituents. Why? Lobbyists are in the capital too — gaining the ear of politicians whenever they want. But constituents from Texas aren’t going to Washington to demonstrate. Someone from Southern Brazil isn’t going to take a three day bus ride to Brasilia.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Complexity:&lt;/strong&gt; Some problems don&#39;t have a solution everyone can accept. Sometimes too many divergent interests can&#39;t be bundled into a compromise. Finding an acceptable solution for 350M or 1B people is difficult. This is where political gridlock comes from. Polish farmers may feel alienated from farming laws proposed by Spanish lobbyists.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Complexity:&lt;/strong&gt; Some problems don&amp;rsquo;t have a solution everyone can accept. Sometimes too many divergent interests can&amp;rsquo;t be bundled into a compromise. Finding an acceptable solution for 350M or 1B people is difficult. This is where political gridlock comes from. Polish farmers may feel alienated from farming laws proposed by Spanish lobbyists.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Lack of Focus:&lt;/strong&gt; When one million challenges are all calling for attention – from international threats and disasters to domestic challenges abstract and real – setting an agenda that can help your constituents can be noisy. A nation is in charge of too many things at once.&lt;/p&gt;
@@ -1904,14 +1952,14 @@ Zurich, despite being socially conservative in the early 90s, offers Heroin addi
 &lt;/ol&gt;
 &lt;h2 id=&#34;historical-precedent&#34;&gt;Historical Precedent&lt;/h2&gt;
 &lt;p&gt;The oldest cities go back much further than the oldest nations for a reason. Ancient kingdoms started as city-states: proving a governance system and policies on a small scale at home first, then expanding to the surrounding territory. The historical norm has been that innovation (for example democracy) flowed outward from the city.&lt;/p&gt;
-&lt;p&gt;Top-down democratic nations by contrast are arguably a historically recent construct: 1776 in the US, 1848 in most of Europe, after World War II elsewhere. On the entire timeline of governance, this experiment of stretching democracy over whole nations is a relatively brief experiment we&#39;ve been trying for 150 years. This experiment has yielded mixed results during the 20th century: Peace and wealth but also war, famine and poverty. We should not take for granted that this is the best way to rule our nations (even if democracy does work well within cities). We may be able to find solutions despite strongly divergent interests on a federal level.&lt;/p&gt;
+&lt;p&gt;Top-down democratic nations by contrast are arguably a historically recent construct: 1776 in the US, 1848 in most of Europe, after World War II elsewhere. On the entire timeline of governance, this experiment of stretching democracy over whole nations is a relatively brief experiment we&amp;rsquo;ve been trying for 150 years. This experiment has yielded mixed results during the 20th century: Peace and wealth but also war, famine and poverty. We should not take for granted that this is the best way to rule our nations (even if democracy does work well within cities). We may be able to find solutions despite strongly divergent interests on a federal level.&lt;/p&gt;
 &lt;p&gt;When we were inventing nations in the 19th century I think we hastily spread the democratic model too thin. We assumed what worked for the city will work linearly for a larger scale of nations, the UN, the galaxy. Nations are overextended constructs from the 19th century. I predict we will naturally refocus on the optimal size for democratic decision making: the city.&lt;/p&gt;
 &lt;h2 id=&#34;whats-next&#34;&gt;What’s Next?&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/cities/futuresf.jpg&#34; alt=&#34;&#34;&gt; Photo from &lt;a href=&#34;https://flic.kr/p/s1Giva&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Now that most people live in cities we can turn to the human-sized metropolitan scale for lawmaking and civic life, creating more nimble, efficient and fair societies. I predict we will see the world&#39;s nations increasingly lose their lawmaking and execution power in the next century to be nothing more than a communication platform between cities and a funding pool for building shared projects no city alone could. The role distribution we&#39;re heading towards in this new balance is:&lt;/p&gt;
+&lt;p&gt;Now that most people live in cities we can turn to the human-sized metropolitan scale for lawmaking and civic life, creating more nimble, efficient and fair societies. I predict we will see the world&amp;rsquo;s nations increasingly lose their lawmaking and execution power in the next century to be nothing more than a communication platform between cities and a funding pool for building shared projects no city alone could. The role distribution we&amp;rsquo;re heading towards in this new balance is:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Cities self-govern their citizens and experiment constantly with improvements as they do today. But they will increasingly make their own laws for internal civic life and police corporate &amp;ldquo;citizens&amp;rdquo; themselves (which will reduce the danger of lobbying due to lack of distance).&lt;/li&gt;
-&lt;li&gt;Nations align the cities amongst each other by spreading the results of successful experiments between them. Because the burden of lawmaking increasingly falls on cities, nations gain a new clarity of purpose: they build the cities&amp;rsquo; common projects with shared funding. The shared fund will be used for transportation, research, interplanetary exploration, and defense – though the need for defense may be reduced as &lt;em&gt;cities&lt;/em&gt; don&#39;t generally have a thirst for war – nations do. Transportation, research and space programs will therefore take up the bulk of new nations&amp;rsquo; time.&lt;/li&gt;
+&lt;li&gt;Nations align the cities amongst each other by spreading the results of successful experiments between them. Because the burden of lawmaking increasingly falls on cities, nations gain a new clarity of purpose: they build the cities&amp;rsquo; common projects with shared funding. The shared fund will be used for transportation, research, interplanetary exploration, and defense – though the need for defense may be reduced as &lt;em&gt;cities&lt;/em&gt; don&amp;rsquo;t generally have a thirst for war – nations do. Transportation, research and space programs will therefore take up the bulk of new nations&amp;rsquo; time.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The current anti-globalisation trend (and its dark cousin, nationalism) is a signal of this need for decentralization. Examples include (much simplified here) farmers in Poland not wanting to bow to the will of Brussels, Brexiters wanting sovereignty from the EU, Trump’s rural voters resenting Washington’s policies, etc. These decentralization trends are driven by frustration with inefficiencies and the changing balance of power between urban and rural populations. But decentralization of power away from global &amp;amp; regional agreements and back to the nation-state alone doesn’t make a society more fair. The tension will only be resolved once we take this decentralization movement to its conclusion: empowering efficient decision-making at the level of cities and metro regions. Anti-globalisation is not the end state – eventually, anti-nationalism will follow.&lt;/p&gt;
 &lt;p&gt;The optimum scale for human society is the city. As city populations swell further this century, cities will increasingly rule themselves while nations will be repurposed to mediate between cities while expanding human society beyond earth. This re-decentralization will be a positive – leading to less war, faster progress and a fairer society.&lt;/p&gt;
@@ -1931,22 +1979,22 @@ Zurich, despite being socially conservative in the early 90s, offers Heroin addi
       <description></description>
       
       <content>&lt;h2 id=&#34;a-note-on-technical-legacy&#34;&gt;A note on technical legacy&lt;/h2&gt;
-&lt;p&gt;What is lasting in the tech world? Architects build things that stay forever. Technologists build things that a week later doesn&#39;t work because npm install&#39;s libraries have changed. I read once that the average lifespan of a webpage on the internet is 8 months. The oldest software companies are Apple and Microsoft.
+&lt;p&gt;What is lasting in the tech world? Architects build things that stay forever. Technologists build things that a week later doesn&amp;rsquo;t work because npm install&amp;rsquo;s libraries have changed. I read once that the average lifespan of a webpage on the internet is 8 months. The oldest software companies are Apple and Microsoft.
 Legacy in software is bad. It is a dirty word.&lt;/p&gt;
 &lt;p&gt;Blockchain, because it is shared by all, may be a solution to this issue of splitting useful (but ephemeral) &amp;ldquo;built&amp;rdquo; software projects from capitalistic cycles, and allow them to be guaranteed to be run forever, as everyone is running them. On that note, this is how to run a minimal local blockchain to test code on your local computer, which could then be deployed to the distributed test-net or main-net and be run forever.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/blockchain/monet-dieppe-1024-768.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Smart contracts replace backend code in a true Dapp. Blockchains replace the server. They&#39;re basically a glorified distributed database that anyone can run programs on and everyone helps run – a mix between AWS and Bittorrent. We&#39;ll be using classic React front-end code to interact with it eventually (which I&#39;d still recommend hosting on a server – but could be served from IPFS or such too), but for now we&#39;ll just interface with the smart contract through the terminal.&lt;/p&gt;
+&lt;p&gt;Smart contracts replace backend code in a true Dapp. Blockchains replace the server. They&amp;rsquo;re basically a glorified distributed database that anyone can run programs on and everyone helps run – a mix between AWS and Bittorrent. We&amp;rsquo;ll be using classic React front-end code to interact with it eventually (which I&amp;rsquo;d still recommend hosting on a server – but could be served from IPFS or such too), but for now we&amp;rsquo;ll just interface with the smart contract through the terminal.&lt;/p&gt;
 &lt;h2 id=&#34;note-see-other-experiments-herehttpsnikodunkgithubiolearnings&#34;&gt;NOTE: See other experiments &lt;a href=&#34;https://nikodunk.github.io/learnings&#34;&gt;here&lt;/a&gt;.&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/blockchain/ethereum.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-to-run-a-minimal-local-blockchain&#34;&gt;How to run a minimal local blockchain&lt;/h2&gt;
-&lt;p&gt;Install the truffle toolbox, which is a Ethereum-approved framework for making Ethereum/blockchain development easier. The code I&#39;m using here is from a simple CRUD Dapp I built &lt;a href=&#34;https://github.com/nikodunk/contactstorage&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Open terminal and get a local blockchain up. This&#39;ll give you 10 test accounts with 10 fake ether on each. You&#39;ll see both private and public keys of all 10 accounts if the command works.&lt;/p&gt;
+&lt;p&gt;Install the truffle toolbox, which is a Ethereum-approved framework for making Ethereum/blockchain development easier. The code I&amp;rsquo;m using here is from a simple CRUD Dapp I built &lt;a href=&#34;https://github.com/nikodunk/contactstorage&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Open terminal and get a local blockchain up. This&amp;rsquo;ll give you 10 test accounts with 10 fake ether on each. You&amp;rsquo;ll see both private and public keys of all 10 accounts if the command works.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;ganache-cli
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Open a new tab in terminal, then open the Truffle console into this test blockchain:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;truffle console
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Compile your contract in the Truffle Console as below. Delete your build folder if re-compiling – sometimes it doesn&#39;t like overwriting your contract.&lt;/p&gt;
+&lt;p&gt;Compile your contract in the Truffle Console as below. Delete your build folder if re-compiling – sometimes it doesn&amp;rsquo;t like overwriting your contract.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;compile
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Migrate your contract in the Truffle Console with&lt;/p&gt;
@@ -1962,14 +2010,14 @@ Legacy in software is bad. It is a dirty word.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;npm start
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;how-to-run-on-a-real-blockchain&#34;&gt;How to run on a real blockchain&lt;/h2&gt;
-&lt;p&gt;We&#39;ll be using a real remote blockchain in this second example, and interact with our smart contract through a simple React frontend. We&#39;ll be using the &amp;ldquo;testnet&amp;rdquo; (test blockchain) called Rinkeby here. This is an actual distributed blockchain running on computers all over the world, but Rinkeby doesn&#39;t use &amp;lsquo;real&amp;rsquo; Ether so you won&#39;t be spending actual Ether while you&#39;re testing your smart contract. We&#39;ll then run a local React interface to interact with our deployed smart contract. In early 2018, I think Rinkeby is the best testnet.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll be using a real remote blockchain in this second example, and interact with our smart contract through a simple React frontend. We&amp;rsquo;ll be using the &amp;ldquo;testnet&amp;rdquo; (test blockchain) called Rinkeby here. This is an actual distributed blockchain running on computers all over the world, but Rinkeby doesn&amp;rsquo;t use &amp;lsquo;real&amp;rsquo; Ether so you won&amp;rsquo;t be spending actual Ether while you&amp;rsquo;re testing your smart contract. We&amp;rsquo;ll then run a local React interface to interact with our deployed smart contract. In early 2018, I think Rinkeby is the best testnet.&lt;/p&gt;
 &lt;p&gt;Sync with the testnet blockchain by opening terminal and running:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;geth --rinkeby --rpc --rpcapi db,eth,net,web3,personal
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;in new tab, compile and deploy contract&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;truffle console --network rinkeby
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;if you don&#39;t have an account:&lt;/p&gt;
+&lt;p&gt;if you don&amp;rsquo;t have an account:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;x = web3.personal.newAccount(&#39;pw&#39;)
 web3.eth.getBalance(&amp;quot;yourAcctNumber&amp;quot;)
 web3.eth.accounts
@@ -1990,7 +2038,7 @@ migrate --reset --network rinkeby
 &lt;p&gt;Test the contract from the Truffle Console by GETTING YOUR CONTACTS:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;contactStorage.deployed().then(instance =&amp;gt; instance.getContacts())
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Close Ganache, Truffle Console as the contract&#39;s now live in Rinkeby!&lt;/p&gt;
+&lt;p&gt;Close Ganache, Truffle Console as the contract&amp;rsquo;s now live in Rinkeby!&lt;/p&gt;
 &lt;p&gt;Serve your React frontend by opening a new terminal and running&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;npm start
 &lt;/code&gt;&lt;/pre&gt;
@@ -2002,7 +2050,7 @@ migrate --reset --network rinkeby
 &lt;pre&gt;&lt;code&gt;npm run build
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And copy files to root directory&lt;/p&gt;
-&lt;p&gt;That&#39;s it! You now know how to run a deploy a smart contract to a blockchain and interact with it through a React frontend.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it! You now know how to run a deploy a smart contract to a blockchain and interact with it through a React frontend.&lt;/p&gt;
 &lt;hr&gt;
 </content>
       
@@ -2032,7 +2080,7 @@ migrate --reset --network rinkeby
 &lt;hr&gt;
 &lt;h2 id=&#34;the-components&#34;&gt;The components&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/AMAZON.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;My goal is to take care of the energy needs for just my bedroom. 4 main components are all we need to achieve this: A solar panel to collect, a battery to store, an inverter to convert the direct current to alternating current, and a “charge controller” to balance the three other components. I’m using bargain-basement parts intended for RV, marine &amp;amp; car usage which keeps my system cheap and mobile. Total component cost is $211 ($230 after shipping &amp;amp; taxes). The main components as found on Amazon are above. Anyone looking to build a similar system themselves can view the full component list here (tweet your build @gridlesskits, how it went and what we can improve! We&#39;ll repost – and we&#39;d love to know!).&lt;/p&gt;
+&lt;p&gt;My goal is to take care of the energy needs for just my bedroom. 4 main components are all we need to achieve this: A solar panel to collect, a battery to store, an inverter to convert the direct current to alternating current, and a “charge controller” to balance the three other components. I’m using bargain-basement parts intended for RV, marine &amp;amp; car usage which keeps my system cheap and mobile. Total component cost is $211 ($230 after shipping &amp;amp; taxes). The main components as found on Amazon are above. Anyone looking to build a similar system themselves can view the full component list here (tweet your build @gridlesskits, how it went and what we can improve! We&amp;rsquo;ll repost – and we&amp;rsquo;d love to know!).&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2277,16 +2325,16 @@ There’s a saying, “Don’t sweat the small stuff”. But the funny things is
 &lt;p&gt;I notice many citizens using their time to consume entertainment in the library. Maybe they’re on a break between intensive reading sessions, but when I watch a while it doesn’t seem so. I begin to wonder if these people belong to a group that’s born into such assured comfort, it doesn’t see the need to take advantage of the services offered to it by the city. I find myself disliking this group of people, as the city’s resources may have been better spent on people who want to use the services with more impact. These privileged people stand to benefit through no merit of their own, simply because they were born in the right place to the right parents. But they are not taking advantage of their opportunities — it seems some people have grown complacent. Will their kids carry the same privilege?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;A second group of visitors however are consuming entertainment in the library who don’t seem (judging purely superficially by their clothing) privileged enough to be written off as complacent. I wonder if there’s another reason for this — maybe their surroundings have conditioned them so they can&#39;t recognize opportunity to learn when confronted with it. If completely outside friends’ and family’s reality to read or watch educational content in the library, then these patterns will be very hard to break out of. There are people who’s conditioning by their surroundings leads them to not take advantage of public services, although they would stand to gain the most from them. My South African friend Derrik once said that “from an African standpoint, it seems crazy that the urban poor in the first world don’t profit more from the many opportunities offered to them, because these opportunities are not available in Africa at all.”&lt;/p&gt;
+&lt;p&gt;A second group of visitors however are consuming entertainment in the library who don’t seem (judging purely superficially by their clothing) privileged enough to be written off as complacent. I wonder if there’s another reason for this — maybe their surroundings have conditioned them so they can&amp;rsquo;t recognize opportunity to learn when confronted with it. If completely outside friends’ and family’s reality to read or watch educational content in the library, then these patterns will be very hard to break out of. There are people who’s conditioning by their surroundings leads them to not take advantage of public services, although they would stand to gain the most from them. My South African friend Derrik once said that “from an African standpoint, it seems crazy that the urban poor in the first world don’t profit more from the many opportunities offered to them, because these opportunities are not available in Africa at all.”&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/chicago/093libraryint.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;A third group is reading and studying. They&#39;re also well dressed. I&#39;d guess they&#39;ve have been lucky enough to have been taught to utilise the opportunities at their disposal. I’m reminded of my friend Pete, who when working as a cashier in a coffee-shop, worked so hard that he was moved first to the espresso machine, then to the back-office, then onto accounting. I would have been trying to put in minimal effort and hours on the internship – and treaded water – but he moved up because he had been conditioned to recognise opportunity and work hard with it. I’d like to think that since this group has been born into many opportunities they see it as their duty to do something worthwhile with them. This group has been taught to take advantage of public services at their disposal.&lt;/p&gt;
+&lt;p&gt;A third group is reading and studying. They&amp;rsquo;re also well dressed. I&amp;rsquo;d guess they&amp;rsquo;ve have been lucky enough to have been taught to utilise the opportunities at their disposal. I’m reminded of my friend Pete, who when working as a cashier in a coffee-shop, worked so hard that he was moved first to the espresso machine, then to the back-office, then onto accounting. I would have been trying to put in minimal effort and hours on the internship – and treaded water – but he moved up because he had been conditioned to recognise opportunity and work hard with it. I’d like to think that since this group has been born into many opportunities they see it as their duty to do something worthwhile with them. This group has been taught to take advantage of public services at their disposal.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;I begin to notice a very large group studying in the reading room that I just can’t believe has been taught to recognize opportunity by privileged surroundings. They must have learned it elsewhere. But if this groups&amp;rsquo; peers by my theory didn&#39;t teach them to profit, or worst case was actively conditioning them &lt;em&gt;not&lt;/em&gt; to learn, then something like a chance encounter, a parent, or a book must have inspired them to step outside their conditioning and utilise opportunity. I think this is the group Eliot was talking about: Some people face many barriers towards capitalising on opportunity, and nevertheless persevere. When inspiration like this occurs, these people recognise what is on offer and learn to harness the first-world city’s opportunities at their disposal. If all of your surroundings are pulling in the opposite direction however, an inspiration like this requires a huge coincidence. If we segregate our cities less and mix people’s surroundings, these inspirations in the fourth group would happen more often I believe.&lt;/p&gt;
+&lt;p&gt;I begin to notice a very large group studying in the reading room that I just can’t believe has been taught to recognize opportunity by privileged surroundings. They must have learned it elsewhere. But if this groups&amp;rsquo; peers by my theory didn&amp;rsquo;t teach them to profit, or worst case was actively conditioning them &lt;em&gt;not&lt;/em&gt; to learn, then something like a chance encounter, a parent, or a book must have inspired them to step outside their conditioning and utilise opportunity. I think this is the group Eliot was talking about: Some people face many barriers towards capitalising on opportunity, and nevertheless persevere. When inspiration like this occurs, these people recognise what is on offer and learn to harness the first-world city’s opportunities at their disposal. If all of your surroundings are pulling in the opposite direction however, an inspiration like this requires a huge coincidence. If we segregate our cities less and mix people’s surroundings, these inspirations in the fourth group would happen more often I believe.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;These four observations seem to reflect a broader trend: underprivileged citzens tend not to take advantage of public services and tend to become poorer, while the privileged are taught to take advantage of them and tend to grow more privileged. Public services seem to service the fortunate public more. But regardless of how you have been conditioned to behave once you sit down: when you enter a public library, the city is offering everyone the same opportunities — and this is what gave Eliot hope.&lt;/p&gt;
@@ -2324,11 +2372,11 @@ Naturally, a process of negating what you don’t want can only begin once you k
       
       <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/hours/delft.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Contrary to our cultural belief in natural talents, popular science is catching on to the idea that the path to success may be linear. And it may require no more than hard work.&lt;/p&gt;
-&lt;p&gt;The claim (most popularized by Malcolm Gladwell&#39;s &lt;!-- raw HTML omitted --&gt;Outliers&lt;!-- raw HTML omitted --&gt;) is that there&#39;s no such thing as a natural talent - talents are achieved through hard work, and it is never too late for anyone to start down that path. What seems like talent is a direct result of the hours a person has put in to that task and practiced it.&lt;/p&gt;
-&lt;p&gt;A reason this thesis may be gaining popularity now is that many in my generation grew up playing video games. Playing video games has influenced many people&#39;s view of real-life mastery: it taught us that any skill is can be learned with enough patience. In most games it’s called training, which is x improvement per x time invested. The more I live the more I seem to improve with the hours I put into real-life ventures, just as my experience bar scales up linearly with the time I spend in a game. Nothing is impossible to learn in a video game, and I&#39;m starting to get a hunch that, with enough practice, most things IRL aren&#39;t either.&lt;/p&gt;
-&lt;p&gt;What&#39;s the goal or the prize at the end of this path? When does one achieve true mastery? The figure 10&#39;000 hours gets bandied around a lot. This is the equivalent of 3 hours&amp;rsquo; practice every day, for 10 years. This is how you measure the stock of a pilot: flight time in hours.&lt;/p&gt;
-&lt;p&gt;Focus is essential to gaining the 10’000 hours of experience. Focusing on only a few select activities to apply your time to will make the difference between world-class and the hobbyist who only dabbled.  Many people lose focus with all the distractions in modern life. This is like having skills only half-finished in a video game. Maybe we shouldn&#39;t be spreading ourselves too thin. Maybe we should be following through, to increase our chances of arriving at 10&#39;000 hours (if we even want to achieve mastery in something, that is). Maybe we should choose carefully and then follow them to the end of 10’000 hours, while saying No to all else.&lt;/p&gt;
-&lt;p&gt;On another note, maybe games have even helped reduce some people&#39;s fear of failure, or Game Over. Though it is less temporary in real life than in games, we have been conditioned to be disproportionately afraid of it. But in both real life and game, failure is a necessary part of the learning process. Image by Vermeer.&lt;/p&gt;
+&lt;p&gt;The claim (most popularized by Malcolm Gladwell&amp;rsquo;s &lt;!-- raw HTML omitted --&gt;Outliers&lt;!-- raw HTML omitted --&gt;) is that there&amp;rsquo;s no such thing as a natural talent - talents are achieved through hard work, and it is never too late for anyone to start down that path. What seems like talent is a direct result of the hours a person has put in to that task and practiced it.&lt;/p&gt;
+&lt;p&gt;A reason this thesis may be gaining popularity now is that many in my generation grew up playing video games. Playing video games has influenced many people&amp;rsquo;s view of real-life mastery: it taught us that any skill is can be learned with enough patience. In most games it’s called training, which is x improvement per x time invested. The more I live the more I seem to improve with the hours I put into real-life ventures, just as my experience bar scales up linearly with the time I spend in a game. Nothing is impossible to learn in a video game, and I&amp;rsquo;m starting to get a hunch that, with enough practice, most things IRL aren&amp;rsquo;t either.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s the goal or the prize at the end of this path? When does one achieve true mastery? The figure 10&amp;rsquo;000 hours gets bandied around a lot. This is the equivalent of 3 hours&amp;rsquo; practice every day, for 10 years. This is how you measure the stock of a pilot: flight time in hours.&lt;/p&gt;
+&lt;p&gt;Focus is essential to gaining the 10’000 hours of experience. Focusing on only a few select activities to apply your time to will make the difference between world-class and the hobbyist who only dabbled.  Many people lose focus with all the distractions in modern life. This is like having skills only half-finished in a video game. Maybe we shouldn&amp;rsquo;t be spreading ourselves too thin. Maybe we should be following through, to increase our chances of arriving at 10&amp;rsquo;000 hours (if we even want to achieve mastery in something, that is). Maybe we should choose carefully and then follow them to the end of 10’000 hours, while saying No to all else.&lt;/p&gt;
+&lt;p&gt;On another note, maybe games have even helped reduce some people&amp;rsquo;s fear of failure, or Game Over. Though it is less temporary in real life than in games, we have been conditioned to be disproportionately afraid of it. But in both real life and game, failure is a necessary part of the learning process. Image by Vermeer.&lt;/p&gt;
 &lt;hr&gt;
 </content>
       
