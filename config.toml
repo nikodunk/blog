@@ -8,6 +8,9 @@ publishDir = "docs"
 pygmentsCodefences = true
 pygmentsStyle = "monokai"
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
 authorName = "Niko Dunk" # Author full name
@@ -34,6 +37,3 @@ platforms = ["github","email","linkedin"]
 
 [taxonomies]
 tag ="tags"
-
-
-

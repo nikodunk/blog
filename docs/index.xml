@@ -20,6 +20,9 @@
       <description></description>
       
       <content>&lt;p&gt;We&amp;rsquo;re back after a short hold for some contracting (to refresh the coffers). Now with a new project (with a refreshed mind). I have a new team, new project, but &lt;strong&gt;same mission&lt;/strong&gt; – to fight global warming!&lt;/p&gt;
+&lt;p&gt;We believe that most people working in energy, solar, and climate change have been making a big mistake — that money, fear, and kilowatt-hours motivate people.&lt;/p&gt;
+&lt;p&gt;We have a different hypothesis.&lt;/p&gt;
+&lt;p&gt;Based on deep behavioral research, we discovered that people are more motivated to save energy and install solar when they see data in the form of CO2 — and the message needs to be simple: one number, one color, in real-time. &lt;strong&gt;We&amp;rsquo;re building that number.&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;team&#34;&gt;Team: &lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Teamed up with &lt;a href=&#34;https://twitter.com/katiepatrick&#34;&gt;Katie Patrick&lt;/a&gt;, an environmental designer and influencer.&lt;/li&gt;
@@ -27,7 +30,8 @@
 &lt;h1 id=&#34;kpiscore-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Marketing Spend: $0 (Katie&amp;rsquo;s 19,000 Twitter followers helped).&lt;/li&gt;
-&lt;li&gt;100 users of Chrome extension / Firefox Add-on&lt;/li&gt;
+&lt;li&gt;100 users of Chrome extension / Firefox Add-on in last week&lt;/li&gt;
+&lt;li&gt;55% retention after 1w&lt;/li&gt;
 &lt;li&gt;235 followers of Twitter bot&lt;/li&gt;
 &lt;li&gt;WoW growth of users: N/A yet&lt;/li&gt;
 &lt;li&gt;Revenue: $1,200 (from electrade.app still, but that&amp;rsquo;s another story)&lt;/li&gt;
@@ -57,6 +61,7 @@
 &lt;li&gt;Starting to raise an angel round from people who care about climate change, so Katie and I can focus on this project for a few months. Also applying for YC, etc.&lt;/li&gt;
 &lt;li&gt;Presenting to businesses, to see if business case is there (see ask – introductions to businesses interested in sustainability programs much appreciated).&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;energylollipop.netflify.com&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;blog-shadows&#34; src=&#34;https://nikodunk.com/startup-updates-16/energy-lollipop-website.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
       
     </item>
@@ -111,8 +116,8 @@ Stats:
 * MAU: 2K
 * User acquisition: Physical marketing, SEO, Paid, Content
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Website&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Github on request&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://www.electrade.app&#34;&gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;assemble-real-time-collaboration-for-better-meetings&#34;&gt;Assemble | Real-time collaboration for better meetings&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_assemble.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -123,8 +128,8 @@ Stats:
 * Postgres store
 * AWS Elastic Beanstalk
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Website&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Github on request&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://www.assemble.works&#34;&gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_classalogpng-classalogorg-a-marketplace-for-classes&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_classalog.png&#34; alt=&#34;&#34;&gt; Classalog.org | A marketplace for classes&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_classalog.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -134,8 +139,8 @@ Stats:
 * Google Firebase Cloud Functions
 * Scraping with APIfy
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Website&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Github on request&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://classalog.org&#34;&gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_electradepng-electrade--a-mobile-marketplace-for-evs&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade | A mobile marketplace for EVs&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -153,9 +158,9 @@ Tech:
 * EV News updates through APIfy.com
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;(see &lt;a href=&#34;https://nikodunk.com/startup-updates-7&#34;&gt;Startup Updates&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;App Store&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Google Play&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://apple.co/2wTOYTX&#34;&gt;App Store&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://bit.ly/2KjmICI&#34;&gt;Google Play&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/electrify-app&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_earthpng-whole-earth-catalog--a-platform-for-collecting-sustainable-companies&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_earth.png&#34; alt=&#34;&#34;&gt; whole earth catalog | A platform for collecting sustainable companies&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_wholeearth.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -165,11 +170,11 @@ Tech:
 * Angular 2 App (later re-built in React)
 * Firebase backend
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Whole Earth Catalog Mirror&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://nikodunk.github.io/sustco-platform/&#34;&gt;Whole Earth Catalog Mirror&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/sustco-platform&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_sustainability1gif-sunboxlabscom--platform-for-diy-solar-kits-incl-price-tracking&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34;&gt; sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)&lt;/h2&gt;
-&lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;!-- raw HTML omitted --&gt;sunboxlabs.com&lt;!-- raw HTML omitted --&gt; developed out of a &lt;!-- raw HTML omitted --&gt;HackerNoon&lt;!-- raw HTML omitted --&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;!-- raw HTML omitted --&gt;HackerNews&lt;!-- raw HTML omitted --&gt; (&lt;!-- raw HTML omitted --&gt;twice&lt;!-- raw HTML omitted --&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;!-- raw HTML omitted --&gt;sunbox labs&lt;!-- raw HTML omitted --&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;a href=&#34;http://sunboxlabs.com&#34; target=&#34;_blank&#34;&gt;sunboxlabs.com&lt;/a&gt; developed out of a &lt;a href=&#34;https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4&#34;&gt;HackerNoon&lt;/a&gt; post from a hacked together project, implemented between jobs, where it garnered 200&amp;rsquo;000 views and was featured on &lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;HackerNews&lt;/a&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;twice&lt;/a&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;a href=&#34;http://nikodunk.github.io/sunboxlabs&#34;&gt;sunbox labs&lt;/a&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;i&gt;&lt;a href=&#34;https://nikodunk.com/solar&#34;&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team:
 * Niko (concept, writing, tech)
 * Zeb (marketing)
@@ -186,10 +191,10 @@ Stats
 * 8 submissions
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/sunboxlabssite3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Website&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;http://sunboxlabs.com&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_paperpng-paper-inc--mail-order-sustainable-flatpack-furniture&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paper.png&#34; alt=&#34;&#34;&gt; Paper Inc. | Mail-order Sustainable Flatpack Furniture&lt;/h2&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p  style=&#34;   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;   font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;   font-stretch: normal;   -x-system-font: none;   display: block;&#34;   &gt;&lt;a title=&#34;View Paper Furniture Pitch Initial on Scribd&#34; href=&#34;https://www.scribd.com/document/438265380/Paper-Furniture-Pitch-Initial#from_embed&#34;  style=&#34;text-decoration: underline;&#34;&gt;Paper Furniture Pitch Initial&lt;/a&gt; by &lt;a title=&#34;View Niko Dunkel&#39;s profile on Scribd&#34; href=&#34;https://www.scribd.com/user/490178052/Niko-Dunkel#from_embed&#34;  style=&#34;text-decoration: underline;&#34;&gt;Niko Dunkel&lt;/a&gt; on Scribd&lt;/p&gt;&lt;iframe class=&#34;scribd_iframe_embed&#34; title=&#34;Paper Furniture Pitch Initial&#34; src=&#34;https://www.scribd.com/embeds/438265380/content?start_page=1&amp;view_mode=slideshow&amp;show_recommendations=false&amp;access_key=key-P5ch3hQLLJNKHmq2E2YN&#34; data-auto-height=&#34;true&#34; data-aspect-ratio=&#34;1.7790927021696252&#34; scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;p&gt;Above the original pitchdeck.&lt;/p&gt;
 &lt;p&gt;The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/paper.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -211,7 +216,7 @@ Stats
 * Pre-Seed round (aborted)
 * My first ever entrepreneurial project
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Final Paper Furniture Site Mirror (renamed to Smoke at that point)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;http://nikodunk.github.io/smoke/&#34;&gt;Final Paper Furniture Site Mirror (renamed to Smoke at that point)&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_paperworklabspng-paperworklabscom-turbotax-for-medical-forms&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_paperworklabs.png&#34; alt=&#34;&#34;&gt; paperworklabs.com | Turbotax for medical forms&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_paperworklabs.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -236,8 +241,8 @@ Stats
 * MRR: $1,843 (1x)
 * Price point: $99/month for all-you-can-eat medical smartforms
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Deployed Web App&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://paperworklabs-demo.herokuapp.com&#34;&gt;Deployed Web App&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/paperworklabs&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_giftlabpng-giftlabio--kickstarter-for-physical-donations&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_giftlab.png&#34; alt=&#34;&#34;&gt; Giftlab.io | Kickstarter for physical donations&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_giftlab.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -255,8 +260,8 @@ Tech:
 Stats:
 * Total sales: $30.00
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Deployed Web App&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://giftlab-demo.herokuapp.com&#34;&gt;Deployed Web App&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/giftlab-io&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_healthpng-soap-dictate-app--medical-note-transcription-app&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health.png&#34; alt=&#34;&#34;&gt; Soap Dictate App | Medical Note Transcription App&lt;/h2&gt;
 &lt;p&gt;Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.&lt;/p&gt;
@@ -282,7 +287,7 @@ Stats
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_soap.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/soapstats.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;App Store&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://itunes.apple.com/app/id1384252497&#34;&gt;App Store&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;bamazon-bcorp-amazon-mashup--certified-label-amazon-search&#34;&gt;Bamazon | BCorp-Amazon Mashup - certified label Amazon search&lt;/h2&gt;
 &lt;p&gt;A search engine for green products, utilising APIfier to scrape all &lt;a href=&#34;https://bcorporation.net&#34;&gt;B-Corps&lt;/a&gt; (among others) and find their products on Amazon through the Viglink API. This was a search-engine-ified Whole Earth Catalog, above.&lt;/p&gt;
@@ -299,7 +304,7 @@ Stats
 * MRR: $0
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_bcorpamazon.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Mirror&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://nikodunk.github.io/bamazon/&#34;&gt;Mirror&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_health0png-i-am-off-app--off-day-planner-for-physicians&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health0.png&#34; alt=&#34;&#34;&gt; I Am Off! App | Off-day planner for Physicians&lt;/h2&gt;
 &lt;p&gt;Together with Libo Wang and initially Steven Pease, we set out to help with the burn-out rate of doctors at Stanford Internal Medicine: This app helps doctors (who have irregular schedules and little free time) work out who’s off and up to hang out with a super simple calendaring app.&lt;/p&gt;
@@ -321,9 +326,9 @@ Stats
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_iamoff.gif&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;https://nikodunk.com/projects/demo_iamoff.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;App Store&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Google Play&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://itunes.apple.com/us/app/i-am-off/id1378071021&#34;&gt;App Store&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://play.google.com/store/apps/details?id=com.pokedoc.iamoff&#34;&gt;Google Play&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/iamoff-app&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_positivitypng-positivity-trainer--train-your-mind-to-be-more-positive&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_positivity.png&#34; alt=&#34;&#34;&gt; Positivity Trainer | Train your mind to be more positive&lt;/h2&gt;
 &lt;p&gt;This is a very simple side-project, which I did to learn Firebase Auth and Storage. Tries to counteract the negative media coverage of everything we cover every day by asking you a positivity-inducing question, daily.&lt;/p&gt;
@@ -337,8 +342,8 @@ Stats
 * Initially $0.99 / month =&amp;gt; 4 subscribers after 3 months
 * Now just $0.99
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;App Store&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://apps.apple.com/us/app/daily-positivity-trainer/id1466175138&#34;&gt;App Store&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/positivity&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_project-pegasuspng-projectpegasusio--recycling-rejected-ycombinator-applications&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_project-pegasus.png&#34; alt=&#34;&#34;&gt; Projectpegasus.io | Recycling rejected YCombinator applications&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_pegasus.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -380,7 +385,7 @@ Stats:
 &lt;hr&gt;
 &lt;h3 id=&#34;juicebar--hardware-concept&#34;&gt;Juicebar – (hardware concept)&lt;/h3&gt;
 &lt;p&gt;Juicebar was a windowsill energy generator meant to ehlp urbanites be energy independent without access to their rooftops.&lt;/p&gt;
-&lt;p&gt;The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post &lt;!-- raw HTML omitted --&gt;“How I gave up alternating current”&lt;!-- raw HTML omitted --&gt;. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.&lt;/p&gt;
+&lt;p&gt;The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post &lt;a href=&#34;https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/&#34; target=&#34;_blank&#34;&gt;“How I gave up alternating current”&lt;/a&gt;. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/juicebar.jpg&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;https://nikodunk.com/projects/juicebar.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Customers objected that the device was too expensive vs. what money they could save. They also objected that the embodied energy was so high, it would take years to pay off and be “greener” than before. Finally, they objected that the IoT features were useless.&lt;/p&gt;
@@ -418,7 +423,7 @@ Stats:
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Solar Summon&lt;!-- raw HTML omitted --&gt; – Solar search for iOS drawing from MapKit, and &lt;!-- raw HTML omitted --&gt;Solar Summon&lt;!-- raw HTML omitted --&gt; – Later Rebuilt in React Native. These were my first iOS projects in Swift and React Native.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/nikodunk/solar-search-swift&#34;&gt;Solar Summon&lt;/a&gt; – Solar search for iOS drawing from MapKit, and &lt;a href=&#34;https://github.com/nikodunk/reactnativesolar&#34;&gt;Solar Summon&lt;/a&gt; – Later Rebuilt in React Native. These were my first iOS projects in Swift and React Native.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo4.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;goodgood--ewg-amazon-mashup--ewg-database-amazon-search&#34;&gt;Goodgood | EWG-Amazon Mashup – EWG Database Amazon Search&lt;/h3&gt;
@@ -464,12 +469,12 @@ Stats
 &lt;h2 id=&#34;sensorcoin--google-contacts-on-the-blockchain&#34;&gt;Sensorcoin | Google Contacts on the blockchain&lt;/h2&gt;
 &lt;p&gt;From November to January Phil Chacko and I worked on various other projects. All the following require &lt;a href=&#34;http://metamask.io&#34;&gt;Metamask&lt;/a&gt; on desktop or &lt;a href=&#34;http://toshi.org&#34;&gt;Toshi&lt;/a&gt; on mobile).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;ESCRON&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Sensorcoin&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Universal Contact Storage&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;A landing page suggesting an &lt;!-- raw HTML omitted --&gt;Institutional-grade investment tool&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/escron&#34;&gt;ESCRON&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/sensorcoin/&#34;&gt;Sensorcoin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/contactStorage&#34;&gt;Universal Contact Storage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A landing page suggesting an &lt;a href=&#34;https://nikodunk.github.io/coinhold/&#34;&gt;Institutional-grade investment tool&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;So far we haven&amp;rsquo;t been able to find a business case with these Dapps, and as described &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.&lt;/p&gt;
+&lt;p&gt;So far we haven&amp;rsquo;t been able to find a business case with these Dapps, and as described &lt;a href=&#34;https://nikodunk.github.io/blockchain&#34;&gt;here&lt;/a&gt;, the development of the ecosystem is so fast-paced (read: everything is still unfinished) – most of these projects are already easier to do as when we built them.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/ethereum.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;work&#34;&gt;Work&lt;/h1&gt;
 &lt;hr&gt;
@@ -635,7 +640,10 @@ Stats
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/5.jpg&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;https://nikodunk.com/surf/6.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/surf/7.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;video controls width=&#34;375&#34;&gt;
+    &lt;source src=&#34;https://nikodunk.com/surf/the-turtle-surfboard-on-bike-method-without-a-rack.mov&#34; type=&#34;video/mp4&#34;&gt;
+    Sorry, your browser doesn&#39;t support embedded videos.
+&lt;/video&gt;
 &lt;p&gt;I nickname it the Turtle. What do you think? Kook of the day, innovation, or seen this a million times? Let me know via email below.&lt;/p&gt;
 </content>
       
@@ -1711,8 +1719,8 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/ul&gt;
 &lt;p&gt;We&amp;rsquo;re working from a friend&amp;rsquo;s garage:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-3/startup-garage.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- Our first deal: --&gt;
+&lt;!-- ![](/startup-updates-3/startup-first-deal.JPG) --&gt;
 </content>
       
     </item>
@@ -1755,7 +1763,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;li&gt;Had call with Michael (mentor): Likes deck and vision to 100M.&lt;/li&gt;
 &lt;li&gt;Slow before xmas? Not so much.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/IZHnqU43t0s&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h2 id=&#34;week-8&#34;&gt;Week 8&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Xmas, no go.&lt;/li&gt;
@@ -1840,7 +1848,7 @@ incorporated LLC with stripe atlas (more like aside project currently but don&am
       <guid>https://nikodunk.com/accelerator/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;strong&gt;Originally posted&lt;/strong&gt;  as &amp;ldquo;8 learnings for startups (from swissnex SF Startup Camp)&amp;rdquo; at &lt;!-- raw HTML omitted --&gt;startupticker.ch&lt;!-- raw HTML omitted --&gt; and the &lt;!-- raw HTML omitted --&gt;swissnex blog&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+      <content>&lt;p&gt;&lt;strong&gt;Originally posted&lt;/strong&gt;  as &amp;ldquo;8 learnings for startups (from swissnex SF Startup Camp)&amp;rdquo; at &lt;a href=&#34;https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco&#34; target=&#34;_blank&#34;&gt;startupticker.ch&lt;/a&gt; and the &lt;a href=&#34;https://nextrends.swissnexsanfrancisco.org/8-learnings-from-swiss-start-ups-in-silicon-valley/&#34; target=&#34;_blank&#34;&gt;swissnex blog&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;This piece was written and posted at my time at swissnex SF. With support from incredible swissnex SF and global teams, we scaled the program from 8-10 companies per year with 2 partners to 16-24 startups per year with 5 partners. We achieved this by shifting our model from 1:1 consultancy to bi-annual camp cohorts with demo days, and through improvements to startup marketing channels, internal processes, and new connections in the ecosystem. Other links from the time:&lt;/p&gt;
 &lt;p&gt;• &lt;a href=&#34;https://www.swissnexsf.org/startups&#34;&gt;https://www.swissnexsf.org/startups&lt;/a&gt;
@@ -1850,55 +1858,55 @@ incorporated LLC with stripe atlas (more like aside project currently but don&am
 • &lt;a href=&#34;https://nikodunk.com/accelerator&#34;&gt;https://nikodunk.com/accelerator&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/moneyshot1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;swissnex San Francisco connects Swiss startups to a Bay Area network, and provides tools, techniques, training, and workspace in San Francisco. Twice a year, the &lt;!-- raw HTML omitted --&gt;swissnex SF Startup Camp&lt;!-- raw HTML omitted --&gt; brings together startups from EPFL XGrant and Innosuisse Market Entry Camp, and any other Swiss startup (for a fee). Get in touch with any questions or see below for more information.&lt;/p&gt;
+&lt;p&gt;swissnex San Francisco connects Swiss startups to a Bay Area network, and provides tools, techniques, training, and workspace in San Francisco. Twice a year, the &lt;a href=&#34;http://swissnexsf.org/startups&#34; target=&#34;_blank&#34;&gt;swissnex SF Startup Camp&lt;/a&gt; brings together startups from EPFL XGrant and Innosuisse Market Entry Camp, and any other Swiss startup (for a fee). Get in touch with any questions or see below for more information.&lt;/p&gt;
 &lt;p&gt;The camp is relevant to Swiss startups looking to make the jump over to the US. We specialize in helping deep-tech startups integrate into a network of founders and supporters in the Bay Area, while getting used to the US ways of doing business – marketing, sales, speed of testing, etc.&lt;/p&gt;
-&lt;p&gt;Results of the camp speak for themselves: over the years some of the best Swiss startups like &lt;!-- raw HTML omitted --&gt;Ava&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Beekeeper&lt;!-- raw HTML omitted --&gt;, Faceshift (acquired by Apple), &lt;!-- raw HTML omitted --&gt;Doodle&lt;!-- raw HTML omitted --&gt;, and &lt;!-- raw HTML omitted --&gt;Mindmaze&lt;!-- raw HTML omitted --&gt; have come through our camps. Today, their valuation totals 1.1B! swissnex is proud to hold a network of 400 founders and friends to help future campers.&lt;/p&gt;
+&lt;p&gt;Results of the camp speak for themselves: over the years some of the best Swiss startups like &lt;a href=&#34;http://avawomen.com&#34; target=&#34;_blank&#34;&gt;Ava&lt;/a&gt;, &lt;a href=&#34;http://beekeeper.com&#34; target=&#34;_blank&#34;&gt;Beekeeper&lt;/a&gt;, Faceshift (acquired by Apple), &lt;a href=&#34;http://doodle.com&#34; target=&#34;_blank&#34;&gt;Doodle&lt;/a&gt;, and &lt;a href=&#34;http://mindmaze.com&#34; target=&#34;_blank&#34;&gt;Mindmaze&lt;/a&gt; have come through our camps. Today, their valuation totals 1.1B! swissnex is proud to hold a network of 400 founders and friends to help future campers.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/workspace.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;the-swissnex-sf-startup-camp-approach&#34;&gt;The swissnex SF Startup Camp approach&lt;/h1&gt;
 &lt;p&gt;As the markets in both Switzerland and the US have changed, we realized that startups benefitted from talking to others about their experiences in the Bay Area, and could help &amp;lsquo;translate&amp;rsquo; those learnings for the Swiss environment. That&amp;rsquo;s why we&amp;rsquo;ve restructured the program to give startups an opportunity to explore on their own, but process those learnings for a Swiss context alongside a Swiss cohort. Our 3-4-week program in February and August consists of:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Monday 9.30-11a – Office Hours&lt;!-- raw HTML omitted --&gt; (similar to YC&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=syoqjYLDs48&#34;&gt;Office Hours&lt;/a&gt;, startups can ask questions, share learnings and solve each others&amp;rsquo; current challenges –  led by the swissnex team.&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Wednesday 9.30-11a –  Breakfast Fireside Chats&lt;!-- raw HTML omitted --&gt; (similar to YC&amp;rsquo;s Dinners) we invite external speakers, who are currently building a company or have done so in recent years, to share their insights. They freely explain tips and hacks, and share their journey. Excerpts from these sessions are below.&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Friday 9.30-11a – Toolkits&lt;!-- raw HTML omitted --&gt;, similar to to 500 startups&amp;rsquo; Toolkits, are tactical sessions for learning U.S. specific skills, as opposed to the speaker’s journey in the fireside chats. We share stories and tips from these sessions below.&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Workspace&lt;!-- raw HTML omitted --&gt; – Startups can freely work from the space and schedule meetings outside of the sessions, and of course attend meetups/events/network in the evenings.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Monday 9.30-11a – Office Hours&lt;/b&gt; (similar to YC&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=syoqjYLDs48&#34;&gt;Office Hours&lt;/a&gt;, startups can ask questions, share learnings and solve each others&amp;rsquo; current challenges –  led by the swissnex team.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Wednesday 9.30-11a –  Breakfast Fireside Chats&lt;/b&gt; (similar to YC&amp;rsquo;s Dinners) we invite external speakers, who are currently building a company or have done so in recent years, to share their insights. They freely explain tips and hacks, and share their journey. Excerpts from these sessions are below.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Friday 9.30-11a – Toolkits&lt;/b&gt;, similar to to 500 startups&amp;rsquo; Toolkits, are tactical sessions for learning U.S. specific skills, as opposed to the speaker’s journey in the fireside chats. We share stories and tips from these sessions below.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Workspace&lt;/b&gt; – Startups can freely work from the space and schedule meetings outside of the sessions, and of course attend meetups/events/network in the evenings.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are eight of our key takeaways from the first swissnex SF Startup Camp.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/fireside2.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;8-learnings-for-startups&#34;&gt;8 LEARNINGS FOR STARTUPS&lt;/h1&gt;
 &lt;h2 id=&#34;learning-1-to-deal-with-big-challenges-get-into-the-mindset-with-a-high-level-of-energy--and-youll-be-at-the-top-of-your-game-to-overcome-it&#34;&gt;Learning #1: To deal with big challenges, get into the mindset with a high level of energy — and you’ll be at the top of your game to overcome it.&lt;/h2&gt;
-&lt;p&gt;(Teo Borschberg, &lt;!-- raw HTML omitted --&gt;Oto.ai&lt;!-- raw HTML omitted --&gt;, Week 1 Fireside Chat)&lt;/p&gt;
+&lt;p&gt;(Teo Borschberg, &lt;a href=&#34;http://oto.ai&#34; target=&#34;_blank&#34;&gt;Oto.ai&lt;/a&gt;, Week 1 Fireside Chat)&lt;/p&gt;
 &lt;p&gt;When founder Teo was hit with a business crisis, he didn’t flinch. When their first term sheet was endangered by a key team member leaving, instead of freaking out and trying to solve the problem right then, he counterintuitively went to the sauna, worked out, got dinner with friends and a great bottle of wine, a full nights’ sleep, and then the next day walked into the meeting room with a smile. This energy spread to the rest of the team as they realized they would get through this. And they did! The team now knows Teo’s a strong leader – nothing can get this guy down.&lt;/p&gt;
 &lt;h2 id=&#34;learning-2-no-is-always-better-than-a-maybe&#34;&gt;Learning #2: ‘No’ is always better than a ‘maybe’&lt;/h2&gt;
-&lt;p&gt;(Suhas Ghante, &lt;!-- raw HTML omitted --&gt;Alchemai.com&lt;!-- raw HTML omitted --&gt; – Week 1 Toolkit Business Development USA)&lt;/p&gt;
-&lt;p&gt;Suhas, who has been through 500 Startups accelerator twice and specializes in business development, explained to us on the first Friday Toolkit that most of the time when talking with clients you’re dealing with hesitation and questions. Rarely do you get a straight ‘yes’. When you’re not getting a ‘yes’ however, most of the time founders are scared to push for the sale, thinking: “What if I get a no instead?”. But Suhas asks – what are you really risking? The upside is massive – a ‘yes’ – the downside is minimal – you stay where you are (not doing business with this client). So instead of fearing a ‘no’ and getting ‘maybes’ and ‘maybes’ and wasting months, put the cards on the table and get a clear ‘no’ – leaving you where you are – and move to the places with more potential to get a ‘yes’. &lt;!-- raw HTML omitted --&gt;Get a ‘no’ or a ‘yes’ – everything else is a waste of time.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;(Suhas Ghante, &lt;a href=&#34;http://alchemai.com&#34; target=&#34;_blank&#34;&gt;Alchemai.com&lt;/a&gt; – Week 1 Toolkit Business Development USA)&lt;/p&gt;
+&lt;p&gt;Suhas, who has been through 500 Startups accelerator twice and specializes in business development, explained to us on the first Friday Toolkit that most of the time when talking with clients you’re dealing with hesitation and questions. Rarely do you get a straight ‘yes’. When you’re not getting a ‘yes’ however, most of the time founders are scared to push for the sale, thinking: “What if I get a no instead?”. But Suhas asks – what are you really risking? The upside is massive – a ‘yes’ – the downside is minimal – you stay where you are (not doing business with this client). So instead of fearing a ‘no’ and getting ‘maybes’ and ‘maybes’ and wasting months, put the cards on the table and get a clear ‘no’ – leaving you where you are – and move to the places with more potential to get a ‘yes’. &lt;b&gt;Get a ‘no’ or a ‘yes’ – everything else is a waste of time.&lt;/b&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-3-good-advice-comes-in-the-form-of-questions&#34;&gt;Learning #3: Good advice comes in the form of questions&lt;/h2&gt;
-&lt;p&gt;(Can Olcer &amp;amp; Dorena Nagel, &lt;!-- raw HTML omitted --&gt;Kosmos&lt;!-- raw HTML omitted --&gt; – Week 2 Fireside Chat)&lt;/p&gt;
-&lt;p&gt;Every route will be different, so be wary of people who give you absolute (and unsolicited) advice. The best advice comes from people who ask you questions, rather than giving you oversimplified answers and solutions that worked on their own path. Your approach to solving problems will be as unique as your experience and business. Whether it’s investors, friends, colleagues or even your team, be wary of which kind of advice you accept. &lt;!-- raw HTML omitted --&gt;You’ll know good advice when it comes in the form of questions.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;(Can Olcer &amp;amp; Dorena Nagel, &lt;a href=&#34;http://kosmosapp.io&#34; target=&#34;_blank&#34;&gt;Kosmos&lt;/a&gt; – Week 2 Fireside Chat)&lt;/p&gt;
+&lt;p&gt;Every route will be different, so be wary of people who give you absolute (and unsolicited) advice. The best advice comes from people who ask you questions, rather than giving you oversimplified answers and solutions that worked on their own path. Your approach to solving problems will be as unique as your experience and business. Whether it’s investors, friends, colleagues or even your team, be wary of which kind of advice you accept. &lt;b&gt;You’ll know good advice when it comes in the form of questions.&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/fireside.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-4-tell-your-story-in-rules-of-threes&#34;&gt;Learning #4: Tell your story in Rules of Threes&lt;/h2&gt;
-&lt;p&gt;(Nathan Gold, &lt;!-- raw HTML omitted --&gt;Democoach&lt;!-- raw HTML omitted --&gt;, Week 2 Toolkit)&lt;/p&gt;
-&lt;p&gt;Kinaps.co was telling their story and benefits as “we have x benefit, we solve y”. Adding the simple rhetorical flourish of “and it even does Z” was so effective that it convinced the audience — and they built it into their main pitch from that moment on. &lt;!-- raw HTML omitted --&gt;List your benefits in threes.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;(Nathan Gold, &lt;a href=&#34;http://democoach.com&#34; target=&#34;_blank&#34;&gt;Democoach&lt;/a&gt;, Week 2 Toolkit)&lt;/p&gt;
+&lt;p&gt;Kinaps.co was telling their story and benefits as “we have x benefit, we solve y”. Adding the simple rhetorical flourish of “and it even does Z” was so effective that it convinced the audience — and they built it into their main pitch from that moment on. &lt;b&gt;List your benefits in threes.&lt;/b&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-5-get-your-business-karma-on&#34;&gt;Learning #5: Get your business Karma on&lt;/h2&gt;
-&lt;p&gt;(Thomas Querton, &lt;!-- raw HTML omitted --&gt;Atlasrun.com&lt;!-- raw HTML omitted --&gt; – Week 3 Fireside Chat)&lt;/p&gt;
-&lt;p&gt;The founding team of Atlasrun helped a non-profit for many years, free of charge, simply because they liked working with them and they had a cool mission. They also had a great network and introduced Atlasun to two influential contacts – who are now two of Atlasrun’s main clients. &lt;!-- raw HTML omitted --&gt;Good karma will come back to you!&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;(Thomas Querton, &lt;a href=&#34;http://atlasrun.com&#34; target=&#34;_blank&#34;&gt;Atlasrun.com&lt;/a&gt; – Week 3 Fireside Chat)&lt;/p&gt;
+&lt;p&gt;The founding team of Atlasrun helped a non-profit for many years, free of charge, simply because they liked working with them and they had a cool mission. They also had a great network and introduced Atlasun to two influential contacts – who are now two of Atlasrun’s main clients. &lt;b&gt;Good karma will come back to you!&lt;/b&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-6-a-demo-says-more-than-1000-slides&#34;&gt;Learning #6: A demo says more than 1000 slides.&lt;/h2&gt;
-&lt;p&gt;(Stephan Eberle, &lt;!-- raw HTML omitted --&gt;Scale Venture Partners&lt;!-- raw HTML omitted --&gt; – Investor Perspective &amp;amp; Deck Feedback, Week 3 Toolkit)&lt;/p&gt;
-&lt;p&gt;On the first slide of their deck, camp participant Parquery explained their relatively complex machine vision technology in one beautiful photo of the live product. The image was so effective because it showed exactly what the product does, and Stephan from ScaleVP immediately understood the concept and complemented the startup on their communication. With a core understanding of the product established, Parquery CEO Andrea and Stephan were able to lead a deeper conversation on the additional features and benefits of the product. &lt;!-- raw HTML omitted --&gt;One slide lead to perfect understanding of the startup’s project, value proposition, and technology –  if you’re looking for an investor’s advice or money, you need to make your product understandable first.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;(Stephan Eberle, &lt;a href=&#34;http://scalevp.com&#34; target=&#34;_blank&#34;&gt;Scale Venture Partners&lt;/a&gt; – Investor Perspective &amp;amp; Deck Feedback, Week 3 Toolkit)&lt;/p&gt;
+&lt;p&gt;On the first slide of their deck, camp participant Parquery explained their relatively complex machine vision technology in one beautiful photo of the live product. The image was so effective because it showed exactly what the product does, and Stephan from ScaleVP immediately understood the concept and complemented the startup on their communication. With a core understanding of the product established, Parquery CEO Andrea and Stephan were able to lead a deeper conversation on the additional features and benefits of the product. &lt;b&gt;One slide lead to perfect understanding of the startup’s project, value proposition, and technology –  if you’re looking for an investor’s advice or money, you need to make your product understandable first.&lt;/b&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-7-get-a-us-phone-number-and-address-even-if-youre-not-based-here&#34;&gt;Learning #7: Get a US phone number and address, even if you’re not based here&lt;/h2&gt;
-&lt;p&gt;(Damian Felchlin, &lt;!-- raw HTML omitted --&gt;Switzerland Global Enterprise&lt;!-- raw HTML omitted --&gt;, Week 4 Toolkit)&lt;/p&gt;
-&lt;p&gt;This hack applies mainly to European startups expanding to the US, but if you&amp;rsquo;re a tech startup there&amp;rsquo;s no excuse for not having your web presence up to date — in English — and having a US phone number and address. This will make US customers more comfortable with doing business with you. &lt;!-- raw HTML omitted --&gt;A US phone number costs little, but the upside is huge.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;(Damian Felchlin, &lt;a href=&#34;http://s-ge.com&#34; target=&#34;_blank&#34;&gt;Switzerland Global Enterprise&lt;/a&gt;, Week 4 Toolkit)&lt;/p&gt;
+&lt;p&gt;This hack applies mainly to European startups expanding to the US, but if you&amp;rsquo;re a tech startup there&amp;rsquo;s no excuse for not having your web presence up to date — in English — and having a US phone number and address. This will make US customers more comfortable with doing business with you. &lt;b&gt;A US phone number costs little, but the upside is huge.&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/accelerator/workspace_2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-8-find-startup-friends-to-share-your-journey-with&#34;&gt;Learning #8: Find startup friends to share your journey with.&lt;/h2&gt;
-&lt;p&gt;(Lea von Bidder, &lt;!-- raw HTML omitted --&gt;Ava&lt;!-- raw HTML omitted --&gt;, Week 4 Fireside Chat)&lt;/p&gt;
-&lt;p&gt;This last learning is not technically a Fireside Chat, but the knowledge Lea von Bidder shared spontaneously en route to Stanford in the car was valuable so we’ll recount it here nonetheless. If you can find colleagues and friends who are at the same stage of your journey, they can be a great asset – sharing knowledge, solutions, office space and even contacts. &lt;!-- raw HTML omitted --&gt;Being part of a cohort of friends, all thinking about the same things, will make you grow faster and be stronger. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Interested in learning more? Visit &lt;!-- raw HTML omitted --&gt;swissnexsf.org/startups&lt;!-- raw HTML omitted --&gt; – includes video, dates, and program details, or reach out directly to &lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;mailto:startups@swissnexsf.org&#34;&gt;startups@swissnexsf.org&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Details:&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;(Lea von Bidder, &lt;a href=&#34;http://avawomen.com&#34; target=&#34;_blank&#34;&gt;Ava&lt;/a&gt;, Week 4 Fireside Chat)&lt;/p&gt;
+&lt;p&gt;This last learning is not technically a Fireside Chat, but the knowledge Lea von Bidder shared spontaneously en route to Stanford in the car was valuable so we’ll recount it here nonetheless. If you can find colleagues and friends who are at the same stage of your journey, they can be a great asset – sharing knowledge, solutions, office space and even contacts. &lt;b&gt;Being part of a cohort of friends, all thinking about the same things, will make you grow faster and be stronger. &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Interested in learning more? Visit &lt;a href=&#34;http://swissnexsf.org/startups&#34; target=&#34;_blank&#34;&gt;swissnexsf.org/startups&lt;/a&gt; – includes video, dates, and program details, or reach out directly to &lt;a href=&#34;mailto:startups@swissnexsf.org&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;mailto:startups@swissnexsf.org&#34;&gt;startups@swissnexsf.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Details:&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Free for Innosuisse(*) and EPFL XGrant startups (but open to all Swiss startups)&lt;/li&gt;
 &lt;li&gt;Dates: July 30 – August 17 2018.&lt;/li&gt;
 &lt;li&gt;Application Deadline: June 30 2018&lt;/li&gt;
-&lt;li&gt;Includes workspace in San Francisco and 3 week &lt;!-- raw HTML omitted --&gt;program&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;Apply now at &lt;!-- raw HTML omitted --&gt;swissnexsf.org/startups&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;Includes workspace in San Francisco and 3 week &lt;a href=&#34;https://www.swissnexsanfrancisco.org/startups/#program&#34; target=&#34;_blank&#34;&gt;program&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Apply now at &lt;a href=&#34;http://swissnexsf.org/startups&#34; target=&#34;_blank&#34;&gt;swissnexsf.org/startups&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(*)previously CTI/KTI. See swissnexsf.org/startups for more information.&lt;/p&gt;
 &lt;hr&gt;
@@ -2116,7 +2124,7 @@ migrate --reset --network rinkeby
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY3.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Step 1&lt;!-- raw HTML omitted --&gt; Cut and lay bare the end of the battery &amp;amp; inverter wires (battery disconnected, please). The panel’s wires are already bare on one end. Do a dry run connecting battery, inverter and panel to the controller — it should look like above. The striped wire of the inverter cable is the positive, the unmarked is negative FYI.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 1&lt;/b&gt; Cut and lay bare the end of the battery &amp;amp; inverter wires (battery disconnected, please). The panel’s wires are already bare on one end. Do a dry run connecting battery, inverter and panel to the controller — it should look like above. The striped wire of the inverter cable is the positive, the unmarked is negative FYI.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/ASSEMBLY4.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -2132,7 +2140,7 @@ migrate --reset --network rinkeby
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Step 2&lt;!-- raw HTML omitted --&gt; Detach the panel wires again and place the panel on the rooftop or wherever you get the most sunlight (…garden …balcony …). Attach the panel to something: I zip-tied the back of the panel to a cable which I fastened on both ends around sturdy roof pipes&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 2&lt;/b&gt; Detach the panel wires again and place the panel on the rooftop or wherever you get the most sunlight (…garden …balcony …). Attach the panel to something: I zip-tied the back of the panel to a cable which I fastened on both ends around sturdy roof pipes&amp;hellip;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2149,7 +2157,7 @@ migrate --reset --network rinkeby
 &lt;/table&gt;
 &lt;p&gt;&amp;hellip;and run the power lines back to your apartment (drop down the facade and into the window in my case).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/INSIDE.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Step 3&lt;!-- raw HTML omitted --&gt; Assemble the solar controller, inverter and battery into a tighter package. Re-clamp the wire from the panel to the solar controller and close the window. It should look as above. The charge begins!&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 3&lt;/b&gt; Assemble the solar controller, inverter and battery into a tighter package. Re-clamp the wire from the panel to the solar controller and close the window. It should look as above. The charge begins!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/200/SELF-SUFFICIENCY.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;In the evening, turn on the inverter. My lamp, computer, tablet &amp;amp; phone are all being powered simultaneously here on the day’s solar charge! Self sufficiency achieved?&lt;/p&gt;
 &lt;hr&gt;
@@ -2374,7 +2382,7 @@ Naturally, a process of negating what you don’t want can only begin once you k
       
       <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/hours/delft.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Contrary to our cultural belief in natural talents, popular science is catching on to the idea that the path to success may be linear. And it may require no more than hard work.&lt;/p&gt;
-&lt;p&gt;The claim (most popularized by Malcolm Gladwell&amp;rsquo;s &lt;!-- raw HTML omitted --&gt;Outliers&lt;!-- raw HTML omitted --&gt;) is that there&amp;rsquo;s no such thing as a natural talent - talents are achieved through hard work, and it is never too late for anyone to start down that path. What seems like talent is a direct result of the hours a person has put in to that task and practiced it.&lt;/p&gt;
+&lt;p&gt;The claim (most popularized by Malcolm Gladwell&amp;rsquo;s &lt;i&gt;Outliers&lt;/i&gt;) is that there&amp;rsquo;s no such thing as a natural talent - talents are achieved through hard work, and it is never too late for anyone to start down that path. What seems like talent is a direct result of the hours a person has put in to that task and practiced it.&lt;/p&gt;
 &lt;p&gt;A reason this thesis may be gaining popularity now is that many in my generation grew up playing video games. Playing video games has influenced many people&amp;rsquo;s view of real-life mastery: it taught us that any skill is can be learned with enough patience. In most games it’s called training, which is x improvement per x time invested. The more I live the more I seem to improve with the hours I put into real-life ventures, just as my experience bar scales up linearly with the time I spend in a game. Nothing is impossible to learn in a video game, and I&amp;rsquo;m starting to get a hunch that, with enough practice, most things IRL aren&amp;rsquo;t either.&lt;/p&gt;
 &lt;p&gt;What&amp;rsquo;s the goal or the prize at the end of this path? When does one achieve true mastery? The figure 10&amp;rsquo;000 hours gets bandied around a lot. This is the equivalent of 3 hours&amp;rsquo; practice every day, for 10 years. This is how you measure the stock of a pilot: flight time in hours.&lt;/p&gt;
 &lt;p&gt;Focus is essential to gaining the 10’000 hours of experience. Focusing on only a few select activities to apply your time to will make the difference between world-class and the hobbyist who only dabbled.  Many people lose focus with all the distractions in modern life. This is like having skills only half-finished in a video game. Maybe we shouldn&amp;rsquo;t be spreading ourselves too thin. Maybe we should be following through, to increase our chances of arriving at 10&amp;rsquo;000 hours (if we even want to achieve mastery in something, that is). Maybe we should choose carefully and then follow them to the end of 10’000 hours, while saying No to all else.&lt;/p&gt;
