@@ -8,6 +8,8 @@ image: /startup-updates-16/startup-updates-16/energy-lollipop-extension.png
 
 We're back after a short hold for some contracting (to refresh the coffers). Now with a new project (with a refreshed mind). I have a new team, new project, but **same mission** – to fight global warming!
 
+
+**Premise:** 
 We believe that most people working in energy, solar, and climate change have been making a big mistake — that money, fear, and kilowatt-hours motivate people.
 
 We have a different hypothesis.
@@ -49,4 +51,4 @@ Based on deep behavioral research, we discovered that people are more motivated 
 * Starting to raise an angel round from people who care about climate change, so Katie and I can focus on this project for a few months. Also applying for YC, etc.
 * Presenting to businesses, to see if business case is there (see ask – introductions to businesses interested in sustainability programs much appreciated).
 
-<a href="energylollipop.netflify.com" target="_blank"><img class="blog-shadows" src="/startup-updates-16/energy-lollipop-website.png" /></a>
+<a href="https://energylollipop.netlify.com" target="_blank"><img class="blog-shadows" src="/startup-updates-16/energy-lollipop-website.png" /></a>
