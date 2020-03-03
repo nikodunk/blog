@@ -39,3 +39,8 @@ image: /startup-updates-16/startup-updates-16/energy-lollipop-extension.png
 
 
 # Next month
+* Measure How would you feel if you could no longer use Energy Lollipop?
+  * A) Very disappointed
+  * B) Somewhat disappointed
+  * C) Not disappointed
+  * and get it over 40%.
