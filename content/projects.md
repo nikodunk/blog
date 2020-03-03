@@ -13,7 +13,37 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 -----------
 
-## ![](/projects/logo_electrade.png) Electrade Club | A platform for EV services (starting with insurance)
+
+## ![](/projects/logo_electrade.png) Electrade 3 | Marketplace and reviews for sustainable products
+
+![](/projects/demo_electrade3.png)
+
+
+<p >♜ <strong>Challenge:</strong> Directory of sustainable services, measuring impact along the way in a dynamic fashion.</p>
+<p >⚑ <strong>Solution:</strong> This project constructs server-side rendered, SEO-friendly articles from user-submitted content and links.</p>
+<a class="btn btn-outline-primary" href="https://electrade-insurance-demo.herokuapp.com/" >Deployed App</a>
+<a class="btn btn-outline-disabled disabled" href="">Github on request</a>
+<br/><br/>
+
+
+	Team
+	* Niko and one employee
+
+	Tech:
+	* Platform for sustainable services
+	* React.js app
+	* Node.js / Express.js server
+	* Postgres storage
+	* Running on Heroku
+
+	Stats:
+	* MRR: $1,200
+	* MAU: 2K
+	* User acquisition: SEO
+
+-----------
+
+## ![](/projects/logo_electrade.png) Electrade 2 | A platform for EV services (starting with insurance)
 
 
 ![](/projects/demo_electrade2.gif)
@@ -139,7 +169,7 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 	* Zeb (marketing)
 
 	Tech:
-	* Static Hugo Site 
+	* Static Hugo Site
 	* Dynamic pricing data scraped from Amazon with APIfy.com
 	* User submitted content
 
@@ -164,9 +194,9 @@ With Zebulon Reynolds (for part of the way), this project <a href="http://sunbox
 
 <p  style="   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;   font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;   font-stretch: normal;   -x-system-font: none;   display: block;"   ><a title="View Paper Furniture Pitch Initial on Scribd" href="https://www.scribd.com/document/438265380/Paper-Furniture-Pitch-Initial#from_embed"  style="text-decoration: underline;">Paper Furniture Pitch Initial</a> by <a title="View Niko Dunkel's profile on Scribd" href="https://www.scribd.com/user/490178052/Niko-Dunkel#from_embed"  style="text-decoration: underline;">Niko Dunkel</a> on Scribd</p><iframe class="scribd_iframe_embed" title="Paper Furniture Pitch Initial" src="https://www.scribd.com/embeds/438265380/content?start_page=1&view_mode=slideshow&show_recommendations=false&access_key=key-P5ch3hQLLJNKHmq2E2YN" data-auto-height="true" data-aspect-ratio="1.7790927021696252" scrolling="no" width="100%" height="600" frameborder="0"></iframe>
 
-Above the original pitchdeck. 
+Above the original pitchdeck.
 
-The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button. 
+The initial idea was to send furniture that’s made of paper through the mail to consumers. Paper Inc. was a furniture company to help mobile urbanites get a room full of furniture with the push of a button.
 
 ![](/projects/paper.gif)  
 
@@ -249,7 +279,7 @@ With Elisa, a platform to help non-profits fundraise more efficiently with more 
 	* Niko (tech)
 
 	Tech:
-	* Node/Express/Postgresql web app on Heroku 
+	* Node/Express/Postgresql web app on Heroku
 	* Stripe Connect for payment routing
 	* Amazon wishlists for product gifting
 	* Mixpanel/Fullstory analytics
@@ -272,7 +302,7 @@ With Elisa, a platform to help non-profits fundraise more efficiently with more 
 
 Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.
 
-Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month. 
+Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month.
 
 The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple's Speech Recognition API is unclear as it's encrypted, but Apple won't sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.
 
@@ -353,7 +383,7 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 	* Price: Free
 	* Growth through internship onboardings, organic.
 
-![](/projects/demo_iamoff.gif) 
+![](/projects/demo_iamoff.gif)
 ![](/projects/demo_iamoff.png)
 
 
@@ -450,7 +480,7 @@ Juicebar was a windowsill energy generator meant to ehlp urbanites be energy ind
 
 The pitch was that as an increasing part of the world’s population lives in dense cities, solar rooftops, which are designed primarily for suburbs, become hard to install. Renting an apartment means you mostly don’t have access to the roof. What you do have power over is your own windowsill. This was inspired by Rob Rhineharts blog-post <a href="https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/" target="_blank">“How I gave up alternating current”</a>. The project turned into solar for apartment-owners so they could charge their devices off a dedicated DC battery, and create their own energy.
 
-![](/projects/juicebar.jpg) 
+![](/projects/juicebar.jpg)
 ![](/projects/juicebar.png)
 
 
@@ -469,7 +499,7 @@ The juicebar project originally came about in the dying days of Paper Inc.: I st
 LUNCH, a digitally carved dining chair. Made on a 5-axis CNC in portugal, only 20 were ever made. Very expensive. I learned that making your own goods is a whole different operation from selling them.
 
 ![](/projects/lunch.jpg)
-![](/projects/lunch.gif)	
+![](/projects/lunch.gif)
 ![](/projects/lunch2.jpg)
 ![](/projects/lunch3.png)
 
@@ -495,7 +525,7 @@ Focuswriter – VR productivity app for distraction-free writing, written in rea
 
 	Tech
 	* ReactVR
-	
+
 * [FocusWriter Web App](https://nikodunk.github.io/focuswriter-react-vr)
 
 
@@ -591,7 +621,7 @@ Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. 
 
 ## Sensorcoin | Google Contacts on the blockchain
 
-From November to January Phil Chacko and I worked on various other projects. All the following require [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile). 
+From November to January Phil Chacko and I worked on various other projects. All the following require [Metamask](http://metamask.io) on desktop or [Toshi](http://toshi.org) on mobile).
 
 * <a href="https://nikodunk.github.io/escron">ESCRON</a>
 * <a href="https://nikodunk.github.io/sensorcoin/">Sensorcoin</a>

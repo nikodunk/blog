@@ -97,7 +97,30 @@ We believe that most people working in energy, solar, and climate change have be
       <content>&lt;p&gt;This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/gianni_colombo.jpg&#34; alt=&#34;&#34;&gt; &lt;img src=&#34;https://nikodunk.com/projects/scientist.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;projectslogo_electradepng-electrade-club--a-platform-for-ev-services-starting-with-insurance&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade Club | A platform for EV services (starting with insurance)&lt;/h2&gt;
+&lt;h2 id=&#34;projectslogo_electradepng-electrade-3--marketplace-and-reviews-for-sustainable-products&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade 3 | Marketplace and reviews for sustainable products&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p &gt;♜ &lt;strong&gt;Challenge:&lt;/strong&gt; Directory of sustainable services, measuring impact along the way in a dynamic fashion.&lt;/p&gt;
+&lt;p &gt;⚑ &lt;strong&gt;Solution:&lt;/strong&gt; This project constructs server-side rendered, SEO-friendly articles from user-submitted content and links.&lt;/p&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://electrade-insurance-demo.herokuapp.com/&#34; &gt;Deployed App&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;pre&gt;&lt;code&gt;Team
+* Niko and one employee
+
+Tech:
+* Platform for sustainable services
+* React.js app
+* Node.js / Express.js server
+* Postgres storage
+* Running on Heroku
+
+Stats:
+* MRR: $1,200
+* MAU: 2K
+* User acquisition: SEO
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;projectslogo_electradepng-electrade-2--a-platform-for-ev-services-starting-with-insurance&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade 2 | A platform for EV services (starting with insurance)&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade2.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;A platform for EV services (starting with insurance). Eventually modelled on Nerdwallet. EV-first insurance is our initial product at &lt;a href=&#34;https://www.electrade.app&#34;&gt;electrade.app&lt;/a&gt;. This was a pivot out of the Electrade EV trading app below.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team:
@@ -181,7 +204,7 @@ Tech:
 * Zeb (marketing)
 
 Tech:
-* Static Hugo Site 
+* Static Hugo Site
 * Dynamic pricing data scraped from Amazon with APIfy.com
 * User submitted content
 
@@ -253,7 +276,7 @@ Stats
 * Niko (tech)
 
 Tech:
-* Node/Express/Postgresql web app on Heroku 
+* Node/Express/Postgresql web app on Heroku
 * Stripe Connect for payment routing
 * Amazon wishlists for product gifting
 * Mixpanel/Fullstory analytics
