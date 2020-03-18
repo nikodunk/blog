@@ -11,17 +11,27 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 ![](/projects/gianni_colombo.jpg) ![](/projects/scientist.jpg)
 
 
+
+
 -----------
 
 
-## ![](/projects/logo_electrade.png) Electrade 3 | Marketplace and reviews for sustainable products
+
+## Unnamed solar project
+
+Mapbox API,
+
+-----------
+
+
+## ![](/projects/logo_electrade.png) Electrade 3 | Review platform for sustainable products
 
 ![](/projects/demo_electrade3.png)
 
 
 <p >♜ <strong>Challenge:</strong> Directory of sustainable services, measuring impact along the way in a dynamic fashion.</p>
 <p >⚑ <strong>Solution:</strong> This project constructs server-side rendered, SEO-friendly articles from user-submitted content and links.</p>
-<a class="btn btn-outline-primary" href="https://electrade-insurance-demo.herokuapp.com/" >Deployed App</a>
+<a class="btn btn-outline-primary" href="https://electrade-3-nerdwallet-bhuman.herokuapp.com" >Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
 <br/><br/>
 
@@ -34,7 +44,7 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 	* React.js app
 	* Node.js / Express.js server
 	* Postgres storage
-	* Running on Heroku
+	* Running on Zeit
 
 	Stats:
 	* MRR: $1,200
@@ -48,7 +58,7 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 ![](/projects/demo_electrade2.gif)
 
-A platform for EV services (starting with insurance). Eventually modelled on Nerdwallet. EV-first insurance is our initial product at [electrade.app](https://www.electrade.app). This was a pivot out of the Electrade EV trading app below.
+A platform for EV services (starting with insurance). Eventually modelled on Nerdwallet. EV-first insurance is our initial product [here](https://electrade-2-insurance-demo.herokuapp.com). This was a pivot out of the Electrade EV trading app below.
 
 
 	Team:
@@ -68,7 +78,7 @@ A platform for EV services (starting with insurance). Eventually modelled on Ner
 	* MAU: 2K
 	* User acquisition: Physical marketing, SEO, Paid, Content
 
-<a class="btn btn-outline-primary" href="https://www.electrade.app">Website</a>
+<a class="btn btn-outline-primary" href="https://electrade-2-insurance-demo.herokuapp.com">Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
 
 -----------

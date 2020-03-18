@@ -22,11 +22,14 @@
       <content>&lt;p&gt;This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/gianni_colombo.jpg&#34; alt=&#34;&#34;&gt; &lt;img src=&#34;https://nikodunk.com/projects/scientist.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;projectslogo_electradepng-electrade-3--marketplace-and-reviews-for-sustainable-products&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade 3 | Marketplace and reviews for sustainable products&lt;/h2&gt;
+&lt;h2 id=&#34;unnamed-solar-project&#34;&gt;Unnamed solar project&lt;/h2&gt;
+&lt;p&gt;Mapbox API,&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;projectslogo_electradepng-electrade-3--review-platform-for-sustainable-products&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade 3 | Review platform for sustainable products&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p &gt;♜ &lt;strong&gt;Challenge:&lt;/strong&gt; Directory of sustainable services, measuring impact along the way in a dynamic fashion.&lt;/p&gt;
 &lt;p &gt;⚑ &lt;strong&gt;Solution:&lt;/strong&gt; This project constructs server-side rendered, SEO-friendly articles from user-submitted content and links.&lt;/p&gt;
-&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://electrade-insurance-demo.herokuapp.com/&#34; &gt;Deployed App&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://electrade-3-nerdwallet-bhuman.herokuapp.com&#34; &gt;Website&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;
 &lt;br/&gt;&lt;br/&gt;
 &lt;pre&gt;&lt;code&gt;Team
@@ -37,7 +40,7 @@ Tech:
 * React.js app
 * Node.js / Express.js server
 * Postgres storage
-* Running on Heroku
+* Running on Zeit
 
 Stats:
 * MRR: $1,200
@@ -47,7 +50,7 @@ Stats:
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_electradepng-electrade-2--a-platform-for-ev-services-starting-with-insurance&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade 2 | A platform for EV services (starting with insurance)&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade2.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;A platform for EV services (starting with insurance). Eventually modelled on Nerdwallet. EV-first insurance is our initial product at &lt;a href=&#34;https://www.electrade.app&#34;&gt;electrade.app&lt;/a&gt;. This was a pivot out of the Electrade EV trading app below.&lt;/p&gt;
+&lt;p&gt;A platform for EV services (starting with insurance). Eventually modelled on Nerdwallet. EV-first insurance is our initial product &lt;a href=&#34;https://electrade-2-insurance-demo.herokuapp.com&#34;&gt;here&lt;/a&gt;. This was a pivot out of the Electrade EV trading app below.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team:
 * Niko (Tech, Content, Strategy)
 * Suhas (Content, Paid, Strategy)
@@ -65,7 +68,7 @@ Stats:
 * MAU: 2K
 * User acquisition: Physical marketing, SEO, Paid, Content
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://www.electrade.app&#34;&gt;Website&lt;/a&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://electrade-2-insurance-demo.herokuapp.com&#34;&gt;Website&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;assemble-real-time-collaboration-for-better-meetings&#34;&gt;Assemble | Real-time collaboration for better meetings&lt;/h2&gt;
