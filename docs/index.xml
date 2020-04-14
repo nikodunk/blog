@@ -12,6 +12,62 @@
     
     
     <item>
+      <title>February 2020 Startup Update</title>
+      <link>https://nikodunk.com/startup-updates-17/</link>
+      <pubDate>Sat, 28 Mar 2020 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-17/</guid>
+      <description></description>
+      
+      <content>&lt;h1 id=&#34;team&#34;&gt;Team: &lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/katiepatrick&#34;&gt;Katie Patrick&lt;/a&gt;, an environmental designer and influencer.&lt;/li&gt;
+&lt;li&gt;Myself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;kpiscore-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Marketing Spend: $0 (Katie&amp;rsquo;s 19,000 Twitter followers helped).&lt;/li&gt;
+&lt;li&gt;100 users of Chrome extension / Firefox Add-on in last week&lt;/li&gt;
+&lt;li&gt;55% retention after 1w&lt;/li&gt;
+&lt;li&gt;235 followers of Twitter bot&lt;/li&gt;
+&lt;li&gt;WoW growth of users: N/A yet&lt;/li&gt;
+&lt;li&gt;Revenue: $1,200 (from electrade.app still, but that&amp;rsquo;s another story)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-16/energy-lollipop-extension.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm?hl=en&#34;&gt;Launched Chrome extension&lt;/a&gt; and &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/energy-lollipop/&#34;&gt;Firefox&lt;/a&gt; add-on and iterated multiple versions to add animations, reward effects, etc.&lt;/li&gt;
+&lt;li&gt;Built &amp;amp; launched &lt;a href=&#34;https://twitter.com/energylollipop&#34;&gt;Twitter bot&lt;/a&gt; that tweets out California&amp;rsquo;s emissions graph regularly, and eventually built in more personality, wit and irregularity to the tweeting algorithm.&lt;/li&gt;
+&lt;li&gt;Due to retention of the intial tests above being good, we&amp;rsquo;re investing in a &amp;ldquo;personalized&amp;rdquo; and premium home-energy Chrome extension / app with the PG&amp;amp;E ShareMyData API. Pre-order &lt;a href=&#34;https://energylollipop.netlify.com&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.electrade.app&#34;&gt;Electrade.app&lt;/a&gt; is on the back-burner, but I was lucky to find a talented writer making new content and posting it to the platform, to further build out SEO.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;experimentshypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;set up landing page pretend-o-type: try personal energy lollipop beta. tried to get 100 sign-ups through:&lt;/li&gt;
+&lt;li&gt;tweet/linkedin users: try energy lollipop california, then if respond send them website above.&lt;/li&gt;
+&lt;li&gt;do brochure pretend-o-type sales: katie&amp;rsquo;s going to corporations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;help-wantedasks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Introductions to businesses interested in climate/team programs&lt;/li&gt;
+&lt;li&gt;Introduction to angels interested in supporting climate solutions. This team&amp;rsquo;s looking to focus on this concept for a few months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;next-month&#34;&gt;Next month&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Measure How would you feel if you could no longer use Energy Lollipop?
+&lt;ul&gt;
+&lt;li&gt;A) Very disappointed&lt;/li&gt;
+&lt;li&gt;B) Somewhat disappointed&lt;/li&gt;
+&lt;li&gt;C) Not disappointed&lt;/li&gt;
+&lt;li&gt;and get it over 40%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>Learnings: Projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
       <pubDate>Tue, 03 Mar 2020 08:00:00 -0700</pubDate>
