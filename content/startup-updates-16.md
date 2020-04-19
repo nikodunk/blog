@@ -33,7 +33,7 @@ Based on deep behavioral research, we discovered that people are more motivated 
 
 * [Launched Chrome extension](https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm?hl=en) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/energy-lollipop/) add-on and iterated multiple versions to add animations, reward effects, etc.
 * Built & launched [Twitter bot](https://twitter.com/energylollipop) that tweets out California's emissions graph regularly, and eventually built in more personality, wit and irregularity to the tweeting algorithm.
-* Due to retention of the intial tests above being good, we're investing in a "personalized" and premium home-energy Chrome extension / app with the PG&E ShareMyData API. Pre-order [here](https://energylollipop.netlify.com).
+* Due to retention of the intial tests above being good, we're investing in a "personalized" and premium home-energy Chrome extension / app with the PG&E ShareMyData API. Pre-order [here](https://energylollipop.com).
 * [Electrade.app](https://www.electrade.app) is on the back-burner, but I was lucky to find a talented writer making new content and posting it to the platform, to further build out SEO.
 
 # Experiments/Hypothesis run:
