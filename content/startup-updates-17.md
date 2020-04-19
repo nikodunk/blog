@@ -12,9 +12,9 @@ image: /startup-updates-17/energy-lollipop-extension.png
 
 # KPIs/Core Metrics:
 * Marketing Spend: $0 (Katie's 19,000 Twitter followers helped).
-* 250 users of Chrome extension / Firefox Add-on in last week
+* [192 users of Chrome extension](https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm) / Firefox Add-on in last week
 * 55% retention after 1w
-* 758 followers of Twitter bot
+* 759 followers of [Twitter bot](https://twitter.com/energylollipop)
 * WoW growth of users: N/A yet
 * $0
 
