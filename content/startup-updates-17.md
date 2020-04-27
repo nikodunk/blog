@@ -12,7 +12,7 @@ image: /startup-updates-17/energy-lollipop-extension.png
 
 # KPIs/Core Metrics:
 * Built next-gen product, integrated with PG&E
-* 28 alpha testers of alpha of next-gen Chrome extension (see below). Hand-onboarded in 1-hour Zoom user interview sessions with screen capture.
+* 28 alpha testers of next-gen Chrome extension (see below). Hand-onboarded in 1-hour Zoom user interview sessions with screen capture.
 * 721 followers of original [Twitter bot](https://twitter.com/energylollipop) now.
 * [185 users of original California Chrome extension](https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm) / Firefox Add-on now.
 * $0 revenue, but 1x $70K energy innovation contract, 2x $5K energy efficiency contracts in pipeline (B2B)
