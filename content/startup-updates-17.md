@@ -12,11 +12,11 @@ image: /startup-updates-17/energy-lollipop-extension.png
 
 # KPIs/Core Metrics:
 * Built next-gen product, integrated with PG&E
-* 22 users hand-onboarded in 1-hour Zoom sessions / user interviews.
+* 28 alpha testers of alpha of next-gen Chrome extension (see below). Hand-onboarded in 1-hour Zoom user interview sessions with screen capture.
 * 721 followers of original [Twitter bot](https://twitter.com/energylollipop) now.
-* [185 users of Chrome extension](https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm) / Firefox Add-on now.
-* $0 revenue, but 1x 70K energy innovation contract, 2x 5K energy efficiency contracts in funnel (B2B)
-* DMd 900 users on Twitter, 200 on LinkedIn. 250 conversations, 30 hand-picked to join initial alpha of PG&E lollipop (below).
+* [185 users of original California Chrome extension](https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm) / Firefox Add-on now.
+* $0 revenue, but 1x $70K energy innovation contract, 2x $5K energy efficiency contracts in pipeline (B2B)
+* DM'd 900 users on Twitter, 200 on LinkedIn. 250 conversations, 30 hand-picked to join initial alpha of PG&E lollipop (below).
 
 # Product:
 ![](/startup-updates-17/energy-lollipop-personal.gif)
