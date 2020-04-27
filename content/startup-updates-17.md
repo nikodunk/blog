@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "March 2020 Startup Update"
+title:  "March/April 2020 Startup Update"
 date:   2020-03-28 08:00:00 -0700
 tags: ["Updates", "Learnings"]
 image: /startup-updates-17/energy-lollipop-extension.png
@@ -11,12 +11,12 @@ image: /startup-updates-17/energy-lollipop-extension.png
 * Myself
 
 # KPIs/Core Metrics:
-* Marketing Spend: $0 (Katie's 19,000 Twitter followers helped).
-* [192 users of Chrome extension](https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm) / Firefox Add-on in last week
-* 55% retention after 1w
-* 759 followers of [Twitter bot](https://twitter.com/energylollipop)
-* WoW growth of users: N/A yet
-* $0
+* Built next-gen product, integrated with PG&E
+* 22 users hand-onboarded in 1-hour Zoom sessions / user interviews.
+* 721 followers of original [Twitter bot](https://twitter.com/energylollipop) now.
+* [185 users of Chrome extension](https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm) / Firefox Add-on now.
+* $0 revenue, but 1x 70K energy innovation contract, 2x 5K energy efficiency contracts in funnel (B2B)
+* DMd 900 users on Twitter, 200 on LinkedIn. 250 conversations, 30 hand-picked to join initial alpha of PG&E lollipop (below).
 
 # Product:
 ![](/startup-updates-17/energy-lollipop-personal.gif)
@@ -24,11 +24,12 @@ image: /startup-updates-17/energy-lollipop-extension.png
 
 
 # Experiments/Hypothesis run:
-* Tweet/linkedin users: try energy lollipop california, then if respond send them website above. Talked to 200 users, messaged 750. Mainly funneled them into the below point.
-* Set up landing page: try personal energy lollipop beta. Tried to get 100 sign-ups through this [landing page](https://helloworlde.com/energylollipop-home-office). This soft of worked - we got 50+.
-* Set up pretend-o-type [Gumroad](https://gumroad.com/l/energylollipop) page and tried to pre-sell. This failed. 
-* Built prototype and got 28 users to authorize through PG&E.
-* Showed and did 1-hour zoom interview with 12 users, with 12 more scheduled. Measuring how much they reduce for 2 weeks. If they do reduce, then we can shop it around businesses/governments and do pilots there.
+* Tweet/Linkedin DM user acquisition: If tried energy lollipop california, then respond send them energylollipop.com signup page above. 
+* Set up landing page: try personal energy lollipop beta. Tried to get 100 sign-ups through this [landing page](https://helloworlde.com/energylollipop-home-office). This soft of worked - we got 60, and then hand-picked 30 of them.
+* Set up pretend-o-type [Gumroad](https://gumroad.com/l/energylollipop) page and tried to pre-sell. This failed. Consumer pre-monetization would have been too good to be true :)
+* Built prototype and 28 users to authorize through PG&E.
+* Showed and did 1-hour zoom interview with 12 users, with 12 more scheduled. Our goal is to measure how much they reduce their home's energy consumption in 2 weeks. 
+* If they do reduce it significantly in 2 weeks, then we can shop it around businesses/governments, Energy companies (aka CCAs or community choice aggregators) and see if they want to use our solution for their users to lower their energy costs (this has already started).
 
 # Help Wanted/Asks:
 * Introductions to businesses interested in climate/team programs
@@ -41,4 +42,5 @@ image: /startup-updates-17/energy-lollipop-extension.png
   * B) Somewhat disappointed
   * C) Not disappointed
   * and get it over 40%.
-* Also interviewing / giving some people a trial from government and businesses. See if they're interested in using it at work.
+* Interviewing / giving some people a trial who work in government or lead businesses. If they like using it at home, then we'll see if they're interested in using it at work.
+* Meetings set up with 3 businesses/governments so far, but 0 energy companies yet. Selling a community-facing solution to help them lower their energy costs.
