@@ -11,7 +11,8 @@ image: https://nikodunk.github.io/200/TEASER.jpg
 Building a solar micro-grid in my bedroom with parts from Amazon
 ================================================================
 
-**Originally posted** on [Hackernoon/Medium](https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4). See newest updates at [sunboxlabs.com](http://sunboxlabs.com)
+**Originally posted** on [Hackernoon/Medium](https://medium.com/@nikodunk/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4). 
+See newest updates at [sunboxlabs.com](http://sunboxlabs.com)
 
 ------------------------------------------------------------------------------------------------------------------
 
