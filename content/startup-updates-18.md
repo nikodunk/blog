@@ -12,17 +12,14 @@ image: /startup-updates-17/energy-lollipop-extension.png
 
 # KPIs/Core Metrics:
 * Featured in Climatetech VC
-* 28 alpha testers of next-gen Chrome extension (see below). Hand-onboarded in 1-hour Zoom user interview sessions with screen capture.
-* 721 followers of original [Twitter bot](https://twitter.com/energylollipop) now.
-* [185 users of original California Chrome extension](https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm) / Firefox Add-on now.
-* $140K deals in pipeline.
-* DMd 200 potential leads on LinkedIn.
+* 2/50 sales calls. $140K deals in pipeline., DMd 200 potential leads on LinkedIn.
+* 20/20 product onboarding / feedback calls
 
 # Product:
+* Improved Chrome extension
 ![](/startup-updates-17/energy-lollipop-personal.gif)
 * Added (Progressive Web) App.
-* Continued to refine chrome extension
-* 12 more user onboarding interviews.
+![](/startup-updates-17/energy-lollipop-personal-phone.gif)
 
 
 # Experiments/Hypothesis run:

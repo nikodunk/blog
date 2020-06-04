@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learnings: Projects & things I've made so far."
-date:   2020-03-03 08:00:00 -0700
+date:   2020-06-03 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 image: /projects/scientist.jpg
 ---
@@ -12,14 +12,36 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 
 
+## ![](/projects/logo_energylollipop.png) Energy Lollipop
+
+![](/projects/demo_energylollipop.gif)
+
+<p >♜ <strong>Challenge:</strong> Simplify climate-change into a single number. See your office or home emissions and influence it in a real-time feedback loop with gamification elements.</p>
+<p >⚑ <strong>Solution:</strong> Combining real-time data from the PG&E Smartmeter API and CAISO, we constructed a real-time figure for your personal or office emissions in a friendly form.</p>
+
+			Tech:
+			+Real-time grid & PG&E data integration
+			+React.js browser extension / App
+			+Node.js / Express.js backend
+			+Postgres storage
+			+Running on Heroku
+
+			Team:
+			+Katie Patrick (@katiepatrick)
+			+Me
+
+<a class="btn btn-outline-primary" href="http://energylollipop.com">Website</a>
+<a class="btn btn-outline-disabled disabled" href="">Github on request</a>
+
 
 -----------
 
 
 
-## Unnamed solar project
+## Lumen Energy
 
-Mapbox API,
+Engineered prototype, more details coming soon.
+
 
 -----------
 
@@ -124,14 +146,15 @@ A platform for EV services (starting with insurance). Eventually modelled on Ner
 
 ![](/projects/demo_electrade.gif)
 
-App with various electric vehicle functions
+<p >♜ <strong>Challenge:</strong> Mobile Marketplace for Electric Vehicle Leasing and Trading. Large, complex app with Stripe integration, photo upload and async operations</p>
+<p >⚑ <strong>Solution:</strong> A simple app structure was shipped to multiple platforms and iterated on daily.</p>
 
 	Team:
 	* Armin (ideation, ops)
 	* Niko (ideation, tech)
 
 	Tech:
-	* React-Native App
+	* +React Native on iOS & Android
 	* Backend Node/Express/Postgres
 	* Stripe payment processing
 	* Listing photos upload to S3

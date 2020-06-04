@@ -12,77 +12,35 @@
     
     
     <item>
-      <title>March/April 2020 Startup Update</title>
-      <link>https://nikodunk.com/startup-updates-17/</link>
-      <pubDate>Sat, 28 Mar 2020 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/startup-updates-17/</guid>
-      <description></description>
-      
-      <content>&lt;h1 id=&#34;team&#34;&gt;Team: &lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/katiepatrick&#34;&gt;Katie Patrick&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Myself&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;kpiscore-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Built next-gen product, integrated with PG&amp;amp;E&lt;/li&gt;
-&lt;li&gt;28 alpha testers of next-gen Chrome extension (see below). Hand-onboarded in 1-hour Zoom user interview sessions with screen capture.&lt;/li&gt;
-&lt;li&gt;721 followers of original &lt;a href=&#34;https://twitter.com/energylollipop&#34;&gt;Twitter bot&lt;/a&gt; now.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm&#34;&gt;185 users of original California Chrome extension&lt;/a&gt; / Firefox Add-on now.&lt;/li&gt;
-&lt;li&gt;$0 revenue, but 1x $70K energy innovation contract, 2x $5K energy efficiency contracts in pipeline (B2B)&lt;/li&gt;
-&lt;li&gt;DM&amp;rsquo;d 900 users on Twitter, 200 on LinkedIn. 250 conversations, 30 hand-picked to join initial alpha of PG&amp;amp;E lollipop (below).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-17/energy-lollipop-personal.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Due to lockdown, bit the bullet and built &amp;ldquo;personalized&amp;rdquo; home-energy Chrome extension / app with the PG&amp;amp;E ShareMyData API.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;experimentshypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Tweet/Linkedin DM user acquisition: If tried energy lollipop california, then respond send them energylollipop.com signup page above.&lt;/li&gt;
-&lt;li&gt;Set up landing page: try personal energy lollipop beta. Tried to get 100 sign-ups through this &lt;a href=&#34;https://helloworlde.com/energylollipop-home-office&#34;&gt;landing page&lt;/a&gt;. This soft of worked - we got 60, and then hand-picked 30 of them.&lt;/li&gt;
-&lt;li&gt;Set up pretend-o-type &lt;a href=&#34;https://gumroad.com/l/energylollipop&#34;&gt;Gumroad&lt;/a&gt; page and tried to pre-sell. This failed. Consumer pre-monetization would have been too good to be true :)&lt;/li&gt;
-&lt;li&gt;Built prototype and 28 users to authorize through PG&amp;amp;E.&lt;/li&gt;
-&lt;li&gt;Showed and did 1-hour zoom interview with 12 users, with 12 more scheduled. Our goal is to measure how much they reduce their home&amp;rsquo;s energy consumption in 2 weeks.&lt;/li&gt;
-&lt;li&gt;If they do reduce it significantly in 2 weeks, then we can shop it around businesses/governments, Energy companies (aka CCAs or community choice aggregators) and see if they want to use our solution for their users to lower their energy costs (this has already started).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;help-wantedasks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Introductions to businesses interested in climate/team programs&lt;/li&gt;
-&lt;li&gt;Introduction to angels interested in supporting climate solutions. This team&amp;rsquo;s looking to focus on above concept for a few months.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;next-month&#34;&gt;Next month&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;12 more user onboarding interviews.&lt;/li&gt;
-&lt;li&gt;Measure How would you feel if you could no longer use Energy Lollipop?
-&lt;ul&gt;
-&lt;li&gt;A) Very disappointed&lt;/li&gt;
-&lt;li&gt;B) Somewhat disappointed&lt;/li&gt;
-&lt;li&gt;C) Not disappointed&lt;/li&gt;
-&lt;li&gt;and get it over 40%.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Interviewing / giving some people a trial who work in government or lead businesses. If they like using it at home, then we&amp;rsquo;ll see if they&amp;rsquo;re interested in using it at work.&lt;/li&gt;
-&lt;li&gt;Meetings set up with 3 businesses/governments so far, but 0 energy companies yet. Selling a community-facing solution to help them lower their energy costs.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-      
-    </item>
-    
-    <item>
       <title>Learnings: Projects &amp; things I&#39;ve made so far.</title>
       <link>https://nikodunk.com/projects/</link>
-      <pubDate>Tue, 03 Mar 2020 08:00:00 -0700</pubDate>
+      <pubDate>Wed, 03 Jun 2020 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/projects/</guid>
       <description></description>
       
       <content>&lt;p&gt;This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/gianni_colombo.jpg&#34; alt=&#34;&#34;&gt; &lt;img src=&#34;https://nikodunk.com/projects/scientist.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;projectslogo_energylollipoppng-energy-lollipop&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_energylollipop.png&#34; alt=&#34;&#34;&gt; Energy Lollipop&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_energylollipop.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p &gt;♜ &lt;strong&gt;Challenge:&lt;/strong&gt; Simplify climate-change into a single number. See your office or home emissions and influence it in a real-time feedback loop with gamification elements.&lt;/p&gt;
+&lt;p &gt;⚑ &lt;strong&gt;Solution:&lt;/strong&gt; Combining real-time data from the PG&amp;E Smartmeter API and CAISO, we constructed a real-time figure for your personal or office emissions in a friendly form.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;        Tech:
+        +Real-time grid &amp;amp; PG&amp;amp;E data integration
+        +React.js browser extension / App
+        +Node.js / Express.js backend
+        +Postgres storage
+        +Running on Heroku
+
+        Team:
+        +Katie Patrick (@katiepatrick)
+        +Me
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;http://energylollipop.com&#34;&gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;unnamed-solar-project&#34;&gt;Unnamed solar project&lt;/h2&gt;
-&lt;p&gt;Mapbox API,&lt;/p&gt;
+&lt;h2 id=&#34;lumen-energy&#34;&gt;Lumen Energy&lt;/h2&gt;
+&lt;p&gt;Engineered prototype, more details coming soon.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_electradepng-electrade-3--review-platform-for-sustainable-products&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade 3 | Review platform for sustainable products&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -155,13 +113,14 @@ Stats:
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_electradepng-electrade--a-mobile-marketplace-for-evs&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade | A mobile marketplace for EVs&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_electrade.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;App with various electric vehicle functions&lt;/p&gt;
+&lt;p &gt;♜ &lt;strong&gt;Challenge:&lt;/strong&gt; Mobile Marketplace for Electric Vehicle Leasing and Trading. Large, complex app with Stripe integration, photo upload and async operations&lt;/p&gt;
+&lt;p &gt;⚑ &lt;strong&gt;Solution:&lt;/strong&gt; A simple app structure was shipped to multiple platforms and iterated on daily.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team:
 * Armin (ideation, ops)
 * Niko (ideation, tech)
 
 Tech:
-* React-Native App
+* +React Native on iOS &amp;amp; Android
 * Backend Node/Express/Postgres
 * Stripe payment processing
 * Listing photos upload to S3
@@ -534,6 +493,108 @@ Stats
 &lt;hr&gt;
 &lt;p&gt;You made it this far!&lt;/p&gt;
 &lt;hr&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>May 2020 Startup Update</title>
+      <link>https://nikodunk.com/startup-updates-18/</link>
+      <pubDate>Thu, 28 May 2020 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-18/</guid>
+      <description></description>
+      
+      <content>&lt;h1 id=&#34;team&#34;&gt;Team: &lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/katiepatrick&#34;&gt;Katie Patrick&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Myself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;kpiscore-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Featured in Climatetech VC&lt;/li&gt;
+&lt;li&gt;2/50 sales calls. $140K deals in pipeline., DMd 200 potential leads on LinkedIn.&lt;/li&gt;
+&lt;li&gt;20/20 product onboarding / feedback calls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved Chrome extension
+&lt;img src=&#34;https://nikodunk.com/startup-updates-17/energy-lollipop-personal.gif&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Added (Progressive Web) App.
+&lt;img src=&#34;https://nikodunk.com/startup-updates-17/energy-lollipop-personal-phone.gif&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;experimentshypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Found new possible revenue avenue: electrification. CCAs earn 3-4cents per kwh net revenue per increased sales. We can push people towards electrification. Rebate for electric elements possibly, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;help-wantedasks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Introductions to businesses and CCAs (ie. local utilities) interested in climate programs&lt;/li&gt;
+&lt;li&gt;Introduction to angels interested in supporting climate solutions. This team&amp;rsquo;s looking to focus on above concept for a few months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;next-month&#34;&gt;Next month&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Sales mode and further product refinements.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>March/April 2020 Startup Update</title>
+      <link>https://nikodunk.com/startup-updates-17/</link>
+      <pubDate>Sat, 28 Mar 2020 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/startup-updates-17/</guid>
+      <description></description>
+      
+      <content>&lt;h1 id=&#34;team&#34;&gt;Team: &lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/katiepatrick&#34;&gt;Katie Patrick&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Myself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;kpiscore-metrics&#34;&gt;KPIs/Core Metrics:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Built next-gen product, integrated with PG&amp;amp;E&lt;/li&gt;
+&lt;li&gt;28 alpha testers of next-gen Chrome extension (see below). Hand-onboarded in 1-hour Zoom user interview sessions with screen capture.&lt;/li&gt;
+&lt;li&gt;721 followers of original &lt;a href=&#34;https://twitter.com/energylollipop&#34;&gt;Twitter bot&lt;/a&gt; now.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/energy-lollipop/jolcdgpgpdlpjafhepiicopakoiifdfm&#34;&gt;185 users of original California Chrome extension&lt;/a&gt; / Firefox Add-on now.&lt;/li&gt;
+&lt;li&gt;$0 revenue, but 1x $70K energy innovation contract, 2x $5K energy efficiency contracts in pipeline (B2B)&lt;/li&gt;
+&lt;li&gt;DM&amp;rsquo;d 900 users on Twitter, 200 on LinkedIn. 250 conversations, 30 hand-picked to join initial alpha of PG&amp;amp;E lollipop (below).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;product&#34;&gt;Product:&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-17/energy-lollipop-personal.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Due to lockdown, bit the bullet and built &amp;ldquo;personalized&amp;rdquo; home-energy Chrome extension / app with the PG&amp;amp;E ShareMyData API.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;experimentshypothesis-run&#34;&gt;Experiments/Hypothesis run:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Tweet/Linkedin DM user acquisition: If tried energy lollipop california, then respond send them energylollipop.com signup page above.&lt;/li&gt;
+&lt;li&gt;Set up landing page: try personal energy lollipop beta. Tried to get 100 sign-ups through this &lt;a href=&#34;https://helloworlde.com/energylollipop-home-office&#34;&gt;landing page&lt;/a&gt;. This soft of worked - we got 60, and then hand-picked 30 of them.&lt;/li&gt;
+&lt;li&gt;Set up pretend-o-type &lt;a href=&#34;https://gumroad.com/l/energylollipop&#34;&gt;Gumroad&lt;/a&gt; page and tried to pre-sell. This failed. Consumer pre-monetization would have been too good to be true :)&lt;/li&gt;
+&lt;li&gt;Built prototype and 28 users to authorize through PG&amp;amp;E.&lt;/li&gt;
+&lt;li&gt;Showed and did 1-hour zoom interview with 12 users, with 12 more scheduled. Our goal is to measure how much they reduce their home&amp;rsquo;s energy consumption in 2 weeks.&lt;/li&gt;
+&lt;li&gt;If they do reduce it significantly in 2 weeks, then we can shop it around businesses/governments, Energy companies (aka CCAs or community choice aggregators) and see if they want to use our solution for their users to lower their energy costs (this has already started).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;help-wantedasks&#34;&gt;Help Wanted/Asks:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Introductions to businesses interested in climate/team programs&lt;/li&gt;
+&lt;li&gt;Introduction to angels interested in supporting climate solutions. This team&amp;rsquo;s looking to focus on above concept for a few months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;next-month&#34;&gt;Next month&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;12 more user onboarding interviews.&lt;/li&gt;
+&lt;li&gt;Measure How would you feel if you could no longer use Energy Lollipop?
+&lt;ul&gt;
+&lt;li&gt;A) Very disappointed&lt;/li&gt;
+&lt;li&gt;B) Somewhat disappointed&lt;/li&gt;
+&lt;li&gt;C) Not disappointed&lt;/li&gt;
+&lt;li&gt;and get it over 40%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Interviewing / giving some people a trial who work in government or lead businesses. If they like using it at home, then we&amp;rsquo;ll see if they&amp;rsquo;re interested in using it at work.&lt;/li&gt;
+&lt;li&gt;Meetings set up with 3 businesses/governments so far, but 0 energy companies yet. Selling a community-facing solution to help them lower their energy costs.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
       
     </item>
