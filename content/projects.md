@@ -40,6 +40,8 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 ## Lumen Energy
 
+![](/projects/demo_lumen.jpg)
+
 Engineered prototype, more details coming soon.
 
 
