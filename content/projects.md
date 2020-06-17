@@ -156,7 +156,7 @@ A platform for EV services (starting with insurance). Eventually modelled on Ner
 	* Niko (ideation, tech)
 
 	Tech:
-	* +React Native on iOS & Android
+	* React Native on iOS & Android
 	* Backend Node/Express/Postgres
 	* Stripe payment processing
 	* Listing photos upload to S3
