@@ -526,7 +526,6 @@ Tech:
 &lt;h2 id=&#34;projectslogo_healthpng-soap-dictate-app--medical-note-transcription-app&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_health.png&#34; alt=&#34;&#34;&gt; Soap Dictate App | Medical Note Transcription App&lt;/h2&gt;
 &lt;p&gt;Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.&lt;/p&gt;
 &lt;p&gt;Doctors currently spend around 2 hours a day after their shift typing up notes at the ward desktop, or catching up at home. This app enabled them to save at least an hour of this time by quickly dictating their notes into their phone during their shift, and making it very easy to copy-paste their notes into the EMR system once they’re done. The idea was to help physicians save an hour a day for $9.99 a month.&lt;/p&gt;
-&lt;p&gt;The app was actually downloaded by massage therapists, acupuncturists and psychotherapists, who wanted to export PDFs and emails, for $3.99 per month. Added a bunch of disclaimers – the HIPAA situation of Apple&amp;rsquo;s Speech Recognition API is unclear as it&amp;rsquo;s encrypted, but Apple won&amp;rsquo;t sign a BAA – however usage and slow growth continues. If Apple one day agrees to sign a BAA for Speech Recognition then I could advertise and grow the app.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team
 * Libo (medical product advice)
 * Niko (product, tech)
