@@ -534,7 +534,7 @@ Tech
 * React Native App
 * Mobile Frontend in React Native with RNVoice library
 * Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
-* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
+* Backend in Node/Express/Postgres backend running on Heroku
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_soap.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -546,7 +546,7 @@ Tech
 
 Tech
 * Frontend in React Native/Redux
-* Backend in Node/Express/PostgreSQL running on Heroku
+* Backend in Node/Express/Postgres running on Heroku
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/projects/demo_iamoff.gif&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;https://nikodunk.com/projects/demo_iamoff.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;

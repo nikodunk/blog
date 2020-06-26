@@ -43,7 +43,7 @@ Doctors currently spend around 2 hours a day after their shift typing up notes a
 	* React Native App
 	* Mobile Frontend in React Native with RNVoice library
 	* Web Frontend in React at http://soapdictate.com (currently replaced with simple static site)
-	* Backend in Node/Express/Postgresql backend running on Heroku (currently removed)
+	* Backend in Node/Express/Postgres backend running on Heroku
 
 
 ![](/projects/demo_soap.gif)
@@ -64,7 +64,7 @@ Together with Libo Wang and initially Steven Pease, we set out to help with the 
 
 	Tech
 	* Frontend in React Native/Redux
-	* Backend in Node/Express/PostgreSQL running on Heroku
+	* Backend in Node/Express/Postgres running on Heroku
 
 ![](/projects/demo_iamoff.gif)
 ![](/projects/demo_iamoff.png)
