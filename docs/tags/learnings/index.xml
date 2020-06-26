@@ -23,6 +23,17 @@ Energy Lollipop ♜ Challenge: Simplify climate-change into a single number. See
     </item>
     
     <item>
+      <title>Mobile</title>
+      <link>https://nikodunk.com/mobile/</link>
+      <pubDate>Wed, 03 Jun 2020 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/mobile/</guid>
+      <description>Electrade | A mobile marketplace for EVs ♜ Challenge: Mobile Marketplace for Electric Vehicle Leasing and Trading. Large, complex app with Stripe integration, photo upload and async operations
+⚑ Solution: A simple app structure was shipped to multiple platforms and iterated on daily.
+Team: * Armin (ideation, ops) * Niko (ideation, tech) Tech: * React Native on iOS &amp;amp; Android * Backend Node/Express/Postgres * Stripe payment processing * Listing photos upload to S3 * Dynamic pricing data indexed from Autotrader, Edmunds with Puppeteer * EV News updates through APIfy.</description>
+    </item>
+    
+    <item>
       <title>May 2020 Startup Update</title>
       <link>https://nikodunk.com/startup-updates-18/</link>
       <pubDate>Thu, 28 May 2020 08:00:00 -0700</pubDate>
