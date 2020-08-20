@@ -162,7 +162,7 @@ Help Wanted/Asks:  N/A  Hiring:   N/A  KPIs/Core Metrics:  Monthly Active Users
       
       <guid>https://nikodunk.com/heroku-ssl-google-domains-2019/</guid>
       <description>Ugh. This wastes time every time I run into it. It&amp;rsquo;s so much easier with AWS, and there&amp;rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&amp;rsquo;s ACM for SSL. IF you do everything right, it&amp;rsquo;s actually very simple. So I&amp;rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.
-I strongly reference David Gagne&amp;rsquo;s article here, which is now sometimes behind a paywall on Medium.</description>
+This article is a &amp;ldquo;fork&amp;rdquo; of David Gagne&amp;rsquo;s great article here, from which I got these steps and tweaked them slightly to update them.</description>
     </item>
     
     <item>

@@ -8,7 +8,7 @@ image: /accelerator/moneyshot1.jpg
 
 Ugh. This wastes time every time I run into it. It's so much easier with AWS, and there's terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku's ACM for SSL. IF you do everything right, it's actually very simple. So I'll document how it worked for me in 2019 here as much for me as for anyone else.
 
-I strongly reference [David Gagne's article](https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97) here, which is now sometimes behind a paywall on Medium. It's actually only 3 steps.
+This article is a "fork" of [David Gagne's great article here](https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97), from which I got these steps and tweaked them slightly to update them. It's only 3 steps:
 
 
 1. **Heroku, in your app > Settings > Add your domain:** Add www.[your-domain].com (Note: www is KEY!) to your app and copy the [DNS Target] it gives you.
