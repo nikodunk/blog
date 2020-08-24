@@ -218,7 +218,7 @@ Engineered prototype, more details coming soon.
 	* Postgres store
     * AWS Elastic Beanstalk
 
-<a class="btn btn-outline-primary" href="https://www.assemble.works">Website</a>
+<a class="btn btn-outline-primary" href="https://assemble-demo.herokuapp.com">Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
 
 
