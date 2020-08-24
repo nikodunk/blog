@@ -175,6 +175,8 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 ## Atmos Financial
 
+<img class="lazy" data-src="/projects/demo_atmos.png">
+
 Built the front-end of a new green bank.
 
 -------------
