@@ -24,9 +24,9 @@
 &lt;h1 id=&#34;startups&#34;&gt;Startups&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_sustainability1gif-sunboxlabscom-v2--self-install-solar-kits-for-backup-generation-etc&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34;&gt; sunboxlabs.com v2 | Self-Install Solar Kits for backup generation, etc&lt;/h2&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_sunboxlabs.png&#34;&gt;
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_sunboxlabs.jpg&#34;&gt;
 &lt;p&gt;Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addional $1.5K over the next few weeks on Instagram ads to prove that is is a scalable business. Then pivoted to dropshipping, as I wasn&amp;rsquo;t adding too much value by sending it/rebranding it myself.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;http://energylollipop.com&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;http://sunboxlabs.com&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_energylollipoppng-energy-lollipop&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_energylollipop.png&#34; alt=&#34;&#34;&gt; Energy Lollipop&lt;/h2&gt;
 &lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_energylollipop.gif&#34;&gt;
@@ -43,14 +43,14 @@
         +Katie Patrick (@katiepatrick)
         +Me
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;http://energylollipop.com&#34;&gt;Website&lt;/a&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://energylollipop.com&#34;&gt;Website&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_electradepng-electrade-v3--review-platform-for-sustainable-products&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_electrade.png&#34; alt=&#34;&#34;&gt; Electrade v3 | Review platform for sustainable products&lt;/h2&gt;
 &lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_electrade3.png&#34;&gt;
 &lt;p &gt;♜ &lt;strong&gt;Challenge:&lt;/strong&gt; Directory of sustainable services, measuring impact along the way in a dynamic fashion.&lt;/p&gt;
 &lt;p &gt;⚑ &lt;strong&gt;Solution:&lt;/strong&gt; This project constructs server-side rendered, SEO-friendly articles from user-submitted content and links.&lt;/p&gt;
-&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://electrade-3-nerdwallet-bhuman.herokuapp.com&#34; &gt;Website&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://electrade.app&#34; &gt;Website&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;
 &lt;br/&gt;&lt;br/&gt;
 &lt;pre&gt;&lt;code&gt;Team
@@ -123,14 +123,15 @@ Stats
 &lt;h1 id=&#34;contracts&#34;&gt;Contracts&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;atmos-financial&#34;&gt;Atmos Financial&lt;/h2&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_atmos.png&#34;&gt;
-&lt;p&gt;Built the front-end of a new green bank.&lt;/p&gt;
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_atmos.jpg&#34;&gt;
+&lt;p&gt;Engineer #2 at a new green bank.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://joinatmos.com&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;lumen-energy&#34;&gt;Lumen Energy&lt;/h2&gt;
 &lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_lumen.jpg&#34;&gt;
 &lt;p&gt;Engineered prototype, more details coming soon.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;projectslogo_classalogpng-classalogorg-a-marketplace-for-classes&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_classalog.png&#34; alt=&#34;&#34;&gt; Classalog.org | A marketplace for classes&lt;/h2&gt;
+&lt;h2 id=&#34;projectslogo_classalogpng-classalog-a-marketplace-for-classes&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_classalog.png&#34; alt=&#34;&#34;&gt; Classalog | A marketplace for classes&lt;/h2&gt;
 &lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_classalog.gif&#34;&gt;
 &lt;pre&gt;&lt;code&gt;Tech
 * React / Next.js Server Side Rendered web-app.
@@ -138,7 +139,7 @@ Stats
 * Google Firebase Cloud Functions
 * Scraping with APIfy
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://classalog.org&#34;&gt;Website&lt;/a&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://classalog.com&#34;&gt;Website&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-disabled disabled&#34; href=&#34;&#34;&gt;Github on request&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;assemble-real-time-collaboration-for-better-meetings&#34;&gt;Assemble | Real-time collaboration for better meetings&lt;/h2&gt;

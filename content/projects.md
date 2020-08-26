@@ -21,11 +21,11 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 
 
-<img class="lazy" data-src="/projects/demo_sunboxlabs.png">
+<img class="lazy" data-src="/projects/demo_sunboxlabs.jpg">
 
 Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addional $1.5K over the next few weeks on Instagram ads to prove that is is a scalable business. Then pivoted to dropshipping, as I wasn't adding too much value by sending it/rebranding it myself.
 
-<a class="btn btn-outline-primary" href="http://energylollipop.com">Website</a>
+<a class="btn btn-outline-primary" href="http://sunboxlabs.com">Website</a>
 
 
 ------------
@@ -49,7 +49,7 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
 			+Katie Patrick (@katiepatrick)
 			+Me
 
-<a class="btn btn-outline-primary" href="http://energylollipop.com">Website</a>
+<a class="btn btn-outline-primary" href="https://energylollipop.com">Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
 
 
@@ -65,7 +65,7 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
 
 <p >♜ <strong>Challenge:</strong> Directory of sustainable services, measuring impact along the way in a dynamic fashion.</p>
 <p >⚑ <strong>Solution:</strong> This project constructs server-side rendered, SEO-friendly articles from user-submitted content and links.</p>
-<a class="btn btn-outline-primary" href="https://electrade-3-nerdwallet-bhuman.herokuapp.com" >Website</a>
+<a class="btn btn-outline-primary" href="https://electrade.app" >Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
 <br/><br/>
 
@@ -175,9 +175,11 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 ## Atmos Financial
 
-<img class="lazy" data-src="/projects/demo_atmos.png">
+<img class="lazy" data-src="/projects/demo_atmos.jpg">
 
-Built the front-end of a new green bank.
+Engineer #2 at a new green bank.
+
+<a class="btn btn-outline-primary" href="https://joinatmos.com">Website</a>
 
 -------------
 
@@ -192,7 +194,7 @@ Engineered prototype, more details coming soon.
 
 -----------
 
-## ![](/projects/logo_classalog.png) Classalog.org | A marketplace for classes
+## ![](/projects/logo_classalog.png) Classalog | A marketplace for classes
 
 <img class="lazy" data-src="/projects/demo_classalog.gif">
 
@@ -202,7 +204,7 @@ Engineered prototype, more details coming soon.
 	* Google Firebase Cloud Functions
 	* Scraping with APIfy
 
-<a class="btn btn-outline-primary" href="https://classalog.org">Website</a>
+<a class="btn btn-outline-primary" href="https://classalog.com">Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
 
 -----------
