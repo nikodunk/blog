@@ -19,3 +19,7 @@ Now I'm trying to re-create the early sales success and am testing different cha
 * Next up trying less scalable stuff: trying going to an SF farmer's market with a stand, building a wholesale partnership with a van-life modifier, trying referral deals with off-grid influencers, building content for the Ham Radio crowd.
 
 My hypothesis is I'm in this middle ground of performance (.3-1kW) where I'm too small for RVs, too big for outdoors camping – so may have to change up the product size and pricing structure. But TBD.
+
+
+![](/startup-updates-20/demo_sunboxlabs.jpg)
+![](/startup-updates-20/demo_sunboxlabs_old.jpg)
