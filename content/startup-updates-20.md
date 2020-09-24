@@ -8,9 +8,9 @@ image: /startup-updates-17/energy-lollipop-extension.png
 
 Dear Reader,
 
-Sunboxlabs update – everything else unchanged (though got press for energylollipop but still have no business model and electrade is slowly growing in revenue).
+Sunboxlabs update – everything else unchanged (though got press for [energylollipop](https://energylollipop.com) but still have no business model and [electrade](https://electrade.app) is slowly growing in revenue).
 
-Sunboxlabs: I'm a little stuck right now tbh. The early 10 customers love it and are using it for learning about solar, backup, camping.
+[Sunboxlabs](https://sunboxlabs.com): I'm a little stuck right now tbh. The early 10 customers love it and are using it for learning about solar, backup, camping.
 
 Now I'm trying to re-create the early sales success and am testing different channels: 
 
