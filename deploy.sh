@@ -8,5 +8,5 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 git add .
 git commit -m "newest blog source deploy `date`"
-git push origin master
+git push origin main
 
