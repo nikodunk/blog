@@ -175,11 +175,11 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 ## Atmos Financial
 
-<img class="lazy" data-src="/projects/demo_atmos.jpg">
+<img class="lazy" data-src="/projects/demo_atmos.gif">
 
 Engineer #2 at a new green bank.
 
-<a class="btn btn-outline-primary" href="https://joinatmos.com">Website</a>
+<a class="btn btn-outline-primary" href="https://www.joinatmos.com">Website</a>
 
 -------------
 
@@ -191,21 +191,42 @@ Engineer #2 at a new green bank.
 
 Engineered prototype, more details coming soon.
 
+<a class="btn btn-outline-primary" href="https://lumen.energy">Website</a>
 
 -----------
 
 ## ![](/projects/logo_classalog.png) Classalog | A marketplace for classes
 
-<img class="lazy" data-src="/projects/demo_classalog.gif">
+<div class="row">
+<div class="col-12 col-md-6" style="display: flex">
+<img class="parallax blog-shadows lazy" style="margin: auto; border-radius: 3px;"
+	data-src="/projects/demo_classalog.gif" alt="">
+</div>
 
-	Tech
-	* React / Next.js Server Side Rendered web-app.
-	* Google Firebase Auth / Storage
-	* Google Firebase Cloud Functions
-	* Scraping with APIfy
+<div class="col-12 col-md-6" style="display: flex">
+<div style="align-self: center">
 
+<div style="display: flex">
+<h2>
+	<bold>Classalog</bold>
+</h2><span style="margin: 10px">(Engineer, Full-Stack)</span>
+</div>
+<p style="color: #555555">
++Marketplace for Classes&nbsp;&nbsp;&nbsp;&nbsp;
++React / Next.js with server-side rendering for SEO&nbsp;&nbsp;&nbsp;&nbsp;
++"Serverless" Cloud Functions&nbsp;&nbsp;&nbsp;&nbsp;
++Firebase storage&nbsp;&nbsp;&nbsp;&nbsp;
++Running on Zeit Now&nbsp;&nbsp;&nbsp;&nbsp;
+</b></p>
+
+<p>♜ <strong>Challenge:</strong> Lead transition of existing code base to Server Side Rendered App, integrated
+with team, and shipped new features while re-factoring and testing continuously. </p>
 <a class="btn btn-outline-primary" href="https://classalog.com">Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
+</div>
+</div>
+</div>
+
 
 -----------
 

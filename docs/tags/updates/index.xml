@@ -6,20 +6,10 @@
     <description>Recent content in Updates on D U N K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2020 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2020 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nikodunk.com/tags/updates/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How to load intercom in Functional React Component (Hooks) in 2020</title>
-      <link>https://nikodunk.com/how-to-load-intercom-in-react-component-functional-with-hooks-2020/</link>
-      <pubDate>Tue, 20 Oct 2020 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/how-to-load-intercom-in-react-component-functional-with-hooks-2020/</guid>
-      <description>Not sure why there&amp;rsquo;s no good resources online on this, but this is one of these silly plumbing issues that can waste hours. The two main libraries to simplify mounting Intercom into React directly are dead, and Intercom&amp;rsquo;s SPA guide is not super helpful.
-So without further ado – How to load Intercom to a React component (if you don&amp;rsquo;t want to put it in the head of your index.html) in 2020 is as follows:</description>
-    </item>
     
     <item>
       <title>August 2020 Startup Update</title>
