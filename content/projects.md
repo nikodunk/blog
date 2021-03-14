@@ -57,7 +57,7 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
 
 
 
-## ![](/projects/logo_electrade.png) Electrade v3 | Review platform for sustainable products
+## ![](/projects/logo_electrade.png) Electrade v3 | Nerdwallet for EVs
 
 
 <img class="lazy" data-src="/projects/demo_electrade3.png">
@@ -234,22 +234,44 @@ with team, and shipped new features while re-factoring and testing continuously.
 
 ## Assemble | Real-time collaboration for better meetings
 
-<img class="lazy" data-src="/projects/demo_assemble.gif">
+<div class="row">
 
-	Tech
-	* React.js / Typescript web app
-    * Node.js / Express.js backend
-    * Real-time collaboration w/ Sockets
-	* Postgres store
-    * AWS Elastic Beanstalk
+<div class="col-12 col-md-6 order-md-12" style="display: flex">
+<div style="align-self: center ">
+	<a href="https://assemble-demo.herokuapp.com" target="_blank">
+		<img class="lazy blog-shadows" data-src="/projects/demo_assemble.gif" alt="foo"/>
+	</a>
+</div>
+</div>
 
-<a class="btn btn-outline-primary" href="https://assemble-demo.herokuapp.com">Website</a>
-<a class="btn btn-outline-disabled disabled" href="">Github on request</a>
+<div class="col-12 col-md-6" style="display: flex">
+<div style="align-self: center">
+	<div style="display: flex">
+	<h2>
+		<bold>Assemble</bold>
+	</h2><span style="margin: 10px">(Engineer, Full-Stack)</span>
+	</div>
+	<p style="color: #555555">
+	+Real-Time Collaboration for Meetings&nbsp;&nbsp;&nbsp;&nbsp;
+	+React.js / Typescript web app&nbsp;&nbsp;&nbsp;&nbsp;
+	+Node.js / Express.js backend&nbsp;&nbsp;&nbsp;&nbsp;
+	+Sockets.io&nbsp;&nbsp;&nbsp;&nbsp;
+	+Postgres store&nbsp;&nbsp;&nbsp;&nbsp;
+	+Running on AWS Elastic Beanstalk&nbsp;&nbsp;&nbsp;&nbsp;
+	</p>
+	<p>♜ <strong>Challenge:</strong> Real-time collaboration for business meetings, this project was built from
+	scratch. Solved all multi-user edge cases for this B2B Saas startup's MVP.</p>
+	<p>⚑ <strong>Solution:</strong> Using YJS to synchronize clients through "conflict-free replicated data
+	types", customized to our purposes, we devised solutions to all edge cases in synchronous editing of
+	documents and pulling structured data from them.</p>
+	<a class="btn btn-outline-primary" href="https://assemble-demo.herokuapp.com">Website</a>
+	<a class="btn btn-outline-disabled disabled" href="">Github on request</a>
+</div>
+</div>
 
 
------------
 
-
+</div>
 
 
 
@@ -294,6 +316,7 @@ A platform for EV services (starting with insurance). Eventually modelled on Ner
 
 ## ![](/projects/logo_electrade.png) Electrade | A mobile marketplace for EVs
 
+<div>
 <img class="lazy" data-src="/projects/demo_electrade.gif">
 
 <p >♜ <strong>Challenge:</strong> Mobile Marketplace for Electric Vehicle Leasing and Trading. Large, complex app with Stripe integration, photo upload and async operations</p>
@@ -316,7 +339,7 @@ A platform for EV services (starting with insurance). Eventually modelled on Ner
 <a class="btn btn-outline-primary" href="https://apple.co/2wTOYTX">App Store</a>
 <a class="btn btn-outline-primary" href="https://bit.ly/2KjmICI">Google Play</a>
 <a class="btn btn-outline-primary" href="https://github.com/nikodunk/electrify-app">Github</a>
-
+</div>
 
 ------------
 
@@ -407,7 +430,7 @@ With Elisa, a platform to help non-profits fundraise more efficiently with more 
 
 ## ![](/projects/logo_health.png) Soap Dictate App | Medical Note Transcription App
 
-
+<div>
 <img class="lazy" data-src="/projects/demo_soap.gif">
 
 Soap dictate was built to help my friend Libo at Stanford Internal Medicine save time on note taking (aka medical charting or documentation) with a mobile app to dictate into templates.
@@ -441,7 +464,7 @@ The app was actually downloaded by massage therapists, acupuncturists and psycho
 
 <a class="btn btn-outline-primary" href="https://itunes.apple.com/app/id1384252497">App Store</a>
 
-
+</div>
 
 
 -----------
