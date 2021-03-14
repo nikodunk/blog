@@ -177,7 +177,7 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 <img class="lazy" data-src="/projects/demo_atmos.gif">
 
-Engineer #2 at a new green bank.
+A new green bank.
 
 <a class="btn btn-outline-primary" href="https://www.joinatmos.com">Website</a>
 
