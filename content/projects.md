@@ -60,10 +60,10 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
 ## ![](/projects/logo_electrade.png) Electrade v3 | Nerdwallet for EVs
 
 
-<img class="lazy" data-src="/projects/demo_electrade3.png">
+<img class="lazy" data-src="/projects/demo_electrade3.jpg">
 
 
-<p >♜ <strong>Challenge:</strong> Directory of sustainable services, measuring impact along the way in a dynamic fashion.</p>
+<p >♜ <strong>Challenge:</strong>"Nerdwallet for EVs and greentech". Directory of sustainable services, measuring impact along the way in a dynamic fashion.</p>
 <p >⚑ <strong>Solution:</strong> This project constructs server-side rendered, SEO-friendly articles from user-submitted content and links.</p>
 <a class="btn btn-outline-primary" href="https://electrade.app" >Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
