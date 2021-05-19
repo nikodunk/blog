@@ -2,7 +2,6 @@ baseURL = "https://nikodunk.com/"
 languageCode = "en-us"
 title = "D U N K"
 Paginate = 100 # Number of posts per page
-googleAnalytics = "UA-104927808-1"
 enableRobotsTXT = true
 publishDir = "docs"
 pygmentsCodefences = true

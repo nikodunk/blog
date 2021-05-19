@@ -83,7 +83,7 @@
     
     <div class="row">
       <div class="col-12 col-md-6" style="display: flex">
-        <a href="https://sunboxlabs.com/solar-kit" target="_blank"><img class="parallax lazy" data-src="/projects/demo_sunboxlabs.jpg"  alt="sunboxlabs thumb"></a>
+        <a href="https://sunboxlabs.com/solar-kit" target="_blank"><img loading="lazy" src="/projects/demo_sunboxlabs.jpg"  alt="sunboxlabs thumb"></a>
       </div>
 
       <div class="col-12 col-md-6" style="display: flex">
@@ -115,7 +115,7 @@
     
     <div class="row">
       <div class="col-12 col-md-6 order-md-2" style="display: flex">
-        <a href="https://www.joinatmos.com" target="_blank"><img class="parallax lazy blog-shadows" data-src="/projects/demo_atmos.gif" alt=""></a>
+        <a href="https://www.joinatmos.com" target="_blank"><img loading="lazy" class="blog-shadows" src="/projects/demo_atmos.gif" alt=""></a>
       </div>
 
       <div class="col-12 col-md-6" style="display: flex">
@@ -147,7 +147,7 @@
     <div class="row ">
       <div class="col-12 col-md-6" style="display: flex">
         <div style="align-self: center">
-          <a href="https://www.energylollipop.com" target="_blank"><img class="parallax lazy" data-src="/projects/demo_energylollipop.gif" alt="energylollipop"></a>
+          <a href="https://www.energylollipop.com" target="_blank"><img loading="lazy" src="/projects/demo_energylollipop.gif" alt="energylollipop"></a>
         </div>
       </div>
       <div class="col-12 col-md-6" style="display: flex">
@@ -182,7 +182,7 @@
     
     <div class="row">
       <div class="col-12 col-md-6 order-md-2" style="display: flex">
-        <a href="https://electrade.app" target="_blank"><img class="parallax lazy " data-src="/projects/demo_electrade3.jpg" alt=""></a>
+        <a href="https://electrade.app" target="_blank"><img loading="lazy" src="/projects/demo_electrade3.jpg" alt=""></a>
       </div>
       <div class="col-12 col-md-6" style="display: flex">
         <div style="align-self: center">
@@ -510,57 +510,6 @@
       <br />
     </div>
 </section>
-
-
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-104927808-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-
-
-
 </body>
 </html>
 
-
-<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
-
-<script>
-  var image = document.getElementsByClassName('parallax');
-  new simpleParallax(image, {
-    overflow: true
-  });
-</script>
-
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
-
-    if ("IntersectionObserver" in window) {
-      let lazyImageObserver = new IntersectionObserver(function (entries, observer) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            let lazyImage = entry.target;
-            lazyImage.src = lazyImage.dataset.src;
-            lazyImage.classList.remove("lazy");
-            lazyImageObserver.unobserve(lazyImage);
-          }
-        });
-      });
-      lazyImages.forEach(function (lazyImage) {
-        lazyImageObserver.observe(lazyImage);
-      });
-    } else {
-      
-    }
-  });
-</script>
