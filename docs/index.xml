@@ -12,6 +12,40 @@
     
     
     <item>
+      <title>A JS developer discovers Ruby on Rails</title>
+      <link>https://nikodunk.com/a-node-js-developer-discovers-rails/</link>
+      <pubDate>Thu, 10 Jun 2021 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/a-node-js-developer-discovers-rails/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;I work for a Node/React based &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;company&lt;/a&gt; and have worked in the JS stack for years. But for my new &lt;a href=&#34;https://www.reshore.app&#34;&gt;side project&lt;/a&gt; I decided to give Rails a whirl. Over the years I’ve heard a lot about Rails on &lt;a href=&#34;https://news.ycombinator.com&#34;&gt;HN&lt;/a&gt; and &amp;ldquo;HOLY COW&amp;rdquo;! My Developer Happiness (© Ruby mid-1990s) has gone through the roof since I started using it.&lt;/p&gt;
+&lt;p&gt;Having learned to code during the current &amp;lsquo;JS everywhere&amp;rsquo; era makes discovering &lt;a href=&#34;https://rubyonrails.org&#34;&gt;Ruby on Rails&lt;/a&gt; a revelation [1].&lt;/p&gt;
+&lt;h2 id=&#34;happiness&#34;&gt;Happiness&lt;/h2&gt;
+&lt;p&gt;Building a web app in Rails took me 2 days for the same thing I would have built in Node in 2 weeks. Further, I&amp;rsquo;ve included things I wouldn’t have attempted to built on Node/Express until I proved the idea out (editing a profile? Psht please - I’ll wait till someone requests that).&lt;/p&gt;
+&lt;p&gt;I feel like a happy, productive developer with god-like powers instead of an grim founder taking shortcuts to a launch-worthy MVP.&lt;/p&gt;
+&lt;h2 id=&#34;on-plumbing-with-js-frameworks&#34;&gt;On plumbing with JS frameworks&lt;/h2&gt;
+&lt;p&gt;I decided to try Rails after 2 hours of setting up the new project in Node with Express, Postgres, Ejs, Knex, etc and having a simple &amp;lsquo;hello world&amp;rsquo; to show for it.&lt;/p&gt;
+&lt;p&gt;I come from a business background, so the upside to starting to build web software in the &amp;lsquo;current&amp;rsquo; JS era is that there&amp;rsquo;s no way around learning some plumbing. React and Express are &amp;lsquo;un-opinionated&amp;rsquo;, which means they force you to pick all the components and glue them together yourself. You have to know a little about what you&amp;rsquo;re doing.&lt;/p&gt;
+&lt;p&gt;I’ve learned all the basics because of this - things like raw SQL, ORMs, auth, testing, Websockets, migrations, how to structure a project and I&amp;rsquo;ve wired up CRUD, authentication 10 times for every new green field project I&amp;rsquo;ve worked on - with Rails I may not have had this in-depth understanding.&lt;/p&gt;
+&lt;p&gt;I understand the plumbing well thanks to this. Which is great for an engineer. But as a &lt;em&gt;founder&lt;/em&gt; it&amp;rsquo;s hard to climb out of the plumbing, forget about it, and think about what the &lt;em&gt;user&lt;/em&gt; wants. It&amp;rsquo;s hard to keep my eye on a wonderful product experience when I&amp;rsquo;m battling Knex.&lt;/p&gt;
+&lt;h2 id=&#34;rails-opens-doors&#34;&gt;Rails opens doors&lt;/h2&gt;
+&lt;p&gt;But Rails magic is handling plumbing on my new project. What opportunities does this open up? I think there are two:&lt;/p&gt;
+&lt;p&gt;Better computer science - I can focus more on learning useful patterns to create with the framework vs. how to set it up. Computer science is not plumbing.&lt;/p&gt;
+&lt;p&gt;Better business - Rails allows me to think about the &lt;em&gt;product&lt;/em&gt; I’m developing - &lt;em&gt;and build it at the speed of thought&lt;/em&gt; - instead of getting stuck in the weeds as I often do with a Node project. If I receive customer feedback that something needs to be different. I can think like a user while I&amp;rsquo;m engineering it.&lt;/p&gt;
+&lt;p&gt;This is the true magic of Rails for me so far: I can use both my left brain and my right brain. The high-level framework frees up enough headspace to think about &lt;em&gt;what&lt;/em&gt; I&amp;rsquo;m building instead of &lt;em&gt;how&lt;/em&gt; I&amp;rsquo;m building it. I can build things with such ease they don&amp;rsquo;t look like they were &amp;lsquo;designed by an engineer&amp;rsquo;.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion--hypothesis&#34;&gt;Conclusion &amp;amp; Hypothesis&lt;/h2&gt;
+&lt;p&gt;I wonder if I&amp;rsquo;d started building software a decade earlier and started with Rails I would have built better, more user-friendly products. With less pain. And with more focus on the user experience and business case. The &lt;em&gt;why&lt;/em&gt; instead of the &lt;em&gt;how&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I wonder if this is how the companies I admire from the previous era felt when they were building their initial products with Rails (Airbnb, GitHub, Shopify, Twitch, Flexport etc). Did Rails enable their founders to build more efficiently and not worry about plumbing? Did it allow them to focus on what users wanted, as opposed to plumbing? Is that why they were so successful? Paul Graham &lt;a href=&#34;http://paulgraham.com/avg.html&#34;&gt;mentions&lt;/a&gt; Lisp was key in helping Viaweb outmaneuver their competitors due to its efficiency.&lt;/p&gt;
+&lt;p&gt;Or maybe I’m taking this pattern too far: I&amp;rsquo;ve forgotten about the horrible projects that happened on Rails, current companies will be just as loved, or the market has matured so much it’s not a fair comparison. Time will tell whether Rails is going to make me build better products.&lt;/p&gt;
+&lt;p&gt;Either way I feel like I’ve struck on a magical treasure from the past and will not willingly give it up.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;[1] - By JS everywhere I mean &lt;a href=&#34;http://expressjs.com&#34;&gt;Express&lt;/a&gt;/&lt;a href=&#34;https://reactjs.org&#34;&gt;React&lt;/a&gt; with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; for static which is a pretty common stack. In the following I&amp;rsquo;ll use Node interchangeably with Express and Hapi, the main two frameworks I’ve used. I’m aware that the equivalent framework to Express is probably Sinatra in the Ruby ecosystem, and I’m not fairly comparing the two. But as we know there is not true JS equivalent to Rails (no, it’s not Sails).&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>August 2020 Startup Update</title>
       <link>https://nikodunk.com/startup-updates-20/</link>
       <pubDate>Wed, 23 Sep 2020 08:00:00 -0700</pubDate>

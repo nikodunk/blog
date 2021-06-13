@@ -6,10 +6,19 @@
     <description>Recent content in Tags on D U N K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Sep 2020 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jun 2021 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nikodunk.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Essay</title>
+      <link>https://nikodunk.com/tags/essay/</link>
+      <pubDate>Thu, 10 Jun 2021 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/tags/essay/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learnings</title>
@@ -26,15 +35,6 @@
       <pubDate>Wed, 23 Sep 2020 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/tags/updates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Essay</title>
-      <link>https://nikodunk.com/tags/essay/</link>
-      <pubDate>Thu, 23 Jan 2020 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/tags/essay/</guid>
       <description></description>
     </item>
     
