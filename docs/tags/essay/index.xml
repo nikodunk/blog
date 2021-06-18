@@ -12,13 +12,12 @@
     
     
     <item>
-      <title>A JS developer discovers Ruby on Rails</title>
+      <title>From Node to Ruby on Rails</title>
       <link>https://nikodunk.com/a-node-js-developer-discovers-rails/</link>
       <pubDate>Thu, 10 Jun 2021 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/a-node-js-developer-discovers-rails/</guid>
-      <description>I work for a Node/React based company and have worked in the JS stack for years. But for my new side project I decided to give Rails a whirl. Over the years I’ve heard a lot about Rails on HN and holy cow! My Developer Happiness (© Ruby 1995) has gone through the roof since I started using it.
-Having learned to code during the current &amp;ldquo;JS everywhere&amp;rdquo; era makes discovering Ruby on Rails a revelation [1].</description>
+      <description>I learned to code in an all-Javascript tech stack and work for an all-JS company (Node/React/React Native). I never questioned that this stack is a good default: a lot of software companies use it, it&amp;rsquo;s new and shiny, JS everywhere is good, and it gets things done. But for my new side project I decided to try Rails because developer friends always say how easy it was to use, how the Node ecosystem makes you re-invent the wheel for every project, and that despite some perception that Ruby on Rails is &amp;lsquo;over&amp;rsquo; it was somehow more enjoyable.</description>
     </item>
     
     <item>
