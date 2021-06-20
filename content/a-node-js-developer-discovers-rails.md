@@ -6,14 +6,14 @@ tags: ["Essay"]
 image: /chicago/Winslow_Homer_The_Herring_Net.jpg
 ---
 
-I learned to code in the Javascript stack [1] and am building a Javascript based product [2]. I never questioned that this stack is a good default: a lot of software companies use it, it’s shiny and new, JS everywhere is good, and I can get things done. But for my new side project I decided to try Rails because friends always say how easy it was to use, how the Node ecosystem makes you re-invent the wheel for every project, and that despite some perception that Ruby on Rails is ‘over’ it was somehow more enjoyable than the Node based stack. And wow - coming from the current Javascript ecosystem makes discovering Rails a revelation.
+I learned to code in the Javascript stack [1] and am building a Javascript based product [2]. I never questioned this stack: many companies default to it, JS everywhere seems good, and the community is big. But for my new side project I decided to try Rails because despite some perception that Ruby on Rails is ‘over’, people in HN comments say it was somehow more enjoyable than the newer Node based stack. Having tried it I can say wow - coming from the current Javascript ecosystem makes discovering Rails a revelation.
 
 ## Happiness
-Building the web app in Rails took me 2 days – the same thing in Node would have taken 2 weeks. I’ve also included things I wouldn’t have attempted to build on Node/Express until I proved the idea out (editing a profile? Psht please - I’ll wait till someone requests that).
+Building the web app in Rails took me 2 days – the same thing in Node would have taken 2 weeks. I’ve also included things I wouldn’t have attempted to build on Node/Express until I proved the idea out (editing a profile? Psht please - I’ll wait till someone requests that). People in the HN comments always accuse the Node ecosystem of making you re-invent the wheel for every project. But I thought that was just the way things were. Now I realize the truth to their words.
 
 I feel like a productive founder building a pleasant product with god-like speed instead of a grim developer taking shortcuts to an MVP.
 
-It turns out that while the uninitiated don’t consider it the newest technology, a happy subculture of entrepreneurs and corps keep Rails not only up to date but keep adding amazing features like an easy to use Websockets implementation and Hotwire with every release. It’s like discovering a secret society that’s been hiding in plain sight.
+It turns out that while the uninitiated don’t consider it the newest technology, a happy subculture of entrepreneurs and corps keep Rails more than up to date. They keep adding amazing new features like an easy to use Websockets implementation. Or a reactive app technology called Hotwire. It’s like discovering a secret society that’s been hiding in plain sight.
 
 ## Plumbing with JS frameworks
 I decided to try Rails after writing boilerplate in Node for two hours with Express, Postgres, EJS, Knex, etc and having a simple ‘hello world’ to show for it.
@@ -40,6 +40,9 @@ Time will tell whether Rails is going to make me build better and more successfu
 ---
 
 [1] - By JS everywhere I mean Express/React with Hugo for static which is a pretty common stack. In the following I’ll use Node interchangeably with Express and Hapi, the main two frameworks I’ve used. I’m aware that the equivalent framework to Express is probably Sinatra in the Ruby ecosystem, and I’m not fairly comparing the two. But as we know there is not true JS equivalent to Rails (no, it’s not Sails).
-[2] - Node/React/Redux/React Native
+
+[2] - https://www.joinatmos.com runs on Node/React/Redux/React Native
+
 [3] - https://reshore.app/
+
 [4] - http://paulgraham.com/avg.html
