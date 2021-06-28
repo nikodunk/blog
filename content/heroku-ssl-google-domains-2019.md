@@ -14,15 +14,15 @@ This article is a "fork" of [David Gagne's great article here](https://medium.co
 
 
 1. **Heroku, in your app > Settings > Add your domain:** 
-	* Add www.[your-domain].com (Note: www is KEY!) to your app 
+	* Add www.[foo].com (Note: www is KEY!) to your app 
 	* Copy the [DNS Target] it gives you
 2. **Google Domains > DNS > Custom Records > Manage Custom Records:** Enter
 	* www, CNAME, [DNS Target]
 3. **Google Domains > Website > Add a Forwarding Address:** 
-	* Forward from [your-domain].com
-	* Forward to https://www.[your-domain].com
+	* Forward from [foo].com
+	* Forward to https://www.[foo].com
 	* Permanent Redirect (301)
-	* Forward Path so that [your-domain].com/about forwards to https://www.[your-domain].com/about
+	* Forward Path so that [foo].com/about forwards to https://www.[foo].com/about
 	* Leave SSL Enabled
 
 Boom. Wait a couple minutes, and you're done.
@@ -31,9 +31,20 @@ Boom. Wait a couple minutes, and you're done.
 
 In Terminal to refresh, and check the Heroku Dashboard to confirm it's working. 
 
-Make sure both https://www.your-domain.com, https://your-domain.com work, http://your-domain.com and http://www. forwards correctly, and http://your-domain.com/about forwards as well.
+Confirm all the below permutations forward correctly:
+Https:
+* https://www.foo.com
+* https://foo.com
+
+http:
+* http://foo.com
+* http://www.foo.com 
+
+Paths:
+* http://foo.com/about
+* https://www.foo.com/about
 
 Have a great year!
 
 
-PS: So does this work for simply [your-domain].com and not www.[your-domain].com as we were using in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( [Source 1: Heroku Docs](https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong) [Source 2: StackOverflow](https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku)
+PS: So does this work for simply [foo].com and not www.[foo].com as we were using in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( [Source 1: Heroku Docs](https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong) [Source 2: StackOverflow](https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku)
