@@ -43,6 +43,6 @@ Time will tell whether Rails is going to make me build better and more successfu
 
 [2] - https://www.joinatmos.com runs on Node/React/Redux/React Native
 
-[3] - https://reshore.app/
+[3] - https://www.reshore.app/
 
 [4] - http://paulgraham.com/avg.html

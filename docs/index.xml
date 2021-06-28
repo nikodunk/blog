@@ -100,7 +100,7 @@ Or maybe high and low level frameworks make no difference: Maybe there’s just 
 &lt;hr&gt;
 &lt;p&gt;[1] - By JS everywhere I mean Express/React with Hugo for static which is a pretty common stack. In the following I’ll use Node interchangeably with Express and Hapi, the main two frameworks I’ve used. I’m aware that the equivalent framework to Express is probably Sinatra in the Ruby ecosystem, and I’m not fairly comparing the two. But as we know there is not true JS equivalent to Rails (no, it’s not Sails).&lt;/p&gt;
 &lt;p&gt;[2] - &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;https://www.joinatmos.com&lt;/a&gt; runs on Node/React/Redux/React Native&lt;/p&gt;
-&lt;p&gt;[3] - &lt;a href=&#34;https://reshore.app/&#34;&gt;https://reshore.app/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] - &lt;a href=&#34;https://www.reshore.app/&#34;&gt;https://www.reshore.app/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[4] - &lt;a href=&#34;http://paulgraham.com/avg.html&#34;&gt;http://paulgraham.com/avg.html&lt;/a&gt;&lt;/p&gt;
 </content>
       
