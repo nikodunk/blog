@@ -49,7 +49,7 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&amp;rsquo;s working.&lt;/p&gt;
 &lt;p&gt;Confirm all the below permutations forward correctly:&lt;/p&gt;
-&lt;p&gt;Https:&lt;/p&gt;
+&lt;p&gt;https:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;https://www.[foo].com&lt;/li&gt;
 &lt;li&gt;https://[foo].com&lt;/li&gt;
@@ -59,7 +59,7 @@
 &lt;li&gt;http://[foo].com&lt;/li&gt;
 &lt;li&gt;http://www.[foo].com&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Paths:&lt;/p&gt;
+&lt;p&gt;paths:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;http://[foo].com/about&lt;/li&gt;
 &lt;li&gt;https://www.[foo].com/about&lt;/li&gt;

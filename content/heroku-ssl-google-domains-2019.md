@@ -33,7 +33,7 @@ In Terminal to refresh, and check the Heroku Dashboard to confirm it's working.
 
 Confirm all the below permutations forward correctly:
 
-Https:
+https:
 * https://www.[foo].com
 * https://[foo].com
 
@@ -41,7 +41,7 @@ http:
 * http://[foo].com
 * http://www.[foo].com 
 
-Paths:
+paths:
 * http://[foo].com/about
 * https://www.[foo].com/about
 
