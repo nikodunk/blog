@@ -6,10 +6,20 @@
     <description>Recent content in Learnings on D U N K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Sep 2020 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jun 2021 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nikodunk.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to set up Heroku SSL (https) with Google Domains in 2021</title>
+      <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
+      <pubDate>Sun, 27 Jun 2021 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/heroku-ssl-google-domains-2019/</guid>
+      <description>Updated for 2021 - things got a little easier.
+Ugh. This wastes time every time I run into it. It&amp;rsquo;s so much easier with AWS, and there&amp;rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&amp;rsquo;s ACM for SSL. IF you do everything right, it&amp;rsquo;s actually very simple. So I&amp;rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.</description>
+    </item>
     
     <item>
       <title>August 2020 Startup Update</title>
@@ -177,16 +187,6 @@ Help Wanted/Asks:  N/A  Hiring:   N/A  KPIs/Core Metrics:  Monthly Active Users
       
       <guid>https://nikodunk.com/startup-updates-4/</guid>
       <description>After 4 months of working on healthcare stuffs and nearly making it (we signed a first deal of $600/mo, but then couldn&amp;rsquo;t deliver an external integration they needed UGH) I have to face the decision to double down again or reset. I&amp;rsquo;ve decided to reset to something more in line with my natural interests: I&amp;rsquo;ve now been working for the past couple weeks on the (first) electric vehicle marketplace app. &amp;ldquo;Find a used tesla near me&amp;rdquo; – screenshot attached :)</description>
-    </item>
-    
-    <item>
-      <title>How to set up Heroku SSL (HTTPS) with Google Domains in 2019</title>
-      <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
-      <pubDate>Sat, 16 Feb 2019 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/heroku-ssl-google-domains-2019/</guid>
-      <description>Ugh. This wastes time every time I run into it. It&amp;rsquo;s so much easier with AWS, and there&amp;rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&amp;rsquo;s ACM for SSL. IF you do everything right, it&amp;rsquo;s actually very simple. So I&amp;rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.
-This article is a &amp;ldquo;fork&amp;rdquo; of David Gagne&amp;rsquo;s great article here, from which I got these steps and tweaked them slightly to update them.</description>
     </item>
     
     <item>

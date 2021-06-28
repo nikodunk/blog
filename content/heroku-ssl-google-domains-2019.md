@@ -1,19 +1,29 @@
 ---
 layout: post
-title:  "How to set up Heroku SSL (HTTPS) with Google Domains in 2019"
-date:   2019-02-16 08:00:00 -0700
+title:  "How to set up Heroku SSL (https) with Google Domains in 2021"
+date:   2021-06-27 08:00:00 -0700
 tags: ["Learnings"]
 image: /accelerator/moneyshot1.jpg
 ---
+
+Updated for 2021 - things got a little easier. 
 
 Ugh. This wastes time every time I run into it. It's so much easier with AWS, and there's terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku's ACM for SSL. IF you do everything right, it's actually very simple. So I'll document how it worked for me in 2019 here as much for me as for anyone else.
 
 This article is a "fork" of [David Gagne's great article here](https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97), from which I got these steps and tweaked them slightly to update them. It's only 3 steps:
 
 
-1. **Heroku, in your app > Settings > Add your domain:** Add www.[your-domain].com (Note: www is KEY!) to your app and copy the [DNS Target] it gives you.
-2. **Google Domains > DNS > Synthetic Records > Add a subdomain:** @ to Subdomain, add https://www.[your-domain].com to the next field. Forward the path (so that [your-domain].com/about.html forwards to https://www.[your-domain].com/about.html), and leave the SSL Enabled.
-3. **Google Domains > DNS > Custom Resource Records > Add a CNAME:** www, CNAME, [DNS Target]
+1. **Heroku, in your app > Settings > Add your domain:** 
+	* Add www.[your-domain].com (Note: www is KEY!) to your app 
+	* Copy the [DNS Target] it gives you
+2. **Google Domains > DNS > Custom Records > Manage Custom Records:** Enter
+	* www, CNAME, [DNS Target]
+3. **Google Domains > Website > Add a Forwarding Address:** 
+	* Forward from [your-domain].com
+	* Forward to https://www.[your-domain].com
+	* Permanent Redirect (301)
+	* Forward Path so that [your-domain].com/about forwards to https://www.[your-domain].com/about
+	* Leave SSL Enabled
 
 Boom. Wait a couple minutes, and you're done.
 	
@@ -21,7 +31,7 @@ Boom. Wait a couple minutes, and you're done.
 
 In Terminal to refresh, and check the Heroku Dashboard to confirm it's working. 
 
-I install [heroku-ssl-redirect](https://github.com/nodenica/node-heroku-ssl-redirect) for node to force HTTPS upgrades.
+Make sure both https://www.your-domain.com, https://your-domain.com work, http://your-domain.com and http://www. forwards correctly, and http://your-domain.com/about forwards as well.
 
 Have a great year!
 

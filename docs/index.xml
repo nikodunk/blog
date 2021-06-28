@@ -12,6 +12,50 @@
     
     
     <item>
+      <title>How to set up Heroku SSL (https) with Google Domains in 2021</title>
+      <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
+      <pubDate>Sun, 27 Jun 2021 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/heroku-ssl-google-domains-2019/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;Updated for 2021 - things got a little easier.&lt;/p&gt;
+&lt;p&gt;Ugh. This wastes time every time I run into it. It&amp;rsquo;s so much easier with AWS, and there&amp;rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&amp;rsquo;s ACM for SSL. IF you do everything right, it&amp;rsquo;s actually very simple. So I&amp;rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.&lt;/p&gt;
+&lt;p&gt;This article is a &amp;ldquo;fork&amp;rdquo; of &lt;a href=&#34;https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97&#34;&gt;David Gagne&amp;rsquo;s great article here&lt;/a&gt;, from which I got these steps and tweaked them slightly to update them. It&amp;rsquo;s only 3 steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Heroku, in your app &amp;gt; Settings &amp;gt; Add your domain:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Add www.[your-domain].com (Note: www is KEY!) to your app&lt;/li&gt;
+&lt;li&gt;Copy the [DNS Target] it gives you&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Custom Records &amp;gt; Manage Custom Records:&lt;/strong&gt; Enter
+&lt;ul&gt;
+&lt;li&gt;www, CNAME, [DNS Target]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; Website &amp;gt; Add a Forwarding Address:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Forward from [your-domain].com&lt;/li&gt;
+&lt;li&gt;Forward to https://www.[your-domain].com&lt;/li&gt;
+&lt;li&gt;Permanent Redirect (301)&lt;/li&gt;
+&lt;li&gt;Forward Path so that [your-domain].com/about forwards to https://www.[your-domain].com/about&lt;/li&gt;
+&lt;li&gt;Leave SSL Enabled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Boom. Wait a couple minutes, and you&amp;rsquo;re done.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;heroku certs:auto:refresh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&amp;rsquo;s working.&lt;/p&gt;
+&lt;p&gt;Make sure both &lt;a href=&#34;https://www.your-domain.com&#34;&gt;https://www.your-domain.com&lt;/a&gt;, &lt;a href=&#34;https://your-domain.com&#34;&gt;https://your-domain.com&lt;/a&gt; work, &lt;a href=&#34;http://your-domain.com&#34;&gt;http://your-domain.com&lt;/a&gt; and http://www. forwards correctly, and &lt;a href=&#34;http://your-domain.com/about&#34;&gt;http://your-domain.com/about&lt;/a&gt; forwards as well.&lt;/p&gt;
+&lt;p&gt;Have a great year!&lt;/p&gt;
+&lt;p&gt;PS: So does this work for simply [your-domain].com and not www.[your-domain].com as we were using in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( &lt;a href=&#34;https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong&#34;&gt;Source 1: Heroku Docs&lt;/a&gt; &lt;a href=&#34;https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku&#34;&gt;Source 2: StackOverflow&lt;/a&gt;&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>From Node to Ruby on Rails</title>
       <link>https://nikodunk.com/a-node-js-developer-discovers-rails/</link>
       <pubDate>Thu, 10 Jun 2021 08:00:00 -0700</pubDate>
@@ -2024,32 +2068,6 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/ul&gt;
 &lt;h3 id=&#34;current-screenshot-of-the-medical-software-process-prototype&#34;&gt;Current screenshot of the medical software process prototype:&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-4/demo.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</content>
-      
-    </item>
-    
-    <item>
-      <title>How to set up Heroku SSL (HTTPS) with Google Domains in 2019</title>
-      <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
-      <pubDate>Sat, 16 Feb 2019 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/heroku-ssl-google-domains-2019/</guid>
-      <description></description>
-      
-      <content>&lt;p&gt;Ugh. This wastes time every time I run into it. It&amp;rsquo;s so much easier with AWS, and there&amp;rsquo;s terrible and conflicting documentation out on the web about Heroku, Google Domains and Heroku&amp;rsquo;s ACM for SSL. IF you do everything right, it&amp;rsquo;s actually very simple. So I&amp;rsquo;ll document how it worked for me in 2019 here as much for me as for anyone else.&lt;/p&gt;
-&lt;p&gt;This article is a &amp;ldquo;fork&amp;rdquo; of &lt;a href=&#34;https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97&#34;&gt;David Gagne&amp;rsquo;s great article here&lt;/a&gt;, from which I got these steps and tweaked them slightly to update them. It&amp;rsquo;s only 3 steps:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Heroku, in your app &amp;gt; Settings &amp;gt; Add your domain:&lt;/strong&gt; Add www.[your-domain].com (Note: www is KEY!) to your app and copy the [DNS Target] it gives you.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Synthetic Records &amp;gt; Add a subdomain:&lt;/strong&gt; @ to Subdomain, add https://www.[your-domain].com to the next field. Forward the path (so that [your-domain].com/about.html forwards to https://www.[your-domain].com/about.html), and leave the SSL Enabled.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; DNS &amp;gt; Custom Resource Records &amp;gt; Add a CNAME:&lt;/strong&gt; www, CNAME, [DNS Target]&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Boom. Wait a couple minutes, and you&amp;rsquo;re done.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;heroku certs:auto:refresh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In Terminal to refresh, and check the Heroku Dashboard to confirm it&amp;rsquo;s working.&lt;/p&gt;
-&lt;p&gt;I install &lt;a href=&#34;https://github.com/nodenica/node-heroku-ssl-redirect&#34;&gt;heroku-ssl-redirect&lt;/a&gt; for node to force HTTPS upgrades.&lt;/p&gt;
-&lt;p&gt;Have a great year!&lt;/p&gt;
-&lt;p&gt;PS: So does this work for simply [your-domain].com and not www.[your-domain].com as we were using in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( &lt;a href=&#34;https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong&#34;&gt;Source 1: Heroku Docs&lt;/a&gt; &lt;a href=&#34;https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku&#34;&gt;Source 2: StackOverflow&lt;/a&gt;&lt;/p&gt;
 </content>
       
     </item>
