@@ -83,7 +83,7 @@ Ugh. This wastes time every time I run into it. It&rsquo;s so much easier with A
 <li>Copy the [DNS Target] it gives you</li>
 </ul>
 </li>
-<li><strong>Google Domains &gt; DNS &gt; Resource records &gt; Custom Records &gt; Manage Custom Records:</strong> Enter
+<li><strong>Google Domains &gt; DNS &gt; Resource records &gt; Custom Records &gt; Manage Custom Records:</strong>
 <ul>
 <li>www, CNAME, [DNS Target]</li>
 </ul>
@@ -105,18 +105,18 @@ Ugh. This wastes time every time I run into it. It&rsquo;s so much easier with A
 <p>Confirm all the below permutations forward correctly:</p>
 <p>Https:</p>
 <ul>
-<li><a href="https://www.foo.com">https://www.foo.com</a></li>
-<li><a href="https://foo.com">https://foo.com</a></li>
+<li>https://www.[foo].com</li>
+<li>https://[foo].com</li>
 </ul>
 <p>http:</p>
 <ul>
-<li><a href="http://foo.com">http://foo.com</a></li>
-<li><a href="http://www.foo.com">http://www.foo.com</a></li>
+<li>http://[foo].com</li>
+<li>http://www.[foo].com</li>
 </ul>
 <p>Paths:</p>
 <ul>
-<li><a href="http://foo.com/about">http://foo.com/about</a></li>
-<li><a href="https://www.foo.com/about">https://www.foo.com/about</a></li>
+<li>http://[foo].com/about</li>
+<li>https://www.[foo].com/about</li>
 </ul>
 <p>Have a great year!</p>
 <p>PS: So does this work for simply [foo].com and not www.[foo].com as we were using in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( <a href="https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong">Source 1: Heroku Docs</a> <a href="https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku">Source 2: StackOverflow</a></p>

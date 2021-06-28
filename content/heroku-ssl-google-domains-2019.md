@@ -16,7 +16,7 @@ This article is a "fork" of [David Gagne's great article here](https://medium.co
 1. **Heroku, in your app > Settings > Add your domain:** 
 	* Add www.[foo].com (Note: www is KEY!) to your app 
 	* Copy the [DNS Target] it gives you
-2. **Google Domains > DNS > Resource records > Custom Records > Manage Custom Records:** Enter
+2. **Google Domains > DNS > Resource records > Custom Records > Manage Custom Records:**
 	* www, CNAME, [DNS Target]
 3. **Google Domains > Website > Add a Forwarding Address:** 
 	* Forward from [foo].com
@@ -34,16 +34,16 @@ In Terminal to refresh, and check the Heroku Dashboard to confirm it's working.
 Confirm all the below permutations forward correctly:
 
 Https:
-* https://www.foo.com
-* https://foo.com
+* https://www.[foo].com
+* https://[foo].com
 
 http:
-* http://foo.com
-* http://www.foo.com 
+* http://[foo].com
+* http://www.[foo].com 
 
 Paths:
-* http://foo.com/about
-* https://www.foo.com/about
+* http://[foo].com/about
+* https://www.[foo].com/about
 
 Have a great year!
 
