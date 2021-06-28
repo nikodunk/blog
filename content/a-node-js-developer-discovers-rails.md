@@ -6,7 +6,7 @@ tags: ["Essay"]
 image: /chicago/Winslow_Homer_The_Herring_Net.jpg
 ---
 
-I learned to code in the Javascript stack [1] and am building a Javascript based product [2]. I never questioned this stack: many companies default to it, JS everywhere seems good, and the community is big. But for my new side project I decided to try Rails because despite some perception that Ruby on Rails is ‘over’, people in HN comments say it was somehow more enjoyable than the newer Node based stack. Having tried it I can say wow - coming from the current Javascript ecosystem makes discovering Rails a revelation.
+I learned to code in the Javascript stack [1] and am building a Javascript based product [2]. I never questioned this stack: many companies default to it, JS everywhere seems good, and the community is big. But for my [new side project](https://www.reshore.app/) I decided to try Rails because despite some perception that Ruby on Rails is ‘over’, people in HN comments say it was somehow more enjoyable than the newer Node based stack. Having tried it I can say wow - coming from the current Javascript ecosystem makes discovering Rails a revelation.
 
 ## Happiness
 Building the web app in Rails took me 2 days – the same thing in Node would have taken 2 weeks. I’ve also included things I wouldn’t have attempted to build on Node/Express until I proved the idea out (editing a profile? Psht please - I’ll wait till someone requests that). People in the HN comments always accuse the Node ecosystem of making you re-invent the wheel for every project. But I thought that was just the way things were. Now I realize the truth to their words.
@@ -32,7 +32,7 @@ I can even think like a user while I’m engineering it. This is the true magic 
 
 ## Conclusion & Hypothesis
 I wonder if I’d started building software a decade earlier and defaulted to Rails I would have focused more on the user experience and business case of my products and found more success with them. Maybe I could have focused more on why instead of how.
-I wonder if this helped some of my favorite companies from the 2005-2012 era succeed when they were building their initial products with Rails (Airbnb, GitHub, Shopify, Twitch, Flexport etc). Did Rails enable their founders to build more efficiently and not worry about plumbing? Did it allow them to focus on what users wanted instead of plumbing? Is that why they were so successful? Paul Graham mentions [4] Lisp was key in helping Viaweb outmaneuver their competitors due to its efficiency a generation before that.
+I wonder if this helped some of my favorite companies from the 2005-2012 era succeed when they were building their initial products with Rails (Airbnb, GitHub, Shopify, Twitch, Flexport etc). Did Rails enable their founders to build more efficiently and not worry about plumbing? Did it allow them to focus on what users wanted instead of plumbing? Is that why they were so successful? Paul Graham mentions [3] Lisp was key in helping Viaweb outmaneuver their competitors due to its efficiency a generation before that.
 Or maybe high and low level frameworks make no difference: Maybe there’s just as many unsuccessful projects built with Rails, and the current Node-based products will be just as successful in a few years. Or maybe the internet market has matured so much since 2007 that it’s unfair to compare the cohorts.
 
 Time will tell whether Rails is going to make me build better and more successful products by focusing on the right things. Either way I feel like I’ve struck on a magical treasure from the past and will not willingly give it up.
@@ -43,6 +43,4 @@ Time will tell whether Rails is going to make me build better and more successfu
 
 [2] - https://www.joinatmos.com runs on Node/React/Redux/React Native
 
-[3] - https://www.reshore.app/
-
-[4] - http://paulgraham.com/avg.html
+[3] - http://paulgraham.com/avg.html
