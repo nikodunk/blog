@@ -36,10 +36,10 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Google Domains &amp;gt; Website &amp;gt; Add a Forwarding Address:&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;Forward from [foo].com&lt;/li&gt;
-&lt;li&gt;Forward to https://www.[foo].com&lt;/li&gt;
-&lt;li&gt;Permanent Redirect (301)&lt;/li&gt;
-&lt;li&gt;Forward Path so that [foo].com/about forwards to https://www.[foo].com/about&lt;/li&gt;
+&lt;li&gt;From Field: [foo].com&lt;/li&gt;
+&lt;li&gt;To Field: https://www.[foo].com&lt;/li&gt;
+&lt;li&gt;Check Permanent Redirect (301)&lt;/li&gt;
+&lt;li&gt;Check Forward Path (so that [foo].com/about forwards to https://www.[foo].com/about)&lt;/li&gt;
 &lt;li&gt;Leave SSL Enabled&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;

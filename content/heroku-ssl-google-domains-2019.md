@@ -19,10 +19,10 @@ This article is a "fork" of [David Gagne's great article here](https://medium.co
 2. **Google Domains > DNS > Resource records > Custom Records > Manage Custom Records:**
 	* www, CNAME, [DNS Target]
 3. **Google Domains > Website > Add a Forwarding Address:** 
-	* Forward from [foo].com
-	* Forward to https://www.[foo].com
-	* Permanent Redirect (301)
-	* Forward Path so that [foo].com/about forwards to https://www.[foo].com/about
+	* From Field: [foo].com
+	* To Field: https://www.[foo].com
+	* Check Permanent Redirect (301)
+	* Check Forward Path (so that [foo].com/about forwards to https://www.[foo].com/about)
 	* Leave SSL Enabled
 
 Boom. Wait a couple minutes, and you're done.
