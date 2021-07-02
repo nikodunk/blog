@@ -14,38 +14,43 @@ This article is a "fork" of [David Gagne's great article here](https://medium.co
 
 
 1. **Heroku, in your app > Settings > Add your domain:** 
-	* Add www.[foo].com (Note: www is KEY!) to your app 
+	* Add www.[foo.com] (Note: www is KEY!) to your app 
 	* Copy the [DNS Target] it gives you
+
+
 2. **Google Domains > DNS > Resource records > Custom Records > Manage Custom Records:**
 	* www, CNAME, [DNS Target]
-3. **Google Domains > Website > Add a Forwarding Address:** 
-	* From Field: [foo].com
-	* To Field: https://www.[foo].com
-	* Check Permanent Redirect (301)
-	* Check Forward Path (so that [foo].com/about forwards to https://www.[foo].com/about)
-	* Leave SSL Enabled
 
-Boom. Wait a couple minutes, and you're done.
+	Now you're basically set up. If someone goes to https://www.[foo.com] in a few minutes, they'll see your Heroku app hosted at [DNS Target]. But if they go to any other permutation (http, non-www) they'll get a 404 error. To solve this, we'll set up permanent redirects to the main version in the next step.
+
+3. **Google Domains > Website > Add a Forwarding Address:** 
+	* From Field: [foo.com]
+	* To Field: https://www.[foo.com]
+	* Permanent Redirect (301)
+	* Forward Path (so that [foo.com]/about forwards to https://www.[foo.com]/about)
+	* SSL Enabled
+
+Boom. Wait a couple minutes for DNS to catch up, and you're done.
 	
 	heroku certs:auto:refresh
 
-In Terminal to refresh, and check the Heroku Dashboard to confirm it's working. 
+In Terminal to refresh the SSL cert settings on Heroku, and check the Heroku Dashboard to confirm everything's working. 
 
-Confirm all the below permutations forward correctly:
+Confirm all the below permutations forward to your site correctly:
 
 https:
-* https://www.[foo].com
-* https://[foo].com
+* https://www.[foo.com]
+* https://[foo.com]
 
 http:
-* http://[foo].com
-* http://www.[foo].com 
+* http://www.[foo.com] 
+* http://[foo.com]
 
 paths:
-* http://[foo].com/about
-* https://www.[foo].com/about
+* https://www.[foo.com]/about
+* http://[foo.com]/about
 
 Have a great year!
 
 
-PS: So does this work for simply [foo].com and not www.[foo].com as we were using in Step 1? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( [Source 1: Heroku Docs](https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong) [Source 2: StackOverflow](https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku)
+PS: So does this work for the naked domain like [foo.com] instead of www.[foo.com]? No! Google Domains does not support ALIAS domains, and therefore in combination with Heroku does not support forwarding to the naked (aka. root aka. apex) domain. Sorry! This surprised me too :( [Source 1: Heroku Docs](https://help.heroku.com/NH44MODG/my-root-domain-isn-t-working-what-s-wrong) | [Source 2: StackOverflow](https://stackoverflow.com/questions/43197176/how-to-set-up-ssl-for-naked-domain-from-google-domains-to-heroku)
