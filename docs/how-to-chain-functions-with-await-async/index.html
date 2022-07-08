@@ -80,98 +80,98 @@
 <li>Finally, <code>res.send()</code> must not be sent until <code>saveToCloudFirestore()</code> and <code>sendEmailInSendgrid()</code> have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, same pattern: We save the <code>saveToCloudFireStore()</code> and <code>sendEmailInSendgrid()</code> responses (the stuff they return) into a variable <em>whose sole purpose this time round is to mark when the above function is done</em>. This in a sense replaces a <code>.then()</code>: it waits till both of these variables (<code>savedToCloud</code> and <code>sentEmail</code>) &ldquo;have arrived&rdquo; (aka their Promise has been resolved), then runs <code>res.send()</code> with them. FYI this is so that Firebase/SendGrid know that cloud function has worked and don&rsquo;t re-send endlessly.</li>
 <li>For readability&rsquo;s sake, I have <strong>removed the try/catch wrappings</strong> here that you should be doing in practice. You should never not catch errors, but removing them makes the async/await concept easier to understand.</li>
 </ul>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// this is the cloud function you can call over HTTP. It is basically for email relay:
-</span><span style="color:#75715e">// it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,
-</span><span style="color:#75715e">// saves to FireStore and sends and email with sendgrid.
-</span><span style="color:#75715e">// Finally, it sends a res.send() to end the cloud function
-</span><span style="color:#75715e"></span>
-<span style="color:#75715e">// {* import a bunch of shit *}
-</span><span style="color:#75715e"></span>
-<span style="color:#75715e">// main function
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">exports</span>.<span style="color:#a6e22e">emailFunction</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">functions</span>.<span style="color:#a6e22e">https</span>.<span style="color:#a6e22e">onRequest</span>(<span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">res</span>) =&gt; {
-  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fields</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getFieldsFromRequest</span>(<span style="color:#a6e22e">req</span>); <span style="color:#75715e">// sync
-</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseId</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">extractCourseIdFromEmailAddress</span>(<span style="color:#a6e22e">fields</span>); <span style="color:#75715e">// sync
-</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseEmail</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">getEmailOfCourseWithCourseId</span>(<span style="color:#a6e22e">courseId</span>); <span style="color:#75715e">// async
-</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">savedToCloud</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">saveToCloudFirestore</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">courseId</span>); <span style="color:#75715e">// async, will run once courseEmail above has been populated (aka Promise has been returned)
-</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">sentEmail</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">sendEmailWithSendgrid</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>);  <span style="color:#75715e">// async, will also run once courseEmail above has been populated (aka Promise has been returned)
-</span><span style="color:#75715e"></span>  <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">status</span>(<span style="color:#ae81ff">200</span>).<span style="color:#a6e22e">send</span>(<span style="color:#a6e22e">savedToCloud</span>, <span style="color:#a6e22e">sentEmail</span>); <span style="color:#75715e">// will run once sentEmail and saveToCloud have been populated by their functions (aka their functions&#39; Promises have been resolved).
-</span><span style="color:#75715e"></span>});
-
-<span style="color:#75715e">// Helper functions below
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getFieldsFromRequest</span>(<span style="color:#a6e22e">req</span>) { <span style="color:#75715e">// sync
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fields</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">readTheFieldsFromReqWithBusboy</span>(<span style="color:#a6e22e">req</span>)
-    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fields</span>;
-}
-
-<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">extractCourseIdFromEmailAddress</span>(<span style="color:#a6e22e">fields</span>) { <span style="color:#75715e">// sync
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseId</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">to</span>.<span style="color:#a6e22e">substring</span>(<span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">to</span>.<span style="color:#a6e22e">indexOf</span>(<span style="color:#e6db74">&#39;@&#39;</span>));
-    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">courseId</span>;
-}
-
-<span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getEmailOfCourseWithCourseId</span>(<span style="color:#a6e22e">courseId</span>) { <span style="color:#75715e">// async important
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseData</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">database</span>.<span style="color:#a6e22e">get</span>(<span style="color:#a6e22e">courseId</span>)
-    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseEmail</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">courseData</span>.<span style="color:#a6e22e">email</span>;
-    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">courseEmail</span>; <span style="color:#75715e">// due to function being labeled async above, this is the equivalent of wrapping the whole function in &#39;return new Promise(resolve) =&gt; {}&#39; and then returning a &#39;resolve(result)&#39;
-</span><span style="color:#75715e"></span>}
-
-<span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">sendEmailWithSendgrid</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>) { <span style="color:#75715e">// async important
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">msg</span> <span style="color:#f92672">=</span> {<span style="color:#a6e22e">to</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">from</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">from</span>, <span style="color:#a6e22e">text</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">text</span>}
-    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">sentEmail</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">sendgrid</span>.<span style="color:#a6e22e">send</span>(<span style="color:#a6e22e">msg</span>)
-    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">sentEmail</span>; <span style="color:#75715e">// due to function being labeled async above, this is the equivalent of wrapping the whole function in &#39;return new Promise(resolve) =&gt; {}&#39; and then returning a &#39;resolve(result)&#39;
-</span><span style="color:#75715e"></span>}
-
-<span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">saveToCloudFirestore</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">courseId</span>) { <span style="color:#75715e">// async important
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">savedToCloud</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">database</span>.<span style="color:#a6e22e">add</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">courseId</span>)
-    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">savedToCloud</span>;
-}</code></pre></td></tr></table>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// this is the cloud function you can call over HTTP. It is basically for email relay:
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// saves to FireStore and sends and email with sendgrid.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Finally, it sends a res.send() to end the cloud function
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// {* import a bunch of shit *}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// main function
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">exports</span>.<span style="color:#a6e22e">emailFunction</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">functions</span>.<span style="color:#a6e22e">https</span>.<span style="color:#a6e22e">onRequest</span>(<span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">res</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fields</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getFieldsFromRequest</span>(<span style="color:#a6e22e">req</span>); <span style="color:#75715e">// sync
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseId</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">extractCourseIdFromEmailAddress</span>(<span style="color:#a6e22e">fields</span>); <span style="color:#75715e">// sync
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseEmail</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">getEmailOfCourseWithCourseId</span>(<span style="color:#a6e22e">courseId</span>); <span style="color:#75715e">// async
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">savedToCloud</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">saveToCloudFirestore</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">courseId</span>); <span style="color:#75715e">// async, will run once courseEmail above has been populated (aka Promise has been returned)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">sentEmail</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">sendEmailWithSendgrid</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>);  <span style="color:#75715e">// async, will also run once courseEmail above has been populated (aka Promise has been returned)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">status</span>(<span style="color:#ae81ff">200</span>).<span style="color:#a6e22e">send</span>(<span style="color:#a6e22e">savedToCloud</span>, <span style="color:#a6e22e">sentEmail</span>); <span style="color:#75715e">// will run once sentEmail and saveToCloud have been populated by their functions (aka their functions&#39; Promises have been resolved).
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Helper functions below
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getFieldsFromRequest</span>(<span style="color:#a6e22e">req</span>) { <span style="color:#75715e">// sync
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fields</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">readTheFieldsFromReqWithBusboy</span>(<span style="color:#a6e22e">req</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fields</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">extractCourseIdFromEmailAddress</span>(<span style="color:#a6e22e">fields</span>) { <span style="color:#75715e">// sync
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseId</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">to</span>.<span style="color:#a6e22e">substring</span>(<span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">to</span>.<span style="color:#a6e22e">indexOf</span>(<span style="color:#e6db74">&#39;@&#39;</span>));
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">courseId</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getEmailOfCourseWithCourseId</span>(<span style="color:#a6e22e">courseId</span>) { <span style="color:#75715e">// async important
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseData</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">database</span>.<span style="color:#a6e22e">get</span>(<span style="color:#a6e22e">courseId</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">courseEmail</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">courseData</span>.<span style="color:#a6e22e">email</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">courseEmail</span>; <span style="color:#75715e">// due to function being labeled async above, this is the equivalent of wrapping the whole function in &#39;return new Promise(resolve) =&gt; {}&#39; and then returning a &#39;resolve(result)&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">sendEmailWithSendgrid</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>) { <span style="color:#75715e">// async important
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">msg</span> <span style="color:#f92672">=</span> {<span style="color:#a6e22e">to</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">from</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">from</span>, <span style="color:#a6e22e">text</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">fields</span>.<span style="color:#a6e22e">text</span>}
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">sentEmail</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">sendgrid</span>.<span style="color:#a6e22e">send</span>(<span style="color:#a6e22e">msg</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">sentEmail</span>; <span style="color:#75715e">// due to function being labeled async above, this is the equivalent of wrapping the whole function in &#39;return new Promise(resolve) =&gt; {}&#39; and then returning a &#39;resolve(result)&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">saveToCloudFirestore</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">courseId</span>) { <span style="color:#75715e">// async important
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">savedToCloud</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">database</span>.<span style="color:#a6e22e">add</span>(<span style="color:#a6e22e">fields</span>, <span style="color:#a6e22e">courseEmail</span>, <span style="color:#a6e22e">courseId</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">savedToCloud</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Again, <strong>wrap the 3 last async functions and the main function in try{}catch{} to catch errors</strong>. Also, the database code cannot be copied over like this – it&rsquo;s just for illustrative purposes. You have been warned!</p>
