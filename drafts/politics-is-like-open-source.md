@@ -9,13 +9,13 @@ image: /chicago/Winslow_Homer_The_Herring_Net.jpg
 How I discovered centrism through open-source software.
 How the US political parties map to linux distributions.
 
-Arch <> Democrats:
+Arch <> Left:
 
-    - too far forward-looking and unstable.
+    - Too far forward-looking and unstable.
     - City experiments.
     - Dismantling capitalism.
 
-Debian <> Republicans:
+Debian <> Right:
 
     - People wanting the past and getting frustrated at progress.
     - Fearful of breakage leads them to dig in.
