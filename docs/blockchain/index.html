@@ -95,12 +95,10 @@ Legacy in software is bad. It is a dirty word.</p>
 <p>Migrate your contract in the Truffle Console with</p>
 <pre><code>migrate	--reset
 </code></pre>
-<p>Test the contract from the Truffle Console by ADDING A CONTACT:</p>
-<pre><code>contactStorage.deployed().then(instance =&gt; instance.addContacts('George Jetson'))
-</code></pre>
-<p>Test the contract from the Truffle Console by GETTING YOUR CONTACTS:</p>
-<pre><code>contactStorage.deployed().then(instance =&gt; instance.getContacts())
-</code></pre>
+<p>Test the contract from the Truffle Console by ADDING A CONTACT:
+contactStorage.deployed().then(instance =&gt; instance.addContacts(&lsquo;George Jetson&rsquo;))</p>
+<p>Test the contract from the Truffle Console by GETTING YOUR CONTACTS:
+contactStorage.deployed().then(instance =&gt; instance.getContacts())</p>
 <p>Or, open a new terminal tab (or close the Truffle Console with Ctrl + C) and run the React frontend:</p>
 <pre><code>npm start
 </code></pre>
@@ -109,9 +107,8 @@ Legacy in software is bad. It is a dirty word.</p>
 <p>Sync with the testnet blockchain by opening terminal and running:</p>
 <pre><code>geth --rinkeby --rpc --rpcapi db,eth,net,web3,personal
 </code></pre>
-<p>in new tab, compile and deploy contract</p>
-<pre><code>truffle console --network rinkeby
-</code></pre>
+<p>in new tab, compile and deploy contract
+truffle console &ndash;network rinkeby</p>
 <p>if you don&rsquo;t have an account:</p>
 <pre><code>x = web3.personal.newAccount('pw')
 web3.eth.getBalance(&quot;yourAcctNumber&quot;)
@@ -127,19 +124,16 @@ web3.personal.unlockAccount(&quot;0x43928ec2bb4ea1eb6a77a5fd9caf36ca7b15600f&quo
 
 migrate --reset --network rinkeby
 </code></pre>
-<p>Test the contract from the Truffle Console by ADDING A CONTACT:</p>
-<pre><code>contactStorage.deployed().then(instance =&gt; instance.addContacts('George Jetson'))
-</code></pre>
-<p>Test the contract from the Truffle Console by GETTING YOUR CONTACTS:</p>
-<pre><code>contactStorage.deployed().then(instance =&gt; instance.getContacts())
-</code></pre>
+<p>Test the contract from the Truffle Console by ADDING A CONTACT:
+contactStorage.deployed().then(instance =&gt; instance.addContacts(&lsquo;George Jetson&rsquo;))</p>
+<p>Test the contract from the Truffle Console by GETTING YOUR CONTACTS:
+contactStorage.deployed().then(instance =&gt; instance.getContacts())</p>
 <p>Close Ganache, Truffle Console as the contract&rsquo;s now live in Rinkeby!</p>
-<p>Serve your React frontend by opening a new terminal and running</p>
-<pre><code>npm start
-</code></pre>
+<p>Serve your React frontend by opening a new terminal and running
+npm start</p>
 <p>to deploy to github pages:</p>
 <p>change homepage to reflect your github page:</p>
-<pre><code>&quot;homepage&quot;: &quot;http://nikodunk.github.io/contactStorage&quot;,	
+<pre><code>&quot;homepage&quot;: &quot;http://nikodunk.github.io/contactStorage&quot;,
 </code></pre>
 <p>Then run</p>
 <pre><code>npm run build

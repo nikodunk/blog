@@ -48,9 +48,8 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Boom. Wait a couple minutes for DNS to catch up, and you&amp;rsquo;re done.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;heroku certs:auto:refresh
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Boom. Wait a couple minutes for DNS to catch up, and you&amp;rsquo;re done.
+heroku certs:auto:refresh&lt;/p&gt;
 &lt;p&gt;In Terminal to refresh the SSL cert settings on Heroku, and check the Heroku Dashboard to confirm everything&amp;rsquo;s working.&lt;/p&gt;
 &lt;p&gt;Confirm all the below permutations forward to your site correctly:&lt;/p&gt;
 &lt;p&gt;https:&lt;/p&gt;
@@ -575,10 +574,10 @@ Stats:
 &lt;hr&gt;
 &lt;p&gt;Student project, Thomas Meyer and I put in many man-hours into the leather-, copper- and woodwork necessary for this project.&lt;/p&gt;
 &lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/loungeforceone.jpg&#34;&gt;  
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/loungeforcetwo.jpg&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/loungeforcetwo.jpg&#34;&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;other-web-tech-demos&#34;&gt;Other web tech demos&lt;/h3&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo2.gif&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo2.gif&#34;&gt;
 &lt;p&gt;Focuswriter – VR productivity app for distraction-free writing, written in reactVR. Look around and type away as the text wraps itself around you. Be sure to click on the moon above your head to switch to GALAXYMODE.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Tech
 * ReactVR
@@ -595,13 +594,13 @@ Stats:
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/simple-to-do-react&#34;&gt;CollaborativeTodo Web App&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo.gif&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo.gif&#34;&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/nikodunk/solar-search-swift&#34;&gt;Solar Summon&lt;/a&gt; – Solar search for iOS drawing from MapKit, and &lt;a href=&#34;https://github.com/nikodunk/reactnativesolar&#34;&gt;Solar Summon&lt;/a&gt; – Later Rebuilt in React Native. These were my first iOS projects in Swift and React Native.&lt;/p&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo4.gif&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo4.gif&#34;&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;goodgood--ewg-amazon-mashup--ewg-database-amazon-search&#34;&gt;Goodgood | EWG-Amazon Mashup – EWG Database Amazon Search&lt;/h3&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_goodgood.gif&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_goodgood.gif&#34;&gt;
 &lt;p&gt;Sustainable Cosmetic Price Tracker, if you will. GoodGood, a software project to help families find skinsafe products for their loved ones. Scrapes EWGs database and and finds their certified products on Amazon, to make it easier to find EWG&amp;rsquo;s safe skincare products on Amazon.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Tech
 * Angular 2 app
@@ -614,7 +613,7 @@ Stats:
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;-superjuice--kayak-for-energy&#34;&gt;⚡️ Superjuice | Kayak for Energy&lt;/h3&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_superjuice.gif&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo_superjuice.gif&#34;&gt;
 &lt;p&gt;Price comparison for sustainable energy – The initial version of the above projects (and my first software project!) revolved around price comparison for energy. The US had a solution for apartment renters to go solar easily: You can “virtually” buy energy from renewable farms upstate or out in the ocean. The energy you buy is credited to your electric bill every month. Comparing prices is extremely difficult though. The initial project pitch was this. Superjuice was an energy price search engine that helps apartment owners find the best rates. It does this by indexing all power provider prices in the NY area in real-time. My first online project.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Tech
 * Angular 2 App
@@ -622,7 +621,7 @@ Stats:
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;insureum--insurance-with-smart-contracts-2nd-place-angelhack-sf-2018-consensys-prize&#34;&gt;Insureum | Insurance with smart contracts – 2nd place Angelhack SF 2018 (Consensys prize)&lt;/h2&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo insureum.gif&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/demo insureum.gif&#34;&gt;
 &lt;p&gt;Ethereum smart contract to make insurance cheaper, easier and less fraud-prone. We built a smart contract that you can pay in to every month, and then vetted hospitals (and only they!) can directly withdraw reimbursements for your treatment from the contract, once they&amp;rsquo;ve verified that you&amp;rsquo;ve paid up.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team
 * Two guys from the hackathon (idea)
@@ -640,7 +639,7 @@ Stats
 &lt;p&gt;&lt;a href=&#34;https://insureum.netlify.com&#34;&gt;Insureum Web App&lt;/a&gt; (note: requires &lt;a href=&#34;http://metamask.io&#34;&gt;Metamask&lt;/a&gt; on desktop or &lt;a href=&#34;http://toshi.org&#34;&gt;Toshi&lt;/a&gt; on mobile) to view)&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;sensorcoin--google-contacts-on-the-blockchain&#34;&gt;Sensorcoin | Google Contacts on the blockchain&lt;/h2&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/ethereum.gif&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/ethereum.gif&#34;&gt;
 &lt;p&gt;From November to January Phil Chacko and I worked on various other projects. All the following require &lt;a href=&#34;http://metamask.io&#34;&gt;Metamask&lt;/a&gt; on desktop or &lt;a href=&#34;http://toshi.org&#34;&gt;Toshi&lt;/a&gt; on mobile).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://nikodunk.github.io/escron&#34;&gt;ESCRON&lt;/a&gt;&lt;/li&gt;
@@ -652,7 +651,7 @@ Stats
 &lt;h1 id=&#34;work&#34;&gt;Work&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;building-a-startup-accelerator-at-swissnexsf&#34;&gt;Building a startup accelerator at swissnexSF&lt;/h3&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/accelerator/moneyshot1.jpg&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/accelerator/moneyshot1.jpg&#34;&gt;
 &lt;p&gt;Next to my learnings described &lt;a href=&#34;https://nikodunk.com/accelerator&#34;&gt;here&lt;/a&gt;, and numerous lessons in marketing, project management, team, networks, et al, I&amp;rsquo;d like to hold on to one quote from a superior that will stick with me for a while:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;The degree to which you can deploy a digital solution is limited by the network in which you can deploy it.
 &lt;/code&gt;&lt;/pre&gt;
@@ -677,12 +676,12 @@ Stats
 &lt;hr&gt;
 &lt;h3 id=&#34;employment-at-herzog--de-meuron&#34;&gt;Employment at Herzog &amp;amp; de Meuron&lt;/h3&gt;
 &lt;p&gt;When working professionally, designed facades and interiors mostly for competition work. This facade was designed by the team I was on at a large architecture firm in Basel, Switzerland. We won that competition.&lt;/p&gt;
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/hillerod.jpg&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/hillerod.jpg&#34;&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;architectureengineering-at-eth-zurich&#34;&gt;Architecture/Engineering at ETH Zurich&lt;/h3&gt;
 &lt;p&gt;Architecture school project, inspired by Tanizaki’s “In Praise of Shadows”. This project reflected the poetic side of architecture – most of the school was engineering.&lt;/p&gt;
 &lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/sik.jpg&#34;&gt;  
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/emerson.jpg&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/emerson.jpg&#34;&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;uxui-contracting-in-sf&#34;&gt;UX/UI contracting in SF&lt;/h3&gt;
 &lt;p&gt;I learned a huge amount about dealing with clients, together with my friend Zebulon Reynolds in San Francisco. The game was an iOS Flight Simulator.&lt;/p&gt;
@@ -691,7 +690,7 @@ Stats
 * Niko
 &lt;/code&gt;&lt;/pre&gt;
 &lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/infinite.jpg&#34;&gt;  
-&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/infinite.gif&#34;&gt;  
+&lt;img class=&#34;lazy&#34; data-src=&#34;https://nikodunk.com/projects/infinite.gif&#34;&gt;
 &lt;h1 id=&#34;the-beginning-of-time&#34;&gt;The beginning of time.&lt;/h1&gt;
 &lt;hr&gt;
 &lt;p&gt;You made it this far!&lt;/p&gt;
@@ -718,8 +717,7 @@ Stats
 			// Possibly fall back to a more compatible method here
 		}
 	});
-&lt;/script&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
+&lt;/script&gt;
 </content>
       
     </item>
@@ -957,7 +955,7 @@ We believe that most people working in energy, solar, and climate change have be
       
       <content>&lt;ul&gt;
 &lt;li&gt;Google will be replaced at an ever increasing rate by DuckDuckGo. I&amp;rsquo;ve switched to them full-time for the 3rd or 4th time, but &lt;em&gt;this&lt;/em&gt; time feel no need to go back. DuckDuckGo has all the developer mindshare, and their growth is &lt;a href=&#34;https://duckduckgo.com/traffic&#34;&gt;exponential&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Manufacturing, and having it close by, will become increasingly important again. So far we&amp;rsquo;ve said &amp;ldquo;let&amp;rsquo;s outsource this&amp;rdquo;, but we&amp;rsquo;re seeing the drag on innovation by not being able to make our own things close by. &lt;a href=&#34;https://youtu.be/r46x_ti__vs?t=1717&#34;&gt;Tesla&lt;/a&gt; was incubated at Lotus in the UK because they  have small workshops and supply chains. &lt;a href=&#34;https://www.omgubuntu.co.uk/2019/12/purism-announce-1999-librem-5-usa-same-librem-5-just-made-in-america&#34;&gt;Phones&lt;/a&gt; are being made in Texas, I predict all nations will re-focus on making their own Shenzhen. Probably with mixed results, same as for the last decade everyone tried to copy Silicon Valley.&lt;/li&gt;
+&lt;li&gt;Manufacturing, and having it close by, will become increasingly important again. So far we&amp;rsquo;ve said &amp;ldquo;let&amp;rsquo;s outsource this&amp;rdquo;, but we&amp;rsquo;re seeing the drag on innovation by not being able to make our own things close by. &lt;a href=&#34;https://youtu.be/r46x_ti__vs?t=1717&#34;&gt;Tesla&lt;/a&gt; was incubated at Lotus in the UK because they have small workshops and supply chains. &lt;a href=&#34;https://www.omgubuntu.co.uk/2019/12/purism-announce-1999-librem-5-usa-same-librem-5-just-made-in-america&#34;&gt;Phones&lt;/a&gt; are being made in Texas, I predict all nations will re-focus on making their own Shenzhen. Probably with mixed results, same as for the last decade everyone tried to copy Silicon Valley.&lt;/li&gt;
 &lt;li&gt;Electric Vehicles, though that&amp;rsquo;s a pretty obvious one at this point. 6 months ago when the following article was written though, everyone was calling them crazy. Read it &lt;a href=&#34;https://nikodunk.com/4-reasons-why-electric-vehicles-will-dominate-sooner-than-you-think/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Software as we know it is currently important but I believe will become increasingly commoditized and unimportant. Already no-code AI, web-apps and games like Roblox that help you build worlds code-free are becoming a thing.&lt;/li&gt;
 &lt;li&gt;Cities will take the political and social lead away from states. See also &lt;a href=&#34;https://nikodunk.com/cities/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
@@ -1333,44 +1331,44 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// saves to FireStore and sends and email with sendgrid.
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Finally, it sends a res.send() to end the cloud function
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// {* import a bunch of shit *}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// {_ import a bunch of shit _}
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// main function
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;exports&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;emailFunction&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;functions&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;https&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;onRequest&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;) =&amp;gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getFieldsFromRequest&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// sync
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;extractCourseIdFromEmailAddress&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// sync
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getEmailOfCourseWithCourseId&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// async
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;saveToCloudFirestore&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// async, will run once courseEmail above has been populated (aka Promise has been returned)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sendEmailWithSendgrid&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;);  &lt;span style=&#34;color:#75715e&#34;&gt;// async, will also run once courseEmail above has been populated (aka Promise has been returned)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;status&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;send&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// will run once sentEmail and saveToCloud have been populated by their functions (aka their functions&amp;#39; Promises have been resolved).
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getFieldsFromRequest&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// sync
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;extractCourseIdFromEmailAddress&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// sync
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getEmailOfCourseWithCourseId&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// async
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;saveToCloudFirestore&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// async, will run once courseEmail above has been populated (aka Promise has been returned)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sendEmailWithSendgrid&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// async, will also run once courseEmail above has been populated (aka Promise has been returned)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;status&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;send&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// will run once sentEmail and saveToCloud have been populated by their functions (aka their functions&amp;#39; Promises have been resolved).
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;});
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Helper functions below
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getFieldsFromRequest&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;) { &lt;span style=&#34;color:#75715e&#34;&gt;// sync
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;readTheFieldsFromReqWithBusboy&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;readTheFieldsFromReqWithBusboy&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;extractCourseIdFromEmailAddress&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;) { &lt;span style=&#34;color:#75715e&#34;&gt;// sync
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;substring&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;indexOf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;@&amp;#39;&lt;/span&gt;));
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;substring&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;indexOf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;@&amp;#39;&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getEmailOfCourseWithCourseId&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;) { &lt;span style=&#34;color:#75715e&#34;&gt;// async important
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseData&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;database&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseData&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;email&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// due to function being labeled async above, this is the equivalent of wrapping the whole function in &amp;#39;return new Promise(resolve) =&amp;gt; {}&amp;#39; and then returning a &amp;#39;resolve(result)&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseData&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;database&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseData&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;email&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// due to function being labeled async above, this is the equivalent of wrapping the whole function in &amp;#39;return new Promise(resolve) =&amp;gt; {}&amp;#39; and then returning a &amp;#39;resolve(result)&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sendEmailWithSendgrid&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;) { &lt;span style=&#34;color:#75715e&#34;&gt;// async important
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;text&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;text&lt;/span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sendgrid&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;send&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// due to function being labeled async above, this is the equivalent of wrapping the whole function in &amp;#39;return new Promise(resolve) =&amp;gt; {}&amp;#39; and then returning a &amp;#39;resolve(result)&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;text&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;text&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sendgrid&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;send&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sentEmail&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// due to function being labeled async above, this is the equivalent of wrapping the whole function in &amp;#39;return new Promise(resolve) =&amp;gt; {}&amp;#39; and then returning a &amp;#39;resolve(result)&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;saveToCloudFirestore&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;) { &lt;span style=&#34;color:#75715e&#34;&gt;// async important
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;database&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;database&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;fields&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseEmail&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;courseId&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;savedToCloud&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1566,6 +1564,26 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
     </item>
     
     <item>
+      <title>How starting a startup is like starting a fire</title>
+      <link>https://nikodunk.com/2019-05-29-starting-a-startup-is-like-starting-a-fire/</link>
+      <pubDate>Wed, 29 May 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/2019-05-29-starting-a-startup-is-like-starting-a-fire/</guid>
+      <description></description>
+      
+      <content>&lt;ul&gt;
+&lt;li&gt;You need to gain critical heat to achieve ignition&lt;/li&gt;
+&lt;li&gt;If you spread your fire-starting efforts over too much surface, you have a bunch of lukewarm paper and wood and not a fire.&lt;/li&gt;
+&lt;li&gt;If you have a bunch of damp wood, your job will be harder&lt;/li&gt;
+&lt;li&gt;You need protection from outside elements like wind and rain.&lt;/li&gt;
+&lt;li&gt;It takes time&lt;/li&gt;
+&lt;li&gt;It gets easier as you practice.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>May 2019 Startup Update</title>
       <link>https://nikodunk.com/startup-updates-7/</link>
       <pubDate>Wed, 29 May 2019 08:00:00 -0700</pubDate>
@@ -1715,7 +1733,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;p&gt;&lt;strong&gt;Experiment: Sell delivery service at supercharger stations to people sitting in their cars (with sign, walk up to windows in T-Shirt so not sketched out).&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;20 cars go through per hour on average.&lt;/li&gt;
-&lt;li&gt;5 cars per hour convert * $8 * 10 hours = $400. Pay someone $150 of that.&lt;/li&gt;
+&lt;li&gt;5 cars per hour convert _ $8 _ 10 hours = $400. Pay someone $150 of that.&lt;/li&gt;
 &lt;li&gt;&lt;img src=&#34;https://nikodunk.com/startup-updates-7/5_experiment.JPG&#34; alt=&#34;&#34;&gt; The flyer hustle with a matching electrify T-shirt at the supercharger.&lt;/li&gt;
 &lt;li&gt;Give people flyers and tell them to text a number for half price on first delivery – launching next week. Make a run every half hour.
 &lt;ul&gt;
@@ -1730,6 +1748,26 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>My Next Phone may be a watch</title>
+      <link>https://nikodunk.com/2019-05-05-my-next-phone-is-a-watch/</link>
+      <pubDate>Sun, 05 May 2019 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/2019-05-05-my-next-phone-is-a-watch/</guid>
+      <description></description>
+      
+      <content>&lt;ul&gt;
+&lt;li&gt;Apple Watch + Airpods may the future, since cellular reception was added a few years ago.&lt;/li&gt;
+&lt;li&gt;I prefer a what I&amp;rsquo;d like to coin a &amp;ldquo;heads-up lifestyle&amp;rdquo; instead of a heads-down one.&lt;/li&gt;
+&lt;li&gt;I still only use the 4 killer features of the original iPhone, which are in the Apple watch too: Phone, Messaging, Maps, Music &amp;amp; Podcasts&lt;/li&gt;
+&lt;li&gt;Apps I can use on my desktop now thanks to M1 Catalina.&lt;/li&gt;
+&lt;li&gt;Typing and web is easier on my desktop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The only thing that may convince me otherwise, is if I can replace my smarphone with a smartphone that &lt;a href=&#34;https://blogs.gnome.org/shell-dev/2022/05/30/towards-gnome-shell-on-mobile/&#34;&gt;respects my privacy&lt;/a&gt;&lt;/p&gt;
 </content>
       
     </item>
@@ -2114,7 +2152,7 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;ul&gt;
 &lt;li&gt;Sales/Customer-Month: We&amp;rsquo;ve talked to 5 practice groups this month, added a 6th group today alone, and have signed up one practice from the largest group for X licenses (X * $99). We&amp;rsquo;re presenting to 20 more potentials from the same practice group on Feb 27th.&lt;/li&gt;
 &lt;li&gt;Product: This was all done with a video of the MVP (see last month), and live demos of the MVP over Skype. We&amp;rsquo;ve built demo-able &amp;ldquo;Turbotax for medical forms&amp;rdquo; with 1 working form incl. PDF export and persistent data. Still needs user system, more forms, functioning reporting dashboard (currently static page). Now that we have first customer signed on we&amp;rsquo;re going to build this.&lt;/li&gt;
-&lt;li&gt;Learnings: From push-backs from the sales calls we&amp;rsquo;ve learned that the main complaints were: 1) No EMR integration (had a call with EMR, they&amp;rsquo;re holding the data hostage), 2) price (we were initially asking $99/form/practice/month &amp;hellip; this was too much), and 3) &amp;ldquo;let me run this by the other practices&amp;rdquo;. We couldn&amp;rsquo;t solve 1) but turns out the first customer STILL signed on and many are interested regardless, and we solved 2) by pricing 5 forms for $99 (build forms once, run anywhere so that should be fine), and solved 3) by offering   the pricing from 2) for as a limited time offer to add pressure and overcome &amp;ldquo;let me ask others&amp;rdquo; syndrome – it moved the first practice over the finish line.&lt;/li&gt;
+&lt;li&gt;Learnings: From push-backs from the sales calls we&amp;rsquo;ve learned that the main complaints were: 1) No EMR integration (had a call with EMR, they&amp;rsquo;re holding the data hostage), 2) price (we were initially asking $99/form/practice/month &amp;hellip; this was too much), and 3) &amp;ldquo;let me run this by the other practices&amp;rdquo;. We couldn&amp;rsquo;t solve 1) but turns out the first customer STILL signed on and many are interested regardless, and we solved 2) by pricing 5 forms for $99 (build forms once, run anywhere so that should be fine), and solved 3) by offering the pricing from 2) for as a limited time offer to add pressure and overcome &amp;ldquo;let me ask others&amp;rdquo; syndrome – it moved the first practice over the finish line.&lt;/li&gt;
 &lt;li&gt;We started working on this new concept on December 10th, had a prototype ready by December 18th, and had our first customer demo Jan 8th. We have a sign-up incl. pricing Jan 23rd.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;bad&#34;&gt;Bad&lt;/h1&gt;
@@ -2246,7 +2284,7 @@ incorporated LLC with stripe atlas (more like aside project currently but don&am
       <guid>https://nikodunk.com/accelerator/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;strong&gt;Originally posted&lt;/strong&gt;  as &amp;ldquo;8 learnings for startups (from swissnex SF Startup Camp)&amp;rdquo; at &lt;a href=&#34;https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco&#34; target=&#34;_blank&#34;&gt;startupticker.ch&lt;/a&gt; and the &lt;a href=&#34;https://nextrends.swissnexsanfrancisco.org/8-learnings-from-swiss-start-ups-in-silicon-valley/&#34; target=&#34;_blank&#34;&gt;swissnex blog&lt;/a&gt;.&lt;/p&gt;
+      <content>&lt;p&gt;&lt;strong&gt;Originally posted&lt;/strong&gt; as &amp;ldquo;8 learnings for startups (from swissnex SF Startup Camp)&amp;rdquo; at &lt;a href=&#34;https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco&#34; target=&#34;_blank&#34;&gt;startupticker.ch&lt;/a&gt; and the &lt;a href=&#34;https://nextrends.swissnexsanfrancisco.org/8-learnings-from-swiss-start-ups-in-silicon-valley/&#34; target=&#34;_blank&#34;&gt;swissnex blog&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;This piece was written and posted at my time at swissnex SF. With support from incredible swissnex SF and global teams, we scaled the program from 8-10 companies per year with 2 partners to 16-24 startups per year with 5 partners. We achieved this by shifting our model from 1:1 consultancy to bi-annual camp cohorts with demo days, and through improvements to startup marketing channels, internal processes, and new connections in the ecosystem. Other links from the time:&lt;/p&gt;
 &lt;p&gt;• &lt;a href=&#34;https://www.swissnexsf.org/startups&#34;&gt;https://www.swissnexsf.org/startups&lt;/a&gt;
@@ -2263,8 +2301,8 @@ incorporated LLC with stripe atlas (more like aside project currently but don&am
 &lt;h1 id=&#34;the-swissnex-sf-startup-camp-approach&#34;&gt;The swissnex SF Startup Camp approach&lt;/h1&gt;
 &lt;p&gt;As the markets in both Switzerland and the US have changed, we realized that startups benefitted from talking to others about their experiences in the Bay Area, and could help &amp;rsquo;translate&amp;rsquo; those learnings for the Swiss environment. That&amp;rsquo;s why we&amp;rsquo;ve restructured the program to give startups an opportunity to explore on their own, but process those learnings for a Swiss context alongside a Swiss cohort. Our 3-4-week program in February and August consists of:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Monday 9.30-11a – Office Hours&lt;/b&gt; (similar to YC&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=syoqjYLDs48&#34;&gt;Office Hours&lt;/a&gt;, startups can ask questions, share learnings and solve each others&amp;rsquo; current challenges –  led by the swissnex team.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Wednesday 9.30-11a –  Breakfast Fireside Chats&lt;/b&gt; (similar to YC&amp;rsquo;s Dinners) we invite external speakers, who are currently building a company or have done so in recent years, to share their insights. They freely explain tips and hacks, and share their journey. Excerpts from these sessions are below.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Monday 9.30-11a – Office Hours&lt;/b&gt; (similar to YC&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=syoqjYLDs48&#34;&gt;Office Hours&lt;/a&gt;, startups can ask questions, share learnings and solve each others&amp;rsquo; current challenges – led by the swissnex team.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Wednesday 9.30-11a – Breakfast Fireside Chats&lt;/b&gt; (similar to YC&amp;rsquo;s Dinners) we invite external speakers, who are currently building a company or have done so in recent years, to share their insights. They freely explain tips and hacks, and share their journey. Excerpts from these sessions are below.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Friday 9.30-11a – Toolkits&lt;/b&gt;, similar to to 500 startups&amp;rsquo; Toolkits, are tactical sessions for learning U.S. specific skills, as opposed to the speaker’s journey in the fireside chats. We share stories and tips from these sessions below.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Workspace&lt;/b&gt; – Startups can freely work from the space and schedule meetings outside of the sessions, and of course attend meetups/events/network in the evenings.&lt;/li&gt;
 &lt;/ul&gt;
@@ -2289,7 +2327,7 @@ incorporated LLC with stripe atlas (more like aside project currently but don&am
 &lt;p&gt;The founding team of Atlasrun helped a non-profit for many years, free of charge, simply because they liked working with them and they had a cool mission. They also had a great network and introduced Atlasun to two influential contacts – who are now two of Atlasrun’s main clients. &lt;b&gt;Good karma will come back to you!&lt;/b&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-6-a-demo-says-more-than-1000-slides&#34;&gt;Learning #6: A demo says more than 1000 slides.&lt;/h2&gt;
 &lt;p&gt;(Stephan Eberle, &lt;a href=&#34;http://scalevp.com&#34; target=&#34;_blank&#34;&gt;Scale Venture Partners&lt;/a&gt; – Investor Perspective &amp;amp; Deck Feedback, Week 3 Toolkit)&lt;/p&gt;
-&lt;p&gt;On the first slide of their deck, camp participant Parquery explained their relatively complex machine vision technology in one beautiful photo of the live product. The image was so effective because it showed exactly what the product does, and Stephan from ScaleVP immediately understood the concept and complemented the startup on their communication. With a core understanding of the product established, Parquery CEO Andrea and Stephan were able to lead a deeper conversation on the additional features and benefits of the product. &lt;b&gt;One slide lead to perfect understanding of the startup’s project, value proposition, and technology –  if you’re looking for an investor’s advice or money, you need to make your product understandable first.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;On the first slide of their deck, camp participant Parquery explained their relatively complex machine vision technology in one beautiful photo of the live product. The image was so effective because it showed exactly what the product does, and Stephan from ScaleVP immediately understood the concept and complemented the startup on their communication. With a core understanding of the product established, Parquery CEO Andrea and Stephan were able to lead a deeper conversation on the additional features and benefits of the product. &lt;b&gt;One slide lead to perfect understanding of the startup’s project, value proposition, and technology – if you’re looking for an investor’s advice or money, you need to make your product understandable first.&lt;/b&gt;&lt;/p&gt;
 &lt;h2 id=&#34;learning-7-get-a-us-phone-number-and-address-even-if-youre-not-based-here&#34;&gt;Learning #7: Get a US phone number and address, even if you’re not based here&lt;/h2&gt;
 &lt;p&gt;(Damian Felchlin, &lt;a href=&#34;http://s-ge.com&#34; target=&#34;_blank&#34;&gt;Switzerland Global Enterprise&lt;/a&gt;, Week 4 Toolkit)&lt;/p&gt;
 &lt;p&gt;This hack applies mainly to European startups expanding to the US, but if you&amp;rsquo;re a tech startup there&amp;rsquo;s no excuse for not having your web presence up to date — in English — and having a US phone number and address. This will make US customers more comfortable with doing business with you. &lt;b&gt;A US phone number costs little, but the upside is huge.&lt;/b&gt;&lt;/p&gt;
@@ -2323,7 +2361,7 @@ incorporated LLC with stripe atlas (more like aside project currently but don&am
       <content>&lt;p&gt;&lt;strong&gt;Originally posted&lt;/strong&gt; at swissnex San Francisco as &lt;a href=&#34;https://nextrends.swissnexsanfrancisco.org/back-to-the-city/&#34;&gt;Back to the city&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;democracy-was-designed-for-the-city&#34;&gt;Democracy was designed for the city&lt;/h2&gt;
-&lt;p&gt;54% of the world&amp;rsquo;s population now &lt;a href=&#34;https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS&#34;&gt;lives in cities&lt;/a&gt;, and more humans move to urban areas every day.  But with voters and power concentrated in metropolitan areas, are nations holding cities back?&lt;/p&gt;
+&lt;p&gt;54% of the world&amp;rsquo;s population now &lt;a href=&#34;https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS&#34;&gt;lives in cities&lt;/a&gt;, and more humans move to urban areas every day. But with voters and power concentrated in metropolitan areas, are nations holding cities back?&lt;/p&gt;
 &lt;p&gt;Democracy was designed to rule a city, after all – Athens. Maybe we&amp;rsquo;ve stretched the democratic system further than it was meant to be expanded? Could we let democracy function at its optimum scale – the city – while finding some other way to organize on a federal level?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nikodunk.com/cities/athensromanagora.jpg&#34; alt=&#34;&#34;&gt; The Roman Agora in Athens from &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Athens_Roman_Agora.jpg/800px-Athens_Roman_Agora.jpg&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;cities-are-efficient&#34;&gt;Cities are efficient&lt;/h2&gt;
@@ -2408,12 +2446,10 @@ Legacy in software is bad. It is a dirty word.&lt;/p&gt;
 &lt;p&gt;Migrate your contract in the Truffle Console with&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;migrate	--reset
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Test the contract from the Truffle Console by ADDING A CONTACT:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;contactStorage.deployed().then(instance =&amp;gt; instance.addContacts(&#39;George Jetson&#39;))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Test the contract from the Truffle Console by GETTING YOUR CONTACTS:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;contactStorage.deployed().then(instance =&amp;gt; instance.getContacts())
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Test the contract from the Truffle Console by ADDING A CONTACT:
+contactStorage.deployed().then(instance =&amp;gt; instance.addContacts(&amp;lsquo;George Jetson&amp;rsquo;))&lt;/p&gt;
+&lt;p&gt;Test the contract from the Truffle Console by GETTING YOUR CONTACTS:
+contactStorage.deployed().then(instance =&amp;gt; instance.getContacts())&lt;/p&gt;
 &lt;p&gt;Or, open a new terminal tab (or close the Truffle Console with Ctrl + C) and run the React frontend:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;npm start
 &lt;/code&gt;&lt;/pre&gt;
@@ -2422,9 +2458,8 @@ Legacy in software is bad. It is a dirty word.&lt;/p&gt;
 &lt;p&gt;Sync with the testnet blockchain by opening terminal and running:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;geth --rinkeby --rpc --rpcapi db,eth,net,web3,personal
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;in new tab, compile and deploy contract&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;truffle console --network rinkeby
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;in new tab, compile and deploy contract
+truffle console &amp;ndash;network rinkeby&lt;/p&gt;
 &lt;p&gt;if you don&amp;rsquo;t have an account:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;x = web3.personal.newAccount(&#39;pw&#39;)
 web3.eth.getBalance(&amp;quot;yourAcctNumber&amp;quot;)
@@ -2440,19 +2475,16 @@ web3.personal.unlockAccount(&amp;quot;0x43928ec2bb4ea1eb6a77a5fd9caf36ca7b15600f
 
 migrate --reset --network rinkeby
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Test the contract from the Truffle Console by ADDING A CONTACT:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;contactStorage.deployed().then(instance =&amp;gt; instance.addContacts(&#39;George Jetson&#39;))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Test the contract from the Truffle Console by GETTING YOUR CONTACTS:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;contactStorage.deployed().then(instance =&amp;gt; instance.getContacts())
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Test the contract from the Truffle Console by ADDING A CONTACT:
+contactStorage.deployed().then(instance =&amp;gt; instance.addContacts(&amp;lsquo;George Jetson&amp;rsquo;))&lt;/p&gt;
+&lt;p&gt;Test the contract from the Truffle Console by GETTING YOUR CONTACTS:
+contactStorage.deployed().then(instance =&amp;gt; instance.getContacts())&lt;/p&gt;
 &lt;p&gt;Close Ganache, Truffle Console as the contract&amp;rsquo;s now live in Rinkeby!&lt;/p&gt;
-&lt;p&gt;Serve your React frontend by opening a new terminal and running&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;npm start
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Serve your React frontend by opening a new terminal and running
+npm start&lt;/p&gt;
 &lt;p&gt;to deploy to github pages:&lt;/p&gt;
 &lt;p&gt;change homepage to reflect your github page:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;quot;homepage&amp;quot;: &amp;quot;http://nikodunk.github.io/contactStorage&amp;quot;,	
+&lt;pre&gt;&lt;code&gt;&amp;quot;homepage&amp;quot;: &amp;quot;http://nikodunk.github.io/contactStorage&amp;quot;,
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then run&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;npm run build
@@ -2499,7 +2531,7 @@ See newest updates at &lt;a href=&#34;http://sunboxlabs.com&#34;&gt;sunboxlabs.c
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2517,7 +2549,7 @@ See newest updates at &lt;a href=&#34;http://sunboxlabs.com&#34;&gt;sunboxlabs.c
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2534,7 +2566,7 @@ See newest updates at &lt;a href=&#34;http://sunboxlabs.com&#34;&gt;sunboxlabs.c
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2549,7 +2581,7 @@ See newest updates at &lt;a href=&#34;http://sunboxlabs.com&#34;&gt;sunboxlabs.c
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2585,7 +2617,7 @@ Total: 82Wh energy need per day in room (up to 382Wh)`
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2602,7 +2634,7 @@ Total: 82Wh energy need per day in room (up to 382Wh)`
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2620,7 +2652,7 @@ Total: 82Wh energy need per day in room (up to 382Wh)`
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2645,10 +2677,10 @@ Yearly value creation: 311kWh/y * 15c/kWh = $48/y energy created
 &lt;p&gt;Note however that after 8 years of daily use the lead-acid deep discharge battery will be spent, which I’m not taking into account here. Either way you cut it, this is not a money saving machine. Energy prices are just too low.&lt;/p&gt;
 &lt;p&gt;How green is it?
 Does it have an impact on my CO2 footprint? Back of the envelope:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Production footprint PV multicristalline: 
+&lt;pre&gt;&lt;code&gt;Production footprint PV multicristalline:
 4200kWhee/kW [1] * 0.1kW = 420kWh embodied energy
 
-Production footprint lead-acid battery: 
+Production footprint lead-acid battery:
 321kWhee/kWh [1] * 0.5kWh = 161kWh embodied energy
 
 Total Footprint: 581kWh

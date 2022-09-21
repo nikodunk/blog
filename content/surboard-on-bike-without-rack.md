@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "How-to: A better method to transport a surfboard on a bike without a rack (Patent NA25396 :P)"
-date:   2019-08-19 08:00:00 -0700
+title: "How-to: A better method to transport a surfboard on a bike without a rack (Patent NA25396 :P)"
+date: 2019-08-19 08:00:00 -0700
 tags: ["Surfing", "How-To"]
 image: /surf/3.jpg
 ---
-
 
 ## The problem
 
@@ -13,9 +12,9 @@ I live in San Francisco, and our city beach is exactly 4.7 miles away from my ap
 
 Or a bike rack? Why not a bike rack you say? 4 reasons:
 
-1. I have a road bike, which isn't build to hold a board rack. 
-2. Bike racks cost money. 
-3. I only surf about 2 days a week and don't want to ride around for the rest of the week with a huge surf rack appendix jutting out of it. 
+1. I have a road bike, which isn't build to hold a board rack.
+2. Bike racks cost money.
+3. I only surf about 2 days a week and don't want to ride around for the rest of the week with a huge surf rack appendix jutting out of it.
 4. A side-mounted surfboard isn't great for your balance and acts like a sail when cycling through Golden Gate Park.
 
 ![](/surf/map.png)
@@ -35,13 +34,11 @@ Added benefits of going to surf on a bike is a great warm-up, no parking hassle 
 ![](/surf/5.jpg)
 ![](/surf/6.jpg)
 
-![](/surf/7.jpg) 
-
+![](/surf/7.jpg)
 
 <video controls width="375">
     <source src="/surf/the-turtle-surfboard-on-bike-method-without-a-rack.mov" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
-
 
 I nickname it the Turtle. What do you think? Kook of the day, innovation, or seen this a million times? Let me know via email below.
