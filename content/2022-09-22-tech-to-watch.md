@@ -6,7 +6,7 @@ categories:
 ---
 
 - Linux ready phone with smd845
-- Linux mobile apps: build & deploy blog from linux mobile, syncing notepad for linux mobile
+- Flathub apps: build & deploy blog from linux mobile, syncing notepad for linux mobile
 - Climate fintech
 - AI (example: Keras model trained to create art from inputs, predict…)
 - Prefab and printing houses
