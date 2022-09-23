@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Essay: The Atmos Stack: How we unified our stack around JS for maximum fintech startup efficiency"
+title: "Essay: How we unified our stack around JS for maximum fintech startup efficiency"
 date: 2022-05-10 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-...and launched a bank w/ 10,000+ customers with 1.5 engineers.
+The [Atmos](https://www.joinatmos.com) Stack: How we unified our stack around JS for maximum fintech startup efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers and outlasted competitors.
 
-With so few engineers to do so much work, we need to be brutally efficient. In a perfect world we'd have a single codebase that renders everything server-side, but due to modern requirements of native apps on 2 platforms, web apps, and of course still a bunch of protected logic on the backend, we needed to balance efficiency and DRYness with reality.
+With so few engineers to do so much work, we need to be brutally efficient. In a perfect world we'd have a single codebase that renders everything server-side and a [majestic monolith](/a-node-js-developer-discovers-rails/), but due to modern requirements of native apps on 2 platforms, web apps, and of course still a bunch of protected logic on the backend, we needed to balance efficiency and DRYness with reality.
 
 Our stack has allowed us to ship a large amount of features (savings, checking, loans, donations) on multiple platforms rapidly, with a minimum of bugs and a maximum of testing.
 
