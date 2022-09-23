@@ -29,3 +29,11 @@ Other:
 
     - Webflow for landing pages
     - Retool to access various admin api functions to detect fraud, approve users, approve loans, see growth, etc.
+
+## Benefits of a unified stack
+
+- Copy paste code from the web, mobile, server
+- Use the same libraries on the web, mobile, server
+- Use similar testing syntax
+- Less onboarding for engineers
+- Library updates on one benefit the other (ie. Node), downside: lib updates block the other
