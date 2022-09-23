@@ -12,6 +12,36 @@
     
     
     <item>
+      <title>Tech to watch</title>
+      <link>https://nikodunk.com/2022-09-22-tech-to-watch/</link>
+      <pubDate>Thu, 22 Sep 2022 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/2022-09-22-tech-to-watch/</guid>
+      <description></description>
+      
+      <content>&lt;ul&gt;
+&lt;li&gt;Linux ready phone with smd845&lt;/li&gt;
+&lt;li&gt;Linux mobile apps: build &amp;amp; deploy blog from linux mobile, syncing notepad for linux mobile&lt;/li&gt;
+&lt;li&gt;Climate fintech&lt;/li&gt;
+&lt;li&gt;AI (example: Keras model trained to create art from inputs, predict…)&lt;/li&gt;
+&lt;li&gt;Prefab and printing houses&lt;/li&gt;
+&lt;li&gt;EVTOL&lt;/li&gt;
+&lt;li&gt;Heat pumps&lt;/li&gt;
+&lt;li&gt;EVs&lt;/li&gt;
+&lt;li&gt;blockchain&lt;/li&gt;
+&lt;li&gt;artificial meat&lt;/li&gt;
+&lt;li&gt;energy&lt;/li&gt;
+&lt;li&gt;farming&lt;/li&gt;
+&lt;li&gt;water&lt;/li&gt;
+&lt;li&gt;transportation&lt;/li&gt;
+&lt;li&gt;biodiversity&lt;/li&gt;
+&lt;li&gt;studio for climate saving software&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>How to set up Heroku SSL (https) with Google Domains in 2021</title>
       <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
       <pubDate>Sun, 27 Jun 2021 08:00:00 -0700</pubDate>
@@ -1747,36 +1777,6 @@ And finally when Ford, which &lt;a href=&#34;https://www.thedrive.com/news/27625
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</content>
-      
-    </item>
-    
-    <item>
-      <title>Tech to watch</title>
-      <link>https://nikodunk.com/2022-09-22-tech-to-watch/</link>
-      <pubDate>Wed, 29 May 2019 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/2022-09-22-tech-to-watch/</guid>
-      <description></description>
-      
-      <content>&lt;ul&gt;
-&lt;li&gt;linux ready phone with smd845&lt;/li&gt;
-&lt;li&gt;linux mobile apps: build &amp;amp; deploy blog from linux mobile, syncing notepad for linux mobile&lt;/li&gt;
-&lt;li&gt;climate fintech&lt;/li&gt;
-&lt;li&gt;keras model trained to create art from inputs, predict…&lt;/li&gt;
-&lt;li&gt;Prefab and printing houses&lt;/li&gt;
-&lt;li&gt;EVTOL&lt;/li&gt;
-&lt;li&gt;Heat pumps&lt;/li&gt;
-&lt;li&gt;EVs&lt;/li&gt;
-&lt;li&gt;blockchain&lt;/li&gt;
-&lt;li&gt;artificial meat&lt;/li&gt;
-&lt;li&gt;energy&lt;/li&gt;
-&lt;li&gt;farming&lt;/li&gt;
-&lt;li&gt;water&lt;/li&gt;
-&lt;li&gt;transportation&lt;/li&gt;
-&lt;li&gt;biodiversity&lt;/li&gt;
-&lt;li&gt;studio for climate saving software&lt;/li&gt;
 &lt;/ul&gt;
 </content>
       
