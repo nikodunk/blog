@@ -8,7 +8,7 @@ categories:
 - Linux ready phone with smd845
 - Flathub apps: build & deploy blog from linux mobile, syncing notepad for linux mobile
 - Climate fintech
-- AI (example: Keras model trained to create art from inputs, predict…)
+- [AI](https://keras.io/examples/vision/3D_image_classification/) (example: Keras model trained to create art from inputs)
 - Prefab and printing houses
 - EVTOL
 - Heat pumps
