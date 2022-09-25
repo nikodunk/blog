@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "Essay: How I discovered centrism through the open-source community"
+title: "Essay: Centrism in the open-source community"
 date: 2022-07-08 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-How I discovered centrism through open-source software, or: how the US political parties map to linux distributions.
-
 There are parallels between political parties in the US and open-source linux distributions in their methods, attitudes and approaches.
 
-I recently switched to Linux full-time, and started some low-key contributions mainly to documentation, testing and the new Fedora website. I made had some realizations in the process on conservativism vs. progressivism in the open-source scene. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:
+I recently switched to Linux full-time, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:
 
 Arch <=> left-wing Progressivism:
 
