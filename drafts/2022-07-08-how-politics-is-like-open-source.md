@@ -27,3 +27,5 @@ Fedora <=> balanced Centrism
     - Communities thrive when right compromise of progress and stability.
     - Ubuntu used to be in this position and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.
     - Democracy at its best.
+
+These similarities may be superficial, but I thought it was a neat mapping. Maybe the fact that the most popular distributions are often the centrist ones can give us some hope for the US political system's future.
