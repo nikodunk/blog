@@ -80,27 +80,27 @@
     </item>
     
     <item>
-      <title>Essay: Centrism in the open-source community</title>
+      <title>Essay: Centrism and the open-source community</title>
       <link>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</link>
       <pubDate>Fri, 08 Jul 2022 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</guid>
       <description></description>
       
-      <content>&lt;p&gt;There are parallels between political parties in the US and open-source linux distributions in their methods, attitudes and approaches.&lt;/p&gt;
-&lt;p&gt;I recently switched to Linux full-time, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:&lt;/p&gt;
-&lt;p&gt;Arch &amp;lt;=&amp;gt; left-wing Progressive:&lt;/p&gt;
+      <content>&lt;p&gt;There are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches.&lt;/p&gt;
+&lt;p&gt;I recently switched to Linux, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:&lt;/p&gt;
+&lt;p&gt;Arch (rolling distribution) &amp;lt;=&amp;gt; left-wing Progressive party:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sometimes too far forward-looking and unstable.&lt;/li&gt;
 &lt;li&gt;City experiments.&lt;/li&gt;
 &lt;li&gt;Dismantling capitalism.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Debian Stable &amp;lt;=&amp;gt; Conservative:&lt;/p&gt;
+&lt;p&gt;Debian (stable distribution) &amp;lt;=&amp;gt; Conservative party:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;- People wanting the past and getting frustrated at progress.
 - Fearful of breakage leads to paralysis.
 - Not trusting leadership to progress while listening to their needs.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Fedora &amp;lt;=&amp;gt; Centrist&lt;/p&gt;
+&lt;p&gt;Fedora (leading-edge distribution) &amp;lt;=&amp;gt; Centrist party:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;- The &amp;quot;centrist&amp;quot; approach of balancing the above two methods yields a sensible inbetween.
 - Communities thrive when right compromise of progress and stability.
 - Ubuntu used to be in this position and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.
@@ -124,22 +124,25 @@
 &lt;p&gt;With so few engineers to do so much work, we need to be brutally efficient. In a perfect world we&amp;rsquo;d have a single codebase that renders everything server-side and a &lt;a href=&#34;https://nikodunk.com/a-node-js-developer-discovers-rails/&#34;&gt;majestic monolith&lt;/a&gt; and use a &lt;a href=&#34;https://world.hey.com/dhh/the-one-person-framework-711e6318&#34;&gt;one-person framework&lt;/a&gt;, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases, and of course still a bunch of protected logic on the backend, plus then a whole 2nd product to lend out the deposits that we&amp;rsquo;re collecting - we needed to balance efficiency and DRYness with reality.&lt;/p&gt;
 &lt;p&gt;Our stack has allowed us to ship a large amount of features (savings, checking, loans, donations clients on web, ios, android) rapidly, with a minimum of bugs and a maximum of testing.&lt;/p&gt;
 &lt;p&gt;Javascript frontends - React &amp;amp; React-Native:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;- Clients monorepo (need to tweak Metro config to allow Expo to access /common folder in web. CRA, which web was created in, wont allow any imports from outside /src folder, and wanted to stay on mainline CRA)
-- Separate &amp;amp; native-feeling, React &amp;amp; React-Native views, navigators &amp;amp; view logic. For a while I wanted to unify these too and deploy mobile with react-native-web, but I&#39;m glad I couldn&#39;t get this through - didn&#39;t feel native enough. Tailwind was sufficient if really needed to port features &amp;amp; views from mobile =&amp;gt; web.
-- Common shared components in redux (api/state logic), tailwind, utility functions, permission config, etc.
-- Integration test coverage, enforced by CI on every merge to develop.
-- When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.
-- When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so that the bank could benefit from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&#39;d originally launched on and going with Tailwind.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Clients monorepo (need to tweak Metro config to allow Expo to access /common folder in web. CRA, which web was created in, wont allow any imports from outside /src folder, and wanted to stay on mainline CRA)&lt;/li&gt;
+&lt;li&gt;Separate &amp;amp; native-feeling, React &amp;amp; React-Native views, navigators &amp;amp; view logic. For a while I wanted to unify these too and deploy mobile with react-native-web, but I&amp;rsquo;m glad I couldn&amp;rsquo;t get this through - didn&amp;rsquo;t feel native enough. Tailwind was sufficient if really needed to port features &amp;amp; views from mobile =&amp;gt; web.&lt;/li&gt;
+&lt;li&gt;Common shared components in redux (api/state logic), tailwind, utility functions, permission config, etc.&lt;/li&gt;
+&lt;li&gt;Integration test coverage, enforced by CI on every merge to develop.&lt;/li&gt;
+&lt;li&gt;When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.&lt;/li&gt;
+&lt;li&gt;When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so that the bank could benefit from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&amp;rsquo;d originally launched on and going with Tailwind.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Javascript API - Node (Hapi &amp;amp; Bull Queue) running on Heroku:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;- Aggressively updated packages &amp;amp; stacks to newest versions to unlock newest features &amp;amp; ensure security, enabled by next point.
-- Integration test coverage of critical path user flows (apply, login, transact), enforced by CI on every merge to develop or package update.
-- When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Aggressively updated packages &amp;amp; stacks to newest versions to unlock newest features &amp;amp; ensure security, enabled by next point.&lt;/li&gt;
+&lt;li&gt;Integration test coverage of critical path user flows (apply, login, transact), enforced by CI on every merge to develop or package update.&lt;/li&gt;
+&lt;li&gt;When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Other:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;- Webflow for landing pages
-- Retool to access to numberous admin api functions to detect fraud, approve users, approve loans, see growth, etc. There&#39;s a goal to hand-perform a task that needs to be done once, if it happens a second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Webflow for landing pages&lt;/li&gt;
+&lt;li&gt;Retool to access to numberous admin api functions to detect fraud, approve users, approve loans, see growth, etc. There&amp;rsquo;s a goal to hand-perform a task that needs to be done once, if it happens a second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;benefits-of-a-unified-stack&#34;&gt;Benefits of a unified stack&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Copy paste code from the web, mobile, server&lt;/li&gt;

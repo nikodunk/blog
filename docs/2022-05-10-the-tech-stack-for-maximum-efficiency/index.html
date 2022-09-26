@@ -78,22 +78,25 @@ We unified our stack around JS for maximum deployment efficiency and launched a 
 <p>With so few engineers to do so much work, we need to be brutally efficient. In a perfect world we&rsquo;d have a single codebase that renders everything server-side and a <a href="/a-node-js-developer-discovers-rails/">majestic monolith</a> and use a <a href="https://world.hey.com/dhh/the-one-person-framework-711e6318">one-person framework</a>, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases, and of course still a bunch of protected logic on the backend, plus then a whole 2nd product to lend out the deposits that we&rsquo;re collecting - we needed to balance efficiency and DRYness with reality.</p>
 <p>Our stack has allowed us to ship a large amount of features (savings, checking, loans, donations clients on web, ios, android) rapidly, with a minimum of bugs and a maximum of testing.</p>
 <p>Javascript frontends - React &amp; React-Native:</p>
-<pre><code>- Clients monorepo (need to tweak Metro config to allow Expo to access /common folder in web. CRA, which web was created in, wont allow any imports from outside /src folder, and wanted to stay on mainline CRA)
-- Separate &amp; native-feeling, React &amp; React-Native views, navigators &amp; view logic. For a while I wanted to unify these too and deploy mobile with react-native-web, but I'm glad I couldn't get this through - didn't feel native enough. Tailwind was sufficient if really needed to port features &amp; views from mobile =&gt; web.
-- Common shared components in redux (api/state logic), tailwind, utility functions, permission config, etc.
-- Integration test coverage, enforced by CI on every merge to develop.
-- When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.
-- When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so that the bank could benefit from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we'd originally launched on and going with Tailwind.
-</code></pre>
+<ul>
+<li>Clients monorepo (need to tweak Metro config to allow Expo to access /common folder in web. CRA, which web was created in, wont allow any imports from outside /src folder, and wanted to stay on mainline CRA)</li>
+<li>Separate &amp; native-feeling, React &amp; React-Native views, navigators &amp; view logic. For a while I wanted to unify these too and deploy mobile with react-native-web, but I&rsquo;m glad I couldn&rsquo;t get this through - didn&rsquo;t feel native enough. Tailwind was sufficient if really needed to port features &amp; views from mobile =&gt; web.</li>
+<li>Common shared components in redux (api/state logic), tailwind, utility functions, permission config, etc.</li>
+<li>Integration test coverage, enforced by CI on every merge to develop.</li>
+<li>When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.</li>
+<li>When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so that the bank could benefit from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&rsquo;d originally launched on and going with Tailwind.</li>
+</ul>
 <p>Javascript API - Node (Hapi &amp; Bull Queue) running on Heroku:</p>
-<pre><code>- Aggressively updated packages &amp; stacks to newest versions to unlock newest features &amp; ensure security, enabled by next point.
-- Integration test coverage of critical path user flows (apply, login, transact), enforced by CI on every merge to develop or package update.
-- When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.
-</code></pre>
+<ul>
+<li>Aggressively updated packages &amp; stacks to newest versions to unlock newest features &amp; ensure security, enabled by next point.</li>
+<li>Integration test coverage of critical path user flows (apply, login, transact), enforced by CI on every merge to develop or package update.</li>
+<li>When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.</li>
+</ul>
 <p>Other:</p>
-<pre><code>- Webflow for landing pages
-- Retool to access to numberous admin api functions to detect fraud, approve users, approve loans, see growth, etc. There's a goal to hand-perform a task that needs to be done once, if it happens a second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.
-</code></pre>
+<ul>
+<li>Webflow for landing pages</li>
+<li>Retool to access to numberous admin api functions to detect fraud, approve users, approve loans, see growth, etc. There&rsquo;s a goal to hand-perform a task that needs to be done once, if it happens a second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.</li>
+</ul>
 <h2 id="benefits-of-a-unified-stack">Benefits of a unified stack</h2>
 <ul>
 <li>Copy paste code from the web, mobile, server</li>

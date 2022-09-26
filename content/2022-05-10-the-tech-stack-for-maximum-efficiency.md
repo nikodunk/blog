@@ -15,23 +15,23 @@ Our stack has allowed us to ship a large amount of features (savings, checking, 
 
 Javascript frontends - React & React-Native:
 
-    - Clients monorepo (need to tweak Metro config to allow Expo to access /common folder in web. CRA, which web was created in, wont allow any imports from outside /src folder, and wanted to stay on mainline CRA)
-    - Separate & native-feeling, React & React-Native views, navigators & view logic. For a while I wanted to unify these too and deploy mobile with react-native-web, but I'm glad I couldn't get this through - didn't feel native enough. Tailwind was sufficient if really needed to port features & views from mobile => web.
-    - Common shared components in redux (api/state logic), tailwind, utility functions, permission config, etc.
-    - Integration test coverage, enforced by CI on every merge to develop.
-    - When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.
-    - When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so that the bank could benefit from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we'd originally launched on and going with Tailwind.
+- Clients monorepo (need to tweak Metro config to allow Expo to access /common folder in web. CRA, which web was created in, wont allow any imports from outside /src folder, and wanted to stay on mainline CRA)
+- Separate & native-feeling, React & React-Native views, navigators & view logic. For a while I wanted to unify these too and deploy mobile with react-native-web, but I'm glad I couldn't get this through - didn't feel native enough. Tailwind was sufficient if really needed to port features & views from mobile => web.
+- Common shared components in redux (api/state logic), tailwind, utility functions, permission config, etc.
+- Integration test coverage, enforced by CI on every merge to develop.
+- When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.
+- When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so that the bank could benefit from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we'd originally launched on and going with Tailwind.
 
 Javascript API - Node (Hapi & Bull Queue) running on Heroku:
 
-    - Aggressively updated packages & stacks to newest versions to unlock newest features & ensure security, enabled by next point.
-    - Integration test coverage of critical path user flows (apply, login, transact), enforced by CI on every merge to develop or package update.
-    - When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.
+- Aggressively updated packages & stacks to newest versions to unlock newest features & ensure security, enabled by next point.
+- Integration test coverage of critical path user flows (apply, login, transact), enforced by CI on every merge to develop or package update.
+- When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.
 
 Other:
 
-    - Webflow for landing pages
-    - Retool to access to numberous admin api functions to detect fraud, approve users, approve loans, see growth, etc. There's a goal to hand-perform a task that needs to be done once, if it happens a second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.
+- Webflow for landing pages
+- Retool to access to numberous admin api functions to detect fraud, approve users, approve loans, see growth, etc. There's a goal to hand-perform a task that needs to be done once, if it happens a second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.
 
 ## Benefits of a unified stack
 
