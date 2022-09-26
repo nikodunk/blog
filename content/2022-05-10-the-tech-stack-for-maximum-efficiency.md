@@ -5,9 +5,9 @@ date: 2022-05-10 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-## Don't repeat yourself - spend that time delivering value
+## More wood behind fewer arrows
 
-The [Atmos](https://www.joinatmos.com) stack is not special, but it's different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around sharing code and engineering efficiency, which leads to faster, more bug-free feature delivery and solid-but-not-flashy user experiences.
+The [Atmos](https://www.joinatmos.com) stack is not special, but it's different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around using as few dependencies as possible, sharing code between parts of the stack, and engineering efficiency. This leads to faster, more bug-free feature delivery and time spent actually polishing user experiences.
 
 We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers and outlasted competitors, while staying secure and fast. Our goal was always that one single developer could maintain and improve api, web, android, ios, loans. A single developer is with 10-20x less resources than similar competitors threw at the effort. Best case we'd have more, but worst case we wouldn't.
 

@@ -25,7 +25,7 @@ Arch (rolling distribution) &amp;lt;=&amp;gt; left-wing Progressive party:
       <pubDate>Tue, 10 May 2022 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</guid>
-      <description>Don&amp;rsquo;t repeat yourself - spend that time delivering value The Atmos stack is not special, but it&amp;rsquo;s different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around sharing code and engineering efficiency, which leads to faster, more bug-free feature delivery and solid-but-not-flashy user experiences.
+      <description>More wood behind fewer arrows The Atmos stack is not special, but it&amp;rsquo;s different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around using as few dependencies as possible, sharing code between parts of the stack, and engineering efficiency. This leads to faster, more bug-free feature delivery and time spent actually polishing user experiences.
 We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000+ customers with only 1.</description>
     </item>
     

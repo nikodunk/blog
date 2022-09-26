@@ -21,7 +21,7 @@ categories:
 - [ ] transportation
 - [ ] biodiversity
 - [ ] studio for climate saving software
-- [x] impact quizzes / web apps? EV charging configurator, solar configurator, gas configurator. SaaS?
+- [x] Impact quizzes / web apps? EV charging configurator, solar configurator, gas configurator. SaaS?
 - [x] Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)
 - [x] problem I've heard from solar installers: solar platforms is a race to the bottom. Scrape all solar installers & present to customer. Find homes that don't have solar, give badge, hook up with electrification. SaaS for solar sales.
 - [ ] Time tested classic: clone another badly-run business better (maybe with existing demand)
