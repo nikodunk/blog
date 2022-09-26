@@ -5,11 +5,11 @@ date: 2022-05-10 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-The [Atmos](https://www.joinatmos.com) stack is not special, but it's different in it's approach from most startups of our size: not around best technology for the job, not around best user experience (though that's a second-order effect), but around sharing code and human resource efficiency.
+The [Atmos](https://www.joinatmos.com) stack is not special, but it's different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around sharing code and engineering efficiency, which leads to faster, more bug-free feature delivery and solid-but-not-flashy user experiences.
 
-We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers and outlasted competitors. Our goal was always that one single developer could maintain and improve api, web, android, ios, loans - a single developer is with 10-20x less resources than similar competitors threw at the effort.
+We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers and outlasted competitors, while staying secure and fast. Our goal was always that one single developer could maintain and improve api, web, android, ios, loans. A single developer is with 10-20x less resources than similar competitors threw at the effort. Best case we'd have more, but worst case we wouldn't.
 
-With so few engineers to do so much work, we need to be brutally efficient. In a perfect world we'd have a single codebase that renders everything server-side and a [majestic monolith](/a-node-js-developer-discovers-rails/) and use a [one-person framework](https://world.hey.com/dhh/the-one-person-framework-711e6318), but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases, and of course still a bunch of protected logic on the backend, plus then a whole 2nd product to lend out the deposits that we're collecting - we needed to balance efficiency and DRYness with reality.
+With so few engineers to do so much work, we needed to be brutally efficient. In a perfect world we'd have a single codebase that renders everything server-side and a [majestic monolith](/a-node-js-developer-discovers-rails/) and use a [one-person framework](https://world.hey.com/dhh/the-one-person-framework-711e6318), but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases, and of course still a bunch of protected logic on the backend, plus then a whole 2nd product to lend out the deposits that we're collecting - we needed to balance efficiency and DRYness with reality.
 
 Our stack has allowed us to ship a large amount of features (savings, checking, loans, donations clients on web, ios, android) rapidly, with a minimum of bugs and a maximum of testing.
 

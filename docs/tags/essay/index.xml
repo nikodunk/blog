@@ -13,10 +13,10 @@
       <pubDate>Fri, 08 Jul 2022 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</guid>
-      <description>There are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches.
+      <description>I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches.
 I recently switched to Linux, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:
 Arch (rolling distribution) &amp;lt;=&amp;gt; left-wing Progressive party:
- Sometimes too far forward-looking and unstable. City experiments. Dismantling capitalism.</description>
+ Sometimes too far forward-looking and unstable. City experiments.</description>
     </item>
     
     <item>
@@ -25,8 +25,8 @@ Arch (rolling distribution) &amp;lt;=&amp;gt; left-wing Progressive party:
       <pubDate>Tue, 10 May 2022 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</guid>
-      <description>The Atmos stack is not special, but it&amp;rsquo;s different in it&amp;rsquo;s approach from most startups of our size: not around best technology for the job, not around best user experience (though that&amp;rsquo;s a second-order effect), but around sharing code and human resource efficiency.
-We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers and outlasted competitors. Our goal was always that one single developer could maintain and improve api, web, android, ios, loans - a single developer is with 10-20x less resources than similar competitors threw at the effort.</description>
+      <description>The Atmos stack is not special, but it&amp;rsquo;s different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around sharing code and engineering efficiency, which leads to faster, more bug-free feature delivery and solid-but-not-flashy user experiences.
+We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers and outlasted competitors, while staying secure and fast.</description>
     </item>
     
     <item>

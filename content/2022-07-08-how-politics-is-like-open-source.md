@@ -5,7 +5,7 @@ date: 2022-07-08 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-There are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches.
+I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches.
 
 I recently switched to Linux, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:
 
