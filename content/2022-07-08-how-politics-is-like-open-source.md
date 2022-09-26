@@ -9,19 +9,19 @@ There are parallels between political parties in the US and open-source linux di
 
 I recently switched to Linux full-time, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:
 
-Arch <=> left-wing Progressivism:
+Arch <=> left-wing Progressive:
 
 - Sometimes too far forward-looking and unstable.
 - City experiments.
 - Dismantling capitalism.
 
-Debian Stable <=> Conservativism:
+Debian Stable <=> Conservative:
 
     - People wanting the past and getting frustrated at progress.
     - Fearful of breakage leads to paralysis.
     - Not trusting leadership to progress while listening to their needs.
 
-Fedora <=> balanced Centrism
+Fedora <=> Centrist
 
     - The "centrist" approach of balancing the above two methods yields a sensible inbetween.
     - Communities thrive when right compromise of progress and stability.

@@ -5,7 +5,7 @@ date: 2022-05-10 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-The [Atmos](https://www.joinatmos.com) stack is not something special, but it's optimized around something else than most fintech startups of our size have: not around best technology for the job, not around best user experience (though that's a second-order effect), but around sharing code and human resource efficiency.
+The [Atmos](https://www.joinatmos.com) stack is not special, but it's different in it's approach from most startups of our size: not around best technology for the job, not around best user experience (though that's a second-order effect), but around sharing code and human resource efficiency.
 
 We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers and outlasted competitors. Our goal was always that one single developer could maintain and improve api, web, android, ios, loans - a single developer is with 10-20x less resources than similar competitors threw at the effort.
 

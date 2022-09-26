@@ -63,6 +63,98 @@
     </item>
     
     <item>
+      <title>How ATMOS replaced AI with Humans and saved $72,000, and the company</title>
+      <link>https://nikodunk.com/2022-09-21-how-we-replaced-ai-with-humans-and-saved-72000-dollars/</link>
+      <pubDate>Wed, 21 Sep 2022 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/2022-09-21-how-we-replaced-ai-with-humans-and-saved-72000-dollars/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;While most companies are busy at work trying to replace humans with some form of automation or AI, this is the story of how ATMOS replaced an AI fraud prediction solution with simple dashboard to make human decision making as efficient as possible.&lt;/p&gt;
+&lt;p&gt;We too had the option of doing what most fintech startups do, and buying in to a fraud-prevention vendor - after all if it&amp;rsquo;s their bread-and-butter to prevent fraud, they&amp;rsquo;ll probably be better at it than we are, right? Well, we tried it at first of course. But we quickly received a few unpredicted &amp;ldquo;exceptions&amp;rdquo; that cost us dearly. One is too many. So, while everyone else ran in the opposite direction, we decided instead of going all-in on 3rd party anti-fraud AI vendors - we built a dashboard to make human decisioning as efficient as possible.&lt;/p&gt;
+&lt;p&gt;This method was inspired by an article by the Bearblog founder Herman&amp;rsquo;s article &lt;a href=&#34;https://herman.bearblog.dev/5-hours-to-15-minutes/&#34;&gt;&amp;ldquo;From 5 hours to 15 minutes per week&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It not only saved anywhere from $72,000-100,000+ depending on estimation methods in the process, but also outperformed the comnpetition that either a) didn&amp;rsquo;t have fraud prediction/prevention or b) used ineffective AI fraud prevention vendors. This is proven by the fact that a some of them have had to throttle or close new applications due to fraud, while we have not.&lt;/p&gt;
+&lt;p&gt;Instead of building a 99% precise self-driving car, we have found success in a building a 100% precise, very efficient bicycle. It won&amp;rsquo;t scale to 1B users, but it doesn&amp;rsquo;t have to - it got us to the next step.&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>Essay: Centrism in the open-source community</title>
+      <link>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</link>
+      <pubDate>Fri, 08 Jul 2022 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;There are parallels between political parties in the US and open-source linux distributions in their methods, attitudes and approaches.&lt;/p&gt;
+&lt;p&gt;I recently switched to Linux full-time, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:&lt;/p&gt;
+&lt;p&gt;Arch &amp;lt;=&amp;gt; left-wing Progressive:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sometimes too far forward-looking and unstable.&lt;/li&gt;
+&lt;li&gt;City experiments.&lt;/li&gt;
+&lt;li&gt;Dismantling capitalism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Debian Stable &amp;lt;=&amp;gt; Conservative:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- People wanting the past and getting frustrated at progress.
+- Fearful of breakage leads to paralysis.
+- Not trusting leadership to progress while listening to their needs.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Fedora &amp;lt;=&amp;gt; Centrist&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- The &amp;quot;centrist&amp;quot; approach of balancing the above two methods yields a sensible inbetween.
+- Communities thrive when right compromise of progress and stability.
+- Ubuntu used to be in this position and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.
+- Democracy at its best.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;These similarities may be superficial, but I thought it was a neat mapping. Maybe the fact that the most popular distributions are often the centrist ones can give us some hope for the US political system&amp;rsquo;s future.&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>Essay: The tiny-team framework: How ATMOS optimized its tech stack around extreme efficiency</title>
+      <link>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</link>
+      <pubDate>Tue, 10 May 2022 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos&lt;/a&gt; stack is not special, but it&amp;rsquo;s different in it&amp;rsquo;s approach from most startups of our size: not around best technology for the job, not around best user experience (though that&amp;rsquo;s a second-order effect), but around sharing code and human resource efficiency.&lt;/p&gt;
+&lt;p&gt;We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers and outlasted competitors. Our goal was always that one single developer could maintain and improve api, web, android, ios, loans - a single developer is with 10-20x less resources than similar competitors threw at the effort.&lt;/p&gt;
+&lt;p&gt;With so few engineers to do so much work, we need to be brutally efficient. In a perfect world we&amp;rsquo;d have a single codebase that renders everything server-side and a &lt;a href=&#34;https://nikodunk.com/a-node-js-developer-discovers-rails/&#34;&gt;majestic monolith&lt;/a&gt; and use a &lt;a href=&#34;https://world.hey.com/dhh/the-one-person-framework-711e6318&#34;&gt;one-person framework&lt;/a&gt;, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases, and of course still a bunch of protected logic on the backend, plus then a whole 2nd product to lend out the deposits that we&amp;rsquo;re collecting - we needed to balance efficiency and DRYness with reality.&lt;/p&gt;
+&lt;p&gt;Our stack has allowed us to ship a large amount of features (savings, checking, loans, donations clients on web, ios, android) rapidly, with a minimum of bugs and a maximum of testing.&lt;/p&gt;
+&lt;p&gt;Javascript frontends - React &amp;amp; React-Native:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Clients monorepo (need to tweak Metro config to allow Expo to access /common folder in web. CRA, which web was created in, wont allow any imports from outside /src folder, and wanted to stay on mainline CRA)
+- Separate &amp;amp; native-feeling, React &amp;amp; React-Native views, navigators &amp;amp; view logic. For a while I wanted to unify these too and deploy mobile with react-native-web, but I&#39;m glad I couldn&#39;t get this through - didn&#39;t feel native enough. Tailwind was sufficient if really needed to port features &amp;amp; views from mobile =&amp;gt; web.
+- Common shared components in redux (api/state logic), tailwind, utility functions, permission config, etc.
+- Integration test coverage, enforced by CI on every merge to develop.
+- When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.
+- When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so that the bank could benefit from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&#39;d originally launched on and going with Tailwind.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Javascript API - Node (Hapi &amp;amp; Bull Queue) running on Heroku:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Aggressively updated packages &amp;amp; stacks to newest versions to unlock newest features &amp;amp; ensure security, enabled by next point.
+- Integration test coverage of critical path user flows (apply, login, transact), enforced by CI on every merge to develop or package update.
+- When adding our second product (loans), we merged this into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Other:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Webflow for landing pages
+- Retool to access to numberous admin api functions to detect fraud, approve users, approve loans, see growth, etc. There&#39;s a goal to hand-perform a task that needs to be done once, if it happens a second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;benefits-of-a-unified-stack&#34;&gt;Benefits of a unified stack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy paste code from the web, mobile, server&lt;/li&gt;
+&lt;li&gt;Use the same libraries on the web, mobile, server&lt;/li&gt;
+&lt;li&gt;Use similar testing syntax&lt;/li&gt;
+&lt;li&gt;Less onboarding for engineers&lt;/li&gt;
+&lt;li&gt;Library updates on one benefit the other (ie. Node), downside: lib updates block the other&lt;/li&gt;
+&lt;li&gt;Dogfooding mobile dogfoods web too - if one team member dogfoods web and another team member dogfoods mobile, we&amp;rsquo;ll have pretty good coverage - especially since most of the code is shared.&lt;/li&gt;
+&lt;li&gt;Partially related to the above - we &lt;a href=&#34;https://boringtechnology.club/&#34;&gt;chose boring technology&lt;/a&gt;, and benefitted from all the upsides metnioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>How to set up Heroku SSL (https) with Google Domains in 2021</title>
       <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
       <pubDate>Sun, 27 Jun 2021 08:00:00 -0700</pubDate>
