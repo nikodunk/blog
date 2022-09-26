@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How ATMOS replaced AI with Humans and saved $72,000, and the company"
+title: "How ATMOS replaced AI with Humans"
 date: 2022-09-21 08:00:00 -0700
 categories:
 ---
@@ -11,6 +11,6 @@ We too had the option of doing what most fintech startups do, and buying in to a
 
 This method was inspired by an article by the Bearblog founder Herman's article ["From 5 hours to 15 minutes per week"](https://herman.bearblog.dev/5-hours-to-15-minutes/).
 
-It not only saved anywhere from $72,000-100,000+ depending on estimation methods in the process, but also outperformed the comnpetition that either a) didn't have fraud prediction/prevention or b) used ineffective AI fraud prevention vendors. This is proven by the fact that a some of them have had to throttle or close new applications due to fraud, while we have not.
+It not only saved anywhere from $72,000-100,000+ depending on estimation methods in the process, but also outperformed the competition that either a) didn't have fraud prediction/prevention or b) used ineffective AI fraud prevention vendors. This is proven by the fact that a some of them have had to throttle or close new applications due to fraud, while we have not.
 
 Instead of building a 99% precise self-driving car, we have found success in a building a 100% precise, very efficient bicycle. It won't scale to 1B users, but it doesn't have to - it got us to the next step.
