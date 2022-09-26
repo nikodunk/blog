@@ -7,8 +7,8 @@
 <title>Essay: The tiny-team framework: How ATMOS optimized its tech stack around extreme efficiency | D U N K</title>
 
 <meta property='og:title' content='Essay: The tiny-team framework: How ATMOS optimized its tech stack around extreme efficiency - D U N K'>
-<meta property='og:description' content='The Atmos stack is not special, but it&rsquo;s different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around sharing code and engineering efficiency, which leads to faster, more bug-free feature delivery and solid-but-not-flashy user experiences.
-We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000&#43; customers with only 1.5 FTE engineers and outlasted competitors, while staying secure and fast.'>
+<meta property='og:description' content='Don&rsquo;t repeat yourself - spend that time delivering value The Atmos stack is not special, but it&rsquo;s different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around sharing code and engineering efficiency, which leads to faster, more bug-free feature delivery and solid-but-not-flashy user experiences.
+We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000&#43; customers with only 1.'>
 <meta property='og:url' content='https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/'>
 <meta property='og:site_name' content='D U N K'>
 <meta property='og:type' content='article'><meta property='og:image' content='android-chrome-512x512.png'><meta property='article:section' content=''><meta property='article:tag' content='Essay'><meta property='article:published_time' content='2022-05-10T08:00:00-07:00'/><meta property='article:modified_time' content='2022-05-10T08:00:00-07:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@nikodunk'><meta name='twitter:creator' content='@nikodunk'>
@@ -73,10 +73,12 @@ We unified our stack around JS for maximum deployment efficiency and launched a 
     <h1 class="title">Essay: The tiny-team framework: How ATMOS optimized its tech stack around extreme efficiency</h1>
     
     <div class="content">
-      <p>The <a href="https://www.joinatmos.com">Atmos</a> stack is not special, but it&rsquo;s different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around sharing code and engineering efficiency, which leads to faster, more bug-free feature delivery and solid-but-not-flashy user experiences.</p>
+      <h2 id="dont-repeat-yourself---spend-that-time-delivering-value">Don&rsquo;t repeat yourself - spend that time delivering value</h2>
+<p>The <a href="https://www.joinatmos.com">Atmos</a> stack is not special, but it&rsquo;s different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around sharing code and engineering efficiency, which leads to faster, more bug-free feature delivery and solid-but-not-flashy user experiences.</p>
 <p>We unified our stack around JS for maximum deployment efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers and outlasted competitors, while staying secure and fast. Our goal was always that one single developer could maintain and improve api, web, android, ios, loans. A single developer is with 10-20x less resources than similar competitors threw at the effort. Best case we&rsquo;d have more, but worst case we wouldn&rsquo;t.</p>
 <p>With so few engineers to do so much work, we needed to be brutally efficient. In a perfect world we&rsquo;d have a single codebase that renders everything server-side and a <a href="/a-node-js-developer-discovers-rails/">majestic monolith</a> and use a <a href="https://world.hey.com/dhh/the-one-person-framework-711e6318">one-person framework</a>, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases, and of course still a bunch of protected logic on the backend, plus then a whole 2nd product to lend out the deposits that we&rsquo;re collecting - we needed to balance efficiency and DRYness with reality.</p>
 <p>Our stack has allowed us to ship a large amount of features (savings, checking, loans, donations clients on web, ios, android) rapidly, with a minimum of bugs and a maximum of testing.</p>
+<h2 id="the-stack">The stack</h2>
 <p>Javascript frontends - React &amp; React-Native:</p>
 <ul>
 <li>Clients monorepo (need to tweak Metro config to allow Expo to access /common folder in web. CRA, which web was created in, wont allow any imports from outside /src folder, and wanted to stay on mainline CRA)</li>
@@ -104,9 +106,19 @@ We unified our stack around JS for maximum deployment efficiency and launched a 
 <li>Use similar testing syntax</li>
 <li>Less onboarding for engineers</li>
 <li>Library updates on one benefit the other (ie. Node), downside: lib updates block the other</li>
-<li>Dogfooding mobile dogfoods web too - if one team member dogfoods web and another team member dogfoods mobile, we&rsquo;ll have pretty good coverage - especially since most of the code is shared.</li>
+<li>More dogfooding: Dogfooding mobile dogfoods web too - if one team member dogfoods web and another team member dogfoods mobile, we&rsquo;ll have pretty good coverage - especially since most of the code is shared.</li>
 <li>Partially related to the above - we <a href="https://boringtechnology.club/">chose boring technology</a>, and benefitted from all the upsides metnioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.</li>
 </ul>
+<h2 id="the-alternatives">The alternatives</h2>
+<ul>
+<li>Flutter, Flutter on web, Rails - still requires 2 languages each with their idiosyncracies, and Flutter on web is half-baked at best. Plus, at this point post-Angular I don&rsquo;t trust Google&rsquo;s commitment to any project long-term</li>
+<li>Django, Rails or Express for api &amp; web, Swift for iOS, Kotlin for Android - brings 3 languages into the mix for 3x the amount of code writing and debugging, in return for minimal performance benefits and a slightly more native feel.</li>
+<li>Electron for web, native &amp; mobile, node for the backend - definitely an option, though feels significantly less native IMO than react-native on mobile, which is 50+ percent of our user base&rsquo;s preferred platform (based on analytics).</li>
+<li>Basecamp-style: rendering api &amp; web on Rails, with the mobile app&rsquo;s navigation rendered natively, but the actual screens rendered on the server - this seems crazy, but seems to be working for Hey.com. If another bigger company jumps to this, we could get on board with this. But we don&rsquo;t have time to risk a new approach like this at our scale :)</li>
+<li>Microservices, Kubernetes, Terraform, &hellip; overkill for our current scale.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>In summary, our all-JS stack may not be the sexiest or most pure, but it is by far the most efficient in the current requirements, and allows us to deliver way more value per engineering hour to customers than other solutions currently available.</p>
 
       
       <div class="related">
