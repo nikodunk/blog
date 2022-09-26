@@ -156,6 +156,7 @@
 &lt;li&gt;Library updates on one benefit the other (ie. Node), downside: lib updates block the other&lt;/li&gt;
 &lt;li&gt;More dogfooding: Dogfooding mobile dogfoods web too - if one team member dogfoods web and another team member dogfoods mobile, we&amp;rsquo;ll have pretty good coverage - especially since most of the code is shared.&lt;/li&gt;
 &lt;li&gt;Partially related to the above - we &lt;a href=&#34;https://boringtechnology.club/&#34;&gt;chose boring technology&lt;/a&gt;, and benefitted from all the upsides metnioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.&lt;/li&gt;
+&lt;li&gt;Way fewer dependencies to understand, audit, and use. Downside: we have quite a few eggs in Bull&amp;rsquo;s basket.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;the-alternatives&#34;&gt;The alternatives&lt;/h2&gt;
 &lt;ul&gt;
