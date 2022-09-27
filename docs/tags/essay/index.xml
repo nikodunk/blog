@@ -8,19 +8,20 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Jul 2022 08:00:00 -0700</lastBuildDate><atom:link href="https://nikodunk.com/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Essay: Centrism and the open-source community</title>
+      <title>Essay: Why centrism seems to work best in politics and open-source</title>
       <link>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</link>
       <pubDate>Fri, 08 Jul 2022 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</guid>
-      <description>I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches.
-I recently switched to Linux, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:
-Arch (rolling distribution) &amp;lt;=&amp;gt; left-wing Progressive party:
- Sometimes too far forward-looking and unstable. City experiments.</description>
+      <description>I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches, and their various effectiveness and popularity.
+The different open-source Linux distributions take different attitudes to their packaging:
+Arch (rolling distribution):
+ Sometimes too far forward-looking and unstable. City experiments. Dismantling capitalism.  Debian (stable distribution):
+ People wanting the past and getting frustrated at progress. Fearful of breakage leads to paralysis.</description>
     </item>
     
     <item>
-      <title>Essay: The tiny-team framework: How ATMOS optimized its tech stack around extreme efficiency</title>
+      <title>The tiny-team framework: How ATMOS optimized its tech stack around code efficiency</title>
       <link>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</link>
       <pubDate>Tue, 10 May 2022 08:00:00 -0700</pubDate>
       

@@ -1,31 +1,33 @@
 ---
 layout: post
-title: "Essay: Centrism and the open-source community"
+title: "Essay: Why centrism seems to work best in politics and open-source"
 date: 2022-07-08 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches.
+I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches, and their various effectiveness and popularity.
 
-I recently switched to Linux, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:
+The different open-source Linux distributions take different attitudes to their packaging:
 
-Arch (rolling distribution) <=> left-wing Progressive party:
+Arch (rolling distribution):
 
 - Sometimes too far forward-looking and unstable.
 - City experiments.
 - Dismantling capitalism.
 
-Debian (stable distribution) <=> Conservative party:
+Debian (stable distribution):
 
 - People wanting the past and getting frustrated at progress.
 - Fearful of breakage leads to paralysis.
 - Not trusting leadership to progress while listening to their needs.
 
-Fedora (leading-edge distribution) <=> Centrist party:
+Fedora (leading-edge distribution):
 
 - The "centrist" approach of balancing the above two methods yields a sensible inbetween.
 - Communities thrive when right compromise of progress and stability.
 - Ubuntu used to be in this position and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.
 - Democracy at its best.
+
+I believe these map to progressive, conservative, and centrist political attitudes in the US.
 
 These similarities may be superficial, but I thought it was a neat mapping. Maybe the fact that the most popular distributions are often the centrist ones can give us some hope for the US political system's future.

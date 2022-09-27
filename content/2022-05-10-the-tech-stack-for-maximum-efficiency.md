@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Essay: The tiny-team framework: How ATMOS optimized its tech stack around extreme efficiency"
+title: "The tiny-team framework: How ATMOS optimized its tech stack around code efficiency"
 date: 2022-05-10 08:00:00 -0700
 tags: ["Essay"]
 ---

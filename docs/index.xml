@@ -73,48 +73,54 @@
       <content>&lt;p&gt;While most companies are busy at work trying to replace humans with some form of automation or AI, this is the story of how ATMOS replaced an AI fraud prediction solution with simple dashboard to make human decision making as efficient as possible.&lt;/p&gt;
 &lt;p&gt;We too had the option of doing what most fintech startups do, and buying in to a fraud-prevention vendor - after all if it&amp;rsquo;s their bread-and-butter to prevent fraud, they&amp;rsquo;ll probably be better at it than we are, right? Well, we tried it at first of course. But we quickly received a few unpredicted &amp;ldquo;exceptions&amp;rdquo; that cost us dearly. One is too many. So, while everyone else ran in the opposite direction, we decided instead of going all-in on 3rd party anti-fraud AI vendors - we built a dashboard to make human decisioning as efficient as possible.&lt;/p&gt;
 &lt;p&gt;This method was inspired by an article by the Bearblog founder Herman&amp;rsquo;s article &lt;a href=&#34;https://herman.bearblog.dev/5-hours-to-15-minutes/&#34;&gt;&amp;ldquo;From 5 hours to 15 minutes per week&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It not only saved anywhere from $72,000-100,000+ depending on estimation methods in the process, but also outperformed the competition that either a) didn&amp;rsquo;t have fraud prediction/prevention or b) used ineffective AI fraud prevention vendors. This is proven by the fact that a some of them have had to throttle or close new applications due to fraud, while we have not.&lt;/p&gt;
-&lt;p&gt;Instead of building a 99% precise self-driving car, we have found success in a building a 100% precise, very efficient bicycle. It won&amp;rsquo;t scale to 1B users, but it doesn&amp;rsquo;t have to - it got us to the next step.&lt;/p&gt;
+&lt;p&gt;It has saved somehwere around $100,000, depending on estimation methods for fraud and AI anti-fraud SaaS cost, but more importantly kept us safer than the competition who either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Didn&amp;rsquo;t have fraud prediction/prevention&lt;/li&gt;
+&lt;li&gt;Used ineffective AI fraud prevention vendors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is proven by the fact that a some of them have had to throttle or close new applications due to fraud, while we have not.&lt;/p&gt;
+&lt;p&gt;Instead of building a 99% precise self-driving car, we have found success in a building a 100% precise, very efficient bicycle. It won&amp;rsquo;t scale to 1B users, but it doesn&amp;rsquo;t have to - it kept us safe until we had more bandwidth to address the issue more scalably.&lt;/p&gt;
 </content>
       
     </item>
     
     <item>
-      <title>Essay: Centrism and the open-source community</title>
+      <title>Essay: Why centrism seems to work best in politics and open-source</title>
       <link>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</link>
       <pubDate>Fri, 08 Jul 2022 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</guid>
       <description></description>
       
-      <content>&lt;p&gt;I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches.&lt;/p&gt;
-&lt;p&gt;I recently switched to Linux, and made some realizations in the process on conservative, progressive and centrist approeaches in the open-source community. Specifically, in the different approaches that different open-source Linux distributions take to their packaging:&lt;/p&gt;
-&lt;p&gt;Arch (rolling distribution) &amp;lt;=&amp;gt; left-wing Progressive party:&lt;/p&gt;
+      <content>&lt;p&gt;I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches, and their various effectiveness and popularity.&lt;/p&gt;
+&lt;p&gt;The different open-source Linux distributions take different attitudes to their packaging:&lt;/p&gt;
+&lt;p&gt;Arch (rolling distribution):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sometimes too far forward-looking and unstable.&lt;/li&gt;
 &lt;li&gt;City experiments.&lt;/li&gt;
 &lt;li&gt;Dismantling capitalism.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Debian (stable distribution) &amp;lt;=&amp;gt; Conservative party:&lt;/p&gt;
+&lt;p&gt;Debian (stable distribution):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;People wanting the past and getting frustrated at progress.&lt;/li&gt;
 &lt;li&gt;Fearful of breakage leads to paralysis.&lt;/li&gt;
 &lt;li&gt;Not trusting leadership to progress while listening to their needs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Fedora (leading-edge distribution) &amp;lt;=&amp;gt; Centrist party:&lt;/p&gt;
+&lt;p&gt;Fedora (leading-edge distribution):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The &amp;ldquo;centrist&amp;rdquo; approach of balancing the above two methods yields a sensible inbetween.&lt;/li&gt;
 &lt;li&gt;Communities thrive when right compromise of progress and stability.&lt;/li&gt;
 &lt;li&gt;Ubuntu used to be in this position and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.&lt;/li&gt;
 &lt;li&gt;Democracy at its best.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;I believe these map to progressive, conservative, and centrist political attitudes in the US.&lt;/p&gt;
 &lt;p&gt;These similarities may be superficial, but I thought it was a neat mapping. Maybe the fact that the most popular distributions are often the centrist ones can give us some hope for the US political system&amp;rsquo;s future.&lt;/p&gt;
 </content>
       
     </item>
     
     <item>
-      <title>Essay: The tiny-team framework: How ATMOS optimized its tech stack around extreme efficiency</title>
+      <title>The tiny-team framework: How ATMOS optimized its tech stack around code efficiency</title>
       <link>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</link>
       <pubDate>Tue, 10 May 2022 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
