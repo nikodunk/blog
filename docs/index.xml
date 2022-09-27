@@ -38,7 +38,7 @@
       
       <content>&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Linux ready phone with smd845&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Flathub apps: syncing notepad for linux mobile, &lt;del&gt;build &amp;amp; deploy blog from linux mobile&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Flathub apps: syncing notes app for linux mobile, &lt;del&gt;build &amp;amp; deploy blog from linux mobile&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Climate fintech&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://keras.io/examples/vision/3D_image_classification/&#34;&gt;AI&lt;/a&gt; (example: Keras model trained to create art from inputs)&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Prefab and printing houses&lt;/li&gt;
