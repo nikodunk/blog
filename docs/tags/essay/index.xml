@@ -26,8 +26,8 @@ Arch (rolling distribution):
       <pubDate>Tue, 10 May 2022 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</guid>
-      <description>More wood behind fewer arrows The Atmos stack is not special, but it&amp;rsquo;s different in its approach from most startups of our size: not around newest technology, not around most pure implementation, but around using as few dependencies as possible, sharing code between parts of the stack, and engineering efficiency. This leads to faster, more bug-free feature delivery and time spent actually polishing user experiences.
-We unified our stack around JS for maximum efficiency and launched a bank w/ 10,000+ customers with only 1.</description>
+      <description>More wood behind fewer arrows The Atmos stack is not special, but it&amp;rsquo;s different in its approach from other software projects: around using as few dependencies as possible, sharing code between parts of the stack, and engineering efficiency.
+We unified our stack around JS for maximum efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers, while staying secure and fast. Our engineering goal was always that as few developers as possible could maintain all the various project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work.</description>
     </item>
     
     <item>
