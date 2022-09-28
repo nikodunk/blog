@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How ATMOS replaced AI with Humans"
+title: "How Atmos replaced AI with humans"
 date: 2022-09-21 08:00:00 -0700
 categories:
 ---

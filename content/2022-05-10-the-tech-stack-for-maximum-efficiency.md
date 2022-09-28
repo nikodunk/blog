@@ -1,21 +1,23 @@
 ---
 layout: post
-title: "The tiny-team framework: How ATMOS optimized its tech stack around code efficiency"
+title: "The tiny-team framework: How Atmos optimized its tech stack around code efficiency"
 date: 2022-05-10 08:00:00 -0700
 tags: ["Essay"]
 ---
 
 ## More wood behind fewer arrows
 
-The [Atmos](https://www.joinatmos.com) stack is not special, but it's different in its approach from other software projects: around using as few dependencies as possible, sharing code between parts of the stack, and engineering efficiency.
+The [Atmos](https://www.joinatmos.com) stack is not special, but it's different in its approach from other software projects: it uses as few dependencies as possible, shares code between parts of the stack, and optimizes for engineering efficiency.
 
-We unified our stack around JS for maximum efficiency and launched a bank w/ 10,000+ customers with only 1.5 FTE engineers, while staying secure and fast. Our engineering goal was always that as few developers as possible could maintain all the various project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work.
+We have launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and fast. With so few engineers to do so much work, we need to be brutally efficient:
 
-With so few engineers to do so much work, we need to be brutally efficient. A single developer is 10-20x less developers than similar competitors are throwing at the effort. Our baseline for required engineering being so much lower, if push comes to shove we can outlast competitors.
+We unified our stack around Javascript over all clients and API for maximum efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don't have time to write things (and more importantly debug things!) twice.
 
-This reduction of engineering overhead also lead to faster, more bug-free feature delivery and more time spent dogfooding (using your own product) & polishing user experiences.
+We have optimized various other things in our stack to require as little maintenance as necessary. Our engineering goal was always that as few developers as possible could maintain all the various project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Because a 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, so we cannot afford to spend any engineering time on duplicated effort or we will not have any effort left at all for feature work. Our baseline for "overhead engineering" is designed to be so low that if push comes to shove we can survive with very few engineers (but if we have more - great!).
 
-The stack that achieved this and ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - is as follows:
+This reduction of engineering overhead had the side effect of leading to faster, more bug-free feature delivery and more time spent dogfooding (using your own product) & polishing user experiences: We did not have multiple client codebases & apis that require more people to maintain them, but we also have way less code surface to test & debug as most of it is shared: a team member of our small team using each banking feature (ie. check deposit) and banking client (ie Android, iOS, web on Windows, etc) regularly is enough to give us pretty good real-world test coverage and make sure nothing breaks without our automated testing noticing. We are lucky enough to have an Android user, an iOS user, a few mac users, a Windows user, and get pretty good real-world signals if something does break.
+
+The stack that achieved this and has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:
 
 ## The stack
 
