@@ -24,7 +24,7 @@ categories:
 - [ ] studio for climate saving software
 - [x] Impact quizzes / web apps? EV charging configurator, solar configurator, gas configurator. SaaS?
 - [x] Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)
-- [ ] problem I've heard from solar installers: solar platforms is a race to the bottom.
+- [ ] problem I've heard from solar installers: solar platforms are a race to the bottom.
 - [x] ~~Scrape all solar installers & present to customer.~~
 - [x] ~~Find homes that don't have solar, give badge, hook up with electrification.~~
 - [x] SaaS for solar sales - Tesla style solar sales presentation tool for all other solar installers - saas
