@@ -12,33 +12,17 @@
     
     
     <item>
-      <title>Great articles</title>
-      <link>https://nikodunk.com/2022-09-25-great-articles/</link>
-      <pubDate>Sun, 25 Sep 2022 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/2022-09-25-great-articles/</guid>
-      <description></description>
-      
-      <content>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://innovationfrontier.org/space-solar-power-an-extraterrestrial-energy-resource-for-the-u-s/&#34;&gt;https://innovationfrontier.org/space-solar-power-an-extraterrestrial-energy-resource-for-the-u-s/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://doctorow.medium.com/i-quit-9ae7b6010c99&#34;&gt;https://doctorow.medium.com/i-quit-9ae7b6010c99&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gonzalobuilds.com/projects/ninja-delivery-20212022&#34;&gt;https://www.gonzalobuilds.com/projects/ninja-delivery-20212022&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-      
-    </item>
-    
-    <item>
       <title>Tech to watch</title>
       <link>https://nikodunk.com/2022-09-22-tech-to-watch/</link>
-      <pubDate>Thu, 22 Sep 2022 08:00:00 -0700</pubDate>
+      <pubDate>Wed, 28 Sep 2022 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/2022-09-22-tech-to-watch/</guid>
       <description></description>
       
       <content>&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Linux ready phone with smd845&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Flathub apps: syncing notes app for linux mobile, &lt;del&gt;build &amp;amp; deploy blog from linux mobile&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Flathub app: A notepad that syncs - saas - for linux mobile - $1/mo&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;del&gt;Flathub app: build &amp;amp; deploy blog from linux mobile&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Climate fintech&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://keras.io/examples/vision/3D_image_classification/&#34;&gt;AI&lt;/a&gt; (example: Keras model trained to create art from inputs)&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Prefab and printing houses&lt;/li&gt;
@@ -55,8 +39,28 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; studio for climate saving software&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Impact quizzes / web apps? EV charging configurator, solar configurator, gas configurator. SaaS?&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; problem I&amp;rsquo;ve heard from solar installers: solar platforms is a race to the bottom. Scrape all solar installers &amp;amp; present to customer. Find homes that don&amp;rsquo;t have solar, give badge, hook up with electrification. SaaS for solar sales.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; problem I&amp;rsquo;ve heard from solar installers: solar platforms is a race to the bottom.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;del&gt;Scrape all solar installers &amp;amp; present to customer.&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;del&gt;Find homes that don&amp;rsquo;t have solar, give badge, hook up with electrification.&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; SaaS for solar sales - Tesla style solar sales presentation tool for all other solar installers - saas&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Time tested classic: clone another badly-run business better (maybe with existing demand)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>Great articles</title>
+      <link>https://nikodunk.com/2022-09-25-great-articles/</link>
+      <pubDate>Sun, 25 Sep 2022 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/2022-09-25-great-articles/</guid>
+      <description></description>
+      
+      <content>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://innovationfrontier.org/space-solar-power-an-extraterrestrial-energy-resource-for-the-u-s/&#34;&gt;https://innovationfrontier.org/space-solar-power-an-extraterrestrial-energy-resource-for-the-u-s/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doctorow.medium.com/i-quit-9ae7b6010c99&#34;&gt;https://doctorow.medium.com/i-quit-9ae7b6010c99&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gonzalobuilds.com/projects/ninja-delivery-20212022&#34;&gt;https://www.gonzalobuilds.com/projects/ninja-delivery-20212022&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
       
