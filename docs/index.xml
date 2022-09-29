@@ -93,7 +93,7 @@
       
       <content>&lt;p&gt;I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches, and their various effectiveness and popularity.&lt;/p&gt;
 &lt;p&gt;The different open-source Linux distributions take different attitudes to their packaging:&lt;/p&gt;
-&lt;p&gt;Arch (rolling distribution):&lt;/p&gt;
+&lt;p&gt;Arch (cutting-edge, rolling release distribution):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sometimes too far forward-looking and unstable.&lt;/li&gt;
 &lt;li&gt;City experiments.&lt;/li&gt;
@@ -105,14 +105,14 @@
 &lt;li&gt;Fearful of breakage leads to paralysis.&lt;/li&gt;
 &lt;li&gt;Not trusting leadership to progress while listening to their needs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Fedora (leading-edge distribution):&lt;/p&gt;
+&lt;p&gt;Fedora (leading-edge (but not cutting-edge) distribution):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The &amp;ldquo;centrist&amp;rdquo; approach of balancing the above two methods yields a sensible inbetween.&lt;/li&gt;
+&lt;li&gt;a balanced version of the above two methods yields a sensible, common-sense inbetween.&lt;/li&gt;
 &lt;li&gt;Communities thrive when right compromise of progress and stability.&lt;/li&gt;
-&lt;li&gt;Ubuntu used to be in this position and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.&lt;/li&gt;
-&lt;li&gt;Democracy at its best.&lt;/li&gt;
+&lt;li&gt;Democracy at its best: Vote on new measures, which get adopted and rejected with roughly equal frequency.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I believe these map to progressive, conservative, and centrist political attitudes in the US.&lt;/p&gt;
+&lt;p&gt;I think the above three distributions map to progressive, conservative, and centrist political political parties in the US.&lt;/p&gt;
+&lt;p&gt;Note: Ubuntu used to be in the centrist/common sense position of Fedora and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.&lt;/p&gt;
 &lt;p&gt;These similarities may be superficial, but I thought it was a neat mapping. Maybe the fact that the most popular distributions are often the centrist ones can give us some hope for the US political system&amp;rsquo;s future.&lt;/p&gt;
 </content>
       
@@ -1128,10 +1128,10 @@ We believe that most people working in energy, solar, and climate change have be
       <description></description>
       
       <content>&lt;ul&gt;
-&lt;li&gt;Google will be replaced at an ever increasing rate by DuckDuckGo. I&amp;rsquo;ve switched to them full-time for the 3rd or 4th time, but &lt;em&gt;this&lt;/em&gt; time feel no need to go back. DuckDuckGo has all the developer mindshare, and their growth is &lt;a href=&#34;https://duckduckgo.com/traffic&#34;&gt;exponential&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Manufacturing, and having it close by, will become increasingly important again. So far we&amp;rsquo;ve said &amp;ldquo;let&amp;rsquo;s outsource this&amp;rdquo;, but we&amp;rsquo;re seeing the drag on innovation by not being able to make our own things close by. &lt;a href=&#34;https://youtu.be/r46x_ti__vs?t=1717&#34;&gt;Tesla&lt;/a&gt; was incubated at Lotus in the UK because they have small workshops and supply chains. &lt;a href=&#34;https://www.omgubuntu.co.uk/2019/12/purism-announce-1999-librem-5-usa-same-librem-5-just-made-in-america&#34;&gt;Phones&lt;/a&gt; are being made in Texas, I predict all nations will re-focus on making their own Shenzhen. Probably with mixed results, same as for the last decade everyone tried to copy Silicon Valley.&lt;/li&gt;
+&lt;li&gt;Google will be replaced at an ever increasing rate, probably by DuckDuckGo. I&amp;rsquo;ve switched to them full-time for the 3rd or 4th time, but &lt;em&gt;this&lt;/em&gt; time feel no need to go back. DuckDuckGo has all the developer mindshare, and their growth is &lt;a href=&#34;https://duckduckgo.com/traffic&#34;&gt;exponential&lt;/a&gt;. Already I&amp;rsquo;ve seen people do images search on Instagram instead of Google Images, and young people search Snapchat for recipes instead of Google. (Note from 2022: TikTok seems to be doing this)&lt;/li&gt;
+&lt;li&gt;Manufacturing, and having it close by, will become increasingly important again. So far we&amp;rsquo;ve said &amp;ldquo;let&amp;rsquo;s outsource this&amp;rdquo;, but we&amp;rsquo;re seeing the drag on innovation by not being able to make our own things close by. &lt;a href=&#34;https://youtu.be/r46x_ti__vs?t=1717&#34;&gt;Tesla&lt;/a&gt; was incubated at Lotus in the UK because they have small workshops and supply chains. &lt;a href=&#34;https://www.omgubuntu.co.uk/2019/12/purism-announce-1999-librem-5-usa-same-librem-5-just-made-in-america&#34;&gt;Phones&lt;/a&gt; are being made in Texas, I predict all nations will re-focus on making their own Shenzhen. Probably with mixed results, same as for the last decade everyone tried to copy Silicon Valley. (Note from 2022: See the Intel onshoring plan and the Inflation Reduction Act in congress)&lt;/li&gt;
 &lt;li&gt;Electric Vehicles, though that&amp;rsquo;s a pretty obvious one at this point. 6 months ago when the following article was written though, everyone was calling them crazy. Read it &lt;a href=&#34;https://nikodunk.com/4-reasons-why-electric-vehicles-will-dominate-sooner-than-you-think/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Software as we know it is currently important but I believe will become increasingly commoditized and unimportant. Already no-code AI, web-apps and games like Roblox that help you build worlds code-free are becoming a thing.&lt;/li&gt;
+&lt;li&gt;Software as we know it is currently important but I believe will become increasingly commoditized and unimportant. Already no-code AI, web-apps and games like Roblox that help you build worlds code-free are becoming a thing. (Note from 2022: See Github Co-Pilot)&lt;/li&gt;
 &lt;li&gt;Cities will take the political and social lead away from states. See also &lt;a href=&#34;https://nikodunk.com/cities/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
