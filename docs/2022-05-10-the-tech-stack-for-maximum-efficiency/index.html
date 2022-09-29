@@ -82,43 +82,43 @@ We have launched and run a fintech with 10,000&#43; customers with only 1-2 full
 <p>Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, due to shared code, testing one platform is basically testing the other. For example: a team member using iOS check deposit will find something is broken for them, before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.</p>
 <p>The stack that achieved this and has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:</p>
 <h2 id="the-stack">The stack</h2>
-<p>Javascript Web &amp; Mobile - React &amp; React-Native:</p>
+<p>All-Javascript Web app, Android &amp; iOS - React &amp; React-Native:</p>
 <ul>
-<li>Clients monorepo sharing a /common folder with redux, utility functions, math, permissions, etc etc</li>
+<li>Monorepo for web &amp; mobile, sharing a /common folder with redux, utility functions, math, permissions, etc etc</li>
 <li>Tailwind as a shared styling language over React &amp; React Native.</li>
 <li>Redux as a shared api requests/state logic library.</li>
 <li>React &amp; React Native updated to the newest versions, matching the newest Expo SDK for React Native.</li>
-<li>Jest running automated integration tests for the biggest features on the CI for both client projects on every commit.</li>
-<li>Routing is not shared in order to feel native: React Navigation on mobile vs. React Router for web.</li>
-<li>As much testing as possible in day-to-day banking from team members, on web (windows, mac, etc), iOS and Android.</li>
-<li>Regularly updated and audited dependencies for both subprojects, done regularly.</li>
+<li>Jest running automated integration tests for &ldquo;critical path&rdquo; features like application, login, transfer, etc on the CI for both web &amp; mobile on every commit.</li>
+<li>Routing is one thing that is <em>not</em> shared at all in order to feel native: React Navigation on mobile vs. React Router for web.</li>
+<li>Regularly updated and audited dependencies for both React &amp; React Native</li>
+<li>When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.</li>
+<li>Similarly when launching loans, we merged the loans web client into the main client repo almost immediately to piggyback off the devOps of the main product (deposits). Further, the deposits product then benefitted from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&rsquo;d originally launched on and moving with Tailwind also on the deposit product.</li>
 </ul>
-<p>Javascript API - Node (Hapi &amp; Bull Queue) running on Heroku:</p>
+<p>All-Javascript API - Node, Hapi &amp; Bull Queue running on Heroku:</p>
 <ul>
-<li>Regularly updated &amp; audited packages &amp; Node versions to unlock newest features &amp; ensure security</li>
+<li>A single api running all code for deposits, loans, job runners, etc</li>
+<li>Regularly updated &amp; audited packages including Node versions to unlock newest features &amp; ensure security</li>
 <li>Integration test coverage of critical path user flows (apply, login, transact), enforced by CI.</li>
 <li>A single API and jobs queue for all features: deposits, loans, monthly jobs, loans, etc</li>
+<li>When launching loans, we merged the api into the main api repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.</li>
 </ul>
 <p>Other:</p>
 <ul>
-<li>Webflow for landing pages</li>
-<li>Retool as to access to numberous admin api functions to detect fraud, approve users, approve loans, see growth, etc. There&rsquo;s a goal to hand-perform a task that needs to be done once, if it happens a second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.</li>
+<li>Webflow CMS for static landing pages</li>
+<li>Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc.</li>
+<li>If a task that needs to be done once we hand-perform it, the second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.</li>
 </ul>
-<h2 id="benefits-so-far-from-this-unified-stack">Benefits so far from this unified stack</h2>
+<h2 id="benefits-so-far-from-unified-stack">Benefits so far from unified stack</h2>
 <ul>
 <li>Copy paste code from the web, mobile, server</li>
 <li>Use the same libraries on the web, mobile, server</li>
-<li>Use similar testing syntax</li>
+<li>Use similar testing syntax over api, iOS, Android, Web app</li>
 <li>Less onboarding for engineers</li>
-<li>Library updates on one benefit the other (ie. Node), downside: library updates block the other.</li>
+<li>Libraries: Library updates on one project benefit the all others (ie. Node), downside: library updates block the other. Way fewer dependencies to understand, audit, and use. Downside: we are deeply invested in a single library for a task.</li>
 <li>More dogfooding: Dogfooding mobile dogfoods web too - if one team member dogfoods web and another team member dogfoods mobile, we&rsquo;ll have pretty good coverage - especially since most of the code is shared.</li>
-<li>By <a href="https://boringtechnology.club/">choosing boring, well-tested technology</a>, and avoiding say serverless or non-relational databases, we benefitted from all the upsides metnioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.</li>
-<li>Way fewer dependencies to understand, audit, and use. Downside: we have quite a few eggs in Bull&rsquo;s basket.</li>
-<li>When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.</li>
-<li>Adding our follow-on loans product, we merged the web client into the main web repo almost immediately to piggyback off the devOps of the main product (bank), and also so that the bank could benefit from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&rsquo;d originally launched on and going with Tailwind.</li>
-<li>Adding our follow-on loans product, we merged the api into the main api repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.</li>
+<li>By <a href="https://boringtechnology.club/">choosing boring, well-tested technology</a>, for example avoiding microservices or non-relational databases, we benefitted from all the upsides metnioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.</li>
 </ul>
-<h2 id="other-approaches-towards-the-same-goal">Other approaches towards the same goal</h2>
+<h2 id="other-possible-approaches">Other possible approaches</h2>
 <p>In a perfect world we&rsquo;d have a single codebase that renders everything server-side in a <a href="/a-node-js-developer-discovers-rails/">majestic monolith</a> and use a <a href="https://world.hey.com/dhh/the-one-person-framework-711e6318">one-person framework</a>, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases - we needed to balance efficiency with customer expectations/competitiveness.</p>
 <ul>
 <li>Flutter, Flutter on web, Rails - still requires 2 languages each with their idiosyncracies, and Flutter on web is half-baked at best. Plus, at this point post-Angular I don&rsquo;t trust Google&rsquo;s commitment to any project long-term</li>
@@ -128,7 +128,7 @@ We have launched and run a fintech with 10,000&#43; customers with only 1-2 full
 <li>Microservices, Kubernetes, Terraform, &hellip; overkill for our current scale.</li>
 </ul>
 <h2 id="conclusion">Conclusion</h2>
-<p>In summary, our all-JS stack may not be the sexiest or most pure, but it is by far the most efficient in the current requirements, and allows us to deliver way more value per engineering hour to customers than other solutions currently available.</p>
+<p>In summary, our all-JS will not be perfect for everyone, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value per engineering hour to customers than other solutions currently available.</p>
 
       
       <div class="related">
