@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Essay: Vipassana Meditation"
+title: "Vipassana Meditation"
 date: 2015-03-18 08:00:00 -0700
 tags: ["Essay"]
 ---

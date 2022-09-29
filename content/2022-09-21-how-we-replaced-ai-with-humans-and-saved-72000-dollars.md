@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "How Atmos replaced AI with humans"
+title: "How to replace AI with humans"
 date: 2022-09-21 08:00:00 -0700
 categories:
 ---
 
-While most companies are busy at work trying to replace humans with some form of automation or AI, this is the story of how ATMOS replaced an AI fraud prediction solution with simple dashboard to make human decision making as efficient as possible.
+While most companies are busy at work trying to replace humans with some form of automation or AI, this is the story of how [Atmos](https://www.joinatmos.com) replaced an AI fraud prediction solution with simple dashboard to make human decision making as efficient as possible.
 
 We too began with what most fintech startups do: we subscribed to a fraud-prevention vendor - after all if it's the vendor's bread-and-butter to prevent fraud, they'll probably be better at it than we are, right? We quickly were hit by a few unpredicted "exceptions" that the vendor had missed that cost us dearly. One is too many. So, while our competitors continued in this direction, we decided instead of going all-in on 3rd party anti-fraud AI vendors to add an additional layer of security on top of this before the final decision. We built a dashboard to make human decisioning as efficient as possible, after the AI had made its prediction.
 

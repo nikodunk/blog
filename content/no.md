@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Essay: No"
+title: "No"
 date: 2015-02-13 08:00:00 -0700
 tags: ["Essay"]
 ---

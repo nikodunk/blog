@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Essay: Why centrism works best in politics and open-source"
+title: "Political learnings from open-source"
 date: 2022-07-08 08:00:00 -0700
 tags: ["Essay"]
 ---

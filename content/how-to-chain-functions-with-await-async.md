@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to chain multiple functions in Javascript properly with await/async"
+title: "How to chain multiple functions properly in Javascript properly with await/async"
 date: 2019-08-11 08:00:00 -0700
 categories:
 ---

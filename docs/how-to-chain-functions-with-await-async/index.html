@@ -4,9 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>How to chain multiple functions in Javascript properly with await/async | D U N K</title>
+<title>How to chain multiple functions properly in Javascript properly with await/async | D U N K</title>
 
-<meta property='og:title' content='How to chain multiple functions in Javascript properly with await/async - D U N K'>
+<meta property='og:title' content='How to chain multiple functions properly in Javascript properly with await/async - D U N K'>
 <meta property='og:description' content='Next to my main job of building out and running electrade I help a friend’s team with their project. Recently, we wanted to build a Craiglist-style anonymous email relay with a &ldquo;serverless&rdquo; Google Firebase Function (same as AWS Lambda, Azure Functions, etc) for this project. So far I&rsquo;ve found handling async operations with .then() callbacks easier to think through, but wanted to use async/await here because it&rsquo;s so much cleaner to read.'>
 <meta property='og:url' content='https://nikodunk.com/how-to-chain-functions-with-await-async/'>
 <meta property='og:site_name' content='D U N K'>
@@ -63,7 +63,7 @@
       
     </div>
     <h2 class="subtitle is-6">August 11, 2019</h2>
-    <h1 class="title">How to chain multiple functions in Javascript properly with await/async</h1>
+    <h1 class="title">How to chain multiple functions properly in Javascript properly with await/async</h1>
     
     <div class="content">
       <p>Next to my main job of building out and running <a href="https://www.electrade.app">electrade</a> I help a friend’s team with their project. Recently, we wanted to build a Craiglist-style anonymous email relay with a &ldquo;serverless&rdquo; Google Firebase Function (same as AWS Lambda, Azure Functions, etc) for this project. So far I&rsquo;ve found handling async operations with <code>.then()</code> callbacks easier to think through, but wanted to use async/await here because it&rsquo;s so much cleaner to read. I found most articles out there on chaining multiple functions unhelpful as they tend to post incomplete demo code that&rsquo;s copy/pasted from MSDN. There are a few hard-to-debug pitfalls on async/await, and since I fell into all of them I&rsquo;ll post my complete code here and explain my learnings so you don&rsquo;t have to.</p>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Essay: As cities grow, nations will fade."
+title: "As cities grow, nations will fade."
 date: 2018-03-27 08:00:00 -0700
 tags: ["Essay"]
 image: /cities/futuresf.jpg

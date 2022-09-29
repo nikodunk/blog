@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Essay: Up!"
+title: "Up!"
 date: 2013-05-16 08:00:00 -0700
 tags: ["Essay"]
 image: /up/Guy_Carlton_Wiggins_The_Circle.png
