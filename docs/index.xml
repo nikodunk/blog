@@ -67,18 +67,18 @@
     </item>
     
     <item>
-      <title>How to replace AI with humans</title>
+      <title>How to replace an AI with humans</title>
       <link>https://nikodunk.com/2022-09-21-how-we-replaced-ai-with-humans-and-saved-72000-dollars/</link>
       <pubDate>Wed, 21 Sep 2022 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/2022-09-21-how-we-replaced-ai-with-humans-and-saved-72000-dollars/</guid>
       <description></description>
       
-      <content>&lt;p&gt;While most companies are busy at work trying to replace humans with some form of automation or AI, this is the story of how &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos&lt;/a&gt; replaced an AI fraud prediction solution with simple dashboard to make human decision making as efficient as possible.&lt;/p&gt;
-&lt;p&gt;We too began with what most fintech startups do: we subscribed to a fraud-prevention vendor - after all if it&amp;rsquo;s the vendor&amp;rsquo;s bread-and-butter to prevent fraud, they&amp;rsquo;ll probably be better at it than we are, right? We quickly were hit by a few unpredicted &amp;ldquo;exceptions&amp;rdquo; that the vendor had missed that cost us dearly. One is too many. So, while our competitors continued in this direction, we decided instead of going all-in on 3rd party anti-fraud AI vendors to add an additional layer of security on top of this before the final decision. We built a dashboard to make human decisioning as efficient as possible, after the AI had made its prediction.&lt;/p&gt;
+      <content>&lt;p&gt;While most companies are busy at work trying to replace humans with some form of automation or AI, this is the story of how &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos&lt;/a&gt; replaced an AI fraud prediction solution with a simple dashboard to make human decision making as efficient as possible.&lt;/p&gt;
+&lt;p&gt;We too began with what most fintech startups do: we signed a contract with a vendor of fraud-prevention software - after all if it&amp;rsquo;s the vendor&amp;rsquo;s bread-and-butter to prevent fraud, they&amp;rsquo;ll probably be better at it than we are, right? We quickly were hit by a few unpredicted &amp;ldquo;exceptions&amp;rdquo; that cost us dearly. One is too many when the company is still small. So we decided instead of going all-in on 3rd party anti-fraud AI vendors: to add an additional layer of security on top of the AI before the final decision. We built a dashboard to present a human with all the information they need to make a 100% precise decision, and to make it ridiculously easy to either approve or request more info from all cases where we are not 100.00% sure of the legitimacy of the case. In short, to make human decisioning and follow-up as close to machine-speed as possible.&lt;/p&gt;
 &lt;p&gt;This method was inspired by an article by the Bearblog founder Herman&amp;rsquo;s article &lt;a href=&#34;https://herman.bearblog.dev/5-hours-to-15-minutes/&#34;&gt;&amp;ldquo;From 5 hours to 15 minutes per week&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It has saved us more than $100,000 in prevented fraud and additional wasted effort cleaning up said fraud, depending on estimation methods, but more importantly kept us safe. We have had a near-zero fraud cost since then. Other fintechs in our space have struggled with non-zero fraud costs, proven by the fact that a some have had to throttle or close new applications due to fraud, while we have not.&lt;/p&gt;
-&lt;p&gt;Instead of building a 99% precise self-driving car, we have found success in a building a 100% precise, very efficient bicycle. It won&amp;rsquo;t scale to 1B users, but it doesn&amp;rsquo;t have to - it kept us safe until we had more bandwidth to address the issue more scalably.&lt;/p&gt;
+&lt;p&gt;It has saved us roughly $100,000+ so far in prevented fraud and clean-up effort, depending on estimation methods, but more importantly kept our users safe, us safe, and compliant. We have had a near-zero fraud on our platform since the introduction of this system. Other fintechs in our space have struggled with high fraud rates, proven by the fact that a some have had to throttle new applications while we have not.&lt;/p&gt;
+&lt;p&gt;We have tried hard to augement human intelligence instead of trusting artificial intelligence, and thereby traded speed (fast human vs. instant machine) with precision (100% trustworthy human prediction vs. 99.5% trustworthy machine). Instead of building a 99% precise self-driving car, we have found success in a building a 100% precise, very efficient bicycle. Our method won&amp;rsquo;t scale to 1B users, but it doesn&amp;rsquo;t have to - it kept us safe until we had more bandwidth to address the issue more scalably.&lt;/p&gt;
 </content>
       
     </item>
@@ -96,22 +96,22 @@
 &lt;p&gt;Arch (cutting-edge, rolling release distribution):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sometimes too far forward-looking and unstable.&lt;/li&gt;
-&lt;li&gt;City experiments.&lt;/li&gt;
-&lt;li&gt;Dismantling capitalism.&lt;/li&gt;
+&lt;li&gt;Running sometimes breaking experiments on live systems.&lt;/li&gt;
+&lt;li&gt;Dismantling existing structures before users are ready.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Debian (stable distribution):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;People wanting the past and getting frustrated at progress.&lt;/li&gt;
-&lt;li&gt;Fearful of breakage leads to paralysis.&lt;/li&gt;
-&lt;li&gt;Not trusting leadership to progress while listening to their needs.&lt;/li&gt;
+&lt;li&gt;Users wanting to live in the past and getting frustrated at progress.&lt;/li&gt;
+&lt;li&gt;Fear of breaking anything - to the point of paralysis.&lt;/li&gt;
+&lt;li&gt;Not trusting project leadership to progress while listening to users&amp;rsquo; needs.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Fedora (leading-edge (but not cutting-edge) distribution):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;a balanced version of the above two methods yields a sensible, common-sense inbetween.&lt;/li&gt;
-&lt;li&gt;Communities thrive when right compromise of progress and stability.&lt;/li&gt;
+&lt;li&gt;A balance of the above two methods yielding a sensible, common-sense in-between.&lt;/li&gt;
 &lt;li&gt;Democracy at its best: Vote on new measures, which get adopted and rejected with roughly equal frequency.&lt;/li&gt;
+&lt;li&gt;Communities thrive when right compromise of progress and stability.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I think the above three distributions map to progressive, conservative, and centrist political political parties in the US.&lt;/p&gt;
+&lt;p&gt;I think the above three map to progressive, conservative, and centrist political political parties in the US.&lt;/p&gt;
 &lt;p&gt;Note: Ubuntu used to be in the centrist/common sense position of Fedora and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.&lt;/p&gt;
 &lt;p&gt;These similarities may be superficial, but I thought it was a neat mapping. Maybe the fact that the most popular distributions are often the centrist ones can give us some hope for the US political system&amp;rsquo;s future.&lt;/p&gt;
 </content>
@@ -126,12 +126,12 @@
       <guid>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</guid>
       <description></description>
       
-      <content>&lt;h2 id=&#34;more-wood-behind-fewer-arrows&#34;&gt;More wood behind fewer arrows&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos&lt;/a&gt; stack is not special, but it&amp;rsquo;s different in its approach from other software projects: it uses as few dependencies as possible, shares code between parts of the stack, and optimizes for engineering efficiency.&lt;/p&gt;
+      <content>&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos&lt;/a&gt; stack is not special, but it&amp;rsquo;s different in its approach from other software projects: it uses as few dependencies as possible, shares code between parts of the stack, and optimizes for engineering efficiency.&lt;/p&gt;
 &lt;p&gt;We have launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and fast. With so few engineers to do so much work, we need to be brutally efficient:&lt;/p&gt;
+&lt;h2 id=&#34;more-wood-behind-fewer-arrows&#34;&gt;More wood behind fewer arrows&lt;/h2&gt;
 &lt;p&gt;We unified our stack around Javascript over all clients and API for maximum efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don&amp;rsquo;t have time to write things (and more importantly debug things!) twice.&lt;/p&gt;
-&lt;p&gt;We have optimized various other things in our stack to require as little maintenance as necessary. Our engineering goal was always that as few developers as possible could maintain all the various project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Because a 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, so we cannot afford to spend any engineering time on duplicated effort or we will not have any effort left at all for feature work. Our baseline for &amp;ldquo;overhead engineering&amp;rdquo; is designed to be so low that if push comes to shove we can survive with very few engineers (but if we have more - great!).&lt;/p&gt;
-&lt;p&gt;This reduction of engineering overhead had the side effect of leading to faster, more bug-free feature delivery and more time spent dogfooding (using your own product) &amp;amp; polishing user experiences: We did not have multiple client codebases &amp;amp; apis that require more people to maintain them, but we also have way less code surface to test &amp;amp; debug as most of it is shared: a team member of our small team using each banking feature (ie. check deposit) and banking client (ie Android, iOS, web on Windows, etc) regularly is enough to give us pretty good real-world test coverage and make sure nothing breaks without our automated testing noticing. We are lucky enough to have an Android user, an iOS user, a few mac users, a Windows user, and get pretty good real-world signals if something does break.&lt;/p&gt;
+&lt;p&gt;We have optimized various parts in our stack to require as little &amp;ldquo;overhead&amp;rdquo; as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. Simpler code also seems to lead to fewer bugs, duh.&lt;/p&gt;
+&lt;p&gt;Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, due to shared code, testing one platform is basically testing the other. For example: a team member using iOS check deposit will find something is broken for them, before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.&lt;/p&gt;
 &lt;p&gt;The stack that achieved this and has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:&lt;/p&gt;
 &lt;h2 id=&#34;the-stack&#34;&gt;The stack&lt;/h2&gt;
 &lt;p&gt;Javascript Web &amp;amp; Mobile - React &amp;amp; React-Native:&lt;/p&gt;

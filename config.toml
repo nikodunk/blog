@@ -15,8 +15,7 @@ includeContent = true # Includes whole content in rss
 authorName = "Niko Dunk" # Author full name
 authorEmail = "n.dunkel@gmail.com" # Author email
 
-[params.assets]
-customCSS = ["css/custom.css"]
+
 
 [params.info]
 # adsense = "" # Adsense ID (ID only, without ca-pub-)

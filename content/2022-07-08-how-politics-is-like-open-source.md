@@ -12,22 +12,22 @@ The different open-source Linux distributions take different attitudes to their 
 Arch (cutting-edge, rolling release distribution):
 
 - Sometimes too far forward-looking and unstable.
-- City experiments.
-- Dismantling capitalism.
+- Running sometimes breaking experiments on live systems.
+- Dismantling existing structures before users are ready.
 
 Debian (stable distribution):
 
-- People wanting the past and getting frustrated at progress.
-- Fearful of breakage leads to paralysis.
-- Not trusting leadership to progress while listening to their needs.
+- Users wanting to live in the past and getting frustrated at progress.
+- Fear of breaking anything - to the point of paralysis.
+- Not trusting project leadership to progress while listening to users' needs.
 
 Fedora (leading-edge (but not cutting-edge) distribution):
 
-- a balanced version of the above two methods yields a sensible, common-sense inbetween.
-- Communities thrive when right compromise of progress and stability.
+- A balance of the above two methods yielding a sensible, common-sense in-between.
 - Democracy at its best: Vote on new measures, which get adopted and rejected with roughly equal frequency.
+- Communities thrive when right compromise of progress and stability.
 
-I think the above three distributions map to progressive, conservative, and centrist political political parties in the US.
+I think the above three map to progressive, conservative, and centrist political political parties in the US.
 
 Note: Ubuntu used to be in the centrist/common sense position of Fedora and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.
 

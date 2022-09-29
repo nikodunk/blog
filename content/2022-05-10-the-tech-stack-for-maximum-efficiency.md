@@ -5,17 +5,17 @@ date: 2022-05-10 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-## More wood behind fewer arrows
-
 The [Atmos](https://www.joinatmos.com) stack is not special, but it's different in its approach from other software projects: it uses as few dependencies as possible, shares code between parts of the stack, and optimizes for engineering efficiency.
 
 We have launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and fast. With so few engineers to do so much work, we need to be brutally efficient:
 
+## More wood behind fewer arrows
+
 We unified our stack around Javascript over all clients and API for maximum efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don't have time to write things (and more importantly debug things!) twice.
 
-We have optimized various other things in our stack to require as little maintenance as necessary. Our engineering goal was always that as few developers as possible could maintain all the various project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Because a 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, so we cannot afford to spend any engineering time on duplicated effort or we will not have any effort left at all for feature work. Our baseline for "overhead engineering" is designed to be so low that if push comes to shove we can survive with very few engineers (but if we have more - great!).
+We have optimized various parts in our stack to require as little "overhead" as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. Simpler code also seems to lead to fewer bugs, duh.
 
-This reduction of engineering overhead had the side effect of leading to faster, more bug-free feature delivery and more time spent dogfooding (using your own product) & polishing user experiences: We did not have multiple client codebases & apis that require more people to maintain them, but we also have way less code surface to test & debug as most of it is shared: a team member of our small team using each banking feature (ie. check deposit) and banking client (ie Android, iOS, web on Windows, etc) regularly is enough to give us pretty good real-world test coverage and make sure nothing breaks without our automated testing noticing. We are lucky enough to have an Android user, an iOS user, a few mac users, a Windows user, and get pretty good real-world signals if something does break.
+Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, due to shared code, testing one platform is basically testing the other. For example: a team member using iOS check deposit will find something is broken for them, before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.
 
 The stack that achieved this and has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:
 
