@@ -22,7 +22,7 @@ categories:
 - [ ] transportation
 - [ ] biodiversity
 - [ ] studio for climate saving software
-- [ ] News - news is obviously broken, and is a big market. Someone to sift through and give you 10 bullet points - train a newsbot on x. plant a seed, branch out from there.
+- [x] News - news is obviously broken, and is a big market. Someone to sift through and give you 10 bullet points - train a newsbot on x. plant a seed, branch out from there.
 - [x] Impact quizzes / web apps? EV charging configurator, solar configurator, gas configurator. SaaS?
 - [x] Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)
 - [ ] problem I've heard from solar installers: solar platforms are a race to the bottom.
