@@ -37,9 +37,9 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; transportation&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; biodiversity&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; studio for climate saving software&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; News - news is obviously broken, and is a big market. Someone to sift through and give you 10 bullet points - train a newsbot on x. plant a seed, branch out from there.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; News - obviously broken, big market. Someone to sift through and give you 10 bullet points - train a newsbot on x. users plant seed, branch out?&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Impact quizzes / web apps? EV charging configurator, solar configurator, gas configurator. SaaS?&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;del&gt;Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; problem I&amp;rsquo;ve heard from solar installers: solar platforms are a race to the bottom.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;del&gt;Scrape all solar installers &amp;amp; present to customer.&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;del&gt;Find homes that don&amp;rsquo;t have solar, give badge, hook up with electrification.&lt;/del&gt;&lt;/li&gt;
