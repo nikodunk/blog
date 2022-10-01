@@ -128,10 +128,10 @@
       <guid>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</guid>
       <description></description>
       
-      <content>&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos&lt;/a&gt; stack is not special, but it&amp;rsquo;s different in its approach from other software projects: it uses as few dependencies as possible, shares code between parts of the stack, and optimizes for engineering efficiency.&lt;/p&gt;
+      <content>&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos stack&lt;/a&gt; is not special, but it&amp;rsquo;s different in its approach from other software projects: it uses as few dependencies as possible, shares code between parts of the stack, and optimizes for engineering efficiency.&lt;/p&gt;
 &lt;p&gt;We have launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and fast. With so few engineers to do so much work, we need to be brutally efficient:&lt;/p&gt;
 &lt;h2 id=&#34;more-wood-behind-fewer-arrows&#34;&gt;More wood behind fewer arrows&lt;/h2&gt;
-&lt;p&gt;We unified our stack around Javascript over all clients and API for maximum efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don&amp;rsquo;t have time to write things (and more importantly debug things!) twice.&lt;/p&gt;
+&lt;p&gt;We unified our stack around Javascript over all clients and API for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don&amp;rsquo;t have time to write things (and more importantly debug things!) twice.&lt;/p&gt;
 &lt;p&gt;We have optimized various parts in our stack to require as little &amp;ldquo;overhead&amp;rdquo; as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. Simpler code also seems to lead to fewer bugs, duh.&lt;/p&gt;
 &lt;p&gt;Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, due to shared code, testing one platform is basically testing the other. For example: a team member using iOS check deposit will find something is broken for them, before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.&lt;/p&gt;
 &lt;p&gt;The stack that achieved this and has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:&lt;/p&gt;
@@ -146,7 +146,7 @@
 &lt;li&gt;Routing is one thing that is &lt;em&gt;not&lt;/em&gt; shared at all in order to feel native: React Navigation on mobile vs. React Router for web.&lt;/li&gt;
 &lt;li&gt;Regularly updated and audited dependencies for both React &amp;amp; React Native&lt;/li&gt;
 &lt;li&gt;When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.&lt;/li&gt;
-&lt;li&gt;Similarly when launching loans, we merged the loans web client into the main client repo almost immediately to piggyback off the devOps of the main product (deposits). Further, the deposits product then benefitted from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&amp;rsquo;d originally launched on and moving with Tailwind also on the deposit product.&lt;/li&gt;
+&lt;li&gt;Similarly when launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the devOps of the original product (deposits). Further, the deposits product then benefitted from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&amp;rsquo;d originally launched on and moving with Tailwind also on the deposit product.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All-Javascript API - Node, Hapi &amp;amp; Bull Queue running on Heroku:&lt;/p&gt;
 &lt;ul&gt;
@@ -154,7 +154,7 @@
 &lt;li&gt;Regularly updated &amp;amp; audited packages including Node versions to unlock newest features &amp;amp; ensure security&lt;/li&gt;
 &lt;li&gt;Integration test coverage of critical path user flows (apply, login, transact), enforced by CI.&lt;/li&gt;
 &lt;li&gt;A single API and jobs queue for all features: deposits, loans, monthly jobs, loans, etc&lt;/li&gt;
-&lt;li&gt;When launching loans, we merged the api into the main api repo almost immediately to piggyback off the devOps of the main product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.&lt;/li&gt;
+&lt;li&gt;When launching loans, we merged the api into the original api repo almost immediately to piggyback off the devOps of the original product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Other:&lt;/p&gt;
 &lt;ul&gt;
@@ -170,7 +170,7 @@
 &lt;li&gt;Less onboarding for engineers&lt;/li&gt;
 &lt;li&gt;Libraries: Library updates on one project benefit the all others (ie. Node), downside: library updates block the other. Way fewer dependencies to understand, audit, and use. Downside: we are deeply invested in a single library for a task.&lt;/li&gt;
 &lt;li&gt;More dogfooding: Dogfooding mobile dogfoods web too - if one team member dogfoods web and another team member dogfoods mobile, we&amp;rsquo;ll have pretty good coverage - especially since most of the code is shared.&lt;/li&gt;
-&lt;li&gt;By &lt;a href=&#34;https://boringtechnology.club/&#34;&gt;choosing boring, well-tested technology&lt;/a&gt;, for example avoiding microservices or non-relational databases, we benefitted from all the upsides metnioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.&lt;/li&gt;
+&lt;li&gt;By &lt;a href=&#34;https://boringtechnology.club/&#34;&gt;choosing boring, well-tested technology&lt;/a&gt;, for example avoiding microservices or non-relational databases, we benefitted from all the upsides mentioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;other-possible-approaches&#34;&gt;Other possible approaches&lt;/h2&gt;
 &lt;p&gt;In a perfect world we&amp;rsquo;d have a single codebase that renders everything server-side in a &lt;a href=&#34;https://nikodunk.com/a-node-js-developer-discovers-rails/&#34;&gt;majestic monolith&lt;/a&gt; and use a &lt;a href=&#34;https://world.hey.com/dhh/the-one-person-framework-711e6318&#34;&gt;one-person framework&lt;/a&gt;, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases - we needed to balance efficiency with customer expectations/competitiveness.&lt;/p&gt;
@@ -182,7 +182,7 @@
 &lt;li&gt;Microservices, Kubernetes, Terraform, &amp;hellip; overkill for our current scale.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;In summary, our all-JS will not be perfect for everyone, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value per engineering hour to customers than other solutions currently available.&lt;/p&gt;
+&lt;p&gt;In summary, our Atmos stack will not be perfect for every software project, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value to customers per engineering hour than other solutions currently available.&lt;/p&gt;
 </content>
       
     </item>
