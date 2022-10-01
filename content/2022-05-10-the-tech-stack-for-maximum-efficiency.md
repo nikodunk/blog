@@ -44,7 +44,7 @@ A breakdown of the system that has allowed us to ship a large amount of products
 ## Other: Landing Pages & Internal dashboards
 
 - Webflow CMS for static landing pages
-- Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc. If a task that needs to be done once we hand-perform it, the second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.
+- Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc. If a task needs to be done we hand-perform it, the second time we write an api job for it, and if needs to be done a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.
 
 ## Benefits we've seen
 
@@ -55,7 +55,7 @@ A breakdown of the system that has allowed us to ship a large amount of products
 - Library updates on one project benefit the all others (ie. Node), downside: library updates block the other. Way fewer dependencies to understand, audit, and use. Downside: we are deeply invested in a single library for a task.
 - By [choosing boring, well-tested technology](https://boringtechnology.club/), for example avoiding microservices or non-relational databases, we benefitted from all the upsides mentioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.
 - When launching mobile apps around 6 months after launching web, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements made to mobile components improved the web app.
-- When launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the devOps of the original product (deposits). The deposits web product then benefitted from the component improvements made while engineering the brand new loans product: Massive design and performance improvements resulted from this, including the removal of Material-UI which we'd originally launched with and moving to a consistent Tailwind also on web and mobile. The merged api benefitted from improvements made for loans too: The original product hained non-blocking account opening and tons of dead code removal.
+- When launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the devOps of the original product (deposits). The deposits web product then benefitted from the component improvements made while engineering the brand new loans product: Massive design and performance improvements resulted from this, including the removal of Material-UI which we'd originally launched with and moving to a consistent Tailwind also on web and mobile. The merged api benefitted from improvements made for loans too: The api gained non-blocking account opening and tons of dead code removal.
 
 ## Other approaches
 

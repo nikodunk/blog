@@ -107,7 +107,7 @@ More wood behind fewer arrows We unified our stack around Javascript over all cl
 <h2 id="other-landing-pages--internal-dashboards">Other: Landing Pages &amp; Internal dashboards</h2>
 <ul>
 <li>Webflow CMS for static landing pages</li>
-<li>Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc.</li>
+<li>Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc. If a task needs to be done we hand-perform it, the second time we write an api job for it, and if needs to be done a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.</li>
 </ul>
 <h2 id="benefits-weve-seen">Benefits we&rsquo;ve seen</h2>
 <ul>
@@ -117,10 +117,8 @@ More wood behind fewer arrows We unified our stack around Javascript over all cl
 <li>Less onboarding for engineers</li>
 <li>Library updates on one project benefit the all others (ie. Node), downside: library updates block the other. Way fewer dependencies to understand, audit, and use. Downside: we are deeply invested in a single library for a task.</li>
 <li>By <a href="https://boringtechnology.club/">choosing boring, well-tested technology</a>, for example avoiding microservices or non-relational databases, we benefitted from all the upsides mentioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.</li>
-<li>When launching mobile apps around 6 months after launching web, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements made to mobile components improved web the web app.</li>
-<li>When launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the devOps of the original product (deposits). Further, the deposits product then benefitted from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&rsquo;d originally launched with and moving to a consistent Tailwind also on web and mobile.</li>
-<li>Also when launching loans, we merged the api into the original api repo almost immediately to piggyback off the devOps of the original product (bank), and benefitted from improvements made for loans there too: The original product received non-blocking account opening and tons of dead code removal.</li>
-<li>If a task that needs to be done once we hand-perform it, the second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.</li>
+<li>When launching mobile apps around 6 months after launching web, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements made to mobile components improved the web app.</li>
+<li>When launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the devOps of the original product (deposits). The deposits web product then benefitted from the component improvements made while engineering the brand new loans product: Massive design and performance improvements resulted from this, including the removal of Material-UI which we&rsquo;d originally launched with and moving to a consistent Tailwind also on web and mobile. The merged api benefitted from improvements made for loans too: The api gained non-blocking account opening and tons of dead code removal.</li>
 </ul>
 <h2 id="other-approaches">Other approaches</h2>
 <p>In a perfect world we&rsquo;d have a single codebase that renders everything server-side in a <a href="/a-node-js-developer-discovers-rails/">majestic monolith</a> and use a <a href="https://world.hey.com/dhh/the-one-person-framework-711e6318">one-person framework</a>, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases - we needed to balance efficiency with customer expectations/competitiveness.</p>
