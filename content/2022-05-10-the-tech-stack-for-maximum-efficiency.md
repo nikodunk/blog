@@ -7,7 +7,7 @@ tags: ["Essay"]
 
 ![](/dall_e_efficiency.png)
 
-The [Atmos stack](https://www.joinatmos.com) is different in its approach from other software projects: it uses as few dependencies as possible, shares code between parts of the stack, and optimizes for engineering efficiency.
+The [Atmos stack](https://www.joinatmos.com) is optimized around two things: using as few dependencies as possible, and hyper-optimizing around sharing code between different parts of the stack.
 
 We have launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and fast. With so few engineers to do so much work, we need to be brutally efficient:
 
