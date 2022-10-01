@@ -182,7 +182,7 @@
 &lt;li&gt;Microservices, Kubernetes, Terraform, &amp;hellip; overkill for our current scale.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;In summary, our Atmos stack will not be perfect for every software project, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value to customers per engineering hour than other solutions currently available.&lt;/p&gt;
+&lt;p&gt;In summary, our Atmos stack will not be perfect for every software project, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value to customers per engineering hour than any other solution currently available.&lt;/p&gt;
 </content>
       
     </item>

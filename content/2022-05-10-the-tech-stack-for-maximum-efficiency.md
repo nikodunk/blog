@@ -69,4 +69,4 @@ In a perfect world we'd have a single codebase that renders everything server-si
 
 ## Conclusion
 
-In summary, our Atmos stack will not be perfect for every software project, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value to customers per engineering hour than other solutions currently available.
+In summary, our Atmos stack will not be perfect for every software project, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value to customers per engineering hour than any other solution currently available.
