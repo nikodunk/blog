@@ -68,7 +68,7 @@
     </item>
     
     <item>
-      <title>The tiny-team framework: How we optimized our tech stack around code efficiency</title>
+      <title>The tiny-team framework: How we optimized our tech stack for code efficiency</title>
       <link>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</link>
       <pubDate>Fri, 23 Sep 2022 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
@@ -76,7 +76,7 @@
       <description></description>
       
       <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/dall_e_efficiency.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos stack&lt;/a&gt; is not special, but it&amp;rsquo;s different in its approach from other software projects: it uses as few dependencies as possible, shares code between parts of the stack, and optimizes for engineering efficiency.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos stack&lt;/a&gt; is different in its approach from other software projects: it uses as few dependencies as possible, shares code between parts of the stack, and optimizes for engineering efficiency.&lt;/p&gt;
 &lt;p&gt;We have launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and fast. With so few engineers to do so much work, we need to be brutally efficient:&lt;/p&gt;
 &lt;h2 id=&#34;more-wood-behind-fewer-arrows&#34;&gt;More wood behind fewer arrows&lt;/h2&gt;
 &lt;p&gt;We unified our stack around Javascript over all clients and API for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don&amp;rsquo;t have time to write things (and more importantly debug things!) twice.&lt;/p&gt;
