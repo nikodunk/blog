@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The tiny-team framework: How we optimized our tech stack around code efficiency"
-date: 2022-05-10 08:00:00 -0700
+date: 2022-09-23 08:00:00 -0700
 tags: ["Essay"]
 ---
 
