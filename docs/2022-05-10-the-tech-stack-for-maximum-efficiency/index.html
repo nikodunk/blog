@@ -80,13 +80,13 @@ More wood behind fewer arrows We unified our stack around Javascript over all cl
 <p>We have launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and fast. With so few engineers to do so much work, we need to be brutally efficient:</p>
 <h2 id="more-wood-behind-fewer-arrows">More wood behind fewer arrows</h2>
 <p>We unified our stack around Javascript over all clients and API for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don&rsquo;t have time to write things (and more importantly debug things!) twice.</p>
-<p>We have optimized various parts in our stack to require as little &ldquo;overhead&rdquo; as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. Simpler code also seems to lead to fewer bugs, duh.</p>
+<p>We have optimized various parts in our stack to require as little &ldquo;maintenance overhead&rdquo; as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. Simpler code also seems to lead to fewer bugs, duh.</p>
 <p>Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, due to shared code, testing one platform is basically testing the other. For example: a team member using iOS check deposit will find something is broken for them, before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.</p>
-<p>The stack that achieved this and has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:</p>
+<p>A breakdown of the system that has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:</p>
 <h2 id="the-stack">The stack</h2>
-<p>All-Javascript Web app, Android &amp; iOS - React &amp; React-Native:</p>
+<p>All-Javascript iOS, Android &amp; Web apps - React &amp; React-Native:</p>
 <ul>
-<li>Monorepo for web &amp; mobile, sharing a /common folder with redux, utility functions, math, permissions, etc etc</li>
+<li>Monorepo for web &amp; mobile, sharing a /common folder with Redux, utility functions, math, permissions, etc etc</li>
 <li>Tailwind as a shared styling language over React &amp; React Native.</li>
 <li>Redux as a shared api requests/state logic library.</li>
 <li>React &amp; React Native updated to the newest versions, matching the newest Expo SDK for React Native.</li>
@@ -110,7 +110,7 @@ More wood behind fewer arrows We unified our stack around Javascript over all cl
 <li>Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc.</li>
 <li>If a task that needs to be done once we hand-perform it, the second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.</li>
 </ul>
-<h2 id="benefits-so-far-from-unified-stack">Benefits so far from unified stack</h2>
+<h2 id="benefits-of-this-unified-stack">Benefits of this unified stack</h2>
 <ul>
 <li>Copy paste code from the web, mobile, server</li>
 <li>Use the same libraries on the web, mobile, server</li>

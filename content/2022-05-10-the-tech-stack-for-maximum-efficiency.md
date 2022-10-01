@@ -15,17 +15,17 @@ We have launched and run a fintech with 10,000+ customers with only 1-2 full-tim
 
 We unified our stack around Javascript over all clients and API for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don't have time to write things (and more importantly debug things!) twice.
 
-We have optimized various parts in our stack to require as little "overhead" as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. Simpler code also seems to lead to fewer bugs, duh.
+We have optimized various parts in our stack to require as little "maintenance overhead" as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. Simpler code also seems to lead to fewer bugs, duh.
 
 Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, due to shared code, testing one platform is basically testing the other. For example: a team member using iOS check deposit will find something is broken for them, before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.
 
-The stack that achieved this and has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:
+A breakdown of the system that has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:
 
 ## The stack
 
-All-Javascript Web app, Android & iOS - React & React-Native:
+All-Javascript iOS, Android & Web apps - React & React-Native:
 
-- Monorepo for web & mobile, sharing a /common folder with redux, utility functions, math, permissions, etc etc
+- Monorepo for web & mobile, sharing a /common folder with Redux, utility functions, math, permissions, etc etc
 - Tailwind as a shared styling language over React & React Native.
 - Redux as a shared api requests/state logic library.
 - React & React Native updated to the newest versions, matching the newest Expo SDK for React Native.
@@ -49,7 +49,7 @@ Other:
 - Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc.
 - If a task that needs to be done once we hand-perform it, the second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.
 
-## Benefits so far from unified stack
+## Benefits of this unified stack
 
 - Copy paste code from the web, mobile, server
 - Use the same libraries on the web, mobile, server
