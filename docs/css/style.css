@@ -153,7 +153,6 @@ td img {
   vertical-align: top;
 }
 pre,
-
 *,
 :after,
 :before {
@@ -1149,7 +1148,6 @@ a.box:active {
 .content h5,
 .content h6 {
   color: #b52323;
-  font-weight: 300;
   margin-bottom: 20px;
 }
 .content blockquote {
@@ -2062,7 +2060,6 @@ a.box:active {
 }
 .delete,
 .modal-close,
-
 .title {
   color: #222324;
 }
@@ -5485,6 +5482,6 @@ img[src$="#r"] {
   font-size: 17px;
 }
 
-div.subtitle.tags{
+div.subtitle.tags {
   margin-bottom: 0px;
 }

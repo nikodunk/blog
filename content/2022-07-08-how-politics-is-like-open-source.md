@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Political learnings from open-source"
+title: "Observation on the open-source community"
 date: 2022-07-08 08:00:00 -0700
 tags: ["Essay"]
 ---
@@ -17,7 +17,7 @@ Arch (cutting-edge, rolling release distribution):
 
 Debian (stable distribution):
 
-- Users wanting to live in the past and getting frustrated at progress.
+- Users wanting to do things in traditional ways are getting frustrated at progress.
 - Fear of breaking anything - to the point of paralysis.
 - Not trusting project leadership to progress while listening to users' needs.
 

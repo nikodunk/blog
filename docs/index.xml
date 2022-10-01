@@ -68,7 +68,7 @@
     </item>
     
     <item>
-      <title>The tiny-team framework: How we optimized our tech stack for code efficiency</title>
+      <title>The tiny-team framework: Less code, more speed.</title>
       <link>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</link>
       <pubDate>Fri, 23 Sep 2022 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
@@ -76,58 +76,60 @@
       <description></description>
       
       <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/dall_e_efficiency.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos stack&lt;/a&gt; is optimized around two things: using as few dependencies as possible, and hyper-optimizing around sharing code between different parts of the stack.&lt;/p&gt;
-&lt;p&gt;We have launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and fast. With so few engineers to do so much work, we need to be brutally efficient:&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos stack&lt;/a&gt; has launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and &lt;a href=&#34;http://paulgraham.com/avg.html&#34;&gt;rapidly iterating&lt;/a&gt;. With so few engineers to do so much work, we need to be brutally efficient: simple code style, using as few dependencies as possible, and hyper-optimizing around sharing code between different parts of the stack.&lt;/p&gt;
 &lt;h2 id=&#34;more-wood-behind-fewer-arrows&#34;&gt;More wood behind fewer arrows&lt;/h2&gt;
 &lt;p&gt;We unified our stack around Javascript over all clients and API for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don&amp;rsquo;t have time to write things (and more importantly debug things!) twice.&lt;/p&gt;
-&lt;p&gt;We have optimized various parts in our stack to require as little &amp;ldquo;maintenance overhead&amp;rdquo; as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. Simpler code also seems to lead to fewer bugs, duh.&lt;/p&gt;
-&lt;p&gt;Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, due to shared code, testing one platform is basically testing the other. For example: a team member using iOS check deposit will find something is broken for them, before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.&lt;/p&gt;
-&lt;p&gt;A breakdown of the system that has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:&lt;/p&gt;
-&lt;h2 id=&#34;the-stack&#34;&gt;The stack&lt;/h2&gt;
-&lt;p&gt;All-Javascript iOS, Android &amp;amp; Web apps - React &amp;amp; React-Native:&lt;/p&gt;
+&lt;p&gt;We have optimized various parts in our stack to require as little &amp;ldquo;maintenance overhead&amp;rdquo; as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Monorepo for web &amp;amp; mobile, sharing a /common folder with Redux, utility functions, math, permissions, etc etc&lt;/li&gt;
-&lt;li&gt;Tailwind as a shared styling language over React &amp;amp; React Native.&lt;/li&gt;
-&lt;li&gt;Redux as a shared api requests/state logic library.&lt;/li&gt;
-&lt;li&gt;React &amp;amp; React Native updated to the newest versions, matching the newest Expo SDK for React Native.&lt;/li&gt;
-&lt;li&gt;Jest running automated integration tests for &amp;ldquo;critical path&amp;rdquo; features like application, login, transfer, etc on the CI for both web &amp;amp; mobile on every commit.&lt;/li&gt;
-&lt;li&gt;Routing is one thing that is &lt;em&gt;not&lt;/em&gt; shared at all in order to feel native: React Navigation on mobile vs. React Router for web.&lt;/li&gt;
-&lt;li&gt;Regularly updated and audited dependencies for both React &amp;amp; React Native&lt;/li&gt;
-&lt;li&gt;When launching mobile, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements to mobile improving web.&lt;/li&gt;
-&lt;li&gt;Similarly when launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the devOps of the original product (deposits). Further, the deposits product then benefitted from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&amp;rsquo;d originally launched on and moving with Tailwind also on the deposit product.&lt;/li&gt;
+&lt;li&gt;Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. We use as few abstractions as possible, and use the same simple query syntax right throughout the server, apps, etc. Simpler, less abstracted code also seems to lead to fewer bugs, duh.&lt;/li&gt;
+&lt;li&gt;We use as few libraries as possible, and when we do we use a simple, well-tested one that will work on server, mobile and web.&lt;/li&gt;
+&lt;li&gt;When we need similar logic on web, mobile and API - as often happens, it goes in a shared atmos library where all parts of the stack can access it. This way a single change or bugfix to a permission error fixes it everywhere in the stack and things stay in sync.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;All-Javascript API - Node, Hapi &amp;amp; Bull Queue running on Heroku:&lt;/p&gt;
+&lt;p&gt;Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, since most of the code is shared dogfooding mobile essentially tests web logic too - if one team member dogfoods web and another team member dogfoods each mobile platform. For example: a team member using iOS check deposit will find something is broken for them before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.&lt;/p&gt;
+&lt;p&gt;A breakdown of the system that has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:&lt;/p&gt;
+&lt;h2 id=&#34;the-stack-pt-1-all-javascript-ios-android--web-apps&#34;&gt;The stack pt 1: All-Javascript iOS, Android &amp;amp; Web apps&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;A single api running all code for deposits, loans, job runners, etc&lt;/li&gt;
+&lt;li&gt;React for web &amp;amp; React Native/Expo for mobile. Updated to the newest versions, matching the newest Expo SDK for React Native. Regularly updated and audited dependencies.&lt;/li&gt;
+&lt;li&gt;Monorepo the two client projects, sharing a /common folder of shared logic, utility functions, math, permissions, etc etc&lt;/li&gt;
+&lt;li&gt;Tailwind as a shared styling language over React &amp;amp; React Native (thanks to twrnc)&lt;/li&gt;
+&lt;li&gt;Redux as a shared api requests/state logic library.&lt;/li&gt;
+&lt;li&gt;Routing is one thing that is &lt;em&gt;not&lt;/em&gt; shared at all in order to feel native: React Navigation on mobile vs. React Router for web.&lt;/li&gt;
+&lt;li&gt;Jest running automated integration tests for &amp;ldquo;critical path&amp;rdquo; features like application, login, transfer, etc on the CI for both web &amp;amp; mobile on every commit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-stack-pt-2-all-javascript-api&#34;&gt;The stack pt 2: All-Javascript API&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Heroku, so as to use as little time as possible on DevOps&lt;/li&gt;
+&lt;li&gt;Node/Hapi, a single api running all code for deposits, loans etc&lt;/li&gt;
+&lt;li&gt;BullMQ &amp;amp; Redis: A single jobs queue for all features: deposits, loans, monthly jobs, etc&lt;/li&gt;
+&lt;li&gt;Postgres database, not time for non-relational systems here&lt;/li&gt;
 &lt;li&gt;Regularly updated &amp;amp; audited packages including Node versions to unlock newest features &amp;amp; ensure security&lt;/li&gt;
 &lt;li&gt;Integration test coverage of critical path user flows (apply, login, transact), enforced by CI.&lt;/li&gt;
-&lt;li&gt;A single API and jobs queue for all features: deposits, loans, monthly jobs, loans, etc&lt;/li&gt;
-&lt;li&gt;When launching loans, we merged the api into the original api repo almost immediately to piggyback off the devOps of the original product (bank), and also so we could benefit from improvements made for loans: Bank received non-blocking account opening and tons of dead code removal.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Other:&lt;/p&gt;
+&lt;h2 id=&#34;other-landing-pages--internal-dashboards&#34;&gt;Other: Landing Pages &amp;amp; Internal dashboards&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Webflow CMS for static landing pages&lt;/li&gt;
 &lt;li&gt;Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc.&lt;/li&gt;
-&lt;li&gt;If a task that needs to be done once we hand-perform it, the second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;benefits-of-this-unified-stack&#34;&gt;Benefits of this unified stack&lt;/h2&gt;
+&lt;h2 id=&#34;benefits-weve-seen&#34;&gt;Benefits we&amp;rsquo;ve seen&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Copy paste code from the web, mobile, server&lt;/li&gt;
+&lt;li&gt;Move code between web, mobile, server as necessary&lt;/li&gt;
 &lt;li&gt;Use the same libraries on the web, mobile, server&lt;/li&gt;
 &lt;li&gt;Use similar testing syntax over api, iOS, Android, Web app&lt;/li&gt;
 &lt;li&gt;Less onboarding for engineers&lt;/li&gt;
-&lt;li&gt;Libraries: Library updates on one project benefit the all others (ie. Node), downside: library updates block the other. Way fewer dependencies to understand, audit, and use. Downside: we are deeply invested in a single library for a task.&lt;/li&gt;
-&lt;li&gt;More dogfooding: Dogfooding mobile dogfoods web too - if one team member dogfoods web and another team member dogfoods mobile, we&amp;rsquo;ll have pretty good coverage - especially since most of the code is shared.&lt;/li&gt;
+&lt;li&gt;Library updates on one project benefit the all others (ie. Node), downside: library updates block the other. Way fewer dependencies to understand, audit, and use. Downside: we are deeply invested in a single library for a task.&lt;/li&gt;
 &lt;li&gt;By &lt;a href=&#34;https://boringtechnology.club/&#34;&gt;choosing boring, well-tested technology&lt;/a&gt;, for example avoiding microservices or non-relational databases, we benefitted from all the upsides mentioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.&lt;/li&gt;
+&lt;li&gt;When launching mobile apps around 6 months after launching web, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements made to mobile components improved web the web app.&lt;/li&gt;
+&lt;li&gt;When launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the devOps of the original product (deposits). Further, the deposits product then benefitted from the component improvements made while engineering a brand new product. Massive design and performance improvements resulted from this, including the removal of Material-UI which we&amp;rsquo;d originally launched with and moving to a consistent Tailwind also on web and mobile.&lt;/li&gt;
+&lt;li&gt;Also when launching loans, we merged the api into the original api repo almost immediately to piggyback off the devOps of the original product (bank), and benefitted from improvements made for loans there too: The original product received non-blocking account opening and tons of dead code removal.&lt;/li&gt;
+&lt;li&gt;If a task that needs to be done once we hand-perform it, the second time we write an api job for it, and if it happens a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;other-possible-approaches&#34;&gt;Other possible approaches&lt;/h2&gt;
+&lt;h2 id=&#34;other-approaches&#34;&gt;Other approaches&lt;/h2&gt;
 &lt;p&gt;In a perfect world we&amp;rsquo;d have a single codebase that renders everything server-side in a &lt;a href=&#34;https://nikodunk.com/a-node-js-developer-discovers-rails/&#34;&gt;majestic monolith&lt;/a&gt; and use a &lt;a href=&#34;https://world.hey.com/dhh/the-one-person-framework-711e6318&#34;&gt;one-person framework&lt;/a&gt;, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases - we needed to balance efficiency with customer expectations/competitiveness.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Flutter, Flutter on web, Rails - still requires 2 languages each with their idiosyncracies, and Flutter on web is half-baked at best. Plus, at this point post-Angular I don&amp;rsquo;t trust Google&amp;rsquo;s commitment to any project long-term&lt;/li&gt;
 &lt;li&gt;Django, Rails or Express for api &amp;amp; web, Swift for iOS, Kotlin for Android - brings 3 languages into the mix for 3x the amount of code writing and debugging, in return for minimal performance benefits and a slightly more native feel.&lt;/li&gt;
 &lt;li&gt;Electron for web, native &amp;amp; mobile, node for the backend - definitely an option, though feels significantly less native IMO than react-native on mobile, which is 50+ percent of our user base&amp;rsquo;s preferred platform (based on analytics).&lt;/li&gt;
 &lt;li&gt;Basecamp-style: rendering api &amp;amp; web on Rails, with the mobile app&amp;rsquo;s navigation rendered natively, but the actual screens rendered on the server - this seems crazy, but seems to be working for Hey.com. If another bigger company jumps to this, we could get on board with this. But we don&amp;rsquo;t have time to risk a new approach like this at our scale :)&lt;/li&gt;
-&lt;li&gt;Microservices, Kubernetes, Terraform, &amp;hellip; overkill for our current scale.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;In summary, our Atmos stack will not be perfect for every software project, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value to customers per engineering hour than any other solution currently available.&lt;/p&gt;
@@ -154,7 +156,7 @@
     </item>
     
     <item>
-      <title>Political learnings from open-source</title>
+      <title>Observation on the open-source community</title>
       <link>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</link>
       <pubDate>Fri, 08 Jul 2022 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
@@ -171,7 +173,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Debian (stable distribution):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Users wanting to live in the past and getting frustrated at progress.&lt;/li&gt;
+&lt;li&gt;Users wanting to do things in traditional ways are getting frustrated at progress.&lt;/li&gt;
 &lt;li&gt;Fear of breaking anything - to the point of paralysis.&lt;/li&gt;
 &lt;li&gt;Not trusting project leadership to progress while listening to users&amp;rsquo; needs.&lt;/li&gt;
 &lt;/ul&gt;
