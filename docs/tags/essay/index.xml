@@ -18,19 +18,6 @@ More wood behind fewer arrows We unified our stack around Javascript over all cl
     </item>
     
     <item>
-      <title>Observation on the open-source community</title>
-      <link>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</link>
-      <pubDate>Fri, 08 Jul 2022 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</guid>
-      <description>I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches, and their various effectiveness and popularity.
-The different open-source Linux distributions take different attitudes to their packaging:
-Arch (cutting-edge, rolling release distribution):
- Sometimes too far forward-looking and unstable. Running sometimes breaking experiments on live systems. Dismantling existing structures before users are ready.  Debian (stable distribution):
- Users wanting to do things in traditional ways are getting frustrated at progress.</description>
-    </item>
-    
-    <item>
       <title>From Node to Ruby on Rails</title>
       <link>https://nikodunk.com/a-node-js-developer-discovers-rails/</link>
       <pubDate>Thu, 10 Jun 2021 08:00:00 -0700</pubDate>

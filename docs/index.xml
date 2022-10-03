@@ -154,41 +154,6 @@
     </item>
     
     <item>
-      <title>Observation on the open-source community</title>
-      <link>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</link>
-      <pubDate>Fri, 08 Jul 2022 08:00:00 -0700</pubDate>
-      <author>Niko Dunk</author>
-      <guid>https://nikodunk.com/2022-07-08-how-politics-is-like-open-source/</guid>
-      <description></description>
-      
-      <content>&lt;p&gt;I think there are parallels between political parties in the US and open-source linux distributions in their attitudes and approaches, and their various effectiveness and popularity.&lt;/p&gt;
-&lt;p&gt;The different open-source Linux distributions take different attitudes to their packaging:&lt;/p&gt;
-&lt;p&gt;Arch (cutting-edge, rolling release distribution):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Sometimes too far forward-looking and unstable.&lt;/li&gt;
-&lt;li&gt;Running sometimes breaking experiments on live systems.&lt;/li&gt;
-&lt;li&gt;Dismantling existing structures before users are ready.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Debian (stable distribution):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Users wanting to do things in traditional ways are getting frustrated at progress.&lt;/li&gt;
-&lt;li&gt;Fear of breaking anything - to the point of paralysis.&lt;/li&gt;
-&lt;li&gt;Not trusting project leadership to progress while listening to users&amp;rsquo; needs.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Fedora (leading-edge (but not cutting-edge) distribution):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A balance of the above two methods yielding a sensible, common-sense in-between.&lt;/li&gt;
-&lt;li&gt;Democracy at its best: Vote on new measures, which get adopted and rejected with roughly equal frequency.&lt;/li&gt;
-&lt;li&gt;Communities thrive when right compromise of progress and stability.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I think the above three projects map to the approaches and problems of progressive, conservative, and centrist US political parties respectively.&lt;/p&gt;
-&lt;p&gt;Note: Ubuntu used to be in the centrist/common sense position of Fedora and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.&lt;/p&gt;
-&lt;p&gt;These similarities may be superficial, but I thought it was a neat mapping. Maybe the fact that the most popular distributions are often the centrist ones can give us some hope for the US political system&amp;rsquo;s future.&lt;/p&gt;
-</content>
-      
-    </item>
-    
-    <item>
       <title>How to set up Heroku SSL (https) with Google Domains in 2021</title>
       <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
       <pubDate>Sun, 27 Jun 2021 08:00:00 -0700</pubDate>
