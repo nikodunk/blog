@@ -27,7 +27,7 @@ Fedora (leading-edge (but not cutting-edge) distribution):
 - Democracy at its best: Vote on new measures, which get adopted and rejected with roughly equal frequency.
 - Communities thrive when right compromise of progress and stability.
 
-I think the above three map to progressive, conservative, and centrist political political parties in the US.
+I think the above three projects map to the approaches and problems of progressive, conservative, and centrist US political parties respectively.
 
 Note: Ubuntu used to be in the centrist/common sense position of Fedora and pushed the community forward for a decade, but then chased shiny objects due to a missing business model.
 
