@@ -68,6 +68,92 @@
     </item>
     
     <item>
+      <title>The tiny-team framework: Less code, more speed.</title>
+      <link>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</link>
+      <pubDate>Fri, 23 Sep 2022 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;&lt;img src=&#34;https://nikodunk.com/dall_e_efficiency.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos stack&lt;/a&gt; has launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and &lt;a href=&#34;http://paulgraham.com/avg.html&#34;&gt;rapidly iterating&lt;/a&gt;. With so few engineers to do so much work, we need to be brutally efficient: simple code style, using as few dependencies as possible, and hyper-optimizing around sharing code between different parts of the stack.&lt;/p&gt;
+&lt;h2 id=&#34;more-wood-behind-fewer-arrows&#34;&gt;More wood behind fewer arrows&lt;/h2&gt;
+&lt;p&gt;We unified our stack around Javascript over all clients and API for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don&amp;rsquo;t have time to write things (and more importantly debug things!) twice.&lt;/p&gt;
+&lt;p&gt;We have optimized various parts in our stack to require as little &amp;ldquo;maintenance overhead&amp;rdquo; as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. We use as few abstractions as possible, and use the same simple query syntax right throughout the server, apps, etc. Simpler, less abstracted code also seems to lead to fewer bugs, duh.&lt;/li&gt;
+&lt;li&gt;We use as few libraries as possible, and when we do we use a simple, well-tested one that will work on server, mobile and web.&lt;/li&gt;
+&lt;li&gt;When we need similar logic on web, mobile and API - as often happens, it goes in a shared atmos library where all parts of the stack can access it. This way a single change or bugfix to a permission error fixes it everywhere in the stack and things stay in sync.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, since most of the code is shared dogfooding mobile essentially tests web logic too - if one team member dogfoods web and another team member dogfoods each mobile platform. For example: a team member using iOS check deposit will find something is broken for them before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.&lt;/p&gt;
+&lt;p&gt;A breakdown of the system that has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:&lt;/p&gt;
+&lt;h2 id=&#34;the-stack-pt-1-all-javascript-ios-android--web-apps&#34;&gt;The stack pt 1: All-Javascript iOS, Android &amp;amp; Web apps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;React for web &amp;amp; React Native/Expo for mobile. Updated to the newest versions, matching the newest Expo SDK for React Native. Regularly updated and audited dependencies.&lt;/li&gt;
+&lt;li&gt;Monorepo the two client projects, sharing a /common folder of shared logic, utility functions, math, permissions, etc etc&lt;/li&gt;
+&lt;li&gt;Tailwind as a shared styling language over React &amp;amp; React Native (thanks to twrnc)&lt;/li&gt;
+&lt;li&gt;Redux as a shared api requests/state logic library.&lt;/li&gt;
+&lt;li&gt;Routing is one thing that is &lt;em&gt;not&lt;/em&gt; shared at all in order to feel native: React Navigation on mobile vs. React Router for web.&lt;/li&gt;
+&lt;li&gt;Jest running automated integration tests for &amp;ldquo;critical path&amp;rdquo; features like application, login, transfer, etc on the CI for both web &amp;amp; mobile on every commit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-stack-pt-2-all-javascript-api&#34;&gt;The stack pt 2: All-Javascript API&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Heroku, so as to use as little time as possible on DevOps&lt;/li&gt;
+&lt;li&gt;Node/Hapi, a single api running all code for deposits, loans etc&lt;/li&gt;
+&lt;li&gt;BullMQ &amp;amp; Redis: A single jobs queue for all features: deposits, loans, monthly jobs, etc&lt;/li&gt;
+&lt;li&gt;Postgres database, not time for non-relational systems here&lt;/li&gt;
+&lt;li&gt;Regularly updated &amp;amp; audited packages including Node versions to unlock newest features &amp;amp; ensure security&lt;/li&gt;
+&lt;li&gt;Integration test coverage of critical path user flows (apply, login, transact), enforced by CI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-landing-pages--internal-dashboards&#34;&gt;Other: Landing Pages &amp;amp; Internal dashboards&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Webflow CMS for static landing pages&lt;/li&gt;
+&lt;li&gt;Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc. If a task needs to be done we hand-perform it, the second time we write an api job for it, and if needs to be done a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;benefits-weve-seen&#34;&gt;Benefits we&amp;rsquo;ve seen&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Move code between web, mobile, server as necessary&lt;/li&gt;
+&lt;li&gt;Use the same libraries on the web, mobile, server&lt;/li&gt;
+&lt;li&gt;Use similar testing syntax over api, iOS, Android, Web app&lt;/li&gt;
+&lt;li&gt;Less onboarding for engineers&lt;/li&gt;
+&lt;li&gt;Library updates on one project benefit the all others (ie. Node), downside: library updates block the other. Way fewer dependencies to understand, audit, and use. Downside: we are deeply invested in a single library for a task.&lt;/li&gt;
+&lt;li&gt;By &lt;a href=&#34;https://boringtechnology.club/&#34;&gt;choosing boring, well-tested technology&lt;/a&gt;, for example avoiding microservices or non-relational databases, we benefitted from all the upsides mentioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.&lt;/li&gt;
+&lt;li&gt;When launching mobile apps around 6 months after launching web, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements made to mobile components improved the web app.&lt;/li&gt;
+&lt;li&gt;When launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the devOps of the original product (deposits). The deposits web product then benefitted from the component improvements made while engineering the brand new loans product: Massive design and performance improvements resulted from this, including the removal of Material-UI which we&amp;rsquo;d originally launched with and moving to a consistent Tailwind also on web and mobile. The merged api benefitted from improvements made for loans too: The api gained non-blocking account opening and tons of dead code removal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-approaches&#34;&gt;Other approaches&lt;/h2&gt;
+&lt;p&gt;In a perfect world we&amp;rsquo;d have a single codebase that renders everything server-side in a &lt;a href=&#34;https://nikodunk.com/a-node-js-developer-discovers-rails/&#34;&gt;majestic monolith&lt;/a&gt; and use a &lt;a href=&#34;https://world.hey.com/dhh/the-one-person-framework-711e6318&#34;&gt;one-person framework&lt;/a&gt;, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases - we needed to balance efficiency with customer expectations/competitiveness.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Flutter, Flutter on web, Rails - still requires 2 languages each with their idiosyncracies, and Flutter on web is half-baked at best. Plus, at this point post-Angular I don&amp;rsquo;t trust Google&amp;rsquo;s commitment to any project long-term&lt;/li&gt;
+&lt;li&gt;Django, Rails or Express for api &amp;amp; web, Swift for iOS, Kotlin for Android - brings 3 languages into the mix for 3x the amount of code writing and debugging, in return for minimal performance benefits and a slightly more native feel.&lt;/li&gt;
+&lt;li&gt;Electron for web, native &amp;amp; mobile, node for the backend - definitely an option, though feels significantly less native IMO than react-native on mobile, which is 50+ percent of our user base&amp;rsquo;s preferred platform (based on analytics).&lt;/li&gt;
+&lt;li&gt;Basecamp-style: rendering api &amp;amp; web on Rails, with the mobile app&amp;rsquo;s navigation rendered natively, but the actual screens rendered on the server - this seems crazy, but seems to be working for Hey.com. If another bigger company jumps to this, we could get on board with this. But we don&amp;rsquo;t have time to risk a new approach like this at our scale :)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;In summary, our Atmos stack will not be perfect for every software project, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value to customers per engineering hour than any other solution currently available.&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>How to replace an AI with humans</title>
+      <link>https://nikodunk.com/2022-09-21-how-we-replaced-ai-with-humans-and-saved-72000-dollars/</link>
+      <pubDate>Wed, 21 Sep 2022 08:00:00 -0700</pubDate>
+      <author>Niko Dunk</author>
+      <guid>https://nikodunk.com/2022-09-21-how-we-replaced-ai-with-humans-and-saved-72000-dollars/</guid>
+      <description></description>
+      
+      <content>&lt;img src=&#34;https://nikodunk.com/replacing-ai-with-human-dalle.png&#34; style=&#34;max-width: 200px; text-align: center&#34;/&gt;
+&lt;p&gt;While most companies are busy at work trying to replace humans with some form of automation or AI, this is the story of how &lt;a href=&#34;https://www.joinatmos.com&#34;&gt;Atmos&lt;/a&gt; replaced an AI fraud prediction solution with a simple dashboard to make human decision making as efficient as possible.&lt;/p&gt;
+&lt;p&gt;We too began with what most fintech startups do: we signed a contract with a vendor of fraud-prevention software - after all if it&amp;rsquo;s the vendor&amp;rsquo;s bread-and-butter to prevent fraud, they&amp;rsquo;ll probably be better at it than we are, right? We quickly were hit by a few unpredicted &amp;ldquo;exceptions&amp;rdquo; that cost us dearly. One is too many when the company is still small. So we decided instead of going all-in on 3rd party anti-fraud AI vendors: to add an additional layer of security on top of the AI before the final decision. We built a dashboard to present a human with all the information they need to make a 100% precise decision, and to make it ridiculously easy to either approve or request more info from all cases where we are not 100.00% sure of the legitimacy of the case. In short, to make human decisioning and follow-up as close to machine-speed as possible.&lt;/p&gt;
+&lt;p&gt;This method was inspired by an article by the Bearblog founder Herman&amp;rsquo;s article &lt;a href=&#34;https://herman.bearblog.dev/5-hours-to-15-minutes/&#34;&gt;&amp;ldquo;From 5 hours to 15 minutes per week&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It has saved us roughly $100,000+ so far in prevented fraud and clean-up effort, depending on estimation methods, but more importantly kept our users safe, us safe, and compliant. We have had a near-zero fraud on our platform since the introduction of this system. Other fintechs in our space have struggled with high fraud rates, proven by the fact that a some have had to throttle new applications while we have not.&lt;/p&gt;
+&lt;p&gt;We have tried hard to augment human intelligence and hyper-optimize around human intuition instead of trusting artificial intelligence, and thereby traded speed (fast human vs. instant machine) with precision (100% trustworthy human prediction vs. 99.5% trustworthy machine). Instead of building a 99% precise self-driving car, we have found success in a building a 100% precise, very efficient bicycle. Our method won&amp;rsquo;t scale to 1B users, but it doesn&amp;rsquo;t have to - it kept us safe until we had more bandwidth to address the issue more scalably.&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>How to set up Heroku SSL (https) with Google Domains in 2021</title>
       <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
       <pubDate>Sun, 27 Jun 2021 08:00:00 -0700</pubDate>

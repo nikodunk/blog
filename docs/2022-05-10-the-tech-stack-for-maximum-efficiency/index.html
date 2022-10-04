@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en-us">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>The tiny-team framework: Less code, more speed. | D U N K</title>
+
+<meta property='og:title' content='The tiny-team framework: Less code, more speed. - D U N K'>
+<meta property='og:description' content='The Atmos stack has launched and run a fintech with 10,000&#43; customers with only 1-2 full-time-equivalent engineers, all while staying secure and rapidly iterating. With so few engineers to do so much work, we need to be brutally efficient: simple code style, using as few dependencies as possible, and hyper-optimizing around sharing code between different parts of the stack.
+More wood behind fewer arrows We unified our stack around Javascript over all clients and API for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients.'>
+<meta property='og:url' content='https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/'>
+<meta property='og:site_name' content='D U N K'>
+<meta property='og:type' content='article'><meta property='og:image' content='android-chrome-512x512.png'><meta property='article:section' content=''><meta property='article:tag' content='Essay'><meta property='article:published_time' content='2022-09-23T08:00:00-07:00'/><meta property='article:modified_time' content='2022-09-23T08:00:00-07:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@nikodunk'><meta name='twitter:creator' content='@nikodunk'>
+
+<link href="https://nikodunk.com/index.xml" rel="alternate" type="application/rss+xml" title="D U N K" />
+
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/custom.css"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left col-12 col-md-6">
+        <a class="nav-item" href="https://nikodunk.com/">
+          <h1 class="title is-4"><img src="/favicon-32x32.png" style="border-radius: 20px; vertical-align: middle; margin-bottom: 5px" /> D U N K</h1>
+        </a>
+      </div>
+      <div class="nav-right col-12 col-md-6">
+        <nav class="nav-item level is-mobile">
+          <b>
+            <a class="level-item" aria-label="Work" href='https://nikodunk.com/#work-section'>
+              Work
+            </a>
+            <a class="level-item" aria-label="Writing" href='https://nikodunk.com/#writing-section'>
+              Writing
+            </a>
+            <a class="level-item" aria-label="Contact" href='https://nikodunk.com#contact-section'>
+              Contact
+            </a>
+          </b>
+        </nav>
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+
+      
+    </nav>
+
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+      
+<a class="subtitle is-6" href="/tags/essay">#Essay</a>
+
+
+
+      
+    </div>
+    <h2 class="subtitle is-6">September 23, 2022</h2>
+    <h1 class="title">The tiny-team framework: Less code, more speed.</h1>
+    
+    <div class="content">
+      <p><img src="/dall_e_efficiency.png" alt=""></p>
+<p>The <a href="https://www.joinatmos.com">Atmos stack</a> has launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and <a href="http://paulgraham.com/avg.html">rapidly iterating</a>. With so few engineers to do so much work, we need to be brutally efficient: simple code style, using as few dependencies as possible, and hyper-optimizing around sharing code between different parts of the stack.</p>
+<h2 id="more-wood-behind-fewer-arrows">More wood behind fewer arrows</h2>
+<p>We unified our stack around Javascript over all clients and API for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don&rsquo;t have time to write things (and more importantly debug things!) twice.</p>
+<p>We have optimized various parts in our stack to require as little &ldquo;maintenance overhead&rdquo; as possible: One goal that a single developer could understand and maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work.</p>
+<ul>
+<li>Therefore all functions for example are written in the exact same super-simple style whether they are on web, mobile or api. We use as few abstractions as possible, and use the same simple query syntax right throughout the server, apps, etc. Simpler, less abstracted code also seems to lead to fewer bugs, duh.</li>
+<li>We use as few libraries as possible, and when we do we use a simple, well-tested one that will work on server, mobile and web.</li>
+<li>When we need similar logic on web, mobile and API - as often happens, it goes in a shared atmos library where all parts of the stack can access it. This way a single change or bugfix to a permission error fixes it everywhere in the stack and things stay in sync.</li>
+</ul>
+<p>Most team members also dogfood the product ie. use the bank every day as their personal bank. Since we have so few codebases, each codebase receives more testing - often 1-2 people using even the most obscure feature. If we had more code bases each line of code would get less testing as our available testers would be more spread out. In addition, since most of the code is shared dogfooding mobile essentially tests web logic too - if one team member dogfoods web and another team member dogfoods each mobile platform. For example: a team member using iOS check deposit will find something is broken for them before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on mac or on mobile can be affected by it. This is of course all on top of the automated testing we do anyway.</p>
+<p>A breakdown of the system that has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:</p>
+<h2 id="the-stack-pt-1-all-javascript-ios-android--web-apps">The stack pt 1: All-Javascript iOS, Android &amp; Web apps</h2>
+<ul>
+<li>React for web &amp; React Native/Expo for mobile. Updated to the newest versions, matching the newest Expo SDK for React Native. Regularly updated and audited dependencies.</li>
+<li>Monorepo the two client projects, sharing a /common folder of shared logic, utility functions, math, permissions, etc etc</li>
+<li>Tailwind as a shared styling language over React &amp; React Native (thanks to twrnc)</li>
+<li>Redux as a shared api requests/state logic library.</li>
+<li>Routing is one thing that is <em>not</em> shared at all in order to feel native: React Navigation on mobile vs. React Router for web.</li>
+<li>Jest running automated integration tests for &ldquo;critical path&rdquo; features like application, login, transfer, etc on the CI for both web &amp; mobile on every commit.</li>
+</ul>
+<h2 id="the-stack-pt-2-all-javascript-api">The stack pt 2: All-Javascript API</h2>
+<ul>
+<li>Heroku, so as to use as little time as possible on DevOps</li>
+<li>Node/Hapi, a single api running all code for deposits, loans etc</li>
+<li>BullMQ &amp; Redis: A single jobs queue for all features: deposits, loans, monthly jobs, etc</li>
+<li>Postgres database, not time for non-relational systems here</li>
+<li>Regularly updated &amp; audited packages including Node versions to unlock newest features &amp; ensure security</li>
+<li>Integration test coverage of critical path user flows (apply, login, transact), enforced by CI.</li>
+</ul>
+<h2 id="other-landing-pages--internal-dashboards">Other: Landing Pages &amp; Internal dashboards</h2>
+<ul>
+<li>Webflow CMS for static landing pages</li>
+<li>Retool dashboard to access api jobs, and to detect fraud, approve users, approve loans, see growth, etc. If a task needs to be done we hand-perform it, the second time we write an api job for it, and if needs to be done a 3rd time we write an interface for that api job, so that engineering never needs to be pulled into (read: block) the loop again.</li>
+</ul>
+<h2 id="benefits-weve-seen">Benefits we&rsquo;ve seen</h2>
+<ul>
+<li>Move code between web, mobile, server as necessary</li>
+<li>Use the same libraries on the web, mobile, server</li>
+<li>Use similar testing syntax over api, iOS, Android, Web app</li>
+<li>Less onboarding for engineers</li>
+<li>Library updates on one project benefit the all others (ie. Node), downside: library updates block the other. Way fewer dependencies to understand, audit, and use. Downside: we are deeply invested in a single library for a task.</li>
+<li>By <a href="https://boringtechnology.club/">choosing boring, well-tested technology</a>, for example avoiding microservices or non-relational databases, we benefitted from all the upsides mentioned in the talk: devops improvements to one part of our company benefited another, unifying around React lead to us improving already-built products while building out new products, etc etc.</li>
+<li>When launching mobile apps around 6 months after launching web, we quickly merged it into our web codebase/repo to benefit from shared logic, and improvements made to mobile components improved the web app.</li>
+<li>When launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the devOps of the original product (deposits). The deposits web product then benefitted from the component improvements made while engineering the brand new loans product: Massive design and performance improvements resulted from this, including the removal of Material-UI which we&rsquo;d originally launched with and moving to a consistent Tailwind also on web and mobile. The merged api benefitted from improvements made for loans too: The api gained non-blocking account opening and tons of dead code removal.</li>
+</ul>
+<h2 id="other-approaches">Other approaches</h2>
+<p>In a perfect world we&rsquo;d have a single codebase that renders everything server-side in a <a href="/a-node-js-developer-discovers-rails/">majestic monolith</a> and use a <a href="https://world.hey.com/dhh/the-one-person-framework-711e6318">one-person framework</a>, but due to modern requirements of native apps on 2 platforms, native web experience for specific use cases - we needed to balance efficiency with customer expectations/competitiveness.</p>
+<ul>
+<li>Flutter, Flutter on web, Rails - still requires 2 languages each with their idiosyncracies, and Flutter on web is half-baked at best. Plus, at this point post-Angular I don&rsquo;t trust Google&rsquo;s commitment to any project long-term</li>
+<li>Django, Rails or Express for api &amp; web, Swift for iOS, Kotlin for Android - brings 3 languages into the mix for 3x the amount of code writing and debugging, in return for minimal performance benefits and a slightly more native feel.</li>
+<li>Electron for web, native &amp; mobile, node for the backend - definitely an option, though feels significantly less native IMO than react-native on mobile, which is 50+ percent of our user base&rsquo;s preferred platform (based on analytics).</li>
+<li>Basecamp-style: rendering api &amp; web on Rails, with the mobile app&rsquo;s navigation rendered natively, but the actual screens rendered on the server - this seems crazy, but seems to be working for Hey.com. If another bigger company jumps to this, we could get on board with this. But we don&rsquo;t have time to risk a new approach like this at our scale :)</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>In summary, our Atmos stack will not be perfect for every software project, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value to customers per engineering hour than any other solution currently available.</p>
+
+      
+      <div class="related">
+
+<h3>Similar articles:</h3>
+<ul>
+	
+	<li><a href="/a-node-js-developer-discovers-rails/">From Node to Ruby on Rails</a></li>
+	
+	<li><a href="/predictions-for-the-next-decade/">5 hot takes at the beginning of 2020</a></li>
+	
+	<li><a href="/cities/">As cities grow, nations will fade.</a></li>
+	
+	<li><a href="/vipassana/">Vipassana Meditation</a></li>
+	
+	<li><a href="/no/">No</a></li>
+	
+</ul>
+</div>
+      
+    </div>
+    
+  </div>
+</section>
+<section class="section">
+    <div class="container">
+  
+      <div class="row" style="display: flex">
+        <hr style="flex: 1" />
+        <h4 id="contact-section" class="strike-header"><span>Contact / Inquire</span></h4>
+        <hr style="flex: 1" />
+      </div>
+      
+      <div class="nav-center" style="display: flex">
+          <nav class="nav-item level is-mobile row" ><a class="col-4 level-item" aria-label="github" href='https://github.com/nikodunk'
+              target='_blank' rel='noopener'>
+              <span class="icon">
+                <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+              </span>
+            </a><a class="col-4 level-item" aria-label="email" href='mailto:n.dunkel@gmail.com'
+              target='_blank' rel='noopener'>
+              <span class="icon">
+                <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+    
+  </svg></i>
+              </span>
+            </a><a class="col-4 level-item" aria-label="linkedin" href='https://linkedin.com/in/nicholasdunkel'
+              target='_blank' rel='noopener'>
+              <span class="icon">
+                <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path stroke-width="1.8" d="m5.839218,4.101561c0,1.211972 -0.974141,2.194011 -2.176459,2.194011s-2.176459,-0.982039 -2.176459,-2.194011c0,-1.211094 0.974141,-2.194011 2.176459,-2.194011s2.176459,0.982917 2.176459,2.194011zm0.017552,3.94922l-4.388022,0l0,14.04167l4.388022,0l0,-14.04167zm7.005038,0l-4.359939,0l0,14.04167l4.360816,0l0,-7.370999c0,-4.098413 5.291077,-4.433657 5.291077,0l0,7.370999l4.377491,0l0,-8.89101c0,-6.915523 -7.829986,-6.66365 -9.669445,-3.259423l0,-1.891237z"/>
+    
+  </svg></i>
+              </span>
+            </a></nav>
+      </div>
+      <br />
+    </div>
+</section>
+</body>
+</html>
+
