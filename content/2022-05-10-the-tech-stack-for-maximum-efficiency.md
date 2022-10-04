@@ -9,11 +9,11 @@ tags: ["Essay"]
 
 The [Atmos stack](https://www.joinatmos.com) has launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and [rapidly iterating](http://paulgraham.com/avg.html). With so few engineers to do so much work, we need to be brutally efficient: simple code style, using as few dependencies as possible, and hyper-optimizing around sharing code between different parts of the stack.
 
+We have optimized various parts in our stack to require as little "maintenance overhead" as possible: One goal that a single developer could maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. A side effect of this is that there's also less mental overhead understanding all code parts, which means less onboarding for engineers and fewer bugs.
+
 ## More wood behind fewer arrows
 
 We unified our stack around Javascript over all clients and API for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one API running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don't have time to write things (and more importantly debug things!) twice.
-
-We have optimized various parts in our stack to require as little "maintenance overhead" as possible: One goal that a single developer could maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. A side effect of this is that there's also less mental overhead understanding all code parts, which means less onboarding for engineers and fewer bugs.
 
 All functions are written in the exact same super-simple style whether they are on web, mobile or api. We use as few abstractions as possible, and use the same simple query syntax right throughout the server, apps, etc. Simpler, less abstracted code also seems to lead to fewer bugs, duh.
 
@@ -41,7 +41,7 @@ A breakdown of the system that has allowed us to ship a large amount of products
 - Heroku, so as to use as little time as possible on DevOps
 - Node/Hapi, a single api running all code for deposits, loans etc
 - BullMQ & Redis: A single jobs queue for all features: deposits, loans, monthly jobs, etc
-- Postgres database, not time for non-relational systems here
+- Postgres database, no time for non-relational systems here
 - Regularly updated & audited packages including Node versions to unlock newest features & ensure security
 - Integration test coverage of critical path user flows (apply, login, transact), enforced by CI.
 
