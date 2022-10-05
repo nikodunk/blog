@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "The tiny-team framework: Less code, more speed."
+title: "How a unified tech stack made our tiny team efficient"
 date: 2022-09-23 08:00:00 -0700
 tags: ["Essay"]
 ---
