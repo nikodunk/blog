@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "The tiny-team framework: Less code, more speed."
 date: 2022-09-23 08:00:00 -0700
@@ -7,9 +7,9 @@ tags: ["Essay"]
 
 ![](/dall_e_efficiency.png)
 
-The [Atmos stack](https://www.joinatmos.com) has launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and [rapidly iterating](http://paulgraham.com/avg.html). With so few engineers to do so much work, we need to be brutally efficient: simple code style, using as few dependencies as possible, and hyper-optimizing around sharing code between different parts of the stack.
+The [Atmos stack](https://www.joinatmos.com) has launched and run a fintech with 10,000+ customers with only 1-2 full-time-equivalent engineers, all while staying secure and [rapidly iterating](http://paulgraham.com/avg.html). We need to be brutally efficient with few engineers and so much work: simple code style, using as few dependencies as possible, and hyper-optimizing around sharing code between different parts of the stack.
 
-We have optimized various parts in our stack to require as little "maintenance overhead" as possible: One goal that a single developer could maintain all project parts (deposits api, deposits jobs, web, android, ios, loans api), and spend their time on actual value-adding work. Because 1-2 developers is 10-20x less developers than similar competitors are throwing at the engineering, we cannot afford to spend any engineering time on complex systems or we will not have any effort left for feature work. A side effect of this is that there's also less mental overhead understanding all code parts, which means less onboarding for engineers and fewer bugs.
+We have optimized various parts of our stack to reduce maintenance burden. A single developer should be able to understand, maintain and add value to all project parts. These are numerous, including api, jobs, web, android, ios, loans, so reducing mental overhead is important. 1-2 developers is 10-20x fewer than competitors are throwing at engineering, so we cannot afford to spend any time on complexity. 
 
 ## More wood behind fewer arrows
 
@@ -17,15 +17,15 @@ We unified our stack around Javascript over all clients and API for maximum code
 
 All functions are written in the exact same super-simple style whether they are on web, mobile or api. We use as few abstractions as possible, and use the same simple query syntax right throughout the server, apps, etc. Simpler, less abstracted code also seems to lead to fewer bugs, duh.
 
-We use as few libraries as possible, and when we have to we use a simple, well-tested one that will work on server, mobile and web. Using the same libraries everywhere means library updates on one part of the stack benefit other parts (same for runtimes like Node). There are also way fewer dependencies to understand, learn how to use and audit. The downside is that library updates block each other, and we are deeply invested in a single library for a task.
+We use as few libraries as possible, and when we have to we use a simple, well-tested one that will work on server, mobile and web. This way library updates on one part of the stack benefit another, as mentioned in the great [Boring Technology](https://boringtechnology.club/) talk, and unifying around React and Hapi leads to us improve existing products while building new ones (see cross-polination below). There are also way fewer dependencies to understand, learn how to use and audit. The downside is that library updates block each other, and we are deeply invested in a single library for a task.
 
-Similar logic on web, mobile and API goes in a shared Atmos library where all parts of the stack can access it. This way a single change or bugfix to a permission error fixes it everywhere in the stack and things stay in sync. We can also move code and tests between web, mobile, server as necessary.
+Similar logic on web, mobile and API goes in a shared Atmos library where all parts of the stack can access it. This way a single change or bug fix to a permission error fixes it everywhere in the stack and things stay in sync. We can also move code and tests between web, mobile, server as necessary.
 
-Since we have so few codebases, each codebase and line of code receives proportionally more testing - as our available testers are not spread as thin. Most team members dogfood the product (ie. use the bank every day as their personal bank) and 1-2 people internally often use even the most obscure feature. Because most of the business logic is shared, dogfooding web in effect provides basic mobile coverage too. If one team member uses web and another team member uses each mobile platform, the effect is tripled. For example: a team member using iOS check deposit will find something is broken for them before Android users can notice. Or a team member on Edge on Windows will find a permission error for them before any users on Mac or on mobile can be affected by it. This is on top of automated testing we do anyway.
+Each code base receives good internal testing coverage because our available testers are only spread out over two code bases (clients and api). Most team members use the product every day as their personal bank, so we’ll notice a slowdown quickly as or before they affect users. It’s also highly likely that bugs in obscure code paths will be discovered internally. Because most of the business logic is shared, using an obscure feature on web provides basic mobile testing too. If one team member uses web and another team member uses each mobile platform, the effect is tripled. For example: a team member using iOS check deposit will find an OS update broke permissions before Android users can notice. This is on top of automated testing we do anyway.
 
-We have seen much cross-pollination by merging code bases: When launching mobile apps after launching web, we quickly merged the mobile code into our web repository to benefit from shared logic, and improvements made to mobile components improved the web app. When launching loans, we merged the loans web client into the original client repo almost immediately to piggyback off the DevOps of the original product, and again the original product gained the design and performance improvements made while engineering the brand new loans product, including dropping the web-only Material-UI which we'd originally launched with and moving to a consistent Tailwind style everywhere. The merged api benefited from improvements made for loans too: The api gained non-blocking account opening and much dead code removal. Generally, DevOps improvements to one part of our company benefit another, as mentioned in the great [Boring Technology](https://boringtechnology.club/) talk, and unifying around React and Hapi leads to us improve already-built products while building out new products.
+We have seen much cross-pollination by merging code bases. We originally merged the mobile code into our web repository to benefit from shared logic. But improvements made to mobile components improved the web app. Similarly, we originally merged the loans web client into the original deposit web client to piggyback off the DevOps of the original product. Again the original product gained the design and performance improvements made while engineering the brand new loans product. This included replacing the web-only Material-UI with Tailwind everywhere. Finally, the merged API benefited from improvements made for loans too. The api gained non-blocking account opening and much dead code removal. 
 
-A breakdown of the system that has allowed us to ship a large amount of products - savings, checking, loans, donations clients on web, ios, android - with very few engineers and very few bugs is as follows:
+A breakdown of the system is below. This system that has allowed us to ship a large amount of products with very few engineers and very few bugs. Our products include savings, checking, loans, donations clients on web, ios, android.
 
 ## The stack pt 1: All-Javascript iOS, Android & Web apps
 
@@ -61,4 +61,4 @@ In a perfect world we'd have a single codebase that renders everything server-si
 
 ## Conclusion
 
-In summary, our Atmos stack will not be perfect for every software project, but it is strongly recommended for tiny startups as it has allowed us to deliver way more value to customers per engineering hour than any other solution currently available.
+In summary, our Atmos stack will not be perfect for every software project but it is strongly recommended for tiny startups. It has allowed us to deliver way more value to customers per engineering hour than any other solution currently available.
