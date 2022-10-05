@@ -13,7 +13,7 @@ We mainly stay efficent by reducing mental overhead and reducing maintenance bur
 
 ## More wood behind fewer arrows
 
-We unified our stack around Javascript over all clients and server for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one server running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don't have time to write things (and more importantly debug things!) twice.
+We unified our stack around Javascript over client and server for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one server running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don't have time to write things (and more importantly debug things!) twice.
 
 All functions are written in the exact same super-simple code style whether they are on web, mobile or server. We use as few abstractions as possible, and use the same simple query syntax right throughout the server, apps, etc. Simpler, less abstracted code also seems to lead to fewer bugs, duh.
 
