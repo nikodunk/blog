@@ -50,7 +50,7 @@ A breakdown of the stack is below. This system that has allowed us to ship a lar
 - Webflow CMS for static landing pages
 - Retool dashboard to access server jobs, and to detect fraud, approve users, approve loans, see growth, etc. If a task needs to be done we hand-perform it, the second time we write an server job for it, and if needs to be done a 3rd time we write an interface for that server job, so that engineering never needs to be pulled into (read: block) the loop again.
 
-## Other approaches
+## Alternatives
 
 In a perfect world we'd have a single codebase that renders everything server-side in a [majestic monolith](/a-node-js-developer-discovers-rails/) and use a [one-person framework](https://world.hey.com/dhh/the-one-person-framework-711e6318), but due to modern customer expectations of native apps on iOS, Android & web - we needed to balance efficiency with competitiveness.
 
