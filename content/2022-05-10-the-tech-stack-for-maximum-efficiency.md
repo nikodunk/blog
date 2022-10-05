@@ -5,7 +5,7 @@ date: 2022-09-23 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-![](/dall_e_efficiency.png)
+![](/efficiency_dalle.png)
 
 The stack described below has helped [Atmos](https://www.joinatmos.com) grow to 10,000+ customers with only 1-2 full-time-equivalent engineers. We've stayed secure and [iterated rapidly](http://paulgraham.com/avg.html) thanks to it. Our engineering team is 10-20x leaner than our closest competitors, so we need to be 10-20x more efficient to compete.
 
@@ -26,6 +26,8 @@ Each code base receives good internal testing coverage because our internal test
 We have seen much cross-pollination by merging code bases. We originally merged the mobile code into our web code to share business logic. But improvements made to mobile components improved the web experience too. Similarly, we originally merged the loans client into the original client to piggyback off its DevOps. But again the original client gained the design improvements made while engineering the new one. For example, web-only Material-UI was replaced with Tailwind everywhere. Finally, the when we merged server projects the old one benefitted from improvements made to the new loans server too. It gained non-blocking account opening and much dead code removal.
 
 A breakdown of the stack is below. This system that has allowed us to ship a large amount of products with very few engineers and very few bugs. Our products include savings, checking, loans, donations, with clients on web, ios & android.
+
+![](/efficiency_stack.jpg)
 
 ## The stack pt 1: All-Javascript iOS, Android & Web apps
 
