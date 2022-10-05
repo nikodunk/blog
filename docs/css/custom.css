@@ -52,3 +52,8 @@ h5 {
   padding: 20px !important;
   background-color: #272922;
 }
+
+.content p,
+li {
+  font-family: serif !important;
+}
