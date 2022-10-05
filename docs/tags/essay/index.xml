@@ -13,7 +13,7 @@
       <pubDate>Fri, 23 Sep 2022 08:00:00 -0700</pubDate>
       
       <guid>https://nikodunk.com/2022-05-10-the-tech-stack-for-maximum-efficiency/</guid>
-      <description>The stack described below has helped Atmos grow to 10,000+ customers with only 1-2 full-time-equivalent engineers. We&amp;rsquo;ve stayed secure and iterated rapidly thanks to it. 1-2 developers is 10-20x fewer than competitors are throwing at engineering, so we need to be 10-20x more efficient with such a lean team.
+      <description>The stack described below has helped Atmos grow to 10,000+ customers with only 1-2 full-time-equivalent engineers. We&amp;rsquo;ve stayed secure and iterated rapidly thanks to it. Our engineering team is 10-20x leaner than our closest competitors, so we need to be 10-20x more efficient to compete.
 We mainly stay efficent by reducing mental overhead and reducing maintenance burden. Our products are numerous - web, ios, android, loans, server, jobs - and yet a single developer should be able to understand, maintain and add value to all of them.</description>
     </item>
     
