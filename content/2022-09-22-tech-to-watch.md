@@ -5,10 +5,10 @@ date: 2022-09-28 08:00:00 -0700
 categories:
 ---
 
-- [x] Flathub app: A notepad that syncs SaaS - for linux mobile - $1/mo
-- [x] News SaaS - obviously broken, big market. Someone to sift through and give you 10 bullet points - train a newsbot on x. users plant seed, branch out?
-- [x] Solar sales SaaS - Tesla style solar sales presentation tool for all other solar installers - saas
-- [ ] Self-hosted content platform SaaS - NotablePress, NetlifyCMS, Hugo
+- [x] Positive News Newsletter SaaS - (obviously broken, big market). 10 bullets, train a newsbot on good seed, find non-negative w/ sentiment analysis? - $10/mo
+- [x] B2B Sales PDF Maker SaaS for solar installers - Tesla style solar sales presentation tool for everyone else - $59/mo
+- [x] Linux mobile freemium notepad app that syncs (flathub) - $2/mo for syncing
+- [ ] CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo - $6/mo
 - [ ] Climate fintech - Inyova.ch
 - [ ] Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator.
 - [ ] Linux ready phone with smd845
