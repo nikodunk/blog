@@ -8,7 +8,7 @@ image: /replacing-ai-with-human-dalle.png
 
 <img src="/replacing-ai-with-human-dalle.png" style="max-width: 200px; text-align: center"/>
 
-Many companies are trying to replace humans with automation or AI. This is the story of how [Atmos](https://www.joinatmos.com) did the opposite. We replaced a fraud prediction artificial intelligence with a dashboard to help human intelligence be as efficient as possible.
+Many companies are trying to replace humans with automation or AI. This is the story of how [Atmos](https://www.joinatmos.com) did the opposite. We replaced a fraud prediction AI with a dashboard to help human intelligence be as efficient as possible.
 
 It has saved us roughly $100,000 so far in prevented fraud and clean-up effort (depending on estimation methods). More importantly it has kept our users safe, and us safe and compliant. We have had a near-zero fraud on our platform since the introduction of this system. Other fintech startups in our space have struggled with high fraud rates, proven by the fact that a some have had to throttle new applications while we have not.
 
