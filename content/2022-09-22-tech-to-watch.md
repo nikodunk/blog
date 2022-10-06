@@ -8,7 +8,7 @@ categories:
 - [x] Flathub app: A notepad that syncs SaaS - for linux mobile - $1/mo
 - [x] News SaaS - obviously broken, big market. Someone to sift through and give you 10 bullet points - train a newsbot on x. users plant seed, branch out?
 - [x] Solar sales SaaS - Tesla style solar sales presentation tool for all other solar installers - saas
-- [ ] Self-hosted content platform SaaS - NotablePress, NetlifyCMS
+- [ ] Self-hosted content platform SaaS - NotablePress, NetlifyCMS, Hugo
 - [ ] Climate fintech - Inyova.ch
 - [ ] Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator.
 - [ ] Linux ready phone with smd845
