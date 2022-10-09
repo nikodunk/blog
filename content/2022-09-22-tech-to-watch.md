@@ -5,9 +5,9 @@ date: 2022-09-28 08:00:00 -0700
 categories:
 ---
 
-- [x] Positive News Newsletter SaaS - (obviously broken, big market). 10 bullets, train a newsbot on good seed, find non-negative w/ sentiment analysis? - $10/mo
 - [x] B2B Sales PDF Maker SaaS for solar installers - Tesla style solar sales presentation tool for everyone else - $59/mo
 - [x] Linux mobile freemium notepad app that syncs (flathub) - $2/mo for syncing
+- [x] Positive News Newsletter SaaS - (obviously broken, big market). 10 bullets, train a newsbot on good seed, find non-negative w/ sentiment analysis? - $10/mo
 - [ ] CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo - $6/mo
 - [ ] Climate fintech - Inyova.ch
 - [ ] Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator.
