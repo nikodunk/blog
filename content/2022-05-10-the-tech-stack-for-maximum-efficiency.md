@@ -8,30 +8,30 @@ image: /efficiency_dalle.png
 
 ![](/efficiency_stack.jpg)
 
-The stack described below has helped [Atmos](https://www.joinatmos.com) grow to 10,000+ customers with only 1-2 full-time-equivalent engineers. We've stayed secure and [iterated rapidly](http://paulgraham.com/avg.html) thanks to it. Our engineering team is 10-20x leaner than our closest competitors, so we need to be 10-20x more efficient to compete.
+The following system has helped [Atmos](https://www.joinatmos.com) grow to 10,000+ customers with only 1-2 full-time-equivalent engineers. Thanks to it we've stayed secure and [iterated rapidly](http://paulgraham.com/avg.html). We need to be 10-20x more efficient than our closest competitors as our engineering team is 10-20x leaner than theirs.
 
 We mainly stay efficent by reducing mental overhead and reducing maintenance burden. Our products are numerous - web, ios, android, loans, server, jobs - and yet a single developer should be able to understand, maintain and add value to all of them.
 
 ## More wood behind fewer arrows
 
-We unified our stack around Javascript over client and server for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack and clients. We have one server running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don't have time to write things (and more importantly debug things!) twice.
+We unified our stack around Javascript on clients and server for maximum code efficiency - we do not have time to duplicate features over Kotlin, Swift, Svelte and Python for various parts of the stack. We have one server running all code for all projects - we do not have time for microservices. We even have large parts of our frontend logic shared between web and mobile - we don't have time to write things (and more importantly debug things!) twice.
 
 All functions are written in the exact same super-simple code style whether they are on web, mobile or server. We use as few abstractions as possible, and use the same simple query syntax right throughout the server, apps, etc. Simpler, less abstracted code also seems to lead to fewer bugs, duh.
 
-We use as few libraries as possible, and when we have to we use a simple, well-tested one that will work on server, mobile and web. This way library updates on one part of the stack benefit another, as mentioned in the great [Boring Technology](https://boringtechnology.club/) talk, and unifying around React and Hapi makes us improve existing products while building new ones (see cross-pollination below). There are also way fewer dependencies to understand, learn how to use and audit. The downside is that library updates block each other, and we are deeply invested in a single library for a task.
+We use as few libraries as possible, and when necessary we use simple, well-tested ones that will work on server, mobile and web. This way library updates on one part of the stack benefit another, as mentioned in the great [Boring Technology](https://boringtechnology.club/) talk, and unifying around React and Hapi makes us improve existing products while building new ones (see cross-pollination below). There are also way fewer dependencies to understand, learn how to use and audit. The downside is that library updates block each other, and we are deeply invested in a single library for a task.
 
 We share code between products wherever possible. Similar logic on web, mobile and server goes in a shared Atmos library where all parts of the stack can access it. This way a single change or bug fix to a permission error fixes it everywhere in the stack and things stay in sync. We can also move code and tests between web, mobile, server as necessary.
 
-Each code base receives good internal testing coverage because our internal testers are only spread out over very few code bases. It’s highly likely that even bugs in obscure code paths will be discovered internally for two reasons. First, most team members use the product every day as their personal bank so we’ll notice obvious issues quickly before they affect users. Second, because most of the business logic is shared, using an obscure feature on web provides basic mobile testing coverage for that feature too. If one team member uses web and another team member uses each mobile platform, the effect is tripled. For example, a team member using iOS check deposit will find an OS update broke permissions before Android users can notice. This is on top of automated testing we do anyway.
+Each code base receives good internal testing coverage because our internal testers are only spread out over very few code bases. It’s highly likely that even bugs in obscure code paths will be discovered internally for two reasons. First, most team members use the product every day as their personal bank so we’ll notice obvious issues quickly before they affect users. Second, because most of the business logic is shared, using an obscure feature on web provides basic mobile testing coverage for that feature too. For example, a team member using iOS check deposit will find a refactor broke permissions before Android users can notice in the wild. This is on top of automated testing we do anyway.
 
-We have seen much cross-pollination by merging code bases. We originally merged the mobile code into our web code to share business logic. But improvements made to mobile components improved the web experience too. Similarly, we originally merged the loans client into the original client to piggyback off its DevOps. But again the original client gained the design improvements made while engineering the new one. For example, web-only Material-UI was replaced with Tailwind everywhere. Finally, the when we merged server projects the old one benefitted from improvements made to the new loans server too. It gained non-blocking account opening and much dead code removal.
+We have seen much cross-pollination by merging code bases. We merged the mobile code into our web code to share business logic. But improvements made to mobile components improved the web experience too. Similarly, we merged the loans client into the original client to piggyback off its DevOps. But again the original product gained the design improvements made while engineering the new product (web-only Material-UI was replaced with universal Tailwind in this case). The original server benefitted from improvements from the new loans server too. It gained non-blocking account opening and much dead code removal.
 
-A breakdown of the stack is below. This system that has allowed us to ship a large amount of products with very few engineers and very few bugs. Our products include savings, checking, loans, donations, with clients on web, ios & android.
+A breakdown of the stack is below.
 
 ## The stack pt 1: All-Javascript iOS, Android & Web apps
 
-- React for web & React Native/Expo for mobile. Updated to the newest versions, matching the newest Expo SDK for React Native. Regularly updated and audited dependencies.
-- Monorepo the two client projects, sharing a /common folder of shared logic, utility functions, math, permissions, etc etc
+- React on web, iOS and Android. Client-rendered React for web, React Native/Expo for mobile. Regularly updated and audited dependencies.
+- Monorepo for the two client projects, sharing a /common folder of shared logic, utility functions, math, permissions, etc etc
 - Tailwind as a shared styling language over React & React Native (thanks to twrnc)
 - Redux as a shared api request/state logic library.
 - Routing is one thing that is _not_ shared at all in order to feel native: React Navigation on mobile vs. React Router for web.
@@ -39,8 +39,8 @@ A breakdown of the stack is below. This system that has allowed us to ship a lar
 
 ## The stack pt 2: All-Javascript API
 
+- Node/Hapi, a single server running all code for savings, checking, loans, donations
 - Heroku, so as to use as little time as possible on DevOps
-- Node/Hapi, a single server running all code for deposits, loans etc
 - BullMQ & Redis: A single jobs queue for all features: deposits, loans, monthly jobs, etc
 - Postgres database, no time for non-relational systems here
 - Regularly updated & audited packages including Node versions to unlock newest features & ensure security
