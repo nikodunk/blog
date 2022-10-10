@@ -10,7 +10,7 @@ image: /efficiency_dalle.png
 
 The following system has helped [Atmos](https://www.joinatmos.com) grow to 10,000+ customers with only 1-2 full-time-equivalent engineers. Thanks to it we've stayed secure and [iterated rapidly](http://paulgraham.com/avg.html). We need to be 10-20x more efficient than our closest competitors as our engineering team is 10-20x leaner than theirs.
 
-We mainly stay efficent by reducing mental overhead and reducing maintenance burden. Our products are numerous - web, ios, android, loans, server, jobs - and yet a single developer should be able to understand, maintain and add value to all of them.
+We mainly stay efficent by reducing mental overhead and reducing maintenance burden. Our products are numerous - web, ios, android for savings, checking, loans, deposits, jobs - and yet a single developer should be able to understand, maintain and improve all of them.
 
 ## More wood behind fewer arrows
 
