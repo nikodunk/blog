@@ -18,7 +18,7 @@ Fedora New Website
 
 # Startups
 
-Reshore - Alibaba for the USA
+## Reshore - Alibaba for the USA
 
 <img loading="lazy" src="/projects/demo_reshore.png">
 
@@ -159,7 +159,7 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 
 ## Atmos Financial
 
-<img loading="lazy" src="/projects/demo_atmos.gif">
+<img loading="lazy" src="/projects/demo_atmos.jpg">
 
 A new green bank.
 
