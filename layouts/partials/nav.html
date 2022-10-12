@@ -2,20 +2,43 @@
   <div class="container">
     <nav class="nav">
       <div class="nav-left col-12 col-md-6">
-        <a class="nav-item" href="{{ .Site.BaseURL }}">
-          <h1 class="title is-4"><img src="/favicon-32x32.png" style="border-radius: 20px; vertical-align: middle; margin-bottom: 5px" /> {{ .Site.Title }}</h1>
+        <a class="text-decoration-none" href="{{ .Site.BaseURL }}">
+          <h1 class="title is-4">
+            <img
+              src="/favicon-32x32.png"
+              style="
+                border-radius: 20px;
+                vertical-align: middle;
+                margin: 5px;
+                margin-top: 0px;
+              "
+            />
+            {{ .Site.Title }}
+          </h1>
         </a>
       </div>
       <div class="nav-right col-12 col-md-6">
         <nav class="nav-item level is-mobile">
           <b>
-            <a class="level-item" aria-label="Work" href='https://nikodunk.com/#work-section'>
+            <a
+              class="level-item"
+              aria-label="Work"
+              href="https://nikodunk.com/#work-section"
+            >
               Work
             </a>
-            <a class="level-item" aria-label="Writing" href='https://nikodunk.com/#writing-section'>
+            <a
+              class="level-item"
+              aria-label="Writing"
+              href="https://nikodunk.com/#writing-section"
+            >
               Writing
             </a>
-            <a class="level-item" aria-label="Contact" href='https://nikodunk.com#contact-section'>
+            <a
+              class="level-item"
+              aria-label="Contact"
+              href="https://nikodunk.com#contact-section"
+            >
               Contact
             </a>
           </b>
@@ -26,28 +49,23 @@
     <nav class="nav">
       {{ if (isset .Site.Params "sections_left" ) }}
       <div class="nav-left">
-        {{- range $section, $printable := .Site.Params.sections_left -}}
-        {{- if $printable -}}
-        <a class="nav-item" href="{{$section}}">
+        {{- range $section, $printable := .Site.Params.sections_left -}} {{- if
+        $printable -}}
+        <a class="text-decoration-none" href="{{$section}}">
           <h2 class="title is-5">{{$printable}}</h2>
         </a>
-        {{- end -}}
-        {{- end -}}
+        {{- end -}} {{- end -}}
       </div>
-      {{ end }}
-
-      {{ if (isset .Site.Params "sections_right" ) }}
+      {{ end }} {{ if (isset .Site.Params "sections_right" ) }}
       <div class="nav-right">
-        {{- range $section, $printable := .Site.Params.sections_right -}}
-        {{- if $printable -}}
+        {{- range $section, $printable := .Site.Params.sections_right -}} {{- if
+        $printable -}}
         <a class="nav-item" href="{{$section}}">
           <h2 class="title is-5">{{$printable}}</h2>
         </a>
-        {{- end -}}
-        {{- end -}}
+        {{- end -}} {{- end -}}
       </div>
       {{ end }}
     </nav>
-
   </div>
 </section>
