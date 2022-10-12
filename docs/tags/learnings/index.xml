@@ -6,7 +6,19 @@
     <description>Recent content in Learnings on D U N K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jun 2021 08:00:00 -0700</lastBuildDate><atom:link href="https://nikodunk.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 08:00:00 -0700</lastBuildDate><atom:link href="https://nikodunk.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learnings: Projects &amp; things I&#39;ve made so far.</title>
+      <link>https://nikodunk.com/projects/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 -0700</pubDate>
+      
+      <guid>https://nikodunk.com/projects/</guid>
+      <description>This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:
+Open Source Fedora New Website
+Startups Reshore - Alibaba for the USA
+ sunboxlabs.com v2 | Self-Install Solar Kits for backup generation, etc Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addional $1.5K over the next few weeks on Instagram ads to prove that is is a scalable business.</description>
+    </item>
+    
     <item>
       <title>How to set up Heroku SSL (https) with Google Domains in 2021</title>
       <link>https://nikodunk.com/heroku-ssl-google-domains-2019/</link>
@@ -39,16 +51,6 @@ Now I&amp;rsquo;m trying to re-create the early sales success and am testing dif
       <description>Dear Reader,
 I&amp;rsquo;ve decided that I&amp;rsquo;m going to start simply posting my updates as by posting (lightly edited) emails I&amp;rsquo;ve written to founder friends on my progress. This way I save time, can post more often, and I feel like it&amp;rsquo;s a more authentic update anyway.
 Sorry for no update! Covid hit so we interrupted fundraising and started building and getting deals with local utilities (aka CCAs) while we were waiting, and then Katie got pulled off with her kid (single mother).</description>
-    </item>
-    
-    <item>
-      <title>Learnings: Projects &amp; things I&#39;ve made so far.</title>
-      <link>https://nikodunk.com/projects/</link>
-      <pubDate>Wed, 03 Jun 2020 08:00:00 -0700</pubDate>
-      
-      <guid>https://nikodunk.com/projects/</guid>
-      <description>This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I&amp;rsquo;ve made something:
-Startups  sunboxlabs.com v2 | Self-Install Solar Kits for backup generation, etc Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addional $1.5K over the next few weeks on Instagram ads to prove that is is a scalable business.</description>
     </item>
     
     <item>
