@@ -597,7 +597,7 @@ Stats
       <content>&lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; B2B Sales PDF Maker SaaS for solar installers - Tesla style solar sales presentation tool for everyone else - $59/mo&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Linux mobile freemium notepad app that syncs (flathub) - $2/mo for syncing&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Positive News Newsletter SaaS - (obviously broken, big market). 10 bullets, train a newsbot on good seed, find non-negative w/ sentiment analysis? - $10/mo&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Positive News Newsletter SaaS - (obviously broken, big market). train a newsbot on good seed, find non-negative headlines with &lt;a href=&#34;https://towardsdatascience.com/sentiment-analysis-on-news-headlines-classic-supervised-learning-vs-deep-learning-approach-831ac698e276&#34;&gt;sentiment analysis&lt;/a&gt;? - $10/mo&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo - $6/mo&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Climate fintech - Inyova.ch&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator.&lt;/li&gt;
