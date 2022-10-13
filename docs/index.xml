@@ -29,7 +29,7 @@
 &lt;img loading=&#34;lazy&#34; src=&#34;https://nikodunk.com/projects/demo_reshore.png&#34;&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_sustainability1gif-sunboxlabscom-v2--self-install-solar-kits-for-backup-generation-etc&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34;&gt; sunboxlabs.com v2 | Self-Install Solar Kits for backup generation, etc&lt;/h2&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://nikodunk.com/projects/demo_sunboxlabs.jpg&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://nikodunk.com/projects/demo_sunboxlabs2.png&#34;&gt;
 &lt;p&gt;Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addional $1.5K over the next few weeks on Instagram ads to prove that is is a scalable business. Then pivoted to dropshipping, as I wasn&amp;rsquo;t adding too much value by sending it/rebranding it myself.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;http://sunboxlabs.com&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -259,7 +259,7 @@ Tech:
 &lt;a class=&#34;btn btn-outline-primary&#34; href=&#34;https://github.com/nikodunk/sustco-platform&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;projectslogo_sustainability1gif-sunboxlabscom--platform-for-diy-solar-kits-incl-price-tracking&#34;&gt;&lt;img src=&#34;https://nikodunk.com/projects/logo_sustainability1.gif&#34; alt=&#34;&#34;&gt; sunboxlabs.com | Platform for DIY solar kits (incl. price tracking)&lt;/h2&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://nikodunk.com/projects/sunboxlabssite3.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://nikodunk.com/projects/demo_sunboxlabs.png&#34;&gt;
 &lt;p&gt;With Zebulon Reynolds (for part of the way), this project &lt;a href=&#34;http://sunboxlabs.com&#34; target=&#34;_blank&#34;&gt;sunboxlabs.com&lt;/a&gt; developed out of a &lt;a href=&#34;https://hackernoon.com/200-for-a-green-diy-self-sufficient-bedroom-that-your-landlord-wont-hate-b3b4cdcfb4f4&#34;&gt;HackerNoon&lt;/a&gt; post from a hacked together project, implemented between jobs, where it garnered 200&#39;000 views and was featured on &lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;HackerNews&lt;/a&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=15216650&#34; target=&#34;_blank&#34;&gt;twice&lt;/a&gt;!) and /r/geek. The project was trying to solve the same as the Solar/Battery Hardware project below (the problem of solar in cities), but this time I took a content/software-only approach. No hardware overhead! &lt;a href=&#34;http://nikodunk.github.io/sunboxlabs&#34;&gt;sunbox labs&lt;/a&gt; was a Jekyll site with React components that helps hackers build their own personal power plants with components off Amazon. Also on this blog at &lt;i&gt;&lt;a href=&#34;https://nikodunk.com/solar&#34;&gt;$200 Solar Self-Sufficiency – without your landlord noticing&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Team:
 * Niko (concept, writing, tech)
