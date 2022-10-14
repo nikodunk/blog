@@ -5,7 +5,7 @@ date: 2022-09-28 08:00:00 -0700
 categories:
 ---
 
-Adapted from a recent response to an Indiehackers topic [Mission vs Money: What do you prioritize?](https://www.indiehackers.com/post/mission-vs-money-what-do-you-prioritize-8fcbb0daab).
+Adapted from a recent response to an Indiehackers topic [Mission vs Money: What do you prioritize?](https://www.indiehackers.com/post/mission-vs-money-what-do-you-prioritize-8fcbb0daab)
 
 I think you need both. I try to find the balance this way:
 
