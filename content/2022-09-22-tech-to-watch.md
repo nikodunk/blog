@@ -1,16 +1,19 @@
 ---
 layout: post
-title: "Tech to watch"
+title: " Business problems worth solving"
 date: 2022-09-28 08:00:00 -0700
 categories:
 ---
 
+Below, I'm starting to keep a running list.
+
 - [x] B2B Sales PDF Maker SaaS for solar installers - Tesla style solar sales presentation tool for everyone else - $59/mo
 - [x] Linux mobile freemium notepad app that syncs (flathub) - $2/mo for syncing
 - [x] Positive News Newsletter SaaS - (obviously broken, big market). train a newsbot on good seed, find non-negative headlines with [sentiment analysis](https://towardsdatascience.com/sentiment-analysis-on-news-headlines-classic-supervised-learning-vs-deep-learning-approach-831ac698e276)? - $10/mo
-- [ ] CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo - $6/mo
-- [ ] Climate fintech - Inyova.ch
-- [ ] Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator.
+- [ ] CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo, Cloudways, Nuxtpress - $6/mo
+- [ ] Climate fintech - It's hard to decarbbonize your investments. Inyova.ch
+- [ ] Hospital prices are hard to compare
+- [ ] Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator, what climate type are you.
 - [ ] Linux ready phone with smd845
 - [ ] ~~Flathub app: build & deploy blog from linux mobile~~
 - [ ] [AI](https://keras.io/examples/vision/3D_image_classification/) (example: Keras model trained to create art from inputs)
