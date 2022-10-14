@@ -587,20 +587,36 @@ Stats
     </item>
     
     <item>
-      <title>Tech to watch</title>
+      <title>Business problems worth solving</title>
       <link>https://nikodunk.com/2022-09-22-tech-to-watch/</link>
       <pubDate>Wed, 28 Sep 2022 08:00:00 -0700</pubDate>
       <author>Niko Dunk</author>
       <guid>https://nikodunk.com/2022-09-22-tech-to-watch/</guid>
       <description></description>
       
-      <content>&lt;ul&gt;
+      <content>&lt;p&gt;Adapted from a recent response to an Indiehackers topic &lt;a href=&#34;https://www.indiehackers.com/post/mission-vs-money-what-do-you-prioritize-8fcbb0daab&#34;&gt;Mission vs Money: What do you prioritize?&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I think you need both. I try to find the balance this way:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;There&amp;rsquo;s a lot of potential business ideas.&lt;/li&gt;
+&lt;li&gt;A subset of them will have some output/side-effect that is on-mission for you.&lt;/li&gt;
+&lt;li&gt;Try out all those ideas. A subset of them will work.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For example my mission is climate. Very easy to not be able to live off your climate efforts though: nonprofits, thanksless work, civic engagement, etc.&lt;/p&gt;
+&lt;p&gt;So now&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;of all business ideas I think of&lt;/li&gt;
+&lt;li&gt;I only consider doing the subset that could have a climate impact.&lt;/li&gt;
+&lt;li&gt;I try most of those in the subset. A subset of them hopefully will work :)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Below, I&amp;rsquo;m starting to keep a running list of business problems, a subset of them with impact.&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; B2B Sales PDF Maker SaaS for solar installers - Tesla style solar sales presentation tool for everyone else - $59/mo&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Linux mobile freemium notepad app that syncs (flathub) - $2/mo for syncing&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Positive News Newsletter SaaS - (obviously broken, big market). train a newsbot on good seed, find non-negative headlines with &lt;a href=&#34;https://towardsdatascience.com/sentiment-analysis-on-news-headlines-classic-supervised-learning-vs-deep-learning-approach-831ac698e276&#34;&gt;sentiment analysis&lt;/a&gt;? - $10/mo&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo - $6/mo&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Climate fintech - Inyova.ch&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Linux mobile doesn&amp;rsquo;t have a notepad that syncs (freemium, flathub) - SaaS $2/mo for syncing&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; News is incentivized to be negative, and balanced news is hard to find and monetize. Positive News Newsletter SaaS - (obviously broken, big market). train a newsbot on good seed, find non-negative headlines with &lt;a href=&#34;https://towardsdatascience.com/sentiment-analysis-on-news-headlines-classic-supervised-learning-vs-deep-learning-approach-831ac698e276&#34;&gt;sentiment analysis&lt;/a&gt;? - $10/mo&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Wordpress is still used for most blogs. CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo, Cloudways, Nuxtpress - $6/mo&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; It&amp;rsquo;s hard to decarbbonize your investments. Climate Fintech - Inyova.ch&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Hospital prices are hard to compare&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator, what climate type are you.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Linux ready phone with smd845&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;del&gt;Flathub app: build &amp;amp; deploy blog from linux mobile&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://keras.io/examples/vision/3D_image_classification/&#34;&gt;AI&lt;/a&gt; (example: Keras model trained to create art from inputs)&lt;/li&gt;
