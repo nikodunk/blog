@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo -e "\033[0;32mBuilding Site...\033[0m"
+# echo -e "\033[0;32mBuilding Site...\033[0m"
 
-hugo
+# hugo
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
