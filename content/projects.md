@@ -24,7 +24,7 @@ Fedora New Website
 
 ---
 
-## ![](/projects/logo_sustainability1.gif) sunboxlabs.com v2 | Self-Install Solar Kits for backup generation, etc
+## ![](/projects/logo_sustainability1.gif) sunboxlabs.com v2 | Self-Install Solar Kits for backup generation
 
 <img loading="lazy" src="/projects/demo_sunboxlabs2.png">
 
