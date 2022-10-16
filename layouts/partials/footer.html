@@ -3,16 +3,16 @@
   
       <div class="row" style="display: flex">
         <hr style="flex: 1" />
-        <h4 id="contact-section" class="strike-header"><span>Contact / Inquire</span></h4>
+        <h4 id="contact-section" class="strike-header"><span>Contact</span></h4>
         <hr style="flex: 1" />
       </div>
       
       <div class="nav-center" style="display: flex">
-          <nav class="nav-item level is-mobile row" >
+          <nav class="nav-item level is-mobile" style="display: flex" >
             {{- $social := ( .Site.Params.social ) -}}
             {{- range $platform := $social.config.platforms -}}
             {{- with $username := ( index $social $platform ) -}}
-            <a class="col-4 level-item" aria-label="{{ $platform }}" href='{{ print ( index $.Site.Data.theme.social.base $platform ) $username }}'
+            <a class="level-item" style="padding: 1rem; flex: 1" aria-label="{{ $platform }}" href='{{ print ( index $.Site.Data.theme.social.base $platform ) $username }}'
               target='_blank' rel='noopener'>
               <span class="icon">
                 <i class>

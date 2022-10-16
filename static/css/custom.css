@@ -12,12 +12,6 @@ article {
   margin-top: 0px !important;
 }
 
-.section .container :not(.content) h1,
-h2 {
-  margin-top: 0px;
-  font-size: 1.1rem;
-}
-
 img {
   max-height: 500px !important;
 }
@@ -31,6 +25,14 @@ h5 {
   font-weight: 600 !important;
 }
 
+h1 {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 .title {
   font-weight: 600;
 }
@@ -41,7 +43,9 @@ h5 {
 
 .strike-header {
   flex: 1;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blog-shadows {
@@ -56,4 +60,45 @@ h5 {
 .content p,
 li {
   font-family: serif !important;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
+.portfolio-item {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.portfolio-pane {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btn {
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid skyblue;
+  margin-top: 40px !important;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: rgb(201, 224, 233);
+  transition: 400ms;
+  color: white;
 }
