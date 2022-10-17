@@ -95,10 +95,10 @@ li {
   border: 1px solid skyblue;
   margin-top: 40px !important;
   border-radius: 8px;
+  transition: 400ms;
 }
 
 .btn:hover {
   background-color: rgb(201, 224, 233);
-  transition: 400ms;
   color: white;
 }

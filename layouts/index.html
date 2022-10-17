@@ -1,11 +1,11 @@
 {{ partial "header" . }}
 
 <div style="margin-left: 20px; margin-right: 20px">
-  <span>
+  <p style="font-size: 1.2rem">
     Hi! I'm Niko. I'm a software engineer in San Francisco. I'm passionate about
     sustainability, studied at the ETH in Switzerland (where I'm originally
     from), and surf whenever I'm not working on one of my projects.
-  </span>
+  </p>
 </div>
 
 <section class="section">
@@ -167,11 +167,9 @@
   <div class="container">
     {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }} {{
     range sort .Paginator.Pages }}
-    <article style="display: flex; margin-bottom: 8px">
+    <article class="flex" style="margin-bottom: 1rem">
       <div style="flex: 1">
-        <h6 style="color: #555555" class="">
-          {{ .Date.Format "January 2, 2006" }}
-        </h6>
+        <h6 style="color: #555555" class="">{{ .Date.Format "Jan 2 2006" }}</h6>
       </div>
       <div style="flex: 3">
         <p style="font-size: 1.25rem">
