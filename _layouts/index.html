@@ -2,7 +2,6 @@
 layout: base
 ---
 
-
 <div style="margin-left: 20px; margin-right: 20px">
   <p style="font-size: 1.2rem">
     Hi! I'm Niko. I'm a software engineer in San Francisco. I'm passionate about
@@ -22,9 +21,13 @@ layout: base
     <!-- 1 -->
     <div class="flex portfolio-item">
       <div class="portfolio-pane">
-        <a href="https://www.joinatmos.com" target="_blank"
-          ><img loading="lazy" src="{{site.asseturl}}/projects/demo_atmos3.png" alt=""
-        /></a>
+        <a href="https://www.joinatmos.com" target="_blank">
+          <img
+            loading="lazy"
+            src="{{site.asseturl}}/projects/demo_atmos3.png"
+            alt=""
+          />
+        </a>
       </div>
 
       <div class="portfolio-pane">
@@ -171,12 +174,16 @@ layout: base
     {% for post in site.writing reversed %}
     <article class="flex" style="margin-bottom: 1rem">
       <div style="flex: 1">
-        <h6 style="color: #555555" class="">{% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-          {{ post.date | date: date_format }}</h6>
+        <h6 style="color: #555555" class="">
+          {% assign date_format = site.date_format | default: "%b %-d, %Y" %} {{
+          post.date | date: date_format }}
+        </h6>
       </div>
       <div style="flex: 3">
         <p style="font-size: 1.25rem">
-          <a style="color: #333333" href="{{ post.url | absolute_url }}">  {{ post.title }}</a>
+          <a style="color: #333333" href="{{ post.url | absolute_url }}">
+            {{ post.title }}</a
+          >
         </p>
       </div>
     </article>
