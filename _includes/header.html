@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }} | DUNK</title>
-    <meta name="description" content="{{site.description}}" />
+    <meta
+      name="description"
+      content="{{ page.content | strip_html | truncatewords: 50 || The Blog of Niko }}"
+    />
     <link rel="stylesheet" href="{{ site.asseturl }}/css/style.css" />
     <link rel="stylesheet" href="{{ site.asseturl }}/css/custom.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

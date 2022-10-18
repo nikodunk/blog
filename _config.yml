@@ -1,6 +1,4 @@
 title: DUNK
-email: n.dunkel@gmail.com
-description: Hi! I'm Niko. I'm a software engineer in San Francisco. I'm passionate about sustainability, studied at the ETH in Switzerland (where I'm originally from), and surf whenever I'm not working on one of my projects.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://nikodunk.com" # the base hostname & protocol for your site, e.g. http://example.com
 asseturl: "/assets"
