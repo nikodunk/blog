@@ -21,6 +21,8 @@ So now
 2. I only consider doing the subset that could have a climate impact.
 3. I try most of those in the subset. A subset of them hopefully will work :)
 
+---
+
 Below, I'm starting to keep a running list of business problems, a subset of them with impact.
 
 - Solar
