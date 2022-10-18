@@ -3,7 +3,7 @@ layout: post
 title: "May 2020 Startup Update"
 date: 2020-05-28 08:00:00 -0700
 tags: ["Updates", "Learnings"]
-image: /startup-updates-17/energy-lollipop-extension.png
+image: /assets/startup-updates-17/energy-lollipop-extension.png
 ---
 
 # Team: 

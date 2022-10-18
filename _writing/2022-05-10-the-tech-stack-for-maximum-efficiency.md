@@ -3,7 +3,7 @@ layout: post
 title: "How a unified tech stack helps our tiny team punch above its weight"
 date: 2022-09-23 08:00:00 -0700
 tags: ["Essay"]
-image: /efficiency_dalle.png
+image: /assets/efficiency_dalle.png
 ---
 
 ![](/assets/efficiency_stack.jpg)

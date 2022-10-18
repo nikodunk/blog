@@ -3,7 +3,7 @@ layout: post
 title: "Learnings: My first startup, Paper."
 date: 2019-05-04 08:00:00 -0700
 tags: ["Learnings"]
-image: /paper/paper.png
+image: /assets/paper/paper.png
 ---
 
 ![](/assets/paper/paper.png)

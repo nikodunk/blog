@@ -3,7 +3,7 @@ layout: post
 title: "Learnings: Projects & things I've made so far."
 date: 2022-10-12 08:00:00 -0700
 tags: ["Learnings", "Updates"]
-image: /projects/scientist.jpg
+image: /assets/projects/scientist.jpg
 ---
 
 This is a general blog post on my various schemes so far, roughly sorted by revenue / success. I look like this when I've made something:

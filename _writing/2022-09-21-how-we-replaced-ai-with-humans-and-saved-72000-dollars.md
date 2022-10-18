@@ -3,7 +3,7 @@ layout: post
 title: "How to replace an AI with humans"
 date: 2022-09-21 08:00:00 -0700
 categories:
-image: /replacing-ai-with-human-dalle.png
+image: /assets/replacing-ai-with-human-dalle.png
 ---
 
 <img src="/assets/replacing-ai-with-human-dalle.png" style="max-width: 200px; text-align: center"/>

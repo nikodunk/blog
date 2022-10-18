@@ -3,7 +3,7 @@ layout: post
 title: "On putting in the hours"
 date: 2013-06-11 08:00:00 -0700
 tags: ["Essay"]
-image: /hours/delft.jpg
+image: /assets/hours/delft.jpg
 ---
 
 ![](/assets/hours/delft.jpg)

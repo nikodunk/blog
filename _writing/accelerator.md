@@ -3,7 +3,7 @@ layout: post
 title: "Learnings: Building swissnex SF's startup accelerator"
 date: 2018-04-10 08:00:00 -0700
 tags: ["Learnings"]
-image: /accelerator/moneyshot1.jpg
+image: /assets/accelerator/moneyshot1.jpg
 ---
 
 **Originally posted** as "8 learnings for startups (from swissnex SF Startup Camp)" at <a href="https://www.startupticker.ch/en/news/june-2018/what-swiss-start-ups-learned-in-san-francisco" target="_blank">startupticker.ch</a> and the <a href="https://nextrends.swissnexsanfrancisco.org/8-learnings-from-swiss-start-ups-in-silicon-valley/" target="_blank">swissnex blog</a>.

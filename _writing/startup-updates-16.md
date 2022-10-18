@@ -3,7 +3,7 @@ layout: post
 title: "February 2020 Startup Update"
 date: 2020-02-28 08:00:00 -0700
 tags: ["Updates", "Learnings"]
-image: /startup-updates-16/startup-updates-16/energy-lollipop-extension.png
+image: /assets/startup-updates-16/startup-updates-16/energy-lollipop-extension.png
 ---
 
 We're back after a short hold for some contracting (to refresh the coffers). Now with a new project (with a refreshed mind). I have a new team, new project, but **same mission** – to fight global warming!

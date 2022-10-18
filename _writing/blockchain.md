@@ -3,7 +3,7 @@ layout: post
 title: "How-to: Blockchain experiments: Software that cannot die"
 date: 2017-12-19 08:00:00 -0700
 tags: ["How-To"]
-image: /blockchain/monet-dieppe-1024-768.jpg
+image: /assets/blockchain/monet-dieppe-1024-768.jpg
 ---
 
 ## A note on technical legacy

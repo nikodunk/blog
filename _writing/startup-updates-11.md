@@ -3,7 +3,7 @@ layout: post
 title: "September 2019 Startup Update"
 date: 2019-09-25 08:00:00 -0700
 tags: ["Updates", "Learnings"]
-image: /startup-updates-10/facebook-ads.png
+image: /assets/startup-updates-10/facebook-ads.png
 ---
 
 # Help Wanted/Asks:

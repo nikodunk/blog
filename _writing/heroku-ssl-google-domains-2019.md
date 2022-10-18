@@ -3,7 +3,7 @@ layout: post
 title: "How to set up Heroku SSL (https) with Google Domains in 2021"
 date: 2021-06-27 08:00:00 -0700
 tags: ["Learnings"]
-image: /accelerator/moneyshot1.jpg
+image: /assets/accelerator/moneyshot1.jpg
 ---
 
 Updated for 2021 - things got a little easier.

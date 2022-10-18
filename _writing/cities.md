@@ -3,7 +3,7 @@ layout: post
 title: "As cities grow, nations will fade."
 date: 2018-03-27 08:00:00 -0700
 tags: ["Essay"]
-image: /cities/futuresf.jpg
+image: /assets/cities/futuresf.jpg
 ---
 
 **Originally posted** at swissnex San Francisco as [Back to the city](https://nextrends.swissnexsanfrancisco.org/back-to-the-city/)
