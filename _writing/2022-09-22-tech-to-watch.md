@@ -23,30 +23,33 @@ So now
 
 Below, I'm starting to keep a running list of business problems, a subset of them with impact.
 
-- [x] B2B Sales PDF Maker SaaS for solar installers - Tesla style solar sales presentation tool for everyone else - $59/mo
-- [x] Linux mobile doesn't have a notepad that syncs (freemium, flathub) - SaaS $2/mo for syncing
-- [x] News is incentivized to be negative, and balanced news is hard to find and monetize. Positive News Newsletter SaaS - (obviously broken, big market). train a newsbot on good seed, find non-negative headlines with [sentiment analysis](https://towardsdatascience.com/sentiment-analysis-on-news-headlines-classic-supervised-learning-vs-deep-learning-approach-831ac698e276)? - $10/mo
-- [ ] Wordpress is still used for most blogs. CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo, Cloudways, Nuxtpress - $6/mo
-- [ ] It's hard to decarbbonize your investments. Climate Fintech - Inyova.ch
-- [ ] Hospital prices are hard to compare
-- [ ] Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator, what climate type are you.
-- [ ] Linux ready phone with smd845
-- [ ] ~~Flathub app: build & deploy blog from linux mobile~~
-- [ ] [AI](https://keras.io/examples/vision/3D_image_classification/) (example: Keras model trained to create art from inputs)
-- [ ] Prefab and printing houses
-- [ ] EVTOL
-- [ ] Heat pumps
-- [ ] EVs
-- [ ] blockchain
-- [ ] artificial meat
-- [ ] energy
-- [ ] farming
-- [ ] water
-- [ ] transportation
-- [ ] biodiversity
-- [ ] studio for climate saving software
-- [ ] problem I've heard from solar installers: solar platforms are a race to the bottom.
-- [ ] ~~Scrape all solar installers & present to customer.~~
-- [ ] ~~Find homes that don't have solar, give badge, hook up with electrification.~~
-- [x] ~~Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)~~
-- [ ] Time tested classic: clone another badly-run business better (maybe with existing demand) - solarbalkon
+- Solar
+  - Sales decks take time. B2B Sales PDF Maker SaaS for solar installers - Tesla style solar sales presentation tool for everyone else - $59/mo
+  - Solar platforms are a race to the bottom.
+- News
+  - Incentivized to be negative, and balanced news is hard to find and monetize. Positive News Newsletter SaaS - (obviously broken, big market). train a newsbot on good seed, find non-negative headlines with [sentiment analysis](https://towardsdatascience.com/sentiment-analysis-on-news-headlines-classic-supervised-learning-vs-deep-learning-approach-831ac698e276)? - $10/mo
+  - People only watch news soundbites on social media and miss bigger context.
+- Linux
+  - Linux mobile doesn't have a notepad that syncs (freemium, flathub) - SaaS $2/mo for syncing
+  - Linux-ready phone with smd845
+  - ~~Flathub app: build & deploy blog from linux mobile~~
+- Wordpress is still used for most blogs. CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo, Cloudways, Nuxtpress - $6/mo
+- Climate Fintech
+  - It's hard to decarbbonize your investments. - Inyova.ch
+- Hospital prices are hard to compare
+- Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator, what climate type are you.
+- [AI](https://keras.io/examples/vision/3D_image_classification/) (example: Keras model trained to create art from inputs)
+- Prefab and printing houses
+- EVTOL
+- Heat pumps
+- EVs
+- blockchain
+- artificial meat
+- energy
+- farming
+- water
+- transportation
+- biodiversity
+- studio for climate saving software
+- ~~Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)~~
+- Time tested classic: clone another badly-run business better (maybe with existing demand) - solarbalkon
