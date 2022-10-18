@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How to replace an AI with humans"
 date: 2022-09-21 08:00:00 -0700
