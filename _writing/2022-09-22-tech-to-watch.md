@@ -30,7 +30,7 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - Solar platforms are a race to the bottom.
 - News
   - Incentivized to be negative, and balanced news is hard to find and monetize. Positive News Newsletter SaaS - (obviously broken, big market). train a newsbot on good seed, find non-negative headlines with [sentiment analysis](https://towardsdatascience.com/sentiment-analysis-on-news-headlines-classic-supervised-learning-vs-deep-learning-approach-831ac698e276)? - $10/mo
-  - People only watch news soundbites on social media and miss bigger context.
+  - People only consume debates as clips on social media and miss bigger context.
 - Linux
   - Linux mobile doesn't have a notepad that syncs (freemium, flathub) - SaaS $2/mo for syncing
   - Linux-ready phone with smd845
