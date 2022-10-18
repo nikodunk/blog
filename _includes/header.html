@@ -6,7 +6,7 @@
     <title>{{ page.title }} | DUNK</title>
     <meta
       name="description"
-      content="{{ page.content | strip_html | truncatewords: 50 || The Blog of Niko }}"
+      content="{{ page.content | strip_html | truncatewords: 50 }}"
     />
     <link rel="stylesheet" href="{{ site.asseturl }}/css/style.css" />
     <link rel="stylesheet" href="{{ site.asseturl }}/css/custom.css" />
@@ -20,9 +20,9 @@
     <meta property="og:title" content="{{ page.title }} | DUNK" />
     <meta
       property="og:description"
-      content="{{ page.description || site.description }}"
+      content="{{ page.content | strip_html | truncatewords: 50 }}"
     />
-    <meta property="og:url" content="{{ page.url || site.url }}" />
+    <meta property="og:url" content="{{ page.url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta
       property="og:image"
