@@ -20,54 +20,49 @@ The code below:
 - Finally, `res.send()` must not be sent until `saveToCloudFirestore()` and `sendEmailInSendgrid()` have been run and returned their values, otherwise our whole cloud function will interrupt before the work is done. For this, same pattern: We save the `saveToCloudFireStore()` and `sendEmailInSendgrid()` responses (the stuff they return) into a variable _whose sole purpose this time round is to mark when the above function is done_. This in a sense replaces a `.then()`: it waits till both of these variables (`savedToCloud` and `sentEmail`) "have arrived" (aka their Promise has been resolved), then runs `res.send()` with them. FYI this is so that Firebase/SendGrid know that cloud function has worked and don't re-send endlessly.
 - For readability's sake, I have **removed the try/catch wrappings** here that you should be doing in practice. You should never not catch errors, but removing them makes the async/await concept easier to understand.
 
-{{< highlight javascript "linenos=table" >}}
+        this is the cloud function you can call over HTTP. It is basically for email relay:
+        it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,
+        saves to FireStore and sends and email with sendgrid.
+        Finally, it sends a res.send() to end the cloud function
+        _ import a bunch of shit _
 
-// this is the cloud function you can call over HTTP. It is basically for email relay:
-// it gets an email from sendgrid, parses the fields, looks up the real email with the courseId,
-// saves to FireStore and sends and email with sendgrid.
-// Finally, it sends a res.send() to end the cloud function
+        // main function
+        exports.emailFunction = functions.https.onRequest(async (req, res) => {
+            let fields = getFieldsFromRequest(req); // sync
+            let courseId = extractCourseIdFromEmailAddress(fields); // sync
+            let courseEmail = await getEmailOfCourseWithCourseId(courseId); // async
+            let savedToCloud = await saveToCloudFirestore(fields, courseEmail, courseId); // async, will run once courseEmail above has been populated (aka Promise has been returned)
+            let sentEmail = await sendEmailWithSendgrid(fields, courseEmail); // async, will also run once courseEmail above has been populated (aka Promise has been returned)
+            res.status(200).send(savedToCloud, sentEmail); // will run once sentEmail and saveToCloud have been populated by their functions (aka their functions' Promises have been resolved).
+        });
 
-// {_ import a bunch of shit _}
+        // Helper functions below
+            function getFieldsFromRequest(req) { // sync
+            let fields = readTheFieldsFromReqWithBusboy(req)
+            return fields;
+        }
 
-// main function
-exports.emailFunction = functions.https.onRequest(async (req, res) => {
-let fields = getFieldsFromRequest(req); // sync
-let courseId = extractCourseIdFromEmailAddress(fields); // sync
-let courseEmail = await getEmailOfCourseWithCourseId(courseId); // async
-let savedToCloud = await saveToCloudFirestore(fields, courseEmail, courseId); // async, will run once courseEmail above has been populated (aka Promise has been returned)
-let sentEmail = await sendEmailWithSendgrid(fields, courseEmail); // async, will also run once courseEmail above has been populated (aka Promise has been returned)
-res.status(200).send(savedToCloud, sentEmail); // will run once sentEmail and saveToCloud have been populated by their functions (aka their functions' Promises have been resolved).
-});
+        function extractCourseIdFromEmailAddress(fields) { // sync
+            let courseId = fields.to.substring(0, fields.to.indexOf('@'));
+            return courseId;
+        }
 
-// Helper functions below
-function getFieldsFromRequest(req) { // sync
-let fields = readTheFieldsFromReqWithBusboy(req)
-return fields;
-}
+        async function getEmailOfCourseWithCourseId(courseId) { // async important
+            let courseData = await database.get(courseId)
+            let courseEmail = courseData.email;
+            return courseEmail; // due to function being labeled async above, this is the equivalent of wrapping the whole function in 'return new Promise(resolve) => {}' and then returning a 'resolve(result)'
+        }
 
-function extractCourseIdFromEmailAddress(fields) { // sync
-let courseId = fields.to.substring(0, fields.to.indexOf('@'));
-return courseId;
-}
+        async function sendEmailWithSendgrid(fields, courseEmail) { // async important
+            let msg = {to: courseEmail, from: fields.from, text: fields.text}
+            let sentEmail = await sendgrid.send(msg)
+            return sentEmail; // due to function being labeled async above, this is the equivalent of wrapping the whole function in 'return new Promise(resolve) => {}' and then returning a 'resolve(result)'
+        }
 
-async function getEmailOfCourseWithCourseId(courseId) { // async important
-let courseData = await database.get(courseId)
-let courseEmail = courseData.email;
-return courseEmail; // due to function being labeled async above, this is the equivalent of wrapping the whole function in 'return new Promise(resolve) => {}' and then returning a 'resolve(result)'
-}
-
-async function sendEmailWithSendgrid(fields, courseEmail) { // async important
-let msg = {to: courseEmail, from: fields.from, text: fields.text}
-let sentEmail = await sendgrid.send(msg)
-return sentEmail; // due to function being labeled async above, this is the equivalent of wrapping the whole function in 'return new Promise(resolve) => {}' and then returning a 'resolve(result)'
-}
-
-async function saveToCloudFirestore(fields, courseEmail, courseId) { // async important
-let savedToCloud = await database.add(fields, courseEmail, courseId)
-return savedToCloud;
-}
-
-{{< / highlight >}}
+        async function saveToCloudFirestore(fields, courseEmail, courseId) { // async important
+            let savedToCloud = await database.add(fields, courseEmail, courseId)
+            return savedToCloud;
+        }
 
 Again, **wrap the 3 last async functions and the main function in try{}catch{} to catch errors**. Also, the database code cannot be copied over like this – it's just for illustrative purposes. You have been warned!
 
