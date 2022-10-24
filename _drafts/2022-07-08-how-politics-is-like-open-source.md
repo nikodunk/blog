@@ -5,8 +5,10 @@ date: 2022-07-08 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-similarities between how decisions are made in open source community and how decisions are made in US democracy, specifically leftist, conservative, centrist political parties
-Taking teams and point-making out of it onto more neutral software ground can give learnings. Popularity contest winner maybe teaches us about where democracy should go.
+Similarities between how decisions are made in open source community and how decisions are made in US democracy, specifically leftist, conservative, centrist political parties
+
+Taking teams and point-making out of it onto more neutral software ground maybe teach us something. Popularity contest winner maybe teaches us about where democracy should go.
+
 Caveats:
 
 - Users = Voters? Sort of, but of course in democracy born into it, while in open-source a self-selected 1%. Does the system "work" for all or most users?
