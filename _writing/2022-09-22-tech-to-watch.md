@@ -55,3 +55,4 @@ Below, I'm starting to keep a running list of business problems, a subset of the
 - studio for climate saving software
 - ~~Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)~~
 - Time tested classic: clone another badly-run business better (maybe with existing demand) - solarbalkon
+- Odd Solar
