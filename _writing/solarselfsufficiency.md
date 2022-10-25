@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How-to: $200 solar self-sufficiency — without your landlord noticing."
+title: "$200 solar self-sufficiency — without your landlord noticing."
 date: 2017-07-20 08:00:00 -0700
 tags: ["How-To", "sustainability"]
 image: https://nikodunk.github.io/200/TEASER.jpg
@@ -41,9 +41,8 @@ Questions remain. Can this system make any meaningful energy? Does it make finan
 
 My goal is to take care of the energy needs for just my bedroom. 4 main components are all we need to achieve this: A solar panel to collect, a battery to store, an inverter to convert the direct current to alternating current, and a “charge controller” to balance the three other components. I’m using bargain-basement parts intended for RV, marine & car usage which keeps my system cheap and mobile. Total component cost is $211 ($230 after shipping & taxes). The main components as found on Amazon are above. Anyone looking to build a similar system themselves can view the full component list here (tweet your build @gridlesskits, how it went and what we can improve! We'll repost – and we'd love to know!).
 
-| ![](/assets/200/BOXES.jpg) | ![](/assets/200/COMPONENTS.jpg) |
-| :-----------------: | :----------------------: |
-|  |
+![](/assets/200/BOXES.jpg)
+![](/assets/200/COMPONENTS.jpg)
 
 I ordered the system on July 2nd, and with ground shipping the PV panel ($95) arrived July 11th from Canada, and the battery ($66), wiring ($18), controller ($17) and inverter ($15) arrived July 15th from Amazon USA.
 
@@ -53,25 +52,21 @@ I ordered the system on July 2nd, and with ground shipping the PV panel ($95) ar
 
 Hopefully you can adapt my system to your spatial situation pretty easily:
 
-| ![](/assets/200/ASSEMBLY1.jpg) | ![](/assets/200/ASSEMBLY2.jpg) |
-| :---------------------: | :---------------------: |
-|  |
-
+![](/assets/200/ASSEMBLY1.jpg)
+![](/assets/200/ASSEMBLY2.jpg)
 ![](/assets/200/ASSEMBLY3.jpg)
 
 <b>Step 1</b> Cut and lay bare the end of the battery & inverter wires (battery disconnected, please). The panel’s wires are already bare on one end. Do a dry run connecting battery, inverter and panel to the controller — it should look like above. The striped wire of the inverter cable is the positive, the unmarked is negative FYI.
 
 ![](/assets/200/ASSEMBLY4.jpg)
 
-| ![](/assets/200/ASSEMBLY4-1.jpg) | ![](/assets/200/ASSEMBLY4-2.jpg) |
-| :-----------------------: | :-----------------------: |
-|  |
+![](/assets/200/ASSEMBLY4-1.jpg)
+![](/assets/200/ASSEMBLY4-2.jpg)
 
 <b>Step 2</b> Detach the panel wires again and place the panel on the rooftop or wherever you get the most sunlight (…garden …balcony …). Attach the panel to something: I zip-tied the back of the panel to a cable which I fastened on both ends around sturdy roof pipes...
 
-| ![](/assets/200/ASSEMBLY5.jpg) | ![](/assets/200/ASSEMBLY6.jpg) |
-| :---------------------: | :---------------------: |
-|  |
+![](/assets/200/ASSEMBLY5.jpg)
+![](/assets/200/ASSEMBLY6.jpg)
 
 ...and run the power lines back to your apartment (drop down the facade and into the window in my case).
 
@@ -104,9 +99,8 @@ In San Francisco we get 4.26 hours of usable sunshine a day (or 1156 hours a yea
 
 This should be easily met by the solar system. I turn the inverter on when I get home to use AC lights and charge the Macbook through the power brick, and turn it off before I go to bed to avoid energy drain. My phone’s USB (which is direct current) can charge all night straight through the solar controller itself (which has USB ports) and doesn’t require the inverter. My laptop is a DC device and could be charged straight off the 12V battery, but I found it easier to just charge it with the AC power brick through the inverter.
 
-| ![](/assets/200/GENERATION.jpg) | ![](/assets/200/GENERATION2.jpg) |
-| :----------------------: | :-----------------------: |
-|  |
+![](/assets/200/GENERATION.jpg
+![](/assets/200/GENERATION2.jpg)
 
 My traditional AC lamp is a non-optimized part of the system— I could get DC lights that run off USB to avoid inverting that energy, but have not done so thus far and prefer to just use the cute little thing. When I go to bed I’ve usually used around 30% of the energy anyway— I wish I could run a water heater, heating or fridge off this system to use the excess 270Wh of the daily energy production.
 
@@ -114,9 +108,8 @@ My traditional AC lamp is a non-optimized part of the system— I could get DC l
 
 This project started with a simple idea: What if energy generation was a consumer electronic you could order off Amazon? I’ve learned that basic electrical knowledge and a little assembly bring us very close to this ideal: Self-contained renewable lighting and charging is achieved with a simple $211 setup off Amazon.
 
-| ![](/assets/200/FINAL.jpg) | ![](/assets/200/FINAL2.jpg) |
-| :-----------------: | :------------------: |
-|  |
+![](/assets/200/FINAL.jpg)
+![](/assets/200/FINAL2.jpg)
 
 Unless you live on an RV or a boat it doesn’t make financial sense yet (see epilogue #1). But if prices come down a little more (what a difference the last year made!) or manufacturing gets a bit more resource-efficient the scales could tip and this could be a green and fiscally sensible solution (see epilogue #2). And some time in the next decade this great little DIY system that can function as a back-up system today (see epilogue #3) could become a viable consumer electronic: a cheap personal power plant for urban renters.
 
@@ -126,9 +119,14 @@ Unless you live on an RV or a boat it doesn’t make financial sense yet (see ep
 
 What if autonomous electric generation could be added room by room to a household (like window A/C units)? We could outfit all 7 rooms of my (shared) household for around $1400 with this system today. Because the kitchen and bathrooms have way higher energy usages (fridge, stove, water heater) than the other rooms, a more sophisticated system could mesh the batteries together (wirelessly?) to create a stronger system that sends power to the rooms that need it most. This system could also discharge the batteries systematically as the price of grid power changes and the sun moves around the house.
 
-| ![](/assets/200/DISHES.jpg) | ![](/assets/200/AC.jpg) |
-| :------------------: | :--------------: |
-|  |
+<div style="display: flex">
+<div style="flex:1">
+<img src="/assets/200/DISHES.jpg"/>
+</div>
+<div style="flex:1">
+<img src="/assets/200/AC.jpg"/>
+</div>
+</div>
 
 Solar as a modular consumer electronic — like air conditioning and satellite dishes? If we look to the car, the smartphone, the window A/C unit — these devices spread like wildfire across the globe because they were off-the-shelf products that required no configuration but great benefits. Identical appliances were churned out at an industrial scale for a global audience. They were “plug n play”. Plug n play solar has been around for a while, but has never taken off (probably because behind-the-meter power is still sketchy and poorly understood). The potential for plug n play solar is huge — it could mean cheap, zero-configuration solar energy spreading to consumers at the pace of the smartphone, the car or air-conditioning. This could be a cool Kickstarter project in the future… or a just fun DIY project today.
 

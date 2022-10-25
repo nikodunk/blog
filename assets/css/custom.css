@@ -102,3 +102,10 @@ li {
   background-color: rgb(201, 224, 233);
   color: white;
 }
+
+.highlight,
+pre {
+  background-color: #efefef !important;
+  border-radius: 20px;
+  overflow-y: scroll;
+}
