@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Faster than you think: 4 reasons why electric vehicles will dominate sooner than estimates"
 date: 2019-08-15
 tags: ["EVs", "Tesla", "insurance"]
