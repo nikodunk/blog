@@ -12,11 +12,11 @@ This is [PostmarketOS](https://postmarketos.org) running on a Snapdragon 845 in 
 
 For updates on mobile linux progress, check out [Linmob](https://linmob.net)
 
-00:00 Intro
-00:04 Unlocked OnePlus 6 for $85, Snapdragon, PinePhone
-00:47 Gnome Shell Mobile & Multitasking on mobile linux
-2:50 Battery & Memory usage
-3:35 Installing NodeJS or anything you like
-4:03 Quicksettings
-4:33 How to Unlock & Install
-6:48 Final Thoughts
+- 00:00 Intro
+- 00:04 Unlocked OnePlus 6 for $85, Snapdragon, PinePhone
+- 00:47 Gnome Shell Mobile & Multitasking on mobile linux
+- 2:50 Battery & Memory usage
+- 3:35 Installing NodeJS or anything you like
+- 4:03 Quicksettings
+- 4:33 How to Unlock & Install
+- 6:48 Final Thoughts
