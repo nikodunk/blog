@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Video: My Home Solar Kit for Apartment Renters - DIY Solar panels + 500W micro 'powerwall' for off-grid backup"
-date: 2022-11-05 08:00:00 -0700
+date: 2020-11-05 08:00:00 -0700
 categories:
 image: /assets/preview-sunboxlabs-home-solar.jpg
 ---
