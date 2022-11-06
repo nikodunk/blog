@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gnome Shell on Mobile with PostmarketOS + Oneplus 6 (Snapdragon 845) Mainline Smartphone Linux"
+title: "Video: Gnome Shell on Mobile with PostmarketOS + Oneplus 6 (Snapdragon 845) Mainline Smartphone Linux"
 date: 2022-11-05 08:00:00 -0700
 categories:
 image: /assets/gnome-shell-mobile-linux-snapdragon-845.jpg
