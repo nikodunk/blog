@@ -33,7 +33,7 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - People only consume debates as clips on social media and miss bigger context.
 - Linux
   - Linux mobile doesn't have a notepad that syncs (freemium, flathub) - SaaS $2/mo for syncing
-  - Linux-ready phone with smd845
+  - ~~Linux-ready phone with smd845~~ [not ready](/2022-11-05-gnome-shell-mobile-with-postmarketos)
   - ~~Flathub app: build & deploy blog from linux mobile~~
 - Wordpress is still used for most blogs. CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo, Cloudways, Nuxtpress - $6/mo
 - Climate Fintech
