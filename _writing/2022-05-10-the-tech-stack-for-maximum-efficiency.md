@@ -50,6 +50,7 @@ A breakdown of the stack is below.
 
 - Webflow CMS for static landing pages
 - Retool dashboard to access server jobs, and to detect fraud, approve users, approve loans, see growth, etc. If a task needs to be done we hand-perform it, the second time we write an server job for it, and if needs to be done a 3rd time we write an interface for that server job, so that engineering never needs to be pulled into (read: block) the loop again.
+- Sendgrid for both transactional emails and marketing emails. We don't have time to synchronize contact lists and content between Sendgrid and Mailchimp and Sendgrid single-sends are good enough.
 
 ## Alternatives
 
