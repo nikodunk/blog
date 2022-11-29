@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Video: Gnome Shell on Mobile with PostmarketOS + Oneplus 6 (Snapdragon 845) Mainline Smartphone Linux"
+title: "Video: What if there was an 'unwalled' phone"
 date: 2022-11-05 08:00:00 -0700
 categories:
 image: /assets/gnome-shell-mobile-linux-snapdragon-845.jpg
