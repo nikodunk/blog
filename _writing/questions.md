@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "21 Questions"
-date: 2022-11-28 08:00:00 -0700
+date: 2022-11-04 08:00:00 -0700
 ---
 
 Unlike in my [last list](/2022-09-25-great-articles), this time trying to be at the end(s) of the Midwit meme, here goes.
