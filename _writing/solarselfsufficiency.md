@@ -174,3 +174,7 @@ In case of brownouts or blackouts, this would be a helpful way of wirelessly cha
 ## Credits
 
 This story was heavily inspired by Robin Rhinehart’s “How I gave up alternating current”, but the blog was recently taken offline. The article can still be found on [Arstechnica](https://arstechnica.com/gadgets/2015/08/op-ed-how-i-gave-up-alternating-current/).
+
+---
+
+**[This article was also discussed on Hacker News](https://news.ycombinator.com/item?id=14821478)**

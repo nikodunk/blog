@@ -47,3 +47,11 @@ Time will tell whether Rails is going to make me build better and more successfu
 [2] - https://www.joinatmos.com runs on Node/React/Redux/React Native
 
 [3] - http://paulgraham.com/avg.html
+
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">“Having tried it I can say wow - coming from the current Javascript ecosystem makes discovering Rails a revelation. Building the web app in Rails took me 2 days – the same thing in Node would have taken 2 weeks.” <a href="https://t.co/hQhK60G1z8">https://t.co/hQhK60G1z8</a></p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/1471470830265589763?ref_src=twsrc%5Etfw">December 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+**[This article was also discussed on Hacker News](https://news.ycombinator.com/item?id=29577897)**
