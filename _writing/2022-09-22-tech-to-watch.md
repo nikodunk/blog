@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Business problems worth solving"
-date: 2022-09-28 08:00:00 -0700
+date: 2022-12-15 08:00:00 -0700
 categories:
 ---
 
@@ -32,6 +32,7 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - Incentivized to be negative, and balanced news is hard to find and monetize. Positive News Newsletter SaaS - (obviously broken, big market). train a newsbot on good seed, find non-negative headlines with [sentiment analysis](https://towardsdatascience.com/sentiment-analysis-on-news-headlines-classic-supervised-learning-vs-deep-learning-approach-831ac698e276)? - $10/mo
   - People only consume debates as clips on social media and miss bigger context.
   - Potential competitors, b2b: Media monitoring, sentiment analysis, b2b for agencies
+  - Buy a cool short domain and host a paid, reliable mastodon instance.
 - Linux
   - ~~Linux mobile doesn't have a notepad that syncs (freemium, flathub) - SaaS $2/mo for syncing (based off video watch count for below, market is only around 2-5k people)~~
   - ~~Linux-ready phone with smd845~~ [not ready](/2022-11-05-gnome-shell-mobile-with-postmarketos)
