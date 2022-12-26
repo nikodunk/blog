@@ -33,9 +33,10 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - People only consume debates as clips on social media and miss bigger context.
   - Potential competitors, b2b: Media monitoring, sentiment analysis, b2b for agencies
 - Linux
-  - ~~Linux mobile doesn't have a notepad that syncs (freemium, flathub) - SaaS $2/mo for syncing (based off video watch count for below, market is only around 2-5k people)~~
-  - ~~Linux-ready phone with smd845~~ [not ready](/2022-11-05-gnome-shell-mobile-with-postmarketos)
-  - ~~Flathub app: build & deploy blog from linux mobile~~
+  - Linux mobile doesn't have a notepad that syncs (freemium, flathub) - SaaS $2/mo for syncing (based off video watch count for below, market is only around 2-5k people)
+  - Linux e-book reader/store (Update: Foliate)
+  - Linux-ready phone with smd845 [not ready](/2022-11-05-gnome-shell-mobile-with-postmarketos)
+  - Flathub app: build & deploy blog from linux mobile
 - Wordpress is still used for most blogs. CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo, Cloudways, Nuxtpress - $6/mo
 - Climate Fintech
   - It's hard to decarbbonize your investments. - Inyova.ch
