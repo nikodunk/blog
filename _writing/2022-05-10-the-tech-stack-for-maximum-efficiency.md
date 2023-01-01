@@ -34,7 +34,7 @@ A breakdown of the stack is below.
 
 - React on web
 - React Native/Expo for iOS and Android
-- Monorepo with a /common folder of shared logic, utility functions, math, permissions, etc
+- Git client monorepo with a /common folder of shared business logic, utilities, permissions, etc
 - Tailwind as a shared styling language over React & React Native (thanks to twrnc)
 - Redux as a shared api request/state logic library
 - Routing is _not_ shared in order to feel native: React Navigation for mobile vs. React Router for web
@@ -49,12 +49,12 @@ A breakdown of the stack is below.
 - Updated & audited packages and Node versions to unlock newest features & ensure security
 - Integration test coverage of critical-path routes (apply, login, transact), enforced by CI.
 
-## Landing Page, Internal dashboards & process
+## Landing Page, dashboards & process
 
-- Webflow CMS for static landing pages
-- Retool dashboard to access server jobs, and to detect fraud, approve users, approve loans, see growth, etc.
+- [Webflow](https://webflow.com) CMS for static landing pages
+- [Retool](https://retool.com) dashboard to access server jobs, and to detect fraud, approve users, approve loans, see growth, etc.
 - If a task needs to be done we hand-perform it, the second time we write a server job for it, and if needs to be done a 3rd time we write an interface for that server job, so that engineering never needs to be pulled into (read: block) the loop again.
-- Sendgrid for both transactional emails and marketing emails. We don't have time to synchronize contact lists and content between Sendgrid and Mailchimp and Sendgrid single-sends are good enough.
+- [Sendgrid](https://sendgrid.com) for both transactional emails and marketing emails. We don't have time to synchronize contact lists and content between Sendgrid and Mailchimp and Sendgrid single-sends are good enough.
 
 ## Alternatives
 
