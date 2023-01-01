@@ -14,19 +14,19 @@ We mainly stay efficent by reducing mental overhead and reducing maintenance bur
 
 ## More wood behind fewer arrows
 
-We use **one language** (Javascript) everywhere for maximum efficiency and deeper understanding - we do not have time to write (and debug!) features multiple times in Kotlin on Android, Swift on iOS, Svelte on web and Python on the server. We can move code between web, mobile & server as necessary.
+We use one language (Javascript) everywhere for maximum efficiency and deeper understanding - we do not have time to write (and debug!) features multiple times in Kotlin on Android, Swift on iOS, Svelte on web and Python on the server. We can move code between web, mobile & server as necessary.
 
-We keep our code style as **simple** and abstraction-free as possible. This helps with reasoning, and seems to prevent bugs.
+We keep our code style as simple and abstraction-free as possible. This helps with reasoning, and seems to prevent bugs.
 
-We use as **few technologies** as possible, so we can understand them deeply and invest in them. Simple, [boring](https://boringtechnology.club/) ones (like PSQL) are good. We share them on server, mobile and web (like Moment). Library updates on one part of the stack benefit us everywhere, like a Queue or database optimization for example. We have one server running all projects - we do not have time for microservices.
+We use as few technologies as possible, so we can understand them deeply and invest in them. Simple, [boring](https://boringtechnology.club/) ones (like PSQL) are good. We share them on server, mobile and web (like Moment). Library updates on one part of the stack benefit us everywhere, like a Queue or database optimization for example. We have one server running all projects - we do not have time for microservices.
 
-We **share code** between products wherever possible. Similar logic on web, mobile and server goes in a shared Atmos library where all parts of the stack can access it. This way a single bug fix to a permission error fixes it everywhere.
+We share code between products wherever possible. Similar logic on web, mobile and server goes in a shared Atmos library where all parts of the stack can access it. This way a single bug fix to a permission error fixes it everywhere.
 
-Shared code also helps us improve existing products while building new ones. Improved mobile components **cross-pollinate** into our web code, and improved loans UX boosts the original deposit UX. All products benefit from performance improvements made anywhere, for example when non-blocking account opening was built for loans it worked great on deposits.
+Shared code also helps us improve existing products while building new ones. Improved mobile components cross-pollinate into our web code, and improved loans UX boosts the original deposit UX. All products benefit from performance improvements made anywhere, for example when non-blocking account opening was built for loans it worked great on deposits.
 
-Testers are **spread less thin** when you have more shared code. As most of the business logic is shared, using an obscure feature on web provides basic mobile testing. A team member confirming a wire address on iOS will find a bug before Android or web users notice.
+Testers are spread less thin when you have more shared code. As most of the business logic is shared, using an obscure feature on web provides basic mobile testing. A team member confirming a wire address on iOS will find a bug before Android or web users notice.
 
-Bugs are mostly discovered in internal testing because we **use our products personally**. This is on top of automated testing we do.
+Bugs are mostly discovered in internal testing because we use our products personally. This is on top of automated testing we do.
 
 A breakdown of the stack is below.
 
