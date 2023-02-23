@@ -43,7 +43,8 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - It's hard to decarbbonize your investments. - Inyova.ch
 - Hospital prices are hard to compare
 - Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator, what climate type are you.
-- [AI](https://keras.io/examples/vision/3D_image_classification/) (example: Keras model trained to create art from inputs)
+- [AI](https://keras.io/examples/vision/3D_image_classification/) (example: Keras model trained to create art from inputs) (update: this now exists :))
+- National quarter shortage: quarter delivery service. Hard to deliver though.
 - Prefab and printing houses
 - EVTOL
 - Heat pumps
