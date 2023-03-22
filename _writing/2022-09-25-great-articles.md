@@ -16,3 +16,5 @@ date: 2022-09-25 08:00:00 -0700
 - [Ryan Petersen](https://www.ycombinator.com/blog/ryan-petersen-on-building-flexport-a-modern-freight-forwarder)
 - [Nat Friedman](https://nat.org/), since changed
 - [Rob Rhinehart](https://www.robrhinehart.com/), since changed
+- [Choose good quests](https://www.piratewires.com/p/choose-good-quests)
+- [Shoshinkantetsu](https://asnewman.github.io/shoshikantetsu)
