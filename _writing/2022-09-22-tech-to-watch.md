@@ -40,7 +40,9 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - Linux e-book reader/store (Update: Foliate)
   - Linux-ready phone with smd845 [not ready](/2022-11-05-gnome-shell-mobile-with-postmarketos)
   - Flathub app: build & deploy blog from linux mobile
-- Wordpress is still used for most blogs. CDN content platform SaaS for content websites - NotablePress, NetlifyCMS, Hugo, Cloudways, Nuxtpress - $6/mo
+- websites
+  - Wordpress is still used for most blogs. CDN content platform SaaS for content websites - NotablePress, DecapCMS, Hugo, Cloudways, Nuxtpress - $6/mo
+  - Shopify plug-in uninstaller speedup 
 - Climate Fintech
   - It's hard to decarbbonize your investments. - Inyova.ch
 - Hospital prices are hard to compare
