@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Great articles"
-date: 2022-09-25 08:00:00 -0700
+date: 2023-05-11 08:00:00 -0700
 ---
 
 - https://innovationfrontier.org/space-solar-power-an-extraterrestrial-energy-resource-for-the-u-s/
@@ -16,6 +16,8 @@ date: 2022-09-25 08:00:00 -0700
 - [Nat Friedman](https://nat.org/), since changed
 - [Rob Rhinehart](https://www.robrhinehart.com/), since changed
 - [Shoshinkantetsu](https://asnewman.github.io/shoshikantetsu)
+- [We have no moat, and neither does chatGPT](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)
+- [3D printed homes entering mass production](https://www.youtube.com/watch?v=Y-4S7cdo3tY)
 
 Product
 
