@@ -37,8 +37,8 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - Prefab and printing houses
   - https://www.youtube.com/watch?v=Y-4S7cdo3tY
 - EVs
-  - ~~Electrade: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)~~
-   - Contract manufacturing, design, software, cheap chinese EVs: https://www.economist.com/special-report/2023/04/14/all-change
+  - https://electrade.app: Tired of High Gas Prices? Best EV lease list: 10x less calling, 20% more affordable (text dealer // get updates on this lease)
+  - Contract manufacturing, design, software, cheap chinese EVs: https://www.economist.com/special-report/2023/04/14/all-change
 - News
   - Incentivized to be negative, and balanced news is hard to find and monetize. Positive News Newsletter SaaS - (obviously broken, big market). train a newsbot on good seed, find non-negative headlines with [sentiment analysis](https://towardsdatascience.com/sentiment-analysis-on-news-headlines-classic-supervised-learning-vs-deep-learning-approach-831ac698e276)? - $10/mo
   - People only consume debates as clips on social media and miss bigger context.
@@ -54,6 +54,7 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - Shopify plug-in uninstaller speedup 
 - Climate Fintech
   - It's hard to decarbbonize your investments. - Inyova.ch
+  - https://www.joinatmos.com
 - Hospital prices are hard to compare
 - Impact quizzes / web apps SaaS? EV charging configurator, solar configurator, gas configurator, what climate type are you.
 - AI
