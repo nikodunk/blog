@@ -43,7 +43,7 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
 
 ---
 
-## ![](/assets/projects/logo_energylollipop.png) Energy Lollipop
+## ![](/assets/projects/logo_energylollipop.png) Energy Lollipop Home
 
 <img loading="lazy" src="/assets/projects/demo_energylollipop.gif">
 
@@ -163,18 +163,6 @@ We ended up pivoting to cnc-milled wood before we started out of fear that peopl
 ---
 
 # Contracts
-
----
-
-## Atmos Financial
-
-<img loading="lazy" src="/assets/projects/demo_atmos.jpg">
-
-A new green bank.
-
-<a class="btn btn-outline-primary" href="https://www.joinatmos.com">Website</a>
-
----
 
 ## Lumen Energy
 
