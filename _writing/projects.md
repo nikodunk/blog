@@ -10,6 +10,10 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 ![](/assets/projects/gianni_colombo.jpg) ![](/assets/projects/scientist.jpg)
 
+
+In addition to the things on the index page, here's what else I've made so far:
+
+
 # Open Source
 
 Fedora Website Revamp - Contributed to the team rebuilding fedoraproject.org from scratch (which includes i18n and many dynamic elements on a static page), helped organize the team and spearheaded the process at certain points.
