@@ -17,6 +17,7 @@ Fedora Website Revamp - Contributed to the team rebuilding fedoraproject.org fro
 <img loading="lazy" src="/assets/projects/demo_fedora.jpg">
 
 Fedora Mobility Packaging - Contributed to working out how to package Fedora for the Oneplus 6 phone, organized and documented the process.
+
 <img loading="lazy" src="/assets/projects/demo_fedora_2.jpg">
 
 
