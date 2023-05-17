@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learnings: Projects & things I've made so far."
-date: 2022-10-12 08:00:00 -0700
+date: 2023-04-12 08:00:00 -0700
 tags: ["Learnings", "Updates"]
 image: /assets/projects/scientist.jpg
 ---
@@ -12,9 +12,13 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 # Open Source
 
-Fedora New Website
+Fedora Website Revamp - Contributed to the team rebuilding fedoraproject.org from scratch (which includes i18n and many dynamic elements on a static page), helped organize the team and spearheaded the process at certain points.
 
-<img loading="lazy" src="/assets/projects/demo_fedora.png">
+<img loading="lazy" src="/assets/projects/demo_fedora.jpg">
+
+Fedora Mobility Packaging - Contributed to working out how to package Fedora for the Oneplus 6 phone, organized and documented the process.
+<img loading="lazy" src="/assets/projects/demo_fedora_2.png">
+
 
 # Startups
 
