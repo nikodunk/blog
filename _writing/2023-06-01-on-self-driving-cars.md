@@ -1,0 +1,18 @@
+---
+layout: post
+title: "On Self Driving Cars"
+date: 2023-06-01 08:00:00 -0700
+categories:
+---
+
+After reading the great article on [Arstechnica](https://arstechnica.com/cars/2023/06/the-death-of-self-driving-cars-is-greatly-exaggerated), here's my thoughts on Waymo:
+
+I live in SF and was lucky enough to get into the beta. Looking at my app I've taken 37 rides, 59 miles and 375 minutes all across the city in rain, and sun, night and day and they've literally all been smooth, safe and very un-weird.
+
+Once you get used to there being no driver (feels like an amusement park ride initially) the main difference I notice is the sense of privacy as there's no driver that can hear you, so you relax behind the tinted glass of the back seat and chat like you would in your own car.
+
+I'm torn on whether it's better or worse than a ride-hail worker-wise as the guilt of getting a ride from an often-unfairly-treated gig-worker (at least in Bay Area) is gone, but then again they've just been replaced by a few white-collar jobs.
+
+The cars are electric which makes me feel less guilty about driving around and also free during the beta. Though most rides within the city are between $4 and $11 that I've seen (they give you a preview of what it would cost in app) - so slightly more affordable than a normal ride hail, again probably due to removal of worker.
+
+As the article states - they're here, and they feel pretty normal. Only a few companies got over the valley of despair, but I feel like they're pretty useful and they'll do well. I wonder if the same will happen with other over-hyped technologies like crypto, mixed Reality, etc. "AI" just got over the hump and found useful applications very recently after people plugging away at it for years with the generative application and now this in my opinion.
