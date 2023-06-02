@@ -18,3 +18,8 @@ The cars are electric which makes me feel less guilty about driving around and a
 Only few companies make it through the valley of despair, but I feel like Waymo and Cruise are pretty useful now and they'll do well. People plugged away at it for years, with many companies going under en-route. "AI" more generally seems to have just recently got over the hump with generative AI and self-driving becoming an overnight success 20 years in the making. They appear to have found actually-useful applications of these "fancy vectors".
 
 I wonder if the same will happen with other over-hyped technologies like crypto, mixed reality, etc eventually (look for Apple's unveiling on Tuesday for a shot at the latter). But as the article states - self-driving cars are here, and they feel pretty normal. 
+
+
+----
+
+Note: After reader feedback I'll add this clarification - If the car gets stuck or fails the car will report in to a remote help center, and then they'll remotely steer the car to safety (never happened to me though). You can also call that same help center at any point, and a camera will go on, and you can chat with someone live in about 10 seconds. The car doors are also locked while moving, and they don't unlock until you unlock them from inside FYI.
