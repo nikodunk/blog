@@ -28,6 +28,7 @@ Below, I'm starting to keep a running list of business problems, a subset of the
 - Solar
   - Sales decks take time. B2B Sales PDF Maker SaaS for solar installers - Tesla style solar sales presentation tool for everyone else - $59/mo
   - Solar platforms are a race to the bottom.
+  - Solar installers have issues tracking applicants across financing, before site survey.
 - Sustainability
   - Low energy apartment washing machine
 - Drones
@@ -51,7 +52,8 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - Flathub app: build & deploy blog from linux mobile
 - websites
   - Wordpress is still used for most blogs. CDN content platform SaaS for content websites - NotablePress, DecapCMS, Hugo, Cloudways, Nuxtpress - $6/mo
-  - Shopify plug-in uninstaller speedup 
+  - Shopify plug-in uninstaller speedup
+  - Clone Hey world as b2b SaaS for $30/mo. Founders write great emails, marketers write bad blog posts. Let the founders send emails to the blog. 
 - Climate Fintech
   - It's hard to decarbbonize your investments. - Inyova.ch
   - https://www.joinatmos.com
