@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Great articles"
-date: 2023-05-11 08:00:00 -0700
+date: 2023-08-23 08:00:00 -0700
 ---
 
 - https://innovationfrontier.org/space-solar-power-an-extraterrestrial-energy-resource-for-the-u-s/
@@ -18,6 +18,7 @@ date: 2023-05-11 08:00:00 -0700
 - [Shoshinkantetsu](https://asnewman.github.io/shoshikantetsu)
 - [We have no moat, and neither does chatGPT](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)
 - [3D printed homes entering mass production](https://www.youtube.com/watch?v=Y-4S7cdo3tY)
+  - https://sambleckley.com/writing/dont-fire-your-illustrator.html
 
 Product
 
