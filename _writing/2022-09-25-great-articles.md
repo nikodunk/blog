@@ -28,5 +28,5 @@ Product
 - [Alberto Savoia - Build the right it](https://www.youtube.com/watch?v=3sUozPcH4fY)
 
 Engineering
-- https://boringtechnology.club/
+- [Choose boring technology](https://boringtechnology.club/)
 - [Counting Ghosts](https://pcmaffey.com/counting-ghosts)
