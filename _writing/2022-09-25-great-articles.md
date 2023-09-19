@@ -4,6 +4,7 @@ title: "Great articles"
 date: 2023-08-23 08:00:00 -0700
 ---
 
+Thinking
 - https://innovationfrontier.org/space-solar-power-an-extraterrestrial-energy-resource-for-the-u-s/
 - https://doctorow.medium.com/i-quit-9ae7b6010c99
 - https://www.gonzalobuilds.com/projects/ninja-delivery-20212022
@@ -18,10 +19,14 @@ date: 2023-08-23 08:00:00 -0700
 - [Shoshinkantetsu](https://asnewman.github.io/shoshikantetsu)
 - [We have no moat, and neither does chatGPT](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)
 - [3D printed homes entering mass production](https://www.youtube.com/watch?v=Y-4S7cdo3tY)
-  - [Dont fire your illustrators](https://sambleckley.com/writing/dont-fire-your-illustrator.html)
+- [Dont fire your illustrators](https://sambleckley.com/writing/dont-fire-your-illustrator.html)
 
 Product
 
 - [Choose good quests](https://www.piratewires.com/p/choose-good-quests)
 - [Mark Tarpenning - on early days at Tesla](https://www.youtube.com/watch?v=r46x_ti__vs)
 - [Alberto Savoia - Build the right it](https://www.youtube.com/watch?v=3sUozPcH4fY)
+
+Engineering
+- https://boringtechnology.club/
+- [Counting Ghosts](https://pcmaffey.com/counting-ghosts)
