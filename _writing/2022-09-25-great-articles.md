@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Great articles"
-date: 2023-08-23 08:00:00 -0700
+date: 2023-09-19 08:00:00 -0700
 ---
 
 Thinking
