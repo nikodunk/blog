@@ -42,6 +42,8 @@ A breakdown of the stack is below.
 - Routing is _not_ shared in order to feel native: React Navigation for mobile vs. React Router for web
 - Jest integration tests for "critical path" features like apply, login, transfer, etc
 
+![](/assets/efficiency/api.png)
+
 ## The stack pt 2: All-Javascript API
 
 - Hapi/Node, a single server running all code for checking, savings, loans, donations, webhooks, etc
