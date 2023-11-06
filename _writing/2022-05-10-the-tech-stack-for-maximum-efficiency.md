@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "How a unified tech stack helps our tiny team"
+title: "How a lean tech stack helps our tiny team"
 date: 2022-09-23 08:00:00 -0700
 tags: ["Essay"]
 image: /assets/efficiency_dalle.png
 ---
 
-![](/assets/efficiency_stack.jpg)
+Originally posted at [https://www.joinatmos.com/blog/how-a-unified-tech-stack-helps-our-tiny-team](https://www.joinatmos.com/blog/how-a-unified-tech-stack-helps-our-tiny-team)
 
 The following system has helped [Atmos](https://www.joinatmos.com) support 10,000+ customers on 3 platforms with only 1-2 full-time-equivalent engineers. Thanks to this stack we've stayed secure and [iterated rapidly](http://paulgraham.com/avg.html). We need to be 10-20x more efficient than our nearest competitors (update: one of them closed) as our engineering team is 10-20x leaner than theirs.
 
@@ -30,6 +30,8 @@ Bugs are mostly discovered in internal testing because we use our products perso
 
 A breakdown of the stack is below.
 
+![](/assets/efficiency/stack2.png)
+
 ## The stack pt 1: All-Javascript iOS, Android & Web apps
 
 - React on web
@@ -48,6 +50,8 @@ A breakdown of the stack is below.
 - PSQL database, no time for non-relational systems here
 - Updated & audited packages and Node versions to unlock newest features & ensure security
 - Integration test coverage of critical-path routes (apply, login, transact), enforced by CI.
+
+![](/assets/efficiency/landing_page.png)
 
 ## Landing Page, dashboards & process
 
