@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How a lean tech stack helps our tiny team"
+title: "How a lean tech stack helps our tiny team move fast"
 date: 2022-09-23 08:00:00 -0700
 tags: ["Essay"]
 image: /assets/efficiency_dalle.png
