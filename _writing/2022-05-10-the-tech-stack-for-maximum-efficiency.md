@@ -30,9 +30,9 @@ Bugs are mostly discovered in internal testing because we use our products perso
 
 A breakdown of the stack is below.
 
-![](/assets/efficiency/stack2.png)
-
 ## The stack pt 1: All-Javascript iOS, Android & Web apps
+
+![](/assets/efficiency/stack2.png)
 
 - React on web
 - React Native/Expo for iOS and Android
@@ -42,9 +42,9 @@ A breakdown of the stack is below.
 - Routing is _not_ shared in order to feel native: React Navigation for mobile vs. React Router for web
 - Jest integration tests for "critical path" features like apply, login, transfer, etc
 
-![](/assets/efficiency/api.png)
-
 ## The stack pt 2: All-Javascript API
+
+![](/assets/efficiency/api.png)
 
 - Hapi/Node, a single server running all code for checking, savings, loans, donations, webhooks, etc
 - Heroku, as little time as possible on DevOps
@@ -53,9 +53,9 @@ A breakdown of the stack is below.
 - Updated & audited packages and Node versions to unlock newest features & ensure security
 - Integration test coverage of critical-path routes (apply, login, transact), enforced by CI.
 
-![](/assets/efficiency/landing_page.png)
-
 ## Landing Page, dashboards & process
+
+![](/assets/efficiency/landing_page.png)
 
 - [Webflow](https://webflow.com) CMS for static landing pages
 - [Retool](https://retool.com) dashboard to access server jobs, and to detect fraud, approve users, approve loans, see growth, etc.
