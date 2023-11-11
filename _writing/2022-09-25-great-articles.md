@@ -27,8 +27,14 @@ Product
 - [Choose good quests](https://www.piratewires.com/p/choose-good-quests)
 - [Mark Tarpenning - on early days at Tesla](https://www.youtube.com/watch?v=r46x_ti__vs)
 - [Alberto Savoia - Build the right it](https://www.youtube.com/watch?v=3sUozPcH4fY)
+- https://shreyans.org/google
+- https://shreyans.org/venmo
+- https://every.to/p/my-company-died-learn-from-my-mistakes
 
 Engineering
 
 - [Choose boring technology](https://boringtechnology.club/)
 - [Counting Ghosts](https://pcmaffey.com/counting-ghosts)
+- https://anthonynsimon.com/blog/one-man-saas-architecture/
+- https://gist.github.com/chitchcock/1281611
+- https://www.bitsaboutmoney.com/archive/seeing-like-a-bank/
