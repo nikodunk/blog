@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Great articles"
-date: 2023-09-19 08:00:00 -0700
+date: 2023-11-10 08:00:00 -0700
 ---
 
 Thinking
+
 - https://innovationfrontier.org/space-solar-power-an-extraterrestrial-energy-resource-for-the-u-s/
 - https://doctorow.medium.com/i-quit-9ae7b6010c99
 - https://www.gonzalobuilds.com/projects/ninja-delivery-20212022
@@ -28,5 +29,6 @@ Product
 - [Alberto Savoia - Build the right it](https://www.youtube.com/watch?v=3sUozPcH4fY)
 
 Engineering
+
 - [Choose boring technology](https://boringtechnology.club/)
 - [Counting Ghosts](https://pcmaffey.com/counting-ghosts)

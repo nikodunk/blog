@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How a lean tech stack helps our tiny team move fast"
-date: 2022-09-23 08:00:00 -0700
+date: 2022-11-07 08:00:00 -0700
 tags: ["Essay"]
 image: /assets/efficiency_dalle.png
 ---
@@ -44,7 +44,7 @@ A breakdown of the stack is below.
 
 ## The stack pt 2: All-Javascript API
 
-![](/assets/efficiency/api.png)
+![](/assets/efficiency/api.jpg)
 
 - Hapi/Node, a single server running all code for checking, savings, loans, donations, webhooks, etc
 - Heroku, as little time as possible on DevOps
