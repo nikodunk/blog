@@ -32,7 +32,7 @@ A breakdown of the stack is below.
 
 ## The stack pt 1: All-Javascript iOS, Android & Web apps
 
-![](/assets/efficiency/stack2.png)
+![](/assets/efficiency/stack2.jpg)
 
 - React on web
 - React Native/Expo for iOS and Android
