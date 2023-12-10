@@ -36,11 +36,11 @@ A breakdown of the stack is below.
 
 - React on web
 - React Native/Expo for iOS and Android
-- Git client monorepo with a /common folder of shared business logic, utilities, permissions, etc
+- Git monorepo with web/mobile/api. Web & mobile also share a /common folder of shared business logic, utilities, permissions, etc
 - Tailwind as a shared styling language over React & React Native (thanks to twrnc)
 - Redux as a shared api request/state logic library
 - Routing is _not_ shared in order to feel native: React Navigation for mobile vs. React Router for web
-- Jest integration tests for "critical path" features like apply, login, transfer, etc
+- Jest e2e tests with Puppeteer for "critical path" flows (apply, login, transfer, etc) enforced by CI.
 
 ## The stack pt 2: All-Javascript API
 
@@ -51,7 +51,7 @@ A breakdown of the stack is below.
 - BullMQ & Redis: A single jobs queue for all features: apply, checking, savings, loans, jobs, etc
 - PSQL database, no time for non-relational systems here
 - Updated & audited packages and Node versions to unlock newest features & ensure security
-- Integration test coverage of critical-path routes (apply, login, transact), enforced by CI.
+- Jest unit tests of critical-path functions (underwrite loan, transact, etc), enforced by CI.
 
 ## Landing Page, dashboards & process
 

@@ -10,9 +10,11 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 ![](/assets/projects/gianni_colombo.jpg) ![](/assets/projects/scientist.jpg)
 
-
 In addition to the things on the index page, here's what else I've made so far:
 
+<img loading="lazy" src="/assets/projects/bulk_file_renamer.jpg">
+
+<a href="https://bulkfilerenamer.app">Bulk File Renamer App</a>
 
 # Open Source
 
@@ -23,7 +25,6 @@ Fedora Website Revamp - Contributed to the team rebuilding fedoraproject.org fro
 Fedora Mobility Packaging - Contributed to working out how to package Fedora for the Oneplus 6 phone, organized and documented the process.
 
 <img loading="lazy" src="/assets/projects/demo_fedora_2.jpg">
-
 
 # Startups
 
