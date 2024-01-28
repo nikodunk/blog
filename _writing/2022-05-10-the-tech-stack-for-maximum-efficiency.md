@@ -36,11 +36,12 @@ A breakdown of the stack is below.
 
 - React on web
 - React Native/Expo for iOS and Android
-- Git monorepo with web/mobile/api. Web & mobile also share a /common folder of shared business logic, utilities, permissions, etc
+- React Context to store user/account getting across all of web & mobile components.
+- Routing is _not_ shared in order to feel native: React Router for web, React Navigation for mobile  
 - Tailwind as a shared styling language over React & React Native (thanks to twrnc)
-- Redux as a shared api request/state logic library
-- Routing is _not_ shared in order to feel native: React Navigation for mobile vs. React Router for web
+- Git monorepo with web/mobile/api. 
 - Jest e2e tests with Puppeteer for "critical path" flows (apply, login, transfer, etc) enforced by CI.
+- As little logic as possible is done on the frontends. Business logic, utilities, permissions, etc are moved to the backend where it is safer and automatically shared.
 
 ## The stack pt 2: All-Javascript API
 
