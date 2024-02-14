@@ -40,7 +40,7 @@ A breakdown of the stack is below.
 - Routing is _not_ shared in order to feel native: React Router for web, React Navigation for mobile  
 - Tailwind as a shared styling language over React & React Native (thanks to twrnc)
 - Git monorepo with web/mobile/api. 
-- Jest e2e tests with Puppeteer for "critical path" flows (apply, login, transfer, etc) enforced by CI.
+- Cypress e2e tests for "critical path" flows (apply, login, transfer, etc) enforced by CI.
 - As little logic as possible is done on the frontends. Business logic, utilities, permissions, etc are moved to the backend where it is safer and automatically shared.
 
 ## The stack pt 2: All-Javascript API
