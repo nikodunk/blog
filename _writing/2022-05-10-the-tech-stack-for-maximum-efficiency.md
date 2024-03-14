@@ -40,7 +40,8 @@ A breakdown of the stack is below.
 - Routing is _not_ shared in order to feel native: React Router for web, React Navigation for mobile  
 - Tailwind as a shared styling language over React & React Native (thanks to twrnc)
 - Git monorepo with web/mobile/api. 
-- Cypress e2e tests for "critical path" flows (apply, login, transfer, etc) enforced by CI.
+- Mobile UI is mostly re-used web UI in webviews, but due to 1) mounting it in native navigators and 2) injecting the native shell's state, we can create a near-native feel. We came to the conclusion that this was the only way 3-4 years in, because we were struggling to keep our react-native code base in sync with our web app, where we tended to develop features first. 
+- Cypress e2e tests for "critical path" flows (apply, login, transfer, etc), enforced by CI, on web, which is then re-used on mobile.
 - As little logic as possible is done on the frontends. Business logic, utilities, permissions, etc are moved to the backend where it is safer and automatically shared.
 
 ## The stack pt 2: All-Javascript API
@@ -56,7 +57,7 @@ A breakdown of the stack is below.
 
 ## Landing Page, dashboards & process
 
-![](/assets/efficiency/landing_page.png)
+![](/assets/efficiency/landing_page2.png)
 
 - [Webflow](https://webflow.com) CMS for static landing pages
 - [Retool](https://retool.com) dashboard to access server jobs, and to detect fraud, approve users, approve loans, see growth, etc.
