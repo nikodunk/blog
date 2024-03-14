@@ -34,7 +34,7 @@ A breakdown of the stack is below.
 
 ![](/assets/efficiency/stack2.jpg)
 
-- React on web
+- React/Remix SPA on web. We use Remix SPA on top of React for bundle splitting, standardized routing conventions, and great error catching.
 - React Native/Expo for iOS and Android
 - React Context to store user/account getting across all of web & mobile components.
 - Routing is _not_ shared in order to feel native: React Router for web, React Navigation for mobile  
@@ -48,7 +48,7 @@ A breakdown of the stack is below.
 
 ![](/assets/efficiency/api.jpg)
 
-- Hapi/Node, a single server running all code for checking, savings, loans, donations, webhooks, etc
+- Hapi/Node, a single server running all code for checking, savings, loans, donations, webhooks, joint checking, joint savings, commercial savings etc
 - Heroku, as little time as possible on DevOps
 - BullMQ & Redis: A single jobs queue for all features: apply, checking, savings, loans, jobs, etc
 - PSQL database, no time for non-relational systems here
