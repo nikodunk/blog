@@ -38,7 +38,6 @@ A breakdown of the stack is below.
 - React Native/Expo for iOS and Android
 - React Context to store user/account getting across all of web & mobile components.
 - Tailwind as a shared styling language over React & React Native (thanks to twrnc)
-- Git monorepo with web/mobile/api. 
 - As little logic as possible is done on the frontends. Business logic, utilities, permissions, etc are moved to the backend where it is safer and automatically shared.
 - Routing is _not_ shared in order to feel native: React Router for web, React Navigation for mobile. 
 - Pages & Components: Over the years we have struggled to keep React Native pages and Web pages in sync over our massive feature set. For this reason, we experimented and then switched to mounting our web app into a React Native "shell". This gave us native page animations, Tab bars, stacks, etc, but helped us de-duplicate page UI & logic. We have learned to inject the native shell's state into the webview's UI for an instant page load and a near-native feel. Most of our users did not notice when we switched them from React Native pages to Webview pages, but they did notice that they suddenly had access to expanded, better-debugged functionality.
@@ -50,10 +49,11 @@ A breakdown of the stack is below.
 
 - Hapi/Node, a single server running all code for checking, savings, loans, donations, webhooks, joint checking, joint savings, commercial savings, etc
 - Heroku, as little time as possible on DevOps
-- BullMQ & Redis: A single jobs queue for all features: apply, checking, savings, loans, jobs, etc
+- BullMQ & Redis: A single job queue for all features: checking, savings, loans, commercial, cron jobs, etc
 - PSQL database, no time for non-relational systems here
 - Updated & audited packages and Node versions to unlock newest features & ensure security
 - Jest unit tests of critical-path functions (underwrite loan, transact, etc), enforced by CI.
+- Git monorepo with web/mobile/api. 
 
 ## Landing Page, dashboards & process
 
@@ -61,8 +61,8 @@ A breakdown of the stack is below.
 
 - [Webflow](https://webflow.com) CMS for static landing pages
 - [Retool](https://retool.com) dashboard to access server jobs, and to detect fraud, approve users, approve loans, see growth, etc.
-- If a task needs to be done we hand-perform it, the second time we write a server job for it, and if needs to be done a 3rd time we write an interface for that server job, so that engineering never needs to be pulled into (read: block) the loop again.
 - [Sendgrid](https://sendgrid.com) for both transactional emails and marketing emails. We don't have time to synchronize contact lists and content between Sendgrid and Mailchimp and Sendgrid single-sends are good enough.
+- If a task needs to be done we hand-perform it, the second time we write a server job for it, and if needs to be done a 3rd time we write an interface for that server job, so that engineering never needs to be pulled into (read: block) the loop again.
 
 ## Alternatives
 
