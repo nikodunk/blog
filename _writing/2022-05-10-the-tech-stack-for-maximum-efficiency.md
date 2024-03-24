@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How a lean tech stack helps our tiny team move fast"
+title: "How a unified tech stack helps our tiny team move fast"
 date: 2023-11-07 08:00:00 -0700
 tags: ["Essay"]
 image: /assets/efficiency_dalle.png
@@ -37,12 +37,12 @@ A breakdown of the stack is below.
 - React/Remix SPA on web. We use Remix SPA on top of React for bundle splitting, standardized routing conventions, and great error catching.
 - React Native/Expo for iOS and Android
 - React Context to store user/account getting across all of web & mobile components.
-- Routing is _not_ shared in order to feel native: React Router for web, React Navigation for mobile  
 - Tailwind as a shared styling language over React & React Native (thanks to twrnc)
 - Git monorepo with web/mobile/api. 
-- Mobile UI is mostly re-used web UI in webviews, but due to 1) mounting it in native navigators and 2) injecting the native shell's state, we can create a near-native feel. We came to the conclusion that this was the only way 3-4 years in, because we were struggling to keep our react-native code base in sync with our web app, where we tended to develop features first, over all of our massive feature set. 
 - Cypress e2e tests for "critical path" flows (apply, login, transfer, etc), enforced by CI, on web, which is then re-used on mobile.
 - As little logic as possible is done on the frontends. Business logic, utilities, permissions, etc are moved to the backend where it is safer and automatically shared.
+- Routing is _not_ shared in order to feel native: React Router for web, React Navigation for mobile. 
+- Over the years we have struggled to keep React Native pages and Web pages in sync over our massive feature set. For this reason, we experimented with mounting our web app into our native React Navigation "shell". This gave us native page animations, but didn't make us build the page logic twice. In addition, we inject the native app's state into the webview for an instant page load and a near-native feel. Most of our users did not notice when we switched them from React Native pages to Webview pages, but they did notice that they suddenly had access to expanded, better-debugged functionality.
 
 ## The stack pt 2: All-Javascript API
 
