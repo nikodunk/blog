@@ -38,8 +38,8 @@ A breakdown of the stack is below.
 - React Native/Expo for iOS and Android
 - React Context to store user/account getting across all of web & mobile components.
 - Tailwind as a shared styling language over React & React Native (thanks to twrnc)
-- As little logic as possible is done on the frontends. Business logic, utilities, permissions, etc are moved to the backend where it is safer and automatically shared.
-- Routing is _not_ shared in order to feel native: React Router for web, React Navigation for mobile. 
+- As little logic as possible is done on the frontends. Business logic, utilities, permissions, etc are moved to the backend where it is safer and automatically shared between clients
+- Remix/React Router for web, React Navigation for mobile: Navigating between pages are _not_ shared in order to feel native to web/mobile clients.
 - Pages & Components: Over the years we have struggled to keep React Native pages and Web pages in sync over our massive feature set. For this reason, we experimented and then switched to mounting our web app into a React Native "shell". This gave us native page animations, Tab bars, stacks, etc, but helped us de-duplicate page UI & logic. We have learned to inject the native shell's state into the webview's UI for an instant page load and a near-native feel. Most of our users did not notice when we switched them from React Native pages to Webview pages, but they did notice that they suddenly had access to expanded, better-debugged functionality.
 - Cypress e2e tests for "critical path" flows on web (apply, login, transfer, etc), enforced by CI, which is then re-used on mobile.
 
