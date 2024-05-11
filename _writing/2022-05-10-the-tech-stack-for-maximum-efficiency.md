@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How a unified tech stack helps our lean team move fast"
+title: "How a lean tech stack helps our tiny team punch above our weight"
 date: 2023-11-07 08:00:00 -0700
 tags: ["Essay"]
 image: /assets/efficiency_dalle.png
