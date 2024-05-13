@@ -158,6 +158,54 @@ layout: base
         </div>
       </div>
     </div>
+
+    <!-- THUMBNAILS -->
+    <div class="flex portfolio-item">
+      <div class="portfolio-pane">
+        <div>
+          <p>
+            I help package Gnome Shell Mobile on postmarketOS & Fedora;
+            documented in this video
+          </p>
+          <br />
+          <iframe
+            style="width: 100%; height: 100%; min-height: 250px"
+            src="https://www.youtube.com/embed/wOmRMg546UY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div class="portfolio-pane">
+        <div>
+          <p>Contributed to the fedoraproject.org website relaunch</p>
+          <a href="https://fedoraproject.org" target="_blank">
+            <img loading="lazy" src="/assets/projects/demo_fedora.jpg"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <div class="flex portfolio-item">
+      <div class="portfolio-pane">
+        <div>
+          <p>
+            Video: How to self-install solar for apartments & renters with less
+            red tape.
+          </p>
+          <br />
+          <iframe
+            style="width: 100%; height: 100%; min-height: 300px"
+            src="https://www.youtube.com/embed/K1jQZuvDczU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -177,8 +225,8 @@ layout: base
     <article class="flex" style="margin-bottom: 1rem">
       <div style="flex: 1">
         <h6 style="color: #555555" class="">
-          {% assign date_format = site.date_format | default: "%b %-d, %Y" %} {{
-          post.date | date: date_format }}
+          {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+          {{ post.date | date: date_format }}
         </h6>
       </div>
       <div style="flex: 3">
