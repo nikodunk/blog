@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Business problems worth solving"
-date: 2022-12-15 08:00:00 -0700
+date: 2024-05-13 08:00:00 -0700
 categories:
 ---
 
