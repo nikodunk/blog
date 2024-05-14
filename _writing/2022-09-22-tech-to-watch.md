@@ -29,8 +29,9 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - Sales decks take time. B2B Sales PDF Maker SaaS for solar installers - Tesla style solar sales presentation tool for everyone else - $59/mo
   - Solar platforms are a race to the bottom.
   - Solar installers have issues tracking applicants across financing, before site survey.
+  - Reach out to solar installers & offer them a sales brochure.
   - Reach out to solar installers & ask them if need apartment solar needs
-  - Reach out to solar installers & ask them if need second-hand solar panels
+  - Reach out to solar installers & ask them if need second-hand solar equipment
 - Sustainability
   - Low energy apartment washing machine
 - Drones
