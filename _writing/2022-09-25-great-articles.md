@@ -30,11 +30,11 @@ Product
 - https://shreyans.org/google
 - https://shreyans.org/venmo
 - https://every.to/p/my-company-died-learn-from-my-mistakes
+- [Guide to software in climate tech](https://www.climatepapa.com/software)
 
 Engineering
 
 - [Choose boring technology](https://boringtechnology.club/)
 - [Counting Ghosts](https://pcmaffey.com/counting-ghosts)
-- https://anthonynsimon.com/blog/one-man-saas-architecture/
 - https://gist.github.com/chitchcock/1281611
 - https://www.bitsaboutmoney.com/archive/seeing-like-a-bank/
