@@ -11,3 +11,4 @@ categories:
 - You need protection from outside elements like wind and rain.
 - It takes time
 - It gets easier as you practice.
+- To make a big fire, you first need to start a small fire.
