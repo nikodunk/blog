@@ -30,7 +30,7 @@ Below, I'm starting to keep a running list of business problems, a subset of the
   - Solar platforms are a race to the bottom.
   - Solar installers have issues tracking applicants across financing, before site survey.
   - Reach out to solar installers & offer them a sales brochure.
-  - Reach out to solar installers & ask them if need apartment solar needs
+  - Reach out to solar installers & ask them if need apartment solar leads
   - Reach out to solar installers & ask them if need second-hand solar equipment
 - Sustainability
   - Low energy apartment washing machine
