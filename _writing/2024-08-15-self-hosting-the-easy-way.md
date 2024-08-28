@@ -9,12 +9,12 @@ Ever since Heroku turned off their free tier, many have been at a loss where to 
 
 Like many, I've recently discovered how far along "Heroku-like" solutions like Appliku and Coolify have come that add a layer of ergonomics onto a raw server/VPS (or even a Raspberry Pi if that floats your boat). 
 
-Coolify lets me get the benefits of self-hosting my sites and apps on a VPS (cost savings, freedom, cost control), but allows me focus on building apps and features without fussing too much about ports, certificates, containerization (god forbid I go down a Kubernetes rabbit hole) and devops. 
+Coolify lets me get the benefits of self-hosting my sites and apps on a VPS (cost savings, freedom, cost control), while still getting all the benefits of a stable, abstracted-away platform like Heroku. It allows me to focus on building apps and features without fussing too much about ports, certificates, containerization (god forbid I go near a Kubernetes timesink). 
 
 There's two steps involved:
 
-1.  Sign up at Hetzner.com (I used an arm instance) for $3/mo, and self-updating Fedora CoreOS (or normal Fedora though you'll need to set it to auto-update)
-2.  Install [Coolify](https://coolify.io/self-hosted) with the one-liner and start donating $10/mo to thei project.
+1.  Sign up at [Hetzner.com](https://hetzner.com) (I used an arm instance) for $3/mo, and self-updating Fedora CoreOS (or normal Fedora though you'll need to set it to auto-update)
+2.  Install [Coolify](https://coolify.io/self-hosted) with the one-liner and start donating $10/mo to their project.
 
 There is no step 3 - start deploying apps in docker containers (or more Heroku-like Nixpacks if you can get them to work) to your new small server. Follow a hardening tutorial and create snapshots of the server.
 
