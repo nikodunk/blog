@@ -15,9 +15,10 @@ Things I've learned working in startups of my own and others'
 - If you don't know, have a go!
 - Take a step back at the beginning of meetings, remind ourselves of what we're trying to achieve here.
 - More water through existing pipes.
-- Task was to build a new commercial loans product. But then we found out that the existing commercial savings product the sales team
-    - didn’t have any idea who had funded the leads
-    - we’re demoing with an empty broken account
-- to start a big business, you first need to start a small business
-- follow the revenue.
-- when building a new thing y that doesn't fit into existing thing x, build the new thing y on a greenfield, and then merge x into it over time, piecemeal.
+- Task was to build a new commercial loans product. But then we found out that for the existing commercial savings product the sales team
+    - didn’t know who had funded the leads
+    - were demoing with an empty broken account
+    So we gave them better analytics to monetize the existing work, _then_ built the new things.
+- To start a big business, you first need to start a small business
+- Follow the revenue.
+- When building a new thing y that doesn't fit into existing thing x, build the new thing y on a greenfield, and then merge x into it over time, piecemeal.
