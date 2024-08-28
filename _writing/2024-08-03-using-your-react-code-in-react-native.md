@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Re-using your React code in a "native" app"
+title: "A strange way to build for both web and mobile when your codebase is in React"
 date: 2023-08-15 08:00:00 -0700
 categories:
 ---
-
 
 The most native-feeling way we've found to deliver a React web app to mobile without re-building it in React Native and essentially forking our client/View codebase is to do something similar to [Strada](https://hotwire.dev), but with React/React-Native. If you're mobile-only, this is not the solution for you (build it in React Native). If you're mobile-first, then build it in React Native and ship it to web. But if you're a relatively low-fi app (like a banking app) that has a ton of complex business logic and screens, then this could be a useful way to reduce your code surface. It worked well for us at Atmos.
 
