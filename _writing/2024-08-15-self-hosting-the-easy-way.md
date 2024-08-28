@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Self-hosting without becoming a devops expert"
-date: 2023-08-15 08:00:00 -0700
+date: 2024-08-15 08:00:00 -0700
 categories:
 ---
 
