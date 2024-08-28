@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Self-hosting without becoming a devops expert"
+title: "Self-hosting without being distracted by devops"
 date: 2024-08-15 08:00:00 -0700
 categories:
 ---
