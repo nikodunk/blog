@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Startup Learnings"
-date: 2024-08-23 08:00:00 -0700
+date: 2024-04-23 08:00:00 -0700
 categories:
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A strange way to build for both web and mobile when your codebase is in React"
-date: 2023-08-03 08:00:00 -0700
+date: 2024-08-03 08:00:00 -0700
 categories:
 ---
 
