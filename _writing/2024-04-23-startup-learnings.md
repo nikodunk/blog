@@ -5,7 +5,7 @@ date: 2024-08-23 08:00:00 -0700
 categories:
 ---
 
-Things I've learned working in startups of my own and others'
+Things I've learned working in startups mid-sized startups. Recurring engineering & process patterns and learnings on how to work efficiently.
 
 - If someone has you make a report and don’t read it, that effort and money was wasted. Stuff it down their throats, or don't do it for them in future. "make sure the person who asked for it reads it"
 - Single shared source of truth. No single local excel sheets. Not multiple reports without context. single source of truth.
@@ -13,7 +13,7 @@ Things I've learned working in startups of my own and others'
 - Get happy path working, make it as wide as possible, then worry about edge cases.
 - Spend as much time spreading the content as you do making the content. Spend as much time marketing a feature as you do making the feature. The same amount of time should be spent spreading the product as building the product.
 - If you don't know, have a go!
-- Take a step back at the beginning of meetings, remind ourselves of what we're trying to achieve here.
+- Take a mile-high view at the beginning of meetings, remind ourselves of what we're trying to achieve here big-picture, what the story so far was, _then_ dive into details.
 - More water through existing pipes.
 - Task was to build a new commercial loans product. But then we found out that for the existing commercial savings product the sales team
     - didn’t know who had funded the leads
