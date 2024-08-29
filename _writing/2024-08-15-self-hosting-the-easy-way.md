@@ -2,7 +2,6 @@
 layout: post
 title: "Self-hosting without being distracted by devops"
 date: 2024-08-15 08:00:00 -0700
-categories:
 ---
 
 Ever since Heroku turned off their free tier, many have been at a loss where to host small, hobby, or archived projects. Paying $12/mo for each one of them quickly adds up. I dislike modern Heroku alternatives like Render, Fly.io and others as they cost as much as Heroku, but are not as ergonomic in my opinion. 

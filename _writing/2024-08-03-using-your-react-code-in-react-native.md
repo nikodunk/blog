@@ -2,7 +2,6 @@
 layout: post
 title: "A strange way to build in React for both web and mobile"
 date: 2024-08-03 08:00:00 -0700
-categories:
 ---
 
 The most native-feeling way we've found to deliver a React web app to mobile without re-building it in React Native and essentially forking our client/View codebase is to do something similar to [Strada](https://hotwire.dev), but with React/React-Native. 

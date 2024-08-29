@@ -2,7 +2,6 @@
 layout: post
 title: "Startup Learnings"
 date: 2024-04-23 08:00:00 -0700
-categories:
 ---
 
 Things I've learned working in startups mid-sized startups. Recurring engineering & process patterns and learnings on how to work efficiently.

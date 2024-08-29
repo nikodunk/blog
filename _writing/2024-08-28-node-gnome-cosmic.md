@@ -2,7 +2,6 @@
 layout: post
 title: "On open source innovation"
 date: 2024-08-28 08:00:00 -0700
-categories:
 ---
 
 In general, it seems like a bad idea to "start over from a clean slate" in Open Source software. More wood behind fewer arrows seems like the way to go to avoid fragmentation, bike shedding and re-inventing wheels.

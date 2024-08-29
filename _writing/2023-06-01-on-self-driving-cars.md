@@ -2,7 +2,6 @@
 layout: post
 title: "On Self Driving Cars"
 date: 2023-06-01 08:00:00 -0700
-categories:
 ---
 
 After reading the great article on [Arstechnica](https://arstechnica.com/cars/2023/06/the-death-of-self-driving-cars-is-greatly-exaggerated), here's my thoughts on Waymo:
