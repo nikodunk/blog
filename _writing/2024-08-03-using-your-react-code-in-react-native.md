@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A strange way to build in React for both web and mobile"
+title: "A counterintuitive way to unify your native and web code bases without destroying UX"
 date: 2024-08-03 08:00:00 -0700
 ---
 
@@ -20,3 +20,7 @@ But if you're a relatively low-fi app (like a banking app) that has a ton of com
 
 
 This allows us to have one codebase for ios, android and web while staying relatively sane.
+
+
+------
+Note: Doing the inverse of the above and building on expo/react-native first and then shipping it to web with react-native-web is also a great option if your libraries support it (graphing, etc). This closes off server-side rendering to you in most cases, but if you don't require SEO/indexing and have fully gated, dynamic content then this is slightly more elegant as you can keep all your code react-native and react-native-web does the heavy lifting. Bluesky builds their clients this way.
