@@ -24,6 +24,8 @@ We share code between products wherever possible. Similar logic on web, mobile a
 
 Shared code also helps us improve existing products while building new ones. Improved mobile components cross-pollinate into our web code, and improved loans UX boosts the original deposit UX. All products benefit from performance improvements made anywhere, for example when non-blocking account opening was built for loans it worked great on deposits.
 
+![](/assets/efficiency/demo_atmos_loans.png)
+
 Testers are spread less thin when you have more shared code. As most of the business logic is shared, using an obscure feature on web provides basic mobile testing. A team member confirming a wire address on iOS will find a bug before Android or web users notice.
 
 Bugs are mostly discovered in internal testing because we use our products personally. This is on top of automated testing we do.
@@ -32,7 +34,7 @@ A breakdown of the stack is below.
 
 ## The stack pt 1: All-Javascript iOS, Android & Web apps
 
-![](/assets/efficiency/stack2.jpg)
+![](/assets/efficiency/stack3.jpg)
 
 - React/Remix SPA on web. We use Remix SPA on top of React for bundle splitting, standardized routing conventions, and great error catching.
 - React Native/Expo for iOS and Android
