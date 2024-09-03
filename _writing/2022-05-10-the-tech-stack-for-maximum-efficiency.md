@@ -34,7 +34,7 @@ A breakdown of the stack is below.
 
 ## The stack pt 1: All-Javascript iOS, Android & Web apps
 
-![](/assets/efficiency/stack3.jpg)
+![](/assets/efficiency/stack3.png)
 
 - React/Remix SPA on web. We use Remix SPA on top of React for bundle splitting, standardized routing conventions, and great error catching.
 - React Native/Expo for iOS and Android
