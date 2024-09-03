@@ -4,7 +4,7 @@ title: "A counterintuitive way to unify your native and web code bases without d
 date: 2024-08-03 08:00:00 -0700
 ---
 
-The most native-feeling way we've found to deliver a React web app to mobile without re-building it in React Native and essentially forking our client/View codebase is to do something similar to [Strada](https://hotwire.dev), but with React/React-Native. 
+The most native-feeling way we've found to deliver a React web app to mobile without building all screens twice is to do something similar to [Strada](https://hotwire.dev), but with React/React-Native. 
 
 If you're mobile-only, this is not the solution for you (build it in React Native). If you're mobile-first, then build it in React Native and ship it to web. 
 
