@@ -38,3 +38,4 @@ Engineering
 - [Counting Ghosts](https://pcmaffey.com/counting-ghosts)
 - https://gist.github.com/chitchcock/1281611
 - https://www.bitsaboutmoney.com/archive/seeing-like-a-bank/
+- [How to ship software](https://www.seangoedecke.com/how-to-ship/)
