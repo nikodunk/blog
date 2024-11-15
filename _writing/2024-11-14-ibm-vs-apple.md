@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is Apple or IBM the rebel in 2024"
+title: "Is Apple or IBM the underdog in 2024"
 date: 2024-11-14 08:00:00 -0700
 ---
 
