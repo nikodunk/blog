@@ -4,7 +4,7 @@ title: "Is Apple or IBM the rebel"
 date: 2024-11-14 08:00:00 -0700
 ---
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FIBM%2Fcomments%2F1cg55xo%2Fsteve_jobs_giving_ibm_the_finger_in_1983_at_some%2F&psig=AOvVaw29RjvgfsiZ7GBr7b_2XSvt&ust=1731737399241000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDBk9bW3YkDFQAAAAAdAAAAABAn" />
+![](/assets/rebels/steve-jobs-ibm-middle-finger.png)
 
 It's 2024, and an absurd situation has occurred. IBM is the rebel pushing up against the corporate dominance of Apple, Inc.
 
