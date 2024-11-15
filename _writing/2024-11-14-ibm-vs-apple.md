@@ -16,4 +16,4 @@ Apple has lived long enough to become the corporate overlord. They are valued at
 
 ---
 
-[1] Apple is chiefly dominant on mobile phones in the US, I know, but their desktop is dominant in many circles, and is becoming pretty closed vs. the alternatives with things like running unsigned software, etc
+[1] I know Apple is chiefly dominant on mobile phones in the US, but their desktop is dominant in many circles, and is becoming pretty closed vs. the alternatives with things like running unsigned software, etc. The comparison is not perfect, I'm aware.
