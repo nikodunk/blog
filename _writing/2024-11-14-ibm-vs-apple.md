@@ -6,7 +6,7 @@ date: 2024-11-14 08:00:00 -0700
 
 ![](/assets/rebels/steve-jobs-ibm-middle-finger.png)
 
-I just realized an absurd situation has occurred. In 2024, the situation is the opposite of the 1983 photo above. IBM is the rebel pushing up against the corporate dominance of Apple, Inc. Bear with me for this slightly constructed story:
+I just realized an absurd situation has occurred. In 2024, the situation is the opposite of the 1983 photo above. IBM is the rebel pushing up against the corporate dominance of Apple, Inc:
 
 I use Fedora Linux on the desktop. Fedora Linux is the open source development arm of Red Hat Enterprise Linux. Red Hat is owned by IBM.
 
