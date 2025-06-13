@@ -1,3 +1,6 @@
+Internet resilience vs. energy resilience
+
+
 At Pila, our mission is to bring 21st-century energy resilience to households and replace the gas generator. Distributing batteries throughout buildings is the first step, but as the grid breaks into a billion of these intelligent, independent systems, Pila’s goal is also to help define the systems and protocols to ensure they all work together. That means enabling batteries in homes, businesses, and communities to automatically work together as one seamless whole. Through auto-meshing and built-in local intelligence, we can turn individual appliances into a resilient, distributed energy network.
 
 The U.S. electric grid, as it stands today, runs largely on old-school communication networks \- and in some ways, that’s a blessing in disguise. While intelligence and connectivity can unlock enormous potential, it also comes with trade-offs. Too often, it becomes brittle. It ages quickly. And it can introduce new forms of risk, from software vulnerabilities and dependency on internet access, to exposure to unstable supply chains. We’ve already seen how this can go wrong \- consider the [Enel X / JuiceBox EV charger backend deprecation issues](https://www.canarymedia.com/articles/ev-charging/enel-x-way-abandoned-its-us-ev-charging-customers-what-happens-next) that left users suddenly unsupported.
