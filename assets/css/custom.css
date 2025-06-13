@@ -75,9 +75,12 @@ li {
 }
 
 .portfolio-item {
-  border-bottom: 1px solid #efefef;
   padding-bottom: 1rem;
   padding-top: 1rem;
+}
+
+.border-b {
+  border-bottom: 1px solid #efefef;
 }
 
 .portfolio-pane {
