@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Internet resilience vs. energy resilience"
-date: 2025-06-013 08:00:00 -0700
-tags: ["Essay"]
+date: 2025-06-13 08:00:00 -0700
+categories:
 ---
 
 
