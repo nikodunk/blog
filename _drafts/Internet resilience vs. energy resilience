@@ -1,4 +1,9 @@
-Internet resilience vs. energy resilience
+---
+layout: post
+title: "Internet resilience vs. energy resilience"
+date: 2025-06-013 08:00:00 -0700
+tags: ["Essay"]
+---
 
 
 At Pila, our mission is to bring 21st-century energy resilience to households and replace the gas generator. Distributing batteries throughout buildings is the first step, but as the grid breaks into a billion of these intelligent, independent systems, Pila’s goal is also to help define the systems and protocols to ensure they all work together. That means enabling batteries in homes, businesses, and communities to automatically work together as one seamless whole. Through auto-meshing and built-in local intelligence, we can turn individual appliances into a resilient, distributed energy network.
