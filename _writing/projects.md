@@ -46,6 +46,42 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
 
 ## ![](/assets/projects/logo_energylollipop.png) Energy Lollipop Home
 
+<div class="flex portfolio-item">
+    <div class="portfolio-pane">
+    <a href="https://www.energylollipop.com" target="_blank"
+        ><img
+        loading="lazy"
+        src="/assets/projects/demo_energylollipop.png"
+        alt="energylollipop"
+    /></a>
+    </div>
+    <div class="portfolio-pane">
+    <div>
+        <div style="display: flex; align-items: center">
+        <h2>
+            <bold>Energy Lollipop</bold>
+        </h2>
+        <span style="margin: 10px">(Co-Founder)</span>
+        </div>
+        <p style="color: #555555; margin-bottom: 20px">
+        +react browser extension&nbsp;&nbsp;&nbsp;&nbsp; +twitter
+        bot&nbsp;&nbsp;&nbsp;&nbsp; +node api&nbsp;&nbsp;&nbsp;&nbsp; +pg&e
+        smartmeter / caiso data&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+        <i>What if climate change was a simple number</i>
+        <p>
+        Energy Lollipop simplifies California emissions data into a single
+        number and color and posts it to Twitter or displays it on your
+        phone in realtime. Built with Katie Patrick.
+        </p>
+        <br />
+
+        <a class="btn" href="https://energylollipop.com">Website</a>
+    </div>
+    </div>
+
+</div>
+
 <img loading="lazy" src="/assets/projects/demo_energylollipop.gif">
 
 <p >♜ <strong>Challenge:</strong> Simplify climate-change into a single number. See your office or home emissions and influence it in a real-time feedback loop with gamification elements.</p>
@@ -64,6 +100,46 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
 
 <a class="btn btn-outline-primary" href="https://energylollipop.com">Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
+
+---
+
+## Electrade v4
+
+<div class="flex portfolio-item">
+    <div class="portfolio-pane">
+    <a href="https://electrade.app" target="_blank"
+        ><img
+        loading="lazy"
+        class=""
+        src="/assets/projects/demo_electrade4.jpg"
+        alt=""
+    /></a>
+    </div>
+    <div class="portfolio-pane">
+    <div>
+        <div style="display: flex; align-items: center">
+        <h2>
+            <bold>Electrade</bold>
+        </h2>
+        <span style="margin: 10px">(Founder)</span>
+        </div>
+        <p style="color: #555555; margin-bottom: 20px">
+        +ruby on rails&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+
+        <i>What if you could compare EV prices online</i>
+        <p>
+        A platform for finding EV lease offers. Sign up for a weekly EV
+        lease offer email, and then get introduced to no-bullshit dealers
+        via SMS.
+        </p>
+        <br />
+
+        <a class="btn" href="https://electrade.app">Website</a>
+    </div>
+    </div>
+
+</div>
 
 ---
 
