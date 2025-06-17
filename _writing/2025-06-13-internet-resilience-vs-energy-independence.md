@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Internet resilience vs. energy independence"
-date: 2025-06-13 08:00:00 -0700
+date: 2025-06-17 08:00:00 -0700
 categories:
 ---
 
