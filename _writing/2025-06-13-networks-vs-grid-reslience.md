@@ -4,11 +4,9 @@ title: "Network resilience vs. grid resilience"
 date: 2025-06-17 08:00:00 -0700
 categories:
 ---
-<div style="margin: auto">
-![](/assets/internet-resilience-vs-energy-independence.jpg)
-</div>
+<div style="margin: auto"><img src="/assets/internet-resilience-vs-energy-independence.jpg" /></div>
 
-At Pila, our immediate mission is to bring 21st-century energy resilience to every household and retire the gas generator for good. Distributing batteries throughout buildings for modern energy security is the first step. But as the grid breaks into a billion of these intelligent, independent systems, Pila’s far more ambitious goal is also to help define the systems and protocols to ensure they all work together. That means enabling batteries in homes, businesses, and communities to automatically work together as one seamless whole. Through auto-meshing and embedded local intelligence, we can turn individual appliances into an ultra-resilient, distributed energy network.
+At [Pila](https://pilaenergy.com/blog/network-vs-energy-resilience), our immediate mission is to bring 21st-century energy resilience to every household and retire the gas generator for good. Distributing batteries throughout buildings for modern energy security is the first step. But as the grid breaks into a billion of these intelligent, independent systems, Pila’s far more ambitious goal is also to help define the systems and protocols to ensure they all work together. That means enabling batteries in homes, businesses, and communities to automatically work together as one seamless whole. Through auto-meshing and embedded local intelligence, we can turn individual appliances into an ultra-resilient, distributed energy network.
 
 **The status quo**
 
@@ -24,6 +22,3 @@ At Pila, we’re building infrastructure-grade, local-first intelligence that ru
 
 If AI becomes embedded into everything, it too should work local-first and not require a cloud. We believe it belongs on the edge \- close to the energy assets themselves, designed to operate and coordinate autonomously, and built to outlast the hardware it runs on. The future grid won’t rely on fragile, centralized control. It will emerge from billions of resilient, intelligent systems at the edge.
 
-------
-
-Originally posted [here](https://pilaenergy.com/blog/network-vs-energy-resilience)
