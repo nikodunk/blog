@@ -24,4 +24,6 @@ At Pila, we’re building infrastructure-grade, local-first intelligence that ru
 
 If AI becomes embedded into everything, it too should work local-first and not require a cloud. We believe it belongs on the edge \- close to the energy assets themselves, designed to operate and coordinate autonomously, and built to outlast the hardware it runs on. The future grid won’t rely on fragile, centralized control. It will emerge from billions of resilient, intelligent systems at the edge.
 
+------
+
 Originally posted [here](https://pilaenergy.com/blog/network-vs-energy-resilience)
