@@ -16,6 +16,14 @@ In addition to the things on the index page, here's what else I've made so far:
 
 <a href="https://bulkfilerenamer.app">Bulk File Renamer App</a>
 
+# Daily Optimist
+
+<img loading="lazy" src="/assets/projects/demo_positivity_2.png">
+
+# Sunforms
+
+<img loading="lazy" src="/assets/projects/demo_sunforms.png">
+
 # Open Source
 
 Fedora Website Revamp - Contributed to the team rebuilding fedoraproject.org from scratch (which includes i18n and many dynamic elements on a static page), helped organize the team and spearheaded the process at certain points.
