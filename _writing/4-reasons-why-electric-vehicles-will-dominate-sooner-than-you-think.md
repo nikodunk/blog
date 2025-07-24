@@ -66,7 +66,7 @@ And finally when Ford, which [recently invested $500M](https://www.thedrive.com/
 
 ---
 
-**We hope to insure them all. If you already have an EV today, [get a quote today](https://electrade.app/quote)!**
+**We hope to insure them all. If you already have an EV today, [get a quote today](https://cars.electrade.app/quote)!**
 
 ---
 

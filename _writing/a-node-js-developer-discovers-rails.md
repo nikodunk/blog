@@ -5,7 +5,7 @@ date: 2021-06-10 08:00:00 -0700
 tags: ["Essay"]
 ---
 
-I learned to code in the Javascript stack [1] and am building a Javascript based [product](https://www.joinatmos.com/?ref=nikodunk) [2]. I never questioned this stack: many companies default to it, JS everywhere seems good, and the community is big. But for my [new side project](https://electrade.app/) I decided to try Rails because despite some perception that Ruby on Rails is ‘over’, people in HN comments say it was somehow more enjoyable than the newer Node based stack. Having tried it I can say wow - coming from the current Javascript ecosystem makes discovering Rails a revelation.
+I learned to code in the Javascript stack [1] and am building a Javascript based [product](https://www.joinatmos.com/?ref=nikodunk) [2]. I never questioned this stack: many companies default to it, JS everywhere seems good, and the community is big. But for my [new side project](https://cars.electrade.app/) I decided to try Rails because despite some perception that Ruby on Rails is ‘over’, people in HN comments say it was somehow more enjoyable than the newer Node based stack. Having tried it I can say wow - coming from the current Javascript ecosystem makes discovering Rails a revelation.
 
 ## Happiness
 

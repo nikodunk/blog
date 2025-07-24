@@ -14,7 +14,7 @@ Sorry for no update! Covid hit so we interrupted fundraising and started buildin
 
 In the meantime I randomly re-launched [sunboxlabs.com](https://sunboxlabs.com) (an old project of mine) on hackernews, but selling the kits directly instead of just being a platform for assembly guides. Sold and shipped $4.5K of goods in a few days (with minimal profit), then sold another $1.5K through instagram ads to get a feeling for the marketing costs. I've now slightly pivoted to being a sort of dropshipping / advice company, as shipping it myself was adding little value. Still seeing a ton of interest, and am getting acquisition costs that're in the low $10s (not clear exactly yet how much), so hope it'll work. Not really venture back-able though, but I love the vision of solarizing the US from the bottom up, starting with backup generators – let's see!
 
-[https://electrade.app](https://electrade.app) is still making money. Let's see!
+[https://cars.electrade.app](https://cars.electrade.app) is still making money. Let's see!
 
 And now have started doing a little contracting for a new fintech called [ATMOS](https://joinatmos.com) because my runway was not growing nor shrinking :)
 

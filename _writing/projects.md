@@ -12,17 +12,21 @@ This is a general blog post on my various schemes so far, roughly sorted by reve
 
 In addition to the things on the index page, here's what else I've made so far:
 
-<img loading="lazy" src="/assets/projects/bulk_file_renamer.jpg">
-
-<a href="https://bulkfilerenamer.app">Bulk File Renamer App</a>
-
 # Daily Optimist
 
-<img loading="lazy" src="/assets/projects/demo_positivity_2.png">
+<img loading="lazy" src="/assets/projects/demo_positivity_2.png"/>
 
 # Sunforms
 
-<img loading="lazy" src="/assets/projects/demo_sunforms.png">
+<img loading="lazy" src="/assets/projects/demo_sunforms.png"/>
+
+# Electrade
+
+<img loading="lazy" src="/assets/projects/demo_electrade4.jpg"/>
+
+# Bulk File Renamer
+
+<img loading="lazy" src="/assets/projects/bulk_file_renamer.jpg"/>
 
 # Open Source
 
@@ -115,7 +119,7 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
 
 <div class="flex portfolio-item">
     <div class="portfolio-pane">
-    <a href="https://electrade.app" target="_blank"
+    <a href="https://cars.electrade.app" target="_blank"
         ><img
         loading="lazy"
         class=""
@@ -143,7 +147,7 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
         </p>
         <br />
 
-        <a class="btn" href="https://electrade.app">Website</a>
+        <a class="btn" href="https://cars.electrade.app">Website</a>
     </div>
     </div>
 
@@ -157,7 +161,7 @@ Tested on hacker news, and sold $4.5K of goods in a few days. Then sold an addio
 
 <p >♜ <strong>Challenge:</strong>"Nerdwallet for EVs and greentech". Directory of sustainable services, measuring impact along the way in a dynamic fashion.</p>
 <p >⚑ <strong>Solution:</strong> This project constructs server-side rendered, SEO-friendly articles from user-submitted content and links.</p>
-<a class="btn btn-outline-primary" href="https://electrade.app" >Website</a>
+<a class="btn btn-outline-primary" href="https://cars.electrade.app" >Website</a>
 <a class="btn btn-outline-disabled disabled" href="">Github on request</a>
 <br/><br/>
 

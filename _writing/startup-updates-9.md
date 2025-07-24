@@ -21,7 +21,7 @@ image: /assets/startup-updates-9/Screen Shot 2019-07-23 at 11.53.04 AM.png
 
 # Product:
 
-- After initial demand from users [last month](/startup-updates-8) for [better, cheaper EV insurance](https://electrade.app) (but not being able to satisfy that demand with traditional auto agents), we found an insurance API partner at the end of last month and started the integration process with them.
+- After initial demand from users [last month](/startup-updates-8) for [better, cheaper EV insurance](https://cars.electrade.app) (but not being able to satisfy that demand with traditional auto agents), we found an insurance API partner at the end of last month and started the integration process with them.
 - Clearcover integration finally completed 3 weeks into month: Spent a month getting the clearcover integration live (3 weeks from call to live but the 4th of July week slowed everything down).
 - Re-launched with new content once Clearcover API partnership live.
 - 1 week of content marketing -> First revenue

@@ -9,7 +9,7 @@ Going by first principles, then find early customer.
 
 - What if your bank deposits funded solar - [Atmos](https://joinatmos.com)
 - What if solar was a consumer electronic - [sunboxlabs](https://sunboxlabs.com)
-- What if you could compare EV prices online - [electrade](https://electrade.app)
+- What if you could compare EV prices online - [electrade](https://cars.electrade.app)
 - What if climate change was a simple number - [energylollipop](https://energylollipop.com)
 - There should be a non locked down phone - [video](/2022-11-05-gnome-shell-mobile-with-postmarketos)
 - What if you could read only constructive news - xx
