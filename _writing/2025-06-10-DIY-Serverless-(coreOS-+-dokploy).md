@@ -20,4 +20,4 @@ This way you can have your cake and eat it too: most of the benefits of serverle
 
 ---
 
-Caveat: if your traffic is super intermittent and spikey go for serverless functions. If you’re just starting out go with Heroku.
+Caveats: if your traffic is super intermittent and spikey go for serverless functions. If you’re just starting out go with Heroku.
