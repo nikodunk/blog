@@ -1,8 +1,10 @@
 # My blog
 
-This is Niko's personal blog. Build with [Jekyll](https://jekyllrb.com/).
+This is Niko's personal blog.
 
-`brew install ruby`
+Built with [Jekyll](https://jekyllrb.com/).
+
+`brew install ruby` # if that doesn't work then follow [Homebrew](https://jekyllrb.com/docs/installation/macos/) or [distrobox](https://jekyllrb.com/docs/installation/ubuntu/) guide
 
 `gem install bundler jekyll` # sometimes, to update jekyll
 
