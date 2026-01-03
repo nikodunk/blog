@@ -7,3 +7,8 @@ collections:
     permalink: /:path
 plugins:
   - jekyll-feed
+feed:
+  posts: false
+  collections:
+    writing:
+      path: "/rss.xml"
