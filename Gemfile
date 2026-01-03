@@ -6,3 +6,4 @@ gem "webrick", "~> 1.7"
 gem 'csv'
 gem 'logger'
 gem 'base64'
+gem 'jekyll-feed'
