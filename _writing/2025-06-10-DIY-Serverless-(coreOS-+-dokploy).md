@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Flatcar + Dokploy - a great match for DIY Heroku"
-date: 2025-06-10 08:00:00 -0700
+date: 2026-05-24 08:00:00 -0700
 ---
 
 The hosting landscape is a gradient between low-cost, high-maintenance and high-cost, low-maintenance. The sequence is roughly: full-on VPS => Heroku platform-as-a-service => containers alone like Lightsail => serverless functions like on Vercel, Firebase, Cloudflare Workers.
