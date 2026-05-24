@@ -10,29 +10,28 @@ The hosting landscape is a gradient between low-cost, high-maintenance and high-
 
 ## Problems
 
-Problem 1: Costs slowly add up, or can spike - Especially if you have a few projects kicking around that bring in minimal revenue like I do, it's useful to not pay a lot of overhead for a Heroku server each. Container services fall into this category too - 5+ bucks a month per container indefinitely makes you cull periodically. On the other hand, if usage does spike, then serverless can become a cost-issue (Tweets documenting this are wide-spread), and you get walled into whichever walled garden is currently cool (Vercel, Firebase before it, etc).
+Problem 1: Maintenance - Renting a cheap VPS from someone like Hetzner or Digital Ocean is great. But you need to know a minimum about server maintenance and backups. What about OS updates and security of the underlying OS? What if something goes wrong with an automatic upgrade? How about closing and opening the right ports. Don't have a password login! One of the main benefits of "serverless" like Firebase Functions or "container platforms" like AWS Lightsail or Fargate is that you don't need to babysit an Ubuntu installation with automatic upgrades and OS updates.
 
-Problem 2: Maintenance - Renting a cheap VPS from someone like Hetzner or Digital Ocean is great. But you need to know a minimum about server maintenance and backups. What about OS updates and security of the underlying OS? What if something goes wrong with an automatic upgrade? How about closing and opening the right ports. Don't have a password login! One of the main benefits of "serverless" like Firebase Functions or "container platforms" like AWS Lightsail or Fargate is that you don't need to babysit an Ubuntu installation with automatic upgrades and OS updates.
+Problem 2: Costs slowly add up per project, or your usage can unexpectedly spike and you get billed for it. If you have a few projects kicking around that bring in minimal revenue like I do, it's useful to not pay a lot of overhead for a Heroku server each. Container services fall into this category too - 5+ bucks a month per container indefinitely makes you cull periodically. On the other hand, if usage does spike, then serverless can become a cost-issue (Tweets documenting this are wide-spread), and you get walled into whichever walled garden is currently cool (Vercel, Firebase before it, etc).
+
 
 # Solutions
 
-A limited, locked-down container-first OSs like [Flatcar Container Linux](https://www.flatcar.org/) or [Fedora CoreOS](https://fedoraproject.org/coreos) solve most of the maintenance problems for you. You install them once, open/close the relevant ports in the Hetzner dash, and you're pretty much set-and-forget. They are only accessible over your SSH key by default. At its best, CoreOS provides a lot of the low-maintenance platform of PaaS, with all of the affordability and vendor neutrality of a VPS. We have an affordable server which can't spike. If we can put multiple projects on it as we'll do in the next paragraph so adding another project doesn't add more marginal cost overhead, cost is solved.
+A limited, locked-down container-first OSs like [Flatcar Container Linux](https://www.flatcar.org/) or [Fedora CoreOS](https://fedoraproject.org/coreos) solves most of the server maintenance problems for you. You install them once, open/close the relevant ports in the Hetzner dash, and you're pretty much set-and-forget. They are only accessible over your SSH key by default. At its best, Flatcar provides a lot of the low-maintenance platform of PaaS, with all of the affordability and vendor neutrality of a VPS. We have an affordable server which can't spike. If we can put multiple projects on it as we'll do in the next paragraph so adding another project doesn't add more marginal cost overhead, cost is solved.
 
 ![](/assets/flatcar-dokploy/flatcar.jpg)
 
-Maintenance is only partially solved though: Our server itself is a stable, secure, maintenance-free platform, but we still need to maintain and do devops on it. What about all of the sweet maintenance-free devops features from PaaS like deploy from git, easy database deploys, and - you know - not having to mess around with Kubernetes for your side project? Here's where the second move comes in: [Dokploy](https://dokploy.com). Dokploy is your CI, can put as many projects on your server as you like, builds containers from git, helps you debug logs, is an env manager, and provides UI around container orchestration. It's Heroku, but open-source. You only access Dokploy through https, meaning you can close all ports and remove a whole class of (ssh, access) attacks. You back up your relevant databases to an external storage service (best-case S3 on a separate cloud provider), to make things truly bullet-proof.
+Convenience is only partially solved though: Our server itself is a stable and relatively maintenance free, secure, maintenance-free platform, but devops with raw Docker is still a pain. What about all of the sweet hassle-free devops features from PaaS like deploy from git, easy database deploys, and - you know - not having to mess around with Kubernetes for your side project? Here's where the second move comes in: [Dokploy](https://dokploy.com). Dokploy is your CI, can put as many projects on your server as you like, builds containers from git, helps you debug logs, is an env manager, and provides UI around container orchestration. It's Heroku, but open-source. You only access Dokploy through https, meaning you can close all ports and remove a whole class of (ssh, access) attacks. You back up your relevant databases to an external storage service (best-case S3 on a separate cloud provider), to make things truly bullet-proof.
 
 ![](/assets/flatcar-dokploy/dokploy.jpg)
 
-Dokploy itself runs in a container, and the underlying OS automatically updates (with rollbacks) forever. I think modifying a VPS into a "container service" in this way is the sweet spot of convenience and cost: load that VPS with a bomb-proof no-config OS like coreOS, and put Dokploy on it for a no-fuss container service UI. It gives you the hassle-free experience of a Heroku-like platform, but with the cost and independence of a VPS.
+Dokploy itself runs in a container, all your projects and databases do too, and the underlying OS automatically updates (with rollbacks) forever. I think modifying a VPS into a "container service" in this way is the sweet spot of convenience and cost: load that VPS with a bomb-proof no-config OS like coreOS, and put Dokploy on it for a no-fuss container service UI. It gives you the hassle-free experience of a Heroku-like platform, but with the cost and independence of a VPS.
 
 This way you can have your cake and eat it too: most of the benefits of serverless, with most of the benefits of running your own VPS.
 
 ![](/assets/flatcar-dokploy/dokploy-2.jpg)
 
----
 
-Caveats: if your traffic is super intermittent and spikey go for serverless functions. If you’re just starting out go with Heroku.
 
 ---
 
@@ -61,7 +60,6 @@ export VERSION=current
   --description flatcar-${CHANNEL}-x86
 ```
 
----
 
 ![](/assets/flatcar-dokploy/hetzner-1.jpg)
 
@@ -95,3 +93,7 @@ You now have an easy to use UI on top of an automatically-updating immutable OS.
 ![](/assets/flatcar-dokploy/hetzner-5.png)
 
 Close all the ports except for 80 and 443 for http and https, which makes you immune to even SSH sniffing, and access everything you need through the web dashboard. You shouldn't really need to check in much on the underlying linux system again.
+
+---
+
+Caveat: if your traffic is super intermittent and spikey go for serverless functions. If you’re just starting out go with Heroku.
