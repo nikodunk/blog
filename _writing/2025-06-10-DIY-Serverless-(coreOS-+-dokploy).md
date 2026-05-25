@@ -8,14 +8,13 @@ The hosting landscape is a gradient between low-cost, high-maintenance and high-
 
 ![](/assets/flatcar-dokploy/landscape.jpg)
 
-## Problems
+## The Problem
 
 Problem 1: Maintenance - Renting a cheap VPS from someone like Hetzner or Digital Ocean is great. But you need to know a minimum about server maintenance and backups. What about OS updates and security of the underlying OS? What if something goes wrong with an automatic upgrade? How about closing and opening the right ports. Don't have a password login! One of the main benefits of "serverless" like Firebase Functions or "container platforms" like AWS Lightsail or Fargate is that you don't need to babysit an Ubuntu installation with automatic upgrades and OS updates.
 
 Problem 2: Costs slowly add up per project, or your usage can unexpectedly spike and you get billed for it. If you have a few projects kicking around that bring in minimal revenue like I do, it's useful to not pay a lot of overhead for a Heroku server each. Container services fall into this category too - 5+ bucks a month per container indefinitely makes you cull periodically. On the other hand, if usage does spike, then serverless can become a cost-issue (Tweets documenting this are wide-spread), and you get walled into whichever walled garden is currently cool (Vercel, Firebase before it, etc).
 
-
-# Solutions
+# A Solution
 
 A limited, locked-down container-first OSs like [Flatcar Container Linux](https://www.flatcar.org/) or [Fedora CoreOS](https://fedoraproject.org/coreos) solves most of the server maintenance problems for you. You install them once, open/close the relevant ports in the Hetzner dash, and you're pretty much set-and-forget. They are only accessible over your SSH key by default. At its best, Flatcar provides a lot of the low-maintenance platform of PaaS, with all of the affordability and vendor neutrality of a VPS. We have an affordable server which can't spike. If we can put multiple projects on it as we'll do in the next paragraph so adding another project doesn't add more marginal cost overhead, cost is solved.
 
@@ -30,8 +29,6 @@ Dokploy itself runs in a container, all your projects and databases do too, and 
 This way you can have your cake and eat it too: most of the benefits of serverless, with most of the benefits of running your own VPS.
 
 ![](/assets/flatcar-dokploy/dokploy-2.jpg)
-
-
 
 ---
 
@@ -59,7 +56,6 @@ export VERSION=current
  --labels os=flatcar,flatcar-channel=${CHANNEL} \
   --description flatcar-${CHANNEL}-x86
 ```
-
 
 ![](/assets/flatcar-dokploy/hetzner-1.jpg)
 
