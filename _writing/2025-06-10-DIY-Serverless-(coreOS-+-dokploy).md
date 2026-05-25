@@ -4,7 +4,7 @@ title: "Flatcar + Dokploy - a great match for DIY Heroku"
 date: 2026-05-24 08:00:00 -0700
 ---
 
-The hosting landscape is a gradient between low-cost, high-maintenance and high-cost, low-maintenance. The sequence is roughly: full-on VPS => Heroku platform-as-a-service => containers alone like Lightsail => serverless functions like on Vercel, Firebase, Cloudflare Workers.
+The hosting landscape ranges from low-cost, high-maintenance to high-cost, low-maintenance solutions. The sequence is roughly as in the image below: full-on VPS => Heroku platform-as-a-service => containers services like Lightsail => serverless functions like on Vercel, Firebase, Cloudflare Workers.
 
 ![](/assets/flatcar-dokploy/landscape.jpg)
 
@@ -12,15 +12,15 @@ The hosting landscape is a gradient between low-cost, high-maintenance and high-
 
 Problem 1: Maintenance - Renting a cheap VPS from someone like Hetzner or Digital Ocean is great. But you need to know a minimum about server maintenance and backups. What about OS updates and security of the underlying OS? What if something goes wrong with an automatic upgrade? How about closing and opening the right ports. Don't have a password login! One of the main benefits of "serverless" like Firebase Functions or "container platforms" like AWS Lightsail or Fargate is that you don't need to babysit an Ubuntu installation with automatic upgrades and OS updates.
 
-Problem 2: Costs slowly add up per project, or your usage can unexpectedly spike and you get billed for it. If you have a few projects kicking around that bring in minimal revenue like I do, it's useful to not pay a lot of overhead for a Heroku server each. Container services fall into this category too - 5+ bucks a month per container indefinitely makes you cull periodically. On the other hand, if usage does spike, then serverless can become a cost-issue (Tweets documenting this are wide-spread), and you get walled into whichever walled garden is currently cool (Vercel, Firebase before it, etc).
+Problem 2: Costs slowly add if you add a VPS per project, especially if they're continually running even when not needed. If you have a few projects kicking around that bring in minimal revenue like I do, it's useful to not pay a lot of overhead for a Heroku server each. Container services fall into this category too - 5+ bucks a month per container indefinitely makes you cull periodically. On the serverless function end of the spectrum, your usage can unexpectedly spike from an HN post and you'll get billed for it (Tweets documenting this are wide-spread). You also get walled into whichever walled garden is currently cool (Vercel, Firebase before it, etc).
 
 # A Solution
 
-A limited, locked-down container-first OSs like [Flatcar Container Linux](https://www.flatcar.org/) or [Fedora CoreOS](https://fedoraproject.org/coreos) solves most of the server maintenance problems for you. You install them once, open/close the relevant ports in the Hetzner dash, and you're pretty much set-and-forget. They are only accessible over your SSH key by default. At its best, Flatcar provides a lot of the low-maintenance platform of PaaS, with all of the affordability and vendor neutrality of a VPS. We have an affordable server which can't spike. If we can put multiple projects on it as we'll do in the next paragraph so adding another project doesn't add more marginal cost overhead, cost is solved.
+A locked-down, automatically-updating container host OS like [Flatcar Container Linux](https://www.flatcar.org/) or [Fedora CoreOS](https://fedoraproject.org/coreos) solves most of the server maintenance problems for you. You install them once, close all but the relevant ports in the Hetzner dash, and it's pretty much set-and-forget. These installs are only accessible over your SSH key by default. At its best, Flatcar provides a lot of the low-maintenance platform of PaaS, with all of the affordability and vendor neutrality of a VPS. We have an affordable server which can't spike. If we can put multiple projects on it (as we'll do in the next paragraph), adding another project doesn't add more marginal cost overhead. Cost is solved.
 
 ![](/assets/flatcar-dokploy/flatcar.jpg)
 
-Convenience is only partially solved though: Our server itself is a stable and relatively maintenance free, secure, maintenance-free platform, but devops with raw Docker is still a pain. What about all of the sweet hassle-free devops features from PaaS like deploy from git, easy database deploys, and - you know - not having to mess around with Kubernetes for your side project? Here's where the second move comes in: [Dokploy](https://dokploy.com). Dokploy is your CI, can put as many projects on your server as you like, builds containers from git, helps you debug logs, is an env manager, and provides UI around container orchestration. It's Heroku, but open-source. You only access Dokploy through https, meaning you can close all ports and remove a whole class of (ssh, access) attacks. You back up your relevant databases to an external storage service (best-case S3 on a separate cloud provider), to make things truly bullet-proof.
+Convenience is only partially solved though: Our server itself is a stable, relatively maintenance free and secure platform, but deploying applications with raw Docker still takes focus away from working on your project itself. What about all of the sweet hassle-free features from PaaS like deploy from git, easy database deploys, and - you know - not having to mess around with Kubernetes for your side project? Here's where the second move comes in: [Dokploy](https://dokploy.com). Dokploy is your CI, can put as many projects on your server as you like, builds containers from git, helps you debug logs, is an env manager, and provides UI around container orchestration. It's Heroku, but open-source. You only access Dokploy through https, meaning you can close all ports and remove a whole class of (ssh, access) attacks. You back up your relevant databases to an external storage service (best-case S3 on a separate cloud provider), to make things truly bullet-proof.
 
 ![](/assets/flatcar-dokploy/dokploy.jpg)
 
@@ -40,7 +40,7 @@ Go to Hetzner and sign up for an account.
 
 Add an SSH key.
 
-Some VPSs like EC2 or Vultr support Flatcar out of the box. To get an image on my preferred Hetzner, you need to upload the Flatcar image to Hetzner yourself. This is [officially documented on Flatcar's docs](https://www.flatcar.org/docs/latest/installing/cloud/hetzner/), and is a few lines.
+Some VPSs like EC2 or Vultr support Flatcar out of the box. To get an image on my preferred Hetzner, you need to upload the Flatcar image to Hetzner yourself. We'll do so with the [officially documented](https://www.flatcar.org/docs/latest/installing/cloud/hetzner/) few lines below:
 
 I downloaded hcloud-upload-image binary, then in the folder with hcloud-upload-image, ran:
 
@@ -59,7 +59,7 @@ export VERSION=current
 
 ![](/assets/flatcar-dokploy/hetzner-1.jpg)
 
-Create an image from the server, and SSH into it. Note we went slightly off of the recommended path here and didn't add an ignition file. The main thing an ignition file does is adds your SSH key to the OS image. But Hetzner adds this into your userdata already, so I found this unnecessary. You can also start your containers with an ignition file, but that's cumbersome and somewhat non-standard IMO, and that's what we have Dokploy for. So we skipped the Ignition file. Feel free to add one if you need it - either through the Hetzner CLI or paste it into "cloud init" when creating a new image from your snapshot.
+Create a server from this image you uploaded, and SSH into it. Note we went slightly off of the recommended path here and didn't add an ignition file. The main thing an ignition file does is adds your SSH key to the OS image. But Hetzner adds this into your userdata already, so I found this unnecessary. You can also start your containers with an ignition file, but that's cumbersome and somewhat non-standard IMO, and that's what we have Dokploy for. So we skipped the Ignition file. Feel free to add one if you need it - either through the Hetzner CLI or paste it into "cloud init" when creating a new image from your snapshot.
 
 ![](/assets/flatcar-dokploy/hetzner-2.jpg)
 
@@ -71,7 +71,7 @@ Welcome to your fresh, auto-updating instance of Flatcar!
 ssh core@<your ip> # we'll lock this down real soon don't worry
 ```
 
-Let's install Dokploy!
+Now let's install Dokploy.
 
 ```bash
 sudo -i # one-time, for root
