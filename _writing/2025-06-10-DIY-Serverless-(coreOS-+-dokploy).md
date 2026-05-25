@@ -89,7 +89,7 @@ You now have an easy to use UI on top of an automatically-updating immutable OS.
 
 ![](/assets/flatcar-dokploy/hetzner-5.png)
 
-Close all the ports except for `80` for http and `443` for https, which will let those pesky bots bite their teeth out when they're sniffing for our non-standard SSH port, and access everything you need through the web dashboard. You shouldn't really need to check in much on the underlying linux system again. You now have an auto-updating and sealed off host, with an auto-updating container deployment system, itself running in a container.
+Assign the Dokploy UI to a subdomain or domain, and then you can close all the ports except for `80` for http and `443` for https, which will let those pesky bots bite their teeth out when they're sniffing for our non-standard SSH port. Access everything you need through the web dashboard. You shouldn't really need to check in much on the underlying linux system again. You now have an auto-updating and sealed off host, with an auto-updating container deployment system, itself running in a container.
 
 ---
 
