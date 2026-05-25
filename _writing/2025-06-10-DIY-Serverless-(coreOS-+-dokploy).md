@@ -89,7 +89,7 @@ You now have an easy to use UI on top of an automatically-updating immutable OS.
 
 ![](/assets/flatcar-dokploy/hetzner-5.png)
 
-Close all the ports except for 80 and 443 for http and https, which will let those pesky bots bite their teeth out when they're sniffing for your non-standard SSH port, and access everything you need through the web dashboard. You shouldn't really need to check in much on the underlying linux system again. You now have an auto-updating and sealed off host, with an auto-updating container deployment system, itself running in a container.
+Close all the ports except for `80` for http and `443` for https, which will let those pesky bots bite their teeth out when they're sniffing for our non-standard SSH port, and access everything you need through the web dashboard. You shouldn't really need to check in much on the underlying linux system again. You now have an auto-updating and sealed off host, with an auto-updating container deployment system, itself running in a container.
 
 ---
 
