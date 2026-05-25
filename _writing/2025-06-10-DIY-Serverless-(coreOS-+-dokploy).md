@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flatcar + Dokploy - a great match for DIY Heroku"
+title: "Flatcar + Dokploy make a simple DIY Heroku"
 date: 2026-05-24 08:00:00 -0700
 ---
 
