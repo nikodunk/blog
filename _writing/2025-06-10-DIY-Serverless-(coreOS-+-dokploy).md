@@ -57,6 +57,8 @@ export VERSION=current
   --description flatcar-${CHANNEL}-x86
 ```
 
+<br/>
+
 ![](/assets/flatcar-dokploy/hetzner-1.jpg)
 
 Create a server from this image you uploaded, and SSH into it. Note we went slightly off of the recommended path here and didn't add an ignition file. The main thing an ignition file does is adds your SSH key to the OS image. But Hetzner adds this into your userdata already, so I found this unnecessary. You can also start your containers with an ignition file, but that's cumbersome and somewhat non-standard IMO, and that's what we have Dokploy for. So we skipped the Ignition file. Feel free to add one if you need it - either through the Hetzner CLI or paste it into "cloud init" when creating a new image from your snapshot.
@@ -70,6 +72,8 @@ Welcome to your fresh, auto-updating instance of Flatcar!
 ```bash
 ssh core@<your ip> # we'll lock this down real soon don't worry
 ```
+
+<br/>
 
 Now let's install Dokploy.
 
