@@ -18,4 +18,4 @@ Everything works really well and is integrated nicely. The system is also crazy 
 
 I was using Bazzite before but my OS was just too exciting as described above. I also like how Elementary is backed by a company and is more likely to (and has already been) long-lived, vs. a project that relies solely on free labor.
 
-Thank you for building this! You have a new fan!
+Thank you for building this, Elementary! You have a new fan! Elementary OS in 2026 is a great common-sense balance between openness, while still being aesthetic and allowing me to get work done.
