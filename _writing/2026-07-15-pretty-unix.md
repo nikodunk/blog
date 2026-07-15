@@ -4,11 +4,11 @@ title: "Pretty, Performant Unix"
 date: 2026-07-15 08:00:00 -0700
 ---
 
-Similar to my discovery of Ruby on Rails a decade late, I recently discovered Elementary OS which is also a piece of often-overlooked technology from the 2007 Technology era. This is a slightly edited version of a thank you post on their Reddit.
+Similar to my decade-late [discovery of Ruby on Rails](/a-node-js-developer-discovers-rails), I recently discovered Elementary OS which is also a piece of often-overlooked technology from the 2007 technology era. This is a slightly edited version of a thank you post on their Reddit.
 
 Just paid for and installed Elementary after being a Linux user for a decade. I was looking for something more polished that would stop me tinkering, and force me to focus on what I'm building and making money and life (I usually have had this experience owning macs, but love my Framework hardware).
 
-I had never considered Elementary before due to it being on an Ubuntu LTS base. What changed? Over the last few years Flatpaks, Homebrew Linux and containers/distrobox became central to my workflow, so it doesn't matter what the OS is based on and I can just pick something pretty that works well! It's "pretty unix" as Paul Graham called it in an [essay](https://paulgraham.com/mac.html) that stuck with me.
+I had never considered Elementary before due to it being on an Ubuntu LTS base. What changed? Over the last few years Flatpak + Homebrew Linux + distrobox containers became central to my workflow, so it doesn't matter what the OS is based on and I can just pick something pretty that works well! It's "pretty unix" as Paul Graham called it in an [essay](https://paulgraham.com/mac.html) that stuck with me.
 
 > They make a new kind of computer that's as well designed as a Bang & Olufsen stereo system, and underneath is the best Unix machine you can buy.
 
