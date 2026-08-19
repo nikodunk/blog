@@ -21,6 +21,7 @@ Thinking
 - [We have no moat, and neither does chatGPT](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)
 - [3D printed homes entering mass production](https://www.youtube.com/watch?v=Y-4S7cdo3tY)
 - [Dont fire your illustrators](https://sambleckley.com/writing/dont-fire-your-illustrator.html)
+- [Ordinary Abundance](https://ordinaryabundance.com/)
 
 Product
 
