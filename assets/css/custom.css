@@ -51,7 +51,9 @@ h2 {
 }
 
 .blog-shadows {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .highlight {
@@ -73,6 +75,33 @@ li {
 @media (max-width: 800px) {
   .flex {
     flex-direction: column;
+  }
+}
+
+.rotate-on-hover {
+  transition: transform 0.35s ease;
+}
+
+@keyframes scroll-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+@media (hover: hover) {
+  a:hover .rotate-on-hover,
+  .rotate-on-hover:hover {
+    transform: rotate(2deg);
+  }
+}
+
+@media (hover: none) {
+  .rotate-on-hover {
+    animation: scroll-rotate linear;
+    animation-timeline: scroll(root block);
   }
 }
 
