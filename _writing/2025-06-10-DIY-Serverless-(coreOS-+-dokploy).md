@@ -89,7 +89,7 @@ curl -sSL https://dokploy.com/install.sh | sh
 
 ![](/assets/flatcar-dokploy/hetzner-4.png)
 
-That's it! Go to your server's IP at port 3000 and set up Dokploy, close your ports, and be on your merry way!
+That's it! Go to your server's IP at port 3000 and set up Dokploy.
 
 You now have an easy to use UI on top of an automatically-updating immutable OS.
 
@@ -97,7 +97,12 @@ You now have an easy to use UI on top of an automatically-updating immutable OS.
 
 ![](/assets/flatcar-dokploy/hetzner-5.png)
 
-Assign the Dokploy UI to a subdomain or domain, and then you can close all the ports except for `80` for http and `443` for https, which will let those pesky bots bite their teeth out when they're sniffing for our non-standard SSH port. Access everything you need through the web dashboard. You shouldn't really need to check in much on the underlying linux system again. You now have an auto-updating and sealed off host, with an auto-updating container deployment system, itself running in a container.
+Now do the 80/20 of locking down your server in 2 simple steps:
+
+- Assign the Dokploy UI to a subdomain or domain so that your raw IP doesn't need to be exposed to the open internet. All your containers will only be accessible over a domain anyway.
+- Then you can close all the ports except for `80` for http and `443` for https in Hetzner. Note we close port 22 also - the SSH port - now that we can do server administration through HTTPS - which will let those pesky bots bite their teeth out when they're sniffing for our non-standard SSH port. Access everything you need through the web dashboard. You shouldn't really need to check in much on the underlying Linux system again, but you can do so with the integrated Dokploy terminal if needed.
+
+You now have an auto-updating sealed off host, with an auto-updating container deployment system, itself running in a container.
 
 ---
 
