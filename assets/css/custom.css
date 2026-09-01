@@ -83,11 +83,14 @@ li {
 }
 
 @keyframes scroll-rotate {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  50% {
     transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 
@@ -100,8 +103,9 @@ li {
 
 @media (hover: none) {
   .rotate-on-hover {
-    animation: scroll-rotate linear;
-    animation-timeline: scroll(root block);
+    animation: scroll-rotate linear both;
+    animation-timeline: view();
+    animation-range: cover 0% cover 100%;
   }
 }
 
