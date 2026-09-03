@@ -86,7 +86,7 @@ curl -sSL https://dokploy.com/install.sh | sh
 
 That's it! Go to your server's IP at port 3000 and set up Dokploy.
 
-You now have an easy to use UI on top of an automatically-updating immutable OS.
+You now have an easy to use container platform and UI on top of an automatically-updating immutable OS.
 
 ![](/assets/flatcar-dokploy/dokploy-2.jpg)
 
