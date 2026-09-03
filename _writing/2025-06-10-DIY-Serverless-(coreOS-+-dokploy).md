@@ -44,7 +44,7 @@ Go to Hetzner and sign up for an account.
 
 Add an SSH key.
 
-Some VPSs like EC2 or Vultr support Flatcar out of the box. To get an image on my preferred Hetzner, you need to upload the Flatcar image to Hetzner yourself. We'll do so with the [officially documented](https://www.flatcar.org/docs/latest/installing/cloud/hetzner/) few lines below, but instead of downloading the [hcloud-upload-image](https://github.com/apricote/hcloud-upload-image) binary, I use the below one-liner with their official Docker release. Just fill in your HCLOUD Token. And no, I am not apricote :)
+Some VPSs like EC2 or Vultr support Flatcar out of the box. To get an image on my preferred Hetzner, you need to upload the Flatcar image to Hetzner yourself. Luckily, this is a one-liner nowadays thanks to an [officially documented](https://www.flatcar.org/docs/latest/installing/cloud/hetzner/) library called [hcloud-upload-image](https://github.com/apricote/hcloud-upload-image). Instead of downloading the binary I use their official Docker image. Just fill in your Hetzner API Token.
 
 ```bash
 docker run --rm -e HCLOUD_TOKEN="<your hetzner api token>" \
