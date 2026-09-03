@@ -49,7 +49,7 @@ Some VPSs like EC2 or Vultr support Flatcar out of the box. To get an image on m
 Instead of downloading the [hcloud-upload-image](https://github.com/apricote/hcloud-upload-image) binary, I use the below one-liner with their official Docker release. Just fill in your HCLOUD Token. And no, I am not apricote :)
 
 ```bash
-docker run --rm -e HCLOUD_TOKEN="<your token>" \
+docker run --rm -e HCLOUD_TOKEN="<your hetzner api token>" \
   ghcr.io/apricote/hcloud-upload-image:latest upload \
   --architecture=x86 \
   --compression=bz2 \
