@@ -53,6 +53,7 @@ docker run --rm -e HCLOUD_TOKEN="<your token>" \
   ghcr.io/apricote/hcloud-upload-image:latest upload \
   --architecture=x86 \
   --compression=bz2 \
+  --description flatcar-stable-x86
   --image-url=https://stable.release.flatcar-linux.net/amd64-usr/current/flatcar_production_hetzner_image.bin.bz2
 ```
 
