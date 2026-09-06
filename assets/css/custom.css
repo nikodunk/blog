@@ -144,3 +144,86 @@ pre {
   border-radius: 20px;
   overflow-y: scroll;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body,
+  .section,
+  .nav {
+    background-color: #171a20 !important;
+  }
+
+  body {
+    color: #c7ccd6 !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .title {
+    color: #e8ebf2 !important;
+  }
+
+  a {
+    color: #7cb3e8 !important;
+  }
+
+  /* Titles and muted text that get their color from inline styles */
+  [style*="#333333"] {
+    color: #e8ebf2 !important;
+  }
+
+  [style*="#555555"],
+  [style*="#797979"] {
+    color: #9aa2ae !important;
+  }
+
+  hr {
+    border-top-color: #2a2f38 !important;
+  }
+
+  .border-b {
+    border-bottom-color: #2a2f38 !important;
+  }
+
+  .content blockquote {
+    background-color: #1e2229 !important;
+    border-left-color: #2a2f38 !important;
+  }
+
+  code,
+  pre,
+  .highlight {
+    background-color: #1e2229 !important;
+    color: #d7dce5 !important;
+  }
+
+  .btn {
+    border-color: #1f3a4d !important;
+    color: #7cb3e8 !important;
+  }
+
+  .btn:hover {
+    background-color: #1f3a4d !important;
+    color: #e8ebf2 !important;
+  }
+
+  footer a {
+    color: #9aa2ae !important;
+  }
+
+  footer a svg {
+    fill: #9aa2ae !important;
+  }
+
+  img {
+    filter: brightness(0.9);
+  }
+}
