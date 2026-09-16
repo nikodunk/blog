@@ -24,6 +24,6 @@ Thank you for building this, Elementary! You have a new fan! Elementary OS in 20
 
 ---
 
-update: @jumpyvi 's [pull request](https://github.com/elementary/os/pull/809) was merged, including some small contributions from me, and elementary OS 9 is now based on sysupdate!
+Update: @jumpyvi 's [pull request](https://github.com/elementary/os/pull/809) was merged, including some small contributions from me, and elementary OS 9 is now based on sysupdate!
 
 ![](/assets/pretty-unix/elementary-sysupdate.png)
