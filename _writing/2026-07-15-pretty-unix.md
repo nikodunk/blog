@@ -21,3 +21,9 @@ I was using Bazzite before but my OS was just too exciting as described above. I
 Thank you for building this, Elementary! You have a new fan! Elementary OS in 2026 is a great common-sense balance between openness, while still being aesthetic and allowing me to get work done.
 
 ![](/assets/pretty-unix/elementary-screenshot.jpg)
+
+---
+
+update: @jumpyvi 's [pull request](https://github.com/elementary/os/pull/809) was merged, including some small contributions from me, and elementary OS 9 is now based on sysupdate!
+
+![](/assets/pretty-unix/elementary-sysupdate.png)
